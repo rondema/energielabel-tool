@@ -17,10 +17,9 @@ import os
 # EP-Online API key
 EP_ONLINE_API_KEY = 'MUE0NkFCNzg0MjI3NzAzOTU2M0QxRUU1OTNBRTU2QUZGNDJGRkU1OTM5NDMxQTJEODE5QUM5ODUxMUY4RTE0RkEwMjZCNDlDN0RGMTY2NDlCNEE5RTA3QTIzQzVFODAw'
 
-# Lokale energielabel database
+# Lokale energielabel database (gefilterd voor regio Amsterdam/Amstelveen/Aalsmeer/Hoofddorp)
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
-DB_PATH = os.path.join(PROJECT_DIR, "LABEL DATABASE EP-ONLINE", "energielabels.db")
+DB_PATH = os.path.join(SCRIPT_DIR, "energielabels_regio.db")
 
 class ProxyHandler(SimpleHTTPRequestHandler):
 
