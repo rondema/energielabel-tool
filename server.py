@@ -183,12 +183,10 @@ class ProxyHandler(SimpleHTTPRequestHandler):
             conn = sqlite3.connect(DB_PATH)
             cursor = conn.cursor()
 
-            # Haal alle labels voor deze postcode
+            # Haal alle labels voor deze postcode (compacte database)
             cursor.execute("""
                 SELECT postcode, huisnummer, huisletter, huisnummertoevoeging,
-                       energieklasse, bouwjaar, oppervlakte, gebouwtype,
-                       certificaathouder, registratiedatum, geldig_tot,
-                       primaire_fossiele_energie, berekeningstype
+                       energieklasse, bouwjaar, ep2, berekeningstype
                 FROM energielabels
                 WHERE postcode = ?
                 ORDER BY huisnummer, huisletter, huisnummertoevoeging
@@ -204,8 +202,7 @@ class ProxyHandler(SimpleHTTPRequestHandler):
 
                 for row in rows:
                     postcode_r, huisnummer, huisletter, toevoeging, energieklasse, \
-                    bouwjaar, oppervlakte, gebouwtype, certificaathouder, \
-                    registratiedatum, geldig_tot, pfe, berekeningstype = row
+                    bouwjaar, pfe, berekeningstype = row
 
                     # Tel energieklasse
                     if energieklasse:
@@ -225,11 +222,6 @@ class ProxyHandler(SimpleHTTPRequestHandler):
                         'huisnummer': adres,
                         'energieklasse': energieklasse,
                         'bouwjaar': bouwjaar,
-                        'oppervlakte': oppervlakte,
-                        'gebouwtype': gebouwtype,
-                        'certificaathouder': certificaathouder,
-                        'registratiedatum': registratiedatum,
-                        'geldig_tot': geldig_tot,
                         'ep2': round(pfe) if pfe else None,
                         'isNieuwLabel': is_nieuw_label
                     })
