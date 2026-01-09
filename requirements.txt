@@ -1,0 +1,2 @@
+# Energielabel Tool - Python Dependencies
+# Geen externe dependencies nodig - gebruikt alleen standaard library
