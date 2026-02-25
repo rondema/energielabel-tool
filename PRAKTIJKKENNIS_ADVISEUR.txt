@@ -1,0 +1,272 @@
+================================================================================
+PRAKTIJKKENNIS ENERGIELABEL ADVISEUR
+================================================================================
+
+Dit document bevat de praktijkkennis en "trucs" van een ervaren EP-adviseur.
+Dit is kennis die NIET in de NTA 8800 staat, maar uit ervaring komt.
+
+BRON: M. Rondema, EP-adviseur (vakbekwaamheidsnr: 55151558)
+DATUM: 31 december 2025
+
+================================================================================
+1. VLOERISOLATIE - DOET BIJNA NIETS
+================================================================================
+
+FEIT: Vloerisolatie heeft MINIMALE impact op de EP2 score.
+
+VOORBEELD:
+Prof. Lorentzlaan 11 (bouwjaar 1961):
+- Vloer Rc = 0,15 (ZEER SLECHT, bijna ongeïsoleerd)
+- Uitbouw Rc = 2,50 (goed)
+- Toch label A+++ behaald!
+
+ADVIES:
+- Vloer isoleren is goed voor COMFORT (koude voeten)
+- NIET prioriteren voor labelverbetering
+- Uitbouw isoleren = standaard (altijd doen)
+- Bestaande vloer = overslaan voor labelverbetering
+
+WAAROM:
+- Vloer grenst aan kruipruimte, niet direct buitenlucht
+- Temperatuurverschil kleiner dan bij gevel/dak
+- Oppervlakte relatief klein t.o.v. totale schil
+
+================================================================================
+2. VENTILATIE - COMPLEXE AFWEGING
+================================================================================
+
+NATUURLIJKE VENTILATIE (A1):
+- Kost 0 kWh (geen ventilatoren)
+- Vaak GUNSTIGER dan oude mechanische ventilatie!
+
+OUDE MECHANISCHE VENTILATIE (pre-2010):
+- Wisselstroomventilator = energieverslinder
+- Kan EP2 significant VERHOGEN
+- Beter om als "natuurlijk" te rekenen als mogelijk
+
+NIEUWE MECHANISCHE VENTILATIE (post-2010):
+- Gelijkstroomventilator = energiezuinig
+- Wel gunstig voor EP2
+
+BESLISREGEL:
+Als NIET op 3 plekken een afzuigventiel aanwezig:
+- Keuken
+- Badkamer
+- Toilet
+
+Dan → Kies NATUURLIJKE VENTILATIE in berekening!
+
+VOORBEELD:
+Als alleen afzuigventiel in keuken (niet in badkamer/toilet)
+→ Niet kwalificeren als mechanische afzuiging
+→ Kiezen voor natuurlijke ventilatie = vaak gunstiger
+
+================================================================================
+3. WARMTEPOMP - GROOTSTE IMPACT
+================================================================================
+
+FEIT: Warmtepomp heeft ENORME positieve impact op EP2.
+
+TYPES:
+- Lucht/water warmtepomp
+- Bodem warmtepomp (nog beter)
+- Hybride (WP + HR-ketel) - ook zeer goed!
+
+WAAROM ZO'N GROTE IMPACT:
+- COP 3-4 = 1 kWh elektra → 3-4 kWh warmte
+- Omgevingswarmte telt als hernieuwbaar (EP3)
+- Verlaagt fossiel verbruik drastisch
+
+VOORBEELD:
+Prof. Lorentzlaan 11:
+- Hybride systeem (WP + HR-107)
+- Compenseert slechte isolatie grotendeels
+- Bijdrage aan A+++ label
+
+================================================================================
+4. ZONNEPANELEN - DIRECTE EP2 VERLAGING
+================================================================================
+
+FEIT: PV-panelen verlagen EP2 direct.
+
+VUISTREGEL:
+- 1 kWp ≈ 850-950 kWh/jaar opbrengst
+- Oriëntatie: Zuid-West beste, Noord-Oost minst
+
+VOORBEELD:
+Prof. Lorentzlaan 11:
+- 4500 Wp totaal
+- 2250 Wp Zuid-West
+- 2250 Wp Noord-Oost
+- Grote bijdrage aan A+++ label
+
+KANTTEKENING:
+- PV compenseert fossiel verbruik
+- Maar: warmtebehoefte (EP1) blijft hoog bij slechte schil
+
+================================================================================
+5. AIRCONDITIONING - VARIABELE IMPACT
+================================================================================
+
+NUANCE: Impact van airco varieert!
+
+SOMS VEEL IMPACT:
+- Als extra rekenzone wordt aangemaakt
+- Afhankelijk van woningtype
+
+SOMS WEINIG IMPACT:
+- Bij bepaalde configuraties
+- Afhankelijk van bouwjaar
+
+ADVIES:
+- Altijd berekening maken met en zonder
+- Impact per situatie beoordelen
+
+================================================================================
+6. BOUWJAAR - BEPAALT FORFAITAIRE WAARDEN
+================================================================================
+
+FEIT: Bouwjaar bepaalt veel forfaitaire aannames.
+
+PERIODES:
+- Pre-1975: vaak geen/slechte isolatie forfaitair
+- 1975-1990: eerste isolatie-eisen
+- 1990-2000: beter geïsoleerd
+- 2000-2015: goede isolatie
+- Post-2015: BENG/NZEB normen
+
+BIJ BEPAALDE BOUWJAREN:
+- Hebben bepaalde maatregelen meer impact
+- Andere juist minder
+- Altijd context bouwjaar meenemen
+
+================================================================================
+7. SAMENVATTENDE PRIORITERING
+================================================================================
+
+HOOGSTE IMPACT (doe dit eerst):
+1. Warmtepomp installeren
+2. Zonnepanelen plaatsen
+3. HR++ of triple glas
+4. Dakisolatie
+5. Gevelisolatie (spouw)
+
+LAGE IMPACT (niet prioriteren voor label):
+1. Vloerisolatie bestaande vloer
+2. Buitendeuren vervangen
+3. Oude mechanische ventilatie behouden
+
+================================================================================
+8. "TRUCS" VOOR HOGERE LABELSCORE
+================================================================================
+
+TRUC 1: Natuurlijke ventilatie kiezen
+- Als oude mech. ventilatie aanwezig
+- Maar niet energiezuinig (pre-2010)
+- → Neem natuurlijk op, niet mechanisch
+
+TRUC 2: Vloer niet prioriteren
+- Kost veel geld, levert weinig op
+- Alleen uitbouw isoleren
+
+TRUC 3: Hybride warmtepomp
+- Goedkoper dan full-electric
+- Bijna zelfde EP2 resultaat
+- Makkelijker te installeren
+
+TRUC 4: Oriëntatie PV optimaliseren
+- Als mogelijk: meer naar zuiden
+- Maar: ook oost/west levert nog goed op
+
+================================================================================
+9. COMPACTHEID - CRUCIAAL VOOR EP2
+================================================================================
+
+DEFINITIE: Compactheid = Als / Ag
+- Als = verliesoppervlak (gevels, dak, vloer naar buiten)
+- Ag = gebruiksoppervlakte (vloeroppervlak)
+
+TYPISCHE ALS/AG WAARDEN PER WONINGTYPE:
+---------------------------------------
+| Woningtype              | Als/Ag    | Compactheid    |
+|-------------------------|-----------|----------------|
+| Appartement (midden)    | 0,8 - 1,2 | Zeer gunstig   |
+| Appartement (hoek/boven)| 1,2 - 1,8 | Gunstig        |
+| Tussenwoning            | 1,2 - 2,0 | Gunstig        |
+| Hoekwoning              | 1,6 - 2,4 | Matig          |
+| 2-onder-1-kap           | 1,6 - 2,4 | Matig          |
+| Vrijstaand              | 1,8 - 3,0 | Ongunstig      |
+
+GRENSWAARDE NTA 8800:
+- Als/Ag < 1,0 → Zeer compact, basis EP1-eis
+- Als/Ag >= 1,0 → Minder compact, strengere EP1-eis (formule met opslag)
+
+VOORBEELD UIT PRAKTIJK:
+Prof. Lorentzlaan 11 (tussenwoning): Als/Ag = 1,33
+→ Redelijk compact voor een tussenwoning
+
+GEVOLG:
+- Weinig m² = ongunstige compactheid = moeilijker goed label
+- Veel m² met weinig gevel = gunstige compactheid = makkelijker goed label
+
+INVLOED GEOMETRIE EN DAKVORM:
+-----------------------------
+- Plat dak = GUNSTIG (minder dakoppervlak)
+- Schuin dak = meer oppervlak = ongunstiger
+- Dakkapellen = extra verliesoppervlak = ongunstiger
+- Daken alle kanten op = complexe vorm = ongunstig
+- Rechttoe rechtaan = eenvoudige vorm = gunstig
+
+VOORBEELD:
+Tussenwoning met plat dak → gunstiger dan
+Hoekwoning met schuine daken alle kanten + dakkapel
+
+PRAKTIJKVOORBEELD - LANG GEREKT APPARTEMENT:
+- Oppervlakte: >100 m² (veel m²)
+- Maar: slechts 2 gevels (voor + achter)
+- Laag plafond
+- Resultaat: kan zelfs met ENKEL GLAS nog label B halen!
+
+Waarom? Weinig verliesoppervlak t.o.v. veel vloeroppervlak.
+
+KRITISCHE GRENZEN APPARTEMENT:
+- < 50 m² → wordt lastig om goed label te krijgen
+- < 40 m² → wordt ECHT kritisch, bijna onmogelijk voor A-label
+
+VRIJSTAANDE WONING:
+- Veel verliesoppervlak (4 gevels + dak rondom)
+- Maar: vaak veel m² → trekt het weer recht
+- Balans tussen verlies en oppervlakte
+
+================================================================================
+10. ZONNEPANELEN EN OPPERVLAKTE - BELANGRIJK!
+================================================================================
+
+FEIT: Impact van PV hangt af van vloeroppervlakte!
+
+REDEN: EP2 = totaal kWh / m²
+
+KLEINE WONING (bijv. 60 m²):
+- 10 panelen = grote impact
+- Je deelt de opbrengst door MINDER m²
+- Resultaat: grotere verlaging EP2 per panel
+
+GROTE WONING (bijv. 200+ m²):
+- Zelfde 10 panelen = relatief minder impact
+- Je deelt door MEER m²
+- Resultaat: kleinere verlaging EP2 per panel
+
+PRAKTISCH:
+- Klein appartement + paar panelen = groot effect
+- Grote villa + zelfde panelen = minder effect (relatief)
+- Grote woning heeft MEER panelen nodig voor zelfde labelverbetering
+
+================================================================================
+DISCLAIMER
+================================================================================
+
+Deze kennis is gebaseerd op ervaring met NTA 8800 berekeningen.
+Elke woning is uniek - altijd specifieke berekening maken.
+Dit document is bedoeld als richtlijn, niet als absolute waarheid.
+
+================================================================================

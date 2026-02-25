@@ -1,0 +1,151 @@
+================================================================================
+DATA ANALYSE IDEEËN - ENERGIELABEL PROJECT
+================================================================================
+Aangemaakt: 3 januari 2026
+Status: IDEE FASE - Later uitwerken
+================================================================================
+
+1. BESCHIKBARE DATABRONNEN
+================================================================================
+
+A) EP-ONLINE TOTAALBESTAND
+   - Bron: https://www.ep-online.nl/PublicData
+   - Inhoud: ALLE geregistreerde energielabels Nederland (~10 miljoen)
+   - Formaat: CSV (213 MB gezipt), XML, XLSX
+   - Update: Maandelijks nieuw totaalbestand
+   - Velden: postcode, huisnummer, energielabel, bouwjaar, oppervlakte,
+             woningtype, EP2 waarde, registratiedatum, certificaathouder, etc.
+   - API key nodig voor download (hebben we al)
+
+B) NTA 8800 NORMERING
+   - De officiële rekenmethodiek voor energielabels
+   - Bepaalt hoe EP2 (kWh/m2/jaar) wordt berekend
+   - Inputvariabelen: isolatie, installaties, geometrie, etc.
+
+C) ISSO PUBLICATIES
+   - Technische standaarden voor installatietechniek
+   - Relevant voor warmtepompen, ventilatie, etc.
+   - Combineren met NTA 8800 voor nauwkeurigere berekeningen
+
+D) UNIEC3 DATA (EIGEN DATA)
+   - Jouw eigen energielabel berekeningen en dossiers
+   - Gedetailleerde input per woning
+   - Vergelijkingsmateriaal met EP-Online registraties
+
+================================================================================
+2. MOGELIJKE TOEPASSINGEN
+================================================================================
+
+A) VOORSPELLINGSMODEL TRAINEN
+   Doel: Energielabel voorspellen op basis van basiskenmerken
+
+   Input features:
+   - Bouwjaar
+   - Oppervlakte (m2)
+   - Woningtype (vrijstaand, 2^1kap, rijtjes, appartement)
+   - Postcode (regio/klimaatzone)
+   - Eventueel: straatnaam patronen, buurt kenmerken
+
+   Output:
+   - Voorspeld energielabel (A t/m G)
+   - Geschatte EP2 waarde
+   - Betrouwbaarheidsinterval
+
+   Toepassing:
+   - Quick-scan voor klanten: "Woningen zoals deze hebben meestal label C-D"
+   - Realistische verwachtingen scheppen vóór opname
+   - Offerte inschatting
+
+B) BENCHMARK / VALIDATIE EIGEN BEREKENINGEN
+   Doel: Kwaliteitscontrole op eigen werk
+
+   Aanpak:
+   - Vergelijk jouw Uniec3 berekeningen met EP-Online registraties
+   - Analyseer systematische afwijkingen
+   - Identificeer waar je conservatief/optimistisch berekent
+
+   Vragen beantwoorden:
+   - Zitten mijn labels gemiddeld hoger of lager dan collega's?
+   - Bij welke woningtypes wijk ik af?
+   - Zijn er patronen in de afwijkingen?
+
+C) MARKTANALYSE / LEAD GENERATIE
+   Doel: Potentiële klanten identificeren
+
+   Mogelijkheden:
+   - Woningen zonder label in een buurt
+   - Verlopen labels (ouder dan 10 jaar)
+   - Slechte labels (E, F, G) - verduurzamingspotentieel
+   - Gebieden met veel oude woningen maar weinig labels
+
+   Output:
+   - Heatmap per buurt/wijk
+   - Potentiële klantenlijsten
+   - Marktpotentieel per regio
+
+D) BUURT VERGELIJKING (HUIDIGE TOEPASSING)
+   Doel: Bij adres invoer tonen wat labels in de buurt zijn
+
+   Implementatie:
+   - Lokale SQLite database met EP-Online data
+   - Query op postcode
+   - Toon overzicht: "In deze straat: 5x A, 3x B, 2x C, 1x geen label"
+
+   Nut:
+   - Klant ziet context
+   - Realistischere verwachting
+   - "Uw buren hebben gemiddeld label B"
+
+================================================================================
+3. TECHNISCHE AANPAK
+================================================================================
+
+STAP 1: Database opzetten
+- Download EP-Online CSV totaalbestand
+- Parse en importeer in SQLite
+- Indexen op postcode, woningtype, bouwjaar
+
+STAP 2: Buurt labels (PRIORITEIT)
+- Query functie voor postcode lookup
+- Integreren in bestaande energielabel tool
+- Tonen in UI
+
+STAP 3: Analyse scripts (LATER)
+- Python scripts voor data exploratie
+- Correlatie analyses
+- Visualisaties
+
+STAP 4: Machine Learning model (OPTIONEEL)
+- Feature engineering
+- Model training (Random Forest, XGBoost)
+- Validatie en testing
+- Integratie in tool
+
+================================================================================
+4. PRIVACY / JURIDISCH
+================================================================================
+
+- EP-Online data is OPENBAAR (publieke data)
+- Geen persoonsgegevens in het bestand
+- Alleen adres + labelgegevens
+- Commercieel gebruik toegestaan mits bronvermelding
+
+================================================================================
+5. LINKS & BRONNEN
+================================================================================
+
+- EP-Online Openbare Data: https://www.ep-online.nl/PublicData
+- EP-Online API documentatie: https://public.ep-online.nl/swagger
+- RVO handleiding: https://www.rvo.nl/sites/default/files/2025-02/handleiding-ep-online-opvragen-van-bestanden.pdf
+- Data.overheid.nl: https://data.overheid.nl/dataset/ep-online-webservice--geregistreerde-energielabels-
+
+================================================================================
+NOTITIES
+================================================================================
+
+- Softbee.nl gebruikt waarschijnlijk dezelfde EP-Online database voor hun
+  "Adressen binnen deze postcode" functie
+- Bestand is ~213 MB gezipt, uitgepakt waarschijnlijk 1-2 GB
+- Maandelijkse update betekent: cron job voor verse data
+
+================================================================================

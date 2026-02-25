@@ -1,0 +1,135 @@
+================================================================================
+DATABASE ANALYSE - IMPACT PER FACTOR
+================================================================================
+Datum: 31 december 2025
+Bron: 359 woningen uit uniec3 database (COMPLETED map)
+Gemiddelde EP2 alle woningen: 185.7 kWh/m²
+
+================================================================================
+1. VENTILATIE - GROOTSTE IMPACT!
+================================================================================
+
+Baseline: A1 (Natuurlijk) = 209.4 kWh/m²
+
+| Type                          | N   | EP2    | Besparing t.o.v. A1 |
+|-------------------------------|-----|--------|---------------------|
+| D2 - Gebalanceerd met WTW     | 10  | 92.1   | +117.3 kWh/m²       |
+| C1 - Mechanische afvoer       | 89  | 136.7  | +72.6 kWh/m²        |
+| A1 - Natuurlijke ventilatie   | 245 | 209.4  | 0 (baseline)        |
+
+CONCLUSIE VENTILATIE:
+- D2 (WTW) bespaart 117 kWh/m² = ENORM
+- C1 (mech. afvoer) bespaart 73 kWh/m² = ook groot
+- MAAR: dit is gemiddeld. Oude wisselstroom C1 kan slechter zijn!
+
+================================================================================
+2. VERWARMING OPWEKKING - GROTE IMPACT
+================================================================================
+
+Baseline: HR-ketel forfaitair = 194.0 kWh/m²
+
+| Type                              | N   | EP2    | Besparing          |
+|-----------------------------------|-----|--------|---------------------|
+| Warmtepomp (lucht/water/bodem)    | 21  | 85.3   | +108.7 kWh/m²       |
+| HR-ketel met kwaliteitsverklaring | 28  | 168.6  | +25.4 kWh/m²        |
+| HR-ketel forfaitair               | 285 | 194.0  | 0 (baseline)        |
+| Elektrisch                        | 4   | 211.1  | -17.1 kWh/m²        |
+| Stadsverwarming                   | 4   | 223.8  | -29.8 kWh/m²        |
+
+CONCLUSIE VERWARMING:
+- Warmtepomp bespaart 109 kWh/m² = ZEER GROOT
+- Kwaliteitsverklaring HR-ketel bespaart 25 kWh/m² = significant
+- Elektrisch en stadsverwarming = ONGUNSTIG
+
+================================================================================
+3. AFGIFTE SYSTEEM - SIGNIFICANTE IMPACT
+================================================================================
+
+Baseline: Radiatoren (standaard) = 199.6 kWh/m²
+
+| Type                      | N   | EP2    | Besparing          |
+|---------------------------|-----|--------|---------------------|
+| Vloerverwarming           | 62  | 124.7  | +74.9 kWh/m²        |
+| Lage temp radiatoren      | 12  | 160.7  | +38.9 kWh/m²        |
+| Radiatoren (standaard)    | 271 | 199.6  | 0 (baseline)        |
+| Stralingspanelen          | 2   | 276.1  | -76.5 kWh/m²        |
+
+CONCLUSIE AFGIFTE:
+- Vloerverwarming bespaart 75 kWh/m² = GROOT
+- MAAR: waarschijnlijk gecorreleerd met warmtepomp (lage temp systeem)
+- Niet per se eigen effect, meer in combinatie
+
+================================================================================
+4. TAPWATER - GROTE IMPACT
+================================================================================
+
+Baseline: HR-ketel met voorraadvat = 194.9 kWh/m²
+
+| Type                          | N   | EP2    | Besparing          |
+|-------------------------------|-----|--------|---------------------|
+| Warmtepomp boiler             | 8   | 52.1   | +142.8 kWh/m²       |
+| HR-combiketel kwal.verkl.     | 15  | 144.6  | +50.3 kWh/m²        |
+| HR-combiketel (standaard)     | 55  | 150.7  | +44.2 kWh/m²        |
+| HR-ketel voorraadvat          | 187 | 194.9  | 0 (baseline)        |
+| Elektrische boiler            | 65  | 212.6  | -17.7 kWh/m²        |
+| Gasgeiser                     | 12  | 262.6  | -67.8 kWh/m²        |
+
+CONCLUSIE TAPWATER:
+- Warmtepomp boiler bespaart 143 kWh/m² = ENORM (maar kleine sample)
+- HR-combiketel bespaart 44-50 kWh/m² = significant
+- Gasgeiser = ZEER ONGUNSTIG (-68 kWh/m²)
+- Elektrische boiler = ongunstig
+
+================================================================================
+5. GEBOUWTYPE
+================================================================================
+
+| Type                  | N   | EP2    |
+|-----------------------|-----|--------|
+| Grondgebonden woning  | 199 | 176.4  |
+| Appartement           | 153 | 201.2  |
+
+Verschil: 24.8 kWh/m² (grondgebonden LAGER)
+
+OPMERKING:
+Dit lijkt tegenstrijdig met compactheidstheorie (appartementen zouden
+gunstiger moeten zijn). Waarschijnlijke verklaring:
+- Grondgebonden woningen vaker met zonnepanelen
+- Grondgebonden woningen vaker recent verduurzaamd
+- Sample bias in deze database
+
+================================================================================
+SAMENVATTING - RANGSCHIKKING IMPACT
+================================================================================
+
+HOOGSTE IMPACT (>100 kWh/m² besparing):
+1. Warmtepomp boiler (tapwater)     +143 kWh/m²
+2. D2 ventilatie (WTW)              +117 kWh/m²
+3. Warmtepomp verwarming            +109 kWh/m²
+
+GROTE IMPACT (50-100 kWh/m² besparing):
+4. Vloerverwarming                  +75 kWh/m²
+5. C1 ventilatie (mech. afvoer)     +73 kWh/m²
+6. HR-combiketel tapwater           +44-50 kWh/m²
+
+MATIGE IMPACT (25-50 kWh/m² besparing):
+7. LT-radiatoren                    +39 kWh/m²
+8. HR-ketel kwaliteitsverklaring    +25 kWh/m²
+
+NEGATIEVE IMPACT (vermijden):
+- Gasgeiser                         -68 kWh/m²
+- Stralingspanelen                  -77 kWh/m²
+- Elektrische verwarming            -17 kWh/m²
+
+================================================================================
+BELANGRIJKE NUANCES
+================================================================================
+
+1. Deze cijfers zijn GEMIDDELDEN - individuele woningen kunnen afwijken
+2. Factoren zijn vaak GECORRELEERD:
+   - Warmtepomp gaat vaak samen met vloerverwarming
+   - WTW gaat vaak samen met nieuwere woningen
+3. Bouwjaar, oppervlakte en compactheid spelen ook een rol
+4. Sample sizes variëren - kleine samples zijn minder betrouwbaar
+
+================================================================================

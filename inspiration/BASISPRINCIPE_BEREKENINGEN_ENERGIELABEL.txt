@@ -1,0 +1,185 @@
+================================================================================
+BASISPRINCIPE BEREKENINGEN ENERGIELABEL INSCHATTING
+================================================================================
+Auteur: M. Rondema + Claude
+Datum: 4 januari 2026
+Doel: Uitleg voor collega's over hoe de inschatting tot stand komt
+================================================================================
+
+1. KERNPRINCIPE
+================================================================================
+
+De tool werkt NIET met de volledige NTA8800 berekening (die is te complex).
+In plaats daarvan gebruiken we een vereenvoudigd model:
+
+    EP2 = Basistabel + Som van correctiefactoren
+
+Dit is gebaseerd op analyse van 359 echte energielabels (uniec3 bestanden).
+
+================================================================================
+
+2. STAP 1: BASISTABEL (Bouwjaar x Woningtype)
+================================================================================
+
+De basistabel geeft een startwaarde op basis van:
+- Bouwjaar (bepaalt isolatieniveau via Bouwbesluit-eisen)
+- Woningtype (bepaalt compactheid / geveloppervlak)
+
+| Bouwjaar    | Appartement | Tussenwoning | Hoek/2^1 | Vrijstaand |
+|-------------|-------------|--------------|----------|------------|
+| Voor 1965   | 230         | 250          | 290      | 330        |
+| 1965-1974   | 200         | 220          | 260      | 300        |
+| 1975-1982   | 175         | 190          | 230      | 270        |
+| 1983-1991   | 160         | 175          | 210      | 250        |
+| 1992-1999   | 140         | 155          | 185      | 215        |
+| 2000-2011   | 120         | 135          | 165      | 195        |
+| 2012-2014   | 85          | 95           | 115      | 135        |
+| 2015-2020   | 55          | 70           | 90       | 110        |
+| 2021+       | 25          | 40           | 60       | 80         |
+
+Waarden zijn in kWh/m² per jaar.
+
+================================================================================
+
+3. STAP 2: CORRECTIEFACTOREN
+================================================================================
+
+Per element/installatie wordt een correctie toegepast (+ of - kWh/m²):
+
+VERWARMING (op basis van ketelleeftijd):
+| Type                          | Correctie  | Toelichting                |
+|-------------------------------|------------|----------------------------|
+| CV-ketel (onbekend)           | 0          | HR 107 niveau (aanname)    |
+| CV-ketel (tot 5 jaar oud)     | -25        | Goed presterend, nieuw     |
+| CV-ketel (5-10 jaar oud)      | -15        | Redelijk presterend        |
+| CV-ketel (10-15 jaar oud)     | 0          | HR 100 niveau              |
+| CV-ketel (ouder dan 15 jaar)  | +15        | VR ketel niveau            |
+| Warmtepomp                    | -110       | Enorme impact!             |
+| Stadsverwarming               | +30        | Vaak ongunstig             |
+| Elektrisch                    | +20        | Inefficient                |
+
+BEGLAZING:
+| Type                          | Correctie  |
+|-------------------------------|------------|
+| Enkel glas                    | +40        |
+| Dubbelglas                    | 0          | (baseline)
+| Mix van dubbel en HR glas     | -5         |
+| HR glas                       | -10        |
+| HR++ glas                     | -20        |
+| Triple glas                   | -30        |
+
+VENTILATIE:
+| Type                          | Correctie  |
+|-------------------------------|------------|
+| Natuurlijk                    | 0          |
+| Mechanisch afzuiging (oud)    | +10        |
+| Mechanisch afzuiging (nieuw)  | -30        |
+| WTW balansventilatie          | -60        |
+
+AFGIFTE:
+| Type                          | Correctie  |
+|-------------------------------|------------|
+| Radiatoren                    | 0          |
+| Vloerverwarming               | -40        |
+| LT-radiatoren                 | -30        |
+
+ZONNEPANELEN:
+Formule: -(panelen x 289 x 0.9 x 1.45) / m² woonoppervlak
+
+Waarbij:
+- 289 Wp = vermogen per paneel (175 Wp/m² x 1,65m²)
+- 0.9 = performance ratio
+- 1.45 = primaire energiefactor
+
+================================================================================
+
+4. VOORBEELDBEREKENING
+================================================================================
+
+Woning: Tussenwoning, bouwjaar 1978, 110m²
+- CV-ketel 8 jaar oud
+- Dubbelglas
+- Mechanische ventilatie (nieuw)
+- 8 zonnepanelen
+
+Berekening:
+1. Basis (1975-1982, tussenwoning):     190 kWh/m²
+2. CV-ketel 5-10 jaar:                  -15 kWh/m²
+3. Dubbelglas:                            0 kWh/m²
+4. Mech. ventilatie nieuw:              -30 kWh/m²
+5. Zonnepanelen: -(8 x 289 x 0.9 x 1.45) / 110 = -27 kWh/m²
+                                        ___________
+   TOTAAL:                              118 kWh/m² = Label A
+
+================================================================================
+
+5. WAAROM DIT WERKT
+================================================================================
+
+1. BOUWJAAR = ISOLATIE
+   Het Bouwbesluit bepaalt minimale isolatie-eisen per periode.
+   Bouwjaar is daarom een goede proxy voor de schil van de woning.
+
+2. WONINGTYPE = COMPACTHEID
+   Een tussenwoning heeft minder buitengevel dan een vrijstaande woning.
+   Minder gevel = minder warmteverlies = lager energieverbruik.
+
+3. CORRECTIES ZIJN GEVALIDEERD
+   De correctiefactoren komen uit analyse van 359 echte labels.
+   Ze zijn niet geschat, maar berekend uit werkelijke data.
+
+================================================================================
+
+6. WAT WE NIET DOEN (VEREENVOUDIGINGEN)
+================================================================================
+
+De tool vraagt NIET naar:
+- Exacte glasoppervlakte (m²)
+- Rc-waarde van de isolatie
+- Type warmtepomp (lucht/water/bodem)
+- Exacte U-waarde van kozijnen
+- Oriëntatie van de woning (zon)
+- Koudebruggen
+
+Dit is bewust: het doel is 80% dekking met 20% van de input.
+Een ervaren adviseur maakt ter plekke ook zo'n snelle inschatting.
+
+================================================================================
+
+7. LABELGRENZEN (EP2 - Officieel)
+================================================================================
+
+| Label  | EP2 bereik (kWh/m²) |
+|--------|---------------------|
+| A++++ | < 0                  |
+| A+++  | 0 - 50               |
+| A++   | 50 - 75              |
+| A+    | 75 - 105             |
+| A     | 105 - 160            |
+| B     | 160 - 190            |
+| C     | 190 - 250            |
+| D     | 250 - 290            |
+| E     | 290 - 335            |
+| F     | 335 - 380            |
+| G     | > 380                |
+
+================================================================================
+
+8. BRONNEN
+================================================================================
+
+- Database: 359 geanalyseerde uniec3 bestanden (echte labels)
+- EP-Online: 5.7 miljoen labels voor buurt-vergelijking
+- NTA 8800: Officiële rekenmethodiek (vereenvoudigd toegepast)
+- ISSO publicaties: Forfaitaire waarden
+- Bouwbesluit: Historische Rc-eisen per bouwjaar
+
+================================================================================
+
+9. CONTACT
+================================================================================
+
+Project eigenaar: M. Rondema
+Vakbekwaamheidsnummer: 55151558
+
+================================================================================

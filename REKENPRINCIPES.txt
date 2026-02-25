@@ -1,0 +1,468 @@
+================================================================================
+REKENPRINCIPES ENERGIELABEL INSCHATTING TOOL
+================================================================================
+Auteur: M. Rondema (vakbekwaamheidsnr: 55151558) + Claude
+Versie: 1.0
+Datum: 9 januari 2026
+================================================================================
+
+Dit document beschrijft precies waarop de berekeningen van de Energielabel
+Inschatting Tool zijn gebaseerd. Bedoeld voor collega's, audits en
+kennisoverdracht.
+
+================================================================================
+DEEL 1: HET KERNPRINCIPE
+================================================================================
+
+De tool gebruikt GEEN volledige NTA8800 berekening (die is 1120 pagina's en
+te complex voor een snelle inschatting).
+
+In plaats daarvan werken we met een STATISTISCH MODEL:
+
+    EP2 = Basistabel(bouwjaar, woningtype) + Som(correctiefactoren)
+
+Dit model is afgeleid uit analyse van ECHTE energielabels:
+- 359 woningen uit uniec3 bestanden (software voor EP-adviseurs)
+- 5,7 miljoen labels uit EP-Online totaalbestand
+
+Het principe is hetzelfde als hoe een ervaren adviseur ter plekke een
+inschatting maakt: op basis van ervaring en patronen, niet op basis van
+alle 1120 pagina's formules.
+
+================================================================================
+DEEL 2: DATABRONNEN
+================================================================================
+
+2.1 UNIEC3 DATABASE (primaire bron voor correctiefactoren)
+----------------------------------------------------------
+Bron: 359 geanalyseerde energielabel berekeningen uit COMPLETED map
+Formaat: ZIP-bestanden met entities.json (woning kenmerken + EP2)
+Geextraheerd: december 2025
+
+Wat we hieruit hebben gehaald:
+- Gemiddelde EP2 per type verwarming, ventilatie, afgifte
+- Impact van elke maatregel t.o.v. baseline
+- Bouwjaar per woning (veld: GEB_BWJR)
+- Validatie van labelgrenzen
+
+2.2 EP-ONLINE TOTAALBESTAND (secundaire bron)
+---------------------------------------------
+Bron: Officieel totaalbestand van alle energielabels in Nederland
+Download: 3 januari 2026
+Omvang: 5,7 miljoen labels (1,4 GB CSV)
+Opgeslagen: SQLite database voor snelle queries
+
+Wat we hieruit halen:
+- Buurt-vergelijking (alle labels in dezelfde postcode)
+- EP2 waarden van officieel geregistreerde labels
+- Bouwjaar, energieklasse per adres
+
+2.3 BAG (Basisregistratie Adressen en Gebouwen)
+-----------------------------------------------
+Bron: PDOK (Publieke Dienstverlening Op de Kaart)
+API: https://api.pdok.nl/bzk/locatieserver/search/v3_1/
+WFS: https://service.pdok.nl/lv/bag/wfs/v2_0
+
+Wat we hieruit halen:
+- Bouwjaar (authoratieve bron, Kadaster)
+- Gebruiksoppervlakte in m2
+- Adres verificatie
+
+2.4 BOUWBESLUIT (historisch)
+----------------------------
+Bron: handelbouwadvies.nl, geregeld24.nl, RVO.nl
+Wat we hieruit halen:
+- Minimale Rc-eisen per bouwjaarperiode
+- Basis voor isolatie-aannames per bouwjaar
+
+================================================================================
+DEEL 3: DE BASISTABEL (Bouwjaar x Woningtype)
+================================================================================
+
+3.1 WAAROM BOUWJAAR?
+--------------------
+Het Bouwbesluit stelt minimale isolatie-eisen. Deze zijn door de jaren heen
+aangescherpt. Bouwjaar is daarom een PROXY voor het isolatieniveau:
+
+| Periode     | Rc gevel | Rc dak | Rc vloer | Toelichting               |
+|-------------|----------|--------|----------|---------------------------|
+| Voor 1975   | 0        | 0      | 0        | Geen isolatie-eisen       |
+| 1975-1982   | ~1.0     | ~1.0   | 0        | Eerste eisen, matig       |
+| 1983-1991   | 1.30     | 1.30   | 0.52     | Bouwbesluit 1983          |
+| 1992-2011   | 2.50     | 2.50   | 2.50     | GROTE SPRONG! Goede iso   |
+| 2012-2014   | 3.50     | 3.50   | 3.50     | Bouwbesluit 2012          |
+| 2015-2020   | 4.50     | 6.00   | 3.50     | Aanscherping              |
+| 2021+       | 4.70     | 6.30   | 3.70     | BENG (bijna energieneutr) |
+
+3.2 WAAROM WONINGTYPE?
+----------------------
+Woningtype bepaalt de COMPACTHEID (Als/Ag ratio):
+- Als = verliesoppervlak (gevels, dak, vloer naar buiten)
+- Ag = gebruiksoppervlakte (vloeroppervlak)
+
+Hoe meer buitengevel per m2 vloer, hoe meer warmteverlies.
+
+| Woningtype              | Als/Ag    | Compactheid    |
+|-------------------------|-----------|----------------|
+| Appartement (midden)    | 0.8 - 1.2 | Zeer gunstig   |
+| Appartement (hoek/boven)| 1.2 - 1.8 | Gunstig        |
+| Tussenwoning            | 1.2 - 2.0 | Gunstig        |
+| Hoekwoning              | 1.6 - 2.4 | Matig          |
+| 2-onder-1-kap           | 1.6 - 2.4 | Matig          |
+| Vrijstaand              | 1.8 - 3.0 | Ongunstig      |
+
+De compactheid zit IMPLICIET in de basistabel: vrijstaand heeft hogere
+basiswaarde dan appartement.
+
+3.3 DE BASISTABEL (GEVALIDEERD)
+-------------------------------
+Waarden in kWh/m2 per jaar, bij standaard HR-ketel + radiatoren +
+natuurlijke ventilatie:
+
+| Bouwjaar    | Appartement | Tussenwoning | Hoek/2^1 | Vrijstaand |
+|-------------|-------------|--------------|----------|------------|
+| Voor 1965   | 230         | 250          | 290      | 330        |
+| 1965-1974   | 200         | 220          | 260      | 300        |
+| 1975-1982   | 175         | 190          | 230      | 270        |
+| 1983-1991   | 160         | 175          | 210      | 250        |
+| 1992-1999   | 140         | 155          | 185      | 215        |
+| 2000-2011   | 120         | 135          | 165      | 195        |
+| 2012-2014   | 85          | 95           | 115      | 135        |
+| 2015-2020   | 55          | 70           | 90       | 110        |
+| 2021+       | 25          | 40           | 60       | 80         |
+
+VALIDATIE (31-12-2025):
+- Bouwjaar geextraheerd uit 353 uniec3 bestanden (veld: GEB_BWJR)
+- Baseline berekend voor woningen met HR-ketel + radiatoren + natuurlijk
+- Oorspronkelijke schattingen pre-1992 waren 20-55 kWh/m2 te hoog
+- Post-1992 waarden waren al accuraat (+/-5 kWh/m2)
+
+================================================================================
+DEEL 4: CORRECTIEFACTOREN
+================================================================================
+
+4.1 VERWARMING (GEVALIDEERD - EXACTE MATCH!)
+--------------------------------------------
+Gebaseerd op analyse van 285+ woningen per type.
+
+| Type                          | Correctie  | Database | Afwijking |
+|-------------------------------|------------|----------|-----------|
+| HR-ketel forfaitair           | 0          | 0        | baseline  |
+| HR-ketel kwaliteitsverklaring | -25        | -25.4    | +0.4      |
+| Warmtepomp                    | -110       | -109.1   | -0.9      |
+| Stadsverwarming               | +30        | +29.8    | +0.2      |
+| Elektrisch                    | +20        | +17.1    | +2.9      |
+
+Ketelleeftijd variant (v5.17):
+| Type                          | Correctie  | Toelichting            |
+|-------------------------------|------------|------------------------|
+| CV-ketel (onbekend)           | 0          | HR 107 niveau (aanname)|
+| CV-ketel (tot 5 jaar oud)     | -25        | Goed presterend, nieuw |
+| CV-ketel (5-10 jaar oud)      | -15        | Redelijk presterend    |
+| CV-ketel (10-15 jaar oud)     | 0          | HR 100 niveau          |
+| CV-ketel (ouder dan 15 jaar)  | +15        | VR ketel niveau        |
+
+4.2 BEGLAZING
+-------------
+| Type                          | Correctie  |
+|-------------------------------|------------|
+| Enkel glas                    | +40        |
+| Dubbelglas                    | 0          | (baseline)
+| Mix van dubbel en HR glas     | -5         |
+| HR glas                       | -10        |
+| HR++ glas                     | -20        |
+| Triple glas                   | -30        |
+
+4.3 VENTILATIE (AANGEPAST VOOR CORRELATIE)
+------------------------------------------
+LET OP: Database toonde grotere effecten (-71 voor mech, -116 voor WTW),
+maar dit was sterk gecorreleerd met bouwjaar (nieuwere woningen hebben
+vaker mechanische ventilatie EN betere isolatie). Onderstaande waarden
+zijn CONSERVATIEF en schatten alleen het ventilatie-effect.
+
+| Type                          | Correctie  | Ruwe database |
+|-------------------------------|------------|---------------|
+| Natuurlijk                    | 0          | baseline      |
+| Mechanisch afzuiging (oud)    | +10        | n.v.t.        |
+| Mechanisch afzuiging (nieuw)  | -30        | -71           |
+| WTW balansventilatie          | -60        | -116          |
+
+PRAKTIJKKENNIS ADVISEUR:
+Als NIET op 3 plekken een afzuigventiel aanwezig is (keuken, badkamer,
+toilet), kies dan voor NATUURLIJKE VENTILATIE. Dit is vaak gunstiger
+dan oude mechanische ventilatie met AC-motor.
+
+4.4 AFGIFTE (GECORRIGEERD VOOR WARMTEPOMP-CORRELATIE)
+-----------------------------------------------------
+Vloerverwarming correleert sterk met warmtepompen (20% overlap).
+De ruwe database waarde is daarom misleidend.
+
+| Type                          | Correctie  | Ruwe DB | Gecorrigeerd |
+|-------------------------------|------------|---------|--------------|
+| Radiatoren                    | 0          | 0       | baseline     |
+| Vloerverwarming               | -40        | -74     | -56          |
+| LT-radiatoren                 | -30        | -39     | n.v.t.       |
+
+4.5 ZONNEPANELEN (NTA8800 FORFAITAIR)
+-------------------------------------
+Formule:
+    Correctie = -(panelen x 289 x 0.9 x 1.45) / m2 vloeroppervlak
+
+Waarbij:
+- 289 Wp = vermogen per paneel (175 Wp/m2 x 1.65m2, monokristallijn 2018+)
+- 0.9 = performance ratio (NTA8800 forfaitair)
+- 1.45 = primaire energiefactor elektriciteit
+
+Voorbeeld 100m2 woning:
+| Panelen | Opbrengst  | Correctie |
+|---------|------------|-----------|
+| 5       | ~1575 kWh  | -19       |
+| 10      | ~3150 kWh  | -38       |
+| 15      | ~4725 kWh  | -57       |
+
+BELANGRIJK: Impact hangt af van woonoppervlakte!
+Kleine woning = meer effect per paneel (delen door minder m2)
+Grote woning = minder effect per paneel (delen door meer m2)
+
+4.6 EXTRA ISOLATIE (GEAVANCEERDE MODUS)
+---------------------------------------
+Alleen relevant als isolatie BETER is dan bouwjaar-standaard:
+
+| Maatregel                     | Correctie  |
+|-------------------------------|------------|
+| Spouwmuurisolatie (pre-1975)  | -30        |
+| Dakisolatie (pre-1975)        | -25        |
+| Vloerisolatie                 | -5         |
+
+PRAKTIJKKENNIS: Vloerisolatie doet BIJNA NIETS voor het label.
+Wel goed voor comfort (koude voeten), maar niet prioriteren voor label.
+
+4.7 WARM WATER (GEAVANCEERDE MODUS)
+-----------------------------------
+| Type                          | Correctie  |
+|-------------------------------|------------|
+| Combiketel                    | -15        |
+| Voorraadvat                   | 0          | (baseline)
+| Elektrische boiler            | +20        |
+| Warmtepompboiler              | -60        |
+
+================================================================================
+DEEL 5: DE BEREKENING
+================================================================================
+
+5.1 FORMULE
+-----------
+EP2_geschat = Basistabel[bouwjaar][woningtype]
+            + correctie_verwarming
+            + correctie_beglazing
+            + correctie_ventilatie
+            + correctie_afgifte
+            + correctie_zonnepanelen
+            + correctie_isolatie
+            + correctie_warmwater
+
+5.2 VOORBEELDBEREKENING
+-----------------------
+Woning: Tussenwoning, bouwjaar 1978, 110m2
+- CV-ketel 8 jaar oud
+- Dubbelglas
+- Mechanische ventilatie (nieuw)
+- Radiatoren
+- 8 zonnepanelen
+- Geen extra isolatie
+- Combiketel (warm water)
+
+Berekening:
+1. Basis (1975-1982, tussenwoning):           190 kWh/m2
+2. CV-ketel 5-10 jaar:                        -15 kWh/m2
+3. Dubbelglas:                                  0 kWh/m2
+4. Mech. ventilatie nieuw:                    -30 kWh/m2
+5. Radiatoren:                                  0 kWh/m2
+6. Zonnepanelen: -(8 x 289 x 0.9 x 1.45)/110: -27 kWh/m2
+7. Geen extra isolatie:                         0 kWh/m2
+8. Combiketel:                                -15 kWh/m2
+                                              ___________
+   TOTAAL:                                    103 kWh/m2 = Label A+
+
+5.3 LABELBEPALING
+-----------------
+| EP2 bereik      | Label  |
+|-----------------|--------|
+| < 0             | A++++ |
+| 0 - 50          | A+++  |
+| 50 - 75         | A++   |
+| 75 - 105        | A+    |
+| 105 - 160       | A     |
+| 160 - 190       | B     |
+| 190 - 250       | C     |
+| 250 - 290       | D     |
+| 290 - 335       | E     |
+| 335 - 380       | F     |
+| > 380           | G     |
+
+VALIDATIE: Alle gemiddelde EP2 waarden in de database vallen precies
+binnen de officiële grenzen voor hun label.
+
+================================================================================
+DEEL 6: WAT DE TOOL NIET DOET (VEREENVOUDIGINGEN)
+================================================================================
+
+De tool vraagt NIET naar:
+- Exacte glasoppervlakte (m2)
+- Exacte Rc-waarde van isolatie
+- Type warmtepomp (lucht/water/bodem)
+- Exacte U-waarde van kozijnen
+- Orientatie van de woning (zon)
+- Koudebruggen
+- Infiltratieverlies (luchtdichtheid)
+- Specifieke geometrie (dakkapellen, erkers)
+
+Dit is BEWUST: het doel is 80% dekking met 20% van de input.
+Een ervaren adviseur maakt ter plekke ook zo'n snelle inschatting.
+
+================================================================================
+DEEL 7: VALIDATIE EN BETROUWBAARHEID
+================================================================================
+
+7.1 UITGEVOERDE VALIDATIE (31-12-2025)
+--------------------------------------
+| Onderdeel              | Status           | Bron              |
+|------------------------|------------------|-------------------|
+| Verwarming correcties  | EXACT MATCH      | 285 woningen      |
+| Ventilatie correcties  | Aangepast        | 343 woningen      |
+| Afgifte correcties     | Aangepast        | 333 woningen      |
+| Labelgrenzen           | EXACT MATCH      | Alle woningen     |
+| Basis EP2 tabel        | Gecorrigeerd     | 353 met bouwjaar  |
+
+7.2 BETROUWBAARHEIDSSCORE
+-------------------------
+De tool geeft een betrouwbaarheidsscore (0-100%):
+
+| Factor                 | Bijdrage |
+|------------------------|----------|
+| Bouwjaar bekend (BAG)  | +20%     |
+| m2 bekend (BAG)        | +15%     |
+| Woningtype bekend      | +15%     |
+| Verwarming ingevuld    | +15%     |
+| Beglazing ingevuld     | +10%     |
+| Zonnepanelen ingevuld  | +10%     |
+| Geavanceerde modus     | +15%     |
+
+Typische betrouwbaarheid:
+- Alleen basismodus: 60-80%
+- Geavanceerde modus: 75-95%
+- Met BAG data: +10%
+
+7.3 BEKENDE BEPERKINGEN
+-----------------------
+1. Pre-1992 woningen: grotere onzekerheid (isolatie kan sterk varieren)
+2. Combinatie-effecten: niet alle interacties zijn gekwantificeerd
+3. Kleine sample voor sommige types (bijv. elektrisch verwarmen: N=4)
+4. Renovaties: niet altijd te detecteren uit bouwjaar alleen
+
+================================================================================
+DEEL 8: PRAKTIJKINZICHTEN ADVISEUR
+================================================================================
+
+Deze kennis komt van M. Rondema, ervaren EP-adviseur, en staat NIET in
+de NTA8800.
+
+8.1 HOOGSTE IMPACT (prioriteren)
+--------------------------------
+1. Warmtepomp: -110 kWh/m2 (ENORM)
+2. Zonnepanelen: afhankelijk van m2 (GROOT)
+3. WTW ventilatie: -60 kWh/m2
+4. HR++ glas: -20 kWh/m2
+5. Dakisolatie: -25 kWh/m2
+
+8.2 LAGE IMPACT (niet prioriteren voor label)
+---------------------------------------------
+1. Vloerisolatie: -5 kWh/m2 (alleen comfort!)
+2. Buitendeuren: minimaal
+3. Oude mechanische ventilatie: soms slechter dan natuurlijk
+
+8.3 VENTILATIE TRUC
+-------------------
+Als NIET op 3 plekken afzuigventiel aanwezig (keuken, badkamer, toilet):
+-> Kies NATUURLIJK in de berekening
+Dit is vaak gunstiger dan oude mechanische ventilatie met wisselstroom-
+motor (energieverslinder).
+
+8.4 HYBRIDE WARMTEPOMP
+----------------------
+Goedkoper dan volledig elektrisch, bijna zelfde EP2 resultaat.
+Makkelijker te installeren. Aanrader voor verduurzaming.
+
+================================================================================
+DEEL 9: RANGSCHIKKING IMPACT UIT DATABASE
+================================================================================
+
+HOOGSTE IMPACT (>100 kWh/m2 besparing):
+1. Warmtepompboiler (tapwater)     +143 kWh/m2 (kleine sample)
+2. D2 ventilatie (WTW)             +117 kWh/m2
+3. Warmtepomp verwarming           +109 kWh/m2
+
+GROTE IMPACT (50-100 kWh/m2 besparing):
+4. Vloerverwarming                  +75 kWh/m2 (gecorreleerd met WP)
+5. C1 ventilatie (mech. afvoer)     +73 kWh/m2 (gecorreleerd met bouwjr)
+6. HR-combiketel tapwater           +44-50 kWh/m2
+
+MATIGE IMPACT (25-50 kWh/m2 besparing):
+7. LT-radiatoren                    +39 kWh/m2
+8. HR-ketel kwaliteitsverklaring    +25 kWh/m2
+
+NEGATIEVE IMPACT (vermijden):
+- Gasgeiser                         -68 kWh/m2
+- Stralingspanelen                  -77 kWh/m2
+- Elektrische verwarming            -17 kWh/m2
+
+================================================================================
+DEEL 10: BRONVERWIJZINGEN
+================================================================================
+
+1. NTA 8800 - Energieprestatie van gebouwen
+   (vereenvoudigd toegepast, niet volledige berekening)
+
+2. Bouwbesluit 1983, 1992, 2012
+   Bron: handelbouwadvies.nl, geregeld24.nl, RVO.nl
+
+3. EP-Online totaalbestand
+   Download: https://www.ep-online.nl/ep-online/PublicData
+
+4. BAG API (PDOK)
+   https://api.pdok.nl/bzk/locatieserver/search/v3_1/
+
+5. ISSO publicaties (forfaitaire waarden)
+
+6. Database 359 uniec3 bestanden
+   Eigen analyse M. Rondema, december 2025
+
+================================================================================
+DEEL 11: DISCLAIMER
+================================================================================
+
+Dit is een INSCHATTING op basis van statistische patronen uit echte
+energielabels. Het is GEEN officieel energielabel.
+
+Het werkelijke energielabel kan alleen worden vastgesteld door een
+gecertificeerd energieadviseur met een volledige NTA 8800 berekening.
+
+De tool geeft een indicatie die in ~80-90% van de gevallen binnen 1
+labelstap van het werkelijke label zit, maar kan afwijken bij:
+- Sterk gerenoveerde woningen
+- Atypische woninggeometrie
+- Combinaties van factoren die niet in de database voorkomen
+- Woningen met bijzondere installaties
+
+================================================================================
+CONTACTGEGEVENS
+================================================================================
+
+Project eigenaar: M. Rondema
+Vakbekwaamheidsnummer: 55151558
+Live URL: https://energielabel-tool.onrender.com
+GitHub: https://github.com/rondema/energielabel-tool
+
+================================================================================
+EINDE DOCUMENT
+================================================================================

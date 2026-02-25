@@ -1,0 +1,36 @@
+NTA 8800 KENNISBANK - INDEX
+============================
+
+Deze kennisbank bevat de geëxtraheerde tekst uit NTA 8800:2023.
+Totaal 1120 pagina's, opgesplitst in doorzoekbare secties.
+
+KERNHOOFDSTUKKEN:
+-----------------
+1. H5_Energieprestatie.txt - EP1, EP2, EP3 berekening, primaire energie
+2. H6_Transmissie.txt - Warmteverlies door gevels, daken, vloeren (Rc-waarden)
+3. H7_Infiltratie_Ventilatie.txt - Ventilatiesystemen A1-D2, infiltratie, qv10
+4. H11_Verwarming.txt - CV-ketels, warmtepompen, rendement
+5. H12_Koeling.txt - Koelsystemen
+6. H13_Tapwater.txt - Warm tapwater, zonneboilers
+7. H14_Verlichting.txt - Verlichting (utiliteit)
+8. H16_PV.txt - Zonnepanelen, opbrengst
+9. H17_Warmtepompen.txt - COP, SCOP, lucht/water, bodem
+10. Bijlagen_Tabellen.txt - Referentietabellen, forfaitaire waarden
+
+BELANGRIJKE BEGRIPPEN:
+----------------------
+- EP1 (BENG1): Energiebehoefte (kWh/m².jr) - alleen gebouwschil
+- EP2 (BENG2): Primair fossiel energiegebruik (kWh/m².jr) - incl. installaties
+- EP3 (BENG3): Aandeel hernieuwbare energie (%)
+- Rc-waarde: Warmteweerstand (m².K/W)
+- U-waarde: Warmtedoorgangscoëfficiënt (W/m².K)
+- qv10: Luchtdoorlatendheid bij 10 Pa
+- COP: Coefficient of Performance (warmtepomp)
+- SCOP: Seasonal COP
+
+VENTILATIECODES:
+----------------
+- A1: Natuurlijke toevoer en afvoer
+- C1: Natuurlijke toevoer, mechanische afvoer
+- C2: Vraaggestuurde mechanische afvoer (CO2)
+- D2: Gebalanceerd met WTW (warmteterugwinning)

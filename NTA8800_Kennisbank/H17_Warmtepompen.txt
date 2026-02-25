@@ -1,0 +1,7864 @@
+
+--- Pagina 751 ---
+Withdrawn final
+Ingetrokken definitief
+(
+)
+(
+)
+θ
+θ
+⋅∆
+=
+∆
+∑
+∑
+int-e
+in
+dyn
+-
+;mn
+t e
+;
+;
+;
+t
+t
+mi
+t
+i
+t
+U
+U
+(A.1) 
+(A.2) 
+(A.3) 
+(A.4) 
+waarin: 
+Umi;mn 
+is de maandelijks gemiddelde U-waarde op basis van verschillende waarden Udyn;i bij 
+verschillende toestanden i, in W/(m2·K);  
+gmi;mn 
+is de maandelijks gemiddelde g-waarde op basis van verschillende waarden gdyn;i bij 
+verschillende toestanden i;  
+τsol;mi;mn 
+is de maandelijks gemiddelde waarde van de eigenschap τsol, op basis van verschillende 
+waarden τsol;dyn;i bij verschillende toestanden i; 
+τvis;mi;mn 
+is de maandelijks gemiddelde waarde van τvis, op basis van verschillende waarden 
+τvis;dyn;i bij verschillende toestanden i; 
+Δθint-e 
+is de benadering voor het verschil tussen de binnen- en de buitentemperatuur, in K; in 
+dit temperatuurverschil is de binnentemperatuur de setpointtemperatuur, waar 
+haalbaar en mogelijk gecorrigeerd voor onderbrekingen. Deze binnentemperatuur kan 
+één maandelijks tijdgemiddelde waarde zijn of een waarde voor perioden met 
+verwarming/koeling en een andere waarde voor perioden van onderbreking (zie 7.9); 
+OPMERKING 
+Een verlaagde setpoint tijdens onderbreking geeft meestal geen goede benadering, omdat de 
+ondergrens bijna nooit kan worden bereikt.  
+Isol;tot;t 
+is de totale (directe + diffuse) zonnestraling op het transparante element, in W/m2; 
+Ev;t 
+is de globale intensiteit van daglicht op het transparante element, in Lx; 
+Δth 
+is het tijdinterval, in uren; 
+i 
+is een index voor de verschillende toestanden; kan verschillen per uur, afhankelijk van 
+een of meerdere randvoorwaarden, zoals beschreven in I.2.1. 
+(
+)
+⋅
+=
+∑
+∑
+sol;
+dyn;
+;
+ol;
+mn
+s
+t
+t
+i
+mi
+t
+t
+g
+I
+g
+I
+(
+)
+τ
+τ
+⋅
+=
+∑
+∑
+sol;dyn;
+sol;
+sol;
+;
+s l
+mn
+o ;
+t
+t
+i
+mi
+t
+t
+I
+I
+(
+)
+τ
+τ
+⋅
+=
+∑
+∑
+vis;dy
+v
+n;
+vis;
+;mn
+;
+v;
+i
+mi
+t
+t
+t
+t
+E
+E
+751
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 752 ---
+Withdrawn final
+Ingetrokken definitief
+Zowel de totale zonnestraling als de globale intensiteit van daglicht hangt af van de oriëntatie en de 
+helling van het transparante element en van de externe belemmering (beschaduwing).  
+Stap 2:  
+Vervolgens kunnen de correctiefactoren worden toegepast. Hierdoor wordt rekening gehouden met de 
+dynamische effecten door traagheid van het gebouw en/of door de dynamische wisselwerking met 
+andere fysieke processen. Deze correctiefactoren kunnen worden afgeleid door de resultaten van de 
+berekeningen per uur te vergelijken met een serie representatieve situaties.  
+Methode B: 
+Als de relevante randvoorwaarden van het transparante element vooraf niet bekend zijn, bijv. omdat 
+ze afhankelijk zijn van de warmte- of koudebehoefte, is de maandelijkse methode (A) niet toepasbaar. 
+In principe kan dan een benadering worden gemaakt door: 
+Stap 1: 
+Kies een van de toestanden voor de waardebepaling van de betreffende eigenschap. 
+Stap 2: 
+Gelijk aan stap 2 van methode A. 
+752
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 753 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage B 
+(normatief)  
+ 
+Bepaling effectieve interne warmtecapaciteit 
+B.1 Principe 
+De effectieve interne warmtecapaciteit wordt bepaald door voor alle constructies die in een 
+rekenzone zijn gelegen of een rekenzone begrenzen, na te gaan in hoeverre de thermische 
+capaciteit direct aan de ruimte grenst, waardoor overtollige warmte tijdelijk kan worden 
+opgeslagen. 
+ Rekenregel 
+Bereken de effectieve interne warmtecapaciteit van een rekenzone als de som van de thermisch 
+werkzame massa van alle constructieonderdelen die in een rekenzone zijn gelegen of een 
+rekenzone omhullen, met dien verstande dat constructieonderdelen gelegen in een 
+verblijfsgebied die geen bouwconstructie zijn, buiten beschouwing moeten blijven, volgens: 
+ 
+ (B.1) 
+waarin: 
+Cmi 
+is de effectieve interne warmtecapaciteit van de rekenzone, in J/K; 
+ρ1,2,… is de volumieke massa van de materialen van constructieonderdeel 1,2,…, in kg/m3; 
+c1,2,… is de soortelijke warmte van de materialen van constructieonderdeel 1,2,…, bepaald 
+volgens NEN-EN-ISO 10456:2008, in J/kgK; 
+d1,2,… is de werkzame dikte van de materialen van constructieonderdeel 1,2,…, bepaald 
+volgens E.2, in m; 
+A1,2,… is de oppervlakte van constructieonderdeel 1,2,…, in m2, dat in de rekenzone is 
+gelegen of de rekenzone omhult, met dien verstande dat constructieonderdelen in 
+een rekenzone die geen bouwconstructie zijn, zoals een niet-dragende binnenwand, 
+buiten beschouwing moeten blijven. 
+OPMERKING 1 
+Alleen niet-afgeschermde constructieonderdelen van steenachtige materialen dragen 
+substantieel bij aan de effectieve interne warmtecapaciteit. 
+OPMERKING 2 
+Voor inwendige scheidingsconstructies zoals wanden en vloeren wordt voor twee 
+zijden de thermisch werkzame massa bepaald. 
+OPMERKING 3 
+Binnenwanden die geen deel uitmaken van de (vergunningsplichtige) bouwconstructie 
+worden voor de berekening van de effectieve interne warmtecapaciteit buiten beschouwing gelaten. 
+ Bepaling werkzame dikte 
+Bepaal de werkzame dikte d, in m, als de dikte van het constructieonderdeel, voor zover de 
+warmteweerstand van het constructieonderdeel gerekend loodrecht vanaf het binnenoppervlak 
+minder bedraagt dan 0,25 m2K/W. d mag daarbij niet meer dan 100 mm en niet meer dan de 
+helft van de totale dikte van de constructie bedragen. 
+1
+1
+1
+1
+2
+2
+2
+2
+...
+mi
+C
+c
+d
+A
+c
+d
+A
+
+
+=
+
+
+
++
+
+
+
++
+ 
+753
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 754 ---
+Withdrawn final
+Ingetrokken definitief
+Bij vrijhangende plafondconstructies mag, indien een aandeel van ten minste netto 15 % van de 
+plafondoppervlakte open is, de warmteweerstand van de vrijhangende plafondconstructie 
+buiten beschouwing blijven voor de bepaling van de warmteweerstand van het 
+constructieonderdeel vanaf het binnenoppervlak. 
+754
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 755 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage C 
+(normatief) 
+ 
+Bepaling van de warmteweerstand van afzonderlijke 
+constructieonderdelen, RC 
+C.1 Bepaling van de warmteweerstand 
+ Inleiding 
+Een scheidingsconstructie kan bestaan uit afzonderlijke elementen als bedoeld in 8.1. De 
+warmteweerstand van de afzonderlijke, ondoorschijnende elementen van de gebouwomhulling 
+of van een paneel of deurblad, zoals benoemd in 8.2.2.1, moet worden bepaald volgens C.1.2.  
+Als de verhouding van de warmtegeleidingscoëfficiënt van twee verschillende materialen in het 
+deurblad (schroeven, spijkers enz. zijn uitgesloten) groter is dan 1:5, dan mag de thermische 
+kwaliteit van een deurblad niet worden bepaald volgende de methode beschreven in C.1.2. In 
+dat geval moet voor het bepalen van de thermische kwaliteit van het deurblad gebruik worden 
+gemaakt van de numerieke berekening beschreven in 8.2.2.2. 
+De equivalente warmteweerstand van een ondoorschijnend, vlak element van de 
+gebouwomhulling of van een raam of deur (inclusief kozijn), zoals benoemd in 8.2.2.1, moet 
+worden bepaald volgens C.1.3. 
+OPMERKING 1 De hieronder uitgewerkte bepalingsmethode voor de warmteweerstand van constructies 
+is de Nederlandse implementatie van hoofdstuk 5 en 6 van NEN-EN-ISO 6946:2017. 
+OPMERKING 2 Bij de bepaling van de equivalente warmteweerstand wordt het positief effect van een 
+aangrenzende onverwarmde ruimte verdisconteerd. 
+ De warmteweerstand van een afzonderlijk (constructie)onderdeel, RC 
+De warmteweerstand, RC, in (m2·K)/W, van een constructieonderdeel wordt berekend met: 
+se
+si
+C
+C
+1
+R
+R
+U
+R
+−
+−
+=
+ 
+(C.1) 
+ofwel: 
+(
+)
+se
+si
+T
+C
+1
+R
+R
+β
+R
+R
+−
+−
++
+=
+ 
+(C.2) 
+OPMERKING 1 
+De warmteweerstand, RC, van geventileerde onverwarmde ruimten kan worden 
+ontleend aan C.4. 
+met: 
+— voor enkelvoudige constructies: 
+(
+)
+=
++
++
+∑
+T
+si
+m;
+se
+i
+i
+R
+R
+R
+R
+ 
+(C.3) 
+755
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 756 ---
+Withdrawn final
+Ingetrokken definitief
+— voor samengestelde constructies: 
+×
++
+=
++
+×
+T
+T
+T
+'
+'
+"
+1 1,05
+'
+a
+R
+R
+R
+a
+ 
+(C.4) 
+OPMERKING 2 
+Deze formule is een Nederlandse aanpassing van formule (5) uit 
+NEN-EN-ISO 6946:2017. 
+waarin: 
+UC is de warmtedoorgangscoëfficiënt van het onderdeel, bepaald volgens 8.2.2, 
+in W/(m2·K); 
+Rsi is de warmteovergangsweerstand aan het inwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W; 
+Rse is de warmteovergangsweerstand aan het uitwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W; 
+Rm;i is de warmteweerstand van constructielaag i, in (m2·K)/W, bepaald: 
+— 
+voor luchtlagen, als Rcav, overeenkomstig C.3; 
+— 
+voor materialen als Rcalc overeenkomstig E.2; 
+a' 
+is een weegfactor, ontleend aan tabel C.1. 
+RT' is de bovengrens van de totale warmteweerstand, volgens formule (C.5), in (m2·K)/W; 
+=
+×
++
+×
++
+con
+T '
+.....
+A
+R
+A
+U
+A
+U
+a
+T;a
+b
+T;b
+ 
+(C.5) 
+RT" is de ondergrens van de totale warmteweerstand, volgens formule (C.6), in (m2·K)/W; 
+
+
+
+
+=
++
++
+
+
+
+
+∑
+T
+se
+''
+"
+j
+j
+j
+d
+R
+R
+R
+λ
+si
+ 
+(C.6) 
+met: 
+λj” is de equivalente warmtegeleidingscoëfficiënt van laag j, bepaald tot op drie decimalen 
+nauwkeurig volgens formule (C.7), in W/(m·K); 
+×
++
+×
++
+=
+Σ
+....
+"
+a
+b
+j
+j
+j
+A
+λ
+A
+A
+λ
+λ
+a;
+b;
+ 
+(C.7) 
+waarin: 
+Acon 
+is de geprojecteerde oppervlakte van de scheidingsconstructie, bepaald volgens  
+bijlage K, in m2; 
+Aa, Ab 
+zijn de geprojecteerde oppervlakten van de sectie a, b, … enz., in m2; 
+UT;a,UT;b zijn de warmtedoorgangscoëfficiënten van de sectie a, b, … enz., bepaald volgens 
+8.2, in W/(m2·K); 
+756
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 757 ---
+Withdrawn final
+Ingetrokken definitief
+dj 
+is de dikte van de denkbeeldige laag j volgens de opsplitsing in lagen volgens K.1.3, 
+in m; 
+λi;j 
+is de warmtegeleidingscoëfficiënt van sectie a, b, … binnen laag j, in W/(m·K); 
+ 
+Figuur C.1 — Opsplitsing van een samengestelde constructie in secties a, b, … en lagen j 
+en 
+T
+=
+×Δ
+β
+R
+U  
+(C.8) 
+waarin: 
+ΔU is de toeslagfactor voor eventuele convectie, ankers en regenwater/drainage, bepaald 
+volgens 8.2.2.2.2, in W/(m2·K). De toeslagfactor moet worden toegepast als deze meer 
+dan 3 % van de berekende warmtedoorgangscoëfficiënt, UT, bedraagt volgens 
+formule (8.6): 
+1
+T
+T
+=
+U
+R . In andere gevallen bedraagt de toeslagfactor ΔU 0 W/(m2·K). 
+De toeslagfactor ΔU moet worden toegepast als deze meer dan 3 % van de berekende 
+warmtedoorgangscoëfficiënt, UT, bedraagt. UT is de warmtedoorgangscoëfficiënt van de totale 
+constructie zonder correctie op de U-waarde, in W/(m2·K), bepaald volgens 8.2.2.2.1. 
+Als de toeslagfactor ΔU minder dan 3 % van de berekende warmtedoorgangscoëfficiënt, UT, 
+bedraagt, dan is ΔU gelijk aan 0 W/(m2·K). 
+OPMERKING 3 
+UT;a, UT;b, enz. zijn de warmtedoorgangscoëfficiënten van secties van de constructie die 
+worden bepaald uit de ongecorrigeerde warmteweerstanden van deze secties met: 
+T;a,b,...
+T;a,b,....
+1
+=
+U
+R
+ 
+OPMERKING 4 
+Bij de berekening van de warmteweerstand worden tussenresultaten niet, of anders 
+ten minste op drie decimalen, rekenkundig afgerond. De Rc-waarde betreft een eindresultaat en moet 
+rekenkundig op twee decimalen worden afgerond. 
+2
+1
+3
+1
+2
+3
+a
+b
+c
+d
+757
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 758 ---
+Withdrawn final
+Ingetrokken definitief
+Wanneer een warmteweerstand moet worden getoetst aan een met een bepaald aantal decimalen 
+gegeven criterium, dan wordt de aldus berekende Rc-waarde rekenkundig afgerond op het gewenste 
+aantal decimalen. 
+In de bouwregelgeving zijn warmteweerstandseisen opgenomen. Hierbij is aangegeven dat de 
+warmteweerstand ten minste een bepaalde waarde bedraagt. In de bouwregelgeving is de 
+warmteweerstandseis met één decimaal gegeven, bijvoorbeeld een warmteweerstand van ten minste 
+4,7 m2K/W. Een waarde van 4,65 m2K/W wordt afgerond naar 4,7 m2K/W en voldoet dus aan een 
+grenswaarde van 4,7 m2K/W. Een waarde van 4,64 m2K/W wordt afgerond naar 4,6 m2K/W en voldoet 
+dus niet aan een grenswaarde van 4,7 m2K/W. 
+Tabel C.1 — Bepaling weegfactor a′ 
+≤
+×
+T
+T
+'
+1,05
+"
+R
+R
+a’ = 0 
+>
+×
+T
+T
+'
+1,05
+"
+R
+R
+Indien de isolatielaag wordt doorbroken door een 
+materiaal met λ > 0,30 W/(m·K) (bijvoorbeeld 
+steenachtig materiaal) zonder directe thermische 
+afscherming met een isolatielaag met d > 20 mm 
+a’ = 0 
+Indien de isolatielaag wordt doorbroken door een 
+materiaal met 0,15 W/(m·K) < λ ≤ 0,30 W/(m·K) 
+(bijvoorbeeld houtachtig materiaal) zonder directe 
+thermische afscherming met een isolatielaag met 
+een dikte d > 20 mm 
+a’ = 0,5 
+Doorbroken isolatielaag in samengestelde constructie 
+Indien de isolatielaag wordt doorbroken door 
+metalen delen met aan één zijde thermische 
+afscherming met een isolatielaag met een dikte 
+20 mm < d ≤ 30 mm 
+a’ = 0,5 
+Isolatielaag doorbroken door metalen delen, 
+eenzijdig thermisch afgeschermd 
+Alle overige situaties 
+a’ = 1 
+niet-afgeschermd
+indirect
+758
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 759 ---
+Withdrawn final
+Ingetrokken definitief
+ Equivalente warmteweerstand van een (constructie)onderdeel dat een 
+verwarmde ruimte afscheidt van een onverwarmde ruimte, Req 
+De equivalente warmteweerstand Req, in (m2·K)/W, van een constructieonderdeel dat een 
+verwarmde ruimte afscheidt van een onverwarmde ruimte wordt berekend met: 
+se
+si
+eq
+iu;
+eq
+1
+R
+R
+U
+R
+−
+−
+=
+ 
+(C.9) 
+waarin: 
+Uiu;eq is de equivalente warmtedoorgangscoëfficiënt van het onderdeel, in W/(m2·K); 
+Rsi 
+is de warmteovergangsweerstand aan het inwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W; 
+Rse 
+is de warmteovergangsweerstand aan het uitwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W.  
+De equivalente warmtedoorgangscoëfficiënt, Uiu;eq, in W/(m2·K), van een constructieonderdeel 
+dat een verwarmde ruimte afscheidt van een onverwarmde ruimte volgt uit: 
+U
+C
+eq
+iu;
+b
+U
+U
+×
+=
+ 
+(C.10) 
+waarin: 
+UC 
+is de warmtedoorgangscoëfficiënt van het constructieonderdeel, bepaald volgens 
+8.2.2.2.1, in W/(m2·K); 
+bU 
+is de reductiefactor, bepaald volgens 8.4.1. 
+Bij de bepaling van de U-waarde van het constructieonderdeel in formule (C.10) moet worden 
+gerekend met een warmteovergangsweerstand aan de zijde van de uitgaande warmtestroom 
+van Rse = 0,04 (m2·K)/W. De hogere Rse-waarden die in feite gelden voor de uitgaande 
+warmtestroom ter plaatse van de onverwarmde ruimte behoren reeds te zijn verdisconteerd bij 
+de berekening van de reductiefactor bU. 
+In geval van een geventileerde onverwarmde ruimte mag de equivalente warmteweerstand Req, 
+in (m2·K)/W, ook worden berekend met: 
+se
+si
+eq
+iu;
+eq
+R
+R
+R
+R
+−
+−
+=
+ 
+(C.11) 
+waarin: 
+Riu;eq is de equivalente warmteweerstand van het constructieonderdeel tussen de 
+verwarmde ruimte en de geventileerde onverwarmde ruimte, in W/(m2·K), bepaald 
+volgens C.4.3; 
+Rsi 
+is de warmteovergangsweerstand aan de zijde van de ingaande warmtestroom, 
+bepaald volgens C.2, in (m2·K)/W; 
+Rse 
+is de warmteovergangsweerstand aan de zijde van de uitgaande warmtestroom, 
+bepaald volgens C.2, in (m2·K)/W. 
+759
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 760 ---
+Withdrawn final
+Ingetrokken definitief
+C.2 Warmteovergangsweerstand, Rsi en Rse 
+De warmteovergangsweerstanden Rsi en Rse, in (m2·K)/W, worden, tenzij bij desbetreffende 
+formules anders is aangegeven, ontleend aan tabel C.2.  
+OPMERKING 1 
+De in tabel C.2 gegeven warmteovergangsweerstanden zijn overgenomen uit 6.8 van 
+NEN-EN-ISO 6946:2017.  
+OPMERKING 2 
+Voor drijvende bouwwerken wordt transmissie naar water als transmissie naar 
+buitenlucht berekend; hiervoor dient dus met de warmteovergangsweerstand uit tabel C.2 gerekend te 
+worden. 
+Tabel C.2 — Warmteovergangsweerstanden bij verschillende warmtestroomrichtingen 
+Warmteovergangs-
+weerstand 
+Richting van de warmtestroom 
+m2·K/W 
+Omhoog 
+Horizontaal 
+Omlaag 
+Rsi 
+0,10 
+0,13 
+0,17 
+Rse 
+0,04 
+0,04 
+0,04 
+OPMERKING 1 
+De warmteovergangsweerstanden zijn van toepassing op 
+oppervlakken in contact met lucht. Raken oppervlakken een ander materiaal, 
+dan zijn geen warmteovergangsweerstanden van toepassing. 
+OPMERKING 2 
+De waarden voor de warmteovergangsweerstand van 
+binnenwerkse oppervlakken zijn berekend voor ε = 0,9 en met hr0 bij 20 °C. De 
+waarden voor de warmteovergangsweerstand van buitenwerkse oppervlakken 
+zijn berekend voor ε = 0,9, met hr0 bij 10 °C en v = 4 m/s. 
+ 
+OPMERKING 3 De waarden onder ‘horizontaal’ zijn van toepassing op warmtestroomrichtingen tot 
++ 30° en – 30° van het horizontale vlak. De waarden ‘naar beneden’ en ‘naar boven’ zijn van toepassing op 
+warmtestroomrichtingen tot + 60° en – 60° van het verticale vlak. 
+C.3 Warmteweerstand van luchtlagen 
+ Algemeen 
+Onderstaande methode voor de berekening van de warmteweerstand van niet-, zwak en sterk 
+geventileerde luchtlagen, Rcav, in (m2·K)/W, is in overeenstemming met 6.9 van 
+NEN-EN-ISO 6946:2017. Deze rekenmethode is geschikt voor luchtlagen waarbij de luchtlaag: 
+— is gesitueerd tussen twee effectief parallelle oppervlakken loodrecht op de richting van de 
+warmtestroom en met een emissiviteit ε ≥ 0,8;  
+OPMERKING 1 
+De meeste materialen hebben een emissiviteit ε ≥ 0,8. 
+— een dikte (gemeten in de richting van de warmtestroom) heeft kleiner dan 0,1 maal een van 
+de andere luchtlaagdimensies en/of kleiner dan of gelijk aan 0,30 m; 
+— geen luchtuitwisseling heeft met de binnenruimte. 
+Voor situaties die niet voldoen aan bovenstaande condities wordt verwezen naar bijlage D van 
+NEN-EN-ISO 6946:2017. 
+760
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 761 ---
+Withdrawn final
+Ingetrokken definitief
+Bij componenten met luchtlagen met een dikte groter dan 0,30 m moeten geen quasi-
+eendimensionale warmtetransmissieberekeningen worden uitgevoerd. Hiervoor moet gebruik 
+worden gemaakt van berekeningen op basis van een warmtebalans (zie NEN-EN-ISO 13789). 
+Voor de bepaling van de warmteweerstand van luchtlagen wordt bij een sterk geventileerde 
+luchtlaag anders dan een kruipruimte onder de vloer het constructieonderdeel op zodanige 
+wijze getransformeerd dat alle buitenwaarts van die luchtlaag gelegen materiaallagen zijn 
+weggehaald. Wel moet dan voor de warmteovergangsweerstand aan de spouwzijde een 
+buitenovergangsweerstand in rekening worden gebracht die uitgaat van stilstaande lucht. 
+Wat betreft het onderscheid tussen niet-, zwak en sterk geventileerde luchtlagen, wordt 
+aangesloten bij Annex B van NEN-EN-ISO 6946:2017. 
+OPMERKING 2 
+De invloed van open stootvoegen bestemd voor ventilatie in de spouw is 
+verwaarloosbaar voor de totale vochthuishouding van het gemetselde buitenspouwblad. Deze kunnen 
+derhalve achterwege blijven. Open stootvoegen bestemd voor afvoer van doorgeslagen regenwater 
+worden niet als ventilatieopeningen beschouwd. 
+ Niet-geventileerde luchtlagen 
+Een niet-geventileerde luchtlaag is een luchtlaag zonder aangebrachte mogelijkheden voor 
+luchtstroming. Luchtlagen zonder isolatie naar buiten en met kleine openingen naar de 
+buitenlucht kunnen ook als niet-geventileerde luchtlaag worden beschouwd wanneer die 
+openingen niet zo zijn aangebracht dat een luchtstroming door de luchtlaag kan plaatsvinden en 
+wanneer die openingen niet groter zijn dan: 
+— 500 mm2/m luchtlaaglengte in horizontale richting in geval van verticale luchtlagen; 
+— 500 mm2/m2 luchtlaagoppervlakte voor horizontale luchtlagen. 
+OPMERKING 1 
+Open stootvoegen voor waterafvoer in het gemetselde buitenspouwblad voldoen 
+gewoonlijk aan de hierboven genoemde criteria en worden daarom niet als ventilatieopeningen 
+beschouwd.  
+De warmteweerstand van niet-geventileerde luchtlagen Rcav;nv, in (m2·K)/W, wordt ontleend aan 
+tabel C.3 (horizontale warmtestromen) of tabel C.4 (verticale warmtestromen). 
+OPMERKING 2 
+Onder horizontale warmtestromen worden warmtestromen verstaan die niet meer dan 
+30° van het horizontale vlak afwijken. In afwijking hiervan kan voor de bepaling van de 
+warmteweerstand van schuine spouwen in daken gebruik worden gemaakt van de bepalingsmethode in 
+bijlage D van ISO 6946:2017. 
+ Sterk geventileerde luchtlagen 
+Luchtlagen worden als sterk geventileerde luchtlaag beschouwd, wanneer de openingen tussen 
+de luchtlaag en de buitenlucht groter dan of gelijk zijn aan: 
+— 1 500 mm2/m luchtlaaglengte in horizontale richting in geval van verticale luchtlagen; 
+— 1 500 mm2/m2 luchtlaagoppervlakte voor horizontale luchtlagen. 
+De warmteweerstand van een sterk geventileerde luchtlaag Rcav;sv, in (m2·K)/W, wordt bepaald 
+met veronachtzaming van de warmteweerstand van de luchtlaag en alle lagen liggend tussen de 
+luchtlaag en de buitenlucht met inbegrip van stilstaande lucht. In afwijking hiervan mag de 
+waarde voor Rse gelijk worden gesteld aan Rsi volgens tabel C.2.  
+761
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 762 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+Als er sprake is van drukvereffening kan de spouw als ‘sterk geventileerd’ worden 
+beschouwd. Er wordt verondersteld dat er drukvereffening optreedt op het moment dat de openingen 
+tussen de luchtlaag en de buitenlucht een oppervlakte van niet meer dan 15 % van de totale oppervlakte 
+bedragen. Als er geen drukvereffening optreedt, dan is er geen sprake van een sterk geventileerde 
+luchtlaag en wordt de situatie beoordeeld als ware er geen luchtlaag. 
+Zwak geventileerde luchtlagen 
+Luchtlagen worden als zwak geventileerde luchtlaag beschouwd, wanneer de openingen AV, in 
+mm2/m, of mm2/m2, tussen de luchtlaag en de buitenlucht, binnen de volgende bandbreedte 
+vallen: 
+— ≥ 500 mm2/m maar < 1 500 mm2/m luchtlaaglengte in horizontale richting in geval van 
+verticale luchtlagen; 
+— ≥ 500 mm2/m2 maar < 1 500 mm2/m2 luchtlaagoppervlakte voor horizontale luchtlagen. 
+De warmteweerstand van een zwak geventileerde luchtlaag Rcav;zv, in (m2·K)/W, wordt bepaald 
+volgens: 
+(
+)
+(
+)
+sv
+cav;
+V
+nv
+cav;
+V
+cav;zv
+000
+1
+500
+000
+1
+500
+1
+R
+A
+R
+A
+R
+×
+−
++
+×
+−
+=
+(C.12) 
+waarin: 
+Rcav;nv is de warmteweerstand van een niet-geventileerde luchtlaag, bepaald volgens C.3.2, 
+in (m2·K)/W; 
+Rcav;sv 
+is de warmteweerstand van een sterk geventileerde luchtlaag, bepaald volgens 
+C.3.3, in (m2·K)/W. 
+ Bepaling van de warmteweerstand van luchtlagen bij gebruik van 
+reflecterende folies 
+C.3.5.1 Verticale spouwen met reflecterende folies 
+De totale warmteweerstand RT, in (m2·K)/W, van een verticale spouw met reflecterende 
+isolatielagen volgt uit: 
+(
+)
+se
+ecl
+cav
+iso
+nv
+cav;
+icl
+si
+T
+R
+R
+R
+R
+R
+R
+R
+R
++
++
++
++
++
++
+=
+(C.13) 
+OPMERKING 1 
+Rcav;nv alleen indien van toepassing. 
+OPMERKING 2 
+NEN-EN-ISO 6946:2017 definieert in 6.9.2 horizontale warmtestroom als een 
+warmtestroom met een richting binnen +/– 30° ten opzichte van het horizontale vlak. In afwijking 
+hiervan kan voor de bepaling van de warmteweerstand van schuine spouwen in daken gebruik worden 
+gemaakt van de bepalingsmethode in bijlage D van ISO 6946:2017. 
+waarin: 
+Rsi 
+is de warmteovergangsweerstand aan het inwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W; 
+762
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 763 ---
+Withdrawn final
+Ingetrokken definitief
+Ricl 
+is de warmteweerstand van het binnenspouwblad (icl), in (m2·K)/W; 
+icl
+icl
+icl
+λ
+d
+R
+=
+; waarbij λicl wordt bepaald als λcalc overeenkomstig E.2. 
+Riso  
+is de warmteweerstand van de isolatielaag (iso) in (m2·K)/W;
+  
+iso
+iso
+iso
+λ
+d
+R
+=
+; waarbij λiso wordt bepaald als λcalc overeenkomstig E.2. 
+Rcav 
+is de warmteweerstand van een verticale spouw met reflecterende isolatielagen 
+(zoals reflecterende folies), in (m2·K)/W, bepaald met inachtneming van C.3.2, C.3.3 
+en/of C.3.4, volgens bijlage D van NEN-EN-ISO 6946:2017, dan wel te ontlenen aan 
+tabel C.3.  
+ 
+De emissiviteit van verticale reflecterende lagen wordt bepaald overeenkomstig 
+NEN-EN 16012, waarbij voor veroudering een toeslag Δε =0,00 en voor vervuiling 
+een toeslag Δε = 0,04 moet worden gehanteerd. 
+In geval van een hermetisch afgesloten spouw of ruimte moet voor vervuiling een 
+toeslag van Δε = 0,00 worden gehanteerd; 
+ 
+OPMERKING 3 
+De toeslag voor veroudering Δε is 0,00 aangezien deze al in 
+NEN-EN 16012 is verwerkt. 
+Rcav;nv 
+is de warmteweerstand van een niet-geventileerde spouw (zie Rcav);  
+Recl 
+is de warmteweerstand van het buitenspouwblad (ecl), in (m2·K)/W; 
+ecl
+ecl
+ecl
+λ
+d
+R
+=
+ waarbij λecl wordt bepaald als λcalc overeenkomstig E.2; 
+Rse 
+is de warmteovergangsweerstand aan het uitwendig oppervlak, bepaald volgens 
+C.2, in (m2·K)/W.  
+763
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 764 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel C.3 — Warmteweerstand van een verticale spouw 
+Richting warmtestroom horizontaal 
+Laag van reflecterende folie(s) 
+ 
+Reflecterende folie als cachering 
+ 
+ 
+Legenda 
+a 
+reflecterende folie; zie tabel E.13 voor RD;for;folie 
+d  
+mm 
+Rsi 
+(m2·K)/W 
+Rcav a e 
+(m2·K)/W 
+Rse 
+(m2·K)/W 
+Niet 
+Zwak 
+Sterk b 
+Rcav;nv 
+Rcav;zv d 
+Rcav;sv 
+≥ 20 c 
+Zie tabel C.2 
+0,18 (0,57) 
+0,15 (0,40) 
+- 
+Zie tabel C.2 en 
+voetnoot b 
+onder in deze 
+tabel 
+a 
+Waarden tussen haakjes met inbegrip van toeslag voor reflecterende folie (a), (b) met emissiviteit 
+ε ≤ 0,1 (inclusief vervuiling en veroudering). 
+b 
+Volgens C.3.3 (zie ook 6.9.4 van NEN-EN-ISO 6946:2017) moeten voor de berekening van de 
+warmteweerstand bij sterk geventileerde luchtlagen Rcav, Recl en Rse worden uitgesloten en moet 
+hiervoor een buitenovergangsweerstand die overeenkomt met stilstaande lucht, berekend volgens 
+bijlage C van NEN-EN-ISO 6946:2017, worden gebruikt: 0,12 m2K/W (respectievelijk 0,22 m2K/W 
+bij een reflecterende laag met een ε ≤ 0,1). 
+Voor het bepalen van de Rc-waarde volgens formule (C.1) moet Rse worden bepaald volgens C.2. 
+c 
+In hoofdstuk 8 wordt (het effect van) een luchtspouw met een dikte d < 20 mm niet expliciet 
+uitgewerkt. Zie hiervoor ook D.2. 
+Tabel 8 van NEN-EN-ISO 6946:2017 geeft voor luchtspouwen zonder reflecterende folies ook 
+waarden voor Rcav;nv voor spouwdikten met d < 20 mm.  
+d 
+De hier gegeven waarden voor Rcav;zv gelden als gemiddelde waarden en zijn berekend voor 
+luchtlagen met een opening tussen de luchtlaag en de buitenlucht van AV = 1 000 mm2/m; zie C.3.4 
+voor de berekening van Rcav;zv. 
+e 
+Volgens D.2 van NEN-EN-ISO 6946:2017 moet bij het bepalen van Rcav van een spouw zonder 
+reflecterende folie worden gerekend met ε1 = 0,9,  ε2 = 0,9 en hr0 = 10 °C.  
+ 
+d > 20 mm
+d > 20 mm
+Rsi
+Riso = RD;for
+Rse
+Ricl
+Recl
+Rcav;nv
+Rcav
+a
+Rcav
+Rsi
+Ricl
+Riso
+Rcav;nv
+Recl
+Rse
+a
+RD;for;folie
+Riso
+Rcav
+d > 20 mm
+d > 20 mm
+764
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 765 ---
+Withdrawn final
+Ingetrokken definitief
+C.3.5.2 Horizontale spouwen met reflecterende folies 
+De totale warmteweerstand RT, in (m2·K)/W, van een constructie met daarin één of meer 
+horizontale spouwen met reflecterende isolatielagen volgt uit: 
+(
+)
+se
+ecl
+cav
+iso
+nv
+cav;
+icl
+si
+T
+R
+R
+R
+R
+R
+R
+R
+R
++
++
++
++
++
++
+=
+ 
+(C.14) 
+OPMERKING 1 
+Rcav;nv alleen indien van toepassing. 
+OPMERKING 2 
+NEN-EN-ISO 6946:2017 definieert in 6.9.2 horizontale warmtestromen als 
+warmtestromen met een richting binnen +/– 30° ten opzichte van het horizontale vlak. In lijn daarmee 
+kan worden gesteld dat in het geval dat een luchtspouw meer dan 30° afwijking vertoont, het horizontale 
+vlak als verticale spouw wordt beschouwd. In afwijking hiervan kan voor de bepaling van de 
+warmteweerstand van schuine spouwen in daken gebruik worden gemaakt van de bepalingsmethode in 
+bijlage D van ISO 6946:2017.  
+waarin: 
+Rsi 
+is de warmteovergangsweerstand aan het inwendig oppervlak, bepaald volgens C.2, 
+in (m2·K)/W; 
+Ricl 
+is de warmteweerstand van het binnenspouwblad (icl), in (m2·K)/W; 
+icl
+icl
+icl
+λ
+d
+R
+=
+; waarbij λicl wordt bepaald als λcalc overeenkomstig E.2. 
+Riso 
+is de warmteweerstand van de isolatielaag (iso) in (m2·K)/W;
+  
+iso
+iso
+iso
+λ
+d
+R
+=
+; waarbij λiso wordt bepaald als λcalc overeenkomstig E.2. 
+Rcav 
+is de warmteweerstand van een verticale spouw met reflecterende isolatielagen 
+(zoals reflecterende folies), in (m2·K)/W, bepaald met inachtneming van C.3.2, C.3.3 
+en/of C.3.4 volgens bijlage D van NEN-EN-ISO 6946:2017, dan wel te ontlenen aan 
+tabel C.4.  
+ 
+De emissiviteit van horizontale reflecterende lagen wordt bepaald overeenkomstig 
+NEN-EN 16012. In geval van naar boven gerichte lagen wordt in verband met 
+vervuiling en veroudering een emissiviteitseffect verwaarloosd waarbij als 
+rekenwaarde ε = 0,9 wordt gehanteerd, tenzij sprake is van een hermetisch 
+afgesloten spouw of ruimte. In dat geval en in geval van naar beneden gerichte 
+reflecterende lagen wordt voor veroudering en vervuiling een toeslag Δε = 0,00 
+gehanteerd. 
+OPMERKING 3 
+De toeslag voor veroudering Δε is 0,00 aangezien deze al in 
+NEN-EN 16012 is verwerkt. In geval van een hermetisch afgesloten spouw of ruimte is de 
+toeslag voor vervuiling Δε 0,00. 
+Rcav;nv 
+is de warmteweerstand van een verticale spouw (zie Rcav); 
+Recl 
+is de warmteweerstand van het buitenspouwblad (ecl), in (m2·K)/W; 
+ecl
+ecl
+ecl
+λ
+d
+R
+=
+ waarbij λecl wordt bepaald als λcalc overeenkomstig E.2. 
+Rse 
+is de warmteovergangsweerstand aan het uitwendig oppervlak, bepaald volgens 
+C.2, in (m2·K)/W.  
+765
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 766 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel C.4 — Warmteweerstand van een horizontale spouw 
+Richting warmtestroom naar boven 
+Richting warmtestroom naar beneden 
+Legenda 
+a  
+reflecterende folie; zie tabel E.13 voor RD;for;folie. 
+b  
+reflecterende folie; reflecterende lagen die omhoog zijn gericht in een al dan niet verwarmde ruimte 
+worden geacht onderhevig te zijn aan slijtage en vervuiling. In dat geval wordt geen toeslag berekend. Ook 
+bij verticale reflecterende lagen is denkbaar dat door afdekking de positieve werking van reflecterende 
+lagen teniet wordt gedaan. Alleen wanneer deze reflecterende lagen in een hermetisch afgesloten spouw 
+zijn aangebracht kan reflectie een rol spelen in de beperking van de warmteoverdracht; in dat geval: zie 
+tabel E.13 voor RD;for;folie. 
+d c 
+mm 
+Rsi
+(m2·K)/W 
+Rcav a, e
+(m2·K)/W 
+Rse a 
+(m2·K)/W
+Rsi a 
+(m2·K)/W
+Rcav a, e
+(m2·K)/W
+Rse
+(m2·K)/W 
+Niet 
+Zwak 
+Sterk b  
+Niet 
+Zwak 
+Sterk b 
+Rcav;nv 
+Rcav;zvd 
+Rcav;sv 
+Rcav;nv 
+Rcav;zvd 
+Rcav;sv 
+20 
+Zie tabel 
+C.2 
+0,16 
+(0,41) 
+0,14 
+(0,31) 
+- 
+0,04 
+(0,05) 
+0,17 
+ 
+0,18 
+(0,57) 
+0,15 
+(0,40) 
+- 
+Zie 
+tabel C.2 
+en 
+voetnoot b 
+onder in 
+deze tabel 
+25 
+0,19 
+(0,66) 
+0,15 
+(0,44) 
+- 
+50 
+0,21 
+(0,99) 
+0,16 
+(0,61) 
+- 
+100 
+0,22 
+(1,19) 
+0,17 
+(0,71) 
+- 
+300 
+0,23 
+(1,40) 
+0,17 
+(0,81) 
+- 
+a 
+Waarden betrokken op ε1 = 0,9 en op ε2 = 0,9; de waarden tussen haakjes zijn inclusief de toeslag voor 
+reflecterende folie (a) met emissiviteit ε ≤ 0,1 (met inbegrip van vervuiling en veroudering) en betrokken op 
+ε1 = 0,9 en op ε2 = 0,1. 
+b  Volgens C.3.3 (zie ook 6.9.4 van NEN-EN-ISO 6946:2017) moeten voor de berekening van de warmteweerstand 
+bij sterk geventileerde luchtlagen Rcav, Recl en Rse worden uitgesloten en moet hiervoor een 
+buitenovergangsweerstand die overeenkomt met stilstaande lucht, berekend volgens bijlage C van 
+NEN-EN-ISO 6946:2017, worden gebruikt: 
+— Warmtestroom omhoog: 0,1 m2K/W. 
+— Warmtestroom omlaag: 0,19 m2K/W (respectievelijk 0,83 m2K/W bij een reflecterende laag met ε ≤ 0,1). 
+Voor het bepalen van de Rc-waarde volgens formule (C.1) moet Rse worden bepaald volgens C.2. 
+c 
+In hoofdstuk 8 wordt (het effect van) een luchtspouw met een dikte d < 20 mm niet expliciet uitgewerkt. Tabel 8 
+van NEN-EN-ISO 6946:2017 geeft voor luchtspouwen zonder reflecterende folies ook waarden voor Rcav;nv voor 
+spouwdikten met d < 20 mm.  
+In voorkomende gevallen kan Rcav worden berekend op basis van NEN-EN-ISO 6946. 
+d 
+De hier gegeven waarden voor Rcav;zv gelden als gemiddelde waarden en zijn berekend voor luchtlagen met een 
+opening tussen de luchtlaag en de buitenlucht van AV = 1 000 mm2/m2 ; zie C.3.4 voor de berekening van Rcav;zv.
+e 
+Volgens D.2 van NEN-EN-ISO 6946:2017 moet bij het bepalen van Rcav van een spouw zonder reflecterende folie 
+worden gerekend met ε1 = 0,9, ε2 = 0,9 en hr0 = 10° C. 
+Rsi
+Ricl
+Riso
+Recl
+Rse
+Rcav
+Rcav;nv
+a
+RD;for;folie
+b
+Rcav
+Rcav;nv
+Rse
+Recl
+Riso
+Ricl
+Rsi
+b
+RD;for;folie
+a
+766
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 767 ---
+Withdrawn final
+Ingetrokken definitief
+C.4 Warmteweerstand van geventileerde, onverwarmde ruimten 
+ Algemeen 
+Voor situaties waar het scheidingsvlak tussen een onverwarmde ruimte en de buitenlucht niet 
+is geïsoleerd, kan de warmteweerstand van de constructie RC, in (m2·K)/W, worden bepaald 
+door de onverwarmde ruimte als warmteweerstand te beschouwen, overeenkomstig C.4.2 voor 
+zogenoemde ‘kapruimten’, of C.4.3 voor andere ruimten. 
+OPMERKING 1 
+Zie hoofdstuk 8.4 voor de algemene, meer exacter rekenmethoden voor de berekening 
+van warmteverlies via onverwarmde ruimten; zie paragraaf 8.3 voor het warmteverlies via een 
+kruipruimte.  
+OPMERKING 2 
+De overeenkomstig C.4.2 en C.4.3 berekende warmteweerstanden zijn geschikt voor 
+warmtetransmissieberekeningen maar niet voor berekening gericht op de hygrothermische condities van 
+de onverwarmde ruimte.  
+OPMERKING 3 
+De hieronder gegeven bepalingsmethoden zijn ontleend aan NEN-EN-ISO 6946. 
+ Kapruimten 
+Met ‘kapruimte’ wordt een aangrenzend onverwarmde ruimte (AOR) onder een dakconstructie 
+en boven de scheidingsconstructie met een onderliggende verwarmde ruimte bedoeld. Voor een 
+dakconstructie die bestaat uit een plat, geïsoleerd plafond en een schuin dak mag de kapruimte 
+worden beschouwd alsof het een thermisch homogene laag is, met een warmteweerstand zoals 
+is aangegeven in tabel C.5. . 
+Tabel C.5 — Warmteweerstand (Rm) van kapruimten 
+Kenmerken van het dak 
+Rm 
+(m2·K)/W 
+1 
+Pannendak zonder dakvilt, dakbeschot en dergelijke 
+0,06 
+2 
+Leiendak of pannendak met dakvilt, dakbeschot en dergelijke onder 
+de pannen 
+0,2 
+3 
+Als 2, maar met reflecterende folie of een andere laag met een 
+emissiviteit ε < 0,1 onder de pannen 
+0,3 
+4 
+Dak voorzien van dakbeschot en dakvilt 
+0,3 
+OPMERKING 
+De waarden in deze tabel omvatten zowel de warmteweerstand van de geventileerde ruimte 
+als de warmteweerstand van de (schuine) dakconstructie. De in deze tabel gegeven warmteweerstanden zijn 
+exclusief de overgangsweerstand buiten (Rse). 
+ 
+De in tabel C.5 gegeven waarden hebben betrekking op natuurlijk geventileerde kapruimten van 
+verwarmde gebouwen. Voor mechanisch geventileerde kapruimten moet de rekenprocedure 
+overeenkomstig 8.4 worden gevolgd.  
+ Overige ruimten 
+De warmteweerstand Riu;eq, in (m2·K)/W, van een constructieonderdeel tussen een verwarmde 
+ruimte en een geventileerde onverwarmde ruimte kan worden berekend door de geventileerde, 
+onverwarmde ruimte inclusief de uitwendige scheidingsconstructie van de onverwarmde 
+ruimte als additionele homogene laag te beschouwen: 
+767
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 768 ---
+Withdrawn final
+Ingetrokken definitief
+(
+)
+∑
+∑
+=
+×
+×
++
+×
+=
+m
+k
+k
+k
+i
+V
+n
+U
+A
+A
+R
+1
+e;
+e;
+eq
+iu;
+33
+,0
+ 
+(C.15) 
+waarin: 
+∑Ai 
+is de totale oppervlakte van alle elementen (i) die de scheidingsconstructie vormen 
+tussen de verwarmde en de onverwarmde ruimte, in m2; 
+Ae;k 
+is de oppervlakte van het element (k) dat deel uitmaakt van de scheidingsconstructie 
+tussen de onverwarmde ruimte en de buitenlucht, in m2; 
+Ue;k 
+is de warmtedoorgangscoëfficiënt van het element (k) dat deel uitmaakt van de 
+scheidingsconstructie tussen de onverwarmde ruimte en de buitenlucht, berekend 
+volgens 8.2.2, in W/(m2·K); 
+n 
+is het ventilatievoud van de onverwarmde ruimte, in h–1; forfaitair mag voor n de 
+waarde 0,3 worden gebruikt; 
+OPMERKING 1 
+Dit kan alleen bij onverwarmde ruimten. 
+V 
+is het volume van de onverwarmde ruimte, in m3.  
+De scheidingsconstructie tussen de onverwarmde ruimte en de grond wordt bij de berekening 
+van Riu;eq niet meegenomen. 
+Wanneer gegevens met betrekking tot de warmtedoorgangscoëfficiënt van de 
+constructieonderdelen van de onverwarmde ruimte niet bekend zijn, mag Ue;k = 2 W/(m2·K) 
+worden gehanteerd. Is het ventilatievoud van de onverwarmde ruimte onbekend, dan mag 
+n = 0,3 h–1 worden aangehouden. 
+OPMERKING 2 
+Indien de scheidingsconstructie tussen de verwarmde en de onverwarmde ruimte uit 
+meer dan één component bestaat, dan wordt Riu;eq betrokken in de berekening van de 
+warmtedoorgangscoëfficiënt van elke component.  
+OPMERKING 3 
+Formule (C.15) is gebaseerd op de rekenprocedure voor de berekening van het 
+warmteverlies door onverwarmde ruimten van NEN-EN-ISO 13789.  
+ Dak met afschotisolatie 
+OPMERKING 
+De hieronder gegeven bepalingsmethode is gebaseerd op bijlage E van 
+NEN-EN-ISO 6946:2017. 
+De warmteweerstand van een dak met afschotisolatie is afhankelijk van het aantal en de aard 
+van de verschillende typen constructieonderdelen. Figuur C.2 geeft een voorbeeld van het 
+opsplitsen van een dak met afschotisolatie in de verschillende constructieonderdelen als 
+omschreven in figuur C.3. 
+768
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 769 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Legenda 
+1 
+rechthoekig grondvlak (type 1) 
+2 
+driehoekig grondvlak met afschot in de richting van brede basis (type 2) 
+3 
+driehoekig grondvlak met afschot in de richting van punt in basis (type 3) 
+Figuur C.2 — Voorbeeld van opsplitsen van dak met afschot 
+De wamtedoorgangscoëfficiënt UT, in W/(m2·K), van het dak met afschotisolatie waarvan de 
+hellingshoek niet groter is dan 5 % wordt bepaald volgens 
+(
+)
+×
+= ∑
+∑
+T,
+T
+i
+i
+i
+i
+i
+A
+U
+U
+A
+ 
+(C.16) 
+waarin: 
+Ai 
+is de oppervlakte van het constructieonderdeel i, in m2; 
+UT,i is de warmtedoorgangscoëfficiënt van het constructieonderdeel i, in W/(m2·K), 
+bepaald, voor de in figuur C.3 onderscheiden typen, volgens: 
+Type 1: 
+
+
+=
+×
++
+
+
+
+
+2
+T
+2
+0
+1
+ln 1
+R
+U
+R
+R
+ 
+(C.17) 
+Type 2: 
+
+
+
+
+
+
+=
+×
++
+×
++
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+2
+T
+2
+2
+0
+2
+1
+ln 1
+1
+R
+R
+U
+R
+R
+R
+ 
+(C.18) 
+Type 3: 
+
+
+
+
+=
+×
+−
+×
++
+
+
+
+
+
+
+
+
+
+
+0
+2
+T
+2
+2
+0
+2
+1
+ln 1
+R
+R
+U
+R
+R
+R
+ 
+(C.19) 
+769
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 770 ---
+Withdrawn final
+Ingetrokken definitief
+Type 4: 
+(
+)
+
+
+
+
+
+
+
+
++
+×
+×
++
+−
+×
+×
++
++
+×
+×
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+=
+× 
+
+×
+×
+−
+
+
+
+
+
+
+0
+2
+2
+1
+0
+1
+0
+2
+1
+2
+0
+0
+0
+1
+T
+1
+2
+2
+1
+ln 1
+ln 1
+ln
+2
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+U
+R
+R
+R
+R
+(C.20) 
+waarin: 
+R0 is de warmteweerstand van de basisconstructie, inclusief de 
+warmteovergangsweerstanden aan beide zijden van het constructieonderdeel, maar 
+zonder het taps toelopende gedeelte van de isolatie, bepaald als RT volgens C.1.2, in 
+(m2·K)/W;  
+R1 is de warmteweerstand ter plaatse van de tussenliggende dikte van het taps toelopend 
+deel van het constructieonderdeel in (m2·K)/W, met 
+λ
+=
+1
+1
+calc;t
+d
+R
+(C.21) 
+R2 is de warmteweerstand ter plaatse van de grootste dikte van het taps toelopend deel 
+van het constructieonderdeel in (m2·K)/W, met 
+λ
+=
+2
+2
+calc;t
+d
+R
+(C.22) 
+d1 
+is de tussenliggende dikte van het taps toelopend deel van het constructieonderdeel, 
+in m; 
+d2 
+is de grootste dikte van het taps toelopend deel van het constructieonderdeel, in m; 
+λcalc;t  is de warmtegeleidingscoëfficiënt van het isolatiemateriaal van het taps toelopend 
+deel van het constructieonderdeel, in W/(m·K); 
+Rsi  
+is de warmteovergangsweerstand aan de zijde van de ingaande warmtestroom, 
+bepaald volgens C.2, in (m2·K)/W; 
+Rse 
+is de warmteovergangsweerstand aan de zijde van de uitgaande warmtestroom, 
+bepaald volgens C.2, in (m2·K)/W. 
+De warmteweerstand van een dak met afschotisolatie waarvan de hellingshoek groter is dan 
+5 % moet met een numerieke rekenmethode worden bepaald. 
+770
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 771 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Legenda 
+1 
+rechthoekig grondvlak (type 1) 
+2 
+driehoekig grondvlak, hoogste punt in de top (type 2) 
+3 
+driehoekig grondvlak, hoogste punt aan basis (type 3) 
+4 
+driehoekig grondvlak, verschillende dikte op hoekpunten (type 4) 
+R0 
+warmteweerstand van de basis van het constructieonderdeel, inclusief de 
+warmteovergangsweerstanden aan beide zijden van het constructieonderdeel, maar zonder het 
+taps toelopende isolatiegedeelte 
+R1 
+warmteweerstand ter plaatse van de tussenliggende dikte van het taps toelopend deel van het 
+constructieonderdeel 
+R2 
+warmteweerstand ter plaatse van de grootste dikte van het taps toelopend deel van het 
+constructieonderdeel 
+d1 
+tussenliggende dikte van het taps toelopend deel van het constructieonderdeel 
+d2 
+grootste dikte van het taps toelopend deel van het constructieonderdeel 
+Figuur C.3 — Verschillende typen taps toelopende onderdelen van een dak met 
+afschotisolatie 
+2
+0
+2
+0
+2
+2
+0
+1
+2
+1
+0
+1
+2
+3
+4
+2
+2
+2
+771
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 772 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage D 
+(normatief) 
+ 
+Bepaling van maandelijkse warmtetransmissiecoëfficiënten, Hg;mi 
+D.1 Bepaling van de maandelijkse thermische koppelingscoëfficiënten 
+De maandgemiddelde, stationaire warmteverliescoëfficiënt via de grond in maand mi, Hg;mi, in 
+W/K, wordt berekend met: 
+g;an;
+i;
+e;avg;an
+mi
+mi
+mi
+H
+θ
+θ
+Φ
+=
+−
+ 
+(D.1) 
+OPMERKING 1 Deze formule is ontleend aan C.7 van NEN-EN-ISO 13370:2017. 
+OPMERKING 2 In formule (D.1) wordt het jaarlijks gemiddelde temperatuurverschil gebruikt omdat het 
+verschil tussen interne en externe temperatuur per maand gelijk kan zijn aan nul. Hg;an,m wordt gebruikt 
+met het verschil tussen de interne temperatuur in maand m en de jaarlijks gemiddelde externe 
+temperatuur. 
+waarin: 
+θi;mi 
+is de maandgemiddelde binnentemperatuur in maand mi, in °C; 
+hiervoor wordt de setpointtemperatuur voor verwarming, θint;set;H;stc;zi, voor de 
+desbetreffende gebruiksfunctie gehanteerd, bepaald volgens 7.9.4.1; 
+θe;avg;an   is de jaargemiddelde buitentemperatuur, bepaald volgens 17.2, in °C; 
+Φmi 
+is de gemiddelde warmtestroom via de grond in maand mi, bepaald volgens D.2.1, 
+in W. 
+Seizoensgebonden waarden aangepast aan het gemiddelde temperatuurverschil van het 
+verwarmingseizoen worden gegeven door de onderstaande formule: 
+(
+)
+(
+)
+θ
+θ
+θ
+θ
+−
+=
+×
+⋅
+−
+∑
+∑
+g;an;
+int;set;H;stc
+e;avg;
+H;g;adj
+int;set;H;stc
+e;an
+6
+6
+;
+;
+mi
+mi
+mi H
+mi H
+H
+H
+ 
+(D.2) 
+waar mi;H staat voor de som van de periode oktober tot en met maart.  
+Seizoensgebonden waarden aangepast aan het gemiddelde temperatuurverschil van het 
+koelseizoen worden gegeven door de onderstaande formule: 
+(
+)
+(
+)
+θ
+θ
+θ
+θ
+−
+=
+×
+⋅
+−
+∑
+∑
+g;an;
+int;set;C;stc
+e;avg;
+C;g;adj
+int;set;C;stc
+e;an
+6
+6
+;
+;
+mi
+mi
+mi C
+mi C
+H
+H
+ 
+(D.3) 
+waar mi;C staat voor de som van de periode april tot en met september.  
+OPMERKING 3 HH;g;adj en HC;g;adj worden gebruikt voor de tijdconstanteberekening van het gebouw of de 
+rekenzone.  
+772
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 773 ---
+Withdrawn final
+Ingetrokken definitief
+D.2 Maandelijkse warmtestroom via de grond 
+ Bepalingsmethode voor de maandelijkse warmtestroom via de grond 
+De getalswaarde van de maandelijkse warmtestroom via de grond, Φmi, in W, wordt bepaald 
+met: 
+(
+)
+(
+)
+(
+)
+ˆ
+ˆ
+
+
+
+
+
+
+
+
+
+
+
+
+g
+i
+e
+pi
+i
+pe
+e
+-
++
+-
+-
+=
+×
+-
+-
+×
+×cos 2π×
++
+×
+×cos 2π×
+12
+12
+mi
+mi τ
+α
+mi τ β
+Φ
+H
+θ
+θ
+H
+θ
+H
+θ
+(D.4) 
+OPMERKING 1 
+De formule is ontleend aan C.2 van NEN-EN-ISO 13370:2017. 
+waarin: 
+Hg is de stationaire warmteverliescoëfficiënt via de grond, bepaald volgens 8.3, in W/K; 
+Hpi is de periodieke warmteverliescoëfficiënt door variatie van de 
+binnenluchttemperatuur, bepaald volgens D.2.2, in W/K; 
+Hpe is de periodieke warmteverliescoëfficiënt door variatie van de buitenluchttemperatuur, 
+bepaald volgens D.2.2, in W/K; 
+iθ  is de getalswaarde van de jaargemiddelde binnenluchttemperatuur, in °C; 
+voor de binnenluchttemperatuur van verwarmde ruimten, 
+iθ worden temperaturen 
+gehanteerd: 
+— woningen 
+iθ  = 20 °C; 
+— utiliteitsgebouwen: overeenkomstig θint;set;H voor de desbetreffende gebruiksfunctie 
+uit tabel 7.11; 
+e
+θ  is de getalswaarde van de jaargemiddelde buitenluchttemperatuur, in °C, op basis van 
+NEN 5060 geldt 
+e
+θ = 10,67 °C; 
+iˆθ  is de amplitude van de jaarvariatie in de maandgemiddelde binnenluchttemperatuur,
+in K, waarvoor geldt 
+iˆθ = 2 K;
+e
+ˆθ
+ is de amplitude van de jaarvariatie in de maandgemiddelde buitenluchttemperatuur,
+in K, op basis van NEN 5060 geldt 
+e
+ˆθ
+= 7,9 K;
+mi is het nummer van de kalendermaand; 
+τ 
+is het nummer van de kalendermaand met de laagste maandgemiddelde 
+buitenluchttemperatuur; op basis van NEN 5060 geldt τ = 1; 
+α 
+is de getalswaarde van de verschuiving van de tijd, in maanden, van de variatie in 
+warmtetransport ten opzichte van de variatie van de buitenluchttemperatuur, ontleend 
+aan tabel D.1; 
+β 
+is de getalswaarde van de tijdvertraging, in maanden, van de warmtetransportvariatie 
+ten opzichte van de binnenluchttemperatuurvariatie, ontleend aan tabel D.1. 
+OPMERKING 2 
+In Hpi en Hpe is het effect van lineaire warmteverliezen aan de vloerranden verwerkt. 
+773
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 774 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel D.1 —Faseverschuiving warmtetransport naar de grond (in maanden) 
+Type vloer 
+α 
+β 
+Vloer direct op ondergrond, randen verticaal geïsoleerd of 
+horizontaal buiten geïsoleerd met RC ≥ 2,0 (m2·K)/W 
+0 
+2 
+Vloer boven kruipruimte 
+0 
+0 
+Alle overige gevallen 
+0 
+1 
+OPMERKING 1 Zowel geïsoleerde als ongeïsoleerde vloeren direct op de grond 
+zonder randisolatie (verticale randisolatie, of horizontale isolatie van de rand groter 
+dan de rest van de isolatie van de vloer) vallen onder ‘Alle overige gevallen'. 
+OPMERKING 2 Deze tabel is ontleend aan tabel H.2 van NEN-EN-ISO 13370:2017. 
+ Periodieke warmtetransmissiecoëfficiënt door variatie van de binnen- en 
+buitentemperatuur 
+D.2.2.1 Algemeen 
+De periodieke warmtetransmissiecoëfficiënten zijn gerelateerd aan de periodieke 
+penetratiediepte. De periodieke penetratiediepte δ is gedefinieerd als de diepte waar de 
+temperatuuramplitude met een factor 0,37 (= e–1) is gedaald. 
+Voor de berekening van periodieke warmtetransmissiecoëfficiënten Hpi en Hpe moet worden 
+gerekend met een periodieke penetratiediepte δ = 3 m. 
+D.2.2.2 Vloer op of boven het maaiveld, direct op de ondergrond 
+De periodieke warmtetransmissiecoëfficiënt door variatie van de binnentemperatuur, Hpi 
+in W/K voor vloeren direct op de ondergrond volgt uit: 
+(
+)
+gr
+pi
+2
+f;equi
+f;equi
+2
+1
+/
+1
+i
+H
+A
+d
+d
+λ
+δ
+=
+×
+×
++
++
+(D.5) 
+OPMERKING 1 
+De formule (D.5) is overeenkomstig H.4.1 van NEN-EN-ISO 13370:2017. 
+waarin: 
+Ai 
+is de binnenwerkse oppervlakte van de vloer van rekenzone i, in m2; 
+df;equi is de totale equivalente dikte van de vloer bepaald volgens 8.3.2.3, in m; 
+δ 
+is de periodieke penetratiediepte, overeenkomstig D.2.2.1, in m; 
+λgr 
+warmtegeleidingscoëfficiënt van de ondergrond, ontleend aan 8.3.2.4.1, in W/(m·K). 
+Maak voor de bepaling van de periodieke warmtetransmissiecoëfficiënt door variatie van de 
+buitentemperatuur Hpe, in W/K voor een vloer op of boven het maaiveld direct op de 
+ondergrond onderscheid in de volgende situaties: 
+a) vloer zonder isolatie of geheel met isolatie
+774
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 775 ---
+Withdrawn final
+Ingetrokken definitief
+pe
+gr
+f;equi
+0,37
+ln
+1
+δ
+λ
+
+
+=
+×
+×
+×
++
+
+
+
+
+
+
+H
+P
+d
+ 
+(D.6) 
+OPMERKING 2 De formule (D.6) is overeenkomstig H.4.2 van NEN-EN-ISO 13370:2017. 
+b) vloer met randisolatie 
+—  vloer waarbij isolatie aan de randzone dikker is dan in het midden: 
+(
+)
+(
+)
+(
+)
+f;equi
+f;equi
+/
+2
+/
+pe
+f;equi
+f;equi
+0,37
+1
+e
+ln
+1
+e
+ln
+1
+'
+d
+d
+H
+P
+d
+d
+d
+δ
+δ
+δ
+δ
+λ
+−
+−
+×
+
+
+
+
+
+
+=
+×
+×
+×
+−
++
++
+×
++
+
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+(D.7) 
+— vloer met verticale isolatie ter plaatse van vloerrand (of fundering): 
+(
+)
+(
+)
+(
+)
+f;equi
+f;eq
+/
+/
+pe
+gr
+f;equi
+f;equi
+0,37
+1 e
+ln
+1
+e
+ln
+1
+'
+δ
+δ
+δ
+δ
+λ
+−
+−
+
+
+
+
+
+
+=
+×
+×
+×
+−
++
++
+×
++
+
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+d
+d
+H
+P
+d
+d
+d
+(D.8) 
+OPMERKING 3 
+De formules (D.7) en (D.8) zijn overeenkomstig H.5.2 van NEN-EN-ISO 13370:2017. 
+waarin: 
+P 
+is de perimeter, zijnde de som van de lengten () van de randen van de opgaande 
+wanddelen (j) die grenzen aan de buitenlucht of aan een onverwarmde ruimte buiten 
+de thermische schil, in m, waarbij 
+∑
+=
+j
+j
+P
+, (zie 8.3.2.2); 
+λgr 
+is de warmtegeleidingscoëfficiënt van de ondergrond, ontleend aan 8.3.2.4.1, 
+in W/(m·K); 
+df;equi is de totale equivalente dikte van de vloer bepaald volgens 8.3.2.3, in m; 
+δ 
+is de periodieke penetratiediepte, ontleend aan D.2.2.1, in m; 
+d’ 
+is de dikte van de randisolatie, in m; 
+waarbij: 
+gr
+gr
+'
+λ
+λ
+
+
+=
+×
+−
+
+
+
+
+
+
+n
+n
+d
+d
+R
+  
+(D.9) 
+met: 
+Rn is de warmteweerstand van de randisolatielaag, bepaald als Rcalc overeenkomstig C.2,  
+in (m2·K)/W; 
+dn 
+is de dikte van de randisolatielaag, in m. 
+Ingeval de vloer beschikt over zowel extra isolatie van de randzone van het vloerveld 
+(horizontaal) als over een verticale isolatie ter plaatse van de vloerrand (of fundering), dan 
+behoort bij Hpe te worden uitgegaan van de kleinste van de onder b) bepaalde waarden. 
+775
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 776 ---
+Withdrawn final
+Ingetrokken definitief
+D.2.2.3 Vloer van verwarmde kelder 
+De periodieke warmtetransmissiecoëfficiënt in relatie tot de binnen- of 
+buitentemperatuurvariaties over het jaar bestaat uit twee componenten: één gerelateerd aan de 
+vloer van de kelder en één gerelateerd aan de aan de grond grenzende delen van de 
+kelderwanden. 
+Bepaal de periodieke warmtetransmissiecoëfficiënt in relatie tot de 
+binnentemperatuurvariaties over het jaar, Hpi in W/K, voor een vloer van een verwarmde kelder 
+met formule (D.10). 
+Bepaal de periodieke warmtetransmissiecoëfficiënt in relatie tot de buitentemperatuurvariaties 
+over het jaar, Hpe in W/K, voor een vloer van een verwarmde kelder met formule (D.11). 
+(
+)
+(
+)
+gr
+gr
+pi
+bf
+2
+2
+bf;equi
+bw;equi
+bf;equi
+bw;equi
+2
+2
+=
+×
+×
++
+×
+×
+×
+1+
+/
++1
+1+
+/
++1
+λ
+λ
+H
+A
+z P
+d
+d
+δ
+d
+δ
+d
+(D.10) 
+OPMERKING 1 
+De formule (D.10) is overeenkomstig H.7.1 van NEN-EN-ISO 13370:2017. 
+(
+)
+/
+/
+pe
+gr
+bw;equi
+bf;equi
+0,37
+2
+1
+e
+ln
+1
+e
+ln
+1
+z
+z
+H
+P
+d
+d
+δ
+δ
+δ
+δ
+λ
+−
+−
+
+
+
+
+
+
+=
+×
+×
+×
+×
+−
+×
++
++
+×
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(D.11) 
+OPMERKING 2 
+De formule (D.11) is overeenkomstig H.7.2 van NEN-EN-ISO 13370:2017. 
+waarin: 
+Abf 
+is de binnenwerkse oppervlakte van de vloer van de kelder (bf), in m2; 
+λgr 
+is de warmtegeleidingscoëfficiënt van de ondergrond, ontleend aan 8.3.2.4.1, 
+in W/(m·K);  
+dbf;equi is de totale equivalente dikte van de keldervloer (bf), bepaald volgens 8.3.2.3, in m; 
+δ 
+is de periodieke penetratiediepte, ontleend aan D.2.2.1, in m; 
+z 
+is de verticale afstand tussen het maaiveld en de bovenzijde van de keldervloer, 
+in m; 
+waarbij: 
+(
+)
+z
+∑
+∑
+
+
+×
+=
+j
+j
+j
+j
+j
+z
+ 
+(D.12) 
+dbw;equi is de equivalente dikte van de kelderwand (bw) bepaald volgens 8.3.2.3, in m; 
+P 
+is de perimeter, zijnde de som van de lengten () de van de randen van kruipruimte- 
+of keldervloer voor zover de opgaande wanden (j) boven het maaiveld grenzen aan 
+de buitenlucht of aan een onverwarmde ruimte buiten de thermische schil, in m, 
+waarbij 
+∑
+=
+j
+j
+P
+, (zie 8.3.2.2). 
+776
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 777 ---
+Withdrawn final
+Ingetrokken definitief
+D.2.2.4 Vloer boven kruipruimte 
+De periodieke warmtetransmissiecoëfficiënt in relatie tot de binnentemperatuurvariaties over 
+het jaar, Hpi in W/K, voor een vloer boven een kruipruimte volgt uit: 
+1
+pi
+f
+gr
+x
+1
+1
+/
+λ
+δ
+−
+
+
+=
+×
++
+
+
++
+
+
+
+
+H
+A
+U
+U
+ 
+(D.13) 
+OPMERKING 1 
+Formule (D.13) is overeenkomstig H.6.2 van NEN-EN-ISO 13370:2017. 
+Bepaal de periodieke warmtetransmissiecoëfficiënt in relatie tot de buitentemperatuurvariaties 
+over het jaar, Hpe in W/K, voor een vloer boven een kruipruimte met: 
+(
+)
+gr
+bf;equi
+x
+f
+pe
+f
+gr
+x
+f
+0,37
+ln
+/
+1
+/
+λ
+δ
+λ
+δ
+×
+×
+×
++
++
+×
+=
+×
++
++
+P
+d
+U
+A
+H
+U
+U
+U
+ 
+(D.14) 
+OPMERKING 2 
+Formule (D.14) is overeenkomstig H.6.3 van NEN-EN-ISO 13370:2017. 
+waarin: 
+Af 
+is de binnenwerkse oppervlakte van de vloer (f), in m2; 
+dbf;equi is de totale equivalente dikte van de kruipruimtevloer bepaald volgens 8.3.2.3, in m; 
+P 
+is de perimeter, zijnde de som van de lengten (j) van de randen van de 
+kruipruimte- of keldervloer voor zover de opgaande wanden (j) boven het maaiveld 
+grenzen aan de buitenlucht, of aan een onverwarmde ruimte buiten de thermische 
+schil, in m; 
+Uf 
+is de warmtedoorgangscoëfficiënt van de vloerconstructie boven de kruipruimte, 
+bepaald volgens 8.3.3.1, in W/(m2·K); 
+λgr  
+is de warmtegeleidingscoëfficiënt van de ondergrond, ontleend aan 8.3.2.4.1, 
+in W/(m·K);  
+δ 
+is de periodieke penetratiediepte, ontleend aan D.2.2.1, in m; 
+Ux 
+is de equivalente transmissiecoëfficiënt tussen de kruipruimte en de buitenlucht, 
+waarin de warmtestroom van de boven het maaiveld gelegen (delen van) wanden 
+en de ventilatie zijn verrekend, bepaald volgens 8.3.5.4, in W/(m2·K). 
+D.2.2.5 Vloer boven onverwarmde kelder 
+Bepaal de periodieke warmtetransmissiecoëfficiënt in relatie tot de 
+binnentemperatuurvariaties over het jaar, Hpi in W/K, voor een vloer boven een onverwarmde 
+kelder met: 
+𝐻𝐻pi = ቈ
+1
+𝐴𝐴f×𝑈𝑈f +
+1
+(𝐴𝐴f+𝑧𝑧×𝑃𝑃)×
+𝜆𝜆gr
+𝛿𝛿𝛿𝛿.15 +ℎ×𝑃𝑃×𝑈𝑈x;T+0,33×𝑛𝑛×𝑉𝑉቉
+−1
+ 
+(D.15) 
+OPMERKING 1 
+Formule (D.15) is ontleend aan H.8.1 van NEN-EN-ISO 13370:2017. 
+777
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 778 ---
+Withdrawn final
+Ingetrokken definitief
+Bepaal de periodieke warmtetransmissiecoëfficiënt in relatie tot de buitentemperatuurvariaties 
+over het jaar, Hpe in W/K, voor een vloer boven een onverwarmde kelder met: 
+𝐻𝐻pe = 𝐴𝐴f × 𝑈𝑈f ×
+0,37×𝑃𝑃×𝜆𝜆gr×൫2−𝑒𝑒−(𝑧𝑧/𝛿𝛿)൯× ln൫𝛿𝛿/𝑑𝑑bf;equi+1൯+ℎ×𝑃𝑃×𝑈𝑈x;T+0,33×𝑛𝑛×𝑉𝑉
+(𝐴𝐴f+𝑧𝑧×𝑃𝑃)×𝜆𝜆gr/𝛿𝛿+ℎ×𝑃𝑃×𝑈𝑈x;T+0,33×𝑛𝑛×𝑉𝑉+𝐴𝐴f×𝑈𝑈f
+ 
+(D.16) 
+OPMERKING 2 
+Formule (D.16) is ontleend aan H.8.2 van NEN-EN-ISO 13370:2017. 
+waarin: 
+Af 
+is de binnenwerkse oppervlakte van de vloer boven de onverwarmde kelder (bf), 
+in m2; 
+dbf;equi is de totale equivalente dikte van de vloer (bf), bepaald volgens 8.3.2.3, in m; 
+h 
+is de hoogte van de bovenkant van de beganegrondvloer boven het maaiveld, in m; 
+waarbij 
+(
+)
+h
+∑
+∑
+
+
+×
+=
+j
+j
+j
+j
+j
+h
+(D.17) 
+P 
+is de perimeter, zijnde de som van de lengten () van de randen van kruipruimte- of 
+keldervloer voor zover de opgaande wanden (j) boven het maaiveld grenzen aan de 
+buitenlucht of aan een onverwarmde ruimte buiten de thermische schil, in m,  
+waarbij 
+∑
+=
+j
+j
+P
+ (zie 8.3.2.2); 
+Uf 
+is de warmtedoorgangscoëfficiënt van de vloerconstructie boven de onverwarmde 
+kelder (f), bepaald volgens 8.3.3.1, in W/(m2·K); 
+Ux;T 
+is de warmtedoorgangscoëfficiënt van de wand van de kruipruimte of van de 
+onverwarmde kelder (bw), voor zover gelegen boven het maaiveld, bepaald volgens 
+8.3.2.1, in W/(m2·K); 
+z 
+is de verticale afstand tussen het maaiveld en de bovenzijde van de kruipruimte- of 
+keldervloer, in m; 
+waarbij 
+(
+)
+z
+∑
+∑
+
+
+×
+=
+j
+j
+j
+j
+j
+z
+(D.18) 
+δ 
+is de periodieke penetratiediepte, ontleend aan D.2.2.1, in m; 
+λgr  
+is de warmtegeleidingscoëfficiënt van de ondergrond, ontleend aan 8.3.2.4.1, 
+in W/(m·K); 
+n 
+is het ventilatievoud, in ventilatiewisselingen per h van de onverwarmde kelder; 
+forfaitair mag voor n de waarde 0,3 worden gebruikt; 
+OPMERKING 3 
+Dit kan alleen bij onverwarmde ruimten. 
+V 
+is het volume van de onverwarmde kelder(s), in m3. 
+778
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 779 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage E 
+(normatief) 
+ 
+Bepaling van de rekenwaarde van de 
+warmtegeleidingscoëfficiënt respectievelijk warmteweerstand 
+van bouwmaterialen 
+E.1 Algemeen 
+Voor de berekening van de warmtetransmissie worden warmtegeleidingscoëfficiënten en/of 
+warmteweerstanden van isolatiematerialen en –producten omgerekend naar waarden 
+representatief voor de temperatuur- en vochtcondities en convectie van de desbetreffende 
+praktijktoepassing.  
+De te hanteren rekenwaarden voor de warmtegeleidingscoëfficiënt, λcalc, en de 
+warmteweerstand, Rcalc, worden berekend vanuit de gedeclareerde waarden (λD en/of RD) dan 
+wel forfaitaire waarden (λfor en/of Rfor) overeenkomstig E.2. 
+Is de warmtegeleidingscoëfficiënt λ, in W/(m·K), bekend, dan kan hieruit voor een product met 
+de nominale dikte, dN, in m, van dat product de warmteweerstand, R, in (m2·K)/W, worden 
+berekend met: 
+λ
+d
+R
+N
+=
+ 
+(E.1) 
+Omgekeerd kan bij een bekende warmteweerstand en nominale dikte van een product de 
+warmtegeleidingscoëfficiënt worden berekend: 
+R
+d
+λ
+N
+=
+ 
+(E.2) 
+OPMERKING 
+Voor de bepaling van de warmtedoorgangscoëfficiënt UC en warmteweerstand RC, volgens 
+hoofdstuk 8, moeten de rekenwaarden van de warmtegeleidingscoëfficiënt, λcalc, en/of de 
+warmteweerstand Rcalc, van een constructieonderdeel – voor zover van toepassing –worden gecorrigeerd 
+voor puntvormige thermische bruggen, zoals bevestigingsmiddelen van spouwisolatie en 
+dakbedekkingsconstructies. In 8.2.2.2.2 worden hiervoor toeslagfactoren (∆U) gegeven. 
+E.2 Rekenwaarde van de warmtegeleidingscoëfficiënt en/of 
+warmteweerstand 
+ Rekenwaarden van de warmtegeleidingscoëfficiënt en/of warmteweerstand 
+E.2.1.1 Bepaling rekenwaarde warmtegeleidingscoëfficiënt, λcalc , en warmteweerstand, 
+Rcalc 
+OPMERKING 1 Deze hieronder gegeven bepalingsmethode voor de rekenwaarden van de 
+warmtegeleidingscoëfficiënt, λcalc, resp. warmteweerstand, Rcalc, is van toepassing op homogene, vlakke 
+bouwmaterialen exclusief ramen en kozijnen. 
+De rekenwaarde van de warmtegeleidingscoëfficiënt, λcalc, in W/(m·K), respectievelijk van de 
+warmteweerstand, Rcalc, in (m2·K)/W, wordt bepaald volgens: 
+779
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 780 ---
+Withdrawn final
+Ingetrokken definitief
+a) voor isolatiematerialen en voor reflecterende folies 
+conv
+A
+M
+T
+D
+calc
+F
+F
+F
+F
+λ
+λ
+×
+×
+×
+×
+=
+ 
+(E.3) 
+(
+)
+conv
+A
+M
+T
+D
+calc
+F
+F
+F
+F
+R
+R
+×
+×
+×
+=
+ 
+(E.4) 
+waarin: 
+λD 
+is de waarde van de gedeclareerde warmtegeleidingscoëfficiënt, bepaald volgens E.2.2, 
+in W/(m·K); 
+OPMERKING 2 
+In afwijking hiervan kan λfor voor isolatiematerialen, waar nodig gecorrigeerd 
+overeenkomstig formules (E.3) of (E.4), worden ontleend aan tabel E.10, of tabel E.11. 
+RD 
+is de waarde van de gedeclareerde warmteweerstand, bepaald volgens E.2.2, in 
+(m2·K)/W; 
+OPMERKING 3 
+In afwijking hiervan kan Rfor voor reflecterende folies worden ontleend aan tabel 
+E.13. 
+FT 
+is een conversiefactor voor de invloed van de temperatuur bepaald volgens E.2.1.2; 
+FM is een conversiefactor voor vochtinvloeden bepaald volgens E.2.1.3; 
+FA 
+is een conversiefactor voor veroudering met de waarde 1 voor fabrieksmatig 
+vervaardigde isolatiematerialen. Ontleen voor de niet-fabrieksmatig vervaardigde 
+isolatiematerialen de waarde aan E.2.1.4; 
+Fconv is een correctiefactor voor de invloed van convectie bepaald volgens E.2.1.5. 
+OPMERKING 4 
+De formules (E.3) en (E.4) zijn betrokken op 7.1 van NEN-EN-ISO 6946:2017; op 
+basis van die norm is in formules (E.3) en (E.4) de factor Fconv opgenomen. 
+b) voor metselwerk 
+De rekenwaarde van de warmtegeleidingscoëfficiënt voor metselwerk wordt bepaald door een 
+aan de oppervlakte gerelateerde weging van de rekenwaarde van de 
+warmtegeleidingscoëfficiënt van de voeg en die van metselstenen en -blokken: 
+(
+)
+(
+)
+steen
+voeg
+steen
+calc;
+steen
+voeg
+calc;
+voeg
+calc
+A
+A
+λ
+A
+λ
+A
+λ
++
+×
++
+×
+=
+ 
+(E.5) 
+waarin: 
+Avoeg 
+is de oppervlakte van voegen binnen het metselwerk, in m2; 
+λcalc;voeg 
+is de rekenwaarde van de warmtegeleidingscoëfficiënt van de voegen, bepaald 
+volgens formule (E.3); 
+Asteen 
+is de oppervlakte van metselstenen of -blokken binnen het metselwerk, in m2; 
+λcalc;steen 
+is de rekenwaarde van de warmtegeleidingscoëfficiënt van metselstenen of -
+blokken, bepaald volgens formule (E.3). 
+Voor metselwerk met voegen met een voegdikte dvoeg ≤ 3 mm (zogenoemde lijmvoegen) mag het 
+effect van de voegen worden verwaarloosd, zodat λcalc = λcalc;steen. 
+780
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 781 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 5 In afwijking hiervan kan de λcalc voor metselwerk ook worden ontleend aan tabellen E.14 
+t/m E.17. 
+c) voor overige materialen 
+MA
+D
+calc
+F
+λ
+λ
+×
+=
+ 
+(E.6) 
+waarin: 
+λD 
+is de waarde van de gedeclareerde warmtegeleidingscoëfficiënt, bepaald volgens 
+E.2.2.2.4, in W/(m·K); 
+OPMERKING 6 
+In afwijking hiervan kan λfor voor overige materialen toegepast in ramen en 
+kozijnen worden ontleend aan bijlage F. 
+FMA is een conversiefactor voor de invloed van vocht en veroudering, ontleend aan tabel E.1. 
+Tabel E.1 — Conversiefactor voor de invloed van vocht en veroudering voor overige 
+materialen 
+Materiaal 
+ρmat 
+kg/m3 
+FMA 
+– 
+Anorganische materialen zoals 
+grindbeton, beton met lichte 
+toeslag, los gestorte minerale 
+materialen, met uitzondering van 
+glas en metselstenen en -blokken 
+2 500 
+2 300 
+2 100 
+1 900 
+1 600 
+1 300 
+1 000 
+700 
+400 
+1,25 
+1,25 
+1,25 
+1,25 
+1,30 
+1,30 
+1,35 
+1,40 
+1,40 
+Glas 
+2 500 
+1,00 
+Organische materialen, al dan niet 
+met bindmiddel (met uitzondering 
+van kunststoffen) 
+1 000 
+700 
+500 
+≤ 400 
+1,20 
+1,20 
+1,20 
+1,25 
+Kunststoffen  
+1 500 
+1,00 
+ 
+E.2.1.2 Conversiefactor voor de temperatuur, FT 
+Overeenkomstig 7.2 van NEN-EN-ISO 10456 wordt de temperatuurconversiefactor, FT, voor de 
+omrekening van de warmtegeleidingscoëfficiënt, λD, en warmteweerstanden, RD, van een 
+bepaalde temperatuurconditie T1 naar een andere temperatuurconditie, T2, bepaald volgens: 
+(
+)
+1
+2
+T
+e
+T
+T
+T
+f
+F
+−
+×
+=
+ 
+(E.7) 
+waarin: 
+fT 
+is de temperatuurconversiecoëfficiënt, ontleend aan bijlage A van 
+NEN-EN-ISO 10456, in K-1; 
+T2 – T1 is het temperatuurverschil tussen beide condities, in °C. 
+781
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 782 ---
+Withdrawn final
+Ingetrokken definitief
+Een warmtegeleidingscoëfficiënt λD of warmteweerstand, RD, wordt gegeven voor T1 = 10 °C. In 
+reguliere toepassingen in de Nederlandse bouwpraktijk zal de jaargemiddelde temperatuur in 
+het isolatiemateriaal T2 hoger zijn dan 5 °C en lager dan 20 °C. Bij 5 °C < T2 < 20 °C volgt 0,95 < FT 
+< 1,05. Om pragmatische redenen wordt daarom voor reguliere toepassingen in de Nederlandse 
+bouwpraktijk gehanteerd, FT = 1,00. 
+Indien de over het jaar gemiddelde temperatuur in het (isolatie)materiaal, T2, kleiner is dan 5 °C 
+of groter dan 20 °C, zoals bij koelhuizen en droogkamers, dan moet de conversiefactor worden 
+berekend volgens formule (E.7). 
+E.2.1.3 Conversiefactor voor de vochtinvloeden, FM 
+E.2.1.3.1 Principe 
+Overeenkomstig 7.2 van NEN-EN-ISO 10456 wordt de vochtgehalteconversiefactor, FM, voor de 
+omrekening van de warmtegeleidingscoëfficiënt, λD, en warmteweerstanden, RD, van een bepaald 
+vochtgehalte Ψ1, of u1, naar een ander vochtgehalte, Ψ2, of u2, bepaald volgens: 
+(
+)
+1
+2
+Ψ
+e
+M
+Ψ
+Ψ
+f
+F
+−
+×
+=
+(E.8) 
+of met: 
+(
+)
+1
+2
+U
+e
+M
+u
+u
+f
+F
+−
+×
+=
+(E.9) 
+waarin: 
+fΨ 
+is de coëfficiënt voor vochtconversie voor het materiaal, ontleend aan tabel 4 van 
+NEN-EN-ISO 10456, in m3/m3; 
+fu 
+is de vochtgehalteconversiecoëfficiënt voor het materiaal, ontleend aan tabel 4 van 
+NEN-EN-ISO 10456, in kg/kg; 
+Ψ2 – Ψ1 is het verschil in vochtgehalte in, m3/m3; 
+u2 – u1 
+is het verschil in vochtgehalte, in kg/kg. 
+De warmtegeleidingscoëfficiënt λD en warmteweerstand, RD, worden gegeven voor droog 
+materiaal (Ψ1 = 0 m3/m3 of u1 = 0 kg/kg).  
+E.2.1.3.2 Isolatiematerialen 
+Met uitzondering van toepassing van isolatiematerialen bij condities waar een hoog 
+vochtgehalte van het materiaal niet kan worden uitgesloten zoals bij een omgekeerddak-
+constructie en perimeterisolatie zal in de Nederlandse bouwpraktijk de gemiddelde vochtigheid 
+van het (isolatie)materiaal langdurig niet meer dan 10 % afwijken van het 
+evenwichtsvochtgehalte behorende bij een relatieve vochtigheid van 50 %. Om pragmatische 
+redenen mag daarom voor reguliere toepassingen in de Nederlandse bouwpraktijk worden 
+gehanteerd FM = 1,00.  
+Voor een omgekeerddak-constructie en perimeterisolatie wordt de conversiefactor ontleend aan 
+tabel E.2, dan wel berekend overeenkomstig E.2.1.3.1 op basis van de rekenwaarden uit tabel 4 
+van NEN-EN-ISO 10456. 
+782
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 783 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+Uitgangspunt voor de in tabel E.2 gegeven tabelwaarden is een beperkte wateropname 
+door onderdompeling (Wip ≤ 3,0 kg/m2, bepaald volgens NEN-EN 12087) en een voldoende dimensionele 
+stabiliteit (∆εl ≤ 1 % en ∆εb ≤ 1 % bepaald volgens NEN-EN 1603). 
+Tabel E.2 — Conversiefactoren voor vochtinvloeden bij toepassing 
+in omgekeerd dak of perimeterisolatie 
+Toepassing 
+FM 
+[–] 
+Perimeter 
+Algemeen 
+1,25 
+Geëxtrudeerd polystyreen (XPS) 
+uitgevoerd met volledige verlijming 
+1,00 
+Geëxtrudeerd polystyreen (XPS) 
+uitgevoerd met puntsgewijze verlijming 
+1,02 
+Omgekeerd dak 
+Algemeen 
+1,25 
+Geëxtrudeerd polystyreen (XPS) 
+uitgevoerd met grind, tegels op 
+tegeldragers of mortellaag 
+Afschot ≤ 1 % 
+1,04 
+Afschot > 1 % 
+1,02 
+Geëxtrudeerd polystyreen (XPS) 
+uitgevoerd als tuindak 
+1,07 
+ 
+E.2.1.3.3 Reflecterende folies 
+De correctiefactor voor vochtinvloeden van reflecterende folies is FM = 1,00. 
+E.2.1.3.4 Metselwerk 
+De correctiefactoren voor vochtinvloeden van metselstenen en -blokken en mortel worden 
+ontleend aan tabel E.3 respectievelijk tabel E.4. 
+Tabel E.3 — Conversiefactoren voor vochtinvloeden van metselstenen en -blokken 
+Materiaal 
+Ψ2 – Ψ1 
+– 
+fΨ a 
+– 
+FM 
+– 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+Baksteen 
+0,007 
+0,070 
+10 
+1,07 
+2,01 
+Cellenbeton 
+0,020 
+0,040 b 
+4 
+1,08 
+1,17 b 
+Kalkzandsteen 
+0,013 
+0,070 
+10 
+1,14 
+2,01 
+Betonsteen 
+0,030 
+0,070 
+4 
+1,13 
+1,32 
+a 
+Ontleend aan bijlage A van NEN-EN 1745:2020. 
+b 
+Aangenomen dat de buitenzijde is beschermd met een vochtdichte (verf)laag. 
+783
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 784 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.4 — Conversiefactoren voor vochtinvloeden van mortel 
+Materiaal 
+Ψ2 – Ψ1 
+– 
+fΨ a 
+– 
+FM
+– 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+Mortel 
+0,040 
+0,150 
+4 
+1,17 
+1,82 
+a 
+Ontleend aan tabel 4 van NEN-EN-ISO 10456:2008. 
+E.2.1.4 Conversiefactor voor de veroudering, FA 
+E.2.1.4.1 Isolatiematerialen 
+Als gevolg van veroudering kan de thermische prestatie van bepaalde materialen afnemen. Of 
+veroudering een rol speelt, is afhankelijk van de aard en samenstelling van het materiaal. 
+Afname van de thermische prestatie door veroudering ontstaat onder meer door verlies in dikte, 
+inhomogeniteit als gevolg van zetting van in situ vervaardigde isolatielagen en – bij met 
+blaasmiddelen vervaardigde isolatieproducten – door verlies van celgas uit het materiaal en de 
+gasdoorlatendheid van eventuele afdeklagen (‘facings’) en/of verlies in emissiviteit van 
+reflecterende lagen. NEN-EN-ISO 10456 geeft geen algemene regels voor het bepalen van een 
+conversiefactor voor veroudering. 
+OPMERKING 
+Het aspect van vermindering van de thermische prestatie van (isolatie)materialen door 
+veroudering wordt – voor zover van toepassing – betrokken op de helft van de beoogde levensduur van 
+het gebouw. Voor de beoogde levensduur van een gebouw wordt doorgaans 50 jaar gehanteerd. 
+Voor niet-fabrieksmatig, in-situ vervaardigde isolatielagen wordt de conversiefactor voor 
+veroudering, FA, opgesplitst in een aan de in-situtoepassing van het product gerelateerd deel, 
+FA;iso, en een aan de constructie waarin het product wordt toegepast, gerelateerd deel, FA;appl, 
+waarvoor geldt: 
+appl
+A;
+iso
+A;
+A
+F
+F
+F
+×
+=
+ 
+(E.10) 
+en waarbij de factoren FA;iso en FA;appl worden ontleend aan tabel E.5. 
+784
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 785 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.5 — Conversiefactoren voor de veroudering van niet-fabrieksmatig 
+in situ vervaardigde isolatielagen 
+Product 
+FA;iso a 
+– 
+FA;appl 
+– 
+ 
+ 
+Situatie 
+ 
+ 
+A 
+B d 
+Glas-/steenwolvlokken (MW) 
+1,00 
+1,00 
+1,15 
+Geëxpandeerd polystyreen (EPS-parels) 
+1,05 
+Polyurethaan-/polyisocyanuraathardschuim 
+(PU) 
+1,10 b 
+Ureumformaldehydeschuim (UF) 
+1,25 
+Overig 
+1,30 c 
+Situatie 
+Omschrijving toepassing 
+A 
+Constructie speciaal ontworpen om thermisch nageïsoleerd te worden met in-situ-
+isolatieproducten; 
+Na te isoleren constructie is overzichtelijk, beheersbaar, schoon en vrij van 
+obstakels, speciebaarden e.d. zoals aangetroffen in nieuwbouw en met nieuwbouw 
+vergelijkbare situaties.  
+B d 
+Na te isoleren constructie is onoverzichtelijk, onbeheersbaar, heeft gebreken 
+en/of mogelijke vervuiling aan de onderzijde van de vloer, bevat mogelijk 
+obstakels, leidingen en/of speciebaarden e.d. zoals vaak aangetroffen in bestaande 
+gebouwen. 
+a 
+Waarden zijn van toepassing op een gedeclareerde warmtegeleidingscoëfficiënt, λD, of warmteweerstand, RD, 
+bepaald overeenkomstig de in E.2.2.2.1 genoemde (ontwerp)productnormen, of, wanneer er voor het 
+desbetreffende product geen (ontwerp)productnorm aanwezig is, overeenkomstig E.2.2.2.4. 
+b 
+Wanneer voor de desbetreffende toepassing een gedeclareerde warmtegeleidingscoëfficiënt, λD, of 
+warmteweerstand, RD, is bepaald met een op de praktijktoepassing gerichte beproevingsmethode (bijvoorbeeld 
+met een gekalibreerde en afgeschermde warmtekast overeenkomstig NEN-EN-ISO 8990 aan een proefstuk, 
+voldoende groot en representatief gelet te verwachten onregelmatigheden in de vulling) en met inachtneming 
+van ‘veroudering’ als bedoeld in de gerelateerde productnormen, geldt FA;iso = 1,05. 
+c 
+Voor een product dat aantoonbaar (ter beoordeling van een geaccrediteerde en/of gecertificeerde instantie) een 
+bij toepassing vergelijkbaar gedrag heeft als de in het bovenstaande genoemde producten (MW, EPS, PU, UF) mag 
+de FA;iso-waarde van het vergelijkbare product worden gebruikt. Voor overige producten met een in de praktijk 
+over een periode van ten minste twee jaar bewezen toepassing, kan de FA;iso-waarde aan statistisch voldoende 
+praktijkmetingen bij afzonderlijke projecten worden ontleend, waarbij FA;iso ≥ 1,05. 
+d  Als er een situatie in bestaande gebouwen is die vergelijkbaar is met nieuwbouw en dat is aantoonbaar (ter 
+beoordeling van een geaccrediteerde en/of gecertificeerd instantie), dan mag gebruik worden gemaakt van de 
+waarde voor FA;appl behorend bij ‘Situatie A’. Bij het aantonen moet blijken dat de na te isoleren constructie 
+overzichtelijk, beheersbaar, schoon en vrij van obstakels, speciebaarden e.d. is. 
+ 
+E.2.1.4.2 Reflecterende folies 
+De correctiefactoren voor veroudering van reflecterende folies is FA = 1,00. 
+OPMERKING 
+De correctie voor veroudering van reflecterende folies door de afname van de emissiviteit 
+van de reflecterende lagen door stofinvloed en/of corrosie is verwerkt in de emissiviteit, zie ook C.3.5. 
+785
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 786 ---
+Withdrawn final
+Ingetrokken definitief
+E.2.1.4.3 Metselwerk 
+De correctiefactoren voor veroudering van metselwerk is FA = 1,00. 
+E.2.1.5 Correctiefactor voor convectie, Fconv 
+De mate van vrije convectie in een isolatiemateriaal met een open structuur hangt af van de 
+luchtdoorlatendheid, de dikte en het temperatuurverschil van het isolatiemateriaal. De drijvende 
+kracht voor vrije convectie wordt beschreven met het dimensieloze, ‘gemodificeerde’ 
+rayleighgetal, Ram, gedefinieerd als: 
+(
+)
+
+
+
+
+
+×
+×
+×
+×
+=
+λ
+T
+k
+d
+Ra
+Δ
+10
+3
+6
+m
+(E.11) 
+OPMERKING 1 
+Zie 7.5 van NEN-EN-ISO 10456 voor de formele definitie van het gemodificeerde 
+rayleighgetal. 
+waarin: 
+∆T is het temperatuurverschil over de isolatie, in K; 
+d 
+is de dikte van de isolatie, in m; 
+k 
+is de luchtdoorlatendheid van de isolatie, in m2; 
+OPMERKING 2 
+De luchtdoorlatendheid k kan worden bepaald uit het quotiënt van de dynamische 
+viscositeit van lucht η, in kg/(m·s), en de luchtstromingsweerstand r, in (Pa·s)/m2, bepaald 
+overeenkomstig NEN-ISO 9053. 
+λ 
+is de warmtegeleidingscoëfficiënt van de isolatie zonder vrije convectie, in W/(m·K). 
+Als het gemodificeerde rayleighgetal, Ram, niet groter is dan de kritische rayleighwaarde, 
+Ram;kritisch, in tabel E.6, bedraagt de correctiefactor voor de invloed van vrije convectie: 
+Fconv = 1,00. 
+Er bestaan op dit moment geen algemeen geaccepteerde procedures om het effect van vrije 
+convectie in isolatiematerialen te bepalen. Indien Ram de grenswaarde in tabel E.6 overschrijdt, 
+zijn gedetailleerde analyses of metingen nodig om het effect van vrije convectie te kwantificeren. 
+Tabel E.6 — Kritische waarden voor het 
+gemodificeerde rayleighgetal 
+Richting van de warmtestroom 
+Ram;kritisch
+– 
+Horizontaal 
+2,5 
+Omhoog, bovenoppervlak open 
+15 
+Omhoog, bovenoppervlak beschermd (niet-luchtdoorlatend) 
+30 
+OPMERKING 
+Voor tussenliggende hoeken kan het gemodificeerde rayleighgetal 
+door lineaire interpolatie op basis van cos θ worden bepaald, waarbij voor een 
+horizontale warmtestroom geldt: θ = 0°. 
+786
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 787 ---
+Withdrawn final
+Ingetrokken definitief
+ Waarde van de warmtegeleidingscoëfficiënt en/of warmteweerstand 
+E.2.2.1 Algemeen 
+OPMERKING 1 Isolatiematerialen zijn materialen waarvan de warmtegeleidingscoëfficiënt onder 
+genormeerde condities kleiner is dan of gelijk is aan 0,100 W/(m·K). Voor andere bouwmaterialen is de 
+warmteweerstand niet de primaire eigenschap van het product, alhoewel ook deze een goede bijdrage aan 
+de warmteweerstand van een scheidingsconstructie kunnen leveren. 
+OPMERKING 2 De waarde van de warmtegeleidingscoëfficiënt van isolatiematerialen, λD, is onderwerp 
+van regeling van de CE-markering onder de Richtlijn bouwproducten. 
+E.2.2.2 Gedeclareerde waarden van de warmtegeleidingscoëfficiënt en de 
+warmteweerstand 
+E.2.2.2.1 Isolatiematerialen 
+Voor de navolgende isolatieproducten wordt de warmtegeleidingscoëfficiënt, λD, in W/(m·K), 
+en/of de warmteweerstand, RD, in (m2·K)/W, bepaald overeenkomstig 4.2.1 resp. 5.3.2 van de 
+desbetreffende isolatieproductnormen. 
+Tabel E.7 — Overzicht van geharmoniseerde productnormen voor isolatiematerialen 
+Fabrieksmatig vervaardigde isolatielagen 
+NEN-EN 13167  
+Cellulaire glasproducten (CG) 
+NEN-EN 13166  
+Fenolformaldehyde- of resolproducten (PF) 
+NEN-EN 13170  
+Geëxpandeerde kurkproducten (ICB) 
+NEN-EN 13169  
+Geëxpandeerde perlietproducten (EPB) 
+NEN-EN 13163  
+Geëxpandeerde polystyreenproducten (EPS) 
+NEN-EN 13164  
+Geëxtrudeerde polystyreenproducten (XPS) 
+NEN-EN 13171  
+Houtvezelproducten (WF) 
+NEN-EN 13168  
+Houtwolproducten (WW) 
+NEN-EN 13162  
+Mineralewolproducten (MW) 
+NEN-EN 16069  
+Polyethyleenschuimproducten (PEF) 
+NEN-EN 13165  
+Polyurethaanhardschuim (PUR) en polyisocyanuraathardschuim 
+(PIR) producten (PU) 
+NEN-EN 14306 
+Materialen voor de thermische isolatie van gebouwen- en industriële 
+installaties – Fabrieksmatig vervaardigde producten van 
+calciumsilicaat (CS) – Specificatie 
+Voor de in-situvervaardiging van isolatielagen in diverse materialen zijn geharmoniseerde 
+normen voor productspecificaties (deel 1) en niet-geharmoniseerde normen voor installatie 
+(deel 2) opgesteld of als normontwerp gepubliceerd. In tabellen E.8 en E.9 wordt een overzicht 
+gegeven van de desbetreffende normen. Voor de isolatieproducten voor de in-situvervaardiging 
+van isolatielagen waarvoor normen zijn vastgesteld wordt de warmtegeleidingscoëfficiënt, λD, in 
+W/(m·K), en/of de warmteweerstand, RD, in (m2·K)/W, bepaald overeenkomstig 4.2.1 resp. 5.3.2 
+van de desbetreffende normen. 
+787
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 788 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 1 Een productnorm is geharmoniseerd wanneer deze is geaccepteerd door het Standing 
+Committee for Construction (EU). 
+OPMERKING 2 De normtitels in tabellen E.8 en E.9 zijn verkort weergegeven. 
+Tabel E.8 — Overzicht van geharmoniseerde productnormen voor niet-fabrieksmatige 
+in-situvervaardiging van isolatielagen 
+Niet-fabrieksmatig, in situ vervaardigde isolatielagen 
+NEN-EN 14315-1 
+Gespoten hard polyurethaan- (PUR) en polyisocyanuraat- (PIR) 
+schuim – Deel 1: Specificatie voor het gespoten hardschuimsysteem 
+vóór installatie 
+NEN-EN 14316-1 
+Geëxpandeerd perliet (EP) – Deel 1: Specificatie voor gelijmde en los 
+gestorte producten vóór de installatie 
+NEN-EN 14317-1 
+Geëxfolieerd vermiculiet (EV) – Deel 1: Specificatie voor gelijmde en 
+los gestorte producten vóór de installatie 
+NEN-EN 14318-1 
+Gegoten hard polyurethaan- (PUR) en polyisocyanuraat- (PIR) 
+schuim – Deel 1: Specificatie voor het gegoten hardschuimsysteem 
+vóór installatie 
+NEN-EN 14063-1 
+NEN-EN 14063-1/C1 
+Geëxpandeerd lichtgewicht kleiproducten (LWA) – Deel 1: 
+Specificatie voor los gestorte producten vóór de installatie 
+NEN-EN 14064-1 
+Minerale wolproducten – Deel 1: Specificatie voor los gestorte 
+producten vóór de installatie 
+NEN-EN 15100-1 
+Ureumformaldehydeschuim (UF) – Deel 1: Specificatie voor het 
+schuimsysteem vóór de installatie (in voorbereiding) 
+NEN-EN 15101 
+Thermische isolatieproducten voor gebouwen - In-situ gevormde los 
+gestorte celluloseproducten (LFCI) - Deel 1: Specificatie voor de 
+producten voor installatie 
+NEN-EN 16809-1 
+Thermische isolatieproducten voor gebouwen – In-situ gevormde los 
+gestorte producten van polystyreen (EPS) parels en gebonden 
+polystyreen parels – Deel 1: Specificatie voor gebonden en los 
+gestorte producten voor installatie 
+788
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 789 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.9 — Overzicht van niet-geharmoniseerde productnormen voor geïnstalleerde 
+niet-fabrieksmatige in situ vervaardigde isolatielagen 
+Niet-geharmoniseerde productnormen voor geïnstalleerde niet-fabrieksmatig, in situ 
+vervaardigde isolatielagen 
+NEN-EN 14063-2 
+Geëxpandeerd lichtgewicht kleiproducten – Deel 2: Specificatie voor 
+de geïnstalleerde producten 
+NEN-EN 14064-2 
+Los gestorte minerale wol- (MW) producten – Deel 2: Specificatie 
+voor de geïnstalleerde producten 
+NEN-EN 14315-2 
+Gespoten hard polyurethaan- (PUR) en polyisocyanuraat- (PIR) 
+schuim – Deel 2: Specificatie voor de geïnstalleerde producten 
+NEN-EN 14316-2 
+Geëxpandeerd perliet (EP) – Deel 2: Specificatie voor de 
+geïnstalleerde producten 
+NEN-EN 14317-2 
+Geëxfolieerd vermiculiet (EV) – Deel 2: Specificatie voor de 
+geïnstalleerde producten 
+NEN-EN 14318-2 
+Gegoten hard polyurethaan- (PUR) en polyisocyanuraat- (PIR) 
+schuim – Deel 2: Specificatie voor de geïnstalleerde 
+isolatieproducten 
+NEN-EN 15101-2 
+Los gestorte celluloseproducten (LFCI) – Deel 2: Specificatie voor de 
+geïnstalleerde producten 
+NEN-EN 16809-2 
+Thermische isolatieproducten voor gebouwen – In-situ gevormde los 
+gestorte producten van polystyreen (EPS) parels en gebonden 
+polystyreen parels – Deel 2: Specificatie voor gebonden en los 
+gestorte producten na installatie 
+ 
+E.2.2.2.2 Reflecterende folies 
+Voor in isolatieproducten opgenomen reflecterende folies wordt de warmteweerstand, RD, in 
+(m2·K)/W, bepaald overeenkomstig het minimale aantal meetwaarden en de gegeven methode 
+volgens NEN-EN 16012.  
+De gedeclareerde warmteweerstand RD moet representatief zijn voor minimaal 90 % van de 
+productie, met een betrouwbaarheid van 90 % (R90/90 als bedoeld in bijlage J). 
+De waarde van de warmteweerstand RD volgt uit de waarde van de warmteweerstand, R90/90, 
+door afronding naar beneden tot de dichtstbijzijnde 0,05 (m2·K)/W. 
+E.2.2.2.3 Metselstenen, metselblokken en mortel 
+Voor metselstenen, -blokken en mortel wordt λD, in W/(m·K), bepaald als de 90 %-waarde 
+volgens 4.2.2 van NEN-EN 1745:2020. 
+OPMERKING 
+In NEN-EN 1745 wordt de bedoelde λD aangeduid als λ10,dry,mat.  
+De warmtegeleidingscoëfficiënt, λD, mag ook worden bepaald volgens 4.2.1 van 
+NEN-EN 1745:2020, met dien verstande dat van de tabelwaarden in bijlage A van 
+NEN-EN 1745:2020  de waarden uit de kolommen met P = 90 % worden gehanteerd. 
+789
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 790 ---
+Withdrawn final
+Ingetrokken definitief
+E.2.2.2.4 Overige materialen 
+Voor andere dan de in E.2.2.2.1 t/m E.2.2.2.3 bedoelde producten wordt de 
+warmtegeleidingscoëfficiënt, λD, in W/(m·K), en/of de warmteweerstand, RD, in W/(m2·K), 
+rekening houdend met de afrondingsregels en het minimale aantal meetwaarden volgens 
+NEN-EN 10456, berekend overeenkomstig: 
+1) voor proefstukken met een warmteweerstand R ≤ 0,5 W/(m2·K):
+— hoofdstukken 4 t/m 8 van NEN-EN 12664:2001; 
+2) voor proefstukken met een warmteweerstand R > 0,5 W/(m2·K):
+— hoofdstukken 4 en 5 van NEN-EN 12939:2000 voor dikke producten; 
+— hoofdstukken 4 t/m 8 van NEN-EN 12667:2001 voor overige producten. 
+Metingen worden (voor zover relevant) uitgevoerd bij:  
+1) een gemiddelde referentietemperatuur van 10 °C;
+2) een gemiddelde relatieve vochtigheid van 50 %.
+De gedeclareerde warmtegeleidingscoëfficiënt λD en/of de warmteweerstand RD moeten 
+representatief zijn voor minimaal 90 % van de productie, met een betrouwbaarheid van 90 % 
+(λ90/90, resp. R90/90, als bedoeld in bijlage J). 
+De waarde van de warmtegeleidingscoëfficiënt, λD, volgt uit de waarde van de 
+warmtegeleidingscoëfficiënt, λ90/90, door afronding naar boven naar de dichtstbijzijnde 
+0,001 (m2·K)/W. De waarde van de warmteweerstand RD volgt uit de waarde van de 
+warmteweerstand, R90/90, door afronding naar beneden tot de dichtstbijzijnde 0,05 W/(m2·K). 
+E.2.2.3 Forfaitaire waarden van de warmtegeleidingscoëfficiënt en de warmteweerstand 
+E.2.2.3.1 Isolatiematerialen 
+OPMERKING 1 De navolgende tabelwaarden hebben betrekking op producten met een beperkte 
+wateropname door onderdompeling (Wip ≤ 3,0 kg/m2, bepaald volgens NEN-EN 12087) en een voldoende 
+dimensionele stabiliteit (∆εl ≤ 1 % en ∆εb ≤ 1 % bepaald volgens NEN-EN 1603). 
+OPMERKING 2 De in tabel E.10 voor nieuwe producten opgenomen waarden zijn betrokken op de 
+laagste en hoogste waarde als vermeld in de familie van Europese technische specificaties (EOTA) of 
+vrijwillige kwaliteitsverklaringen (KOMO-, CTG-, of CEN Keymark-certificaat), ongeacht de toepassing en 
+andere factoren die van invloed zijn op de λfor-waarde. De architect/ontwerper moet, gelet de door hem 
+beoogde toepassing, in het bestek de voor die specifieke toepassing geldende λ-waarde gebruiken. De in 
+tabel E.10 gegeven λfor-waarden zijn bedoeld voor toepassing bij het bepalen van energielabels; het betreft 
+gemiddeld representatieve waarden en niet bovenwaarden. 
+790
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 791 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.10 — Representatieve en forfaitaire waarden voor de 
+warmtegeleidingscoëfficiënt van isolatiematerialen  
+Isolatiemateriaal b 
+Nieuwbouw a 
+Bestaande bouw b 
+ 
+λD 
+W/(m·K) 
+λfor 
+W/(m·K) 
+Minerale wol (MW)  
+— glaswol (MWG) (platen en dekens) 
+0,030 – 0,044 
+0,040 
+— steenwol (MWR) (platen en dekens) 
+0,031 – 0,045 
+0,040 
+— glas-/steenwolvlokken: (in situ, los gestort) 
+0,034 – 0,045 
+0,045 
+Geëxpandeerd polystyreen (EPS) (plaat) 
+0,031 – 0,045 
+0,040 
+Geëxpandeerd polystyreen (EPS) (in situ, los gestort) 
+— witte parels(los gestort en gebonden) 
+0,040 – 0,050 
+0,045 
+— grijze parels c (los gestort en gebonden) 
+0,035 – 0,045 
+0,035 
+Geëxtrudeerd polystyreen (XPS) 
+0,028 – 0,040 
+0,040 
+Polyurethaan (PUR)/polyisocyanuraat (PIR) hardschuim (platen) 
+0,023 – 0,029 
+0,030 
+Polyurethaan (PUR)/polyisocyanuraat (PIR) hardschuim (in situ, gespoten en gegoten) 
+— hardschuim (geslotencelaandeel ≤ 80 % d 
+0,040 
+0,045 
+— hardschuim (geslotencelaandeel > 80 % e 
+0,030 
+0,035 
+Fenolformaldehyde of resol (PF) 
+0,021 – 0,025 
+0,030 
+Cellulair glas (CG) 
+0,038 – 0,050 
+0,045 
+Houtwol (WW) 
+– 
+0,100 
+Geëxpandeerd perliet (EPB) 
+0,052 – 0,055 
+0,050 
+Geëxpandeerde kurk (ICB) 
+– 
+0,050 
+Houtvezels (WF)  
+0,035 – 0,055 
+0,050 
+Ureumformaldehydeschuim (UF) 
+– 
+0,060 
+Cellulose (LFCI) (in situ, los gestort) 
+– 
+0,050 
+a 
+Ter informatie; spreiding op basis van λD-waarden voor producten bij verschillende toepassingen.  
+b 
+Ongeacht merk en type en exclusief de in E.2.1 gegeven correctiefactoren. 
+c 
+Met grijze parels worden EPS-parels bedoeld waarbij tijdens het polymeriseren in de celwand koolstof/grafiet is 
+toegevoegd. 
+d 
+Geslotencelaandeel ≤ 80 %; klasse CCC1 en CCC2 als bedoeld in tabel 1 van NEN-EN 14315-1:2013 (gespoten PU-
+schuim) of tabel 1 van NEN-EN 14318-1:2013 (gegoten PU-schuim). 
+e 
+Geslotencelaandeel > 80 %; klasse CCC3 en CCC4 als bedoeld in tabel 1 van NEN-EN 14315-1:2013 (gespoten PU-
+schuim) of tabel 1 van NEN-EN 14318-1:2013 (gegoten PU-schuim). 
+ 
+ 
+ 
+791
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 792 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.11— Forfaitaire waarden voor de warmtegeleidingscoëfficiënt 
+van isolatiematerialen zonder geharmoniseerde productnormen 
+Isolatiemateriaal 
+λfor a 
+W/(m·K) 
+Vlaswol 
+0,050 
+Schapenwol 
+0,050 
+Katoen 
+0,050 
+Kokos 
+0,055 
+Stro 
+0,060 
+Hennep 
+0,100 
+Turf 
+0,100 
+a Exclusief de in E.2.1 gegeven 
+correctiefactoren. 
+Tabel E.12 — Forfaitaire waarden voor de warmtegeleidingscoëfficiënt 
+van overige materialen, niet zijnde metselwerk 
+Materiaal 
+λfor 
+W/(m·K) 
+Cementgebonden geëxpandeerd perliet a 
+0,150 
+Cementgebonden geëxpandeerd polystyreen a 
+0,150 
+Kleikorrels a 
+0,300 
+Schelpen 
+0,200 
+Riet 
+0,200 
+a Zie ook tabel E.8; omdat λD;for > 0,100 W/(m·K) worden deze 
+producten in hoofdstuk 8 niet aangemerkt als isolatiemateriaal. 
+ 
+De rekenwaarde van de warmtegeleidingscoëfficiënt voor andere materialen dan 
+isolatiematerialen en metselstenen en -blokken mag ook worden ontleend aan 8.3 van 
+NEN-EN-ISO 10456. 
+792
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 793 ---
+Withdrawn final
+Ingetrokken definitief
+E.2.2.3.2 Reflecterende folies 
+Tabel E.13 — Rekenwaarden voor de warmteweerstand 
+van reflecterende folies (foliesystemen) 
+Isolatiemateriaal 
+Rfor 
+(m2·K)/W 
+Reflecterende folielaag (-lagen) a 
+d/0,03 b c 
+Reflecterende folie als cachering 
+0,00 c 
+Horizontale foliesystemen met tussenliggende luchtlaag 
+— twee reflecterende folies met tussenliggende luchtlaag 
+1,80 d 
+twee folies (1,2) met een 
+tussenliggende luchtlaag 
+— drie reflecterende folies met tussenliggende luchtlagen 
+2,90 d 
+drie folies (1, 2, 3) met twee 
+tussenliggende luchtlagen 
+a 
+Bedoeld worden reflecterende folies bestaande uit maximaal 10 mm dikke ‘bubbeltjesfolie’ of meerdere door 
+reflecterende lagen gescheiden luchtkussen-, schuim- of (kunst)vezellagen van maximaal 10 mm dikte per 
+afzonderlijke laag, met aan beide buitenzijden een reflecterende laag.  
+b 
+Hierin is d de minimale dikte van de isolerende laag zoals die bij het beoogd gebruik is gewaarborgd, in m, voor 
+zover het materiaal bestaat uit meer dan één reflecterende folie en één of meer afzonderlijke tussenlagen van een 
+ander materiaal. 
+c 
+De vergroting van de warmteovergangsweerstand en van de extra warmteweerstand van aansluitende spouwen 
+worden bepaald overeenkomstig NEN-EN-ISO 6946, of ontleend aan tabel C.2, resp. tabel C.3 of C.4. 
+ d 
+Berekend overeenkomstig bijlage B van NEN-EN-ISO 6946:2017 en betrokken op ε1 = 0,10 en ε2 = 0,10 en een 
+luchtlaag 1-2 van d = 0,10 m en – in geval van twee luchtlagen – een luchtlaag 2-3 van d = 0,05 m. 
+De vergroting van de overgangsweerstand (hoogte kruipruimte, z > 0,30 m) en van de extra warmteweerstand 
+van de kruipruimtespouw (hoogte kruipruimte, z ≤ 0,30 m) worden bepaald overeenkomstig NEN-EN-ISO 6946, 
+dan wel ontleend aan tabel C.2, resp. C.3 of C.4. 
+ 
+ 
+ 
+Rsi
+Rsi
+(Rspw;nv)
+Rspw;1
+1
+2
+Rf
+Rsi
+Rsi
+(Rspw;nv)
+Rspw;1
+2
+3
+Rf
+Rspw;2
+1
+793
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 794 ---
+Withdrawn final
+Ingetrokken definitief
+E.2.2.3.3 Metselwerk 
+OPMERKING 
+De in tabellen E.14 t/m E.17 opgenomen λ-waarden gelden voor de in Nederland meest 
+toegepaste metselstenen en -blokken met inbegrip van de in het metselwerk opgenomen voegen.  
+De warmtegeleidingscoëfficiënt volgens tabellen E.14 t/m E.17 moet nog worden afgerond 
+volgens de in NEN-EN-ISO 10456 geldende regels: 
+— Als λ ≤ 0,08: rond naar boven af op een veelvoud van 0,001 W/(m·K). 
+— Als 0,08 < λ ≤ 0,20: rond naar boven af op een veelvoud van 0,005 W/(m·K). 
+— Als 0,20 < λ ≤ 2,00: rond naar boven af op een veelvoud van 0,01 W/(m·K). 
+— Als 2,00 < λ: rond naar boven af op een veelvoud van 0,1 W/(m·K). 
+Tabel E.14 — Rekenwaarden voor de warmtegeleidingscoëfficiënt voor baksteen 
+ρmat 
+kg/m3 
+λD 
+(P=90 %)
+W/(m·K) 
+λcalc 
+W/( m·K) 
+Lijmwerk, voegen < 3 mm 
+Metselwerk 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+Droog 
+binnenmilieu 
+Overige 
+toepassingen 
+600 
+0,150 
+0,160 
+0,300 
+0,190 
+0,320 
+700 
+0,180 
+0,190 
+0,360 
+0,220 
+0,380 
+800 
+0,210 
+0,220 
+0,420 
+0,260 
+0,440 
+900 
+0,240 
+0,260 
+0,480 
+0,300 
+0,500 
+1 000 
+0,270 
+0,290 
+0,540 
+0,340 
+0,570 
+1 100 
+0,300 
+0,320 
+0,600 
+0,380 
+0,630 
+1 200 
+0,330 
+0,350 
+0,660 
+0,420 
+0,700 
+1 300 
+0,360 
+0,390 
+0,720 
+0,460 
+0,760 
+1 400 
+0,400 
+0,430 
+0,800 
+0,510 
+0,850 
+1 500 
+0,430 
+0,460 
+0,860 
+0,540 
+0,910 
+1 600 
+0,470 
+0,500 
+0,940 
+0,600 
+0,990 
+1 700 
+0,510 
+0,550 
+1,030 
+0,650 
+1,080 
+1 800 
+0,550 
+0,590 
+1,110 
+0,700 
+1,160 
+1 900 
+0,600 
+0,640 
+1,210 
+0,760 
+1,270 
+2 000 
+0,640 
+0,680 
+1,290 
+0,810 
+1,350 
+2 100 
+0,690 
+0,740 
+1,390 
+0,870 
+1,460 
+2 200 
+0,740 
+0,790 
+1,490 
+0,940 
+1,560 
+2 300 
+0,790 
+0,850 
+1,590 
+1,000 
+1,670 
+2 400 
+0,840 
+0,900 
+1,690 
+1,070 
+1,780 
+794
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 795 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel E.15 — Rekenwaarden voor de warmtegeleidingscoëfficiënt voor beton(steen) 
+ρmat 
+kg/m3 
+λD 
+(P=90 %) 
+W/(m·K) 
+λcalc  
+W/(m·K) 
+Droog binnenmilieu 
+Overige toepassingen 
+1 600 
+0,880 
+1,033 
+1,164 
+1 700 
+0,930 
+1,091 
+1,231 
+1 800 
+1,010 
+1,185 
+1,336 
+1 900 
+1,090 
+1,279 
+1,442 
+2 000 
+1,190 
+1,396 
+1,575 
+2 100 
+1,300 
+1,526 
+1,720 
+2 200 
+1,420 
+1,666 
+1,879 
+2 300 
+1,560 
+1,831 
+2,064 
+2 400 
+1,720 
+2,018 
+2,276 
+Tabel E.16 — Rekenwaarden voor de warmtegeleidingscoëfficiënt voor kalkzandsteen 
+ρmat 
+kg/m3 
+λD 
+(P=90 %) 
+W/(m·K) 
+λcalc  
+W/(m·K) 
+Droog binnenmilieu 
+Overige toepassingen 
+1 750 
+0,76 
+0,870 
+1,530 
+1850 
+0,87 
+1,000 
+1,750 
+2200 
+1,37 
+1,570 
+2,760 
+Tabel E.17 — Rekenwaarden voor de warmtegeleidingscoëfficiënt voor cellenbeton 
+ρmat 
+kg/m3 
+λD 
+(P=90 %) 
+W/(m·K) 
+λcalc  
+W/(m·K) 
+Droog binnenmilieu 
+Overige toepassingen 
+400 
+0,110 
+0,119 
+0,129 
+500 
+0,130 
+0,141 
+0,153 
+600 
+0,160 
+0,173 
+0,188 
+700 
+0,180 
+0,195 
+0,211 
+800 
+0,210 
+0,227 
+0,246 
+ 
+795
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 796 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage F 
+(normatief) 
+ 
+Equivalente warmtegeleidingscoëfficiënt van luchtruimten 
+exclusief die van ramen en kozijnen 
+F.1 Algemeen 
+Deze bijlage is van toepassing op luchtlagen begrensd door ondoorschijnende materialen met: 
+a) een emissiviteit van elk oppervlak: ε ≥ 0,80; 
+b) een gemiddelde temperatuur van ongeveer θ = 10 °C; 
+c) een temperatuurverschil tussen de inwendige oppervlakken tot 5 K voor luchtruimten in 
+constructieonderdelen met een relatief lage warmtedoorgangscoëfficiënt; 
+d) een temperatuurverschil tussen de inwendige oppervlakken van ΔT = 8 K tot ΔT = 12 K voor 
+luchtruimten in constructies met een relatief hoge warmtedoorgangscoëfficiënt. 
+In het geval van inwendige oppervlakken met een lagere emissiviteit is de warmteweerstand 
+hoger dan de in tabel F.1 gegeven waarden en de warmtegeleidingscoëfficiënt lager dan de in 
+tabellen F.2 en F.3 gegeven waarden. Zie bijlage D van NEN-EN-ISO 6946:2017. 
+F.2 Warmteweerstand van luchtlagen en -holten in constructieonderdelen 
+met een relatief lage warmtedoorgangscoëfficiënt 
+De warmteweerstanden van niet-geventileerde luchtlagen en buisvormige holten in 
+constructieonderdelen met een gemiddelde warmtedoorgangscoëfficiënt lager dan 1,0 
+W/(m2·K) worden in tabel F.1 gegeven.  
+De dimensies van d en b met betrekking tot de warmtestroomrichting worden in figuur F.1 
+gegeven.  
+De warmteweerstand van een niet-geventileerde luchtlaag met een verticaal gerichte 
+warmtestroom wordt bepaald in C.3.2. Verder wordt verwezen naar 6.9.1 van 
+NEN-EN-ISO 6946:2017.  
+De equivalente warmtegeleidingscoëfficiënt (λequi) moet worden berekend met de vergelijking: 
+λequi = dsp/Rsp, waarin dsp en Rsp respectievelijk de dikte (in m) en de warmteweerstand (in 
+m2·K/W) van de luchtlaag voorstellen. Dezelfde vergelijking moet worden gehanteerd voor het 
+berekenen van de equivalente warmtegeleidingscoëfficiënt van het totaal van een dakbedekking 
+van pannen inclusief de luchtlaag tussen pannen en de daaronder gelegen afdichting, waarbij 
+dan voor Rsp een waarde van 0,06 m2·K/W moet worden aangehouden. 
+De ontwerpwaarde voor de warmteweerstand van een zwak geventileerde luchtlaag is de helft 
+van de corresponderende waarde in tabel F.1. De ontwerpwaarde voor de warmteweerstand 
+van een sterk geventileerde luchtlaag wordt bepaald in C.3.3. Verder wordt verwezen naar 6.9.3 
+van NEN-EN-ISO 6946:2017. 
+OPMERKING 1 
+De definities van niet-geventileerde, zwak geventileerde en sterk geventileerde 
+luchtlagen worden gegeven in C.3 en 6.93 van NEN-EN-ISO 6946:2017. 
+796
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 797 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Figuur F.1 — Sectie van de luchtlaag met de warmtestroomrichting 
+Tabel F.1 — Warmteweerstand (m2·K/W) van niet-geventileerde luchtlagen en 
+buisvormige holten in constructieonderdelen met U < 1,0 W/(m2·K) 
+ 
+d / b 
+d 
+mm 
+10 
+5 
+3 
+2 
+1 
+0,5 
+0,3 
+≤ 0,1 
+ 
+2 
+0,07 
+0,07 
+0,07 
+0,07 
+0,06 
+0,06 
+0,06 
+0,06 
+ 
+5 
+0,14 
+0,14 
+0,13 
+0,13 
+0,13 
+0,12 
+0,12 
+0,11 
+ 
+7 
+0,17 
+0,17 
+0,17 
+0,16 
+0,15 
+0,14 
+0,14 
+0,13 
+ 
+10 
+0,21 
+0,21 
+0,20 
+0,20 
+0,18 
+0,17 
+0,16 
+0,15 
+ 
+15 
+0,26 
+0,25 
+0,24 
+0,24 
+0,22 
+0,20 
+0,19 
+0,17 
+ 
+25 
+0,29 
+0,28 
+0,27 
+0,26 
+0,24 
+0,22 
+0,20 
+0,18 
+25 tot 500 
+0,29 
+0,28 
+0,27 
+0,26 
+0,24 
+0,22 
+0,20 
+0,18 
+ 
+OPMERKING 2 
+De waarden zijn gebaseerd op een horizontale warmtestroomrichting. Voor een breedte 
+d ≥ 500 mm worden  luchtruimten als vertrekken beschouwd. 
+F.3 Warmtegeleidingscoëfficiënt van buisvormige holten in 
+constructieonderdelen met een relatief hoge warmtedoorgangscoëfficiënt 
+De warmtegeleidingscoëfficiënten van niet-geventileerde buisvormige holten met een 
+gemiddelde warmtedoorgangscoëfficiënt van meer dan 1,0 W/(m2·K) worden gegeven in de 
+tabellen F.2 en F.3. 
+De dimensies van d en b met betrekking tot de warmtestroomrichting worden weergegeven in 
+figuur F.2. 
+ 
+ 
+797
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 798 ---
+Withdrawn final
+Ingetrokken definitief
+In geval van een verticale warmtestroom waarbij de afmetingen (d) in de richting van de 
+warmtestroom groter zijn dan 10 mm moeten de waarden in de tabellen F.2 en F.3 worden 
+vermenigvuldigd met 1,2 bij een omhoog gerichte warmtestroom en met 0,8 bij een omlaag 
+gerichte warmtestroom. 
+ 
+OPMERKING 1 Rechts: zie tabel F.2, links: zie tabel F.3. 
+Figuur F.2 — Sectie van een buisvormige luchtholte met de warmtestroomrichting 
+Tabel F.2 — De equivalente warmtegeleidingscoëfficiënt (W/(m·K)) in niet-geventileerde 
+horizontale buisvormige holten in constructieonderdelen met U > 1,0 W/(m2·K) 
+ 
+d 
+mm 
+b 
+mm 
+5 
+10 
+20 
+30 
+40 
+50 
+60 
+80 
+5 
+0,042 
+0,055 
+0,085 
+0,124 
+0,163 
+0,202 
+0,224 2 
+0,320 
+10 
+0,044 
+0,066 
+0,100 
+0,126 
+0,151 
+0,174 
+0,197 
+0,243 
+20 
+0,046 
+0,075 
+0,133 
+0,181 
+0,217 
+0,248 
+0,277 
+0,331 
+30 
+0,047 
+0,078 
+0,138 
+0,192 
+0,242 
+0,290 
+0,336 
+0,427 
+40 
+0,047 
+0,079 
+0,142 
+0,197 
+0,249 
+0,298 
+0,346 
+0,437 
+50 
+0,047 
+0,079 
+0,144 
+0,202 
+0,255 
+0,305 
+0,354 
+0,447 
+60 
+0,047 
+0,078 
+0,146 
+0,205 
+0,260 
+0,312 
+0,361 
+0,455 
+80 
+0,048 
+0,076 
+0,147 
+0,210 
+0,267 
+0,321 
+0,372 
+0,470 
+ 
+798
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 799 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel F.3 — De equivalente warmtegeleidingscoëfficiënt (W/(m·K) in niet-geventileerde 
+verticale buisvormige holten in constructieonderdelen met U > 1,0 W/(m2·K) 
+ 
+d 
+mm 
+b 
+mm 
+5 
+10 
+20 
+30 
+40 
+50 
+60 
+80 
+5 
+0,042 
+0,055 
+0,085 
+0,124 
+0,163 
+0,202 
+0,224 2 
+0,320 
+10 
+0,044 
+0,059 
+0,090 
+0,130 
+0,169 
+0,208 
+0,247 
+0,326 
+20 
+0,046 
+0,063 
+0,098 
+0,139 
+0,180 
+0,219 
+0,259 
+0,337 
+30 
+0,047 
+0,066 
+0,104 
+0,147 
+0,189 
+0,229 
+0,269 
+0,348 
+40 
+0,047 
+0,067 
+0,107 
+0,153 
+0,196 
+0,238 
+0,278 
+0,358 
+50 
+0,047 
+0,068 
+0,110 
+0,157 
+0,202 
+0,245 
+0,286 
+0,368 
+60 
+0,047 
+0,068 
+0,112 
+0,161 
+0,207 
+0,251 
+0,293 
+0,376 
+80 
+0,048 
+0,069 
+0,114 
+0,166 
+0,214 
+0,260 
+0,305 
+0,391 
+ 
+OPMERKING 2 De in tabellen F.2 en F.3 gegeven waarden van de equivalente 
+warmtegeleidingscoëfficiënt zijn numeriek berekend voor holten met een rechthoekige doorsnede, een 
+emissiviteit van de inwendige oppervlakken van 0,95 en thermische onderbrekingen in de anders sterk 
+geleidende verbindingselementen. Afwijkende waarden kunnen van toepassing zijn bij andere 
+geometrische verhoudingen. Met lagere emissiviteit zullen lagere waarden worden verkregen. 
+ 
+ 
+799
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 800 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage G 
+(normatief) 
+Warmtedoorgangscoëfficiënt van beglazing, Ugl, in W/(m2·K), 
+zonder meerekening van randeffecten 
+Tabel G.1 — Warmtedoorgangscoëfficiënt van beglazing, Ugl, in W/(m2·K), 
+zonder meerekening van randeffecten 
+Soort 
+Ugl 
+W/(m2·K) 
+Enkel glas 
+5,8 
+Meervoudige beglazing 
+Soort spouwvulling 
+(gasconcentratie > 90 %) 
+Type 
+Coating 
+glaslaag 
+Emissivi-
+teit 
+εn a 
+Laagdiktes 
+mm b 
+Lucht 
+Argon 
+Kryp-
+ton 
+SF6 
+Xenon 
+Dubbel 
+glas 
+Geen 
+(normaal 
+glas) 
+0,89 
+4-6-4 
+3,3 
+3,0 
+2,8 
+3 
+2,6 
+4-8-4 
+3,1 
+2,9 
+2,7 
+3,1 
+2,6 
+4-12-4 
+2,8 
+2,7 
+2,6 
+3,1 
+2,6 
+4-16-4 
+2,7 
+2,6 
+2,6 
+3,1 
+2,6 
+4-20-4 
+2,7 
+2,6 
+2,6 
+3,1 
+2,6 
+Een ruit met 
+warmte-
+reflecterende 
+coating 
+≤ 0,20 
+4-6-4 
+2,7 
+2,3 
+1,9 
+2,3 
+1,6 
+4-8-4 
+2,4 
+2,1 
+1,7 
+2,4 
+1,6 
+4-12-4 
+2,0 
+1,8 
+1,6 
+2,4 
+1,6 
+4-16-4 
+1,8 
+1,6 
+1,6 
+2,5 
+1,6 
+4-20-4 
+1,8 
+1,7 
+1,6 
+2,5 
+1,7 
+≤ 0,15 
+4-6-4 
+2,6 
+2,3 
+1,8 
+2,2 
+1,5 
+4-8-4 
+2,3 
+2,0 
+1,6 
+2,3 
+1,4 
+4-12-4 
+1,9 
+1,6 
+1,5 
+2,3 
+1,5 
+4-16-4 
+1,7 
+1,5 
+1,5 
+2,4 
+1,5 
+4-20-4 
+1,7 
+1,5 
+1,5 
+2,4 
+1,5 
+≤ 0,10 
+4-6-4 
+2,6 
+2,2 
+1,7 
+2,1 
+1,4 
+4-8-4 
+2,2 
+1,9 
+1,4 
+2,2 
+1,3 
+4-12-4 
+1,8 
+1,5 
+1,3 
+2,3 
+1,3 
+4-16-4 
+1,6 
+1,4 
+1,3 
+2,3 
+1,4 
+4-20-4 
+1,6 
+1,4 
+1,4 
+2,3 
+1,4 
+800
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 801 ---
+Withdrawn final
+Ingetrokken definitief
+≤ 0,05 
+4-6-4 
+2,5 
+2,1 
+1,5 
+2,0 
+1,2 
+4-8-4 
+2,1 
+1,7 
+1,3 
+2,1 
+1,1 
+4-12-4 
+1,7 
+1,3 
+1,1 
+2,1 
+1,2 
+4-16-4 
+1,4 
+1,2 
+1,2 
+2,2 
+1,2 
+4-20-4 
+1,5 
+1,2 
+1,2 
+2,2 
+1,2 
+Soort 
+Ugl 
+W/(m2·K) 
+Meervoudige beglazing 
+Soort spouwvulling 
+(gasconcentratie > 90 %) 
+Type 
+Coating 
+glaslaag 
+Emissivi-
+teit 
+εn a 
+Laagdiktes 
+mm b 
+Lucht 
+Argon 
+Kryp-
+ton 
+SF6 
+Xenon 
+Drie-
+voudige 
+beglazing 
+Geen 
+(normaal 
+glas) 
+≤ 0,89 
+4-6-4-6-4 
+2,3 
+2,1 
+1,8 
+1,9 
+1,7 
+4-8-4-8-4 
+2,1 
+1,9 
+1,7 
+1,9 
+1,6 
+4-12-4-12-4 
+1,9 
+1,8 
+1,6 
+2 
+1,6 
+Twee ruiten 
+met warmte-
+reflecterende 
+coating 
+≤ 0,20 
+4-6-4-6-4 
+1,8 
+1,5 
+1,1 
+1,3 
+0,9 
+4-8-4-8-4 
+1,5 
+1,3 
+1,0 
+1,3 
+0,8 
+4-12-4-12-4 
+1,2 
+1,0 
+0,8 
+1,3 
+0,8 
+≤ 0,15 
+4-6-4-6-4 
+1,7 
+1,4 
+1,1 
+1,2 
+0,9 
+4-8-4-8-4 
+1,5 
+1,2 
+0,9 
+1,2 
+0,8 
+4-12-4-12-4 
+1,2 
+1,0 
+0,7 
+1,3 
+0,7 
+≤ 0,10 
+4-6-4-6-4 
+1,7 
+1,3 
+1,0 
+1,1 
+0,8 
+4-8-4-8-4 
+1,4 
+1,1 
+0,8 
+1,1 
+0,7 
+4-12-4-12-4 
+1,1 
+0,9 
+0,6 
+1,2 
+0,6 
+≤ 0,05 
+4-6-4-6-4 
+1,6 
+1,2 
+0,9 
+1,1 
+0,7 
+4-8-4-8-4 
+1,3 
+1,0 
+0,7 
+1,1 
+0,5 
+4-12-4-12-4 
+1,0 
+0,8 
+0,5 
+1,1 
+0,5 
+OPMERKING 1 Deze tabel is gebaseerd op tabel C.2 van NEN-EN-ISO 10077-1:2006. 
+OPMERKING 2 De gegeven warmtedoorgangscoëfficiënten zijn berekend met NEN-EN 673 op basis van de 
+gegeven emissiviteit en gasconcentraties groter dan 90 %. Emissiviteit en gasconcentratie van beglazing kan in 
+de tijd veranderen. Procedures voor de berekening van het effect van veroudering op de thermische prestatie 
+van beglazing worden beschreven in NEN-EN 1279-1 en NEN-EN 1279-3. 
+a 
+εn is de emissiviteit voor normaalstraling volgens A.1 van NEN-EN 673. 
+b 
+De cursief weergegeven waarde is de spouwbreedte. 
+ 
+801
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 802 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage H 
+(normatief) 
+ 
+Warmtegeleidingscoëfficiënten (λ-waarden) van geselecteerde 
+materialen, toegepast in ramen en kozijnen 
+Tabel H.1 — Warmtegeleidingscoëfficiënten (λ-waarden) van geselecteerde materialen, 
+toegepast in ramen en kozijnen 
+Materiaalgroep 
+Materiaal 
+ρmat 
+kg/m3 
+λfor 
+W/(m·K) 
+Kozijn 
+Roodkoper 
+Aluminium 
+Koper 
+Staal 
+Corrosievast staal 
+PVC 
+Hardhout 
+Naaldhout 
+Glasvezel (PE-resin) 
+8 900 
+2 800 
+8 400 
+7 800 
+7 900 
+1 390 
+700 
+500 
+– 
+380 
+160 
+120 
+50 
+17 
+0,17 
+0,18 
+0,13 
+0,30 
+Glas 
+Natronkalk 
+Acryl, plexiglas 
+Polymetylmethacrylaat (PMMA) 
+Polycarbonaat 
+2 500 
+105 
+1 180 
+1 200 
+1,0 
+0,20 
+0,18 
+0,20 
+Thermische 
+onderbreking 
+Polyamide (nylon) 
+Polyamide 66 met 25 % glasvezel 
+Polyetheen, HD 
+Polyetheen, LD 
+Polypropeen 
+Polypropeen met 25 % glasvezel 
+Polyurethaan (PU) 
+Polyvinylchloride (PVC) (hard) 
+1 150 
+980 
+920 
+910 
+910 
+1 200 
+1 390 
+– 
+0,25 
+0,30 
+0,52 
+0,33 
+0,22 
+0,25 
+0,25 
+0,17 
+Tochtstrips 
+Neopreen (PCP) 
+Ethyleenpolyplopyleendieenmonomeer 
+(EPDM)  
+Siliconen 
+Polyvinylchloride (PVC) (flexibel) 
+Mohair (polyester)  
+Schuimrubber 
+1 240 
+1 150 
+ 
+1 200 
+1 200 
+– 
+80 
+0,23 
+0,25 
+ 
+0,35 
+0,14 
+0,14 
+0,06 
+Kitten en 
+randafdichtings-
+materialen 
+Polyurthaanhardschuim (PUR) 
+Butyl  
+Polysulfide 
+Siliconen 
+Polyisobuteen 
+Polyesterhars 
+Silicagel 
+Siliconenschuim (LD) 
+Siliconenschuim (MD) 
+– 
+1 200 
+1 700 
+1 200 
+930 
+1 400 
+720 
+750 
+820 
+0,30 
+0,24 
+0,40 
+0,35 
+0,20 
+0,19 
+0,13 
+0,12 
+0,17 
+ 
+ 
+802
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 803 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage I 
+(normatief) 
+ 
+Forfaitaire waarden voor de lineaire warmtedoorgangscoëfficiënt 
+van bouwkundige details en transmissie 
+I.1 Forfaitaire waarden voor de lineaire warmtedoorgangscoëfficiënt van 
+bouwkundige details 
+In tabellen I.1.1 en I.1.2 zijn de forfaitaire waarde van de lineaire warmtedoorgangscoëfficiënt 
+(Ψ) van een groot aantal aansluitdetails opgenomen. Deze waarden zijn afgeleid van de ISSO-
+Referentiedetails [8] met een toeslag. Deze forfaitaire waarden zijn toepasbaar voor alle regulier 
+voorkomende gevelopbouwen. Voor alle waarden geldt dat de warmteweerstand (Rc) voor niet-
+doorschijnende gevels, daken en vloeren en de doorgangscoëfficiënt (UW) van ramen en deuren 
+voldoen aan de minimale eisen van het Bouwbesluit/Besluit bouwwerken leefomgeving (niveau 
+nieuwbouw). 
+Voor de knooppunten zijn aanvullende voorwaarden gesteld aan de detailleringen. Als aan die 
+voorwaarden wordt voldaan, moeten de waarden uit kolom A in tabel I.1 en tabel I.2 worden 
+gehanteerd. Als niet aan de aanvullende voorwaarden wordt voldaan, dan moeten de Ψ-waarden 
+uit kolom B in tabel I.1 en tabel I.2 worden gehanteerd. 
+De in de tabellen genoemde forfaitaire waarden kunnen gehanteerd worden ongeacht de 
+gevelopbouw. Dat betekent dat rekening is gehouden met de maatgevende (ongunstigste) 
+gevelopbouw.  
+Hoewel de waarden primair zijn afgeleid voor woningbouw, zijn deze ook van toepassing voor 
+overeenkomstige constructies van andere gebruiksfuncties. 
+In het geval dat er van een detailpositie in tabel I.1 of I.2 geen Ψ-waarde is opgenomen, mag de 
+volgende Ψ-waarde worden gehanteerd: 0,5 W/(m1 × K). 
+Tabel I.1 — Forfaitaire waarden voor de lineaire warmtedoorgangscoëfficiënt van 
+laagbouw (grondgebonden gebouwen) 
+Detail-
+positie 
+nr. 
+Omschrijving aansluiting 
+Aanvullende voorwaarden  
+ψ  
+W/(m1∙K) 
+ 
+ 
+ 
+A 
+B 
+1 Fundering, niet-dragende 
+gevel 
+Systeemvloer, afstand isolatie wand tot de funderingsbalk maximaal 
+60 mm en Rc;gevel ≥ 4,7 m2∙K/W 
+0,27 
+0,41 
+2 Fundering, deur 
+Systeemvloer, isolatie kopse zijde funderingsbalk Rc;vloer ≥ 3,7 m2∙K/W, 
+buitengrensvlak deur ligt niet buiten binnengrensvlak isolatie gevel en 
+binnengrensvlak deur ligt niet buiten buitengrensvlak isolatie gevel 
+0,45 
+0,68 
+3 Fundering, dragende gevel 
+Systeemvloer oplegging 50 % geïsoleerd, dragende gevel steenachtig 
+maximaal 150 mm dik. Afstand isolatie wand tot de funderingsbalk 
+maximaal 60 mm en Rc;gevel ≥ 4,7 m2∙K/W 
+0,60 
+0,90 
+4 Fundering, 
+woningscheidende wand 
+Geen 
+0,00 
+0,00 
+5 Gevel, onderdorpel kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de isolatie 
+van de aangrenzende constructies en het hart van het kozijn ligt niet 
+binnen het binnengrensvlak van de isolatie 
+0,15 
+0,25 
+803
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 804 ---
+Withdrawn final
+Ingetrokken definitief
+Detail-
+positie 
+nr. 
+Omschrijving aansluiting 
+Aanvullende voorwaarden  
+ψ  
+W/(m1∙K) 
+ 
+ 
+ 
+A 
+B 
+6 Gevel, zijstijl kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de isolatie 
+van de aangrenzende constructies en het hart van het kozijn ligt niet 
+binnen het binnengrensvlak van de isolatie 
+0,09 
+0,19 
+7 Gevel, bovendorpel kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de isolatie 
+van de aangrenzende constructies en het hart van het kozijn ligt niet 
+binnen het binnengrensvlak van de isolatie 
+0,10 
+0,20 
+8 Gevel, woningscheidende 
+wand 
+Isolatie nergens minder dan 65 % van de isolatie van de spouwbladen en 
+waarbij de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,10 
+0,20 
+9 Niet-dragende gevel, 
+dragende gevel 
+Isolatie nergens minder dan 65 % van de isolatie van de spouwbladen en 
+waarbij de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,14 
+0,24 
+10 Gevel, verdiepingsvloer 
+Isolatie nergens minder dan 65 % van de isolatie van de spouwbladen en 
+waarbij de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,09 
+0,19 
+11 Gevel, bovendorpel met 
+rooster 
+Isolatie conform isolatie van de spouwbladen en waarbij de isolatie op 
+zijn hoogst wordt onderbroken door houten hulpconstructies 
+0,15 
+0,25 
+12 Niet-dragende gevel, 
+dragende gevel 
+Isolatie conform isolatie van de spouwbladen en waarbij de isolatie op 
+zijn hoogst wordt onderbroken door houten hulpconstructies 
+0,00 
+0,00 
+13 Dakvoet, gevel, hellend dak 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,16 
+0,26 
+14 Hellend dak, 
+woningscheidende wand 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,03 
+0.13 
+15 Gevel, hellend dak 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,13 
+0,23 
+16 Nok hellend dak 
+Isolatie conform isolatie van het dak en waarbij de isolatie op zijn hoogst 
+wordt onderbroken door houten hulpconstructies 
+0,05 
+0,15 
+17 Hellend dak, kozijn dakkapel 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,60 
+0,90 
+18 Hellend dak, plat dak 
+dakkapel 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,50 
+0,75 
+19 Hellend dak, zijwang 
+dakkapel 
+Isolatie conform isolatie van het dak en zijwang en waarbij de isolatie op 
+zijn hoogst wordt onderbroken door houten hulpconstructies 
+0,13 
+0,23 
+20 Hellend dak, onderzijde 
+dakraam 
+Binnenzijde van het grensvlak van het dakraam ligt niet buiten het 
+buitengrensvlak van de isolatielijn van het dak 
+0,12 
+0,22 
+21 Hellend dak, zijaansluiting 
+dakraam 
+Binnenzijde van het grensvlak van het dakraam ligt niet buiten het 
+buitengrensvlak van de isolatielijn van het dak 
+0,14 
+0,24 
+22 Hellend dak, bovenzijde 
+dakraam 
+Binnenzijde van het grensvlak van het dakraam ligt niet buiten het 
+buitengrensvlak van de isolatielijn van het dak 
+0,12 
+0,22 
+23 Zakgoot 
+Isolatie nergens minder dan 65 % van de isolatie van het dak en waarbij 
+de isolatie op zijn hoogst wordt onderbroken door houten 
+hulpconstructies 
+0,24 
+0,36 
+24 Hellend dak, opgaand werk 
+gevel 
+Isolatie conform isolatie van dak en gevel en waarbij de isolatie op zijn 
+hoogst wordt onderbroken door houten hulpconstructies 
+0,13 
+0,23 
+24 Hellend dak, opgaand werk 
+gevel 
+Isolatie conform isolatie van dak en gevel en waarbij de isolatie wordt 
+onderbroken door rvs metselwerkdragers 
+0,41 
+0,62 
+ 
+804
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 805 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 1 
+De detailpositie is aangeduid in figuur I.1.  
+OPMERKING 2 
+In bovenstaande tabel zijn voor enkele detailposities meerdere omschrijvingen van een 
+constructieopbouw gegeven met de bijbehorende forfaitaire waarde voor de lineaire 
+warmtedoorgangscoëfficiënt (Ψ). Afhankelijk van de in het gebouw aanwezige constructie behoort de 
+overeenkomstige waarde te worden toegepast.   
+De Ψ-waarden in tabel I.1 geven de lineaire warmtedoorgangscoëfficiënt van het gehele detail 
+weer. Als het detail twee rekenzones (of gebouwen) van elkaar scheidt, dan moet het 
+warmteverlies over beide rekenzones worden verdeeld. Dat is bijvoorbeeld het geval bij 
+detailpositie nr. 8 en 14. 
+Tabel I.2 — Forfaitaire waarden voor de lineaire warmtedoorgangscoëfficiënt  
+van gestapelde gebouwen 
+Detail-
+positie 
+nr. 
+Omschrijving aansluiting 
+Aanvullende voorwaarden  
+Ψ 
+W/(m1∙K) 
+ 
+ 
+ 
+A 
+B 
+50 Fundering, dragende gevel 
+Systeemvloer, afstand isolatie wand tot de funderingsbalk maximaal 
+60 mm en Rc;gevel ≥ 4,7 m2∙K/W 
+0,61 
+0,92 
+51 Niet-dragende gevel, 
+doorlopende vloer boven 
+onverwarmde ruimte 
+Koudebrugonderbreking aanwezig Rc ≥ 1,5 m2∙K/W onder 
+buitenspouwblad, vloerisolatie tegen onderzijde vloer boven 
+onverwarmde ruimte, dakisolatie Rc ≥ 2,0 m2∙K/W tot 1 m uit de gevel 
+0,64 
+0,96 
+52 Kozijn, doorlopende vloer boven 
+onverwarmde ruimte 
+Koudebrugonderbreking aanwezig onder kozijn Rc ≥ 2,5 m2∙K/W, 
+vloerisolatie tegen onderzijde vloer boven onverwarmde ruimte, 
+dakisolatie Rc ≥ 2,0 m2∙K/W tot 1 m uit de gevel 
+0,64 
+0,96 
+53 Inwendige hoek gevels loggia 
+Isolatie gevels wordt niet onderbroken bij hoekaansluiting 
+0,00 
+0,00 
+54 Gevel, onderdorpel kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de 
+isolatie van de aangrenzende constructies en het hart van het kozijn ligt 
+niet binnen het binnengrensvlak van de isolatie 
+0,15 
+0,25 
+55 Gevel, zijstijl kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de 
+isolatie van de aangrenzende constructies en het hart van het kozijn ligt 
+niet binnen het binnengrensvlak van de isolatie 
+0,09 
+0,19 
+56 Gevel, bovendorpel kozijn 
+Het hart van het kozijn ligt niet buiten het buitengrensvlak van de 
+isolatie van de aangrenzende constructies en het hart van het kozijn ligt 
+niet binnen het binnengrensvlak van de isolatie 
+0,10 
+0,20 
+57 Inwendige hoek gevels loggia 
+met gevel 
+Isolatie gevels wordt niet onderbroken bij hoekaansluiting 
+0,00 
+0,00 
+58 Verdiepingsvloer, galerij, gevel 
+of balkon, gevel 
+Aanstortnokken maximaal 300 mm h.o.h. 1 000 mm, isolatie tussen 
+nokken Rc ≥ 3,0 m2∙K/W of koudebrugonderbreking met geïsoleerde rvs 
+staven isolatie tussen nokken Rc ≥ 2,0 m2∙K/W 
+0,70 
+1,05 
+58 Verdiepingsvloer, galerij, gevel 
+of balkon, gevel 
+Isolatie tussen vloerrand Rc ≥ 2,8 m2∙K/W, geen doorbreking isolatie bij 
+vloerrand 
+0,13 
+0,23 
+59 Verdiepingsvloer, galerij, kozijn 
+of balkon, kozijn 
+Aanstortnokken maximaal 300 mm h.o.h. 1 000 mm, isolatie tussen 
+nokken Rc ≥ 3,0 m2∙K/W of koudebrugonderbreking met geïsoleerde rvs 
+staven isolatie tussen nokken Rc ≥ 2,0 m2∙K/W 
+0,70 
+1,05 
+59 Verdiepingsvloer, galerij, kozijn 
+of balkon, kozijn 
+Isolatie tussen vloerrand Rc ≥ 2,8 m2∙K/W geen doorbreking isolatie bij 
+vloerrand 
+0,35 
+0,53 
+60 Dakvloer, opgaande gevel 
+Koudebrugonderbreking aanwezig Rc ≥ 1,5 m2∙K/W onder 
+buitenspouwblad, dakisolatie aansluitend op koudebrugonderbreking, 
+gevelisolatie sluitend op dakvloer 
+0,16 
+0,26 
+61 Dakvloer, kozijn opgaand werk 
+Koudebrugonderbreking aanwezig Rc ≥ 1,5 m2∙K/W onder kozijn 
+dakisolatie aansluitend op koudebrugonderbreking, gevelisolatie 
+sluitend op dakvloer 
+0,16 
+0,26 
+62 Gevel, dakvloer, borstwering 
+Koudebrugonderbreking dakrand Rc ≥ 2,5 m2∙K/W, isolatie gevel en dak 
+sluitend tegen koudebrugonderbreking 
+0,39 
+0,59 
+805
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 806 ---
+Withdrawn final
+Ingetrokken definitief
+Detail-
+positie 
+nr. 
+Omschrijving aansluiting 
+Aanvullende voorwaarden  
+Ψ 
+W/(m1∙K) 
+A 
+B 
+63 Overkragende vloer, gevel 
+Metselwerkonderbreking staal of rvs h.o.h. ≥ 300 mm, vloerisolatie 
+sluitend tegen gevelisolatie 
+0,31 
+0,47 
+64 Doorlopende overkragende 
+vloer, gevel  
+Vloerisolatie sluitend op gevelisolatie 
+0,00 
+0,00 
+65 Gevel, vloer boven onverwarmde 
+ruimte 
+Gevelisolatie tot ≥ 300 mm onder vloerpeil, vloerisolatie tegen 
+onderzijde van de vloer, koudebrugonderbreking tussen gevel 
+onverwarmde ruimte en vloer Rc ≥ 0,5 m2∙K/W 
+0,36 
+0,54 
+66 Overkragende vloer, gevel  
+Metselwerkonderbreking staal of rvs h.o.h. > 300 mm, vloerisolatie 
+sluitend tegen gevelisolatie 
+0,33 
+0,50 
+67 Vloer boven onverwarmde 
+ruimte, gevel 
+Gevelisolatie tot ≥ 300 mm onder vloerpeil, vloerisolatie tegen 
+onderzijde van de vloer 
+0,78 
+1,17 
+68 Dakrand, gevel, dakvloer 
+Koudebrugonderbreking dakrand Rc ≥ 2,5 m2∙K/W, isolatie gevel en dak 
+sluitend tegen koudebrugonderbreking 
+0,16 
+0,26 
+69 Gevel, verdiepingsvloer 
+Metselwerkonderbreking staal of rvs h.o.h. ≥ 300 mm  
+0,33 
+0,50 
+70 Dakrand, gevel, dakvloer 
+Koudebrugonderbreking dakrand Rc ≥ 2,5 m2∙K/W, isolatie gevel en dak 
+sluitend tegen koudebrugonderbreking 
+0,19 
+0,29 
+71 Dakvloer, opgaande gevel 
+Koudebrugonderbreking aanwezig Rc ≥ 1,5 m2∙K/W onder 
+buitenspouwblad, dakisolatie aansluitend op koudebrugonderbreking, 
+gevelisolatie sluitend op dakvloer 
+0,19 
+0,29 
+72 Uitkragende dakvloer, gevel 
+Doorlopende dakisolatie, isolatie tegen onderzijde dakvloer Rc ≥ 
+2,5 m2∙K/W, breed ≥ 1 000 mm sluitend op kopgevel 
+0,44 
+0,66 
+73 Vloer boven onverwarmde 
+ruimte, galerij, gevel of balkon, 
+gevel 
+Aanstortnokken maximaal 300 mm h.o.h. 1 000 mm, isolatie tussen 
+nokken Rc ≥ 3,0 m2∙K/W of koudebrugonderbreking met geïsoleerde rvs 
+staven isolatie tussen nokken Rc ≥ 2,0 m2∙K/W, koudebrugonderbreking 
+tussen gevel onverwarmde ruimte en vloer Rc ≥ 0,5 m2∙K/W 
+0,84 
+1,26 
+73 Vloer boven onverwarmde 
+ruimte, galerij, gevel of balkon, 
+gevel 
+Isolatie tussen vloerrand Rc ≥ 2,8 m2∙K/W geen doorbreking isolatie bij 
+vloerrand, koudebrugonderbreking tussen gevel onverwarmde ruimte 
+en vloer Rc ≥ 0,5 m2∙K/W 
+0,27 
+0,41 
+74 Vloer boven onverwarmde 
+ruimte, galerij, kozijn of balkon, 
+gevel 
+Aanstortnokken maximaal 300 mm h.o.h. 1 000 mm, isolatie tussen 
+nokken Rc ≥ 3,0 m2∙K/W of koudebrugonderbreking met geïsoleerde rvs 
+staven isolatie tussen nokken Rc ≥ 2,0 m2∙K/W, koudebrugonderbreking 
+tussen gevel onverwarmde ruimte en vloer Rc ≥ 0,5 m2∙K/W 
+0,84 
+1,26 
+74 Vloer boven onverwarmde 
+ruimte, galerij, kozijn of balkon, 
+gevel 
+Isolatie tussen vloerrand Rc ≥ 2,8 m2∙K/W geen doorbreking isolatie bij 
+vloerrand, koudebrugonderbreking tussen gevel onverwarmde ruimte 
+en vloer Rc ≥ 0,5 m2∙K/W 
+0,38 
+0,57 
+OPMERKING 3 
+De detailpositie is aangeduid in figuur I.2 en I.3. 
+OPMERKING 4 
+In bovenstaande tabel zijn voor enkele detailposities meerdere omschrijvingen van een 
+constructieopbouw gegeven met de bijbehorende forfaitaire waarde voor de lineaire 
+warmtedoorgangscoëfficiënt (Ψ). Afhankelijk van de in het gebouw aanwezige constructie behoort  de 
+overeenkomstige waarde te worden toegepast.  
+De Ψ-waarden in tabel I.2 geven de lineaire warmtedoorgangscoëfficiënt van het gehele detail 
+weer. Als het detail twee rekenzones (of gebouwen) van elkaar scheidt, dan moet het 
+warmteverlies over beide rekenzones worden verdeeld. Dat is bijvoorbeeld het geval bij 
+detailpositie nr. 69. 
+806
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 807 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Figuur I.1 — Aanduiding detailposities uit tabel I.1  
+14
+24
+22
+21
+20
+12
+16
+18
+19
+17
+15
+3
+9
+2
+5
+6
+7
+10
+1
+11
+4
+23
+8
+13
+807
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 808 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Figuur I.2 — Aanduiding detailposities uit tabel I.2 
+ 
+Figuur I.3 — Aanduiding detailposities uit tabel I.2 (vervolg)  
+I.2 Forfaitaire waarden transmissie 
+ Forfaitaire Rc-waarden dichte delen 
+I.2.1.1 Algemeen 
+Bepaal de U-waarden van dichte delen in W/m2∙K op basis van forfaitaire Rc-waarden volgens 
+het schema van figuur I.4 met: 
+c
+c
+si
+se
+1
+U
+R
+R
+R
+=
++
++
+ 
+(I.1) 
+waarin: 
+808
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 809 ---
+Withdrawn final
+Ingetrokken definitief
+Rc 
+is de warmteweerstand van de uitwendige scheidingsconstructie bepaald volgens 
+figuur I.4, waarin toeslagfactoren conform 8.2.2.2.2 en Bijlage C forfaitair zijn verwerkt, 
+in m2·K/W; 
+Rsi is de warmteovergangsweerstand aan de binnenzijde, bepaald volgens C.2, in m2·K/W; 
+Rse is de warmteovergangsweerstand aan de buitenzijde, bepaald volgens C.2, in m2·K/W. 
+De berekende U-waarde wordt rekenkundig afgerond op 2 decimalen.  
+I.2.1.2 
+I.2.1.4 
+I.2.1.3 
+I.2.1.2 
+I.2.1.3 
+Is er isolatie 
+aanwezig ? 
+Bouwjaar 
+< 1965 ? 
+Bouwjaar 
+< 1965 ? 
+Is isolatiedikte 
+te bepalen ? 
+ja 
+ja 
+ja 
+ja 
+onbekend 
+nee 
+nee 
+nee 
+nee 
+ 
+Figuur I.4 — Beslisboom voor de bepaling van forfaitaire Rc-waarden van dichte delen  
+OPMERKING 
+De forfaitaire Rc-waarden voor dichte delen die in onderstaande paragrafen worden 
+gegeven, zijn grotendeels gebaseerd op de eisen in de betreffende bouwperiode. In verband met 
+aanpassingen in de Europese normen is in NTA 8800 de toeslagfactor voor bouwkwaliteit komen te 
+vervallen. Dit leidt ertoe dat een bepaalde Rc-waarde volgens NTA 8800 met minder isolatiedikte (een 
+hogere UT-waarde) kan worden bereikt. In het Bouwbesluit/Besluit bouwwerken leefomgeving wordt de 
+eis aan de Rc-waarde voor dichte delen daarom aangepast met de invoering van NTA 8800. Methodisch 
+gezien zouden de forfaitaire Rc-waarden voor dichte delen die in onderstaande paragrafen worden 
+gegeven, ook moeten worden aangepast. Echter, door de projectgroep is besloten deze forfaitaire 
+Rc-waarden niet te wijzigen omdat dan de aansluiting met de eisen uit de bouwregelgeving uit het 
+verleden zichtbaar blijft. De consequentie hiervan is dat de forfaitaire Rc-waarden voor dichte delen 
+conservatief zijn. 
+I.2.1.2 Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies van een 
+gebouw(deel) met een bouwjaar van voor 1965 en met een niet te bepalen isolatiedikte of 
+zonder isolatie 
+Indien het bouwjaar van het gebouw(deel) van voor 1965 is en het is onbekend of er isolatie in 
+de constructie aanwezig is of de isolatiedikte is niet te bepalen of de constructie is niet van 
+isolatie voorzien, mogen voor uitwendige scheidingsconstructies niet zijnde ramen, deuren, 
+panelen of daaraan gelijk te stellen constructieonderdelen, de Rc-waarden aan tabel I.4 worden 
+ontleend. 
+809
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 810 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.4 — Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies met 
+een bouwjaar van voor 1965 en met een niet te bepalen isolatiedikte of zonder isolatie 
+Soort uitwendige scheidingsconstructie 
+Aanwezigheid 
+spouw 
+Rc 
+m2·K/W 
+Isolatie 
+onbekend of 
+afwezig 
+(Na)geïsoleerd 
+Uitwendige scheidingsconstructies met een 
+hellingshoek ten opzichte van de verticaal van ten 
+hoogste 15°,geen raam of deur of kozijn met vast 
+paneel zijnde en niet opgenomen in een kozijn. 
+OPMERKING 1 
+Hiermee worden dichte gevels 
+bedoeld. 
+Spouw 
+0,35 
+0,85 
+Geen spouw/ 
+onbekend 
+0,19 
+0,69 
+Vloer boven kruipruimte of direct op ondergrond; 
+zoldervloeren. 
+Spouw 
+0,33 
+0,83 
+Geen spouw/ 
+onbekend 
+0,15 
+0,65 
+Uitwendige scheidingsconstructies, grenzend aan 
+de buitenlucht, met een hellingshoek ten opzichte 
+van de verticaal van ten minste 15°. 
+OPMERKING 2 
+Hiermee worden daken bedoeld. 
+Spouw 
+0,35 
+0,85 
+Geen spouw/ 
+onbekend 
+0,22 
+0,72 
+ 
+I.2.1.3 Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies van een 
+gebouw(deel) met een bouwjaar vanaf 1965 
+Indien het bouwjaar van het gebouw(deel) is gelegen na 1964 en de benodigde gegevens voor de 
+bepaling van de Rc-waarde ontbreken, mogen, afhankelijk van de bouwjaarklasse, voor de 
+uitwendige scheidingsconstructies, niet zijnde ramen, deuren, panelen of daaraan gelijk te 
+stellen constructieonderdelen, de Rc-waarden worden ontleend aan tabel I.5 voor alle 
+gebruiksfuncties met uitzondering van woonwagens en drijvende bouwwerken, aan tabel I.6 
+voor woonwagens en aan tabel I.7 voor drijvende bouwwerken. 
+810
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 811 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.5 — Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies met 
+een bouwjaar vanaf 1965 
+Soort uitwendige scheidingsconstructie 
+Bouwjaarklasse 
+Rc 
+m2·K/W 
+Uitwendige scheidingsconstructies met een 
+hellingshoek ten opzichte van de verticaal van ten 
+hoogste 15°. 
+OPMERKING 1 
+Hiermee worden steenachtige gevels 
+bedoeld. 
+Van 1965 tot 1975 
+0,43 
+Van 1975 tot 1983 
+1,3 
+Van 1983 tot 1988 
+1,3 
+Van 1988 tot 1992 
+2 
+Van 1992 tot 2014 
+2,5 
+Van 2014 tot 2015 
+3,5 
+Van 2015 tot 2021 
+4,5 
+Vanaf 2021 
+4,7 
+Vloer boven kruipruimte of direct op ondergrond; 
+zoldervloeren. 
+Van 1965 tot 1975 
+0,17 
+Van 1975 tot 1983 
+0,52 
+Van 1983 tot 1988 
+1,3 
+Van 1988 tot 1992 
+1,3 
+Van 1992 tot 2014 
+2,5 
+Van 2014 tot 2021 
+3,5 
+Vanaf 2021 
+3,7 
+Uitwendige scheidingsconstructies, grenzend aan 
+de buitenlucht, met een hellingshoek ten opzichte 
+van de verticaal van ten minste 15°. 
+OPMERKING 2 
+Hiermee worden daken bedoeld. 
+Van 1965 tot 1975 
+0,86 
+Van 1975 tot 1983 
+1,3 
+Van 1983 tot 1988 
+1,3 
+Van 1988 tot 1992 
+2,0 
+Van 1992 tot 2014 
+2,5 
+Van 2014 tot 2015 
+3,5 
+Van 2015 tot 2021 
+6,0 
+Vanaf 2021 
+6,3 
+ 
+811
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 812 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.6 — Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies van 
+woonwagens met een bouwjaar vanaf 1965 
+Soort uitwendige scheidingsconstructie 
+Bouwjaarklasse 
+Rc 
+m2·K/W 
+Uitwendige scheidingsconstructies met een 
+hellingshoek ten opzichte van de verticaal van ten 
+hoogste 15°. 
+OPMERKING 1 
+Hiermee worden steenachtige gevels 
+bedoeld. 
+Van 1965 tot 1975 
+0,19 (gevel) 
+0,04 (paneel) 
+1975 tot 1983 
+1983 tot 1992 
+1,3 
+1992 tot 2014 
+2,0 
+2014 tot 2021 
+2,5 
+Vanaf 2021 
+2,6 
+Vloeren 
+Van 1965 tot 1975 
+0,17 
+1975 tot 1983 
+1983 tot 1992 
+1,3 
+1992 tot 2014 
+2,0 
+2014 tot 2021 
+2,5 
+Vanaf 2021 
+2,6 
+Uitwendige scheidingsconstructies, grenzend aan 
+de buitenlucht, met een hellingshoek ten opzichte 
+van de verticaal van ten minste 15°. 
+OPMERKING 2 
+Hiermee worden daken bedoeld. 
+Van 1965 tot 1975 
+0,22 
+1975 tot 1983 
+1983 tot 1992 
+1,3 
+1992 tot 2014 
+2,0 
+2014 tot 2021 
+2,5 
+Vanaf 2021 
+2,6 
+ 
+812
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 813 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.7 — Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies van 
+drijvende bouwwerken met een bouwjaar vanaf 1965 
+Soort uitwendige 
+scheidingsconstructie 
+Bouwjaarklasse 
+Rc 
+m2·K/W 
+Uitwendige scheidingsconstructies met een 
+hellingshoek ten opzichte van de verticaal van 
+ten hoogste 15°. 
+OPMERKING 1 
+Hiermee worden steenachtige 
+gevels bedoeld. 
+Van 1965 tot 1975 
+0,43 
+1975 tot 1983 
+0,43 
+1983 tot 1988 
+1,3 
+1988 tot 1992 
+2,0 
+1992 tot 2014 
+2,5 
+2014 tot 2015 
+3,5 
+2015 tot 2018 
+4,5 
+2018 tot 2021 
+3,5 
+Vanaf 2021 
+3,7 
+2018 tot 2021, op een op 
+1 januari 2018 nieuwe 
+ligplaats 
+4,5 
+Vanaf 2021, op een op 1 
+januari 2018 nieuwe 
+ligplaatslocatie 
+4,7 
+Uitwendige scheidingsconstructie van het 
+drijflichaam van een drijvend bouwwerk. 
+Van 1965 tot 1975 
+0,17 
+1975 tot 1983 
+0,17 
+1983 tot 1988 
+0,17 
+1988 tot 1992 
+0,17 
+1992 tot 2014 
+2,5 
+2014 tot 2015 
+2,5 
+2015 tot 2018 
+3,5 
+2018 tot 2021 
+2,5 
+Vanaf 2021 
+2,6 
+2018 tot 2021, op een op 
+1 januari 2018 nieuwe 
+ligplaatslocatie 
+3,5 
+Vanaf 2021, op een op 1 
+januari 2018 nieuwe 
+ligplaatslocatie 
+3,7 
+813
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 814 ---
+Withdrawn final
+Ingetrokken definitief
+Soort uitwendige 
+scheidingsconstructie 
+Bouwjaarklasse 
+Rc 
+m2·K/W 
+Uitwendige scheidingsconstructies, grenzend 
+aan de buitenlucht, met een hellingshoek ten 
+opzichte van de verticaal van ten minste 15°. 
+OPMERKING 2 
+Hiermee worden daken bedoeld. 
+Van 1965 tot 1975 
+0,35 
+1975 tot 1983 
+0,35 
+1983 tot 1988 
+1,3 
+1988 tot 1992 
+2,0 
+1992 tot 2014 
+2,5 
+2014 tot 2015 
+3,5 
+2015 tot 2018 
+6,0 
+2018 tot 2021 
+4,5 
+Vanaf 2021 
+4,7 
+2018 tot 2021, op een op 
+1 januari 2018 nieuwe 
+ligplaatslocatie 
+6,0 
+Vanaf 2021, op een op 1 
+januari 2018 nieuwe 
+ligplaatslocatie 
+6,3 
+Indien uit oogpunt van kwaliteitsbeheersing het gebruik van deze waarden alleen is toegelaten 
+bij het ontbreken van de benodigde gegevens voor de bepaling van de Rc-waarde, behoort die 
+voorwaarde vanwege het niet-eenduidige en niet-toetsbare karakter van ‘het ontbreken van de 
+benodigde gegevens’ nader te worden vastgelegd in procedurevoorschriften (bijvoorbeeld in 
+een beoordelingsrichtlijn, BRL).  
+I.2.1.4 Forfaitaire Rc-waarden van gesloten uitwendige scheidingsconstructies bij 
+bekende isolatiedikte 
+Indien de totale isolatiedikte van alle isolatiematerialen bekend is, moet de Rc-waarde van 
+uitwendige scheidingsconstructies, geen raam of deur zijnde of een in kozijnen opgenomen 
+paneel, worden berekend met onderstaande formule, mits de dikte van het isolatiemateriaal 
+rekenkundig is afgerond op een veelvoud van 10 mm. Deze afrondingsregel geldt niet indien de 
+toegepaste dikte voor een specifiek product aan de hand van rekeningen wordt aangetoond:  
+so
+c
+ad
+equi;ntr
+id
+R
+R
+λ
+=
++
+(I.2) 
+waarin: 
+diso 
+is de op een veelvoud van 10 mm afgeronde gekende totale isolatiedikte, in m. De 
+afrondingsregel geldt niet indien de toegepaste dikte voor een specifiek product 
+aan de hand van rekeningen wordt aangetoond; 
+λequi;ntr 
+is de equivalente warmtegeleidingscoëfficiënt van de isolatie in de dichte 
+scheidingsconstructie, waarin effecten van verankeringen, vocht, veroudering en 
+doorbrekingen forfaitair zijn verwerkt, in W/m·K, waarvan de waarde bedraagt: 
+814
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 815 ---
+Withdrawn final
+Ingetrokken definitief
+λequi;ntr =  
+0,045 W/m·K tenzij de warmtegeleidingscoëfficiënt van de isolatie waarin 
+effecten van verankeringen, vocht, veroudering en doorbrekingen forfaitair zijn 
+verwerkt bekend is en hoger is dan 0,045 W/m·K. In dat geval moet die hogere 
+warmtegeleidingscoëfficiënt worden gehanteerd; 
+Rad 
+is de warmteweerstand van de aanvullende constructies, waarin de effecten van 
+verankeringen, vocht en veroudering forfaitair zijn verwerkt, in m2∙K/W, 
+waarvan de waarde bedraagt: 
+a) gevels waarin de isolatie is opgenomen: Rad = 0,36 m2·K /W; 
+b) vloeren waarin de isolatie is opgenomen: Rad = 0,15 m2·K/W; 
+c) 
+daken waarin de isolatie is opgenomen: Rad = 0,22 m2·K/W. 
+Voeg voor constructies met ten hoogste 30 mm isolatie en waarin een luchtspouw aanwezig is, 
+aan de in deze paragraaf aangegeven totale warmteweerstanden voor de overige 
+constructielagen een warmteweerstand voor de luchtspouw toe van: 
+— luchtspouw in gevels: 
+0,16 m2·K/W 
+— luchtspouw in daken: 
+0,13 m2·K/W 
+— luchtspouw in vloeren: 
+0,18 m2·K/W 
+OPMERKING 1 
+De waarden zijn gebaseerd op zwak geventileerde luchtspouwen uit tabel C.3. 
+Voeg aan constructies met een rieten bedekking een extra warmteweerstand, in m2·K/W, toe ter 
+grootte van: 
+Rm;riet = d / 0,2 
+(I.3) 
+waarin: 
+d 
+is de dikte van het rietpakket, in m, welke dikte steeds naar beneden moet worden 
+afgerond op veelvouden van 0,05 m. De dikte van het rietpakket heeft een waarde 
+tussen 0,1 en 0,4 m. 
+OPMERKING 2 
+0,2 is de waarde van de warmtegeleidingscoëfficiënt van riet in W/m·K. 
+Indien in afwijking van het voorgaande de isolatie van een vloer bestaat uit thermokussens 
+onder die vloer mag voor de bepaling van de warmtestroom naar beneden aan de standaard 
+warmteweerstand van die vloer van Rad = 0,15 m2·K/W, forfaitair een extra warmteweerstand 
+worden toegevoegd ter grootte van 1,8 m2·K/W. 
+ Forfaitaire U-waarden van ramen 
+I.2.2.1 Forfaitaire U-waarden van ramen en glasdeuren grenzend aan buitenlucht 
+Voor ramen en deuren met een glasaandeel van ten minste 65 %, opgenomen in de aan de 
+buitenlucht grenzende uitwendige scheidingsconstructie, onafhankelijk van de dikte van de 
+glasspouw, mogen de U-waarden aan tabel I.8 worden ontleend. 
+Voor ramen en deuren met een glasaandeel van minder dan 65 %, opgenomen in de aan de 
+buitenlucht grenzende uitwendige scheidingsconstructie, onafhankelijk van de dikte van de 
+glasspouw, geldt voor de lichtdoorlatende delen de rekenwaarde voor een raam volgens tabel I.8 
+en voor het overige deel de rekenwaarde voor een deur zonder lichtdoorlatende delen volgens 
+tabel I.10. 
+815
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 816 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+Onder een glasdeur wordt verstaan een deur waarvan de oppervlakte van de 
+lichtdoorlatende delen groter is dan of gelijk is aan 65 % van de totale oppervlakte van de deur inclusief 
+kozijn. 
+Tabel I.8 — Forfaitaire U-waarden voor ramen en glasdeuren bestaande bouw, 
+aan buitenlucht grenzend 
+Uw 
+W/m2·K 
+Type glas 
+Type kozijn 
+Hout/kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, 
+niet thermisch 
+onderbroken 
+Drievoudig HR-glas  
+1,4 
+1,9 
+2,7 
+HR++ 
+1,8 
+2,3 
+3,1 
+HR+ 
+2,0 
+2,5 
+3,3 
+HR-glas (dubbel glas met 
+coating) 
+2,3 
+2,8 
+3,6 
+Dubbel glas zonder coating 
+2,9 
+3,3 
+4,1 
+Voorzetraam 
+2,9 
+3,3 
+4,1 
+Enkel glas 
+5,1 
+5,4 
+6,2 
+ 
+I.2.2.2 Forfaitaire U-waarden van ramen en glasdeuren niet grenzend aan buitenlucht 
+Voor ramen en deuren met een glasaandeel van ten minste 65 %, opgenomen in een niet aan de 
+buitenlucht grenzende scheidingsconstructie, onafhankelijk van de dikte van de glasspouw, 
+mogen de U-waarden aan tabel I.9 worden ontleend. 
+Voor ramen en deuren met een glasaandeel van minder dan 65 %, opgenomen in een niet aan de 
+buitenlucht grenzende uitwendige scheidingsconstructie, onafhankelijk van de dikte van de 
+glasspouw, geldt voor de lichtdoorlatende delen de rekenwaarde voor een raam volgens tabel I.9 
+en voor het overige deel de rekenwaarde voor een deur zonder lichtdoorlatende delen volgens 
+tabel I.10. 
+816
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 817 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.9 — Forfaitaire U-waarden voor ramen en glasdeuren bestaande bouw; niet aan 
+buitenlucht grenzend 
+Uw 
+W/m2·K 
+Type glas 
+Type kozijn 
+Hout/kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, 
+niet thermisch 
+onderbroken 
+Drievoudig HR-glas  
+1,3 
+1,6 
+2,2 
+HR++ 
+1,5 
+1,9 
+2,4 
+HR+ 
+1,7 
+2,1 
+2,6 
+HR-glas (dubbel glas met 
+coating) 
+1,9 
+2,2 
+2,7 
+Dubbel glas zonder coating 
+2,3 
+2,5 
+3,0 
+Voorzetraam 
+2,3 
+2,5 
+3,0 
+Enkel glas 
+3,5 
+3,6 
+4,0 
+ 
+I.2.2.3 Forfaitaire U-waarden van deuren 
+De U-waarden van deuren mogen aan tabel I.10 worden ontleend. 
+Tabel I.10 — Forfaitaire U-waarden voor deuren bestaande bouw 
+U 
+W/m2·K 
+Type deur 
+Grenzend aan 
+Buitenlucht 
+Aangrenzende ruimte 
+Geïsoleerde deur 
+2,0 
+1,7 
+Ongeïsoleerde deur 
+3,4 
+2,7 
+ 
+Een geïsoleerde deur is een deur waarvan volgens de bepalingsmethode in 8.2.2.3 de U-waarde 
+niet hoger is dan 2,2 W/m2·K.  
+OPMERKING 
+De rekenwaarde in de tabel is enigszins gunstiger dan deze grenswaarde, om recht te 
+doen aan een zekere bandbreedte in de werkelijke waarden. In een opnameprotocol kunnen op basis van 
+deze rekenregel nadere procedures worden gesteld om de aannemelijkheid van de aanwezigheid van een 
+geïsoleerde deur vast te stellen. Met de volgende omschrijving wordt geacht aan de grenswaarde te zijn 
+voldaan: ‘Een thermisch isolerende deur is een deur van hout of kunststof, zonder lichtdoorlatende delen, 
+die over ten minste 65 % van de totale oppervlakte een ononderbroken isolatielaag bevat met een 
+Rm-waarde van ten minste 0,4 m2·K/W.’ 
+817
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 818 ---
+Withdrawn final
+Ingetrokken definitief
+I.2.2.4 Forfaitaire U-waarden van in kozijnen opgenomen panelen 
+Bepaal de forfaitaire U-waarden van in kozijnen opgenomen panelen volgens het schema in 
+figuur I.5. 
+Figuur I.5 — Beslisboom voor de bepaling van forfaitaire U-waarden van in kozijnen 
+opgenomen panelen 
+I.2.2.4.1 Forfaitaire U-waarde van in kozijnen opgenomen panelen van een gebouw(deel) 
+met een bouwjaar van voor 1965 en met een niet te bepalen isolatiedikte of zonder 
+isolatie 
+Indien het bouwjaar van het gebouw(deel) van voor 1965 is en het is onbekend of er isolatie in 
+het paneel aanwezig is of de isolatiedikte is niet te bepalen of de constructie is niet van isolatie 
+voorzien, mogen voor in kozijnen opgenomen panelen, de U-waarden aan tabel I.11 (panelen 
+grenzend aan buiten) of tabel I.12 (panelen niet grenzend aan buitenlucht) worden ontleend. 
+Tabel I.11 — Forfaitaire U-waarden van in kozijnen opgenomen panelen met een 
+bouwjaar van voor 1965 en met een niet te bepalen isolatiedikte of zonder isolatie, aan 
+buitenlucht grenzend 
+Isolatie 
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [W/m2·K] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+Isolatie 
+onbekend of 
+afwezig 
+Geen spouw 
+3,7 
+4,1 
+4,9 
+Met spouw 
+2,5 
+2,8 
+3,6 
+(Na)geïsoleerd 
+Geen spouw 
+1,5 
+1,9 
+2,7 
+Met spouw 
+1,4 
+1,7 
+2,5 
+818
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 819 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.12 — Forfaitaire U-waarden van in kozijnen opgenomen panelen met een 
+bouwjaar van voor 1965 en met een niet te bepalen isolatiedikte of zonder isolatie, niet 
+aan buitenlucht grenzend 
+Isolatie 
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [W/m2·K] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+Isolatie 
+onbekend of 
+afwezig  
+Geen spouw 
+2,8 
+3,0 
+3,4 
+Met spouw 
+2,0 
+2,3 
+2,7 
+ 
+(Na)geïsoleerd 
+Geen spouw 
+1,3 
+1,6 
+2,2 
+Met spouw 
+1,2 
+1,5 
+2,1 
+ 
+OPMERKING 
+De rekenwaarde van de U-waarde van een (na)geïsoleerd paneel is gebaseerd op een 
+paneel met een isolatiedikte van 20 mm. 
+I.2.2.4.2 Forfaitaire U-waarde van in kozijnen opgenomen panelen van een gebouw(deel) 
+met een bouwjaar vanaf 1965 
+Indien het bouwjaar van het gebouw(deel) is gelegen na 1964 en de benodigde gegevens voor de 
+bepaling van de U-waarde ontbreken, mogen, afhankelijk van de bouwjaarklasse, voor in 
+kozijnen opgenomen panelen, de U-waarden worden ontleend aan tabel I.13 (panelen grenzend 
+aan buiten) of tabel I.14 (panelen niet grenzend aan buitenlucht). 
+Tabel I.13 — Forfaitaire U-waarden van in kozijnen opgenomen panelen van een 
+gebouw(deel) met een bouwjaar vanaf 1965, aan buitenlucht grenzend 
+Bouwjaarklasse 
+Type kozijn 
+U-waarde [W/m2·K] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+Van 1965 tot 1992 
+3,7 
+4,1 
+4,9 
+Van 1992 tot 2013 
+3,7 
+4,1 
+4,2 
+Vanaf 2013 
+1,65 
+1,65 
+1,65 
+ 
+819
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 820 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel I.14 — Forfaitaire U-waarden van in kozijnen opgenomen panelen van een 
+gebouw(deel) met een bouwjaar vanaf 1965, niet aan buitenlucht grenzend 
+Bouwjaarklasse 
+Type kozijn 
+U-waarde [W/m2·K] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+Van 1965 tot 1992 
+2,8 
+3,0 
+3,4 
+Van 1992 tot 2013 
+2,8 
+3,0 
+3,0 
+Vanaf 2013 
+1,4 
+1,4 
+1,4 
+ 
+I.2.2.4.3 Forfaitaire U-waarde van in kozijnen opgenomen panelen van gesloten 
+uitwendige scheidingsconstructies bij bekende isolatiedikte 
+Voor de bepaling van de Rc-waarde van in kozijnen opgenomen panelen in uitwendige 
+scheidingsconstructies, met een gekende isolatiedikte voor alle isolatiematerialen, mits de dikte 
+van het isolatiemateriaal rekenkundig is afgerond op een veelvoud van 10 mm, mag de Rc-
+waarde worden bepaald met:  
+iso
+c
+ad
+equi;paneel
+d
+R
+R
+λ
+=
++
+ 
+(I.4) 
+waarin: 
+diso 
+is de op een veelvoud van 10 mm afgeronde gekende totale isolatiedikte in m; 
+λequi;paneel  is de equivalente warmtegeleidingscoëfficiënt van de isolatie in het paneel, 
+waarin effecten van verankeringen, vocht, veroudering en doorbrekingen 
+forfaitair zijn verwerkt, in W/m·K, waarvan de waarde bedraagt: 
+λequi;paneel = 0,035 W/m·K; 
+Rad 
+is de warmteweerstand van de aanvullende constructies van het paneel, waarin 
+de effecten van verankeringen, vocht en veroudering forfaitair zijn verwerkt, in 
+m2·K/W, waarvan de waarde bedraagt: Rad = 0,07 m2·K/W. 
+Voeg voor constructies met ten hoogste 30 mm isolatie en waarin een luchtspouw aanwezig is, 
+aan de in deze paragraaf aangegeven totale warmteweerstanden voor de overige 
+constructielagen een warmteweerstand voor de luchtspouw toe van: 
+— luchtspouw in gevels: 
+0,16 m2·K/W 
+De forfaitaire U-waarde van panelen inclusief kozijnen wordt bepaald overeenkomstig 8.2.2.3. 
+Voor de forfaitaire bepaling van de U-waarde van in kozijnen opgenomen panelen, inclusief de 
+effecten van de aan de panelen toegerekende oppervlakte van de kozijnen moet worden 
+uitgegaan van: 
+— een kozijnpercentage van 25 %; 
+820
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 821 ---
+Withdrawn final
+Ingetrokken definitief
+— de forfaitaire U-waarde van de panelen volgens formule (I.1), waarbij de forfaitaire Rc-waarde 
+van de panelen bepaald is volgens formule (I.4);  
+— een lineaire warmtedoorgangscoëfficiënt van de paneelrand van 0 W/m·K en  
+— de forfaitaire U-waarde van kozijnen waarvoor geldt: 
+— houten of kunststof kozijnen: 
+ 
+ 
+ 
+Ufr;for = 2,4 W/m2·K 
+(I.5) 
+— metalen kozijnen met thermische onderbreking: 
+Ufr;for = 3,8 W/m2·K  
+(I.6) 
+— metalen kozijnen zonder thermische onderbreking: 
+Ufr;for= 7,0 W/m2·K  
+(I.7) 
+Het voorgaande leidt tot U-waarden zoals opgenomen in tabel I15 (panelen grenzend aan 
+buiten) of tabel I.16 (panelen niet grenzend aan buitenlucht). 
+Tabel I.15 — Forfaitaire U-waarden van in kozijnen opgenomen panelen van een 
+gebouw(deel) bij bekende isolatiedikte, aan buitenlucht grenzend 
+Isolatiedikte  
+ 
+mm 
+  
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [m2∙K/W] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+ 
+10 
+Geen spouw 
+2,0 
+2,4 
+3,2 
+Met spouw 
+1,7 
+2,0 
+2,8 
+ 
+20 
+Geen spouw 
+1,5 
+1,9 
+2,7 
+Met spouw 
+1,4 
+1,7 
+2,5 
+ 
+30 
+Geen spouw 
+1,3 
+1,6 
+2,4 
+Spouw 
+1,2 
+1,5 
+2,3 
+40 
+  
+1,1 
+1,5 
+2,3 
+50 
+  
+1,0 
+1,4 
+2,2 
+60 
+  
+0,98 
+1,3 
+2,1 
+70 
+  
+0,93 
+1,3 
+2,1 
+80 
+  
+0,90 
+1,2 
+2,0 
+90 
+  
+0,87 
+1,2 
+2,0 
+100 
+  
+0,84 
+1,2 
+2,0 
+110 
+  
+0,82 
+1,2 
+2,0 
+120 
+  
+0,80 
+1,2 
+2,0 
+130 
+  
+0,79 
+1,1 
+1,9 
+140 
+  
+0,78 
+1,1 
+1,9 
+150 
+  
+0,77 
+1,1 
+1,9 
+821
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 822 ---
+Withdrawn final
+Ingetrokken definitief
+Isolatiedikte  
+ 
+mm 
+  
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [m2∙K/W] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+160 
+  
+0,76 
+1,1 
+1,9 
+170 
+  
+0,75 
+1,1 
+1,9 
+180 
+  
+0,74 
+1,1 
+1,9 
+190 
+  
+0,73 
+1,1 
+1,9 
+200 
+  
+0,73 
+1,1 
+1,9 
+210 
+  
+0,72 
+1,1 
+1,9 
+220 
+  
+0,71 
+1,1 
+1,9 
+230 
+  
+0,71 
+1,1 
+1,9 
+240 
+  
+0,71 
+1,1 
+1,9 
+250 
+  
+0,70 
+1,1 
+1,9 
+260 
+  
+0,70 
+1,0 
+1,8 
+270 
+  
+0,69 
+1,0 
+1,8 
+280 
+  
+0,69 
+1,0 
+1,8 
+290 
+  
+0,69 
+1,0 
+1,8 
+300 
+  
+0,69 
+1,0 
+1,8 
+ 
+Tabel I.16 — Forfaitaire U-waarden van in kozijnen opgenomen panelen van een 
+gebouw(deel) bij bekende isolatiedikte, niet aan buitenlucht grenzend 
+Isolatiedikte  
+ 
+mm 
+ 
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [m2∙K/W] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+ 
+10 
+Geen spouw 
+1,7 
+2,0 
+2,5 
+Met spouw 
+1,5 
+1,7 
+2,3 
+ 
+20 
+Geen spouw 
+1,3 
+1,6 
+2,2 
+Met spouw 
+1,2 
+1,5 
+2,1 
+ 
+30 
+Geen spouw 
+1,2 
+1,4 
+2,0 
+Spouw 
+1,1 
+1,4 
+1,9 
+822
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 823 ---
+Withdrawn final
+Ingetrokken definitief
+Isolatiedikte  
+ 
+mm 
+ 
+Aanwezigheid 
+spouw  
+Type kozijn 
+U-waarde [m2∙K/W] 
+Hout/ 
+kunststof 
+Metaal, 
+thermisch 
+onderbroken 
+Metaal, niet- 
+thermisch 
+onderbroken 
+40 
+  
+1,0 
+1,3 
+1,9 
+50 
+  
+1,0 
+1,2 
+1,8 
+60 
+  
+0,9 
+1,2 
+1,8 
+70 
+  
+0,9 
+1,2 
+1,8 
+80 
+  
+0,8 
+1,1 
+1,7 
+90 
+  
+0,8 
+1,1 
+1,7 
+100 
+  
+0,8 
+1,1 
+1,7 
+110 
+  
+0,8 
+1,1 
+1,7 
+120 
+  
+0,8 
+1,0 
+1,7 
+130 
+  
+0,7 
+1,0 
+1,7 
+140 
+  
+0,7 
+1,0 
+1,6 
+150 
+  
+0,7 
+1,0 
+1,6 
+160 
+  
+0,7 
+1,0 
+1,6 
+170 
+  
+0,7 
+1,0 
+1,6 
+180 
+  
+0,7 
+1,0 
+1,6 
+190 
+  
+0,7 
+1,0 
+1,6 
+200 
+  
+0,7 
+1,0 
+1,6 
+210 
+  
+0,7 
+1,0 
+1,6 
+220 
+  
+0,7 
+1,0 
+1,6 
+230 
+  
+0,7 
+1,0 
+1,6 
+240 
+  
+0,7 
+1,0 
+1,6 
+250 
+  
+0,7 
+1,0 
+1,6 
+260 
+  
+0,7 
+1,0 
+1,6 
+270 
+  
+0,7 
+1,0 
+1,6 
+280 
+  
+0,7 
+1,0 
+1,6 
+290 
+  
+0,6 
+0,9 
+1,6 
+300 
+  
+0,6 
+0,9 
+1,6 
+ 
+823
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 824 ---
+Withdrawn final
+Ingetrokken definitief
+ Warmtedoorgangscoëfficiënt via de grond 
+Indien de opbouw van de vloerconstructie niet bekend is, mag de warmteovergangscoëfficiënt 
+naar de grond, Hg, worden bepaald conform 8.3, waarbij het volgende geldt: 
+a) Bepaal de warmteweerstand van de vloerconstructie op de grond of boven een kruipruimte
+of onverwarmde kelder, Rf, volgens J.1.
+b) De hoogte van wanddelen van de kruipruimte, z, de verticale afstand tussen het maaiveld en
+de bovenzijde van de kruipruimte vloer, is in alle gevallen 0,5 m (de paragrafen 8.3.3.2,
+8.3.4.1, 8.3.5.1 en 8.3.5.3).
+c) De waarde voor de warmteweerstand van kruipruimtevloeren, Rbf, in (m2·K)/W, bedraagt:
+— Isolatie onbekend of afwezig:
+Rbf  = 0,0; 
+— Isolatie aanwezig: 
+Rbf  = 0,5. 
+d) Bepaal de equivalente warmtedoorgangscoëfficiënt voor ventilatie naar de buitenlucht, Ux;V,
+in W/(m·K) (8.3.5.4.3) uitsluitend met formule (8.48) (kruipruimteventilatie).
+e) Bepaal de faseverschuiving voor warmtetransport naar de grond, α respectievelijk β, in
+maanden, uitsluitend op basis van vloeren direct op ondergrond of vloeren boven
+kruipruimten (tabel D.1). Bij vloeren direct op ondergrond geldt de Rc-waarde van de gehele
+vloer als criterium voor het onderscheid tussen β=2 en β=1.
+f) Bepaal de periodieke warmtetransmissiecoëfficiënt door variatie van de buitentemperatuur
+Hpe, in W/K, bij vloeren direct op ondergrond uitsluitend met formule (D.6) (vloer met of
+zonder isolatie).
+g) Bepaal de periodieke warmtetransmissiecoëfficiënt door variatie van de binnentemperatuur
+Hpi of buitentemperatuur Hpe, in W/K, bij overige vloeren uitsluitend met de formules (D.13)
+en (D.14) (vloer boven kruipruimte).
+Warmteverliescoëfficiënt via aangrenzend onverwarmde ruimten 
+Bij toepassing van de basisopname ISSO 82.1 en 75.1 wordt de warmteverliescoëfficiënt via 
+aangrenzende onverwarmde ruimten, HU;adj, bepaald volgens 8.4, waarbij de volgende 
+rekenwaarde voor de warmteoverdrachtcoëfficiënt van de onverwarmde ruimte naar de 
+buitenomgeving, Hue, wordt gehanteerd: 
+ue
+T;iu
+5
+H
+A
+= ×
+(I.8) 
+waarin: 
+Hue 
+is de warmteoverdrachtcoëfficiënt tussen de aangrenzende onverwarmde ruimte en 
+de buitenlucht, in W/K; 
+AT;iu 
+is de geprojecteerde oppervlakte van de scheidingsconstructie tussen de rekenzone 
+en de aangrenzende onverwarmde ruimte, bepaald volgens K.1.2 in m2. 
+OPMERKING 1 De rekenwaarde 5 is gebaseerd op de volgende forfaitaire waarden: 
+824
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 825 ---
+Withdrawn final
+Ingetrokken definitief
+— de oppervlakte van de scheidingsconstructie tussen de aangrenzende onverwarmde ruimte en de 
+buitenlucht, AT;ue, in m2, is 1,44 × AT;iu, waarin AT;iu is de oppervlakte tussen de rekenzone en de 
+aangrenzende onverwarmde ruimte (m2); 
+— de U-waarde van de scheidingsconstructie tussen de aangrenzende onverwarmde ruimte en de 
+buitenlucht, Uue, bedraagt 3,2 W/m2·K; 
+— de luchtvolumestroom door infiltratie en ventilatie tussen de aangrenzende onverwarmde ruimte en 
+de buitenlucht, qve;ue, bedraagt 1,5 × AT;iu (m3/h).  
+OPMERKING 2 Formule (I.8) leidt bij invulling in 8.4 tot: b = 1 / (1 + U/5). 
+Ook mag bij woonfuncties, bij de bepaling van de dimensieloze reductiefactor bU bij een zolder 
+onder het dak van een woning, indien deze is aangewezen als aangrenzende onverwarmde 
+ruimte (AOR) en indien voorzien van een dichte inwendige scheidingsconstructie als 
+zoldervloer, de warmteoverdrachtcoëfficiënt voor ventilatie, Hve;ue, op de zolder op nul worden 
+gesteld. 
+825
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 826 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage J 
+(normatief) 
+ 
+Bepalingsmethode voor de gedeclareerde waarden voor de 
+warmtegeleidingscoëfficiënt en warmteweerstand 
+J.1 Algemeen 
+De producent is verantwoordelijk voor de bepaling van de gedeclareerde 
+warmtegeleidingscoëfficiënt, λD, en/of warmteweerstand, RD, overeenkomstig het gestelde in 
+E.2.2.2. Hij moet de ‘conformiteit’ van zijn product met de gedeclareerde waarden aantonen. De 
+gedeclareerde waarden moeten representatief zijn voor de thermische prestatie gedurende de 
+technische levensduur van dat product bij de beoogde toepassingsomstandigheden. De 
+gedeclareerde producteigenschappen moeten zijn afgeleid vanuit onder gestandaardiseerde 
+condities bepaalde meetwaarden en zijn afgerond volgens de in E.2.2.2 gegeven 
+afrondingsregels.  
+OPMERKING 
+Het verschil tussen λD en λ90/90 resp. tussen RD en R90/90 bestaat slechts uit de toepassing 
+van de afrondingsregels. 
+Gedeclareerde warmtegeleidingscoëfficiënten en/of warmteweerstanden moeten representatief 
+zijn voor 90 % van de productie en een betrouwbaarheid hebben van 90 %, aangeduid met λ90/90 
+resp. R90/90. In J.3 wordt de statistische procedure gegeven voor de bepaling van λ90/90 en R90/90 
+uit een serie meetwaarden die voldoen aan de onder J.2 vermelde voorwaarden. 
+J.2 Voorwaarden 
+Voor de bepaling van λ90/90 en R90/90 zijn minimaal tien meetwaarden vereist. De metingen 
+moeten worden uitgevoerd gelijkmatig verdeeld over een periode van ten minste één jaar en 
+hoogstens drie jaar, waarbij het product en de productieomstandigheden niet significant zijn 
+gewijzigd.  
+In afwijking hiervan geldt voor nieuwe producten dat de metingen moeten zijn uitgevoerd 
+verdeeld over een periode van ten minste tien dagen. 
+J.3 Statistische bepaling van λ90/90 en R90/90 
+ Statistische bepaling wanneer de warmtegeleidingscoëfficiënt en 
+warmteweerstand worden gedeclareerd 
+De warmtegeleidingscoëfficiënt, λD, en de warmteweerstand, RD, worden berekend vanuit λ90/90 
+respectievelijk R90/90 met de formules (J.1), (J.2) en (J.3): 
+λ
+s
+k
+λ
+λ
+
++
+=
+mean
+90
+/
+90
+ 
+(J.1) 
+(
+)
+(
+)
+2
+1
+1
+n
+i
+i
+n
+
+
+
+
+=
+−
+=
+−
+
+mean
+ 
+(J.2) 
+826
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 827 ---
+Withdrawn final
+Ingetrokken definitief
+90
+/
+90
+N
+90
+/
+90
+λ
+d
+R
+=
+ 
+(J.3) 
+waarin: 
+λ90/90 is de statistisch bepaalde waarde van de warmtegeleidingscoëfficiënt die 
+representatief is voor 90 % van de productie en een betrouwbaarheid heeft van 90 %; 
+λmean is het rekenkundig gemiddelde van de meetwaarden; 
+k 
+is een factor te ontlenen aan tabel J.1; 
+λ 
+is de standaardafwijking; 
+n 
+is het aantal meetwaarden; 
+R90/90 is de statistisch bepaalde waarde van de warmteweerstand die representatief is voor 
+90 % van de productie en een betrouwbaarheid heeft van 90 %; 
+dN 
+is de nominale dikte. 
+ Statistische bepaling wanneer alleen de warmteweerstand wordt 
+gedeclareerd 
+De warmteweerstand, RD, wordt berekend vanuit R90/90 met de formules (J.4) en (J.5). 
+R
+s
+k
+R
+R
+
+−
+=
+mean
+90
+/
+90
+ 
+(J.4) 
+(
+)
+(
+)
+2
+1
+1
+n
+i
+i
+R
+R
+R
+n
+
+=
+−
+=
+−
+
+mean
+ 
+(J.5) 
+waarin: 
+R90/90 is de statistisch bepaalde waarde van de warmteweerstand die representatief is voor 
+90 % van de productie en een betrouwbaarheid heeft van 90 %; 
+Rmean is het rekenkundig gemiddelde van de meetwaarden; 
+k 
+is een factor te ontlenen aan tabel J.1; 
+R 
+is de standaardafwijking; 
+n 
+is het aantal meetwaarden. 
+827
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 828 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel J.1 — Waarden voor k bij een eenzijdige tolerantie-interval van 90 % met een 
+betrouwbaarheidsniveau van 90 % 
+Aantal meetwaarden 
+n 
+k 
+10 
+2,07 
+11 
+2,01 
+12 
+1,97 
+13 
+1,93 
+14 
+1,90 
+15 
+1,87 
+16 
+1,84 
+17 
+1,82 
+18 
+1,80 
+19 
+1,78 
+20 
+1,77 
+22 
+1,74 
+24 
+1,71 
+25 
+1,70 
+30 
+1,66 
+35 
+1,62 
+40 
+1,60 
+45 
+1,58 
+50 
+1,56 
+100 
+1,47 
+300 
+1,39 
+500 
+1,36 
+2 000 
+1,32 
+OPMERKING 
+De k-waarde voor andere aantallen 
+meetwaarden kan door lineaire interpolatie worden bepaald 
+of worden ontleend aan NEN-ISO 16269-6 Statistische 
+interpretatie van gegevens – Deel 6: Bepaling van statistische 
+tolerantie-intervallen. 
+828
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 829 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage K 
+(normatief) 
+Bepaling oppervlakte van vlakvormige en lengte van lijnvormige 
+elementen  
+K.1 Schematiseringsregels voor het berekenen van de oppervlakte van 
+vlakvormige elementen en lijnvormige warmteverliezen (ψ) 
+ Methode 
+De begrenzing van de verwarmde ruimte wordt volgens de principes van K.1.4 gemodelleerd tot 
+een aaneengesloten systeem van vlakvormige en lijnvormige elementen. Voorzieningen zoals 
+afdichtingen, afdeklatten, stelblokjes en dergelijke worden niet als onderdeel van een vlak 
+gebouwelement beschouwd en moeten dan ook bij de bepaling van de 
+warmtedoorgangscoëfficiënt (U) buiten beschouwing blijven. Hun invloed op de 
+warmtetransmissie moet in de volgens hoofdstuk 8 te bepalen lineaire 
+warmtedoorgangscoëfficiënt worden verdisconteerd. 
+ Geprojecteerde oppervlakte (AT) 
+AT is de geprojecteerde oppervlakte van een vlak paneel zoals dat wordt gebruikt in de bepaling 
+van de energieprestatie-indicator.  
+Beschouw als de geprojecteerde oppervlakte, AT, in m2, van een constructieonderdeel dat geen 
+raam of deur (inclusief kozijn) en ook geen kozijn met vast paneel is, de op twee decimalen 
+nauwkeurig bepaalde oppervlakte, in m2, van een denkbeeldig plat vlak dat wordt begrensd door 
+de (als adiabatisch te veronderstellen) afsnijvlakken van het (constructie)onderdeel volgens  de 
+principes van K.1.4.  
+Bepaal van een raam of deur of van een kozijn met vast paneel de oppervlakte van het 
+denkbeeldige platte vlak dat wordt begrensd door de binnenwerkse kozijnranden volgens de 
+principes van K.1.4. 
+ Oppervlakte van een (constructie)onderdeel (Acon) voor de bepaling van de 
+warmtedoorgangscoëfficiënt (U) 
+Acon is de geprojecteerde oppervlakte van een constructievlak waarvoor geldt dat de 
+doorgangscoëfficiënt (U) overeenkomt met de gehanteerde U in de berekening van de 
+energieprestatie-indicator. Voor ramen en deuren geldt Acon = Agl + Afr. 
+Beschouw als de geprojecteerde oppervlakte van een (constructie)onderdeel dat geen raam of 
+deur (inclusief kozijn) en ook geen kozijn met vast paneel is, de op twee decimalen nauwkeurig 
+bepaalde oppervlakte van een denkbeeldig plat vlak dat wordt begrensd door de (als adiabatisch 
+te veronderstellen) afsnijvlakken van het onderdeel ter plaatse van de binnenwerkse randen van 
+het onderdeel, volgens de principes zoals aangegeven in K.1.4.  
+Beschouw als de geprojecteerde oppervlakte van een vlakke scheidingsconstructie die - afgezien 
+van eventuele afwerklagen (waaronder mogelijk buitenspouwbladen) - in de fabriek is 
+vervaardigd, de op twee decimalen nauwkeurig bepaalde oppervlakte van een denkbeeldig plat 
+vlak dat wordt begrensd door de (als adiabatisch te veronderstellen) randen van dat 
+fabrieksmatig vervaardigde element, volgens de principes zoals aangegeven in K.1.4. 
+829
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 830 ---
+Withdrawn final
+Ingetrokken definitief
+Als een element dat in de fabriek vervaardigd is, voorzien is van onderdelen bedoeld om 
+aansluitende kozijnen aan te bevestigen, dan vallen die delen buiten de geprojecteerde 
+oppervlakte Acon. Voor houten stijlen en regels is dit de breedte van de desbetreffende houten 
+stijl of regel met een maximum van 40 mm indien deze breder is. 
+OPMERKING 
+Wanneer een (constructie)onderdeel is opgebouwd als een stelsel van isolerende panelen 
+gevat in een stijl- en/of regelwerk met een regelmatig patroon, dan omvat de geprojecteerde oppervlakte 
+van dit onderdeel zowel de panelen als het stijl- en/of regelwerk.  
+Constructieonderdelen die buiten de geprojecteerd oppervlakte (AT) vallen, moeten buiten 
+beschouwing gelaten worden bij de bepaling van de warmtedoorgangscoëfficiënt (U). Een 
+voorbeeld hiervan is het ongeïsoleerde deel van een geprefabriceerd hellend dak dat als 
+overstek dient en aan weerszijden aan de buitenlucht grenst. 
+In afwijking hiervan mag de Acon worden vergroot zolang dat leidt tot een hogere waarde van de 
+warmtedoorgangscoëfficiënt (verslechtering van de thermische kwaliteit). Voorzieningen zoals 
+afdichtingen, afdeklatten, stelblokjes en dergelijke mogen niet als onderdeel van een vlak 
+gebouwelement worden beschouwd en moeten hier dan ook bij de bepaling van de 
+warmtedoorgangscoëfficiënt, U, buiten beschouwing blijven. Hun invloed op de 
+warmtetransmissie moet in de lineaire warmtedoorgangscoëfficiënt, ψ, worden verdisconteerd. 
+ Lengte van de lijnvormige elementen (lineaire thermische bruggen) (ℓk)  
+In deze bijlage zijn de principes opgenomen van de afsnijvlakken voor het bepalen van de 
+geprojecteerde oppervlakte (AT), de oppervlakte van een (constructie)onderdeel (Acon) en de 
+lineaire warmtedoorgangscoëfficiënt (ψ) van aansluitdetails. Hierbij is gebruikgemaakt van een 
+groot aantal (gemodelleerde) ISSO-Referentiedetails waarbij de wijze van schematisering is 
+aangegeven. Per detail is het overeenkomstige serienummer uit deze detailserie weergegeven 
+(bijvoorbeeld: ‘101.0.1.01’). De selectie is zodanig breed en uitgebreid gekozen dat vergelijkbare 
+afwijkende details op basis van deze principes geschematiseerd kunnen worden. 
+De lineaire warmtedoorgangscoëfficiënt (ψ) van een detail is gedefinieerd als de warmtestroom 
+door het gehele detail verminderd met de warmtestroom door het oppervlak van de flankerende 
+constructieonderdelen. 
+Het verschil tussen AT en Acon blijkt uit de voorbeelden. De begrenzingen van de twee 
+aansluitende vlakken AT en Acon zijn aangegeven in de details van deze bijlage. 
+Voor ramen en deuren geldt dat de oppervlakte Acon moet voldoen aan de vereiste 
+doorgangscoëfficiënt (UW) volgens de berekening van de energieprestatie-indicator. Voor de 
+gevels, vloeren en daken geldt dat de oppervlakte Acon moet voldoen aan de vereiste 
+warmteweerstand (Rc) volgens de berekening van de energieprestatie-indicator.  
+De schematiseringsregels voor het bepalen van de lineaire warmtedoorgangscoëfficiënt (ψ) 
+kunnen ook gebruikt worden voor het bepalen van de begrenzingen van prefab dak- en 
+gevelelementen. Voor Acon kan dan gelezen worden Rc resp. UW.  
+Voorwaarde is dat het prefab element, zoals dat wordt geprefabriceerd, als geheel voldoet aan 
+de vereiste warmteweerstand voor het oppervlak dat binnen de begrenzing van AT valt. Voor het 
+deel van het prefab element dat buiten de begrenzing van AT valt, geldt dat niet. Dat deel wordt 
+toegerekend aan de lineaire warmtedoorgangscoëfficiënt (ψ). Dat laatste kan alleen wanneer de 
+details bekend zijn, omdat dan pas de AT kan worden bepaald.  
+830
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 831 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+De voorbeelddetails in tabel K.1 zijn ook in NPR 2068 opgenomen. Er is dus sprake van 
+een dubbeling tussen NPR 2068 en NTA 8800. In een toekomstige versie van NTA 8800 wordt er voor een 
+nadere toelichting met voorbeelden van de schematiseringsregels verwezen naar NPR 2068. 
+Tabel K.1 — Weergave schematiseringsregels voor het berekenen van de oppervlakte van 
+vlakvormige elementen en lijnvormige warmteverliezen (ψ) 
+ 
+ 
+ 
+101.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van het vloerpeil. Merk op dat het deel 
+van de oppervlakte van de prefab gevel onder het 
+vloerpeil niet tot Acon wordt gerekend. Dit omdat 
+dit buiten het begrenzingsvlak van AT valt. 
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de gevel.  
+ 
+ 
+ 
+101.0.3.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van het vloerpeil. 
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de gevel. 
+831
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 832 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+ 
+ 
+102.0.1.01 
+Het gevelvlak Acon wordt begrensd door het 
+vloerpeil. Merk op dat het deel van het kozijn 
+onder het vloerpeil niet tot Acon wordt gerekend. 
+Dit omdat dit buiten het begrenzingsvlak van AT 
+valt. 
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de gevel, en niet door de 
+binnenzijde van het kozijn. Bij de bepaling van AT 
+wordt geen rekening gehouden met de dagkanten 
+van deursparingen.  
+ 
+De vloeroppervlakte van de dagkant van het kozijn 
+maakt deel uit van ψ. 
+ 
+103.1.0.05 
+Het gevelvlak Acon wordt begrensd door het 
+vloerpeil.  
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de oplegging van de systeemvloer. 
+Er geldt hier een uitzondering. Vloeropleggingen 
+van systeemvloeren worden niet meegerekend bij 
+de bepaling van de warmteweerstand van de 
+vloer. Zie hiervoor de desbetreffende 
+productbladen van de leveranciers.  
+ 
+De vloeroppervlakte van de oplegging wordt 
+toegerekend aan ψ. 
+832
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 833 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+103.2.0.05 
+Het gevelvlak Acon wordt begrensd door het 
+vloerpeil.  
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de oplegging van de systeemvloer. 
+Deze komt vrijwel overeen met de 
+binnenoppervlakte van AT. Het verschil wordt 
+verwaarloosd. 
+ 
+104.1.0.01 
+Conform de bepalingsmethode voor het 
+transmissieverlies door beganegrondvloeren 
+gelden de aansluitdetails zonder aangrenzende 
+buitenlucht: ψ = 0 W/(m∙K). 
+A con
+A con
+A T
+A T
+ 
+201.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van de houten ligger van het prefab 
+element. De bevestiging van het kozijn doorbreekt 
+de additionele isolatie van het buitenspouwblad. 
+De invloed hiervan op het warmteverlies wordt 
+verwaarloosd. 
+ 
+Het kozijnvlak Acon wordt begrensd door de 
+onderzijde van het kozijn. 
+833
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 834 ---
+Withdrawn final
+Ingetrokken definitief
+201.0.3.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van de spouwlat.  
+Het kozijnvlak Acon wordt begrensd door de 
+onderzijde van het kozijn. 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+A con
+A con
+A T
+A T
+202.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+binnenzijde van de houten staander van het prefab 
+element. De bevestiging van het kozijn doorbreekt 
+de additionele isolatie van het buitenspouwblad. 
+De invloed hiervan op het warmteverlies wordt 
+verwaarloosd.  
+De aftimmering van de dagkanten van het kozijn 
+maakt geen deel uit van Acon. 
+Het kozijnvlak Acon wordt begrensd door de 
+buitenzijde van het kozijn. 
+202.0.3.01 
+Het gevelvlak Acon wordt begrensd door het 
+grensvlak met de spouwlat.  
+Het kozijnvlak Acon wordt begrensd door de 
+buitenzijde van het kozijn. 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+834
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 835 ---
+Withdrawn final
+Ingetrokken definitief
+A T
+A T
+A con
+A con
+203.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van de houten ligger van het prefab 
+element. De bevestiging van het kozijn doorbreekt 
+de additionele isolatie van het buitenspouwblad. 
+De invloed hiervan op het warmteverlies wordt 
+verwaarloosd. 
+ 
+De aftimmering van de dagkanten van het kozijn 
+maakt geen deel uit van Acon.. 
+ 
+Het kozijnvlak Acon wordt begrensd door de 
+buitenzijde van het kozijn. 
+ 
+ 
+ 
+203.0.3.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van de spouwlat.  
+ 
+Het kozijnvlak Acon wordt begrensd door de 
+buitenzijde van het kozijn. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+ 
+204.1.1.02 
+Beide gevelvlakken Acon worden begrensd door de 
+buitenzijde van de staander van het prefab 
+element. In tegenstelling tot het hoekdetail 
+(205.1.1.01) maakt hier de gehele staander deel 
+uit van Acon omdat de staander binnen de 
+begrenzingen van AT valt.  
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+835
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 836 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+ 
+ 
+204.1.3.01 
+In dit detail is sprake van ononderbroken 
+doorgaande thermische schil. Ter plaatse van de 
+wandconstructie haaks op de gevel is sprake van 
+een discontinue doorsnede door de 
+wandconstructie en afdichtingen tussen het 
+binnenspouwblad en de wand. Dit heeft echter een 
+verwaarloosbare invloed op de thermische 
+isolatie. 
+ 
+ 
+Er geldt ψ = 0 W/(m∙K). 
+ 
+ 
+205.1.1.01 
+Het gevelvlak Acon wordt begrensd door het 
+binnenoppervlak van de gevel. 
+ 
+Merk op dat het deel van de staander van het 
+prefab element dat buiten AT valt, niet aan Acon 
+wordt toegerekend. 
+ 
+ 
+ 
+205.1.3.01 
+Het gevelvlak Acon van de spouwmuren wordt 
+begrensd door de binnenzijde van de gevels.  
+ 
+Ter plaatse van de onderlinge aansluiting van de 
+prefab wanden is sprake van een kleine 
+discontinuïteit door de flexibele voeg. Deze wordt 
+verwaarloosd. 
+836
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 837 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+ 
+205.4.1.01 
+Het gevelvlak Acon van de spouwmuren wordt 
+begrensd door de binnenzijde van de gevels. 
+ 
+Merk op dat een deel van het prefab element dat 
+buiten AT valt, niet wordt toegerekend aan Acon 
+maar deel uitmaakt van ψ. 
+ 
+206.0.1.01 
+Het betreft een inwendige hoek. 
+ 
+Het gevelvlak Acon van de spouwmuren wordt 
+begrensd door de buitenzijde van de thermische 
+isolatie van het aangrenzende gevelvlak. 
+ 
+Merk op dat bij dit detail de hoekstijlen van een 
+van de houtskeletbouwwanden geen deel 
+uitmaakt van het gevelvlak Acon.  
+ 
+De dubbele staanders van het prefab element dat 
+aansluit op het aangrenzende element, maken deel 
+uit van Acon. 
+837
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 838 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+ 
+204.1.1.02 
+Beide gevelvlakken Acon worden begrensd door de 
+buitenzijde van de staander van het prefab 
+element.  
+ 
+Merk op dat feitelijk sprake is van meerdere 
+aansluitvlakken waarvoor de ψ moet worden 
+bepaald. In het detail zijn de begrenzingen van Acon 
+aangegeven van de prefab elementen. 
+ 
+De aansluiting van de kozijnen op de prefab 
+elementen kunnen afgeleid worden van andere 
+details. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+ 
+216.4.1.01 
+Het betreft een inwendige hoek met een 
+woningscheidende bouwmuur. 
+ 
+Het gevelvlak Acon van de spouwmuren wordt 
+begrensd door de buitenzijde van de thermische 
+isolatie van de aangrenzende wand. Merk op dat 
+de hoekstijl van één element geen deel uitmaakt 
+van Acon. 
+ 
+De staanders en thermische isolatie van de 
+woningscheidende wand maakt geen deel uit van 
+Acon. De invloed daarvan is onderdeel van ψ. 
+  
+ 
+301.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van het prefab element waarvan de 
+warmteweerstand is bepaald. 
+ 
+In tegenstelling tot de detaillering bij de 
+beganegrondvloer (101.0.0.01) maakt in deze 
+situatie de gehele onderdorpel deel uit van Acon 
+omdat de dorpel binnen de begrenzing valt van AT. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+838
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 839 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+301.0.3.01 
+In dit detail is sprake van een continue doorsnede 
+van de thermische schil. Ter plaatse van de 
+vloerconstructie is sprake van een kleine 
+afwijkende detaillering van de gevel door de 
+vloerconstructie en afdichting, dit wordt 
+verwaarloosd.  
+ 
+Er geldt ψ = 0 W/(m∙K). 
+301.4.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde of bovenzijde van het prefab element 
+waarvan de warmteweerstand is bepaald. 
+ 
+De houten vloerconstructie maakt geen deel uit 
+van Acon van de gevel  
+ 
+De dubbele ligger van het prefab element van de 
+gevel is opgenomen in het prefab element en 
+maakt daarmee deel uit van Acon.  
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+302.0.1.01 
+In dit detail is sprake van twee aansluitingen 
+waarvoor de ψ bepaald moet worden. 
+ 
+Vloeraansluiting 
+Het gevelvlak Acon wordt begrensd door de onder-
+zijde van het prefab element waarvan de warmte-
+weerstand is bepaald, zie ook detail 301.0.1.01.  
+ 
+Kozijnaansluiting 
+Voor het gevelelement boven het kozijn geldt Acon 
+van het gevelvlak. De oppervlakte Acon van de 
+kozijnen wordt begrensd door de bovenzijde van 
+het kozijn. Het rekje boven het kozijn maakt deel 
+uit van ψ met uitzondering van de sparing van het 
+rooster. Voor de sparing in het element voor het 
+rooster geldt U = 0 W/m2. Immers, het 
+warmteverlies door het rooster maakt deel uit van 
+de infiltratie door ventilatie.  
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+839
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 840 ---
+Withdrawn final
+Ingetrokken definitief
+302.0.1.02 
+In dit detail is sprake van twee aansluitingen 
+waarvoor de ψ bepaald moet worden. 
+Vloeraansluiting 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van het prefab element waarvan de 
+warmteweerstand is bepaald, zie ook detail 
+301.0.1.01.  
+Kozijnaansluiting 
+Voor het gevelelement boven het kozijn geldt Acon 
+van het gevelvlak. De suskast maakt geen deel uit 
+van Acon. Merk op dat de dubbele regel onder de 
+suskast geen deel uitmaakt van Acon. Voor de 
+sparing in het element van de suskast geldt 
+U = 0 W/m2∙K. 
+De oppervlakte Acon van de kozijnen wordt 
+begrensd door de bovenzijde van het kozijn. 
+Immers, het warmteverlies door de suskast maakt 
+deel uit van de infiltratie door ventilatie. 
+302.0.3.02 
+Merk op dat feitelijk sprake is van meerdere 
+aansluitvlakken waarvoor de ψ moet worden 
+bepaald. In het detail zijn de begrenzingen van Acon 
+aangegeven van de metselwerkdragers. 
+De metselwerkdragers doorbreken de thermische 
+schil en daardoor is er geen sprake meer van een 
+doorgaande thermische schil. De begrenzing van 
+Acon is de bovenzijde van de metselwerkdrager. 
+Het rekje boven het kozijn heeft dezelfde 
+thermische kwaliteit als het gevelvlak. De 
+aansluiting van het kozijn op het prefab element 
+en de begrenzing van Acon kan afgeleid worden van 
+andere kozijndetails en is niet aangegeven in het 
+detail. 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ.  
+840
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 841 ---
+Withdrawn final
+Ingetrokken definitief
+351.0.1.03 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde of bovenzijde van het prefab element 
+waarvan de warmteweerstand is bepaald. 
+ 
+Het transmissieverlies door dit oppervlak tussen 
+de prefab elementen, inclusief de aanstortnokken 
+van het prefab element, maakt deel uit van ψ. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+352.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde of bovenzijde van het prefab element 
+waarvan de warmteweerstand is bepaald. 
+ 
+Het transmissieverlies door het oppervlak tussen 
+de prefab elementen, maakt deel uit van ψ. 
+ 
+De aansluiting van de kozijnen op het prefab 
+element en de begrenzing van Acon kan afgeleid 
+worden van andere kozijndetails en is niet 
+aangegeven in het detail.  
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+354.0.3.01 
+Het gevelvlak Acon wordt begrensd door het 
+vloerpeil. Merk op dat het deel van het kozijn 
+onder het vloerpeil niet tot Acon wordt gerekend. 
+Dit omdat dit buiten het begrenzingvlak van AT 
+valt. 
+ 
+Bij de bepaling van AT wordt geen rekening 
+gehouden met de neggekanten van deuren. Deze 
+vloeroppervlakte maakt dus deel uit van ψ. 
+ 
+Het vloervlak Acon wordt begrensd door de 
+binnenzijde van de gevel. 
+841
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 842 ---
+Withdrawn final
+Ingetrokken definitief
+355.0.3.01 
+Het gevelvlak Acon wordt begrensd door de 
+discontinue doorsnede als gevolg van de 
+afwijkende dikte van de thermische isolatie en de 
+koudebrugonderbreking onder het 
+binnenspouwblad. 
+ 
+Het vloervlak Acon wordt begrensd door de 
+buitenzijde van de gevel.  
+ 
+401.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van het prefab element.  
+ 
+De lengte van het dakvlak AT wordt begrensd door 
+het snijpunt van de onderzijde van het dak en de 
+doorgetrokken denkbeeldige lijn van het 
+binnenoppervlak van de gevel. 
+ 
+Merk op dat het deel van het dakvlak van het 
+prefab element dat buiten AT valt, niet aan Acon 
+wordt toegerekend maar deel uitmaakt van ψ. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+842
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 843 ---
+Withdrawn final
+Ingetrokken definitief
+401.0.3.01 
+Het gevelvlak Acon wordt begrensd ter plaatse van 
+de afwijkende isolatiedikte van de gevel. 
+ 
+De lengte van het dakvlak AT wordt begrensd door 
+het snijpunt van de onderzijde van het dak en de 
+doorgetrokken denkbeeldige lijn van het 
+binnenoppervlak van de gevel. 
+ 
+Merk op dat het deel van het dakvlak van het 
+prefab element dat buiten AT valt, niet aan Acon 
+wordt toegerekend maar deel uitmaakt van ψ. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+402.2.0.03 
+Het dakvlak Acon wordt begrensd door de 
+buitenzijde van het prefab element waarvan de 
+warmteweerstand is bepaald. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+403.1.0.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van het dakvlak.  
+ 
+Het dakvlak Acon wordt begrensd door de 
+buitenzijde van het prefab element. Het 
+doorlopende houten rek is een hulpconstructie 
+waarvoor geldt dat het geen deel uitmaakt van de 
+Acon van het prefab element waarvoor de 
+warmteweerstand is bepaald.  
+843
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 844 ---
+Withdrawn final
+Ingetrokken definitief
+404.0.0.01 
+De lengte van het dakvlak AT wordt begrensd door 
+het snijpunt van het binnenoppervlak van de 
+dakvlakken. 
+ 
+Merk op dat het deel van het dakvlak van het 
+prefab element dat buiten AT valt, niet aan Acon 
+wordt toegerekend maar deel uitmaakt van ψ. 
+ 
+ 
+405.1.0.01 
+Het gevelvlak Acon wordt begrensd door de 
+discontinue doorsnede ter plaatse van de 
+metselwerkdrager. 
+ 
+Het dakvlak Acon wordt begrensd door de 
+binnenzijde van de thermische schil van het 
+gevelvlak. Merk op dat de ligger van het 
+dakelement daardoor geen deel uitmaakt van de 
+Acon van het dakvlak. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+406.1.0.01 
+Het dakvlak Acon wordt begrensd bij de onderzijde 
+van de oplegging van het dakelement. Merk op dat 
+de verjonging van het prefab element ter plaatse 
+van de oplegging deel uitmaakt van Acon omdat AT 
+groter is dan Acon. Dit in afwijking van bijvoorbeeld 
+detail 401.0.1.01. 
+ 
+De hulpconstructies voor de zakgoot maken geen 
+deel uit van Acon van het prefab element. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+844
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 845 ---
+Withdrawn final
+Ingetrokken definitief
+409.0.1.01 
+Het gevelvlak Acon wordt begrensd door de 
+bovenzijde van het prefab element.  
+ 
+Het dakvlak Acon wordt begrensd door de 
+binnenzijde van de opstand.  
+409.0.4.01 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van de dakvloer. 
+ 
+De discontinue doorsnede van het binnenblad 
+door de flexibele voeg wordt verwaarloosd. 
+ 
+Het dakvlak Acon wordt begrensd door de 
+binnenzijde van het gevelvlak.  
+ 
+425.4.0.01 
+Het dakvlak Acon wordt begrensd door het uiteinde 
+van het dakelement. Merk op dat de verjonging 
+van het prefab element deel uitmaakt van Acon 
+omdat AT groter is dan Acon, dit in afwijking van 
+bijvoorbeeld detail 401.0.1.01. 
+ 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van het kozijn.  
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+845
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 846 ---
+Withdrawn final
+Ingetrokken definitief
+426.4.0.01 
+Het dakvlak Acon wordt begrensd door de 
+buitenzijde van de thermische schil van de 
+zijwang. Merk op dat de dubbele liggers van het 
+prefab element daardoor geen deel uitmaken van 
+Acon.. 
+ 
+Het gevelvlak Acon wordt begrensd door de 
+onderzijde van het prefab element van de zijwang.  
+427.4.0.01 
+Het schuine dakvlak Acon wordt begrensd door het 
+uiteinde van het dakelement. Tegen de onderzijde 
+van het element is een hulpconstructie 
+aangebracht t.b.v. de opvang van het dak. Dit 
+maakt geen deel uit van Acon. 
+ 
+Het dakvlak Acon wordt begrensd door het uiteinde 
+van het prefab dakvlak. Merk op dat de verjonging 
+van het prefab element deel uitmaakt van Acon. 
+A con
+A T
+A T
+A con
+431.4.0.01 
+Het dakvlak Acon wordt begrensd door de 
+bovenzijde van de houten ligger van het prefab 
+element. De additionele isolatie en aftimmering 
+aan de dagkant van het dakraam maken geen deel 
+uit van Acon. 
+ 
+De Acon van het dakraam wordt begrensd door de 
+buitenzijde van het dakraam. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+846
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 847 ---
+Withdrawn final
+Ingetrokken definitief
+A T
+A T
+A con
+A con
+40
+ 
+432.4.0.01 
+Het dakvlak Acon wordt begrensd door het vlak op 
+een afstand van 40 mm, gezien vanaf de 
+buitenzijde van de houten ligger van het prefab 
+element. De additionele isolatie en aftimmering 
+aan de dagkant van het dakraam maken geen deel 
+uit van Acon. De houten liggers zijn bedoeld om het 
+aansluitende kozijn aan te bevestigen. Omdat de 
+liggers breder zijn dan 40 mm, geldt de maximum-
+maat van 40 mm van het gedeelte dat afgesneden 
+wordt van het prefab element.  
+ 
+De Acon van het dakraam wordt begrensd door de 
+buitenzijde van het dakraam. 
+ 
+Het verschil in oppervlakte tussen AT en Acon is 
+onderdeel van ψ. 
+ 
+K.2 Geometrische karakteristieken 
+ Beglaasde oppervlakte, oppervlakte ondoorschijnend paneel 
+De beglaasde oppervlakte Agl of de oppervlakte van het ondoorschijnend paneel Ap van een raam 
+of deur is de kleinste van de zichtbare oppervlakten, gezien van twee kanten (zie figuur K.1). 
+Iedere overlap van kitvoegen of beglazingsrubbers wordt buiten beschouwing gelaten. 
+ Totale zichtbare omtrek van de beglazing 
+De totale omtrek van de beglazing gl (of van het ondoorschijnend paneel p) is de som van de 
+zichtbare omtrekken van de glasruiten (of ondoorschijnende panelen) in het raam of de deur. 
+Indien de omtrek verschillend is aan de twee zijden van ruit of paneel, dan moet de grootste van 
+de twee worden gebruikt (zie figuur K.1). 
+ 
+Figuur K.1 — Illustratie van beglaasde oppervlakte en omtrek 
+gl
+Agl
+847
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 848 ---
+Withdrawn final
+Ingetrokken definitief
+ Kozijnoppervlakten 
+Voor kozijnoppervlakten worden de volgende definities gebruikt (zie ook figuur K.2): 
+Afr;i inwendig geprojecteerde kozijnoppervlakte: 
+De inwendig geprojecteerde kozijnoppervlakte is de oppervlakte van de projectie van de 
+naar de binnenlucht toegekeerde zijde van het kozijn op een plat vlak evenwijdig aan de 
+glasruit of het paneel. 
+Afr;e uitwendig geprojecteerde kozijnoppervlakte: 
+De uitwendig geprojecteerde kozijnoppervlakte is de oppervlakte van de projectie van de 
+naar de buitenlucht toegekeerde zijde van het kozijn op een plat vlak evenwijdig aan de 
+glasruit of het paneel. 
+Afr geprojecteerde kozijnoppervlakte: 
+De geprojecteerde kozijnoppervlakte is de grootste van inwendig Afr;i en Afr;e; 
+Afr = max(Afr,i; Afr,e). 
+Ad;i inwendig ontwikkelde kozijnoppervlakte: 
+De inwendig ontwikkelde kozijnoppervlakte is de oppervlakte van het kozijn dat in contact 
+staat met de binnenlucht. 
+Ad,e uitwendig ontwikkelde kozijnoppervlakte: 
+De uitwendig ontwikkelde kozijnoppervlakte is de oppervlakte van het kozijn dat in contact 
+staat met de buitenlucht. 
+848
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 849 ---
+Withdrawn final
+Ingetrokken definitief
+ Raamoppervlakte 
+De raamoppervlakte Aw is de som van de geprojecteerde kozijnoppervlakte Afr en de oppervlakte 
+van de beglazing Agl (of de oppervlakte van het paneel Ap). 
+ 
+Legenda 
+1, 2 
+= 
+kozijn 
+Aw 
+= 
+Afr + Agl 
+Ad,i 
+= 
+A1 + A2 + A3 + A4 
+Ad,e 
+= 
+A5 + A6 + A7 + A8 
+Figuur K.2 — Illustratie van de verschillende oppervlakten 
+1
+2
+A4
+A2
+A1
+A3
+A5
+A6
+A7
+A8
+Agl
+Afr;i = Afr
+Afr;ie
+Aw
+849
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 850 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage L 
+(normatief) 
+ 
+Lineaire warmtedoorgangscoëfficiënt van de beglazingsrand  
+L.1 Algemeen 
+OPMERKING 1 De tekst van deze bijlage is ontleend aan bijlage G van NEN-EN-ISO 10077-1:2017. 
+De warmtedoorgangscoëfficiënt van de beglazing, Ug, is van toepassing op de centrale 
+oppervlakte van de beglazing en omvat niet het effect van de afstandshouders aan de rand van 
+de beglazing. De warmtedoorgangscoëfficiënt van het kozijn, Uf, houdt geen rekening met de 
+aanwezigheid van beglazing. De lineaire warmtedoorgangscoëfficiënt van de beglazingsrand, g, 
+beschrijft de extra warmtegeleiding door de interactie kozijn, beglazing en afstandhouder, en 
+wordt beïnvloed door de thermische eigenschappen van elk van deze onderdelen. 
+Bij voorkeur worden de waarden van de lineaire warmtedoorgangscoëfficiënt bepaald met een 
+numerieke berekening volgens NEN-EN-ISO 10077-2. L.2 en L.3 geven forfaitaire waarden voor 
+  voor veel voorkomende combinaties van kozijnen, beglazing en afstandhouder die kunnen 
+worden gebruikt in het geval dat gedetailleerde berekeningen niet beschikbaar zijn. 
+OPMERKING 2 Voor enkel glas geldt: g = 0. 
+L.2 Afstandhouders van aluminium en staal 
+Tabel L.1 geeft forfaitaire waarden van g  voor afstandhouders van aluminium of roestvast 
+staal voor specifieke kozijn- en beglazingstypen. 
+Tabel L.1 — Forfaitaire waarden van de lineaire warmtedoorgangscoëfficiënt voor 
+afstandhouders van aluminium en staal 
+Kozijntype 
+Lineaire warmtedoorgangscoëfficiënt voor verschillende 
+beglazingstypen g 
+Dubbele of drievoudige beglazing, 
+zonder low E-coating, 
+spouwvulling met lucht of gas 
+Dubbelea of drievoudigeb beglazing 
+met low E-coating 
+spouwvulling met lucht of gas 
+Hout of PVC 
+0,06 
+0,08 
+Metaal met 
+thermische 
+onderbreking 
+0,08 
+0,11 
+Metaal zonder 
+thermische 
+onderbreking 
+0,02 
+0,05 
+a 
+één ruit gecoat voor dubbele beglazing 
+b 
+twee ruiten gecoat voor drievoudige beglazing 
+ 
+850
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14

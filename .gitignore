@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Grote databases (te groot voor GitHub)
+*.db
+LABEL DATABASE EP-ONLINE/
+
+# Chat logs (persoonlijk)
+Chat Conversatie/
+
+# ISSO/NTA bronbestanden (groot, niet nodig voor samenwerking)
+ISSO NTA8000/
+
+# Briefing (persoonlijk)
+Briefing/

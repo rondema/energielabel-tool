@@ -1,0 +1,5052 @@
+
+--- Pagina 551 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+a) DWTW-unit aangesloten op 
+zowel de koudepoort van 
+de douchemengkraan als 
+de inlaat van het toestel 
+ 
+b) DWTW-unit aangesloten op 
+alleen de koudepoort van 
+de douchemengkraan 
+ 
+c) DWTW-unit aangesloten op 
+alleen de inlaat van het 
+toestel 
+Figuur 13.1 — DWTW-units 
+In deze NTA wordt verondersteld dat toepassing van DWTW alleen een vermindering van de 
+nettotapvraag veroorzaakt. Deze vermindering wordt bepaald door: 
+a) de prestatie van de toegepaste DWTW-unit, bepaald volgens de methode in bijlage U; 
+b) de wijze waarop de DWTW-unit is aangesloten; 
+c) de nettowarmtebehoefte voor warm tapwater. 
+13.5.2 Rekenregels 
+Deze paragraaf geeft de rekenregels voor de bijdrage van eventuele DWTW van een 
+warmtapwatersysteem, QW;rcd;si,mi, in een gegeven maand mi, van een gegeven systeem si. De indexen 
+voor maand mi en voor systeem si worden omwille van de leesbaarheid weggelaten. 
+551
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 552 ---
+Withdrawn final
+Ingetrokken definitief
+Bepaal de maandelijkse warmtebijdrage van DWTW voor de categorie woningbouw volgens: 
+QW;rcd;d = QW;sh;rcd;d = CW;nd;sh × QW;nd;d × ηW;sh;rcd × fprac;sh × CW;sh;rcd;T × CW;sh;rcd;conf (13.51) 
+Bepaal de maandelijkse warmtebijdrage van DWTW voor de categorie utiliteitsbouw volgens: 
+QW;rcd;u = QW;sh;rcd;u = CW;nd;sh × QW;nd;u × ηW;sh;rcd × fprac;sh × CW;sh;rcd;T × CW;sh;rcd;conf (13.52) 
+waarin: 
+QW;rcd;d 
+is de hoeveelheid teruggewonnen thermische energie ten behoeve van de 
+energiefunctie warm tapwater, aangeleverd door warmteterugwinning uit de afvoer 
+van warm tapwater, voor de categorie woningbouw, in kWh; 
+QW;rcd;u 
+is de hoeveelheid teruggewonnen thermische energie ten behoeve van de 
+energiefunctie warm tapwater, aangeleverd door warmteterugwinning uit de afvoer 
+van warm tapwater, voor de categorie utiliteitsbouw, in kWh; 
+QW;sh;rcd;d 
+is de (maandelijkse) warmtebijdrage van een DWTW, voor de categorie woningbouw, 
+in kWh; 
+QW;sh;rcd;u 
+is de (maandelijkse) warmtebijdrage van een DWTW, voor de categorie utiliteitsbouw, 
+in kWh; 
+CW;nd;sh 
+is het dimensieloze aandeel van het doucheverbruik in de nettowarmtebehoefte voor 
+warm tapwater, bepaald volgens 13.5.3; 
+QW;nd;d 
+is de nettowarmtebehoefte voor de categorie woningbouw ten behoeve van warm 
+tapwater, bepaald volgens 13.1, in kWh; 
+QW;nd;u 
+is de nettowarmtebehoefte voor de categorie utiliteitsbouw ten behoeve van warm 
+tapwater, bepaald volgens 13.1, in kWh; 
+ηW;sh;rcd 
+is het gemiddelde thermische rendement van de DWTW-unit, behorend bij de 
+toepassingsklasse van het toegepaste toestel voor warmtapwaterbereiding, bepaald 
+volgens de methode in bijlage U of 13.5.3; indien in een woning twee of meer douches 
+zijn geplaatst, dan moet het gemiddelde thermische rendement worden bepaald 
+volgens formule (13.53); 
+fprac;sh 
+is de dimensieloze correctiefactor voor het thermische rendement van de DWTW-unit 
+onder praktijkomstandigheden, met als vaste waarde fprac;sh = 0,95; 
+CW;sh;rcd;T 
+is de dimensieloze correctiefactor voor het thermische rendement van de DWTW-unit 
+voor het verschil in temperatuur tussen de douche (40 °C) en de temperatuur aan de 
+inlaat van de DWTW-unit (35 °C), bepaald volgens 13.5.3; 
+CW;sh;rcd;conf  is de dimensieloze correctiefactor voor het thermische rendement van de DWTW-unit 
+voor de wijze van aansluiten van de DWTW-unit, bepaald volgens 13.5.3. 
+Bepaal in het geval van meerdere DWTW-units binnen hetzelfde tapwatersysteem het gemiddelde 
+thermische rendement van de DWTW-unit, ηW;sh;rcd, volgens: 
+(13.53) 
+sh
+rcd;
+sh;
+W;
+rcd
+sh;
+W;
+sh
+N
+N
+i
+∑
+=
+η
+η
+552
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 553 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+ηW;sh;rcd;i is het thermische rendement van de DWTW-unit voor douchenummer i, behorend bij de 
+toepassingsklasse van het toegepaste toestel voor warmtapwaterbereiding, bepaald 
+volgens de methode in bijlage U. Indien een douche niet is aangesloten op een DWTW-
+unit, dan is het DWTW-rendement 0,0. Indien twee of meer douches zijn aangesloten op 
+dezelfde DWTW-unit, dan is het DWTW-rendement voor deze douches identiek;  
+Nsh 
+is het aantal douches van systeem si. 
+Indien voor de categorie utiliteitsbouw niet bekend is welke douche(s) op welk type DWTW-unit is 
+(zijn) aangesloten en/of wat daarvan het thermische rendement is, dan geldt in het geval dat meer dan 
+80 % van de douches is aangesloten op een DWTW-unit: 𝜂𝜂W;sh;rcd = 𝑀𝑀𝑀𝑀𝑀𝑀ൣ𝜂𝜂W;sh;rcd;1; 𝜂𝜂W;sh;rcd;2;enz. ൧. 
+VOORBEELDEN 
+— Eén douche met één DWTW-unit:  
+η
+η
+W;sh;rcd
+W;sh;rcd;1
+=
+ 
+(13.54) 
+— Twee douches met één gezamenlijke 
+DWTW-unit: 
+η
+η
+η
+η
+W;sh;rcd;1
+W;sh;rcd;1
+W;sh;rcd
+W;sh;rcd;1
++
+=
+=
+2
+ 
+(13.55) 
+— Twee douches met ieder één (verschillende) 
+DWTW-unit: 
+η
+η
+η
+W;sh;rcd;1
+W;sh;rcd;2
+W;sh;rcd
++
+=
+2
+ 
+(13.56) 
+— Twee douches waarvan één met DWTW: 
+η
+η
+W;sh;rcd;1
+W;sh;rcd
++
+=
+0
+2
+ 
+(13.57) 
+13.5.3 Rekenwaarden 
+Het aandeel van het doucheverbruik in de nettowarmtebehoefte voor warm tapwater is afhankelijk 
+van de gebruiksfunctie en is gegeven in tabel 13.7. 
+Tabel 13.7 — Rekenwaarden aandeel doucheverbruik (vaste waarden) 
+Gebruiksfunctie of (gedeelte van een) 
+gebouw 
+CW;nd;sh  
+– 
+Woonfunctie 
+0,80 
+Bijeenkomstfunctie 
+0 
+Celfunctie 
+0,40 
+Gezondheidszorgfunctie 
+0,40 
+Kantoorfunctie 
+0 
+Logiesfunctie 
+0,60 
+Onderwijsfunctie 
+0 
+Sportfunctie 
+0,80 
+Winkelfunctie 
+0 
+Het thermische rendement van DWTW wordt bepaald volgens de methode in bijlage U.  
+553
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 554 ---
+Withdrawn final
+Ingetrokken definitief
+Voor woningen, woongebouwen e.d. wordt het rendement gebruikt dat is bepaald bij de 
+toepassingsklasse van het toegepaste toestel voor warmtapwaterbereiding. Indien deze 
+toepassingsklasse niet bekend is, wordt uitgegaan van toepassingsklasse 4.  
+Voor utiliteit wordt het rendement gebruikt dat is bepaald bij toepassingsklasse 4. 
+Voor het thermische rendement van DWTW bedraagt de rekenwaarde: 
+— ηW;sh;rcd = 0,40 voor verticale DWTW; 
+— ηW;sh;rcd = 0,20 voor horizontale DWTW; 
+— ηW;sh;rcd = 0,20 indien niet duidelijk is of er sprake is van een verticale of horizontale DWTW. 
+OPMERKING 1 
+In de praktijk zijn verticale DWTW-units beschikbaar met een rendement ηW;sh;rcd > 0,5, 
+gemeten volgens bijlage U. In de praktijk zijn horizontale DWTW-units beschikbaar met een rendement 
+ηW;sh;rcd > 0,4, gemeten volgens bijlage U.  
+De correctiefactor voor het thermische rendement van DWTW wordt toegepast als correctie voor het 
+verschil in temperatuur tussen de douche (40 °C) en de inlaat van de DWTW (35 °C), en bedraagt:  
+— CW;sh;rcd;T = 0,83 (vaste waarde). 
+OPMERKING 2 
+Bij een ΔT van 30 °C over de DWTW (40 °C − 10 °C) komt een vermindering met 5 °C overeen 
+met een daling van 17 %. 
+De correctiefactor voor het thermische rendement van DWTW wordt toegepast op de wijze van 
+aansluiten van de DWTW-unit en is in tabel 13.8 gegeven. 
+Tabel 13.8 — Correctiefactor voor het thermische rendement van de DWTW-unit  
+voor de wijze van aansluiten 
+Wijze van aansluiten van de DWTW-unit 
+CW;sh;rcd;conf 
+– 
+Individuele DWTW-unit aangesloten op zowel de 
+koudepoort van de douchemengkraan als de inlaat van 
+het toestel (figuur 13.1 a)) 
+1,00 
+Individuele DWTW-unit aangesloten op alleen de 
+koudepoort van de douchemengkraan (figuur 13.1 b)) 
+0,85 
+Individuele DWTW-unit aangesloten op alleen de inlaat 
+van het toestel (figuur 13.1 c)) 
+0,75 
+Verschillende DWTW-units in gezamenlijke opstelling, 
+waaronder parallelle opstelling 
+0,75 
+Aansluitwijze onbekend 
+0,75 
+ 
+OPMERKING 3 
+Bij beide aansluitvarianten daalt de hoeveelheid drinkwater via de DWTW. Daarom daalt het 
+rendement van de DWTW-unit. Bij gezamenlijke opstelling is het mogelijk dat de gelijktijdigheid van gebruik 
+vermindert en de verliezen toenemen. 
+554
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 555 ---
+Withdrawn final
+Ingetrokken definitief
+13.5.4 Terugwinbare systeemverliezen 
+De warmte uit de afvoer van warm tapwater die via de DWTW-unit wordt verkregen, is een 
+teruggewonnen verlies. De resterende warmte uit de afvoer van warm tapwater die niet wordt 
+teruggewonnen via de DWTW-unit, wordt als niet-terugwinbaar beschouwd.  
+13.6 
+Voorraadvaten 
+13.6.1 Principe 
+Bij de buffering van warmte in voorraadvaten voor het warmtapwatersysteem wordt rekening 
+gehouden met warmteverliezen en eventuele hulpenergie voor het laden van warmte in het 
+voorraadvat. 
+De verliezen en het hulpenergiegebruik van duurzame energiesystemen die gebruikmaken van 
+zonnewarmte (zonneboilersystemen), worden besproken in 13.7. 
+De verliezen en het hulpenergiegebruik van voorraadvaten die deel uitmaken van het opweksysteem, 
+zijn opgenomen bij opwekkers indien de opwektoestellen zijn getest inclusief het voorraadvat. 
+Opwektoestellen worden behandeld in 13.8. 
+Bij tapwatersystemen kunnen de volgende systemen met voorraadvaten beschouwd worden: 
+a) direct verwarmd voorraadvat zoals een elektroboiler of gasboiler; 
+b) indirect verwarmd voorraadvat: verwarmd via verwarmingstoestel of -systeem; 
+c) systeem met zonnewarmte (dit wordt apart besproken in 13.7). 
+De methode die wordt gepresenteerd in deze NTA, is van toepassing op een of meerdere 
+voorraadvaten.  
+Bij de bepaling van het warmteverlies van een voorraadvat moet dit per voorraadvat bepaald worden. 
+13.6.2 Rekenregels 
+Deze paragraaf geeft de rekenregels voor de verliezen van een eventueel voorraadvat van een 
+warmtapwatersysteem, QW;sto;ls;si,mi in een gegeven maand mi, van een gegeven systeem si. 
+Voor individuele toestellen zijn de verliezen van het voorraadvat in de meeste gevallen meegenomen 
+bij de bepaling van het opwekkingsrendement. Voor zonne-energiesystemen wordt het verlies van het 
+voorraadvat en een eventueel naverwarmerdeel van het voorraadvat berekend volgens 13.7. In beide 
+gevallen geldt:  
+QW;sto;ls;si,mi = 0 
+OPMERKING 1 
+Dit is van toepassing bij de opwekkingsrendementen volgens 13.8.4.4 (boosterwarmte-
+pompen) wanneer het (hulp)energiegebruik forfaitair is bepaald, volgens 13.8.4.5.2 en 13.8.4.5.4 (direct 
+verwarmde voorraadvaten met uitzondering van elektroboilers), en wanneer gebruik is gemaakt van de 
+forfaitaire waarden uit 13.8.4.6 en 13.8.4.7.2. Bij opwekkingsrendementen die zijn bepaald volgens 13.8.4.2 
+(24 uurstest) en 13.8.4.3, is dit alleen van toepassing wanneer het toestel samen met het voorraadvat is getest. 
+Bereken in alle andere gevallen de verliezen van het voorraadvat.  
+OPMERKING 2 
+Dit is van toepassing op elektroboilers, op indirect verwarmde voorraadvaten en op 
+voorraadvaten in (individuele) systemen wanneer de verliezen van het voorraadvat niet zijn meegenomen in het 
+opwekkingsrendement of in de test van het tapwatertoestel. 
+555
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 556 ---
+Withdrawn final
+Ingetrokken definitief
+Bepaal de warmteverliezen van een voorraadvat als volgt: 
+ 
+(
+) (
+)
+(
+)
+ϑ
+ϑ
+−
+−
+mi
+si,mi
+si;
+t
+Q
+f
+f
+H
+f
+S
+W;sto;ls;
+gebouw;
+W
+sto;bac;acc
+sto;ls
+sto;set
+sto;amb
+sto;dis;ls
+sto;ls;conn
+=
+×
+×
+×
+1 ×
+1
++
+0
+×
+0 0
+ 
+ 
+(13.58) 
+waarin: 
+QW;sto;ls;si,mi 
+is de hoeveelheid warmteverlies die ontstaat bij een eventueel voorraadvat ten 
+behoeve van warm tapwater van systeem si, in maand mi, in kWh; 
+fgebouw;si;W 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel waarvoor de 
+energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+fsto;bac;acc 
+is de weegfactor afhankelijk van het type regeling en de grootte van het voorraadvat 
+met als forfaitaire waarde 1,0 (NEN-EN 15316-5:2017, tabel B.3); 
+Hsto;ls 
+is de transmissiefactor voor het warmteverlies van het voorraadvat, bepaald volgens 
+13.6.3, in W/K; 
+ϑsto;set 
+is de ingestelde temperatuur van de opslag, in °C; 
+— voor tapwatersystemen met alleen uittapleidingen: ϑsto;set = 60 °C; 
+— voor tapwatersystemen met circulatieleidingen: ϑsto;set = 65 °C; 
+— voor tapwatersystemen met een heet- of kokendwaterkraan: ϑsto;set = 90 °C;  
+ϑsto;amb 
+is de omgevingstemperatuur van de ruimte waar het voorraadvat is opgesteld, in °C. 
+Voor verwarmde ruimten moet gebruik worden gemaakt van ϑint;set;H;zi,mi, bepaald in 
+7.9.4; voor onverwarmde zones is de omgevingstemperatuur afhankelijk van de 
+benaderingswijze van de onverwarmde ruimte(n). Indien de (omgevings)temperatuur 
+in de aangrenzende onverwarmde ruimten ϑztu;k;zi;H;mi (bepaald volgens formule (7.82)) 
+bekend is (er is een aangrenzende onverwarmde ruimte ingevoerd), dan geldt: ϑsto;amb 
+= ϑztu;k;zi;H;mi volgens 7.9.7. Indien de temperatuur in de aangrenzende onverwarmde 
+ruimten niet bekend is (er is niet één aangrenzende onverwarmde ruimte ingevoerd), 
+dan geldt ϑsto;amb = 13 °C; 
+fsto;dis;ls 
+is de vermenigvuldigingsfactor voor warmteverliezen t.g.v. verbonden leidingen, 
+bepaald volgens 13.6.3; 
+Ssto;ls;conn 
+is het maximale warmhoudverlies t.g.v. de aansluitingen op het voorraadvat, bepaald 
+volgens 13.6.3, in W. 
+In afwijking van het bovenstaande mag het energieverlies van een voorraadvat geproduceerd in 2016 
+of later met een volume van maximaal 500 l ook bepaald worden aan de hand van het energielabel van 
+het voorraadvat conform CDR 812/2013. De verliezen worden dan als volgt berekend: 
+(
+)
+(
+)
+×
++
+−
+mi
+si,mi
+si;
+t
+Q
+f
+f
+S
+f
+S
+W;sto;ls;
+gebouw;
+W
+sto;bac;acc
+sto;ls
+sto;dis;ls
+sto;ls;conn
+=
+×
+1
+×
+×
+1000
+  (13.59) 
+556
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 557 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Ssto;ls [W] 
+is het maximale gestandaardiseerde warmhoudverlies van het voorraadvat, bepaald 
+ 
+volgens 13.6.3. 
+Voor voorraadvaten met een volume van meer dan 500 l is niet automatisch een energielabel 
+beschikbaar. Voor voorraadvaten van maximaal 2 000 l zijn de vereisten op basis van CDR 814/2013 
+echter hetzelfde als voor vaten met een volume van maximaal 500 l. Voor beide typen voorraadvaten 
+kan het energieverlies worden bepaald door gebruik te maken van de forfaitaire waarden voor het 
+energielabel op basis van het fabricagejaar. Ook voor voorraadvaten van meer dan 2 000 l mag deze 
+methode gebruikt worden.  
+Voor voorraadvaten geproduceerd in 2015 of eerder mag voor de bepaling van het energieverlies ook 
+gebruik worden gemaakt van de forfaitaire waarde voor het energielabel. 
+13.6.3 Rekenwaarden 
+Warmteoverdrachtscoëfficiënt 
+Stand-byverliezen worden meestal bepaald aan de hand van energieverliezen tijdens een 
+24 uursperiode. Indien voor Qstb;ls;ref gegevens beschikbaar zijn, dan mag Hsto;ls als volgt bepaald 
+worden: 
+𝐻𝐻sto;ls =
+1 000 × 𝑄𝑄stb;ls;ref
+24 × ൫𝜗𝜗sto;set;ref − 𝜗𝜗amb;ref൯ 
+(13.60) 
+waarin: 
+Qstb;ls;ref is het stand-byverlies onder gestandaardiseerde condities van de testresultaten, 
+in kWh/24 h; 
+ϑsto;set;ref  is de watertemperatuur in het voorraadvat bij de gestandaardiseerde condities van de 
+testresultaten, in °C; 
+ϑamb;ref  
+is de omgevingstemperatuur bij de gestandaardiseerde condities van de testresultaten, 
+in °C. 
+Rond Hsto;ls af naar boven op twee significante cijfers tot de dichtstbijzijnde getalswaarde uit de in 
+bijlage X gegeven reeks. 
+Het stand-byverlies van elektrische voorraadtoestellen moet worden bepaald met 
+NEN-EN-IEC 60379:2004.  
+Vermenigvuldigingsfactor voor aansluitingen 
+fsto;dis;ls is een vermenigvuldigingsfactor die wordt gebruikt om het effect te kenmerken van de 
+warmteverliezen van de leidingen en de hulpstukken die eraan vastzitten. Hiervoor worden de 
+volgende waarden aangehouden: 
+— fsto;dis;ls = 1: geen thermische bruggen en geen vloeistofuitwisseling tussen voorraadvat en 
+distributiesysteem waarbij rekening wordt gehouden met de leidingverbindingen. Dit komt 
+overeen met het ideale geval waarin de warmteverliezen volledig worden meegenomen in het 
+distributiedeel of afgiftedeel.  
+Indien er bij de bepaling van het verlies van het voorraadvat gebruik wordt gemaakt van 
+meetgegevens voor Hsto;ls, dan geldt fsto;dis;ls = 1. 
+557
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 558 ---
+Withdrawn final
+Ingetrokken definitief
+— fsto;dis;ls = 2: in aanvulling op de situatie bij fsto;dis;ls = 3 of fsto;dis;ls = 4 is er bij een standaardsituatie met 
+4 of meer dan 4 aansluitingen ook sprake van isolatie van eventuele T-stukken en kleppen die zijn 
+aangesloten op de warmwater- en cv-waterleidingen en van niet-gebruikte aansluitpunten. 
+Deze situatie is ook van toepassing op elektroboilers (met en zonder geïsoleerde leidingen), 
+wanneer er geen meetgegevens beschikbaar zijn. 
+— fsto;dis;ls = 3: komt overeen met de gebruikelijke situatie in de praktijk: de thermische isolatie is 
+alleen geïnstalleerd op rechte delen van de aangesloten warmtapwater- en cv-waterleidingen, de 
+T-stukken van de leidingen zijn niet geïsoleerd, de kleppen zijn niet geïsoleerd, enz. en er is geen 
+‘heat trap’. In een dergelijk geval worden de warmteverliezen vermenigvuldigd met 3, vergeleken 
+met de theoretische berekening waarbij gebruik wordt gemaakt van de lambdawaarden en dikte 
+van de isolatie. Uitgaande van een standaardsituatie met 4 aansluitingen.  
+— fsto;dis;ls = 4: gelijk aan de situatie bij fsto;dis;ls = 3, maar dan met meer dan 4 aansluitingen. 
+— fsto;dis;ls = 5: ongeïsoleerd. 
+Bij de bepaling van het aantal aansluitingen op een voorraadvat gaat het om het aantal aansluitpunten, 
+ongeacht of deze aansluitpunten wel of niet zijn aangesloten of in gebruik zijn. Aansluitpunten aan de 
+onderzijde van het voorraadvat mogen buiten beschouwing blijven. 
+OPMERKING 
+Bij elektroboilers zijn er maar 2 aansluitpunten, waardoor de verliezen via de aansluitingen 
+beperkt zijn ten opzichte van een indirect verwarmd vat waarbij er 4 of meer aansluitpunten zijn. 
+Warmhoudverlies door aansluitingen 
+Bij bepaling van het warmteverlies van het voorraadvat volgens formule (13.58) wordt het 
+warmhoudverlies door aansluitingen Ssto;ls;conn als volgt bepaald: 
+(
+)
+sto;ls;conn
+sto;ls
+sto;ls,labelC
+=
+×45;
+S
+MAX H
+S
+(13.60a) 
+waarin: 
+Ssto;ls;conn 
+is het maximale warmhoudverlies t.g.v. de aansluitingen op het voorraadvat, in W; 
+Ssto;ls;labelC is het maximale gestandaardiseerde warmhoudverlies van het voorraadvat, bij 
+energielabel C, bepaald volgens 13.6.3, in W. 
+Bij bepaling van het warmteverlies van het voorraadvat volgens formule (13.59) is het 
+warmhoudverlies door aansluitingen afhankelijk van het energielabel van het voorraadvat. Hanteer 
+voor Ssto;ls;conn bij voorraadvaten met energielabel A+, A of B het warmhoudverlies Ssto;ls van het 
+voorraadvat volgens respectievelijk energielabel A+, A of B. In alle overige gevallen kan uitgegaan 
+worden van energielabel C. 
+Warmhoudverlies volgens energielabel 
+Het maximale gestandaardiseerde warmhoudverlies van het voorraadvat, Ssto;ls, kan volgens tabel 13.9 
+afgeleid worden uit het energielabel conform CDR 812/2013.  
+Voor voorraadvaten geproduceerd in of na 2018 bedraagt het energielabel ten minste label C. Indien 
+het energielabel onbekend is, mag voor het warmhoudverlies van voorraadvaten geproduceerd in of 
+na 2018 daarom uitgegaan worden van energielabel C. Voor het warmhoudverlies van voorraadvaten 
+geproduceerd in 2017 of eerder of wanneer het productiejaar onbekend is, moet uitgegaan worden 
+van label G. 
+558
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 559 ---
+Withdrawn final
+Ingetrokken definitief
+Voor voorraadvaten die zijn ingebouwd in een keuken, kitchenette of pantry, en die alleen worden 
+gebruikt voor warm tapwater in de keuken, mag forfaitair worden uitgegaan van een volume van 10 l. 
+Tabel 13.9 — Maximaal warmhoudverlies van het voorraadvat op basis van het energielabel 
+(CDR 812/2013) 
+Energie-efficiëntieklasse (energielabel) 
+Ssto;ls (in W met opslagvolume V in liter) 
+A+ 
+5,5 + 3,16 × V0,4 
+A 
+7,0 + 3,7 × V0,4 
+B 
+10,25 + 5,09 × V0,4 
+C 
+14,33 + 7,13 × V0,4 
+D 
+18,83 + 9,33 × V0,4 
+E 
+23,5 + 11,99 × V0,4 
+F 
+28,5 + 15,16 × V0,4 
+G 
+31 + 16,66 × V0,4 
+ 
+OPMERKING 
+Voor het warmhoudverlies op basis van het energielabel is voor klasse A t/m F uitgegaan van 
+het gemiddelde verlies binnen de labelklassegrenzen.  
+13.6.4 Hulpenergie 
+13.6.4.1 
+Principe 
+Indien er sprake is van een indirect verwarmd voorraadvat, is er sprake van hulpenergie voor de 
+circulatiepomp van het oplaadcircuit. Deze hulpenergie is bij toestellen die als geheel zijn getest, reeds 
+verrekend bij de hulpenergie van het toestel. Ook in andere situaties, wanneer de circulatiepomp van 
+het verwarmingssysteem wordt benut voor het opladen van het voorraadvat, kan de hulpenergie 
+reeds verrekend zijn bij het opweksysteem. 
+13.6.4.2 
+Rekenregels 
+In het geval van een indirect verwarmd voorraadvat geldt voor de hulpenergie van de circulatiepomp 
+van het oplaadcircuit WW;aux;sto;mi = 0. 
+13.6.5 Terugwinbare systeemverliezen 
+De terugwinbare energie voor ruimteverwarming wordt voor het voorraadvat als volgt berekend op 
+basis van het energieverlies.  
+Terugwinbare warmteverliezen van het voorraadvat: 
+z
+zi,
+s
+si
+si;
+i,mi
+i,mi
+Q
+f
+A
+Q
+A
+g;
+g;
+W
+W;sto;ls;rbl;env;
+sto;ls;
+sto;rm
+=
+×
+×
+ 
+(13.63) 
+559
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 560 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+QW;sto;ls;rbl;env;zi,mi is het voor ruimteverwarming terugwinbare thermische systeemverlies van het 
+verwante opslagsubsysteem voor warm tapwater in maand mi, in rekenzone zi, 
+in kWh; 
+QW;sto;ls;si,mi 
+is de totale hoeveelheid warmteverlies die ontstaat bij een eventueel 
+voorraadvat stoi ten behoeve van warm tapwater van systeem si, in maand mi, 
+bepaald volgens 13.6.2, in kWh; 
+fsto;rm 
+is het deel van de warmteverliezen dat wordt overgedragen aan de omgeving met 
+als vaste waarde fsto;rm = 1,0; 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend, in m2;  
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie 
+wordt bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve 
+gebouwsysteem si voor de functie warm tapwater, in m2, volgens 
+formules (13.19b) of (13.20a). 
+Het volgende wordt berekend op basis van de waarden van eventueel aanwezige circulatiepompen 
+voor het oplaadcircuit. 
+Het terugwinbare deel van de hulpenergie dat wordt overgedragen aan het medium: 
+=
+×
+W;sto;aux;rvd; ;
+W;aux;sto;
+rvd;aux
+zi mi
+mi
+Q
+W
+f
+ 
+(13.64) 
+Het terugwinbare deel van de hulpenergie dat wordt overgedragen aan de omgeving: 
+(
+)
+−
+i
+zi,s
+m
+i
+si;
+z ,mi
+i
+Q
+A
+f
+A
+W
+f
+g;
+g;
+W
+W;sto;aux;rbl;
+W;aux;sto;
+sto;rm
+rvd;aux
+=
+×
+× 1
+×
+ 
+(13.65) 
+waarin: 
+QW;sto;aux;rvd;zi,mi is de voor warm tapwater teruggewonnen energie van het hulpenergiegebruik van 
+een eventuele circulatiepomp van een oplaadcircuit, in rekenzone zi, in maand mi, 
+in kWh; 
+frvd;aux 
+is het deel van de hulpenergie dat wordt overgedragen aan het medium; met als 
+vaste waarde frvd;aux = 0; 
+QW;sto;aux;rbl;zi,mi is de voor ruimteverwarming terugwinbare energie van het hulpenergiegebruik 
+van eventueel aanwezige circulatiepompen voor het oplaadcircuit, in maand mi, 
+in kWh; 
+WW;aux;sto;mi 
+is het elektrische-hulpenergiegebruik van het distributiesysteem voor eventueel 
+aanwezige circulatiepompen in het oplaadcircuit, in maand mi, bepaald volgens 
+13.6.4.2, in kWh; 
+fsto;rm 
+is het deel van de warmteverliezen dat wordt overgedragen aan de omgeving; 
+fsto;rm = 1,00. 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend, in m2;  
+560
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 561 ---
+Withdrawn final
+Ingetrokken definitief
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie 
+wordt bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve 
+gebouwsysteem si voor de functie warm tapwater, in m2, volgens formules 
+(13.19b) of (13.20a). 
+OPMERKING 
+Van de hulpenergie wordt een deel overgedragen aan het medium. In tabel B.3 van 
+NEN-EN 15316-5:2017 wordt voor frvd;aux = 0,25 opgegeven. Dit is echter niet mogelijk. In de opzet van 
+NEN-EN 15316-5 en NEN-EN 15316-1 wordt voor de bepalingswijze van QW;dis;si,mi gebruikgemaakt van 
+QW;sto;aux;rvd;mi. Deze wordt echter weer bepaald op basis van QW;dis;si,mi. 
+13.7 
+Warmtebijdrage zonne-energiesysteem 
+13.7.1 Principe 
+Bepaal de bijdrage van de door het zonne-energiesysteem geleverde warmte aan warmtapwater-
+bereiding op basis van de energievraag ten behoeve van warm tapwater, aangeleverd aan het 
+distributiedeel (QW;dis;si,mi). 
+De rekenregels gelden voor de volgende systemen:  
+1) zonneboilers; 
+2) zonnecombisystemen voor verwarming en warm tapwater. 
+Zonneboilersystemen zijn onder te verdelen in voorverwarmerzonneboilersystemen 
+(SOL_TYPE = ”SER”) en systemen met een geïntegreerde naverwarming (SOL_TYPE = ”PAR”), ook wel 
+‘hottop’ genoemd. Deze laatste zijn onder te verdelen in twee subcategorieën.  
+Dit leidt tot de volgende indeling: 
+a) voorverwarmerzonneboilersystemen, zie figuur 13.2; 
+b) zonneboilersystemen met geïntegreerde met gas gestookte naverwarming, waarbij de warmte aan 
+het vat wordt overgedragen door een warmtewisselaar, zie figuur 13.3; 
+c) zonneboilersystemen met geïntegreerde naverwarming, waarbij de warmte aan het vat wordt 
+overgedragen door een elektrisch element, zie figuur 13.4. 
+ 
+Figuur 13.2 — Voorverwarmerzonneboiler met naverwarmingstoestel 
+561
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 562 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Figuur 13.3 — Zonneboilersysteem met geïntegreerde met gas gestookte naverwarming 
+ 
+ 
+Figuur 13.4 — Zonneboilersysteem met geïntegreerde elektrische naverwarming 
+Een zonne-energiesysteem is altijd gekoppeld aan een tapwater- of verwarmingssysteem:  
+— een zonne-energiesysteem levert een warmtebijdrage aan één tapwatersysteem of één 
+verwarmingssysteem of aan beide; 
+— een tapwatersysteem kan door meerdere zonne-energiesystemen gevoed worden: 
+— wanneer dit verschillende zonneboilersystemen zijn, dan moeten deze apart opgegeven worden 
+binnen het tapwatersysteem; 
+— wanneer het tapwatersysteem gemodelleerd wordt als één groot systeem met meerdere 
+identieke fysieke opweksystemen (met dezelfde opwekkers van hetzelfde merk, type en 
+vermogen en dezelfde energiedragers; bijvoorbeeld bij een woongebouw met een individueel 
+opweksysteem per woning), wordt het systeem ook gevoed door meerdere zonne-
+energiesystemen. Het fysieke aantal zonne-energiesystemen is dan gelijk aan het fysieke aantal 
+opweksystemen. Bij de bepaling van de door het zonneboilersysteem te leveren of geleverde 
+warmte moet dan rekening gehouden worden met de te leveren warmte per fysiek 
+opweksysteem. 
+562
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 563 ---
+Withdrawn final
+Ingetrokken definitief
+Wanneer er sprake is van delen van een tapwatersysteem die wel en delen die geen gebruik maken 
+van een zonne-energiesysteem, dan is er feitelijk sprake van twee verschillende tapwatersystemen en 
+moet dit ook als twee aparte systemen beschouwd worden. 
+OPMERKING 
+Deze situatie komt bijvoorbeeld voor bij woningen in een woongebouw die allemaal zijn 
+uitgerust met een individuele HR-combiketel voor warm tapwater, maar waarbij alleen de woningen op de 
+bovenste bouwlaag gebruikmaken van een zonne-energiesysteem. 
+De rekenregels voor de maandelijkse zonnebijdrage zijn gebaseerd op NEN-EN 15316-4-3. Bij de 
+bepaling van de collectoroppervlakte wordt in NEN-EN 15316-4-3 geen onderscheid meer gemaakt 
+tussen de apertuuroppervlakte en de bruto-oppervlakte van de collector. Er wordt gebruikgemaakt 
+van de ‘referentie’-oppervlakte. Opgegeven waarden voor het collectorrendement corresponderen 
+immers met een bijbehorende referentieoppervlakte. Alleen bij toepassing van forfaitaire 
+collectorrendementen is een nadere omschrijving van de oppervlakte nodig. 
+Bepaal de bijdrage van een (PVT-)zonne-energiesysteem aan warmtapwaterbereiding voor alle 
+bovenstaande systemen volgens 13.7.2.  
+13.7.2 Rekenregels 
+13.7.2.1 
+Algemeen 
+De zonnebijdrage van een zonneboilersysteem aan een warmtapwatersysteem en/of 
+ruimteverwarmingssysteem wordt bepaald per zonneboilersysteem soli. Een warmtapwatersysteem 
+en/of ruimteverwarmingssysteem kan dus zijn aangesloten op meerdere zonneboilersystemen. 
+Bepaal de maandelijkse zonnebijdrage voor warm tapwater en voor ruimteverwarming die onder 
+praktijkomstandigheden wordt aangeleverd door (PVT-)zonnecombisystemen of 
+(PVT-)zonneboilersystemen als volgt: 
+si,mi
+si,soli,mi
+si;
+Q
+f
+f
+Q
+f
+W;ren;
+W;ren;prac;
+gebouw;
+W
+prac;sol
+PVT;th
+=
+×
+×
+×
+ 
+(13.66) 
+si,mi
+si,soli,mi
+si;
+Q
+f
+f
+Q
+f
+H;ren;
+H;ren;prac;
+gebouw;
+H
+prac;sol
+PVT;th
+=
+×
+×
+×
+ 
+(13.66a) 
+waarin: 
+QW;ren;prac;si,soli,mi 
+is de onder praktijkomstandigheden aangeleverde hoeveelheid energie ten 
+behoeve van warm tapwater, in maand mi, door op het eigen perceel opgewekte 
+thermische duurzame energie door zonne-energiesysteem soli, ten behoeve van 
+systeem si, in kWh; 
+QH;ren;prac;si,soli,mi 
+is de onder praktijkomstandigheden aangeleverde hoeveelheid energie ten 
+behoeve van ruimteverwarming, in maand mi, door op het eigen perceel 
+opgewekte thermische duurzame energie door zonne-energiesysteem soli, ten 
+behoeve van systeem si, in kWh; 
+fgebouw;si;H 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+warm tapwater, volgens 13.1.2;  
+fprac;sol 
+is de dimensieloze correctiefactor voor de opbrengst van het zonneboilersysteem 
+onder praktijkomstandigheden, met als vaste waarde fprac;sol = 0,95; 
+563
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 564 ---
+Withdrawn final
+Ingetrokken definitief
+QW;ren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame energie 
+door zonne-energiesysteem soli, ten behoeve van systeem si, bepaald volgens 
+13.7.2.2 of 13.7.2.3, in kWh; 
+QH;ren;si,mi 
+is de hoeveelheid energie ten behoeve van ruimteverwarming, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame energie 
+door zonne-energiesysteem soli, ten behoeve van systeem si, bepaald volgens 
+13.7.2.2, in kWh; 
+fPVT;th 
+is de thermische reductiefactor voor PVT-systemen, bepaald volgens 13.7.2.4; 
+indien er geen sprake is van een PVT-systeem of wanneer het PVT-systeem is 
+getest volgens NEN-EN-ISO 9806, dan geldt fPVT;th = 1. 
+Bepaal de maandelijkse zonnebijdrage QW;ren;si,mi voor zonnecombisystemen en zonneboilersystemen 
+volgens 13.7.2.2 (op basis van NEN-EN 15316-4-3, 'method 2').  
+Indien testresultaten van zonneboilersystemen beschikbaar zijn volgens NEN-EN 12976 of 
+NEN-EN 12977-2, mag gebruik worden gemaakt van de bepalingswijze in 13.7.2.3 (op basis van 
+NEN-EN 15316-4-3, 'method 1'). 
+Hulpenergie 
+Bepaal het maandelijkse hulpenergiegebruik voor de bijdrage van zonne-energiesystemen ten 
+behoeve van warm tapwater en/of ruimteverwarming volgens formule (13.67).  
+(
+)
+soli
+si,mi
+si;
+mi
+mi
+W
+W
+W
+f
+W;aux;
+;tot;
+gebouw;
+W
+W;aux;sol;
+H;aux;sol;
+=
+×
++
+(13.67) 
+waarin: 
+WW;aux;soli;tot;si,mi 
+is de totale hoeveelheid op het eigen perceel afgenomen elektrische hulpenergie 
+van zonne-energiesysteem soli ten behoeve van ruimteverwarming en warm 
+tapwater in systeem si, in maand mi, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater 
+wordt bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel 
+of gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de 
+functie warm tapwater, volgens 13.1.2;  
+WW;aux;sol;mi 
+is het hulpenergiegebruik voor de bijdrage van een zonne-energiesysteem ten 
+behoeve van warm tapwater, in maand mi, bepaald volgens 13.7.2.2.4 of 
+13.7.2.3, in kWh; 
+WH;aux;sol;mi 
+is het hulpenergiegebruik voor de bijdrage van een zonne-energiesysteem ten 
+behoeve van verwarming, in maand mi, bepaald volgens 13.7.2.2.5, in kWh. 
+Terugwinbare systeemverliezen 
+Bepaal het maandelijks terugwinbare verlies van zonne-energiesystemen ten behoeve van warm 
+tapwater en/of ruimteverwarming volgens formule (13.68).  
+(
+)
+mi
+si;
+mi
+mi
+Q
+Q
+Q
+f
+W;sol;ls;rbl;tot;
+gebouw;
+W
+W;sol;ls;rbl;
+H;sol;ls;rbl;
+=
+×
++
+(13.68) 
+564
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 565 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+QW;sol;ls;rbl;tot;mi 
+is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor warm tapwater en/of ruimteverwarming, in maand mi, 
+in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald, en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+QW;sol;ls;rbl;mi 
+is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor warm tapwater, in maand mi, bepaald volgens 13.7.2.2.4 
+of 13.7.2.3, in kWh; 
+QH;sol;ls;rbl;mi 
+is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor ruimteverwarming, in maand mi, bepaald volgens 
+13.7.2.2.5, in kWh. 
+13.7.2.2 
+Zonneboilers voor tapwater en/of verwarming 
+13.7.2.2.1 Algemeen 
+Bedrijfsomstandigheden 
+De omgevingstemperatuur rond het voorraadvat wordt bepaald door de locatie van het voorraadvat. 
+Er wordt van uitgegaan dat het voorraadvat altijd in een verwarmde ruimte is opgesteld. Dan geldt in 
+het geval dat voor de opwekking van warm tapwater een warmtepomp met als bron 
+ventilatieretourlucht wordt toegepast: 
+ϑsto;amb;mi = ϑint;set;H;stc;zi,mi 
+[°C] in een verwarmde ruimte 
+(STO_LOC = HS) 
+(13.69a) 
+In alle andere gevallen geldt: 
+ϑsto;amb;mi = ϑint;set;H;zi,mi 
+[°C] in een verwarmde ruimte 
+(STO_LOC = HS) 
+(13.69) 
+waarin: 
+ϑint;set;H;stc;zi,mi 
+[°C] is de setpointtemperatuur voor de thermisch geconditioneerde zones van de 
+ 
+aangrenzende rekenzone zi, bepaald volgens 7.9, in °C; 
+ϑint;set;H;zi,mi 
+[°C] is de setpointtemperatuur van de rekenzone voor verwarming, bepaald  
+ 
+volgens 7.9.4, in °C; 
+ϑsto;amb;mi 
+[°C] is de omgevingstemperatuur van de ruimte waar het voorraadvat is 
+ 
+opgesteld. 
+Rekenwaarden 
+Als de warmteoverdrachtscoëfficiënt van de warmtewisselaar bekend is, wordt het rendement van het 
+collectorcircuit berekend door: 
+−
+soli
+η
+A
+η
+N
+H
+x
+col;
+o
+sol;mod
+1
+loop
+s;sto;h
+×
+×a
+=1
+×
+ 
+  [-] 
+(13.72) 
+565
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 566 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+ηloop 
+[-] 
+is het dimensieloze rendement van het collectorcircuit inclusief de invloed 
+van de warmtewisselaar; 
+ηo 
+[-] 
+is het maximale collectorrendement (bij warmteverlies=0); 
+Asol;mod [m2] 
+is de referentieoppervlakte van één collectormodule;  
+Ncol;soli [-] 
+is het aantal geïnstalleerde collectormodules per zonne-energiesysteem soli; 
+a1 
+[W/(m2∙K)] is de eerste-orde-warmteverliescoëfficiënt van de collector;  
+Hs;sto;hx [W/K] 
+is de warmteoverdrachtscoëfficiënt van de warmtewisselaar van het 
+collectorcircuit voor één voorziening, bepaald volgens formule (13.73). 
+De referentieoppervlakte van een collector is opgenomen in de productgegevens bij de parameters 
+voor het collectorrendement. Bij toepassing van de forfaitaire parameters voor het 
+collectorrendement uit tabel 13.14 kan voor vacuümbuiscollectoren uitgegaan worden van 60 % van 
+de bruto-oppervlakte (lengte × breedte) van de collectormodule en voor de overige typen collectoren 
+van de volledige bruto-oppervlakte. 
+In het geval dat een van de parameters van formule (13.72) niet beschikbaar is, mag uitgegaan worden 
+van de forfaitaire waarde ηloop = 0,9. 
+In het geval dat de warmteoverdrachtscoëfficiënt van de warmtewisselaar niet beschikbaar is, kan 
+deze worden berekend volgens: 
+soli
+H
+N
+c
+A
+s;sto;hx
+1
+so m
+col
+; od
+;
+l
+×
+=
+×
+  [W/K] 
+(13.73) 
+waarin: 
+c1 
+[W/(m2∙K)] is de vaste waarde c1 = 100; 
+Asol;mod [m2] 
+is de referentieoppervlakte van één collectormodule;  
+Ncol;soli [-] 
+is het aantal geïnstalleerde collectormodules per zonne-energiesysteem soli. 
+Als details van de collectorcircuitkarakteristieken bekend zijn, wordt de warmteverliescoëfficiënt van 
+de leidingen in het collectorcircuit berekend als de totale warmteverliezen van de te onderscheiden 
+leidingdelen in het collectorcircuit.  
+∑
+
+n
+i
+i
+i
+H
+L
+Hpipe;
+=1
+loop;p =
+×
+  [W/K]  
+(13.74) 
+waarin: 
+Hloop;p [W/K] 
+is de totale warmteverliescoëfficiënt van alle leidingen in het collectorcircuit, 
+inclusief de leidingen tussen de collectoren en leidingreeksen tussen een 
+collectorreeks en zonneopslagtank; 
+Li 
+[m] 
+is de lengte van het leidingdeel; 
+Ḣpipe;i 
+[W/(m∙K)] 
+is de warmteverliescoëfficiënt van leidingdeel i per zonne-energiesysteem; 
+hiervoor kan gebruik worden gemaakt van de Ψ-waarden in tabel 13.4. 
+566
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 567 ---
+Withdrawn final
+Ingetrokken definitief
+Als de collectorcircuitkarakteristieken niet bekend zijn, wordt de warmteverliescoëfficiënt van de 
+leidingen in het collectorcircuit berekend volgens: 
+Hloop;p = Hloop;p;std + Hloop;p;area × Asol;mod × Ncol;soli  [W/K] 
+(13.75) 
+waarin: 
+Hloop;p;std 
+[W/K]  
+is de factor zoals vastgelegd in tabel 13.10; 
+Hloop;p;area [W/(m2∙K)] 
+is de factor zoals vastgelegd in tabel 13.10; 
+Asol;mod  
+[m2] 
+ 
+is de referentieoppervlakte van één collectormodule; 
+Ncol;soli  
+[-] 
+ 
+is het aantal collectormodules dat wordt gebruikt per zonne- 
+ 
+ 
+energiesysteem soli. 
+Tabel 13.10 — Forfaitaire waarden voor de berekening van het collectorcircuitwarmteverlies  
+Symbool 
+Forfaitaire 
+waarde 
+Eenheid 
+Hloop;p;std 
+5,0 
+W/K 
+Hloop;p;area 
+0,5 
+W/(m2∙K) 
+Hulpenergie 
+soli
+P
+P
+P
+A
+N
+sol;pmp
+sol;pmp;std
+sol;pmp;area
+sol;mod
+col;
+=
++
+×
+ × 
+  [W]  
+(13.76) 
+waarin: 
+Psol;pmp 
+[W] 
+is het vermogen van de collectorpomp; 
+Psol;pmp;std [W] 
+is de factor zoals vastgelegd in tabel 13.11;  
+Psol;pmp;area [W/m2] is de factor zoals vastgelegd in tabel 13.11;  
+Asol;mod 
+[m2] 
+is de referentieoppervlakte van één collectormodule; 
+Ncol;soli 
+[-] 
+is het aantal collectormodules dat wordt gebruikt per zonne-energiesysteem 
+soli. 
+Tabel 13.11 — Forfaitaire waarden voor de berekening van het vermogen van de pomp van de 
+zonneboiler  
+Symbool 
+Waarde 
+Eenheid 
+Psol;pmp;std 
+10 
+W 
+Psol;pmp;area 
+1 
+W/m2 
+ 
+567
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 568 ---
+Withdrawn final
+Ingetrokken definitief
+13.7.2.2.2 Rekeninstellingen voor warm tapwater 
+De rekenprocedure voor warm tapwater wordt uitgevoerd: 
+— als het systeem is ontworpen voor warm tapwater (SOL_USE = WHS (‘water heating service’) of 
+SOL_USE = COMBI (‘space and water heating service’), en 
+— voor een maand met energiegebruik voor warm tapwater (QW;sol;us;mi > 0). 
+Als de rekenmethode niet wordt uitgevoerd, worden alle outputwaarden voor warm tapwater op nul 
+gezet.  
+Bij de rekenprocedure in 13.7.2.2.2 horen de parameterinstellingen van tabel 13.12. 
+Tabel 13.12 — Parameterinstellingen voor warm tapwater  
+Symbool 
+Eenheid Omschrijving 
+QW;sol;us;mi 
+kWh 
+Maandelijks energiegebruik voor warm tapwater 
+(QW;sol;us = QW;dis;si,mi) 
+ƒW;use;mi 
+- 
+Berekend volgens formule (13.77) 
+AW;sol;mi 
+m2 
+Berekend volgens formule (13.78) 
+VW;sto;tot 
+l 
+Berekend volgens formule (13.79) 
+VW;sto;bu 
+l 
+Berekend volgens formule (13.80) 
+HW;sto;ls 
+W/K 
+Berekend volgens formule (13.81) 
+HW;sto;hx 
+W/K 
+Snelheid van de warmteoverdracht van de warmtewisselaar 
+voor de volledige opslagtank (= Hsto;hx) 
+ϑW;ref;mi 
+°C 
+Berekend volgens formule (13.83) 
+ϑW;low;mi 
+°C 
+Maandgemiddelde koudwatertemperatuur (= ϑW;cw;mi = 10 °C) 
+ϑW;high;mi 
+°C 
+Warmtapwatertemperatuur (= ϑW;hw)  
+Voor systemen met alleen uittapleidingen: ϑW;hw = 60 °C 
+Voor systemen met circulatieleidingen: ϑW;hw = 65 °C 
+ϑW;bu;set 
+°C 
+Thermostaatinstelling voor het back-upopslagdeel bestemd 
+voor warm tapwater (= ϑW;bu;set) 
+WW;bu;aux;nom;mi 
+kWh 
+Hulpenergiegebruik van het back-upopwektoestel voor warm 
+tapwater (= WW;bu;aux;nom;mi) 
+QW;bu;ls;nom;mi 
+kWh 
+Warmteverlies van het back-upopwektoestel voor warm 
+tapwater (= QW;bu;ls;nom;mi) 
+PW;sol;pmp 
+W 
+Berekend volgens formule (13.84) 
+568
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 569 ---
+Withdrawn final
+Ingetrokken definitief
+De factor voor het voor warm tapwater bestemde deel van het systeem wordt berekend volgens 
+formule (13.77). 
+𝑓𝑓W;use;𝑚𝑚𝑚𝑚=
+𝑄𝑄W;sol;us;𝑚𝑚𝑚𝑚
+𝑄𝑄W;sol;us;𝑚𝑚𝑚𝑚 + 𝑄𝑄H;sol;us;𝑚𝑚𝑚𝑚  [-] 
+(13.77) 
+Als SOL_SYS = WH: ƒW;use;mi = 1 
+waarin: 
+fW;use;mi 
+[-] 
+is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+QW;sol;us;mi 
+[kWh] is het maandelijkse energiegebruik voor warm tapwater; gebruik hiervoor 
+QW;dis;si,mi zoals bepaald in 13.1.2; bij zonneboilersystemen met een 
+geïntegreerde naverwarmer vanuit het verwarmingssysteem mag voor de 
+bepaling van QW;dis;si,mi in 13.1.2.5 QW;bu;sto;ls;soli;mi buiten beschouwing gelaten 
+worden;  
+QH;sol;us;mi 
+[kWh] is het maandelijkse energiegebruik voor ruimteverwarming; gebruik hiervoor 
+de som van QH;nod;out en QH;nod;ls zoals bepaald in 9.2.3.2 en 9.2.3.3; in het geval 
+van een boosterwarmtepomp voor warm tapwater in combinatie met het 
+gebruik van een zonneboiler voor zowel verwarming als warm tapwater kan 
+bij de bepaling van QH;nod;out voor QW;BWP,si;in 0,55 × QW;sol;us aangehouden 
+worden; 
+SOL_SYS 
+[-] 
+zijn de services gevoed door het zonne-energiesysteem. 
+OPMERKING 
+Met de bij QW;sol;us;mi aangegeven vereenvoudiging wordt een iteratieve berekening voorkomen. 
+In het geval van meerdere zonneboilersystemen soli die leveren aan één warmtapwatersysteem en/of 
+ruimteverwarmingssysteem, moet het maandelijkse energiegebruik voor warm tapwater QW;sol;us;mi en 
+voor ruimteverwarming QH;sol;us;mi worden bepaald per zonneboilersysteem soli. Bij meerdere identieke 
+zonneboilersystemen is het niet nodig om dit onderscheid te maken omdat de berekening per 
+zonneboiler hetzelfde resultaat geeft als voor alle zonneboilers samen. Indien er echter sprake is van 
+meerdere verschillende zonneboilers, moeten QW;sol;us;mi en QH;sol;us;mi verdeeld worden over de 
+verschillende zonneboilers aan de hand van het volume Vsto;tot van de verschillende zonneboilers.  
+De effectieve collectoroppervlakte bestemd voor warm tapwater wordt berekend volgens 
+formule (13.78). 
+AW;sol;mi = fW;use;mi × Asol;mod × Ncol;soli  [m2]  
+(13.78) 
+waarin: 
+AW;sol;mi [m2] is de effectieve collectoroppervlakte bestemd voor warm tapwater,  
+ 
+ 
+in maand mi; 
+fW;use;mi [-] 
+is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Asol;mod [m2] is de referentieoppervlakte van één collectormodule;  
+Ncol;soli [-] 
+is het aantal geïnstalleerde collectormodules per zonne-energiesysteem soli. 
+569
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 570 ---
+Withdrawn final
+Ingetrokken definitief
+De referentieoppervlakte van een collector is opgenomen in de productgegevens bij de parameters 
+voor het collectorrendement. Bij toepassing van de forfaitaire parameters voor het 
+collectorrendement uit tabel 13.14 kan voor vacuümbuiscollectoren uitgegaan worden van 60 % van 
+de bruto-oppervlakte (lengte × breedte) van de collectormodule en voor de overige typen collectoren 
+van de volledige bruto-oppervlakte. 
+Het effectieve totale opslagvolume bestemd voor warm tapwater wordt berekend volgens 
+formule (13.79). 
+𝑉𝑉W;sto;tot = 𝑓𝑓W;use;𝑚𝑚𝑖𝑖× 𝑉𝑉sto;tot  [l] 
+(13.79) 
+waarin: 
+VW;sto;tot [l] is het effectieve totale opslagvolume van het voorraadvat bestemd voor warm 
+tapwater, in maand mi; 
+fW;use;mi 
+[-] is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Vsto;tot 
+[l] is het totale volume van het voorraadvat van het zonne-energiesysteem soli.  
+Het effectieve volume van het back-upopslagdeel bestemd voor warm tapwater wordt berekend 
+volgens formule (13.80). 
+𝑉𝑉W;sto;bu = 𝑓𝑓W;use;𝑚𝑚𝑚𝑚× 𝑉𝑉sto;bu  [l] 
+(13.80) 
+waarin: 
+VW;sto;bu 
+[-] 
+is het effectieve volume van het back-updeel van het voorraadvat van het 
+zonne-energiesysteem bestemd voor warm tapwater; 
+fW;use;mi 
+[-] 
+is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Vsto;bu 
+[l] 
+is het volume van het back-updeel van het voorraadvat van het zonne-
+energiesysteem bestemd voor verwarming; Vsto;bu is nul, indien het voorraadvat 
+alleen is bedoeld voor de opslag van zonnewarmte (voorverwarmer). Indien 
+Vsto;bu onbekend is, dan gelden hiervoor de volgende forfaitaire waarden: 
+indien Vsto < 80 l: Vsto;bu = Vsto; 
+indien Vsto ≤ 200 l: Vsto;bu = 80 l; 
+indien Vsto ≥ 300 l: Vsto;bu = 120 l; 
+indien 200 < Vsto < 300: interpoleer dan voor Vsto;bu op basis van Vsto tussen 
+bovenstaande waarden voor Vsto;bu. 
+De effectieve warmteoverdrachtscoëfficiënt voor warm tapwater wordt berekend volgens 
+formule (13.81). 
+𝐻𝐻W;sto;ls = 𝑓𝑓W;use;𝑚𝑚𝑚𝑚× 𝐻𝐻sto;ls;tot  [W/K] 
+(13.81) 
+waarin: 
+HW;sto;ls 
+[W/K] 
+is de effectieve warmteoverdrachtscoëfficiënt van het deel van het 
+voorraadvat bestemd voor warm tapwater, in maand mi; 
+570
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 571 ---
+Withdrawn final
+Ingetrokken definitief
+fW;use;mi 
+[-] 
+is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Hsto;ls;tot 
+[W/K] 
+is de warmteoverdrachtscoëfficiënt voor het volledige voorraadvat. Volgens 
+opgave van de leverancier (UAsb,s,a volgens NEN-EN 12977-3); rond deze 
+waarde af naar boven op twee significante cijfers tot de dichtstbijzijnde 
+getalswaarde uit de in bijlage X gegeven reeks. Voor boilervaten vanaf 2016 en 
+van maximaal 500 l mag Hsto;ls;tot volgens formule (13.82) bepaald worden aan 
+de hand van het energielabel van het voorraadvat conform CDR 812/2013. 
+Voor boilervaten van meer dan 500 l kan gebruik worden gemaakt van de 
+forfaitaire waarden voor het energielabel op basis van het productiejaar. NB: 
+het gaat om het energielabel van het voorraadvat, niet om het label van het 
+zonne-energiesysteem. 
+𝐻𝐻sto;ls;tot = 
+𝑆𝑆sto;ls
+45   [W/K] 
+(13.82) 
+waarin:
+ 
+Ssto;ls 
+[W] 
+is het maximale gestandaardiseerde warmhoudverlies van het voorraadvat, 
+bepaald volgens 13.6.3. 
+De referentietemperatuur wordt berekend volgens formule (13.83). 
+ϑW;ref;mi = 11,6 + 1,18 × ϑW;srv + 3,86 × ϑW;cw;mi – 1,32 × ϑe;mi  [°C]  
+(13.83) 
+waarin: 
+ϑW;ref;mi 
+[°C] 
+is de referentietemperatuur voor warm tapwater, in maand mi; 
+ϑW;srv 
+[°C] 
+is de warmtapwatertemperatuur; ϑW;srv = 40 °C; 
+ϑW;cw;mi 
+[°C] 
+is de maandgemiddelde koudwatertemperatuur; ϑW;cw;mi = 10 °C; 
+ϑe;mi 
+[°C] 
+is de maandgemiddelde buitenluchttemperatuur, bepaald volgens 17.2. 
+Het effectieve pompvermogen voor warm tapwater wordt berekend volgens formule (13.84). 
+PW;sol;pmp = fW;use;mi × Psol;pmp  [W]  
+(13.84) 
+waarin: 
+PW;sol;pmp 
+[W] 
+is het effectieve vermogen van de collectorpomp voor warm tapwater,  
+in maand mi; 
+fW;use;mi 
+[-] 
+is de dimensieloze factor voor warm tapwater voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Psol;pmp 
+[W] 
+is het vermogen van de collectorpomp volgens opgave van de leverancier of 
+volgens formule (13.76), afgerond naar boven op twee significante cijfers, 
+bepaald volgens bijlage X. 
+571
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 572 ---
+Withdrawn final
+Ingetrokken definitief
+13.7.2.2.3 Rekeninstellingen voor ruimteverwarming 
+De rekenprocedure voor ruimteverwarming wordt uitgevoerd: 
+— als het systeem is ontworpen voor ruimteverwarming (SOL_USE = SHS (‘space heating service’) of 
+SOL_ USE = COMBI), en 
+— voor een maand met een ruimteverwarmingsgebruik (QW;sol;us;mi > 0). 
+Als de rekenmethode niet wordt uitgevoerd, worden alle outputwaarden voor ruimteverwarming op 
+nul gezet.  
+Bij de rekenprocedure in 13.7.2.2.3 horen de parameterinstellingen van tabel 13.13.  
+Tabel 13.13 — Parameterinstellingen voor ruimteverwarming 
+Symbool 
+Eenheid Omschrijving 
+QH;sol;us;mi 
+kWh 
+Maandelijks energiegebruik voor ruimteverwarming (QH;sol;us; = QH;nod;out;mi + 
+QH;nod;ls;mi); in het geval van een boosterwarmtepomp voor warm tapwater in 
+combinatie met het gebruik van een zonneboiler voor zowel verwarming als 
+warm tapwater kan bij de bepaling van QH;nod;out voor QW;BWP,si;in 0,55 × QW;sol;us 
+aangehouden worden. 
+ƒuse;mi 
+- 
+Berekend volgens formule (13.85) 
+AH;sol;mi 
+m2 
+Berekend volgens formule (13.86) 
+VH;sto;tot 
+l 
+Berekend volgens formule (13.87) 
+VH;sto;bu 
+l 
+Berekend volgens formule (13.88) 
+HH;sto;ls 
+W/K 
+Berekend volgens formule (13.89) 
+HH;sto;hx 
+W/K 
+Snelheid van de warmteoverdracht van de warmtewisselaar voor de volledige 
+opslagtank (= Hsto;hx) 
+ϑH;ref;mi 
+°C 
+Berekend volgens formule (13.90) 
+ϑH;low;mi 
+°C 
+Luchttemperatuur in een verwarmde ruimte (= ϑsto;amb;mi) 
+ϑH;high;mi 
+°C 
+Retourtemperatuur van het distributiesysteem voor de ruimteverwarming 
+(= ϑH;dis;rtn) 
+ϑH;bu;set 
+°C 
+Thermostaatinstelling voor de (het) back-upopslag(deel) (bestemd) voor 
+ruimteverwarming (= ϑH;bu;set) 
+Ws;bu;aux;nom;mi 
+kWh 
+Hulpenergiegebruik van het back-upopwektoestel voor ruimteverwarming 
+(= WH;bu;aux;nom;mi) 
+QH;bu;ls;nom;mi 
+kWh 
+Warmteverlies van het back-upopwektoestel voor ruimteverwarming 
+(= QH;bu;ls;nom;mi) 
+PH;sol;pmp 
+W 
+Berekend volgens formule (13.91) 
+De factor voor het voor ruimteverwarming bestemde deel van het systeem wordt berekend volgens 
+formule (13.85). 
+572
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 573 ---
+Withdrawn final
+Ingetrokken definitief
+mi
+mi
+mi
+mi
+Q
+f
+Q
+Q
+H;sol;us;
+H;use;
+W;sol;us;
+H;sol;us;
+=
++
+  [-] 
+(13.85) 
+Als SOL_SYS = SH: ƒH;use;mi = 1 
+waarin: 
+fH;use;mi 
+[-] 
+is de dimensieloze factor voor ruimteverwarming voor verdeling van het zonne-
+energiesysteem over warm tapwater en ruimteverwarming; 
+QW;sol;us;mi [kWh] is het maandelijkse energiegebruik voor warm tapwater; gebruik hiervoor 
+QW;dis;si,mi zoals bepaald in 13.1.2; bij zonneboilersystemen met een 
+geïntegreerde naverwarmer vanuit het verwarmingssysteem mag voor de 
+bepaling van QW;dis;si,mi in 13.1.2.5 QW;bu;sto;ls;soli;mi buiten beschouwing gelaten 
+worden; 
+QH;sol;us;mi [kWh] is het maandelijkse energiegebruik voor ruimteverwarming; gebruik hiervoor 
+de som van QH;nod;out en QH;nod;ls zoals bepaald in 9.2.3.2 en 9.2.3.3; in het geval 
+van een boosterwarmtepomp voor warm tapwater in combinatie met het 
+gebruik van een zonneboiler voor zowel verwarming als warm tapwater kan bij 
+de bepaling van QH;nod;out voor QW;BWP,si;in 0,55 × QW;sol;us aangehouden worden; 
+SOL_SYS [-] 
+zijn de services gevoed door het zonne-energiesysteem. 
+In het geval van meerdere zonneboilersystemen soli die leveren aan één warmtapwatersysteem en/of 
+ruimteverwarmingssysteem, moet het maandelijkse energiegebruik voor warm tapwater QW;sol;us;mi en 
+voor ruimteverwarming QH;sol;us;mi worden bepaald per zonneboilersysteem soli. Bij meerdere identieke 
+zonneboilersystemen is het niet nodig om dit onderscheid te maken, omdat de berekening per 
+zonneboiler hetzelfde resultaat geeft als voor alle zonneboilers samen. Indien er echter sprake is van 
+meerdere verschillende zonneboilers, moeten QW;sol;us;mi en QH;sol;us;mi verdeeld worden over de 
+verschillende zonneboilers aan de hand van het volume Vsto;tot van de verschillende zonneboilers.  
+De effectieve collectoroppervlakte bestemd voor ruimteverwarming wordt berekend volgens 
+formule (13.86). 
+𝐴𝐴H;sol;𝑚𝑚𝑚𝑚= 𝑓𝑓H;use;𝑚𝑚𝑚𝑚× 𝐴𝐴sol;mod × 𝑁𝑁col;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠  [m2]  
+(13.86) 
+waarin: 
+AH;sol;mi [m2] is de effectieve collectoroppervlakte bestemd voor ruimteverwarming,  
+ 
+ 
+in maand mi; 
+Asol;mod [m2] is de referentieoppervlakte van één collectormodule;  
+Ncol;soli [-] 
+is het aantal geïnstalleerde collectormodules per zonne-energiesysteem soli. 
+De referentieoppervlakte van een collector is opgenomen in de productgegevens bij de parameters 
+voor het collectorrendement. Bij toepassing van de forfaitaire parameters voor het 
+collectorrendement uit tabel 13.14 kan voor vacuümbuiscollectoren uitgegaan worden van 60 % van 
+de bruto-oppervlakte (lengte × breedte) van de collectormodule en voor de overige typen collectoren 
+van de volledige bruto-oppervlakte. 
+Het effectieve totale opslagvolume bestemd voor ruimteverwarming wordt berekend volgens 
+formule (13.87). 
+573
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 574 ---
+Withdrawn final
+Ingetrokken definitief
+𝑉𝑉H;sto;tot = 𝑓𝑓H;use;𝑚𝑚𝑚𝑚× 𝑉𝑉sto;tot  [l] 
+(13.87) 
+waarin: 
+VH;sto;tot 
+[l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor 
+ruimteverwarming, in maand mi; 
+Vsto;tot 
+[l] 
+is het totale volume van het voorraadvat van het zonne-energiesysteem soli. 
+Het effectieve volume van het back-upopslagdeel bestemd voor ruimteverwarming wordt berekend 
+volgens formule (13.88). 
+𝑉𝑉H;sto;bu = 𝑓𝑓H;use;𝑚𝑚𝑚𝑚× 𝑉𝑉sto;bu  [l] 
+(13.88) 
+waarin: 
+fH;use;mi 
+[-] 
+is de dimensieloze factor voor ruimteverwarming voor verdeling van het zonne-
+energiesysteem over warm tapwater en ruimteverwarming; 
+Vsto;bu 
+[l] 
+is het volume van het back-updeel van het voorraadvat van het zonne-
+energiesysteem bestemd voor verwarming. Vsto;bu is nul, indien het voorraadvat 
+alleen is bedoeld voor de opslag van zonnewarmte (voorverwarmer). Indien Vsto;bu 
+onbekend is, dan gelden hiervoor de volgende forfaitaire waarden: 
+indien Vsto < 80 l: Vsto;bu = Vsto; 
+indien Vsto ≤ 200 l: Vsto;bu = 80 l; 
+indien Vsto ≥ 300 l: Vsto;bu = 120 l; 
+indien 200 < Vsto < 300: interpoleer dan voor Vsto;bu op basis van Vsto tussen 
+bovenstaande waarden voor Vsto;bu. 
+Het effectieve opslagwarmteverlies voor ruimteverwarming wordt berekend volgens formule (13.89). 
+𝐻𝐻H;sto;ls = 𝑓𝑓H;use;𝑚𝑚𝑚𝑚× 𝐻𝐻sto;ls;tot  [W/K] 
+(13.89) 
+waarin: 
+HH;sto;ls 
+[W/K] is de effectieve warmteoverdrachtscoëfficiënt van het deel van het voorraadvat 
+bestemd voor ruimteverwarming, in maand mi; 
+fH;use;mi 
+[-] 
+is de dimensieloze factor voor ruimteverwarming voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Hsto;ls;tot 
+[W/K] is de warmteverliescoëfficiënt van de volledige opslagtank. Zie formule (13.82) 
+en de variabele verklaring bij formule (13.81). 
+De referentietemperatuur wordt berekend volgens formule (13.90). 
+𝜗𝜗H;ref;𝑚𝑚𝑚𝑚= 0,75 × 𝜗𝜗H;dis;rtn + 55  [°C] 
+(13.90) 
+waarin: 
+ϑH;ref;mi 
+[°C] is de referentietemperatuur voor ruimteverwarming, in maand mi; 
+ϑH;dis;rtn 
+[°C] is de retourtemperatuur van het distributiesysteem voor de ruimteverwarming; 
+gebruik hiervoor ϑH,a;ontw minus ΔϑH;ontw volgens 9.4.2; 
+574
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 575 ---
+Withdrawn final
+Ingetrokken definitief
+ϑH,a;ontw 
+[°C] is de ontwerpaanvoertemperatuur van het afgiftesysteem, voor 
+warmtetransport, voor een ontwerptemperatuurklasse, uit tabel 9.14; 
+ΔϑH;ontw 
+[°C] is het ontwerp-aanvoer-retourtemperatuurverschil van het afgiftesysteem, voor 
+warmtetransport, voor een ontwerptemperatuurklasse, uit tabel 9.14. 
+Het effectieve pompvermogen voor ruimteverwarming wordt berekend volgens formule (13.91). 
+𝑃𝑃H;sol;pmp = 𝑓𝑓H;use;𝑚𝑚𝑚𝑚× 𝑃𝑃sol;pmp  [W] 
+(13.91) 
+waarin: 
+PH;sol;pmp 
+[W] is het effectieve vermogen van de collectorpomp voor ruimteverwarming,  
+in maand mi; 
+fH;use;mi 
+[-] 
+is de dimensieloze factor voor ruimteverwarming voor verdeling van het zonne-
+energiesysteem over warm tapwater en verwarming; 
+Psol;pmp 
+[W] is het vermogen van de collectorpomp volgens opgave van de leverancier of 
+bepaald volgens formule (13.76), afgerond naar boven op twee significante 
+cijfers, bepaald volgens bijlage X. 
+13.7.2.2.4 Berekeningsmethode tapwater 
+In deze paragraaf wordt de berekening uitgevoerd voor het tapwaterdeel van het zonneboilersysteem. 
+De berekening voor het ruimteverwarmingsdeel vindt op analoge wijze plaats in 13.7.2.2.5. 
+De correctiefactor van de capaciteit van het voorraadvat wordt berekend volgens formule (13.92). 
+𝑓𝑓W;sto;𝑚𝑚𝑚𝑚= ൬
+75 × 𝐴𝐴W;sol;𝑚𝑚𝑚𝑚
+𝑉𝑉W;sto;sol ൰
+0,25
+  [l] 
+(13.92) 
+waarin: 
+fW;sto;mi  
+[-] 
+is de dimensieloze correctiefactor voor de capaciteit van het voorraadvat voor
+ 
+warm tapwater; 
+AW;sol;mi 
+[m2] is de effectieve collectoroppervlakte bestemd voor warm tapwater,  
+ 
+ 
+in maand mi; 
+VW;sto;sol 
+[l] 
+is het opslagvolume specifiek voor gegenereerde zonnewarmte voor warm 
+tapwater berekend afhankelijk van het systeemtype (SOL_TYPE); 
+  
+  
+als SOL_TYPE = ”SER”: 
+  
+  
+VW;sto;sol = VW;sto;tot 
+[l] 
+  
+  
+als SOL_TYPE = ”PAR”: 
+  
+  
+VW;sto;sol = VW;sto;tot × (1 – faux) 
+[l] 
+(13.93) 
+VW;sto;tot [l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor warm 
+tapwater volgens formule (13.79); 
+ƒaux 
+[-] 
+berekend volgens formule (13.94). 
+575
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 576 ---
+Withdrawn final
+Ingetrokken definitief
+Het aandeel van het voorraadvat gebruikt voor back-upverwarming wordt berekend volgens 
+formule (13.94). 
+𝑓𝑓aux = 𝑓𝑓bu ×
+𝑉𝑉W;sto;bu
+𝑉𝑉W;sto;tot  [-] 
+(13.94) 
+waarin: 
+ƒaux 
+[-] 
+is het aandeel van het voorraadvat gebruikt voor back-upverwarming; 
+ƒbu 
+[-] 
+is de controlecoëfficiënt voor de back-upverwarming; 
+  
+er wordt uitgegaan van continu gebruik: fbu = 1,0 (NEN-EN 15316-4-3:2017, 
+ 
+tabel B.15); 
+VW;sto;bu [-] 
+is het effectieve volume van het back-updeel van het voorraadvat van het zonne-
+energiesysteem bestemd voor warm tapwater, berekend volgens 
+formule (13.80); 
+VW;sto;tot [l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor warm 
+tapwater volgens formule (13.79). 
+Het warmteverlies van het back-updeel van de opslag bestemd voor verwarming wordt berekend 
+volgens formule (13.95). 
+𝑄𝑄W;bu;sto;ls;𝑚𝑚𝑚𝑚= 𝐻𝐻W;sto;ls ×
+𝑉𝑉W;sto;tot− 𝑉𝑉W;sto;sol
+𝑉𝑉W;sto;tot
+× ൫𝜗𝜗W;bu;set −𝜗𝜗sto;amb;𝑚𝑚𝑚𝑚൯×
+𝑡𝑡𝑚𝑚𝑚𝑚
+1 000  [kWh]  
+ 
+(13.95) 
+waarin: 
+QW;bu;sto;ls;(soli,)mi [kWh] is de hoeveelheid warmteverlies die ontstaat bij een eventueel   
+ 
+naverwarmerdeel van een zonneboileropslagvat (soli) ten behoeve van 
+ 
+warm tapwater van systeem si, in maand mi; 
+HW;sto;ls  
+[W/K] is de effectieve warmteoverdrachtscoëfficiënt voor het volledige   
+ 
+voorraadvat bestemd voor warm tapwater; 
+VW;sto;tot 
+[l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor 
+ 
+warm tapwater volgens formule (13.79); 
+VW;sto;sol 
+ 
+[l] 
+is het opslagvolume specifiek voor gegenereerde zonnewarmte voor  
+ 
+warm tapwater berekend afhankelijk van het systeemtype (SOL_TYPE)  
+ 
+volgens (13.93), in l; 
+ϑW;bu;set  
+[°C] is de ingestelde temperatuur van het back-updeel voor warm tapwater: 
+— voor tapwatersystemen met alleen uittapleidingen: ϑW;bu;set=ϑsto;set = 60 °C; 
+— voor tapwatersystemen met circulatieleidingen: ϑW;bu;set=ϑsto;set = 65 °C; 
+ϑsto;amb;mi 
+[°C] is de omgevingstemperatuur van de ruimte waar het voorraadvat is 
+ 
+opgesteld; 
+tmi 
+[h] 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald 
+ 
+volgens 17.2. 
+576
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 577 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 1 
+Als het rendement van het back-upopwektoestel is bepaald inclusief de warmteverliezen van 
+het voorraadvat, dan wordt QW;bu;sto;ls;(soli,)mi op nul gezet om een dubbeltelling van dit warmteverlies te 
+voorkomen.  
+Het energiegebruik toegepast op het zonnedeel van het systeem wordt berekend volgens 
+formule (13.96). 
+mi
+mi
+mi
+si;
+Q
+Q
+Q
+f
+W;sol;us;
+W;sol;ls;us;
+W;bu;sto;ls;
+gebouw;
+W
+=
++
+ 
+(13.96) 
+waarin: 
+QW;sol;ls;us;mi 
+[kWh] 
+is het energiegebruik voor warm tapwater toegepast op het zonnedeel 
+ 
+van het systeem, in kWh; 
+fgebouw;si;W 
+[-] 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+ 
+waarvoor de energieprestatie voor de functie warm tapwater wordt 
+ 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel 
+ 
+of gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de 
+ 
+functie warm tapwater, volgens 13.1.2; 
+QW;sol;us;mi 
+[kWh] 
+is het maandelijkse energiegebruik voor warm tapwater;  
+ 
+gebruik hiervoor QW;dis;si,mi zoals bepaald in 13.1.2; 
+QW;bu;sto;ls;(soli,)mi [kWh] 
+is de hoeveelheid warmteverlies die ontstaat bij een eventueel 
+ 
+naverwarmerdeel van een zonneboileropslagvat (soli) ten behoeve van 
+ 
+warm tapwater van systeem si, in maand mi. 
+In het geval van meerdere zonneboilersystemen soli die leveren aan één warmtapwatersysteem, moet 
+het maandelijkse energiegebruik voor warm tapwater QW;sol;us;mi worden bepaald per 
+zonneboilersysteem soli. Bij meerdere identieke zonneboilersystemen kan dit bepaald worden door te 
+delen door het aantal zonneboilers Nsoli. Indien er echter sprake is van meerdere verschillende 
+zonneboilers, moet QW;sol;us;mi verdeeld worden over de verschillende zonneboilers aan de hand van het 
+volume Vsto;tot van de verschillende zonneboilers.  
+De bijdrage van het zonne-energiesysteem aan het energiegebruik wordt berekend in vier stappen. 
+Bereken voor de eerste stap, de eerste schatting van de zonnebijdrage, eerst de waarde van de 
+dimensieloze variabelen XW;mi en YW;mi. 
+De waarde van de factor XW;mi wordt berekend volgens formule (13.97). 
+(
+)
+ϑ
+ϑ
+−
+=
+mi
+mi
+mi
+mi
+mi
+mi
+mi
+A
+H
+η
+f
+t
+X
+Q
+e;
+W;sto;
+W;sol;
+W;loop
+loop
+W;ref;
+W;
+W;sol;ls;us;
+ ×
+× 
+ ×
+ 
+× 
+ ×
+× 1 000
+  [-] (13.97) 
+De minimumwaarde van XW;mi = 0 en de maximumwaarde van XW;mi = 18. 
+Waarin: 
+XW;mi 
+[-] 
+is de dimensieloze variabele X voor warm tapwater, in maand mi; 
+AW;sol;mi 
+[m2] 
+is de effectieve collectoroppervlakte bestemd voor warm tapwater,  
+in maand mi; 
+577
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 578 ---
+Withdrawn final
+Ingetrokken definitief
+HW;loop 
+[W/(m2∙K)] is de warmteverliescoëfficiënt van het collectorcircuit (leidingen en 
+collector) berekend volgens formule (13.98); 
+ηloop 
+[-] 
+is het dimensieloze rendement van het collectorcircuit inclusief de invloed 
+van de warmtewisselaar, berekend volgens formule (13.72); 
+ϑW;ref;mi 
+[°C] 
+is de referentietemperatuur voor warm tapwater, in maand mi, berekend 
+volgens formule (13.83); 
+ϑe;mi 
+[°C] 
+is de maandgemiddelde buitenluchttemperatuur bepaald volgens 17.2; 
+fW;sto;mi 
+[-] 
+is de dimensieloze correctiefactor voor de capaciteit van het voorraadvat 
+voor warm tapwater, berekend volgens formule (13.92); 
+QW;sol;ls;us;mi [kWh] 
+is het energiegebruik voor warm tapwater toegepast op het zonnedeel van 
+het systeem. 
+=
++
+×
++
+mi
+H
+H
+A
+loop;p
+1
+2
+W;loop
+W;sol;
+a
+a
+40
+  [W/m2∙K]  
+(13.98) 
+waarin: 
+HW;loop [W/(m2∙K)] is de warmteverliescoëfficiënt van het collectorcircuit (leidingen en collector); 
+a1 
+[W/(m2∙K)] is de warmteverliescoëfficiënt; 
+a2 
+[W/(m2∙K2)] is de temperatuurafhankelijkheid van de warmteverliescoëfficiënt; 
+Hloop;p [W/K] 
+is de totale warmteverliescoëfficiënt van alle leidingen in het collectorcircuit, 
+inclusief de leidingen tussen de collectoren en leidingreeksen tussen een 
+collectorreeks en zonneopslagtank, volgens opgave van de leverancier of 
+bepaald met formule (13.74) of (13.75); 
+AW;sol;mi [m2] 
+is de effectieve collectoroppervlakte bestemd voor warm tapwater,  
+ 
+ 
+in maand mi. 
+Ontleen de waarde voor a1 en a2 aan productspecificaties. Forfaitaire rekenwaarden zijn gegeven in 
+tabel 13.14. 
+Tabel 13.14 — Forfaitaire waarden voor de parameters van het collectorrendement  
+Symbool 
+Niet-beglaasde 
+collector of 
+onbekend type 
+Beglaasde 
+collector  
+Vacuümbuis-
+collector  
+ 
+ηo 
+0,8 
+0,8 
+0,8 
+[-] 
+a1 
+15,0 
+3,5 
+1,8 
+[W/(m2∙K)] 
+a2 
+0 
+0 
+0 
+[W/(m2∙K)] 
+Khem(50°) 
+1,0 
+0,94 
+1,0 
+[-] 
+ 
+De waarde van de factor YW;mi wordt berekend volgens formule (13.99). 
+578
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 579 ---
+Withdrawn final
+Ingetrokken definitief
+(
+)
+=
+°
+o
+W;sol;
+hem
+loop
+sol;
+sh;obst;
+W;
+W;sol;ls;us;
+ ×
+× 
+× 
+ × 
+× 
+ ×
+× 1 000
+50
+mi
+mi
+mi
+mi
+mi
+mi
+A
+K
+η
+η
+I
+F
+t
+Y
+Q
+  [-] 
+(13.99) 
+De minimumwaarde van YW;mi = 0. 
+Waarin: 
+YW;mi 
+[-] 
+is de dimensieloze variabele Y voor warm tapwater, in maand mi; 
+AW;sol;mi 
+[m2] 
+is de effectieve collectoroppervlakte bestemd voor warm tapwater,  
+ 
+ 
+in maand mi; 
+Khem(50°) 
+[-] 
+is de hoekafhankelijkheidscoëfficiënt van de zonnecollector. Ontleen de 
+waarde aan productspecificaties; forfaitaire rekenwaarden zijn gegeven in 
+tabel 13.14; 
+ηo 
+[-] 
+is het maximale collectorrendement. Ontleen de waarde aan 
+productspecificaties; forfaitaire rekenwaarden zijn gegeven in tabel 13.14; 
+ηloop 
+[-] 
+is het dimensieloze rendement van het collectorcircuit inclusief de invloed van 
+de warmtewisselaar, berekend volgens formule (13.72); 
+Isol;mi 
+[W/m2] 
+is de opvallende zonnestraling in maand mi, bepaald volgens 17.2; 
+Fsh;obst;mi 
+is de dimensieloze beschaduwingsreductiefactor van het desbetreffende 
+zonnewarmtesysteem in maand mi, bepaald volgens 17.3; 
+QW;sol;ls;us;mi [kWh] is het energiegebruik voor warm tapwater toegepast op het zonnedeel van het 
+systeem. 
+De eerste schatting van de zonnebijdrage wordt berekend volgens formule (13.100). 
+𝑄𝑄W;sol;tmp;𝑚𝑚𝑚𝑚= 𝑓𝑓app ∙൫a ∙𝑌𝑌𝑚𝑚𝑚𝑚+ b ∙𝑋𝑋𝑚𝑚𝑚𝑚+ c ∙𝑌𝑌𝑚𝑚𝑚𝑚
+2 + d ∙𝑋𝑋𝑚𝑚𝑚𝑚
+2 + e ∙𝑌𝑌𝑚𝑚𝑚𝑚
+3 + f ∙𝑋𝑋𝑚𝑚𝑚𝑚
+3 ൯∙𝑄𝑄W;sol;ls;us;𝑚𝑚𝑚𝑚   [kWh] 
+ 
+(13.100) 
+De minimumwaarde van QW;sol;tmp;mi = 0. 
+Waarin: 
+QW;sol;tmp;mi [kWh] is de eerste schatting van de zonnebijdrage voor warm tapwater, in maand mi; 
+ƒapp 
+[-] 
+is een correctiefactor met als standaardwaarde 1,08; 
+a.. f 
+[-] 
+zijn constanten vastgelegd in tabel 13.15; 
+QW;sol;ls;us;mi [kWh] is het energiegebruik voor warm tapwater toegepast op het zonnedeel van het 
+systeem. 
+579
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 580 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.15 — Correlatiefactoren (NEN-EN 15316-4-3, tabel B.18) 
+Factor 
+Wateropslag 
+(de collector is verbonden aan het voorraadvat) 
+a 
+1,029 
+b 
+−0,065 
+c 
+−0,245 
+d 
+0,001 8 
+e 
+0,021 5 
+f 
+0 
+De eerste schatting van de zonnefractie wordt berekend volgens formule (13.101). 
+=
+W;sol;tmp;
+W;tmp;
+W;sol;ls;us;
+mi
+mi
+mi
+Q
+f
+Q
+ [-] 
+(13.101) 
+De maximumwaarde van ƒW;tmp;mi = 1. 
+Waarin: 
+ƒW;tmp;mi 
+[-] 
+is de eerste schatting van de dimensieloze zonnebijdrage van het zonne-
+energiesysteem voor warm tapwater, in maand mi; 
+QW;sol;tmp;mi [kWh] is de eerste schatting van de zonnebijdrage voor warm tapwater, in maand mi; 
+QW;sol;ls;us;mi [kWh] is het energiegebruik voor warm tapwater toegepast op het zonnedeel van het 
+systeem. 
+Het warmteverlies van de opslag van het zonneboilerdeel wordt berekend volgens formule (13.102), 
+in kWh. 
+(
+)
+(
+)
+ϑ
+ϑ
+ϑ
+ϑ
+−
+−
+mi
+mi
+mi
+mi
+mi
+V
+t
+Q
+H
+f
+f
+V
+W;sto;sol
+W;sol;sto;ls;
+W;sto;ls
+W;low
+W;high
+W;low
+W;tmp;
+sto;amb;
+W;tmp;
+W;sto;tot
+=
+×
+×
++
+×
+ 
+×
+×
+1000
+(13.102) 
+De minimumwaarde van QW;sol;sto;ls;mi = 0. 
+Waarin: 
+QW;sol;sto;ls;mi 
+[kWh] is het warmteverlies van de opslag van het zonneboilerdeel voor warm 
+tapwater, in maand mi; 
+ϑW;low;mi
+[°C] 
+is de maandgemiddelde koudwatertemperatuur (= ϑW;cw;mi = 10 °C); 
+580
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 581 ---
+Withdrawn final
+Ingetrokken definitief
+ϑW;high;mi 
+[°C] 
+is de warmtapwatertemperatuur (= ϑW;hw): 
+— voor systemen met alleen uittapleidingen: ϑW;hw = 60 °C; 
+— voor systemen met circulatieleidingen: ϑW;hw = 65 °C. 
+De zonnebijdrage wordt berekend volgens formule (13.103). 
+𝑄𝑄W;sol;out;𝑚𝑚𝑚𝑚= 𝑄𝑄W;sol;tmp;𝑚𝑚𝑚𝑚−𝑄𝑄W;sol;sto;ls;𝑚𝑚𝑚𝑚  [kWh]  
+(13.103) 
+De minimumwaarde van QW;sol;out;mi = 0. 
+𝑄𝑄W;ren;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚= 𝑄𝑄W;sol;out;𝑚𝑚𝑚𝑚  [kWh]  
+(13.104) 
+waarin: 
+QW;sol;out;mi 
+[kWh] 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame 
+energie, ten behoeve van systeem si; 
+QW;sol;sto;ls;mi [kWh] 
+is het warmteverlies van de opslag van het zonneboilerdeel voor warm 
+tapwater, in maand mi, in kWh;  
+QW;ren;si,mi 
+[kWh] 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame 
+energie, ten behoeve van systeem si, in kWh. 
+Rond QW;ren;si,mi af naar beneden op twee significante cijfers tot de dichtstbijzijnde getalswaarde uit de 
+in bijlage X gegeven reeks. 
+De bijdrage van de back-upverwarming aan het energiegebruik wordt berekend volgens 
+formule (13.105). 
+−
+mi
+mi
+mi
+mi
+si
+Q
+Q
+Q
+Q
+f
+W;sol;us;
+W;bu;out;
+W
+;
+gebouw
+;sol;out;
+W
+s
+;
+;bu; to;ls;
+W
+ 
++
+= 
+  [kWh]  
+(13.105) 
+De minimumwaarde van QW;bu;out;mi = 0. 
+Waarin: 
+QW;bu;out;mi [kWh] is de output van de naverwarmer; 
+QW;sol;us;mi [kWh] is het maandelijkse energiegebruik voor warm tapwater; gebruik hiervoor 
+QW;dis;si,mi zoals bepaald in 13.1.2; 
+fgebouw;si;W 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel waarvoor 
+de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm 
+tapwater, volgens 13.1.2. 
+In het geval van meerdere zonneboilersystemen soli die leveren aan één warmtapwatersysteem, moet 
+het maandelijkse energiegebruik voor warm tapwater QW;sol;us;mi worden bepaald per 
+zonneboilersysteem soli. Bij meerdere identieke zonneboilersystemen kan dit bepaald worden door te 
+581
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 582 ---
+Withdrawn final
+Ingetrokken definitief
+delen door het aantal zonneboilers Nsoli. Indien er echter sprake is van meerdere verschillende 
+zonneboilers moet QW;sol;us;mi verdeeld worden over de verschillende zonneboilers aan de hand van het 
+volume Vsto;tot van de verschillende zonneboilers. 
+Het warmteverlies van het back-upwarmtecircuit wordt berekend volgens formule (13.106). 
+×
+mi
+mi
+Q
+f
+Q
+bu;i
+W;bu;dis;ls;
+W;bu;
+s
+ou ;
+n
+t
+ = 
+  [kWh] 
+(13.106) 
+waarin: 
+QW;bu;dis;ls;mi [kWh] is het warmteverlies van het naverwarmerdeel voor warm tapwater, 
+in maand mi; 
+ƒbu;ins 
+[-] 
+is de factor die het effect beschrijft van het isoleren van het back-
+upwarmtecircuit, met als forfaitaire waarde fbu;ins = 0. 
+Het totale terugwinbare verlies van het zonne-energiesysteem wordt berekend volgens 
+formule (13.107). 
+(
+)
+×
++
++
+mi
+mi
+mi
+mi
+Q
+f
+Q
+Q
+Q
+W;sol;ls;rbl;
+W;sol;sto;ls;
+W
+;
+rbl
+;bu;sto;ls;
+W;bu;dis;ls
+ = 
+  [kWh] 
+(13.107) 
+waarin: 
+QW;sol;ls;rbl;mi 
+[kWh] is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor warm tapwater, in maand mi; 
+ƒrbl 
+[-] 
+is de factor die het terugwinbare deel van het warmteverlies beschrijft. Voor 
+verwarmde ruimten: frbl = 1, voor onverwarmde ruimten: frbl = 0 (op basis 
+van NEN-EN 15316-4-3:2017, tabel B.17). 
+OPMERKING 2 
+Er wordt van uitgegaan dat alle installatieonderdelen zich op dezelfde locatie bevinden.  
+Het hulpenergiegebruik wordt berekend volgens formule (13.108). 
+𝑊𝑊W;aux;sol;𝑚𝑚𝑚𝑚= 𝑃𝑃W;sol;pmp ×
+𝑡𝑡W;aux;𝑚𝑚𝑚𝑚
+1 000   [kWh] 
+(13.108) 
+waarin: 
+WW;aux;sol;mi [kWh] 
+is het hulpenergiegebruik voor de bijdrage van de zonneboiler aan het 
+energiegebruik voor warm tapwater, in maand mi; 
+PW;sol;pmp 
+[W] 
+is het effectieve vermogen van de collectorpomp voor warm tapwater,  
+in maand mi, volgens formule (13.84); 
+tW;aux;mi 
+[h] 
+is de maandelijkse bedrijfstijd van de collectorpomp, berekend volgens 
+formule (13.109). 
+De verdeling van de jaarlijkse bedrijfstijd van de collectorpomp naar maandwaarden wordt berekend 
+volgens formule (13.109). 
+I
+I
+×
+∑
+m
+i
+i
+mi
+mi
+m
+t
+t
+W;aux;
+W;aux
+sol;
+sol
+12
+=1
+;
+=
+  [h] 
+(13.109) 
+582
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 583 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Isol;mi [W/m2] is de opvallende zonnestraling in maand mi, bepaald volgens 17.2; 
+tW;aux [h] 
+is de jaarlijkse bedrijfstijd van de collectorpomp, vaste waarde taux = 1 500 h bij 
+zonneboilers die alleen leveren aan tapwater (SOL_USE=WHS) en taux = 2 000 h bij 
+zonneboilers die leveren aan tapwater en verwarming (SOL_USE=COMBI). 
+13.7.2.2.5 Berekeningsmethode verwarming 
+In deze paragraaf wordt de berekening uitgevoerd voor het verwarmingsdeel van het 
+zonneboilersysteem.  
+De correctiefactor van de capaciteit van het voorraadvat wordt berekend volgens formule (13.110). 
+𝑓𝑓H;sto;𝑚𝑚𝑚𝑚= ൬
+75 × 𝐴𝐴H;sol;𝑚𝑚𝑚𝑚
+𝑉𝑉H;sto;sol ൰
+0,25
+  [l] 
+(13.110) 
+waarin: 
+fH;sto;mi  
+[-] 
+is de dimensieloze correctiefactor voor de capaciteit van het voorraadvat voor 
+ 
+verwarming; 
+AH;sol;mi 
+[m2] 
+is de effectieve collectoroppervlakte bestemd voor ruimteverwarming,  
+ 
+ 
+in maand mi; 
+VH;sto;sol 
+[l] 
+is het opslagvolume specifiek voor gegenereerde zonnewarmte berekend 
+afhankelijk van het systeemtype (SOL_TYPE); 
+  
+  
+als SOL_TYPE = ”SER”: 
+  
+  
+VH;sto;sol = VH;sto;tot 
+[l] 
+  
+  
+als SOL_TYPE = ”PAR” 
+  
+  
+VH;sto;sol = VH;sto;tot × (1 – faux) 
+[l] 
+(13.111) 
+VH;sto;tot 
+[l] 
+is het totale volume van het voorraadvat voor ruimteverwarming volgens 
+formule (13.87); 
+ƒaux 
+[-] 
+berekend volgens formule (13.112). 
+ 
+Het aandeel van het opslagtankvolume gebruikt voor back-upverwarming wordt berekend volgens 
+formule (13.112). 
+𝑓𝑓aux = 𝑓𝑓bu ×
+ 𝑉𝑉H;sto;bu
+𝑉𝑉H;sto;tot  [-] 
+(13.112) 
+waarin: 
+ƒbu 
+[-] is de controlecoëfficiënt voor de back-upverwarming; 
+er wordt uitgegaan van continu gebruik: fbu = 1,0 (NEN-EN 15316-4-3:2017, 
+tabel B.15); 
+VH;sto;bu 
+[l] is het effectieve volume van het back-upopslagdeel bestemd voor 
+ruimteverwarming. Dit wordt berekend volgens formule (13.88). 
+583
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 584 ---
+Withdrawn final
+Ingetrokken definitief
+Het warmteverlies van het back-updeel van de opslag bestemd voor verwarming wordt berekend 
+volgens formule (13.113). 
+𝑄𝑄H;bu;sto;ls;𝑚𝑚𝑚𝑚= 𝐻𝐻H;sto;ls ×
+𝑉𝑉H;sto;tot−𝑉𝑉H;sto;sol
+𝑉𝑉H;sto;tot
+× ൫𝜗𝜗H;bu;set −𝜗𝜗sto;amb;𝑚𝑚𝑚𝑚൯×
+𝑡𝑡𝑚𝑚𝑚𝑚
+1 000  [kWh]  
+ 
+(13.113) 
+waarin: 
+QH;bu;sto;ls;mi [kWh] is de hoeveelheid warmteverlies die ontstaat bij een eventueel 
+naverwarmerdeel van een zonneboileropslagvat ten behoeve van 
+ruimteverwarming van systeem si, in maand mi; 
+HH;sto;ls 
+[W/K] is de effectieve warmteoverdrachtscoëfficiënt van het deel van het 
+voorraadvat bestemd voor ruimteverwarming, in maand mi, volgens 
+formule (13.89); 
+VH;sto;tot 
+[l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor 
+ruimteverwarming volgens formule (13.87); 
+VH;sto;sol 
+[l] 
+is het opslagvolume specifiek voor gegenereerde zonnewarmte berekend  
+afhankelijk van het systeemtype (SOL_TYPE) volgens formule (13.111); 
+ϑH;bu;set 
+[°C] 
+is de thermostaatinstelling voor het naverwarmerdeel bestemd voor 
+ruimteverwarming; gebruik hiervoor ϑH,a;ontw volgens 9.4.2; 
+ϑH,a;ontw 
+[°C] 
+is de ontwerpaanvoertemperatuur van het afgiftesysteem, voor 
+warmtetransport, voor een ontwerptemperatuurklasse, uit tabel 9.14. 
+OPMERKING 1 
+Als het rendement van het back-upopwektoestel is bepaald inclusief de warmteverliezen van 
+het voorraadvat, dan wordt, QH;bu;sto;ls;mi op nul gezet om een dubbeltelling van dit warmteverlies te voorkomen.  
+Het energiegebruik toegepast op het zonnedeel van het systeem wordt berekend volgens 
+formule (13.114). 
+;mi
+;mi
+;mi
+si;
+Q
+Q
+Q
+fgebouw;
+s
+H
+H;sol;us
+H;sol;ls;u
+H;bu;sto;ls
+=
++
+ 
+(13.114) 
+waarin: 
+QH;sol;ls;us;mi [kWh] is het energiegebruik voor ruimteverwarming toegepast op het zonnedeel van 
+het systeem; 
+QH;sol;us;mi 
+[kWh] is het maandelijkse energiegebruik voor ruimteverwarming; gebruik hiervoor 
+de som van QH;nod;out en QH;nod;ls zoals bepaald in 9.2.3.2 en 9.2.3.3; in het geval 
+van een boosterwarmtepomp voor warm tapwater in combinatie met het 
+gebruik van een zonneboiler voor zowel verwarming als warm tapwater kan 
+bij de bepaling van QH;nod;out voor QW;BWP,si;in 0,55 × QW;sol;us aangehouden 
+worden; 
+fgebouw;si;H 
+[-] 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie verwarming wordt bepaald en 
+de gebruiksoppervlakte van het gebouw als geheel aangesloten op de 
+collectieve gebouwinstallatie si voor de functie verwarming, volgens 9.1; 
+584
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 585 ---
+Withdrawn final
+Ingetrokken definitief
+QH;bu;sto;ls;mi [kWh] is de hoeveelheid warmteverlies die ontstaat bij een eventueel 
+naverwarmerdeel van een zonneboileropslagvat ten behoeve van 
+ruimteverwarming van systeem si, in maand mi. 
+(
+)
+ϑ
+ϑ
+−
+H;sol;
+H;loop
+loop
+H;ref;
+e;
+H;sto;
+H;
+H;sol;ls;us;
+ ×
+× 
+ ×
+ 
+× 
+ ×
+=
+× 1 000
+mi
+mi
+mi
+mi
+mi
+mi
+mi
+A
+H
+η
+f
+t
+X
+Q
+  [-] 
+(13.115) 
+De minimumwaarde van XH;mi = 0 en de maximumwaarde van XH;mi = 18. 
+waarin: 
+XH;mi 
+[-] 
+is de dimensieloze variabele X voor ruimteverwarming, in maand mi; 
+AH;sol;mi 
+[m2] 
+is de effectieve collectoroppervlakte bestemd voor ruimteverwarming, in 
+maand mi; 
+HH;loop 
+[W/(m2∙K)] is de warmteverliescoëfficiënt van het collectorcircuit (leidingen en 
+collector) berekend volgens formule (13.116); 
+ηloop 
+[-] 
+is het dimensieloze rendement van het collectorcircuit inclusief de invloed 
+van de warmtewisselaar, berekend volgens formule (13.72); 
+ϑH;ref;mi 
+[°C] 
+is de referentietemperatuur voor ruimteverwarming, in maand mi, 
+berekend volgens formule (13.90); 
+ϑe;mi 
+[°C] 
+is de maandgemiddelde buitenluchttemperatuur bepaald volgens 17.2; 
+fH;sto;mi  
+[-] 
+is de dimensieloze correctiefactor voor de capaciteit van het voorraadvat 
+voor verwarming, berekend volgens formule (13.110). 
++
+×
++
+loop;p
+H;loop
+1
+2
+H;sol;
+ 
+= a
+a
+40
+mi
+H
+H
+A
+  [W/(m2∙K)]  
+(13.116) 
+waarin: 
+HH;loop [W/(m2∙K)] is de warmteverliescoëfficiënt van het collectorcircuit (leidingen en 
+collector); 
+Hloop;p [W/K] 
+is de totale warmteverliescoëfficiënt van alle leidingen in het collectorcircuit, 
+inclusief de leidingen tussen de collectoren en leidingreeksen tussen een 
+collectorreeks en zonneopslagtank, volgens opgave van de leverancier of 
+bepaald met formule (13.74) of (13.75); 
+a1 
+[W/(m2∙K)] is de warmteverliescoëfficiënt; 
+a2 
+[W/(m2∙K2)] is de temperatuurafhankelijkheid van de warmteverliescoëfficiënt. 
+Ontleen de waarde voor a1 en a2 aan productspecificaties. Forfaitaire rekenwaarden zijn gegeven in 
+tabel 13.14. 
+(
+)°
+H;sol;
+hem
+o
+loop
+sol;
+sh;ob;
+H;
+H;sol;ls;us;
+ ×
+× 
+×
+ × 
+ ×
+×
+=
+× 1 000
+50
+mi
+mi
+mi
+mi
+mi
+mi
+A
+K
+η
+η
+I
+F
+t
+Y
+Q
+  [-] 
+(13.117) 
+585
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 586 ---
+Withdrawn final
+Ingetrokken definitief
+De minimumwaarde van YH;mi = 0. 
+waarin: 
+YH;mi 
+[-] is de dimensieloze variabele Y voor ruimteverwarming, in maand mi; 
+Khem(50°) [-] is de hoekafhankelijkheidscoëfficiënt van de zonnecollector. Ontleen de waarde 
+aan productspecificaties; forfaitaire rekenwaarden zijn gegeven in tabel 13.14; 
+ηo 
+[-] is het maximale collectorrendement. Ontleen de waarde aan productspecificaties; 
+forfaitaire rekenwaarden zijn gegeven in tabel 13.14; 
+ηloop 
+[-] is het dimensieloze rendement van het collectorcircuit inclusief de invloed van de 
+warmtewisselaar, berekend volgens formule (13.72); 
+Isol;mi 
+[W/m2] 
+is de opvallende zonnestraling in maand mi, bepaald volgens 17.2; 
+Fsh;ob;mi 
+[-] is de dimensieloze beschaduwingreductiefactor van het desbetreffende 
+zonnewarmtesysteem in maand mi, bepaald volgens 17.3. 
+De bijdrage van het zonne-energiesysteem aan het energiegebruik wordt berekend in vier stappen. 
+De eerste schatting van de zonnebijdrage wordt berekend volgens formule (13.118). 
+𝑄𝑄H;sol;tmp;𝑚𝑚𝑚𝑚= 𝑓𝑓app ∙൫a ∙𝑌𝑌𝑚𝑚𝑚𝑚+ b ∙𝑋𝑋𝑚𝑚𝑚𝑚+ c ∙𝑌𝑌𝑚𝑚𝑚𝑚
+2 + d ∙𝑋𝑋𝑚𝑚𝑚𝑚
+2 + e ∙𝑌𝑌𝑚𝑚𝑚𝑚
+3 + f ∙𝑋𝑋𝑚𝑚𝑚𝑚
+3 ൯∙𝑄𝑄H;sol;ls;us;𝑚𝑚𝑚𝑚   [kWh]
+(13.118) 
+De minimumwaarde van QH;sol;tmp;mi = 0. 
+waarin: 
+QH;sol;tmp;mi 
+[kWh] is de eerste schatting van de zonnebijdrage voor ruimteverwarming, 
+in maand mi; 
+ƒapp 
+[-] 
+is een correctiefactor met als standaardwaarde 1,08; 
+a.. f 
+[-] 
+zijn constanten vastgelegd in tabel 13.15. 
+De eerste schatting van de zonnefractie wordt berekend volgens formule (13.119). 
+mi
+mi
+mi
+Q
+f
+Q
+H;sol;tmp;
+H;tmp;
+H;sol;ls;us;
+=
+ [-] 
+(13.119) 
+De maximumwaarde van ƒH;tmp;mi = 1. 
+waarin: 
+ƒH;tmp;mi 
+[-] is de eerste schatting van de dimensieloze zonnebijdrage van het zonne-
+energiesysteem voor ruimteverwarming, in maand mi. 
+586
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 587 ---
+Withdrawn final
+Ingetrokken definitief
+Het warmteverlies van de opslag van het zonneboilerdeel wordt berekend volgens formule (13.120). 
+(
+)
+H;sto;sol
+H;sol;sto;ls;
+H;sto;ls
+H;low
+H;high
+H;low
+H;tmp;
+sto;amb;
+H;tmp;
+H;sto;tot
+=
+ ×
+ 1 000
+mi
+mi
+mi
+mi
+mi
+V
+t
+Q
+H
+f
+f
+V
+ϑ
+ϑ
+ϑ
+ϑ
+×
++
+−
+−
+×
+×
+×
+
+
+
+
+ [kWh] 
+ 
+(13.120) 
+De minimumwaarde van QH;sol;sto;ls;mi = 0. 
+waarin: 
+QH;sol;sto;ls;mi [kWh] is het warmteverlies van de opslag van het zonneboilerdeel voor 
+ruimteverwarming, in maand mi;  
+HH;sto;ls 
+[W/K] is de effectieve warmteoverdrachtscoëfficiënt van het deel van het 
+voorraadvat bestemd voor ruimteverwarming, in maand mi, volgens 
+formule (13.89); 
+VH;sto;sol 
+[l] 
+is het opslagvolume specifiek voor gegenereerde zonnewarmte berekend  
+afhankelijk van het systeemtype (SOL_TYPE) volgens formule (13.111); 
+VH;sto;tot 
+[l] 
+is het effectieve totale opslagvolume van het voorraadvat bestemd voor 
+ruimteverwarming volgens formule (13.87); 
+ϑH;low;mi 
+[°C] 
+is de luchttemperatuur in een verwarmde ruimte (= ϑsto;amb;mi volgens 
+13.7.2.2); 
+ϑH;high;mi 
+[°C] 
+is de retourtemperatuur van het distributiesysteem voor de 
+ruimteverwarming (= ϑH;dis;rtn); 
+ϑsto;amb;mi 
+[°C] 
+is de omgevingstemperatuur van de ruimte waar het voorraadvat is opgesteld. 
+De zonnebijdrage wordt berekend volgens formule (13.121). 
+QH;sol;out;mi = QH;sol;tmp;mi – QH;sol;sto;ls;mi  [kWh]  
+(13.121) 
+De minimumwaarde van QH;sol;out;mi = 0. 
+QH;ren;si,mi = QH;sol;out;mi  [kWh]  
+(13.122) 
+waarin: 
+QH;sol;out;mi is de hoeveelheid energie ten behoeve van verwarming, in maand mi, aangeleverd door 
+op het eigen perceel opgewekte thermische duurzame energie, ten behoeve van 
+systeem si, in kWh; 
+QH;ren;si,mi 
+is de hoeveelheid energie ten behoeve van verwarming, in maand mi, aangeleverd door 
+op het eigen perceel opgewekte thermische duurzame energie, ten behoeve van 
+systeem si, in kWh. 
+Rond QH;ren;si,mi af naar beneden op twee significante cijfers tot de dichtstbijzijnde getalswaarde uit de 
+in bijlage X gegeven reeks. 
+De bijdrage van de back-upverwarming aan het energiegebruik wordt berekend volgens 
+formule (13.123). 
+587
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 588 ---
+Withdrawn final
+Ingetrokken definitief
+−
+t
+gebo
+H;sol;us;
+H;bu;out;
+H;sol;out;
+H;bu;s o;ls;
+;
+H
+;
+uw
+ = 
++
+mi
+mi
+mi
+mi
+si
+Q
+Q
+Q
+Q
+f
+  [kWh]  
+(13.123) 
+De minimumwaarde van QH;bu;out;mi = 0. 
+waarin: 
+ƒbu;ins 
+[kWh] is de output van het back-upverwarmingstoestel; 
+fgebouw;si;H 
+[-] 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+ 
+waarvoor de energieprestatie voor de functie verwarming wordt bepaald, en 
+ 
+de gebruiksoppervlakte van het gebouw als geheel aangesloten op de 
+ 
+collectieve gebouwinstallatie si voor de functie verwarming, volgens 9.1. 
+Het warmteverlies van het back-upwarmtecircuit wordt berekend volgens formule (13.124). 
+QH;bu;dis;ls;mi = ƒbu;ins × QH;bu;out;mi  [kWh] 
+(13.124) 
+waarin: 
+QH;bu;dis;ls;mi [kWh] is het warmteverlies van het naverwarmerdeel voor ruimteverwarming, 
+in maand mi; 
+ƒbu;ins 
+[-] 
+is de factor die het effect beschrijft van het isoleren van het back-
+upwarmtecircuit, met als forfaitaire waarde fbu;ins = 0. 
+Het totale terugwinbare verlies van het zonne-energiesysteem wordt berekend volgens 
+formule (13.125). 
+QH;sol;ls;rbl;mi = ƒrbl × (QH;sol;sto;ls;mi + QH;bu;sto;ls;mi + QH;bu;dis;ls;mi)  [kWh]  
+(13.125) 
+waarin: 
+QH;sol;ls;rbl;mi [kWh] is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor ruimteverwarming, in maand mi; 
+ƒrbl 
+[-] 
+is de factor die het terugwinbare deel van het warmteverlies beschrijft. Voor 
+verwarmde ruimten: frbl = 1, voor onverwarmde ruimten: frbl = 0; 
+QH;bu;sto;ls;mi  
+is de hoeveelheid warmteverlies die ontstaat bij een eventueel 
+naverwarmerdeel van een zonneboileropslagvat ten behoeve van 
+ruimteverwarming van systeem si, in maand mi, in kWh. 
+OPMERKING 2 
+Er wordt van uitgegaan dat alle installatieonderdelen zich op dezelfde locatie bevinden.  
+Het hulpenergiegebruik wordt berekend volgens formule (13.126). 
+𝑊𝑊H;aux;sol;𝑚𝑚𝑚𝑚= 𝑃𝑃H;sol;pmp ×
+𝑡𝑡H;aux;𝑚𝑚𝑚𝑚
+1 000   [kWh]  
+(13.126) 
+waarin: 
+WH;aux;sol;mi [kWh] is het hulpenergiegebruik voor de bijdrage van de zonneboiler aan het 
+energiegebruik voor verwarming, in maand mi; 
+588
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 589 ---
+Withdrawn final
+Ingetrokken definitief
+PH;sol;pmp 
+[W] 
+is het effectieve vermogen van de collectorpomp voor ruimteverwarming, in 
+maand mi, volgens formule (13.91); 
+tH;aux;mi 
+[h] 
+is de maandelijkse bedrijfstijd van de collectorpomp, berekend volgens 
+formule (13.127). 
+De verdeling per maand van de jaarlijkse bedrijfstijd van de collectorpomp naar maandwaarden wordt 
+berekend volgens formule (13.127). 
+𝑡𝑡H;aux;𝑚𝑚𝑚𝑚=
+𝐼𝐼sol;𝑚𝑚𝑚𝑚
+∑
+𝐼𝐼sol;𝑚𝑚𝑚𝑚
+12
+𝑚𝑚𝑚𝑚=1
+× 𝑡𝑡H;aux  [h]  
+(13.127) 
+waarin: 
+tH;aux;mi [h] 
+is de maandelijkse bedrijfstijd van de collectorpomp; 
+Isol;mi 
+[W/m2] 
+is de opvallende zonnestraling in maand mi, bepaald volgens 17.2; 
+tH;aux 
+[h] 
+is de jaarlijkse bedrijfstijd van de collectorpomp, vaste waarde taux = 2 000 h 
+bij zonneboilers die leveren aan verwarming of tapwater en verwarming 
+(SOL_USE=COMBI). 
+13.7.2.3 
+Zonneboilers getest als compleet systeem (alleen voor warm tapwater) 
+Rekenprocedure 
+De gemiddelde zonnestraling op het collectorvlak wordt bepaald voor de locatie van het gebouw en de 
+oriëntatie van de collector. Daarbij wordt rekening gehouden met eventuele schaduw door obstakels. 
+De distributiefactor voor het omrekenen van de maandelijkse prestatie van het zonne-energiesysteem 
+naar maandelijkse waarden wordt berekend volgens formule (13.128). 
+ 𝑓𝑓dis;𝑚𝑚𝑚𝑚=
+𝐼𝐼sol;𝑚𝑚𝑚𝑚×𝐹𝐹sh;obst;𝑚𝑚𝑚𝑚×𝑡𝑡𝑚𝑚𝑚𝑚
+𝐼𝐼sol;s45;an×𝑡𝑡an
+   [-] 
+(13.128) 
+𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚=
+𝑄𝑄W;sol;us;𝑚𝑚𝑚𝑚
+𝑁𝑁𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠
+  [kWh] 
+(13.129) 
+waarin: 
+fdis;mi 
+[-] 
+is de dimensieloze factor voor het verdelen van de jaarlijkse prestatie van 
+een zonne-energiesysteem naar maandwaarden, in maand mi; 
+Fsh;obst;mi 
+[-] 
+is de dimensieloze beschaduwingsreductiefactor van het desbetreffende 
+zonnewarmtesysteem in maand mi, bepaald volgens 17.3; 
+tmi 
+[h] 
+is de tijdstap van de berekening: aantal uren in een maand bepaald volgens 
+17.2; 
+Isol;s45;an 
+[W/m2] is de jaarlijkse gemiddelde zonnestraling op een collectorvlak gericht op 
+het zuiden met een hoek van 45° ten opzichte van de horizontaal; 
+tan 
+[h] 
+is het aantal uren in een jaar; 
+QW;sol;us;soli,mi 
+[kWh] 
+is het maandelijkse energiegebruik voor warm tapwater per zonne-
+energiesysteem soli; 
+589
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 590 ---
+Withdrawn final
+Ingetrokken definitief
+QW;sol;us;mi 
+[kWh] 
+is het maandelijkse energiegebruik voor warm tapwater. Gebruik hiervoor 
+QW;dis;si,mi zoals bepaald in 13.1.2; 
+Nsoli 
+[-] 
+is het aantal identieke zonne-energiesystemen dat wordt toegepast binnen 
+hetzelfde tapwatersysteem; Nsoli = Ntap;si; 
+Ntap;si 
+[-] 
+is het aantal identieke opwektoestellen voor warm tapwater dat wordt 
+toegepast binnen hetzelfde tapwatersysteem. 
+In de formules (13.131) t/m (13.135) is lineaire interpolatie vereist met als basis het energiegebruik 
+van het systeem. Formule (13.130) wordt gebruikt waarbij de ‘Y’-parameters in elke formule worden 
+vervangen. 
+𝑌𝑌= 𝑌𝑌1 + ൫∑
+𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚
+12
+𝑚𝑚𝑚𝑚=1
+−𝑄𝑄W;sol;us;an;𝑖𝑖−1൯×
+𝑌𝑌2−𝑌𝑌1
+𝑄𝑄W;sol;us;an;𝑖𝑖+1−𝑄𝑄W;sol;us;an;𝑖𝑖−1  [kWh]  
+(13.130) 
+waarin: 
+QW;sol;us;soli,mi 
+[kWh] 
+is het maandelijkse energiegebruik voor warm tapwater per zonne-
+energiesysteem soli, volgens formule (13.129); 
+QW;sol;us;an;i-1 
+[kWh] 
+is de QW;sol;us;an van de dataset, de laagste van de twee;  
+QW;sol;us;an;i+1 
+[kWh] 
+is de QW;sol;us;an van de dataset, de hoogste van de twee;  
+Yi 
+[kWh] 
+is het energiegebruik toegepast voor testresultaat i; 
+QW;sol;us;an 
+[kWh] 
+is het jaarlijkse energiegebruik voor warm tapwater. Gebruik hiervoor de 
+som over alle twaalf maanden van QW;dis;si,mi zoals bepaald in 13.1.2. 
+OPMERKING 1 
+QW;sol;us;an wordt in verklaringen ook wel aangeduid als QD. 
+De maandelijkse bijdrage van de back-up aan het warmtapwatergebruik voor 
+voorverwarmerzonneboilers (SOL_TYPE = ”SER”) wordt berekend volgens formule (13.131). 
+QW;bu;out;mi = QW;sol;us;soli,mi – QW;ren;si;mi  [kWh] 
+(13.131) 
+QW;ren;si,mi = fdis;mi × QW;sol;out;an  [kWh] 
+(13.132) 
+waarin: 
+QW;bu;out;mi 
+[kWh] is de bijdrage aan de opwekking van warm tapwater in maand mi die door 
+het opweksysteem geleverd moet worden aan systeem si; 
+QW;sol;us;soli,mi 
+[kWh] is het maandelijkse energiegebruik voor warm tapwater per zonne-
+energiesysteem soli, volgens formule (13.129); 
+QW;ren;si,mi 
+[kWh] is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame 
+energie, ten behoeve van systeem si; 
+QW;sol;out;an 
+[kWh] is de jaarlijkse zonnebijdrage aan het energiegebruik, berekend door lineaire 
+interpolatie van de technische data van het product volgens 
+formule (13.130), waarin Y = QW;sol;out;an, Y1 = QW;sol;out;an;i-1 en Y2 = QW;sol;out;an;i+1. 
+590
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 591 ---
+Withdrawn final
+Ingetrokken definitief
+Rond QW;ren;si,mi af naar beneden op twee significante cijfers tot de dichtstbijzijnde getalswaarde uit de 
+in bijlage X gegeven reeks. 
+OPMERKING 2 
+QW;sol;out;an wordt in verklaringen ook wel aangeduid als QL. QW;bu;out;mi wordt als jaarsom in 
+verklaringen ook wel aangeduid als Qaux;net. 
+De maandelijkse bijdrage van de back-up aan het warmtapwatergebruik voor zonneboilers met 
+geïntegreerde naverwarming (SOL_TYPE = ”PAR”) wordt berekend volgens formule (13.133). 
+QW;bu;out;mi = QW;sol;us;soli,mi – QW;ren;si,mi  [kWh] 
+(13.133) 
+QW;ren;si,mi = QW;sol;us;soli,mi – fdis;mi × QW;bu;out;an  [kWh] 
+(13.134) 
+waarin: 
+QW;bu;out;mi 
+[kWh] is de bijdrage aan de opwekking van warm tapwater in maand mi die door 
+het opweksysteem geleverd moet worden aan systeem si; 
+QW;sol;us;soli,mi 
+[kWh] is het maandelijkse energiegebruik voor warm tapwater per zonne-
+energiesysteem soli, volgens formule (13.129); 
+QW;ren;si,mi 
+[kWh] is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd door op het eigen perceel opgewekte thermische duurzame 
+energie, ten behoeve van systeem si; 
+QW;bu;out;an 
+[kWh] is de jaarlijkse bijdrage van de back-up aan het energiegebruik, berekend 
+door lineaire interpolatie van de technische data van het product volgens 
+formule (13.130), waarin Y = QW;bu;out;an, Y1 = QW;bu;out;an;i-1 en Y2 = QW;bu;out;an;i+1. 
+Het maandelijkse hulpenergiegebruik wordt berekend volgens formule (13.135). 
+WW;aux;sol;mi = fdis;mi × WW;sol;aux;an  [kWh] 
+(13.135) 
+waarin: 
+WW;aux;sol;mi 
+[kWh] is het hulpenergiegebruik voor de bijdrage van zonne-energiesystemen ten 
+behoeve van warm tapwater, in maand mi; 
+WW;sol;aux;an 
+[kWh] is het jaarlijkse hulpenergiegebruik, berekend door lineaire interpolatie van 
+de technische data van het product volgens formule (13.130), waarin 
+Y = WW;sol;aux;an, Y1 = WW;sol;aux;an;,i-1 en Y2 = WW;sol;aux;an;i+1. 
+OPMERKING 3 
+WW;sol;aux;an wordt in verklaringen ook wel aangeduid als Qpar.  
+De zonnefractie wordt berekend volgens formule (13.136).  
+𝑓𝑓sol =
+ 𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 − 𝑄𝑄W;bu;out
+𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠
+  [-] 
+(13.136) 
+Het warmteverlies van het deel van de opslag bestemd voor ruimteverwarming wordt berekend 
+volgens formule (13.137). 
+𝑄𝑄W;sol;sto;ls;𝑚𝑚𝑚𝑚= ൫𝜗𝜗W;hw −𝜗𝜗sto;amb;𝑚𝑚𝑚𝑚൯× ൬0,37 + 2,06 × ቀ
+𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚
+𝑡𝑡𝑚𝑚𝑚𝑚
+ቁ
+0,4
+൰× 𝑓𝑓sol ×
+𝑡𝑡𝑚𝑚𝑚𝑚
+1 000  [kWh] 
+ 
+(13.137) 
+591
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 592 ---
+Withdrawn final
+Ingetrokken definitief
+De minimumwaarde van QW;sol;sto;ls;mi = 0. 
+Waarin: 
+QW;sol;sto;ls;mi 
+[kWh] is het warmteverlies van de opslag van het zonneboilerdeel voor warm 
+tapwater, in maand mi; 
+ϑW;hw 
+[°C] 
+is de warmtapwatertemperatuur; 
+voor systemen met alleen uittapleidingen: ϑW;hw = 60 °C; 
+voor systemen met circulatieleidingen: ϑW;hw = 65 °C; 
+ϑsto;amb;mi 
+[°C] 
+is de maandgemiddelde omgevingstemperatuur rond het voorraadvat, 
+bepaald door de locatie van het voorraadvat; 
+QW;sol;us;soli,mi 
+[kWh] is het maandelijkse energiegebruik voor warm tapwater per zonne-
+energiesysteem soli, volgens formule (13.129); 
+tmi 
+[h] 
+is de tijdstap van de berekening: het aantal uren in een maand bepaald 
+volgens 17.2. 
+Voor de maandgemiddelde omgevingstemperatuur rond het voorraadvat geldt in het geval dat voor de 
+opwekking van warm tapwater een warmtepomp met als bron ventilatieretourlucht wordt toegepast: 
+ϑsto;amb;mi = ϑint;set;H;stc;zi,mi 
+[°C] in een verwarmde ruimte 
+(STO_LOC = HS) 
+(13.137a) 
+In alle andere gevallen geldt: 
+ϑsto;amb;mi = ϑint;set;H;zi,mi 
+[°C] in een verwarmde ruimte 
+(STO_LOC = HS) 
+(13.137b) 
+waarin: 
+ϑint;set;H;stc;zi,mi 
+[°C] is de setpointtemperatuur voor de thermisch geconditioneerde zones van 
+de aangrenzende rekenzone zi, bepaald volgens 7.9, in °C; 
+ϑint;set;H;zi,mi 
+[°C] is de setpointtemperatuur van de rekenzone voor verwarming, bepaald 
+volgens 7.9.4, in °C. 
+Het warmteverlies van het back-updeel van de opslag bestemd voor naverwarming wordt berekend 
+volgens formule (13.138). 
+𝑄𝑄W;bu;sto;ls;𝑚𝑚𝑚𝑚= ൫𝜗𝜗W;hw −𝜗𝜗sto;amb൯× ൬0,37 + 2,06 × ቀ
+𝑄𝑄W;sol;us;𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚
+𝑡𝑡𝑚𝑚𝑚𝑚
+ቁ
+0,4
+൰×
+𝑡𝑡𝑚𝑚𝑚𝑚
+1 000  [kWh] 
+(13.138) 
+Voor zonne-energiesystemen met voorverwarmer of alleen zonne-energie geldt QW;bu;sto;ls;(soli,)mi = 0. 
+Waarin: 
+QW;bu;sto;ls;(soli,)mi [kWh] is de maandelijkse hoeveelheid warmteverlies die ontstaat bij een 
+eventueel naverwarmerdeel van een zonneboileropslagvat (soli) ten 
+behoeve van warm tapwater van systeem si. 
+Het warmteverlies van het back-upwarmtecircuit wordt berekend volgens formule (13.139). 
+𝑄𝑄W;bu;dis;ls;𝑚𝑚𝑚𝑚= 𝑓𝑓bu;ins × 𝑄𝑄W;bu;out;𝑚𝑚𝑚𝑚  [kWh] 
+(13.139) 
+592
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 593 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+ƒbu;ins [-] 
+is de factor die het effect beschrijft van het isoleren van het back-upwarmtecircuit, 
+met als forfaitaire waarde fbu;ins = 0. 
+Het totale terugwinbare verlies van het zonne-energiesysteem wordt berekend volgens 
+formule (13.140). 
+𝑄𝑄W;sol;ls;rbl;𝑚𝑚𝑚𝑚= 𝑓𝑓rbl × ൫𝑄𝑄W;sol;sto;ls;𝑚𝑚𝑚𝑚+ 𝑄𝑄W;bu;sto;ls;𝑚𝑚𝑚𝑚+ 𝑄𝑄W;bu;dis;ls;𝑚𝑚𝑚𝑚൯  [kWh] 
+ 
+(13.140) 
+waarin: 
+ƒrbl 
+[-] 
+is de factor die het terugwinbare deel van het warmteverlies beschrijft, zie 
+formule (13.107) voor vaste waarden. 
+OPMERKING 4 
+Er wordt van uitgegaan dat alle installatieonderdelen zich op dezelfde locatie bevinden.  
+13.7.2.4 
+Rekenwaarden PVT 
+Bepaal voor PVT-systemen de thermische reductiefactor fPVT;th volgens tabel 13.16 voor met enkel glas 
+afgedekte PVT-systemen. Voor onafgedekte PVT-systemen bedraagt fPVT;th 0,9. 
+Tabel 13.16 — PVT-reductiefactor voor met enkel glas afgedekte PVT-systemen 
+(Asol;mod×Ncol)/Vsto;tot 
+fPVT;th 
+< 0,015 m2/dm3 
+0,76 
+0,015 m2/dm3 – 
+0,03 m2/dm3 
+0,83 
+> 0,03 m2/dm3 
+0,89 
+waarin: 
+Asol;mod 
+is de referentieoppervlakte van een 
+ 
+collectormodule, in m2; 
+Ncol  
+is het aantal geïnstalleerde collectormodules per 
+ 
+zonne-energiesysteem soli; 
+Vsto;tot  
+is het totale volume van het opslagvat van zonne-
+ 
+energiesysteem soli, in dm3; 
+fPVT;th 
+is de reductiefactor voor thermische opbrengst van 
+ 
+PVT-systemen. 
+ 
+13.8 
+Warmteopwekking  
+13.8.1 Principe 
+13.8.1.1 
+Inleiding 
+Wanneer het tapwatersysteem gemodelleerd wordt als één groot systeem met meerdere identieke 
+fysieke opweksystemen (met dezelfde opwekkers van hetzelfde merk, type en vermogen en dezelfde 
+593
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 594 ---
+Withdrawn final
+Ingetrokken definitief
+energiedragers; bijvoorbeeld bij een woongebouw met een individueel opweksysteem per woning), 
+dan moet bij de bepaling van het opwekrendement, het vermogen van een toestel of pomp en het 
+hulpenergiegebruik rekening worden gehouden met de energievraag per (individueel) fysiek 
+opweksysteem en het werkelijke aantal identieke systemen.  
+Hierbij mag de totale oppervlakte van het gemodelleerde systeem worden gedeeld door het aantal 
+fysieke identieke systemen om de gebruiksoppervlakte per systeem vast te stellen. 
+13.8.1.2 
+Rendement 
+Het opwekkingsrendement van de warmteopwekking van warm tapwater is de verhouding tussen de 
+nuttige warmtelevering en alle hiervoor vereiste door een energiedrager toe te leveren energie. De 
+hierbij vereiste hulpenergie wordt in principe afzonderlijk bepaald.  
+OPMERKING 1 
+Voor bepaalde soorten toestellen is de hulpenergie inbegrepen in het opwekkingsrendement; 
+in dat geval wordt deze niet apart in rekening gebracht. 
+De warmteopwekking van warm tapwater kan op drie manieren worden verzorgd: 
+a) individuele gebouwgebonden warmteopwekking voor één energieprestatieplichtig gebouwdeel,
+eventuele warmteopslag en verbindende waterleidingen;
+b) collectieve gebouwgebonden warmteopwekking voor meerdere energieprestatieplichtige
+gebouwdelen, eventuele warmtewisseling, eventuele warmteopslag en verbindende
+waterleidingen;
+c) warmteopwekking en circulatieleidingen van de warmtedistributie buiten de perceelgrens (externe
+warmtelevering); eventuele gebouwgebonden centrale warmtewisseling, eventuele warmteopslag
+en/of warmtedistributie.
+De warmteverliezen van voorraadvaten en/of boilervaten van zonne-energiesystemen worden apart 
+berekend. 
+Per opwekker gi worden het dimensieloze opwekkingsrendement voor warm tapwater ηW;gen;prac;gi, de 
+bijdrage QW;gen;gi,out;mi van elk toestel aan de warmteopwekking QW;dis;nren en de terugwinbare 
+systeemverliezen QW;gen;ls bepaald. Deze grootheden kunnen op verschillende manieren worden 
+bepaald, afhankelijk van het type opwekkingsinstallatie: 
+a) kleine en grote toestellen die volledig in de tapwatervraag kunnen voorzien
+Dit omvat zowel monovalente toestellen als bivalente toestellen met geïntegreerde bij- en/of
+naverwarmer.
+b) opwekinstallaties samengesteld uit meerdere toestellen of componenten
+Hieronder vallen onder meer systemen met toestellen zonder geïntegreerde naverwarming en bij- 
+en/of naverwarmers voor zonne-energiesystemen.
+De prestaties van deze opweksystemen zijn niet als geheel getest.
+c) systemen met indirect verwarmde voorraadvaten opgebouwd uit verschillende toestellen en/of
+componenten
+De prestaties van de warmteopwekking voor warm tapwater worden bepaald op basis van de
+prestaties van de afzonderlijke componenten waarmee de warmtapwaterbereiding wordt verzorgd.
+594
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 595 ---
+Withdrawn final
+Ingetrokken definitief
+d) warmtelevering 
+ 
+Dit kan worden toegepast in combinatie met afleversets op externe warmtelevering of op een 
+collectieve verwarmingsinstallatie, eventueel opgebouwd uit verschillende toestellen en/of 
+componenten. 
+Een opweksysteem dat het warm tapwater verzorgt voor twee of meer energieprestatieplichtige 
+gebouwen of delen van een gebouw binnen het eigen perceel, wordt beschouwd als een collectief 
+tapwatersysteem. Dit geldt niet voor systemen die zijn opgebouwd uit meerdere identieke individuele 
+toestellen die afzonderlijk in (een deel van) de opwekking van het warm tapwater voorzien (zoals bij 
+keukenboilers, doorstroomtoestellen of boosterwarmtepompen).  
+Het opwekkingsrendement kan bepaald worden aan de hand van testgegevens indien deze 
+beschikbaar zijn. Daarnaast zijn er rekenmethoden en forfaitaire gegevens beschikbaar afhankelijk van 
+het type opwekker. In alle gevallen wordt het opwekrendement gecorrigeerd met een correctiefactor 
+voor het functioneren onder praktijkomstandigheden. 
+Eerst wordt de verdeling over meerdere services en toestellen toegelicht. Vervolgens worden de 
+verschillende methoden afhankelijk van het type opwekinstallatie uitgewerkt. 
+OPMERKING 2 
+De methoden onder a) en b) zijn vooral geschikt voor met gas of olie gestookte 
+(combi)toestellen met een belasting tot 70 kW of voor elektrische toestellen of (combi)warmtepompen die 
+volgens de methode van bijlage T (Gaskeur), NEN-EN 13203-2, NEN-EN 16147 of op gelijkwaardige wijze zijn 
+getest. De methode onder c) is vooral geschikt voor opwekinstallaties die bestaan uit een of meer grote indirect 
+verwarmde voorraadvaten, waarbij de warmte wordt geleverd door een of meer verwarmingstoestellen, zoals 
+ketels en warmtepompen. Dergelijke installaties zijn in de meeste gevallen per toepassing samengesteld. 
+13.8.1.3 
+Verdeling van de opwekking over meerdere services en toestellen  
+De opwekverdeling wordt eerst gebaseerd op de serviceverdeling ('service operating mode') over 
+bijvoorbeeld warm tapwater en verwarming en daarna over de verdeling over meerdere opwekkers. 
+De totale hoeveelheid energie voor warm tapwater QW;dis;nren die door het opweksysteem geleverd 
+moet worden, wordt verdeeld over de verschillende opwekkers afhankelijk van een alternerende of 
+parallelle bedrijfswijze wanneer het systeem invulling geeft aan verschillende services.  
+Wanneer de bedrijfswijze voor meerdere services alternerend is, dan worden de services in de 
+onderstaande volgorde afgehandeld:  
+a) warm tapwater; 
+b) verwarming; 
+c) andere services. 
+13.8.1.4 
+Gemeten toestelprestaties 
+Het opwekkingsrendement van een toestel voor warmtapwaterbereiding is het 
+jaargebruiksrendement van het toestel, waarbij de nuttige warmtelevering rechtstreeks over het 
+toestel wordt bepaald en het brandstofverbruik ook de stilstandsverliezen inclusief een eventuele 
+waakvlam omvat.  
+595
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 596 ---
+Withdrawn final
+Ingetrokken definitief
+Uitgangspunt is het gemeten opwekkingsrendement van één compleet toestel, zoals bepaald bij een of 
+meer tappatronen. Dit omvat zowel monovalente toestellen als bivalente toestellen met geïntegreerde 
+bij- en/of naverwarmer. Voorbeelden hiervan zijn: 
+— individuele met gas gestookte warmwatertoestellen; 
+— individuele met gas gestookte combitoestellen; 
+— individuele met gas gestookte (combi)toestellen met microWKK ten behoeve van de tapfunctie; 
+— elektrische boilers; 
+— elektrische tapwaterwarmtepompen met eventueel een geïntegreerd elektrisch bijstookelement; 
+— elektrische combiwarmtepompen met eventueel een geïntegreerd elektrisch bijstookelement. 
+Het opwekkingsrendement is bepaald volgens een van de volgende drie methoden. 
+a) Voor toestellen waarvan het type reeds vóór 2021 werd geleverd, kan gebruik worden gemaakt van 
+de Nederlandse methode, zoals ontwikkeld voor Gaskeur en zoals beschreven in bijlage A van NEN 
+7120+C2:2012 inclusief C5.  
+Het opwekkingsrendement is bepaald bij een of meer van in totaal vijf gegeven Nederlandse 
+toepassingsklassen van warmtapwatergebruikspatronen. Elke toepassingsklasse wordt 
+gekarakteriseerd door tappatroon, warmtapwaterhoeveelheid en -comfort. Een gegeven 
+opwekkingsrendement behoort dus bij een bepaalde toepassingsklasse. 
+Het opwekkingsrendement is afhankelijk van de warmtapwatervraag aan het toestel. Omdat de 
+warmtapwatervraag in de praktijk doorgaans niet precies overeenkomt met de 
+warmtapwatervraag waarbij het opwekkingsrendement is gemeten, zal over het algemeen een 
+interpolatie nodig zijn tussen twee gemeten rendementen. In afwijking hiervan mag het rendement 
+ook worden bepaald volgens de gemeten waarde bij één bepaalde toepassingsklasse, waarbij een 
+passende correctiefactor (cW;gen) zorgt voor de forfaitaire omrekening naar de waarde die past bij 
+de warmtapwatervraag.  
+Bij deze methode is het hulpenergiegebruik reeds in het opwekkingsrendement inbegrepen.  
+b) Voor warmtepompen waarvoor (in het kader van ecodesign) conform NEN-EN 16147 slechts één 
+meetpunt (meetgegevens bij één Europese toepassingsklasse) beschikbaar is, kan het 
+opwekkingsrendement worden bepaald volgens die meetgegevens bij één bepaalde 
+toepassingsklasse (maximaal XL), waarbij een passende correctiefactor (cW,EU;gen) zorgt voor de 
+forfaitaire omrekening naar de waarde die past bij de warmtapwatervraag.  
+Bij deze methode is het hulpenergiegebruik reeds in het opwekkingsrendement inbegrepen. 
+c) De Europese methode, zoals beschreven in NEN-EN 13203-2 of NEN-EN 16147. 
+Het opwekkingsrendement moet voor toepassing in deze NTA bepaald zijn bij ten minste twee in 
+een van beide normen gegeven warmtapwatergebruikspatronen. In 13.8.4.2 is aangegeven op 
+welke wijze het opwekkingsrendement zoals gemeten volgens NEN-EN 13203-2 of NEN-EN 16147 
+wordt omgerekend. 
+Voor installaties met een gescheiden warmteopwekking en opslag van warm tapwater (indirect 
+verwarmd voorraadvat) heeft de hiervoor beschreven methode betrekking op de hele keten van ketel-
+warmteoverdracht-voorraadvat(en). 
+Voor combiketels heeft het opwekkingsrendement betrekking op het jaargebruiksrendement, waarin 
+zowel de zomer- als de wintercondities zijn verdisconteerd. 
+596
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 597 ---
+Withdrawn final
+Ingetrokken definitief
+Voor bivalente toestellen die als compleet product worden geleverd en getest, zoals een elektrische 
+warmtepomp met een geïntegreerd elektrisch bijstookelement, een met gas gestookte warmtepomp 
+met een geïntegreerde bijstookketel of een met gas gestookt (combi)toestel met microWKK ten 
+behoeve van de tapfunctie met een geïntegreerde bijstookketel, heeft het opwekkingsrendement 
+betrekking op het jaargebruiksrendement van het gehele bivalente toestel. 
+13.8.1.5 
+Samengestelde opwekinstallaties 
+Het opwekkingsrendement van een samengestelde opwekinstallatie voor warmtapwaterbereiding is 
+opgebouwd uit de bijdrage van de afzonderlijke delen. Hierbij wordt gebruikgemaakt van gemeten 
+prestaties van een of meer van de toestellen waaruit de installatie is samengesteld. De prestaties van 
+deze installaties zijn niet als geheel getest. De verliezen van een voorraadvat worden apart bepaald. 
+Voorbeelden van samengestelde opwekinstallaties zijn: 
+— alle zonne-energiesystemen met bij- en/of naverwarmers; 
+— bivalente warmtepompen zonder geïntegreerde naverwarming, bijvoorbeeld elektrische 
+warmtepompen met een met gas gestookt (combi)toestel als bij- en/of naverwarmer; 
+— boosterwarmtepompen die gebruikmaken van een verwarmingssysteem of een collectief systeem 
+waaraan warmte wordt onttrokken. 
+Voor individuele warmtapwaterwarmtepompen met een (collectieve) hogetemperatuurwarmtebron 
+(het verwarmingssysteem), met een watertemperatuur boven 12 °C, hierna aangeduid als 
+boosterwarmtepompen (BWP), is een aparte bepalingsmethode gegeven in bijlage W. 
+De energieprestatie van de BWP als warmteopwekker voor warm tapwater wordt op de volgende 
+manier in deze NTA weergegeven: 
+— het opwekkingsrendement is de verhouding tussen gevraagde tapwarmte en vereiste warmte van 
+het verwarmingssysteem; de bepaling van het primair energiegebruik maakt gebruik van het 
+opwekkingsrendement en de energiefactor van het verwarmingssysteem;  
+— het elektrische-energiegebruik wordt verwerkt als hulpenergiegebruik van de BWP. 
+Indien de BWP deels gebruikmaakt van de warmte uit het koelsysteem, dan heeft de BWP tevens het 
+karakter van een koelmachine met een opwekkingsrendement en de energetische bijdrage voor 
+koeling. Het opwekkingsrendement betreft de verhouding tussen geleverde koude en energiegebruik 
+van de circulatiepomp. Het gelijktijdige elektrische-energiegebruik van de BWP zelf wordt 
+toegerekend aan de tapfunctie. 
+13.8.1.6 
+Direct verwarmde voorraadvaten 
+Gasboilers kunnen toegepast worden als individueel toestel en als toestel in een collectief systeem, 
+eventueel opgebouwd uit meerdere in serie opgestelde toestellen. 
+Voor gasboilers kan gebruik worden gemaakt van twee methoden: 
+— testgegevens volgens NEN-EN 13203-2 (tot 70 kW); 
+— de aanpak uit NEN-EN 15316-4-1, met testgegevens volgens NEN-EN 89 (tot en met 150 kW) zoals 
+opgenomen in 13.8.4.5.2. 
+Voor overige direct verwarmde voorraadvaten is geen normatieve methode beschikbaar. 
+597
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 598 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.1.7 
+Indirect verwarmde voorraadvaten 
+Een systeem voor warmtapwaterbereiding met indirect verwarmde voorraadvaten bestaat uit een of 
+meer (in serie opgestelde) indirect verwarmde warmwatervoorraadvaten, die via een 
+warmtewisselaar worden verwarmd door een verwarmingssysteem. 
+Figuur 13.5 — Een systeem met indirect verwarmde voorraadvaten 
+Het systeem met indirect verwarmde warmwatervoorraadvaten kan als volgt zijn samengesteld: 
+a) een of meer (in serie opgestelde) warmwatervoorraadvaten; hierbij treden permanente verliezen
+op;
+b) een extern oplaadcircuit met pomp (een variant met een interne warmtewisselaar per vat is ook
+mogelijk); hierbij treden verliezen op tijdens het opladen;
+c) leidingwerk van het verwarmingssysteem en pomp tussen de warmtewisselaar en de
+warmteopwekker(s); de verliezen van leidingdelen die ook voor verwarming worden gebruikt,
+worden niet toegerekend aan de warmtapwaterbereiding tijdens het verwarmingsseizoen; de
+verliezen van leidingdelen die uitsluitend voor de warmtapwaterbereiding worden gebruikt,
+worden over het gehele jaar aan de warmtapwaterbereiding toegerekend;
+d) warmteopwekker(s), zoals cv-ketels, warmtekracht, collectieve gebouwverwarming; hierbij wordt
+uitgegaan van het rendement bij bedrijf op hoge temperatuur (90 °C/70 °C of 80 °C/60 °C).
+Het warmteverlies van de verschillende componenten wordt afzonderlijk bepaald, waarna het totale 
+verlies kan worden bepaald. 
+13.8.1.8 
+Warmtelevering 
+Bij warmtelevering wordt er onderscheid gemaakt in externe warmtelevering en warmtelevering op 
+gebouwniveau of voor een beperkt aantal gebouwen samen. In beide gevallen worden de individuele 
+woningen, gebouwen en/of gebouwunits via een afleverset aangesloten op een collectief 
+verwarmingssysteem. Wanneer er sprake is van een collectieve gebouwinstallatie voor de functie 
+verwarming, zie hoofdstuk 9 voor het opweksysteem bij verwarming. 
+598
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 599 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.2 Inzet van toestellen 
+13.8.2.1 
+Volgorde 
+Bij de opwekking van warm tapwater wordt beschikbare zonne-energie preferent ingezet. De andere 
+opwektoestellen worden in onderstaande volgorde ingezet: 
+a) warmtepomp op ventilatieretourlucht – zonder overventilatie en zonder buitenlucht; 
+b) warmtepomp, ketel op biomassa of WKK; 
+c) overige toestellen. 
+Indien er meerdere toestellen worden toegepast in de categorieën zoals hierboven omschreven onder 
+b) en c), moet voor de volgorde van de toestellen binnen de categorie uitgegaan worden van het 
+toestel met het hoogste rendement. 
+OPMERKING 
+Zonne-energie wordt preferent benut door de opbrengst van het zonneboilersysteem af te 
+trekken van de energie voor warm tapwater die door de rest van het systeem opgewekt moet worden, zie 
+formule (13.4). 
+13.8.2.2 
+Maximale output per toestel 
+Bepaal voor elke opwekker gi de maximale hoeveelheid energie die geleverd kan worden, als volgt: 
+𝑄𝑄𝑊𝑊;𝑔𝑔𝑔𝑔𝑔𝑔;𝑔𝑔𝑔𝑔;𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃;𝑚𝑚𝑚𝑚𝑚𝑚;𝑚𝑚𝑚𝑚= 𝑓𝑓𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔𝑔;𝑠𝑠𝑠𝑠;𝑊𝑊× 𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓× 𝑃𝑃𝑛𝑛𝑛𝑛𝑛𝑛× 𝑡𝑡𝑚𝑚𝑚𝑚 
+(13.141) 
+Voor warmtelevering via een afleverset kan ervan uitgegaan worden dat het vermogen van het 
+opweksysteem altijd voldoende is voor het leveren van de energievraag. Dan geldt: 
+QW;gen;gi;Pout;max;mi = QW;dis;nren;si,mi 
+(13.142) 
+waarin: 
+QW;gen;gi;Pout;max;mi is de maximale hoeveelheid energie die door het toestel geleverd kan worden op 
+basis van het vermogen, in maand mi, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+warm tapwater, volgens 13.1.2;  
+ffunc 
+is de dimensieloze tijdfractie dat opwekker gi voor warm tapwater maximaal in 
+bedrijf is. Voor toestellen in grote systemen (Ag;si >500 m2) geldt ffunc = 0,6. Voor 
+alle overige toestellen geldt ffunc = 1,0;  
+Pnom 
+is het nominale vermogen van het toestel volgens opgave van de leverancier of 
+zoals vermeld op het typeplaatje, in kW; voor warmtepompen op 
+ventilatieretourlucht moet voor woningbouw uitgegaan worden van een 
+gemiddeld nominaal vermogen gedurende tapwaterbedrijf; indien onbekend kan 
+voor individuele toestellen uitgegaan worden van 1,0 kW; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 
+17.2, in h; 
+599
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 600 ---
+Withdrawn final
+Ingetrokken definitief
+QW;dis;nren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van 
+systeem si, bepaald volgens 13.1, in kWh. 
+OPMERKING 1 
+De waarde voor ffunc is gebaseerd op de aanname dat de preferente opwekkers over 60 % van 
+de gehele dagperiode van 24 h warmte kunnen leveren aan het voorraadsysteem.  
+OPMERKING 2 
+In veel installaties worden voor deze vorm van warmtapwaterbereiding dezelfde 
+opwekkingstoestellen ingezet als voor verwarming. De volgens hoofdstuk 9 bepaalde nominale vermogens van 
+de opwekkingstoestellen mogen dan ook hier worden gebruikt. 
+OPMERKING 3 
+Het gaat bij het nominale vermogen van de opwekker om het vermogen exclusief een 
+eventueel elektrisch naverwarmingselement. Indien er in het toestel een elektrisch naverwarmingselement is 
+opgenomen, is er feitelijk sprake van een toestel met daarin twee opwekkers.  
+OPMERKING 4 
+Het gemiddelde nominale vermogen gedurende tapwaterbedrijf van een warmtepomp op 
+ventilatieretourlucht kan bepaald worden uit de meetgegevens van de test door de geproduceerde hoeveelheid 
+warm tapwater uit de testfase te delen door de tijd dat het toestel in tapwaterbedrijf was. 
+13.8.2.3 
+Output per toestel 
+Bereken achtereenvolgens voor elke opwekker gi de hoeveelheid energie QW;gen;gi;out die door het 
+toestel geleverd moet worden ten behoeve van warm tapwater, te beginnen bij de eerste opwekker 
+volgens de preferenties zoals bepaald in 13.8.2.1 bij de volgorde van de in te zetten toestellen. 
+Bereken voor toestel gi eerst de resterende hoeveelheid energie QW;gi;rest die door de resterende 
+opwekkers geleverd moet worden binnen het tapwatersysteem: 
+−
+−∑
+W;
+rest;
+W;dis;nren;
+W;gen;
+out;
+1...
+1
+=
+gi;
+si,mi
+si,mi
+gi;
+mi
+gi
+Q
+Q
+Q
+(13.143a) 
+Bepaal vervolgens, de maximale hoeveelheid energie QW;gen;gi;out;max die door elk toestel geleverd kan 
+worden. 
+In het geval van een warmtepomp op retourlucht wordt de maximale hoeveelheid energie 
+QW;gen;gi;out;max in het geval van een ventilatiesysteem C (VENT_SYS_OP = EXTRACT_OP) of een 
+ventilatiesysteem D zonder warmteterugwinning (ηhr=0 volgens 11.3.2.2) als volgt bepaald: 
+(
+)
+−
+W;gen;
+out;max;
+W
+;
+c
+i
+;gen
+Pout
+;
+omb
+;m
+;
+ax
+=
+× 1
+mi
+mi
+mi
+gi;
+gi;
+Q
+Q
+f
+ 
+(13.144a)
+Bij alle andere ventilatiesystemen geldt voor een warmtepomp op retourlucht QW;gen;gi;out;max = 0. 
+Voor alle overige toestellen geldt voor de maximale hoeveelheid energie QW;gen;gi;out;max:  
+gi;
+mi
+gi;
+mi
+Q
+Q
+W;gen;
+out;max;
+W;gen;
+Pout;max;
+=
+(13.144b) 
+Bereken als laatste de hoeveelheid energie QW;gen;gi;out die door elk toestel geleverd wordt: 
+(
+)
+gi;
+mi
+si,mi
+gi;
+mi
+Q
+MIN Q
+Q
+W;gen;
+out;
+W;rest;
+W;gen;
+out;max;
+=
+;
+(13.145) 
+QW;gi;rest;si,mi 
+is de resterende hoeveelheid energie die door de resterende opwekkers gi 
+geleverd moet worden ten behoeve van warm tapwater, in maand mi, in kWh; 
+600
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 601 ---
+Withdrawn final
+Ingetrokken definitief
+QW;dis;nren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van 
+systeem si, bepaald volgens 13.1, in kWh; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, in kWh; 
+QW;gen;gi;out;max;mi is de maximale hoeveelheid energie die door het toestel geleverd kan worden, in 
+maand mi, in kWh;  
+QW;gen;gi;Pout;max;mi is de maximale hoeveelheid energie die door het toestel geleverd kan worden op 
+basis van het vermogen, in maand mi, volgens formule (13.141) of (13.142), 
+in kWh; 
+fcombi;mi 
+is de correctiefactor voor gecombineerd gebruik voor verwarming en warm 
+tapwater van een warmtepomp op ventilatieretourlucht, in maand mi. 
+In het geval dat de warmtepomp op ventilatieretourlucht alleen wordt ingezet 
+voor warm tapwater, geldt fcombi;mi = 0; wanneer de warmtepomp ook wordt 
+ingezet voor verwarming, geldt bij toepassing van het forfaitaire 
+opwekkingsrendement voor verwarming volgens 9.6.3.1: fcombi;mi = 1 voor 
+mi=oktober t/m maart en fcombi,mi = 0 voor mi=april t/m september; wanneer de 
+energieprestatie voor verwarming wordt bepaald volgens bijlage Q, geldt fcombi;mi 
+= fH;t;hp-on;mi volgens Q.5.2.3; 
+fH;t;hp-on;mi 
+is de tijdfractie dat de warmtepomp in bedrijf is voor verwarming, in maand mi 
+volgens Q.5.2.3. 
+Voer bovenstaande stappen uit voor alle opwekkers gi binnen het warmtapwatersysteem si. De 
+opvolging eindigt als alle benodigde energie wordt geleverd. Als door het laatste opgegeven toestel 
+niet alle vereiste energie geleverd kan worden, moet een extra elektrisch doorstroomtoestel in de 
+toestelvolgorde opgenomen worden. 
+OPMERKING 1 Bij niet-modulerende warmtepompen op retourlucht kan ervan uitgegaan worden dat er sprake 
+is van overventilatie indien er onvoldoende warmte beschikbaar is uit retourlucht zonder overventilatie. Bij 
+modulerende warmtepompen op retourlucht is de overventilatie afhankelijk van de instelling van het toestel. Er 
+wordt van uitgegaan dat de warmtepomp op retourlucht niet-modulerend is. 
+OPMERKING 2 
+Wanneer er bij een warmtepomp op ventilatieretourlucht sprake is van een combitoestel dat 
+wordt ingezet voor zowel warm tapwater als verwarming, dan kan dit toestel voor warm tapwater slechts 
+ingezet worden gedurende het deel van de tijd dat het niet in gebruik is voor verwarming. De NTA voorziet niet 
+in een goede methode voor het gecombineerd gebruik van ventilatieretourlucht voor zowel verwarming als 
+warm tapwater in combinatie met eventuele overventilatie voor verwarming en/of warm tapwater. 
+OPMERKING 3 
+Wanneer volgens formule (13.145) de hoeveelheid energie QW;gen,gi;out die door het toestel 
+geleverd wordt, is bepaald, kan voor warmtepompen op retourlucht waarbij gebruik wordt gemaakt van de 
+forfaitaire waarde voor het opwekkingsrendement, ook het door de warmtepomp benodigde ventilatiedebiet per 
+rekenzone (qve;hp,W;zi;mi) worden berekend volgens formule (13.148) en de tijdfractie dat de warmtepomp op 
+ventilatieretourlucht voor warm tapwater in bedrijf is (fW;t;hp-on;mi) volgens formule (13.149). Voor 
+warmtepompen op retourlucht waarbij gebruik wordt gemaakt van meetresultaten voor het 
+opwekkingsrendement, wordt het voor de warmtepomp benodigde ventilatiedebiet ontleend aan de verklaring 
+met meetresultaten. 
+In voorkomende gevallen kan de energetische bijdrage FW;gen;gi ontleend worden aan een 
+kwaliteitsverklaring. Indien deze waarden voor meer tappatronen (klassen) zijn bepaald, moeten de 
+waarden van de energetische bijdrage FW;gen;gi door interpolatie worden bepaald voor de specifieke 
+waarde van de warmtebehoefte QW;dis;nren;an. 
+601
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 602 ---
+Withdrawn final
+Ingetrokken definitief
+In het geval dat de energetische bijdrage FW;gen;gi bekend is, kan de door het toestel geleverde energie 
+QW;gen;gi;out;mi bepaald worden volgens: 
+QW;gen;gi;out;mi = FW;gen;gi × QW;dis;nren;si,mi 
+(13.146) 
+13.8.2.4 
+Overventilatie bij warmtepompen op retourlucht 
+Indien er voor het goed functioneren van de warmtepomp met als bron ventilatieretourlucht in enige 
+maand een grotere luchtvolumestroom nodig is dan vanuit de standaard systeemgerelateerde 
+ventilatie (qV;ODA;req;zi,mi volgens 11.2.2.1.1), dan is er sprake van overventilatie.  
+Onderstaande methode voor de bepaling van het ventilatiedebiet inclusief overventilatie (qve,hp,W;zi;mi) 
+wordt alleen gebruikt indien de warmtepomp op ventilatieretourlucht alleen wordt ingezet voor warm 
+tapwater.  
+Wanneer er voor de warmtepomp gebruik wordt gemaakt van het forfaitaire opwekkingsrendement, 
+wordt het ventilatiedebiet per rekenzone bepaald met formule (13.148).  
+Bij toepassing van een kwaliteitsverklaring voor het opwekkingsrendement van de warmtepomp kan 
+het ventilatiedebiet inclusief overventilatie (qve,hp,W) ontleend worden aan de kwaliteitsverklaring en 
+wordt het ventilatiedebiet per rekenzone bepaald met formule (13.148a).  
+In het geval van een combiwarmtepomp op retourlucht voor verwarming en warm tapwater waarbij 
+gebruik wordt gemaakt van een kwaliteitsverklaring voor het opwekkingsrendement voor 
+verwarming volgens bijlage Q, wordt het ventilatiedebiet voor warm tapwater qve,hp,W (inclusief 
+eventuele overventilatie) ontleend aan de kwaliteitsverklaring. 
+In alle gevallen moet de tijdfractie dat de warmtepomp in bedrijf is voor tapwater met formule 
+(13.149) bepaald worden. 
+Bepaal ten behoeve van de berekening van de systeemontwerpafhankelijke minimale volumestroom 
+in 11.2.2.1.2 het door de warmtepomp benodigde ventilatiedebiet per rekenzone (qve;hp;W;zi,mi) en de 
+tijdfractie dat de warmtepomp op ventilatieretourlucht in bedrijf is (fW;t;hp-on;mi) als volgt: 
+Bij toepassing van het forfaitaire opwekrendement: 
+𝑞𝑞𝑣𝑣𝑣𝑣;h𝑝𝑝;𝑊𝑊;𝑧𝑧𝑧𝑧;𝑚𝑚𝑚𝑚= 𝑀𝑀𝑀𝑀𝑀𝑀൬𝑀𝑀𝑀𝑀𝑀𝑀൬44 ×
+𝐴𝐴𝑔𝑔;𝑧𝑧𝑧𝑧
+∑
+𝐴𝐴𝑔𝑔;𝑧𝑧𝑧𝑧
+𝑠𝑠𝑠𝑠,𝑧𝑧𝑧𝑧
+; 𝐴𝐴𝑔𝑔;𝑧𝑧𝑧𝑧× 0,44൰× 3,6; 𝑞𝑞𝑣𝑣;𝑂𝑂𝑂𝑂𝑂𝑂;𝑟𝑟𝑟𝑟𝑟𝑟;𝑧𝑧𝑧𝑧;𝑚𝑚𝑚𝑚൰     (13.148) 
+Bij toepassing van een kwaliteitsverklaring: 
+𝑞𝑞ve;hp;W;𝑧𝑧𝑧𝑧;𝑚𝑚𝑚𝑚= 𝑀𝑀𝑀𝑀𝑀𝑀൬𝑞𝑞ve;hp;W ×
+𝐴𝐴g;𝑧𝑧𝑧𝑧
+∑
+𝐴𝐴g;𝑧𝑧𝑧𝑧
+𝑠𝑠𝑠𝑠,𝑧𝑧𝑧𝑧
+; 𝑞𝑞v;ODA;req;𝑧𝑧𝑧𝑧;𝑚𝑚𝑚𝑚൰   
+(13.148a) 
+gi;
+mi
+mi
+gi;
+mi
+Q
+f
+Q
+W;gen;
+out;
+W;t;hp-on;
+W;gen;
+Pout;max;
+=
+ 
+(13.149) 
+waarin: 
+qve;hp;W;zi,mi 
+is de luchtvolumestroom die minimaal nodig is voor het goed functioneren van een 
+warmtepomp met de ventilatievolumestroom als warmtebron van een 
+warmtapwatersysteem, bepaald door de ventilatieretourluchtcapaciteit die nodig is 
+voor de warmtepomp voor warm tapwater (hp;W) van de in het systeemontwerp 
+opgenomen warmtapwatersystemen, in m3/h;  
+602
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 603 ---
+Withdrawn final
+Ingetrokken definitief
+qve;hp;W 
+is de luchtvolumestroom die minimaal nodig is voor het goed functioneren van een 
+warmtepomp met de ventilatievolumestroom als warmtebron van een 
+warmtapwatersysteem (hp;W) volgens opgave van de leverancier, in m3/h;  
+QW;gen;gi;out;mi is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, volgens 13.8.2.3, in kWh; 
+qV;ODA;req;zi,mi 
+is de benodigde luchtvolumestroom van buitenlucht voor rekenzone zi voor 
+kalendermaand mi, waarbij geen rekening wordt gehouden met overventilatie, 
+in m3/h, voor de warmtebehoefte volgens formule (11.22) in 11.2.2.1.1; 
+fW;t;hp-on;mi 
+is de tijdfractie dat de warmtepomp voor warm tapwater in bedrijf is in maand mi. 
+OPMERKING 
+De luchtvolumestroom die minimaal nodig is voor het goed functioneren van een 
+warmtepomp met de ventilatievolumestroom als warmtebron is gelijk aan de forfaitaire waarde uit 
+formule (Q.88). 
+13.8.2.5 
+Fractie en gebruikstijd per toestel 
+Bepaal per maand per toestel de fractie waarin bijgedragen wordt aan de opwekking van warm 
+tapwater. 
+𝐹𝐹W;gen;𝑠𝑠𝑠𝑠,𝑔𝑔𝑔𝑔,𝑚𝑚𝑚𝑚=
+𝑄𝑄W;gen;𝑔𝑔𝑔𝑔;out;𝑚𝑚𝑚𝑚
+𝑄𝑄W;dis;nren;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚 
+(13.150) 
+𝑡𝑡W;use;𝑔𝑔𝑔𝑔,𝑚𝑚𝑚𝑚=
+𝑄𝑄W;gen;𝑔𝑔𝑔𝑔;out;𝑚𝑚𝑚𝑚
+𝑃𝑃nom;𝑔𝑔𝑔𝑔 × 𝑓𝑓gebouw;𝑠𝑠𝑠𝑠;W 
+(13.151) 
+waarin: 
+FW;gen;si,gi,mi 
+is de dimensieloze energetische bijdrage voor warm tapwater, in maand mi, die 
+opwekker gi levert aan het systeem si; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, volgens 13.8.2.3, in kWh; 
+QW;dis;nren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van 
+systeem si, bepaald volgens 13.1, in kWh; 
+tW;use;gi,mi 
+is de tijd dat toestel gi, in maand mi, in bedrijf is voor de verwarming van 
+tapwater, in h; 
+Pnom;gi 
+is het nominale vermogen van het toestel gi volgens opgave van de leverancier of 
+zoals vermeld op het typeplaatje, in kW; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+warm tapwater, volgens 13.1.2. 
+603
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 604 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.3 Praktijkrendement per opwekker 
+Bepaal het praktijkrendement van elk toestel als volgt: 
+𝜂𝜂W;gen;prac;𝑠𝑠𝑠𝑠,𝑔𝑔𝑔𝑔,𝑚𝑚𝑚𝑚= 𝑓𝑓prac;𝑔𝑔𝑔𝑔× 𝜂𝜂W;gen;𝑔𝑔𝑔𝑔  [-] 
+(13.152) 
+waarin: 
+ηW;gen;prac;si,gi,mi is het dimensieloze opwekkingsrendement onder praktijkomstandigheden voor 
+warm tapwater, in maand mi, van opwekker gi in systeem si; 
+fprac;gi 
+is de dimensieloze correctiefactor voor het opwekkingsrendement van toestel gi 
+onder praktijkomstandigheden. 
+Voor opwekkingsrendementen bepaald met NEN-EN 16147 geldt voor 
+voorraadtoestellen fprac;gi = 0,9, tenzij aangetoond kan worden dat bij de test 
+conform NEN-EN 16147 rekening is gehouden met wekelijkse legionellapreventie. 
+Voor de forfaitaire opwekkingsrendementen uit 13.8.4.5, 13.8.4.6 en 13.8.4.7 geldt 
+fprac;gi = 1,0. 
+Indien bij externe warmtelevering de primaire energiefactor van externe 
+warmtelevering (fP;del;dh/dw) de vaste waarde van 0,9 heeft of conform bijlage P 
+gebaseerd is op uitsluitend gemeten waarden, dan geldt fprac;gi = 1,0. Als de 
+primaire energiefactor van externe warmtelevering conform bijlage P gebaseerd is 
+op berekende en eventueel gemeten waarden, dan geldt fprac;gi = 0,95. 
+ 
+In alle overige gevallen geldt fprac;gi = 0,95; 
+ηW;gen;gi 
+is het dimensieloze opwekkingsrendement voor warm tapwater, in maand mi, van 
+opwekker gi in systeem si, bepaald volgens 13.8.4.2 e.v. 
+OPMERKING 1 
+Voor voorraadtoestellen waarbij het opwekkingsrendement is bepaald op basis van 
+testresultaten conform NEN-EN 16147, geldt fprac;gi = 0,95 indien het toestel is beproefd bij en toegepast wordt op 
+een temperatuurinstelling van 55 °C of hoger. Er is dan geen aanvullende legionellapreventie vereist. Wanneer 
+de opwekkingsrendementen zijn gecorrigeerd naar een temperatuurinstelling van 55 °C, geldt fprac;gi = 0,9. 
+OPMERKING 2 
+Voor gasboilers kan in 13.8.4.5 gebruik worden gemaakt van meetgegevens uit NEN-EN 89. In 
+dat geval geldt fprac;gi = 0,95. 
+Indien het opwekkingsrendement bepaald wordt door interpolatie tussen twee meetgegevens, dan 
+kan het voorkomen dat fprac voor beide meetsituaties verschilt. In dat geval moet fprac op gelijke wijze 
+als het opwekkingsrendement geïnterpoleerd worden. 
+13.8.4 Opwektoestellen 
+13.8.4.1 
+Inleiding 
+Bepaal voor elk opwektoestel gi in maand mi: 
+— het opwekkingsrendement ηW;gen;gi; 
+— het hulpenergiegebruik WWaux;gen;gi; 
+— de terugwinbare systeemverliezen: deze kunnen bestaan uit QW;gen;aux;ls;rbl, QW;gen;ls;rbl en/of QW;sto;ls;rbl.  
+604
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 605 ---
+Withdrawn final
+Ingetrokken definitief
+Bepaal deze waarden afhankelijk van het type toestel en type opwekinstallatie volgens een van 
+onderstaande methoden: 
+A voor direct verwarmde voorraadvaten: 
+— met testresultaten volgens NEN-EN 13203-2:2015: volgens 13.8.4.2; 
+— voor gasboilers tot en met 150 kW op basis van forfaitaire waarden of op basis van eventuele 
+meetresultaten volgens NEN-EN 89: volgens 13.8.4.5.2; 
+— voor elektroboilers op basis van forfaitaire waarden: volgens 13.8.4.5.3; 
+— voor overige direct verwarmde voorraadvaten op basis van forfaitaire waarden: volgens 13.8.4.5.4. 
+B voor toestellen waarbij het verlies van een eventueel voorraadvat is opgenomen in het 
+opwekrendement: 
+— met gas gestookt: 
+— met testresultaten bij meerdere tappatronen volgens NEN-EN 13203-2: volgens 13.8.4.2; 
+— op basis van forfaitaire waarden: volgens 13.8.4.7.2; 
+— elektrische warmtepompen: 
+— met testresultaten bij meerdere tappatronen volgens NEN-EN 16147: volgens 13.8.4.2; 
+— met testresultaten bij één tappatroon volgens NEN-EN 16147: volgens 13.8.4.3; 
+— op basis van forfaitaire waarden: volgens 13.8.4.7.2; 
+— boosterwarmtepompen (die gebruikmaken van warmte uit een ander systeem): volgens 13.8.4.4; 
+— op vaste biobrandstof gestookt: 
+— op basis van forfaitaire waarden: volgens 13.8.4.6; 
+— overige elektrische toestellen: 
+— op basis van forfaitaire waarden: volgens 13.8.4.7.2; 
+C voor toestellen in combinatie met indirect verwarmde voorraadvaten: 
+— voor WKK’s of toestellen op vaste biobrandstoffen op basis van meetresultaten: volgens 13.8.4.8; 
+— op basis van forfaitaire waarden: volgens 13.8.4.7.4; 
+OPMERKING 1 
+Het warmteverlies van het voorraadvat wordt apart bepaald. 
+D voor warmtelevering via een afleverset: 
+— volgens 13.8.4.9. 
+Voor elektroboilers kan voor de bepaling van het opwekrendement ook gebruik worden gemaakt van 
+NEN-EN 50440:2016. Het verlies van het voorraadvat is dan meegenomen in het opwekrendement en 
+605
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 606 ---
+Withdrawn final
+Ingetrokken definitief
+kan in 13.6 buiten beschouwing blijven. De bepalingsmethode voor het opwekkingsrendement op 
+basis van testresultaten volgens NEN-EN 50440:2016 is in NTA 8800 niet in detail beschreven.  
+Voor de bepaling van het opwekrendement van elektroboilers kan de methode voor testresultaten van 
+24 uursmetingen in 13.8.4.2 voor warmtepompen gevolgd worden. Er mag geen sprake zijn van 
+testresultaten voor ‘off-peak’. Er hoeft niet gecorrigeerd te worden voor de temperatuurinstelling 
+volgens formule (13.153c). Het dagelijkse elektrische-hulpenergiegebruik (voor standby) is 
+meegenomen in het totale elektrische-energiegebruik voor het tappatroon. Wanneer een elektroboiler 
+alleen wordt toegepast voor de keuken, kan volstaan worden met 1 tappatroon (S of M). Tappatroon i1 
+is dan gelijk aan i2.  
+Voor toestellen waarvan het type reeds vóór 2021 werd geleverd, mag ook gebruik worden gemaakt 
+van de Nederlandse methode, zoals beschreven in bijlage A van NEN 7120+C2:2012 inclusief C5, die is 
+overgenomen in bijlage T. Het opwekkingsrendement is bepaald bij een of meer van in totaal vijf 
+gegeven Nederlandse toepassingsklassen van warmtapwatergebruikspatronen. Voor de bepaling van 
+het opwekkingsrendement, zal over het algemeen een interpolatie nodig zijn tussen twee gemeten 
+rendementen. In afwijking hiervan mag het rendement ook worden bepaald volgens de gemeten 
+waarde bij één bepaalde toepassingsklasse, waarbij een passende correctiefactor (cW;gen) volgens 
+13.8.4.7.3 zorgt voor de forfaitaire omrekening naar de waarde die past bij de warmtapwatervraag. 
+Daarna moet het bepaalde opwekkingsrendement omgezet worden naar het opwekkingsrendement 
+onder praktijkomstandigheden volgens 13.8.3. 
+Bij deze methode is het hulpenergiegebruik reeds in het opwekkingsrendement inbegrepen. De 
+bepalingsmethode voor het opwekkingsrendement op basis van testresultaten is in NTA 8800 niet in 
+detail beschreven. 
+Indien bij grote installaties niet bekend is of er sprake is van direct of indirect verwarmde 
+voorraadvaten, moet uitgegaan worden van de bepalingsmethode in 13.8.4.5.4 voor direct verwarmde 
+voorraadvaten. 
+Bij toestellen in combinatie met een zonneboilersysteem gelden de volgende afwijkende bepalingen: 
+a) Bij toepassing van zonneboilersystemen met geïntegreerde met gas gestookte naverwarming, 
+waarbij de warmte aan het vat wordt overgedragen door een warmtewisselaar (type b in 13.7.1), 
+moet het opwekkingsrendement ηW;gen;gi van de bij- en naverwarmer ontleend worden aan 
+13.8.4.7.2. 
+b) Bij toepassing van zonneboilersystemen met geïntegreerde naverwarming, waarbij de warmte aan 
+het vat wordt overgedragen door een elektrisch element (type c in 13.7.1), bedraagt het 
+opwekkingsrendement ηW;gen;gi van de elektrische bij- en naverwarmer 1,0. 
+OPMERKING 2 
+Voor bepaalde soorten toestellen is de hulpenergie inbegrepen in het opwekkingsrendement; 
+in dat geval wordt deze niet apart in rekening gebracht. 
+606
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 607 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.4.2 
+Getest met 24 uursmetingen, bij meerdere tappatronen 
+Methode voor warm tapwater, getest met 24 uursmetingen 
+De inputgegevens op basis van de beproeving van het toestel, gemeten met een of meer cycli van 24 h, 
+staan in tabel 13.17. In de laatste kolom staan de overeenkomstige symbolen zoals ze in 
+NEN-EN 13203-2 en NEN-EN 16147 voorkomen.  
+Tabel 13.17 — Inputgegevens uit de beproevingsnorm voor het warmtapwatertoestel 
+Symbool 
+Omschrijving 
+Eenheid Symbool in 
+NEN-EN 13203–2 
+Symbool in 
+NEN-EN 16147 
+QW;b;d;gi 
+Is de dagelijkse hoeveelheid energie die 
+door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater, volgens 
+formule (13.157) 
+kWh 
+  
+ 
+QW;test;i 
+Is de dagelijks geleverde 
+energiehoeveelheid aan warm tapwater bij 
+tappatroon i (volgens tabel 1, 2, 3, 4, 5, 6 en 
+7 van NEN-EN 13203–2:2015) 
+kWh 
+Qref(i) 
+ 
+Is de som van de nuttige warmtelevering 
+van de waterafname in belastingsprofiel (i) 
+volgens bijlage A van NEN-EN 16147:2017 
+kWh 
+ 
+Qref [i] 
+EW;gen;in;test;i 
+Is het dagelijkse brandstofgebruik voor 
+tappatroon i, gecorrigeerd voor zomer en 
+winter (in NEN-EN 13203–2 bepaald op 
+basis van de netto calorische waarde) 
+kWh 
+Qgas;p(i) × fcomb 
+ 
+Is het dagelijkse elektrische-energiegebruik 
+kWh 
+ 
+Qelec × (1 – SCF × 
+smart) 
+WW;gen;test;i 
+Is het dagelijkse elektrische-
+hulpenergiegebruik voor tappatroon i (in 
+NEN-EN 13203–2 inclusief energiegebruik 
+voor stand-by) 
+kWh 
+Eelecco(i) 
+ 
+OPMERKING 
+Het hulpenergiegebruik voor 
+elektrische warmtepompen is meegenomen bij 
+het totale elektrische-energiegebruik voor het 
+tappatroon 
+kWh 
+ 
+N.v.t. 
+EW;gen;in;test;stb 
+Is het dagelijkse brandstofgebruik voor 
+stand-by (in NEN-EN 13203–2 bepaald op 
+basis van de netto calorische waarde) 
+kWh 
+Qgas;stb 
+ 
+WW;gen;test;stb 
+Is het dagelijkse elektrische-
+hulpenergiegebruik voor stand-by 
+kWh 
+Eelecco;stb 
+Pes × 24  
+ 
+607
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 608 ---
+Withdrawn final
+Ingetrokken definitief
+Brandstofverbruik in de winter bij met gas gestookte combitoestellen 
+Bij de bepaling van EW;gen;test;in;i (Qgas;p(;i)) volgens NEN-EN 13203-2 mag een afwijkende meetmethode 
+worden toegepast voor het vaststellen van het brandstofverbruik in de winter. Gebruik hierbij 
+onderstaande formule in plaats van formule (5) van NEN-EN 13203-2:2015: 
+𝑄𝑄gas;w = 𝑄𝑄gas;s −13,5 ×
+1,21×𝑃𝑃𝑠𝑠
+𝜂𝜂100
+(13.153) 
+waarin: 
+Qgas;w is het dagelijkse energiegebruik in de winter, gecorrigeerd voor het vermeden 
+warmteverlies van de primaire warmtebron, op basis van de netto calorische waarde, 
+in kWh; 
+Qgas;s is het dagelijkse energiegebruik in de zomer, op basis van de netto calorische waarde 
+volgens 5.4.1 van NEN-EN 13203-2:2015, in kWh; 
+1,21 is de correctiefactor voor het warmteverlies van de primaire warmtewisselaar van 50 °C 
+naar 55 °C; 
+13,5 is de periode waarin dagelijks centraal warmte wordt geproduceerd, in h; 
+Ps 
+is het stand-byverlies van de primaire warmtewisselaar bepaald volgens 9.3.2.3.1.3 van 
+NEN-EN 15502-1+A1:2015 met een gemiddelde watertemperatuur van 50 °C en een 
+omgevingstemperatuur van 20 °C, in kW; 
+η100 
+is het opwekkingsrendement van de opwekker op onderwaarde Qn of voor een serie 
+opwekkers het rekenkundig gemiddelde van het maximale en minimale 
+warmtetoevoerrendement Qa bepaald volgens 9.2.2 van NEN-EN 15502-1+A1:2015. 
+Correctie van het dagelijkse energiegebruik voor met gas gestookte toestellen 
+De meetresultaten uit NEN-EN 13203-2 moeten zoals aangegeven in tabel 13.17 gecorrigeerd worden 
+voor gas van onder- naar bovenwaarde volgens: 
+𝐸𝐸W;gen;in;test;𝑖𝑖= 𝑓𝑓Hs
+Hi × 𝑄𝑄gas;p;𝑖𝑖 
+(13.153a) 
+waarin: 
+EW;gen;in;test;i is het dagelijkse energiegebruik voor tappatroon i, gecorrigeerd voor zomer en 
+winter, in kWh/dag, op bovenwaarde; 
+fHs/Hi 
+is de factor voor omzetting van het brandstofgebruik voor gas van onder- naar 
+bovenwaarde; voor aardgas geldt fHs/Hi = 1,11; 
+Qgas;p;i
+is het dagelijkse energiegebruik voor tappatroon i, gecorrigeerd voor zomer en 
+winter, bepaald volgens NEN-EN 13203-2, in kWh/dag, op onderwaarde (Hi).
+608
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 609 ---
+Withdrawn final
+Ingetrokken definitief
+Correctie van het dagelijkse elektrische-energiegebruik voor warmtepompen 
+De meetresultaten uit NEN-EN 16147 moeten zoals aangegeven in tabel 13.17 als volgt gecorrigeerd 
+worden met een relatieve besparing door slimme regeling. Daarnaast wordt voor 
+combiwarmtepompen met als bron een mix van buitenlucht en ventilatieretourlucht een aanvullende 
+correctie toegepast voor de verhoogde brontemperatuur van deze menglucht:  
+Qelec;SCF;i = Qelec;i × (1 – SCFgi × smart) / CW;mixed air;mi 
+(13.153b) 
+waarin: 
+Qelec;SCF;i 
+is het dagelijkse energiegebruik voor tappatroon i bepaald volgens NEN-EN 16147 – 
+inclusief correctie voor smart control, in kWh/dag; 
+Qelec;i 
+is het dagelijkse energiegebruik voor tappatroon i bepaald volgens NEN-EN 16147, 
+in kWh/dag; 
+SCFgi 
+is de dimensieloze Smart Control Factor voor opwekker gi, volgens NEN-EN 16147; 
+smart is de dimensieloze correctiefactor voor toekenning van de SCF volgens 
+NEN-EN 16147; smart=0 als SCF < 0,07 of als ‘smart control’ niet van toepassing is; 
+anders geldt smart=1. 
+CW;mixed air;mi is de dimensieloze maandgemiddelde correctiefactor voor combiwarmtepompen die 
+als bron een mix van buitenlucht en ventilatieretourlucht gebruiken. Voor alle overige 
+warmtepompen geldt CW;mixed air;mi = 1. 
+Corrigeer voor warmtepompen vervolgens het dagelijkse energiegebruik voor tappatroon i, zoals 
+bepaald in formule (13.153b) voor de gemeten maximale temperatuur tijdens het testen van het 
+toestel en het ontwerp van de installatie: 
+EW;gen;in;test;i = Qelec;SCF;i × (1 + (55 – Tmax;test;i) × 0,02) / (1 + (55 – Tset;design) × 0,02) 
+ 
+(13.153c) 
+waarin: 
+EW;gen;in;test;i is het dagelijkse energiegebruik voor tappatroon i, in kWh/dag; 
+Qelec;SCF;i 
+is het dagelijkse energiegebruik voor tappatroon i bepaald volgens NEN-EN 16147 – 
+inclusief correctie voor ‘smart control’, in kWh/dag; 
+Tmax;test;i 
+is de maximale gemeten temperatuur gedurende de vereiste tappingen voor warm 
+tapwater bij test i, in °C; 
+Tset;design 
+is de temperatuurinstelling voor tapwater van de warmtepomp conform de 
+dimensionering van het toestel en het ontwerp van de installatie, in °C. 
+Bij het Europese tappatroon S of groter is de vereiste minimale taptemperatuur (Tp) bij een of meer 
+tappingen 55 °C. 
+OPMERKING 1 Bij de bepaling van de gemeten maximale temperatuur gedurende de vereiste tappingen gaat 
+het om het gemiddelde van de hoogst gemeten temperatuur tijdens de verschillende 55 °C-tappingen.  
+De forfaitaire waarde van de temperatuurinstelling voor tapwater van de warmtepomp, Tset;design, is 
+55 °C. Een lagere waarde moet worden onderbouwd met de dimensionering van het toestel en het 
+ontwerp van de installatie. 
+609
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 610 ---
+Withdrawn final
+Ingetrokken definitief
+De dimensionering van het toestel omvat ten minste de grootte van het voorraadvat in relatie tot de 
+gewenste taphoeveelheid in liters warm water van 40 °C.  
+Het ontwerp van de installatie omvat ten minste de dimensionering van het leidingnet met 
+inachtneming van de eisen aan de stroomsnelheid, de keuze van mengkranen met het oog op het 
+functioneren bij de toegepaste temperatuurinstelling en de aanwezigheid van voorzieningen om op 
+een of meer tappunten een temperatuur van 55 °C te kunnen leveren, conform NEN 1006. 
+OPMERKING 2 In NEN-EN 16147 zijn geen vaste temperatuurinstellingen voor uitvoering van de testen 
+opgegeven. Door correctie van het dagelijkse energiegebruik voor de temperatuurinstelling bij de uitgevoerde 
+testen (Tset;test) ontstaan voor warmtepompen onderling vergelijkbare prestaties wanneer uitgegaan wordt van 
+eenzelfde installatieontwerp (Tset;design). 
+Correctiefactor voor combiwarmtepompen met als bron een mix van buitenlucht en ventilatieretourlucht 
+De correctie CW;mixed air;mi voor combiwarmtepompen met als bron een mix van buitenlucht en 
+ventilatieretourlucht kan ontleend worden aan een kwaliteitsverklaring. Indien de 
+ventilatieretourlucht van meerdere rekenzones is aangesloten op de mengluchtwarmtepomp, moet 
+voor het systeem een ventilatiedebietgewogen waarde worden bepaald. 
+De correctiefactor wordt op onderstaande wijze bepaald met behulp van de resultaten voor 
+ruimteverwarming uit NEN-EN 14511. Indien de testresultaten uit NEN-EN 14511 niet beschikbaar 
+zijn, is de bepaling van CW;mixed air;mi niet mogelijk en geldt CW;mixed air = 1. 
+CW;mixed air;mi = COPH;hp;2;mixed air;mi / COPH;hp;2  
+(13.153d) 
+waarin: 
+COPH;hp;2;mixed air;mi  
+is de COP van de warmtepomp voor verwarming bij conditie 2, bij maximaal 
+vermogen, bij de van toepassing zijnde mengluchttemperatuur, in maand mi, 
+bepaald volgens 13.153e; 
+COPH;hp;2  
+is de COP van de warmtepomp voor verwarming bij conditie 2, bij maximaal 
+vermogen, bepaald volgens Q.4.2 (zie tabel Q.11); 
+Bepaal de COP van de warmtepomp voor verwarming bij toepassing van menglucht aan de hand van 
+het carnotrendement onder handhaving van het temperatuurverschil over de verdamper bij conditie 
+A7/W55 (zie tabel Q.9, conditie 2b), gemeten conform NEN-EN 14511: 
+COPH;hp;2;mixed air;mi = ηcarnot;H;hp;2 × –(θcond;out;2 + 273,15 + 2)  
+/ –(θcond;out;2 – (θevap;mixed air;mi – (θevap;in;2 – θevap;out;2))+7)    
+(13.153e) 
+waarin: 
+ηcarnot;H;hp;2 
+is het dimensieloze carnotrendement bij conditie 2, bij maximaal vermogen, bepaald 
+volgens 13.153f; 
+θcond;out;2  
+is de uitgaande condensortemperatuur bij conditie 2, bij maximaal vermogen, 
+bepaald volgens Q.4.2, in °C (zie tabel Q.11); 
+θevap;mixed air;mi is de maandgemiddelde verdampertemperatuur voor de productie van warm 
+tapwater, in °C; 
+θevap;in;2  
+is de ingaande verdampertemperatuur bij conditie 2, bij maximaal vermogen, 
+bepaald volgens Q.4.2, in °C (zie tabel Q.11); 
+610
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 611 ---
+Withdrawn final
+Ingetrokken definitief
+θevap;out;2 
+is de uitgaande verdampertemperatuur bij conditie 2, bij maximaal vermogen, 
+bepaald volgens Q.4.2, in °C (zie tabel Q.11). 
+OPMERKING 3 De conditie A7/W55 sluit goed aan bij de conditie voor de warmtapwaterproductie van een 
+individueel toestel. Opgemerkt wordt dat een deel van de warmtapwaterproductie bij lagere 
+condensortemperaturen plaatsvindt en daarmee bij een beter rendement. 
+Bepaal uit de meetresultaten voor conditie 2b (conform NEN-EN 14511) het carnotrendement onder 
+aanname van een delta-T tussen koudemiddel en lucht (verdamper) van 5 K, en voor koudemiddel en 
+water (condensor) van 2 K. 
+ηcarnot;H;hp;2 = COPH;hp;2 / COPtheoretisch;conditie2b  
+(13.153f) 
+COPtheoretisch;conditie2b = (θ cond;out;2 + 273,15 + 2) / (θ cond;out;2 – θ evap;out;2 +7)   (13.153g) 
+waarin: 
+COPH;hp;2  
+is de COP van de warmtepomp voor verwarming bij conditie 2, bij maximaal 
+vermogen, bepaald volgens Q.4.2 (zie tabel Q.11); 
+θcond;out;2  
+is de uitgaande condensortemperatuur bij conditie 2, bij maximaal vermogen, bepaald 
+volgens Q.4.2, in °C (zie tabel Q.11); 
+θevap;out;2 
+is de uitgaande verdampertemperatuur bij conditie 2, bij maximaal vermogen, 
+bepaald volgens Q.4.2, in °C (zie tabel Q.11). 
+De maandgemiddelde verdampertemperatuur voor de productie van warm tapwater en de 
+verhouding tussen ventilatielucht en verdamperluchtdebiet wordt als volgt bepaald: 
+θevap;mixed air;mi = (θe;avg;mi – 3,7) × fbuitenlucht;mi + θETA;dis;out;zi;mi × (1 - fbuitenlucht;mi) (13.153h) 
+fbuitenlucht;mi = MAX [0; (1 – ( Σ(si)zi [qV;ODA;req;zi,mi ] / qV;hp;W )) ]  
+(13.153i) 
+waarin: 
+θe;avg;mi 
+is de gemiddelde buitentemperatuur in maand mi, bepaald volgens 17.2, in °C;  
+fbuitenlucht;mi 
+is de dimensieloze factor voor contributie van buitenlucht aan de totale 
+bronzijdige (verdamper) luchtvolumestroom van alle rekenzones zi die zijn 
+aangesloten op systeem si, in maand mi; 
+ϑETA;dis;out;zi,mi  
+is de temperatuur van de luchtvolumestroom die de kanalen verlaat naar de AHU 
+of ventilatie-unit, bepaald volgens formule (11.130), in °C; 
+qV;ODA;req;zi,mi  
+is de benodigde luchtvolumestroom van buitenlucht voor rekenzone zi, in maand 
+mi, in m3/h, volgens 11.2.2.1; 
+qV;hp;W  
+is de luchtvolumestroom die minimaal nodig is voor het goed functioneren van een 
+warmtepomp met een combinatie van ventilatieretourlucht en buitenlucht als 
+warmtebron van een warmtapwatersysteem, volgens opgave van de leverancier, in 
+m3/h. 
+Bepaal bij combiwarmtepompen met als bron een mix van buitenlucht en ventilatieretourlucht Qelec;i 
+conform NEN-EN 16147 bij de voorgeschreven 7 °C ingaande verdampertemperatuur. 
+611
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 612 ---
+Withdrawn final
+Ingetrokken definitief
+Doordat gerekend wordt met de maandgemiddelde buitentemperatuur ontstaat een verschil ten 
+opzichte van buitenluchtwarmtepompen met een standaard testconditie bij 7 °C buitentemperatuur. 
+Het verschil bedraagt 3,7 °C ten opzichte van de klimaatgegevens uit NEN 5060:2018. 
+Energiegebruik per dag 
+Bepaal voor toestellen die zijn getest volgens NEN-EN 13203-2 of NEN-EN 16147, het energiegebruik, 
+EW;gen;gi;in;d, in kWh per dag op de volgende wijze:  
+(
+)
+(
+)
+(
+)
+−
+−
+−
+−
+i
+gi;
+i
+i
+i
+i
+i
+Q
+Q
+E
+E
+E
+E
+E
+Q
+Q
+W;b;d
+W;test; 1
+W;gen;
+in;d
+W;gen;in;test; 1
+W;gen;in;test; 2
+W;gen;in;test; 1
+W;gen;in;PFHRD
+W;test; 2
+W;test; 1
+=
++
+×
+ 
+ 
+(13.154) 
+waarin: 
+EW;gen;gi;in;d 
+is de gemiddelde dagelijkse hoeveelheid energie die door opwekker gi gebruikt 
+wordt ten behoeve van warm tapwater, in kWh/dag; 
+EW;gen;in;test;i(x) is het dagelijkse energiegebruik voor tappatroon i(x), waar nodig gecorrigeerd voor 
+zomer en winter, en voor de ingestelde temperatuur in kWh/dag, op bovenwaarde; 
+QW;b;d 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater, volgens formule (13.157), in kWh/dag;  
+QW;test;i(x) 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater voor tappatroon i(x), in kWh/dag; 
+EW;gen;in;PFHRD is de gemiddelde dagelijkse hoeveelheid energie die door toepassing van PFHRD in 
+opwekker gi wordt gereduceerd ten behoeve van warm tapwater, in kWh/dag. 
+De tappatronen met beschikbare gegevens zijn gekenmerkt door een code (3XS, XXS, XS, S, M, L, XL, 
+XXL, 3XL en 4XL) met oplopende hoeveelheid geleverde energie (Qref volgens het tappatroon).  
+OPMERKING 4 
+De tappatronen in NEN-EN 13203-2 en NEN-EN 16147 zijn gelijk aan elkaar en worden met 
+uitzondering van 3XL en 4XL ook gebruikt voor het energielabel. 
+OPMERKING 5 
+De geleverde energie per dag (Qref volgens het tappatroon) betreft bij S 2,1 kWh, M 5,845 kWh, 
+L 11,655 kWh, XL 19,07 kWh, XXL 24,53 kWh, 3XL 46,76 kWh en 4XL 93,52 kWh. 
+Bij toepassing van de tappatronen i1 en i2 gelden de volgende randvoorwaarden: 
+Wanneer voor i2 tappatroon L wordt toegepast, dan moet i1 volgens tappatroon S of M zijn bij 
+voorraadtoestellen en volgens tappatroon M bij doorstroomtoestellen. Bij elektrische warmtepompen 
+mag formule (13.154) alleen toegepast worden, indien QW;b;d ≤ (QW;test;i=L + QW;test;i=XL)/2. 
+Wanneer voor i2 tappatroon XL wordt toegepast, dan moet i1 volgens tappatroon S, M of L zijn bij 
+voorraadtoestellen en volgens tappatroon M of L bij doorstroomtoestellen. Bij elektrische 
+warmtepompen mag formule (13.154) alleen toegepast worden indien QW;b;d ≤ QW;test;i=XL. 
+Wanneer voor i2 tappatroon XXL wordt toegepast, dan moet i1 volgens tappatroon M, L of XL zijn. 
+Formule (13.154) mag alleen toegepast worden: 
+— bij toepassing van tappatroon XL voor i1 indien QW;b;d ≥ QW;test;i=L;  
+— bij toepassing van tappatroon L voor i1 indien QW;b;d ≥ QW;test;i=M; 
+612
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 613 ---
+Withdrawn final
+Ingetrokken definitief
+— bij toepassing van elektrische warmtepompen indien QW;b;d ≤ QW;test;i=XXL. 
+Voor de bepaling van het energiegebruik bij een lagere QW;b;d dan hierboven aangegeven mag voor 
+tapklasse M of S gebruik worden gemaakt van cW,EU;gen conform tabel 13.18. 
+Wanneer voor i2 tappatroon 3XL wordt toegepast dan moet i1 volgens tappatroon X zijn. Formule 
+(13.154) mag alleen toegepast worden, indien QW;b;d ≥ QW;test;i=XL en bij elektrische warmtepompen 
+indien QW;b;d ≤ QW;test;i=3XL. 
+Wanneer voor i2 tappatroon 4XL wordt toegepast dan moet i1 volgens tappatroon 3XL zijn. 
+Formule (13.154) mag alleen toegepast worden indien QW;b;d ≥ (QW;test;i=XXL + QW;test;i=3XL)/2 en bij 
+elektrische warmtepompen indien QW;b;d ≤ QW;test;i=4XL. 
+Randvoorwaarden toepasbare tappatronen en randvoorwaarde voor extrapolatie in formule (13.154).  
+Bij toepassing voor i2 
+van tappatroon: 
+Toegestaan 
+tappatroon voor i1 
+Randvoorwaarde extrapolatie 
+algemeen: 
+QW;b;d ≥  
+bij elektrische 
+warmtepompen: QW;b;d ≤  
+L 
+M of 
+S bij voorraadtoestel 
+ 
+(L+XL)/2 
+XL 
+M of L of 
+S bij voorraadtoestel 
+ 
+XL 
+XXL 
+M 
+ 
+XXL 
+L 
+M 
+XXL 
+XL  
+L 
+XXL 
+3XL 
+XXL 
+XL 
+3XL 
+4XL 
+3XL 
+(XXL+3XL)/2 
+4XL 
+ 
+OPMERKING 6 
+Door voor het tappatroon i1 uit te gaan van tappatroon S of M wordt impliciet aangesloten bij 
+het minimale tapwaterverbruik in een woonfunctie met 1 bewoner. Alleen in het geval van DWTW en/of een 
+zonneboiler kan het warmtapwatergebruik lager zijn dan volgens tappatroon S. 
+PFHRD-bijdrage 
+De indirecte PFHRD-bijdrage aan warm water is een aftrekpost op het energiegebruik voor warm water. De 
+dagelijkse bijdrage wordt gemeten volgens prEN 13203-7 onder referentiecondities. De werkelijke jaarlijkse 
+PFHRD-bijdrage aan het energiegebruik voor warm water is direct afhankelijk van de gebruikte hoeveelheid gas 
+voor verwarming. 
+Indien het opwektoestel geen PFHRD heeft, geldt EW;gen;in;PFHRD = 0. Bepaal de bijdrage van een 
+eventueel aanwezige PFHRD als volgt: 
+∑
+gi;
+j mi
+mi
+E
+E
+f
+12
+W;gen;in;PFHRD
+H;gen;
+cr; ;
+;in
+PFHRD
+=1
+=
+/365×
+ 
+(13.156a) 
+f
+Q
+Q
+PFHRD
+gas;CH;test
+gas;indirect
+=
+/
+ 
+(13.156b) 
+613
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 614 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+EW;gen;in;PFHRD is de gemiddelde dagelijkse hoeveelheid energie die door toepassing van PFHRD in 
+opwekker gi wordt gereduceerd ten behoeve van warm tapwater, in kWh/dag; 
+EH;gen;gi;cr;j;mi;in is het energiegebruik van het toestel gi (=combitoestel) voor ruimteverwarming, in 
+maand mi, bepaald volgens 9.2.1, in kWh op bovenwaarde; 
+fPFHRD 
+is de dimensieloze factor voor de opbrengst van de PFHRD t.g.v. het 
+verwarmingsbedrijf van het combitoestel; 
+Qgas;indirect 
+is de reductie op het brandstofgebruik door de indirecte PFHRD-bijdrage, bepaald 
+volgens prEN 13203-7 volgens de 24 uurstestmethode, in kWh/dag op 
+onderwaarde; 
+Qgas;CH;test 
+is het brandstofgebruik voor verwarming, gemeten tijdens de test voor de bepaling 
+van Qgas;indirect, in kWh/dag op onderwaarde. 
+De verkorte testmethode van prEN 13203-7 voor de bepaling van de indirecte PFHRD-bijdrage is niet 
+toegestaan, omdat er in prEN 13203-7 geen opgave wordt gedaan van het brandstofverbruik voor 
+verwarming.  
+Opwekkingsrendement 
+∑
+W;gen;
+out;
+W;b;d =
+365
+gi;
+mi
+mi
+Q
+Q
+(13.157) 
+W;b;d
+W;gen;
+W;gen;
+in;d
+=
+gi
+gi;
+Q
+η
+E
+(13.158) 
+waarin: 
+QW;b;d 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater, in kWh/dag;  
+QW;gen;gi;out;mi is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, in kWh; 
+ηW;gen;gi 
+is het dimensieloze opwekkingsrendement voor warm tapwater van opwekker gi; 
+EW;gen;gi;in;d 
+is de gemiddelde dagelijkse hoeveelheid energie die door opwekker gi gebruikt 
+wordt ten behoeve van warm tapwater, in kWh/dag. 
+Rond ηW;gen;gi af naar beneden op een veelvoud van 0,025 voor met gas gestookte toestellen of 0,05 
+voor elektrische toestellen.  
+Hulpenergie 
+Bepaal het hulpenergiegebruik, WW;aux;gen;gi,mi voor toestellen die zijn getest volgens NEN-EN 13203-2 
+als volgt: 
+𝑊𝑊W;gen;d = 𝑊𝑊W;gen;test;𝑖𝑖1 + ൫𝑊𝑊W;gen;test;𝑖𝑖2 −𝑊𝑊W;gen;test;𝑖𝑖1൯×
+൫𝑄𝑄W;b;d−𝑄𝑄W;test;𝑖𝑖1൯
+൫𝑄𝑄W;test;𝑖𝑖2−𝑄𝑄W;test;𝑖𝑖1൯  (13.159) 
+614
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 615 ---
+Withdrawn final
+Ingetrokken definitief
+𝑊𝑊W;aux;gen;𝑔𝑔𝑔𝑔,𝑚𝑚𝑚𝑚= 𝑊𝑊W;gen;d × 365 ×
+𝑡𝑡𝑚𝑚𝑚𝑚
+𝑡𝑡an 
+(13.160) 
+waarin: 
+WW;gen;d 
+is de dagelijkse hoeveelheid hulpenergie die door opwekker gi gebruikt wordt ten 
+behoeve van warm tapwater, in kWh/dag; 
+WW;gen;test;i(x) is het dagelijkse elektrische-hulpenergiegebruik voor tappatroon i(x), in kWh/dag; 
+gebruik hiervoor Eelecco;i(x); 
+Eelecco;i 
+is het dagelijkse elektrische-hulpenergiegebruik voor tappatroon i, in kWh/dag 
+(in NEN-EN 13203–2 inclusief energiegebruik voor stand-by); 
+QW;b;d 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater, volgens formule (13.157), in kWh/dag;  
+QW;test;i(x) 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater voor tappatroon i(x), in kWh/dag; 
+WW;aux;gen;gi,mi is het elektrische-hulpenergiegebruik van opwekkingstoestel gi, in maand mi, 
+in kWh; 
+tmi 
+is de lengte van maand mi, bepaald volgens 17.2, in h; 
+tan 
+is de lengte van het jaar, bepaald volgens 17.2, in h. 
+Bij de bepaling van het hulpenergiegebruik moet parallel aan de uitgangspunten, zoals vermeld bij 
+‘Energiegebruik per dag’, rekening worden gehouden met de volgende tappatronen: 
+Het tappatroon i1 moet volgens tappatroon S of M zijn bij voorraadtoestellen en volgens tappatroon M 
+bij doorstroomtoestellen. 
+Het tappatroon i2 moet volgens tappatroon L of XL zijn. 
+Voor toestellen die zijn getest volgens NEN-EN 16147, geldt: WW;aux;gen;gi,mi = 0. Het elektrische-
+hulpenergiegebruik is reeds meegenomen in het opwekkingsrendement zoals hiervoor bepaald. 
+Bij toepassing van een combitoestel wordt het hulpenergiegebruik voor zowel de opwekking van 
+warm tapwater als voor verwarming bepaald bij het onderdeel verwarming. Dan geldt WW;aux;gen;gi,mi = 0. 
+Terugwinbare systeemverliezen 
+Bij toepassing van de meetgegevens voor het opwekkingsrendement uit deze paragraaf kunnen de 
+terugwinbare verliezen die optreden bij een warmtepomp op ventilatieretourlucht en bij 
+combitoestellen met een geïntegreerd voorraadvat, als volgt worden bepaald: 
+(
+)
+(
+)
+−
+
+
+
+
+
+
+
+
+i
+i
+i
+mi
+zi,gi,mi
+i
+i
+zi
+i
+,
+i
+s
+i;
+i
+i
+s
+E
+E
+Q
+A
+t
+Q
+E
+Q
+E
+Q
+Q
+t
+A
+g;
+g;
+W
+W;gen;in;test; 2
+W;gen;in;test; 1
+W;test; 1
+W;gen;ls;rbl;
+W;gen;in;test; 2
+W;test; 2
+W;gen;in;test; 1
+W;test; 2
+W;test; 1
+an
+-
+=
+×
+×
+×365×
+×
+-
+ 
+(13.160a) 
+waarin: 
+EW;gen;in;test;i(x) is het dagelijkse energiegebruik voor tappatroon i(x), waar nodig gecorrigeerd voor 
+zomer en winter, in kWh/dag, op bovenwaarde; 
+615
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 616 ---
+Withdrawn final
+Ingetrokken definitief
+QW;test;i(x) 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater voor tappatroon i(x), in kWh/dag; 
+tmi 
+is de lengte van maand mi, bepaald volgens 17.2, in h; 
+tan 
+is de lengte van het jaar, bepaald volgens 17.2, in h; 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend in m2;  
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie wordt 
+bepaald, en dat geheel of gedeeltelijk is aangesloten op het collectieve 
+gebouwsysteem si voor de functie warm tapwater, volgens formules (13.19b) of 
+(13.20a), in m2. 
+Voor de overige typen opwekkers geldt QW;gen;ls;rbl;zi,gi,mi = 0. 
+Voor de hulpenergie geldt: 
+De teruggewonnen energie van het hulpenergiegebruik van de opwekker voor warm tapwater: 
+gi,mi
+QW;gen;aux;rvd;
+= 0  
+De terugwinbare energie van het hulpenergiegebruik van de opwekker voor ruimteverwarming: 
+gi,mi
+QW;gen;aux;ls;rbl;
+= 0  
+waarin: 
+QW;gen;aux;rvd;gi,mi 
+is de voor warm tapwater teruggewonnen energie van het hulpenergiegebruik 
+van opwekker gi, in maand mi, in kWh; 
+QW;gen;aux;ls;rbl;gi,mi is de voor ruimteverwarming terugwinbare energie van het hulpenergiegebruik 
+van opwekker gi, in maand mi, in kWh. 
+OPMERKING 7 
+In NEN-EN 13203-2 en NEN-EN 16147 ontbreekt een bepalingsmethode voor de 
+(terugwinbare) verliezen via het voorraadvat en/of de behuizing van het toestel.  
+OPMERKING 8 
+De verliezen en daarmee ook het terugwinbare deel daarvan worden via ecodesign beperkt. 
+13.8.4.3 
+Getest met 24 uursmetingen, bij één tappatroon 
+Voor warmtapwatertoestellen die conform NEN-EN 16147 zijn beproefd bij (slechts) één Europees 
+tappatroon, mag het opwekkingsrendement ηW;gen;gi worden bepaald volgens: 
+i
+gi
+i
+Q
+c
+η
+E
+W,EU;gen
+W;test; (x)
+W;gen;
+W;gen;in;test; (x)
+×
+=
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+(13.160b) 
+waarin: 
+ηW;gen;gi 
+is het dimensieloze opwekkingsrendement voor warm tapwater van opwekker gi; 
+QW;test;i(x) 
+is de dagelijkse hoeveelheid energie die door opwekker gi geleverd wordt ten 
+behoeve van warm tapwater voor tappatroon i(x), in kWh/dag; 
+616
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 617 ---
+Withdrawn final
+Ingetrokken definitief
+cW,EU;gen  
+is de dimensieloze correctiefactor voor de warmtebehoefte en de Europese 
+toepassingsklasse; 
+EW;gen;in;test;i(x) is het dagelijkse energiegebruik voor tappatroon i(x), waar nodig gecorrigeerd voor 
+zomer en winter, en voor de ingestelde temperatuur in kWh/dag, op bovenwaarde. 
+Rond ηW;gen;gi af naar beneden op een veelvoud van 0,05 voor elektrische toestellen.  
+Bepaal voor individuele warmtepompen de rekenwaarde voor de correctiefactor voor de 
+warmtebehoefte en de Europese toepassingsklasse volgens tabel 13.18 uit de brutowarmtebehoefte 
+QW;dis;nren;an en de toepassingsklasse waarbij het rendement van de warmtepomp is gemeten. 
+Tabel 13.18 — Correctiefactor voor opwekkingsrendement voor individuele warmtepompen 
+bij gebruik van meetresultaten op basis van Europese tappatronen 
+cW,EU;gen 
+QW;dis;nren;an 
+kWh 
+Toepassingsklasse: energiegebruik 
+gemeten volgens Europees 
+tappatroon 
+≤ 765 
+2 130 
+4 250 
+≥ 6 960 
+S 
+1 
+N.v.t. 
+N.v.t. 
+N.v.t. 
+M 
+0,56 
+1 
+N.v.t. 
+N.v.t. 
+L 
+0,43 
+0,74 
+1 
+N.v.t. 
+XL 
+0,35 
+0,61 
+0,79 
+1 
+waarin: 
+QW;dis;nren;an is de jaarlijkse brutowarmtebehoefte voor warmtapwaterbereiding, bepaald 
+ 
+volgens 13.1.2, in kWh. 
+ 
+Voor warmtepompen is toepassing in een hogere klasse dan waarbij het rendement is gemeten, niet 
+toegelaten, omdat bij gebruik in een hogere klasse de vergrote inzet van de (elektrische) 
+bijstookvoorziening kan leiden tot een significante daling van het rendement.  
+Voor tappatronen groter dan XL zijn geen correctiefactoren beschikbaar. 
+ 
+Hulpenergie 
+Voor toestellen die zijn getest volgens NEN-EN 16147 geldt: WW;aux;gen;gi,mi = 0. Het elektrisch 
+hulpenergiegebruik is reeds meegenomen in het opwekkingsrendement zoals hiervoor bepaald. 
+Terugwinbare systeemverliezen 
+Bij toepassing van de meetgegevens voor het opwekkingsrendement uit deze paragraaf geldt voor de 
+terugwinbare verliezen: QW;gen;ls;rbl;zi;gi;mi = 0. 
+13.8.4.4 
+Boosterwarmtepompen 
+Een boosterwarmtepomp is een individuele warmtapwaterwarmtepomp met een 
+hogetemperatuurwarmtebron, met een watertemperatuur boven 12 °C. 
+617
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 618 ---
+Withdrawn final
+Ingetrokken definitief
+De boosterwarmtepomp kan worden toegepast in woningen en gebouwen met een (collectief) 
+verwarmingssysteem waarbij de warmte van een (collectief) verwarmingssysteem, al dan niet 
+aangevuld met warmte onttrokken aan de woning of het gebouw, fungeert als 
+hogetemperatuurwarmtebron. 
+De benodigde warmte uit het verwarmingssysteem en het elektrische-(hulp)energiegebruik kan 
+worden bepaald aan de hand van meetgegevens of forfaitaire rekenwaarden uit deze paragraaf. 
+OPMERKING 1 
+Wanneer gebruik wordt gemaakt van de forfaitaire rekenwaarden, kan geen rekening worden 
+gehouden met koeling (onttrekking van warmte uit het koelsysteem in de woning of het gebouw) door de 
+boosterwarmtepomp. 
+OPMERKING 2 
+Een boosterwarmtepomp in een woongebouw wordt meestal toegepast in combinatie met een 
+circulatiesysteem met cv-water dat wordt ingezet voor warm tapwater. Dit kan een systeem op basis van externe 
+warmtelevering zijn of een collectief gebouwsysteem voor de functie verwarming. Circulatieleidingen na een 
+eventuele afleverset moeten worden meegenomen als separaat circulatiesysteem. 
+Opwekkingsrendement 
+Bij een boosterwarmtepomp wordt het elektrische-energiegebruik van het toestel samen met het 
+hulpenergiegebruik berekend. Er is voor de berekening geen opwekkingsrendement nodig. Voor het 
+energiegebruik voor warm tapwater volgens formule (13.3) geldt: 
+EW;si,gi(=BWP),ci(=el) = 0 
+Benodigde warmte uit verwarmingssysteem 
+De door de boosterwarmtepomp voor warm tapwater onder praktijkomstandigheden gebruikte 
+energie, geleverd door een (collectief) verwarmingssysteem (EW;gen;in;prac;BWP;hj;mi), wordt als volgt 
+bepaald: 
+mi
+mi
+E
+E
+W;gen;in;hj;
+W;gen;in;prac;BWP;hj;
+=
+ 
+(13.161) 
+Alleen indien het (hulp)energiegebruik WW;aux;gen;gi,mi met behulp van de forfaitaire waarden bepaald is, 
+mag de door de boosterwarmtepomp voor warm tapwater onder praktijkomstandigheden gebruikte 
+energie, geleverd door het (collectieve) verwarmingssysteem (EW;gen;in(;prac);BWP;hj;mi) op onderstaande 
+wijze worden bepaald: 
+W;gen;
+out;
+W;gen;in;prac;BWP;hj;
+W;gen
+gen;hj
+=
+×
+gi;
+mi
+mi
+Q
+E
+η
+c
+ 
+(13.162) 
+waarin: 
+EW;gen;in;prac;BWP;hj;mi is de door de BWP onder praktijkomstandigheden gebruikte energie, geleverd 
+door het (collectieve) verwarmingssysteem si = hj, per maand, in kWh; 
+EW;gen;in;hj;mi 
+is de door de BWP onder praktijkomstandigheden gebruikte energie, geleverd 
+door het (collectieve) verwarmingssysteem si = hj, per maand, bepaald volgens 
+bijlage W, in kWh; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2, in kWh; 
+618
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 619 ---
+Withdrawn final
+Ingetrokken definitief
+ηgen;hj 
+is het dimensieloze opwekkingsrendement van een boosterwarmtepomp voor 
+de benodigde warmte uit een verwarmingssysteem. Bij koppeling aan een 
+verwarmingssysteem met een ontwerpaanvoertemperatuur op 24 °C geldt 
+ηgen;hj = 1,15, bij koppeling aan een verwarmingssysteem met een 
+ontwerpaanvoertemperatuur op 40 °C geldt ηgen;hj = 1,05. Voor afwijkende 
+ontwerpaanvoertemperaturen tussen 24 °C en 40 °C mag worden 
+geïnterpoleerd. Voor ontwerpaanvoertemperaturen van 20 °C tot 24 °C en van 
+40 °C tot en met 44 °C mag worden geëxtrapoleerd. Voor 
+ontwerpaanvoertemperaturen lager dan 20 °C en hoger dan 44 °C moet de 
+waarde van ηgen;hj bij 20 °C respectievelijk 44 °C aangehouden worden. Indien 
+het temperatuurniveau van het verwarmingssysteem niet bekend is, geldt 
+ηgen;hj = 1,15; 
+cW;gen 
+is de dimensieloze correctiefactor voor de warmtebehoefte en de 
+toepassingsklasse, volgens 13.8.4.7.3. Voor boosterwarmtepompen geldt 
+klasse 4; 
+OPMERKING 3 
+De energie die wordt geleverd door het (collectieve) verwarmingssysteem EW;gen;in;prac;hj;mi, 
+wordt meegenomen in hoofdstuk 9 bij het energiegebruik van verwarming. 
+(Hulp)energiegebruik 
+Bepaal het (hulp)energiegebruik van een boosterwarmtepomp WW;aux;gen;gi(=BWP),mi volgens bijlage W. 
+Het (hulp)energiegebruik van de boosterwarmtepomp mag ook forfaitair als volgt bepaald worden: 
+gi;
+mi
+gi,mi
+gi
+Q
+W
+COP
+c
+f
+W;gen;
+out;
+W;aux;gen;
+prac;
+W;BWP
+W;gen
+=
+×
+×
+ 
+(13.163) 
+waarin: 
+WW;aux;gen;gi,mi 
+is het elektrische-hulpenergiegebruik van opwekkingstoestel gi, in maand mi, 
+in kWh;  
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2.3, in kWh; 
+COPW;BWP 
+is de dimensieloze COP van de BWP, met de forfaitaire waarde 4 voor een 
+verwarmingssysteem met een ontwerpaanvoertemperatuur op 40 °C en een 
+forfaitaire waarde 3 voor een verwarmingssysteem met een 
+ontwerpaanvoertemperatuur op 24 °C. Voor afwijkende 
+ontwerpaanvoertemperaturen tussen 24 °C en 40 °C mag worden geïnterpoleerd. 
+Voor ontwerpaanvoertemperaturen van 20 °C tot 24 °C en van 40 °C tot en met 
+44 °C mag worden geëxtrapoleerd. Voor ontwerpaanvoertemperaturen lager dan 
+20 °C en hoger dan 44 °C moet de waarde van ηgen;hj bij 20 °C respectievelijk 44 °C 
+aangehouden worden. Indien het temperatuurniveau van het verwarmingssysteem 
+niet bekend is, kan voor de COP uitgegaan worden van 3; 
+cW;gen 
+is de dimensieloze correctiefactor voor de warmtebehoefte en de toepassingsklasse, 
+volgens 13.8.4.7.3. Voor boosterwarmtepompen geldt klasse 4; 
+fprac;gi 
+is de dimensieloze correctiefactor voor het opwekkingsrendement van toestel gi 
+onder praktijkomstandigheden. Bij toepassing van het forfaitaire 
+opwekkingsrendement van boosterwarmtepompen geldt fprac;gi = 1,0. In overige 
+gevallen geldt fprac;gi = 0,95. 
+619
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 620 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 4 
+Het (hulp)energiegebruik en de COP van een boosterwarmtepomp worden in principe bepaald 
+voor de situatie dat het (collectieve) verwarmingssysteem wordt bedreven met een stooklijn. Alleen indien met 
+een verklaring aangetoond kan worden dat het collectieve verwarmingssysteem jaarrond functioneert op een 
+vastgelegde continue aanvoertemperatuur, kunnen het (hulp)energiegebruik en de COP van een 
+boosterwarmtepomp bepaald worden bij die vastgelegde continue aanvoertemperatuur. 
+Terugwinbare systeemverliezen 
+Bereken de terugwinbare systeemverliezen volgens de bepalingswijze in 13.6.5. Gebruik daarbij de 
+verliezen van de boosterwarmtepomp QW;BWP;ls;tot;mi uit formule (13.164) voor de verliezen van het 
+voorraadvat Qsto;ls;si,mi. Indien het (hulp)energiegebruik forfaitair is bepaald, geldt voor de 
+terugwinbare systeemverliezen Qsto;ls;si,mi = 0. 
+mi
+mi
+Q
+Q
+W;BWP;ls;tot;
+W;hp;ls;
+/3,6
+=
+(13.164) 
+waarin: 
+QW;BWP;ls;tot;mi is de hoeveelheid warmteverlies van een boosterwarmtepomp, in maand mi, 
+in kWh; 
+QW;hp;ls;mi 
+is de door de verdamper opgenomen warmte ter compensatie van warmteverlies, 
+per maand, volgens bijlage W, in MJ. 
+Rond QW;BWP;ls;tot;mi af naar beneden op twee significante cijfers tot de dichtstbijzijnde getalswaarde uit 
+de in bijlage X gegeven reeks.  
+13.8.4.5 
+Direct verwarmde voorraadvaten 
+13.8.4.5.1 
+Algemeen 
+Voor gasboilers tot en met 150 kW worden de rekenwaarden bepaald op basis van forfaitaire waarden 
+of op basis van eventuele meetresultaten volgens NEN-EN 89 volgens 13.8.4.5.2. Indien testgegevens 
+volgens NEN-EN 13203-2 (tot 70 kW) beschikbaar zijn, dan kan gebruik worden gemaakt van de 
+methode volgens 13.8.4.2. 
+Voor elektroboilers is geen normatieve methode beschikbaar. Hiervoor moet gebruik worden gemaakt 
+van de forfaitaire waarden volgens 13.8.4.5.3.  
+Voor overige direct verwarmde voorraadvaten (waaronder gasboilers vanaf 150 kW) moet gebruik 
+worden gemaakt van de forfaitaire waarden volgens 13.8.4.5.4. 
+OPMERKING 
+Indien testresultaten beschikbaar zijn volgens NEN-EN 13203-2:2015, kan gebruik worden 
+gemaakt van de methode in 13.8.4.2. 
+13.8.4.5.2 
+Gasboilers tot en met 150 kW 
+Bepaal het opwekkingsrendement van een gasboiler voor toestellen tot en met 150 kW als volgt: 
+gi;
+mi
+gi,mi
+gi;
+mi
+Q
+η
+E
+W;gen;
+out;
+W;gen;
+W;gen;
+in;
+=
+(13.165) 
+gi;
+mi
+gi;
+mi
+mi
+E
+Q
+Q
+W;gen;
+in;
+W;gen;
+out;
+gen;ls;tot;
++
+=
+(13.166; NEN-EN 15316-4-1:2017, (34)) 
+620
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14

@@ -1,0 +1,3021 @@
+
+--- Pagina 67 ---
+Withdrawn final
+Ingetrokken definitief
+5 Toepassing en bepaling energieprestatie 
+5.1 Toepassing 
+5.1.1 Principe 
+De bepaling van de energieprestatie kent vier toepassingsgebieden: 
+1) woningbouw nieuwbouw; 
+2) woningbouw bestaande bouw; 
+3) utiliteitsbouw nieuwbouw; 
+4) utiliteitsbouw bestaande bouw. 
+De bepalingsmethode is voor de vier toepassingsgebieden zoveel mogelijk gelijk gehouden. Op 
+sommige onderdelen wijkt de bepalingsmethode echter af. 
+Om het risico van oververhitting te beperken is in deze NTA een vereenvoudigde methode opgenomen 
+voor het berekenen van het risico van te hoge temperaturen. Het risico van te hoge temperaturen 
+wordt per rekenzone en per oriëntatie bepaald aan de hand van de maand juli (TOjuli-indicator). Deze 
+berekening hoeft alleen uitgevoerd te worden voor rekenzones waarin geen actief koelsysteem 
+aanwezig is. In de Omgevingsregeling zijn grenswaarden opgenomen voor de TOjuli-indicator waar 
+deze rekenzones aan moeten voldoen. Rekenzones waarin een actief koelsysteem is aangebracht, 
+worden geacht te voldoen aan dit criterium. 
+OPMERKING 
+In het kader van de TOjuli-indicator worden in 5.7.1 nadere duiding en randvoorwaarden 
+gegeven voor de bepaling van een actief koelsysteem. 
+5.1.2 Toepassingsvoorschrift 
+Tabel 5.1 — Indeling in toepassingsgebieden 
+Toepassing 
+Toepassingsgebied 
+In geval van bepaling van de energieprestatie in het kader 
+van minimumeisen in het Bouwbesluit/Besluit bouwwerken 
+leefomgeving 
+Woningbouw nieuwbouw 
+Utiliteitsbouw nieuwbouw 
+In geval van bepaling van de energieprestatie in het kader 
+van het opstellen van een energielabel. 
+In geval van bepaling van de energieprestatie in het kader 
+van het kunnen toetsen aan afgesproken of beoogde 
+niveaus. 
+In geval van bepaling van de energieprestatie in het kader 
+van subsidieregelingen en fiscale regelingen. 
+In geval van bepaling van de energieprestatie in het kader 
+van het WWS. 
+In geval van bepaling van de energieprestatie in het kader 
+van de regeling Energie Prestatie Vergoeding. 
+Woningbouw bestaande bouw 
+Utiliteitsbouw bestaande 
+bouw 
+67
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 68 ---
+Withdrawn final
+Ingetrokken definitief
+Tot de categorie woningbouw behoren woonfuncties en logiesfuncties niet zijnde een logiesgebouw. 
+Hiertoe behoren bijvoorbeeld een eengezinswoning, een woonwagen, een woonboot, een 
+studentenhuis, een vakantiehuisje en een individueel verwarmd vakantieappartement. 
+Tot de categorie utiliteitsbouw behoren alle gebruiksfuncties, met uitzondering van woonfuncties en 
+logiesfuncties niet zijnde een logiesgebouw, waarvoor de wetgeving aangeeft dat er een eis wordt 
+gesteld aan de integrale energieprestatie. 
+5.1.3 Aanwijzingen voor het maken van energieberekeningen 
+In deze NTA zijn alle rekenregels opgenomen voor het bepalen van de energieprestatie. Om deze 
+rekenregels toe te kunnen passen zullen in een aantal gevallen aanvullende aanwijzingen of 
+toelichtingen nodig zijn. Deze extra aanvullingen en toelichtingen zijn opgenomen in de 
+opnameprotocollen ISSO 82.1 (woningbouw) en ISSO 75.1 (utiliteitsbouw). 
+Bij het maken van een energieprestatieberekening moet de berekening worden uitgevoerd op basis 
+van gedetailleerde invoergegevens. Dit geldt voor zowel nieuwbouw als bestaande bouw. Terugvallen 
+(inklappen) op forfaitaire waarden is alleen toegestaan als gedetailleerde informatie (deels) ontbreekt 
+of als de forfaitaire rekenmethode leidt tot een conservatieve berekening van de energieprestatie. Het 
+uitgangspunt hierbij is dan dat de te verzamelen informatie visueel waarneembaar is of op een andere 
+wijze (eenvoudig) te achterhalen is (bijvoorbeeld op basis van facturen, productinformatie of 
+tekeningen). In de opnameprotocollen ISSO 82.1 en ISSO 75.1 wordt beschreven welke inspanning 
+men hiervoor geacht wordt te plegen om zodoende de energieprestatie van het gebouw zo goed 
+mogelijk te kunnen berekenen.  
+Een aantal gegevens zal altijd, met een bepaalde nauwkeurigheid, opgenomen moeten worden. Dit 
+betreft dan minimale invoer die nodig is om een berekening te kunnen maken. Als deze invoer niet 
+beschikbaar is, dan kan er geen berekening gemaakt worden. In de opnameprotocollen ISSO 82.1 en 
+ISSO 75.1 wordt beschreven om welke parameters dit gaat, hoe men deze informatie moet verzamelen 
+en met welke nauwkeurigheid dit gedaan moet worden. Een voorbeeld van een dergelijke aanwijzing 
+is de wijze waarop de gebruiksoppervlakte en de verliesoppervlakte van een gebouw opgemeten 
+moeten worden.  
+Er zijn ook situaties waarin invoergegevens gedeeltelijk ontbreken. In deze NTA staat op een aantal 
+plekken welke invoer aangehouden moet worden in de situatie dat alle informatie over een specifiek 
+kenmerk ontbreekt: men zal dan de meest conservatieve forfaitaire waarde moeten aanhouden. Het 
+zal in de praktijk echter ook voorkomen dat er wel beperkte informatie is, maar dat niet alle gegevens 
+beschikbaar zijn. In de opnameprotocollen ISSO 82.1 en ISSO 75.1 wordt beschreven welke 
+invoerwaarden in die gevallen aangehouden kunnen worden.  
+Sommige gedetailleerde bepalingsmethoden in deze NTA zijn vrij arbeidsintensief, waarbij de 
+bijbehorende forfaitaire methode vrijwel altijd leidt tot een conservatief resultaat. In die situaties mag 
+de forfaitaire methode gebruikt worden, ook al zijn de gedetailleerde gegevens beschikbaar. In de 
+opnameprotocollen ISSO 82.1 en ISSO 75.1 wordt beschreven wanneer dit toegestaan is.  
+Een energieprestatieberekening moet reproduceerbaar en handhaafbaar zijn. Om dat te bereiken moet 
+een energieprestatieadviseur in het projectdossier vastleggen welke uitgangspunten gebruikt zijn bij 
+het opstellen van de berekening inclusief een (korte) verantwoording over eventueel gemaakte keuzes 
+ter vereenvoudiging van de berekening. 
+5.1.4 Beleidsmatige aspecten 
+In dit hoofdstuk zijn de formules opgenomen waarmee, op basis van de berekende energiegebruiken 
+uit hoofdstukken 7 t/m 17, de energieprestatie-indicatoren bepaald kunnen worden. Bij deze 
+68
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 69 ---
+Withdrawn final
+Ingetrokken definitief
+omrekening naar energieprestatie-indicatoren worden diverse beleidsmatige uitgangspunten 
+gehanteerd zoals de primaire energiefactoren en de definitie van de energieprestatie-indicatoren. Dit 
+hoofdstuk is hiermee volledig beleidsmatig. De getallen en uitgangspunten in dit hoofdstuk kunnen in 
+de toekomst, zonder tussenkomst van een NTA/NEN-commissie, door het ministerie van Binnenlandse 
+Zaken aangepast worden.  
+Naast de beleidsfactoren zoals in dit hoofdstuk genoemd, staan in hoofdstukken 6 t/m 17 ook nog 
+diverse beleidsfactoren in de lopende tekst opgenomen. Bijlage Z geeft een overzicht waar in 
+NTA 8800 beleidsfactoren worden genoemd. De bij deze parameters in NTA 8800 opgenomen 
+waarden moeten worden beschouwd als vaste waarden. 
+5.2 Energieprestatie, algemeen 
+Met deze NTA kunnen de energieprestatie-indicatoren van een gebouw bepaald worden. Er wordt 
+onderscheid gemaakt tussen drie afzonderlijke energieprestatie-indicatoren (EweH+C;nd;ventsys=C1; EwePTot 
+en RERPrenTot). 
+Een belangrijk aspect van deze energieprestatie-indicatoren vormt de berekening van het 
+karakteristieke primaire-fossiele-energiegebruik, EPTot, van een gebouw. Ongeacht de toepassing 
+wordt van het gebouw het karakteristieke primaire-fossiele-energiegebruik, EPTot, bepaald, als de som 
+van het naar primaire fossiele energie omgerekende gebruik aan: 
+— verwarming, 
+— bevochtiging, 
+— ventilatoren, 
+— verlichting, 
+— koeling, 
+— ontvochtiging, 
+— warm tapwater, 
+en het totaal aan daarbij gebruikte hulpenergie, verminderd met de naar primaire fossiele energie 
+omgerekende eventuele op eigen perceel geproduceerde (gebouwgebonden) energie, zie 5.5. 
+Voorbeelden hiervan zijn elektriciteitslevering van een gebouwgebonden pv-installatie of 
+warmtekrachtinstallatie. 
+De wijze van berekening van de energieprestatie-indicatoren en de eisen ten aanzien van deze 
+indicatoren in de bouwregelgeving zijn op elkaar afgestemd. De voor de berekening van deze 
+indicatoren geldende uitgangspunten (klimaatgegevens, aard van het gebruik van het gebouw, 
+gebruiksgedrag e.d.) zijn een onlosmakelijk onderdeel van deze afstemming. 
+Naast de bepalingsmethode voor de energieprestatie-indicatoren is in deze NTA ook een methode 
+opgenomen voor het bepalen van de TOjuli-indicator. Deze indicator geeft voor rekenzones die niet 
+voorzien zijn van een actief koelsysteem, een indicatie van het risico op oververhitting per oriëntatie, 
+zie 5.7. 
+OPMERKING 1 
+De minimumeisen in de bouwregelgeving zijn vastgesteld op basis van analyses van de relatie 
+tussen de berekende energieprestatie-indicatoren en de aard en omvang van de energiebesparende maatregelen 
+waarmee voor verschillende gebouwafmetingen, -vormen en -uitvoeringen deze energieprestatie kan worden 
+bereikt. Het hanteren van andere uitgangspunten bij de berekening zou leiden tot andere waarden voor de 
+69
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 70 ---
+Withdrawn final
+Ingetrokken definitief
+energieprestatie-indicatoren en dus, zonder gelijktijdige aanpassing van de minimumeisen, tot een andere aard 
+en omvang van de energiebesparende maatregelen dan in de regelgeving is bedoeld. Eenzelfde redenering geldt 
+voor de relatie tussen de energieprestatie-indicatoren en de indeling in energieprestatieklassen. Met andere 
+woorden: als aan de uitgangspunten wordt getornd, kan de berekende energieprestatie niet meer worden 
+getoetst aan de eis respectievelijk worden vertaald naar een energieprestatieklasse. 
+OPMERKING 2 
+Deze NTA geeft een karakterisering van de energieprestatie van de bouwkundige onderdelen 
+van het gebouw en de installaties. Het bepaalde karakteristieke energiegebruik en het werkelijke energiegebruik 
+kunnen van elkaar verschillen door bijvoorbeeld verschillen in gebruiksgedrag en buitenklimaat. 
+OPMERKING 3 
+Toepassing van deze NTA op gebouwen waarin de warmtehuishouding van het 
+productieproces dominant is, kan leiden tot niet-rationele afwegingen om het energiegebruik te beperken. Dit 
+speelt met name voor industriële processen, waarvoor geen energieprestatie-eisen en energielabelplicht geldt. 
+5.3 Bepaling van de energieprestatie-indicatoren 
+5.3.1 Bepaling van de energieprestatie-indicatoren 
+Met deze NTA kunnen de drie energieprestatie-indicatoren bepaald worden: 
+— de energiebehoefte-indicator EweH+C;nd;ventsys=C1; 
+— de primaire-fossiele-energie-indicator EwePTot; 
+— het aandeel hernieuwbare energie RERPrenTot. 
+In het Bouwbesluit/Besluit bouwwerken leefomgeving is per gebruiksfunctie een eis aan de drie 
+energieprestatie-indicatoren gesteld. Daarnaast stelt het Bouwbesluit/Besluit bouwwerken 
+leefomgeving dat bij utiliteitsgebouwen met meer dan één gebruiksfunctie waarvoor een eis aan de 
+energieprestatie geldt, dat de energieprestatie van het utiliteitsgebouw getoetst moet worden aan de 
+naar gebruiksoppervlakte (Ag) gewogen energieprestatie-eisen van de in dat gebouw aanwezige 
+gebruiksfuncties waarvoor een eis geldt. De gebruiksoppervlakte moet bepaald worden volgens 6.6. 
+In combinatiegebouwen met zowel woningbouw- als utiliteitsbouwfuncties moeten de 
+energieprestatie-indicatoren separaat voor het woningbouwdeel en het utiliteitsbouwdeel bepaald 
+worden. De woningbouwfuncties en utiliteitsbouwfuncties mogen dus niet oppervlakte-gewogen 
+gesommeerd worden.  
+Voor het bepalen van de toetswaarde voor de EweH+C;nd;ventsys=C1-indicator geldt voor een groot aantal 
+gebruiksfuncties een afhankelijkheid van de compactheid van het gebouw (Als/Ag-verhouding). Bij de 
+bepaling van de gebruiksoppervlakte-gewogen EweH+C;nd;ventsys=C1-eis van een gebouw geldt dat er 
+gekeken moet worden naar de Als/Ag-verhouding van het binnen de energieprestatieberekening 
+beschouwde gebouw, en dus niet naar de Als/Ag-verhoudingen van de afzonderlijke gebruiksfuncties. 
+De gebruiksoppervlakte moet bepaald worden volgens 6.6, de verliesoppervlakte moet bepaald 
+worden volgens 6.7. 
+Voor het bepalen van de toetswaarde voor de EweH+C;nd;ventsys=C1-indicator geldt voor een beperkt aantal 
+gebruiksfuncties daarnaast ook nog een afhankelijkheid van specifieke interne warmtecapaciteit 
+(Dm;int;eff) van het gebouw. In die gevallen moet de naar gebruiksoppervlak gewogen gemiddelde 
+specifieke interne warmtecapaciteit bepaald worden van het binnen de energieprestatieberekening 
+beschouwde gebouw. Als deze oppervlakte gewogen gemiddelde specifieke interne warmtecapaciteit 
+onder een in het Bouwbesluit/Besluit bouwwerken leefomgeving opgegeven grenswaarde ligt, dan 
+wordt een opslag op de EweH+C;nd;ventsys=C1-eis gehanteerd. De gebruiksoppervlakte moet bepaald 
+worden volgens 6.6, de specifieke interne warmtecapaciteit moet bepaald worden volgens 7.7. 
+70
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 71 ---
+Withdrawn final
+Ingetrokken definitief
+VOORBEELDEN: 
+— Een utiliteitsgebouw bestaat uit de volgende gebruiksoppervlakten: 1 000 m2 kantoorfunctie en 500 m2 
+bijeenkomstfunctie. De energieprestatie-eis van het gebouw waaraan getoetst moet worden, bedraagt in dat 
+geval (1 000× eis kantoorfunctie + 500×bijeenkomstfunctie)/1 500. Deze gebruiksoppervlakte-gewogen 
+bepaling van de energieprestatie-eisen geldt voor zowel EweH+C;nd;ventsys=C1 als voor EwePTot en RERPrenTot. Voor 
+de bepaling van de EweH+C;nd;ventsys=C1-eis geldt dat gekeken wordt naar de Als/Ag-verhouding van het gehele 
+gebouw. 
+— Een utiliteitsgebouw bestaat uit de volgende gebruiksoppervlakten: 1 000 m2 kantoorfunctie, 500 m2 
+bijeenkomstfunctie en 10 000 m2 industriefunctie. Aan de industriefunctie worden geen energieprestatie-
+eisen gesteld, waardoor de berekening van de energieprestatie-indicatoren zich beperkt tot de 
+kantoorfunctie en de bijeenkomstfunctie. De energieprestatie-eis van het gebouw waaraan getoetst moet 
+worden, bedraagt in dat geval (1 000×eis kantoorfunctie + 500×bijeenkomstfunctie)/1 500. Voor de bepaling 
+van de EweH+C;nd;ventsys=C1 eis geldt dat gekeken wordt naar de Als/Ag-verhouding van het gedeelte van het 
+gebouw waarin zich de bijeenkomst- en kantoorfuncties bevinden. 
+— Een combinatiegebouw bestaat uit de volgende gebruiksoppervlakten: 1 000 m2 kantoorfunctie, 500 m2 
+bijeenkomstfunctie en 1 000 m2 woonfunctie. In dit geval moeten twee berekeningen gemaakt worden: een 
+woningbouwberekening en een utiliteitsbouwberekening. Daarbij wordt de woningbouwberekening getoetst 
+aan de energieprestatie-eisen voor woonfuncties. Voor het utiliteitsbouwdeel geldt dat de energieprestatie-
+eis voor het utiliteitsgebouw wederom gebruiksoppervlakte gewogen bepaald moet worden, en dus 
+(1 000×eis kantoorfunctie + 500× bijeenkomstfunctie)/1 500 bedraagt. Voor de bepaling van de 
+EweH+C;nd;ventsys=C1-eis voor het woningbouwdeel geldt dat gekeken wordt naar de Als/Ag-verhouding van het 
+gedeelte van het gebouw waarin zich de woonfuncties bevinden, en voor het bepalen van de 
+EweH+C;nd;ventsys=C1-eis voor het utiliteitsgebouw geldt dat gekeken wordt naar de Als/Ag-verhouding van het 
+gedeelte van het gebouw waarin zich de bijeenkomst- en kantoorfuncties bevinden. 
+— Een woning van 150 m2 waarbij de begane grondverdieping (50 m2) en de eerste verdieping (50 m2) een 
+specifieke interne warmtecapaciteit hebben van 360 kJ/m2K, en de zolderverdieping (50 m2) een lichte 
+opbouw heeft met specifieke interne warmtecapaciteit van bijvoorbeeld 120 kJ/m2K. De totale oppervlakte 
+gewogen gemiddelde specifieke interne warmtecapaciteit Dm;int;eff is in dat geval (100 × 360 + 50 × 120)/150 
+= 280 kJ/m2K. Op basis van deze waarde moet beoordeeld worden of er sprake is van een opslag op de 
+EweH+C;nd;ventsys=C1-eis. De grenswaarde waaronder een opslag van toepassing is, is vermeld in het 
+Bouwbesluit/Besluit bouwwerken leefomgeving. 
+Bij een bestaand utiliteitsgebouw, waarin zich meerdere gebruiksfuncties bevinden, worden de 
+energielabelklassegrenzen op een vergelijkbare manier (gebruiksoppervlakte-gewogen) omgerekend. 
+Op basis van deze gebruiksoppervlakte-gewogen energielabelklassegrenzen kan vervolgens bepaald 
+worden in welke energielabelklasse het beschouwde utiliteitsgebouw valt. 
+OPMERKING 1 
+De energielabelklasse van een bestaand gebouw wordt bepaald op basis van de EwePTot-
+indicator. De EweH+C;nd;ventsys=C1-indicator en RERPrenTot-indicator zullen informatief op het energielabel vermeld 
+worden. 
+OPMERKING 2 
+De Weighted Energy Performance, Ewe, is de officiële term en afkorting in 
+NEN-EN-ISO 52000-1.  
+5.3.1.1 
+Energiebehoefte-indicator EweH+C;nd;ventsys=C1 
+Bepaal de energiebehoefte-indicator EweH+C;nd;ventsys=C1 met: 
+𝐸𝐸𝐸𝐸𝐸𝐸H+C;nd;ventsys=C1 =
+𝑄𝑄H+C;nd;ventsys=C1
+𝐴𝐴g;tot
+ 
+(5.1) 
+71
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 72 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+QH+C;nd;ventsys =C1 
+is de energiebehoefte van het desbetreffende gebouw, bij een vast 
+ventilatiesysteem C1, bepaald volgens 5.4.2, in kWh per jaar; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende 
+gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+Rond de energiebehoefte-indicator naar boven af op een veelvoud van 0,01. 
+5.3.1.2 
+Primaire-fossiele-energie-indicator EwePTot 
+Bepaal de primaire-fossiele-energie-indicator EwePTot met: 
+𝐸𝐸𝐸𝐸𝐸𝐸PTot =
+𝐸𝐸PTot
+𝐴𝐴g;tot
+(5.2) 
+waarin: 
+EPTot 
+is het karakteristieke primaire-fossiele-energiegebruik per jaar van het 
+desbetreffende gebouw, bepaald volgens 5.5, in kWh per jaar; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende 
+gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+Rond de primaire-fossiele-energie-indicator naar boven af op een veelvoud van 0,01. 
+Indien er in de berekening van de energieprestatie van een gebouw gebruikgemaakt wordt 
+van een kwaliteitsverklaring voor externe warmte- en/of koudelevering, dan moet de 
+EwePTot-indicator twee keer berekend worden: 
+— Allereerst moet de EwePTot-indicator berekend worden met inachtneming van de op de 
+kwaliteitsverklaring vermelde waarden voor de primaire energiefactor (fP;del;dh/dw/dc) van de externe 
+warmte- en/of koudelevering. Het resultaat van deze eerste berekening wordt aangeduid met de 
+term EwePTot;EMGverklaring. 
+— Vervolgens moet de berekening nogmaals uitgevoerd worden, maar dan met de forfaitaire waarden 
+voor de primaire energiefactor (fP;del;dh/dw/dc) van de externe warmte- en/of koudelevering zoals 
+opgenomen in tabel 5.2. Het resultaat van deze tweede berekening wordt aangeduid met de term 
+EwePTot;EMGforf. 
+5.3.1.3 
+Aandeel hernieuwbare energie RERPrenTot 
+Het aandeel hernieuwbare energie wordt als volgt gedefinieerd: De totale hoeveelheid 
+gebruikte hernieuwbare energie in een gebouw als percentage van de hoeveelheid 
+hernieuwbare en niet-hernieuwbare energie die nodig is voor gebouwgebonden systemen. 
+Bepaal het aandeel hernieuwbare energie RERPrenTot met: 
+𝑅𝑅𝑅𝑅𝑅𝑅PrenTot =
+𝐸𝐸PrenTot
+𝐸𝐸PTot+ 𝐸𝐸PrenTot × 100 % 
+(5.3) 
+72
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 73 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+EPrenTot is het hernieuwbare energiegebruik per jaar van het desbetreffende gebouw, 
+bepaald volgens 5.6, in kWh per jaar; 
+EPTot 
+is het karakteristieke primaire-fossiele-energiegebruik per jaar van het 
+desbetreffende gebouw, bepaald volgens 5.5, in kWh per jaar. 
+Rond het aandeel hernieuwbare energie naar beneden af op 0,1 %. 
+Indien er in de berekening van de energieprestatie van een gebouw gebruikgemaakt wordt 
+van een kwaliteitsverklaring voor externe warmte- en/of koudelevering dan moet de 
+RERPrenTot-indicator twee keer berekend worden: 
+— Allereerst moet de RERPrenTot-indicator berekend worden met inachtneming van de op de 
+kwaliteitsverklaring vermelde waarden voor de primaire energiefactor (fP;del;dh/dw/dc) en de primaire 
+hernieuwbare energiefactor (fPren;dh/dw/dc) van de externe warmte- en/of koudelevering. Het 
+resultaat van deze eerste berekening wordt aangeduid met de term RERPrenTot;EMGverklaring. 
+— Vervolgens moet de berekening nogmaals uitgevoerd worden, maar dan met de forfaitaire waarden 
+voor de primaire energiefactor (fP;del;dh/dw/dc) en de primaire hernieuwbare energiefactor 
+(fPren;dh/dw/dc) van de externe warmte- en/of koudelevering zoals opgenomen in tabel 5.2 en 
+tabel 5.4. Het resultaat van deze tweede berekening wordt aangeduid met de term RERPrenTot;EMGforf.  
+Het aandeel hernieuwbare energie wordt uitgedrukt in de RERPrenTot-indicator, De absolute 
+hoeveelheid energie wordt berekend met de hernieuwbare-energie-indicator: EwePrenTot. De 
+berekening hiervan verloopt als volgt: 
+PrenTot
+PrenTot
+g;tot
+E
+Ewe
+A
+=
+ 
+waarin: 
+EPrenTot 
+is het hernieuwbare energiegebruik per jaar van het desbetreffende gebouw, 
+bepaald volgens 5.6, in kWh per jaar; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het 
+desbetreffende gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+Rond de hernieuwbare-energie-indicator naar beneden af op een veelvoud van 0,01. 
+Indien er in de berekening van de energieprestatie van een gebouw gebruikgemaakt wordt 
+van een kwaliteitsverklaring voor externe warmte- en/of koudelevering, dan moet de 
+EwePrenTot-indicator twee keer berekend worden op een vergelijkbare wijze als hierboven 
+beschreven is voor de RERPrenTot-indicator. 
+5.3.2 Warmtebehoefte van het gebouw 
+In situaties waarbij alleen de nettowarmtebehoefte van het gebouw relevant is, wordt de 
+nettowarmtebehoefte-indicator EH;nd als volgt bepaald: 
+H;nd;net
+H;nd
+g;tot
+= Q
+E
+A
+ 
+(5.3a) 
+73
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 74 ---
+Withdrawn final
+Ingetrokken definitief
+QH;nd;net 
+is de nettowarmtebehoefte per jaar van het desbetreffende gebouw, bepaald volgens 
+(5.3b), in kWh per jaar; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende 
+gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+Rond de warmtebehoefte-indicator naar boven af op een veelvoud van 0,01. 
+H;nd;net
+H;nd;net;mi
+mi
+Q
+Q
+=∑
+(5.3b) 
+H;nd;net;
+H;nd;net; ;
+mi
+zi mi
+zi
+Q
+Q
+=∑
+(5.3c) 
+waarin: 
+QH;nd;net 
+is de nettowarmtebehoefte per jaar van het desbetreffende gebouw in kWh 
+per jaar; 
+QH;nd;net;mi 
+is de nettowarmtebehoefte per maand van het desbetreffende gebouw in 
+kWh per maand; 
+QH;nd;net;zi;mi 
+is de nettowarmtebehoefte per maand per rekenzone in kWh per maand, 
+bepaald volgens 7.2.1 met inachtneming van de volgende uitgangspunten: 
+— (∆ηH;gn;zi;mi × QH;gn;zi;mi) = 0; 
+— ηH;gn;zi;mi × (QH;ls;rbl;zi;mi - QC;ls;rbl;zi;mi) = 0. 
+OPMERKING 1 
+De nettowarmtebehoefte wordt elders ook wel aangeduid als ‘warmtevraag’; deze begrippen 
+zijn synoniem. 
+OPMERKING 2 
+De standaard voor woningisolatie geeft aan wanneer een woning goed genoeg is geïsoleerd om 
+aardgasvrij te worden. De standaard is een advies voor een maximale nettowarmtebehoefte (EH;nd volgens 
+formule (5.3a)) van een woning en wordt weergegeven op het energielabel. 
+De standaard voor woningisolatie wordt per woning vastgesteld (Nwoon = 1). 
+De hoogte van de standaard voor woningisolatie wordt als volgt bepaald: 
+— in het geval van een niet in een woongebouw gelegen grondgebonden woning, een woonboot, een 
+woonwagen en een logiesfunctie niet gelegen in een logiesgebouw, met bouwjaar tot en met 1945: 
+Indien: 
+Als/Ag;tot < 1,0: 
+𝐸𝐸H;Standaard = 60 
+Indien: 
+Als/Ag;tot ≥ 1,0: 
+𝐸𝐸H;Standaard = 60 + 105 × ൬
+𝐴𝐴ls
+𝐴𝐴g;tot −1,0൰ 
+— in het geval van een niet in een woongebouw gelegen grondgebonden woning, een woonboot, een 
+woonwagen en een logiesfunctie niet gelegen in een logiesgebouw, met bouwjaar na 1945: 
+Indien: 
+Als/Ag;tot < 1,0: 
+𝐸𝐸H;Standaard = 43 
+Indien: 
+Als/Ag;tot ≥ 1,0: 
+𝐸𝐸H;Standaard = 43 + 40 × ൬
+𝐴𝐴ls
+𝐴𝐴g;tot −1,0൰ 
+74
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 75 ---
+Withdrawn final
+Ingetrokken definitief
+— in het geval van een woonfunctie gelegen in een woongebouw met bouwjaar tot en met 1945: 
+ 
+Indien: 
+Als/Ag;tot < 1,0: 
+𝐸𝐸H;Standaard = 95 
+Indien: 
+Als/Ag;tot ≥ 1,0: 
+𝐸𝐸H;Standaard = 95 + 70 × ൬
+𝐴𝐴ls
+𝐴𝐴g;tot −1,0൰ 
+— in het geval van een woonfunctie gelegen in een woongebouw met bouwjaar na 1945: 
+ 
+Indien: 
+Als/Ag;tot < 1,0: 
+𝐸𝐸H;Standaard = 45 
+Indien: 
+Als/Ag;tot ≥ 1,0: 
+𝐸𝐸H;Standaard = 45 + 45 × ൬
+𝐴𝐴ls
+𝐴𝐴g;tot −1,0൰ 
+waarin: 
+EH;Standaard 
+is de standaard voor woningisolatie, in kWh/m2 per jaar; 
+Als 
+is de totale verliesoppervlakte van de thermische zone, bepaald volgens 6.7, in m2; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende 
+gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+Rond de standaard voor woningisolatie rekenkundig af op een geheel getal. 
+5.4 Energiebehoefte van een gebouw bij vast ventilatiesysteem C1 
+5.4.1 Principe  
+Om de energiebehoefte ten behoeve van de EweH+C;nd;ventsys=C1-indicator te kunnen bepalen worden de 
+warmtebehoefte en de koudebehoefte van het gebouw (exclusief de invloed van terugwinbare 
+systeemverliezen) gesommeerd, waarbij voor de ventilatie uitgegaan wordt van een vast 
+ventilatiesysteem, te weten C1 volgens S.2.1, dat af kan wijken van het werkelijke ventilatieconcept, zie 
+5.4.3. Daarnaast worden ook voor de interne warmtelast van tapwater en verlichting vaste waarden 
+aangehouden. 
+OPMERKING 1 
+De keuze om de ventilatiecomponent in de EweH+C;nd;ventsys=C1-indicator vast te zetten door 
+middel van een vaste waarde is een beleidsmatige keuze. Deze keuze is gemaakt om te voorkomen dat de 
+uitkomst van de EweH+C;nd;ventsys=C1-indicator sterk afhankelijk is van het gekozen ventilatiesysteem (verschil 
+tussen systeem C en D met warmteterugwinning). Dit vaste ventilatiesysteem wordt alleen gehanteerd in de 
+EweH+C;nd;ventsys=C1-berekening. In alle andere berekeningen (EwePTot, RERPrenTot, TOjuli) wordt gerekend met het 
+werkelijke ventilatiesysteem.  
+OPMERKING 2 
+Door het vastzetten van het ventilatiesysteem is de EweH+C;nd;ventsys=C1-berekening in feite een 
+soort schilindicatorberekening en wordt de uitkomst van de berekening bepaald door de geometrie, de isolatie, 
+de infiltratie, de oriëntatie, de zontoetreding, de interne warmte en de thermische massa van het gebouw. Het 
+werkelijk toegepaste ventilatiesysteem heeft geen invloed op de EweH+C;nd;ventsys=C1. 
+OPMERKING 3 
+Voor de interne warmtelast van tapwatersystemen en verlichtingssystemen worden vaste 
+waarden aangehouden om te voorkomen dat de interne warmtelast door verlichting of tapwater grote invloed 
+heeft op de EweH+C;nd;ventsys=C1-indicator. Het is een beleidsmatige keuze om deze componenten vast te zetten in de 
+EweH+C;nd;ventsys=C1-berekening. In alle andere berekeningen (EwePTot, RERPrenTot, TOjuli) worden deze parameters 
+wel meegenomen in de berekening, en wordt gerekend met de werkelijke waarden. 
+75
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 76 ---
+Withdrawn final
+Ingetrokken definitief
+5.4.2 Rekenregels 
+Bepaal de jaarlijkse energiebehoefte, QH+C;nd;ventsys=C1, in kWh, als de som van de jaarlijkse warmte- en 
+koudebehoefte van het gebouw volgens vergelijkingen (5.4) t/m (5.8).  
+H+C;nd;ventsys=C1
+H;nd;ventsys=C1
+C;nd;ventsys=C1
+=
++
+Q
+Q
+Q
+(5.4) 
+H;nd;ventsys=C1
+H;nd;ventsys=C1;mi
+mi
+Q
+Q
+=∑
+(5.5) 
+H;nd;ventsys=C1;
+H;nd;ventsys=C1; ;
+mi
+zi mi
+zi
+Q
+Q
+=∑
+(5.6) 
+C;nd;ventsys=C1
+C;nd;ventsys=C1;mi
+mi
+Q
+Q
+=∑
+(5.7) 
+C;nd;ventsys=C1;
+C;nd;ventsys=C1; ;
+mi
+zi mi
+zi
+Q
+Q
+=∑
+(5.8) 
+waarin: 
+QH+C;nd;ventsys=C1 is de energiebehoefte per jaar van het desbetreffende gebouw met het 
+vaste ventilatiesysteem C1 ten behoeve van de EweH+C;nd;ventsys=C1-
+indicator, in kWh per jaar; 
+QH;nd; ventsys=C1 
+is de warmtebehoefte per jaar van het desbetreffende gebouw met het 
+vaste ventilatiesysteem C1 ten behoeve van de EweH+C;nd;ventsys=C1-
+indicator, in kWh per jaar; 
+QC;nd; ventsys=C1 
+is de koudebehoefte per jaar van het desbetreffende gebouw met het 
+vaste ventilatiesysteem C1 ten behoeve van de EweH+C;nd;ventsys=C1-
+indicator, in kWh per jaar; 
+QH;nd; ventsys=C1;mi is de warmtebehoefte per maand van het desbetreffende gebouw met het 
+vaste ventilatiesysteem C1 ten behoeve van de EweH+C;nd;ventsys=C1-
+indicator, in kWh per maand; 
+QC;nd; ventsys=C1,mi is de koudebehoefte per maand van het desbetreffende gebouw met het 
+vaste ventilatiesysteem C1 ten behoeve van de EweH+C;nd;ventsys=C1-
+indicator, in kWh per maand; 
+QH;nd; ventsys=C1;zi;mi is de warmtebehoefte per maand per rekenzone in kWh per maand, 
+bepaald volgens 7.2.1 met inachtneming van de volgende 
+uitgangspunten: 
+— (∆ηH;gn;zi;mi × QH;gn;zi;mi) = 0; 
+— ηH;gn;zi;mi × (QH;ls;rbl;zi;mi - QC;ls;rbl;zi;mi) = 0; 
+— QH;ht;zi;mi, ηH;gn;zi;mi en QH;gn;zi;mi worden berekend met een vast ventilatiesysteem 
+met de uitgangspunten zoals beschreven in 5.4.3; 
+76
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 77 ---
+Withdrawn final
+Ingetrokken definitief
+— de interne warmtelast voor utiliteitsfuncties, zoals beschreven in 7.5.2.2, 
+wordt bepaald met de volgende vaste waarden: 
+— ΦH;int;W;zi;mi = 0; 
+— ΦH;int;L;zi;mi = qL;usi × Ag;zi, waarbij de volgende vaste waarden voor qL;usi 
+gebruikt worden:  
+— bijeenkomstfunctie voor kinderopvang 2,5 W/m2; 
+— bijeenkomstfunctie overig 2,5 W/m2; 
+— celfunctie 2,25 W/m2; 
+— gezondheidszorgfunctie met bedgebied 2,5 W/m2; 
+— gezondheidszorgfunctie overig 1,25 W/m2; 
+— kantoorfunctie 1,25 W/m2; 
+— logiesfunctie 1,75 W/m2; 
+— onderwijsfunctie 1 W/m2; 
+— sportfunctie 3 W/m2; 
+— winkelfunctie 3 W/m2; 
+— in rekenzones waarin meer dan één gebruiksfunctie is gelegen, wordt 
+qL;usi gewogen naar de gebruiksoppervlakte van de gebruiksfuncties usi 
+in de rekenzone. 
+QC;nd;ventsys=C1;zi;mi is de koudebehoefte per maand per rekenzone in kWh per maand, 
+bepaald volgens 7.2.2, met inachtneming van de volgende 
+uitgangspunten: 
+— QH;ls;rbl;zi;mi = 0; 
+— QC;ls;rbl;zi;mi = 0; 
+— ∆ηC;ht;zi;mi × QC;ht;zi;mi = 0; 
+— QC;gn;zi;mi, ηC;ht;zi;mi en QC;ht;zi;mi worden berekend met een vast ventilatiesysteem 
+met de uitgangpunten zoals beschreven in 5.4.3. 
+— de interne warmtelast voor utiliteitsfuncties, zoals beschreven in 7.5.2.2, 
+wordt bepaald met de volgende vaste waarden: 
+— ΦC;int;W;zi;mi = 0; 
+— ΦC;int;L;zi;mi = qL;usi × Ag;zi, waarbij de volgende vaste waarden voor qL;usi 
+gebruikt worden: 
+— bijeenkomstfunctie voor kinderopvang 2,5 W/m2; 
+— bijeenkomstfunctie overig 2,5 W/m2; 
+77
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 78 ---
+Withdrawn final
+Ingetrokken definitief
+— celfunctie 2,25 W/m2; 
+— gezondheidszorgfunctie met bedgebied 2,5 W/m2; 
+— gezondheidszorgfunctie overig 1,25 W/m2; 
+— kantoorfunctie 1,25 W/m2; 
+— logiesfunctie 1,75 W/m2; 
+— onderwijsfunctie 1 W/m2; 
+— sportfunctie 3 W/m2; 
+— winkelfunctie 3 W/m2; 
+— in rekenzones waarin meer dan één gebruiksfunctie is gelegen, wordt 
+qL;usi gewogen naar de gebruiksoppervlakte van de gebruiksfuncties usi 
+in de rekenzone. 
+OPMERKING 
+De interne warmtelast voor tapwater bij utiliteitsgebouwen is op nul gesteld om te voorkomen 
+dat het type tapwatersysteem invloed heeft op de EweH+C;nd;ventsys=C1-indicator. De keuze om de interne 
+warmtelast voor tapwater voor alle functies op 0 te zetten is een beleidsmatige keuze. De interne warmtelast 
+voor verlichting is om vergelijkbare redenen ook vastgezet, en is tevens een beleidsmatige keuze. Bij 
+woningbouw is het niet nodig om op deze plek voor deze parameters aanvullende voorwaarden op te nemen 
+omdat de interne warmte voor tapwater in de woningbouwberekening al buiten beschouwing gelaten wordt en 
+er voor de interne warmtelast voor verlichting al met een vaste waarde gerekend wordt.  
+De bovenstaande vaste waarden voor de interne warmtelast zijn een beleidsmatige keuze waar niet 
+van afgeweken mag worden.  
+5.4.3 Vast ventilatiesysteem C1 ten behoeve van EweH+C;nd;ventsys=C1 
+5.4.3.1 
+Woningbouw 
+Voor woningbouwberekeningen moet voor het vaste ventilatiesysteem ten behoeve van de 
+EweH+C;nd;ventsys=C1-indicator uitgegaan worden van een C1-ventilatiesysteem met de volgende 
+kenmerken: 
+— VENT_SYS_OP = EXTRACT_OP 
+— fsys;tabel 11.5 = 1,00 
+— fctrl;tabel 11.5 = 1,00 
+— fsys;tabel 11.6 = 1,00 
+— fctrl;tabel 11.6 = 1,00 
+— fterugregel = 1,0 
+— qv;ODA;req;des;reken;zi;mi = qv;ODA;req;des;zi;mi 
+— qusi;spec;functieg, wordt ontleend aan tabel 11.8, waarbij de ondergrens zoals bepaald volgens formules
+(11.63), (11.64) en (11.65) niet van toepassing is 
+78
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 79 ---
+Withdrawn final
+Ingetrokken definitief
+— qv;comb = 0 
+— qv;hp = 0 
+— flea;du = 1,05 
+— geen LBK aanwezig 
+— geen naverwarming van de toevoerlucht in een component voor natuurlijke toevoer: 
+∆Tpreh;roosters;zi;mi = 0 
+— geen sprake van volledige benutting van de maximale ventilatiecapaciteit bij koudebehoefte. 
+5.4.3.2 
+Utiliteitsbouw 
+Voor utiliteitsbouwberekeningen moet voor het vaste ventilatiesysteem ten behoeve van de 
+EweH+C;nd;ventsys=C1-indicator, uitgegaan worden van een C1-ventilatiesysteem met de volgende 
+kenmerken: 
+— VENT_SYS_OP = EXTRACT_OP 
+— fsys;tabel 11.5 = 1,00 
+— fctrl;tabel 11.5 = 1,32 
+— fsys;tabel 11.6 = 1,00 
+— fctrl;tabel 11.6 = 1,00 
+— fterugregel = 1,0 
+— qv;ODA;req;des;reken;zi;mi = qv;ODA;req;des;zi;mi 
+— qv;comb = 0 
+— qv;hp = 0 
+— flea;du = 1,05 
+— geen LBK aanwezig 
+— geen naverwarming van de toevoerlucht in een component voor natuurlijke toevoer: 
+∆Tpreh;roosters;zi;mi = 0 
+— geen sprake van volledige benutting van de maximale ventilatiecapaciteit bij koudebehoefte. 
+OPMERKING 
+Het vaste ventilatiesysteem voor zowel woningbouw als utiliteitsbouw heeft de volgende 
+kenmerken: C1-ventilatiesysteem met een ventilatiedebiet dat afgeleid is van de minimumventilatie-eisen uit het 
+Bouwbesluit/Besluit bouwwerken leefomgeving, waarbij geen sprake is van terugregeling van het 
+ventilatiedebiet. Om te voorkomen dat een woongebouw met hele kleine wooneenheid een andere 
+EweH+C;nd;ventsys=C1-indicator heeft dan hetzelfde gebouw met grotere wooneenheden, is de ondergrens voor het 
+minimale ventilatiedebiet per wooneenheid niet van toepassing in de EweH+C;nd;ventsys=C1-berekening. Voor 
+situaties met koudebehoefte wordt ervan uitgegaan dat de ventilatiecapaciteit maximaal gebruikt wordt voor 
+passieve koeling. Het effect van eventuele aanwezige overventilatie voor warmtepompen, of extra ventilatie voor 
+open verbrandingstoestellen wordt niet meegenomen in de EweH+C;nd;ventsys=C1-berekeningen. Voor de bepaling 
+van de EweH+C;nd;ventsys=C1-indicator wordt ervan uitgegaan dat er geen luchtbehandelingskast (LBK) is en dat er 
+79
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 80 ---
+Withdrawn final
+Ingetrokken definitief
+geen verwarmingslinten in de toevoerroosters zijn. Als in het gebouw een serre aanwezig is waarin de 
+ventilatielucht op natuurlijke wijze voorverwarmd wordt, dan mag dit effect in de EweH+C;nd;ventsys=C1-bepaling 
+meegenomen worden.  
+De keuze voor het bovenstaande vaste ventilatiesysteem is een beleidsmatige keuze waar niet van 
+afgeweken mag worden.  
+5.5 Karakteristiek primaire-fossiele-energiegebruik van een gebouw 
+5.5.1 Principe 
+In de bepalingsmethode van het karakteristieke primaire-fossiele-energiegebruik (EPTot) wordt, 
+gegroepeerd naar energiedrager, het maandelijkse primaire-fossiele-energiegebruik bepaald voor 
+verwarming (H), bevochtiging (hum), ventilatoren (V), verlichting (L), koeling (C), ontvochtiging 
+(dhum), warm tapwater (W) en het totaal aan daarbij gebruikte hulpenergie (aux;tot). Hierbij wordt 
+het eventuele extra primaire-fossiele-energiegebruik voor de op het eigen perceel geproduceerde 
+(gebouwgebonden) energie, bijvoorbeeld elektriciteitsproductie van een gebouwgebonden 
+warmtekrachtinstallatie, meegerekend. 
+De eventuele op eigen perceel geproduceerde (gebouwgebonden) energie, bijvoorbeeld zonnestroom, 
+windenergie en elektriciteitslevering van een gebouwgebonden warmtekrachtinstallatie, wordt hierbij 
+in mindering gebracht, na omrekening naar de hoeveelheid vermeden primaire fossiele energie. 
+Samen levert dit het karakteristieke primaire-fossiele-energiegebruik per maand. Dit karakteristieke 
+primaire-fossiele-energiegebruik per maand wordt vervolgens over de maanden heen gesommeerd tot 
+het karakteristieke primaire-fossiele-energiegebruik per jaar.  
+OPMERKING 1 
+In de afgenomen energie is passieve zonne-energie, benutting van daglicht en thermische 
+zonne-energie reeds verrekend. Passieve zonne-energie is verrekend in de berekening van de warmte- en 
+koudebehoefte. Benutting van daglicht is verrekend in de berekening van de energie voor verlichting. Actieve 
+thermische zonne-energie is direct in de gebouwinstallatie verrekend. Ook andere vormen van vermeden 
+afgenomen energie, zoals bij warmte/koudeopslag in de bodem, kunnen meteen in de gebouwinstallatie zijn 
+verrekend en zijn dan geen expliciete term in de berekening van het karakteristieke energiegebruik, maar 
+worden impliciet wél verrekend. 
+OPMERKING 2 
+Figuur 5.1 illustreert de samenhang tussen de verschillende energiehoeveelheden. 
+80
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 81 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Figuur 5.1 — Illustratie van de samenhang tussen de verschillende 
+energiehoeveelheden 
+Algemene energie‘stromen’ en verdeling over systemen en rekenzones, per systeem 
+Per energiedrager (gas, elektriciteit e.d.) wordt de omrekening gemaakt naar primaire fossiele energie.  
+Het gebruik per energiedrager wordt opgeteld voor eventuele verschillende opwekkers met dezelfde 
+energiedrager. 
+Een of meer opwekkers leveren de energie aan het distributiesysteem, samen met een duurzaam 
+energiesysteem (bijv. zonne-energie). 
+Het distributiesysteem levert energie aan een of meer afgiftesystemen en eventuele 
+luchtbehandelingskasten. 
+Er kunnen meer distributiesystemen voorkomen. 
+Bij de omrekening van op eigen perceel geproduceerde energie naar het vermeden primaire-fossiele-
+energiegebruik, wordt onderscheid gemaakt tussen gebruik op eigen perceel (vermeden afgenomen 
+energie) en vermeden energiegebruik buiten het eigen perceel (het deel van de geproduceerde energie 
+dat wordt geëxporteerd). Vermeden afgenomen energie kan ook meteen in de gebouwinstallatie zijn 
+verrekend en is dan geen expliciete term in de berekening van het karakteristieke energiegebruik. 
+VOORBEELD 
+Een voorbeeld hiervan is thermische zonne-energie, zie opmerking 1. 
+Ventilatie (V) 1)
+Koeling (C)
+Be-/Ontvochtiging
+(hum/dehum)
+Verlichting (L)
+Warmtapw. (W)
+Gebouw
+Zon 
+thermisch
+PV**
+Thermische 
+systemen
+(incl.  
+WKK*)
+Elektriciteit
+Gas, olie, kolen, hout, ..
+Afgenomen (del)
+Geëxporteerd (exp)
+Elektriciteit
+Warmte/koude
+1): Luchttransport voor 
+ventilatie
+Apparatuur (A)
+Warmte/Koude
+Gebouw 
+behoefte (nd)
+Afgenomen door of 
+geëxporteerd van technisch 
+systeem
+Duurzaam (ren)
+Systeem deel (sys)
+= Conversiefactoren, voor 
+omzetting naar 
+karakteristiek 
+energiegebruik
+Verwarming (H)
+Externe 
+warmte/
+koude-
+levering
+Distrib. (dis) en afgifte (em)
+* WKK = gebouwgebonden warmtekrachtkoppeling
+** PV = gebouwgebonden zonnestroom (of windkracht)
+Betrokken bij energieprestatie 
+(EP):
+Niet betrokken bij 
+energieprestatie (nEP):
+Vermeden afgenomen elektriciteit 
+niet-EP functies (nEPus)
+Elektriciteit
+81
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 82 ---
+Withdrawn final
+Ingetrokken definitief
+5.5.2 Rekenregels 
+Bepaal het jaarlijkse karakteristieke primaire-fossiele-energiegebruik van het gebouw, EPTot, in kWh, 
+als de som van de maandelijkse naar primaire fossiele energie omgerekende afgenomen energie voor 
+de verschillende energiefuncties verwarming, warm tapwater, ventilatoren, verlichting, koeling, 
+bevochtiging en ontvochtiging en de bijbehorende hulpenergie. Het karakteristieke energiegebruik 
+wordt gegroepeerd per energiedrager, ci, inclusief het energiegebruik voor eventuele eigen productie 
+van warmte, koude of elektriciteit, verminderd met de naar vermeden primaire energie omgerekende, 
+op eigen perceel geproduceerde en geëxporteerde energielevering gegroepeerd naar elektriciteit en 
+thermische energie en per voorziening gi, volgens vergelijkingen (5.9) t/m (5.14). 
+OPMERKING 1 
+Zie opmerking 1 in 5.5.1. 
+OPMERKING 2 
+Vergelijking (5.10) wordt in figuur 5.1 geïllustreerd door de energiestromen links van de 
+onderbroken verticale lijn. 
+PTot
+PTot;
+=∑
+mi
+mi
+E
+E
+(5.9) 
+PTot;
+P;del;
+P;exp;T;
+P;exp;el;
+P;pr;nEPus;el
+=
+−
+−
+−
+∑
+∑
+∑
+∑
+mi
+ci
+gi
+gi
+ci
+gi
+gi
+gi
+E
+E
+E
+E
+E
+(5.10) 
+waarin voor elke energiedrager ci: 
+𝐸𝐸P;del;𝑐𝑐𝑐𝑐= 𝐸𝐸EPdel;𝑐𝑐𝑐𝑐× 𝑓𝑓P;del;𝑐𝑐𝑐𝑐 
+(5.11) 
+en: 
+𝐸𝐸P;exp;T;𝑔𝑔𝑔𝑔= 𝐸𝐸exp;T;𝑔𝑔𝑔𝑔× 𝑓𝑓P;exp;T;𝑔𝑔𝑔𝑔 
+(5.12) 
+𝐸𝐸P;exp;el;𝑔𝑔𝑔𝑔= 𝐸𝐸exp;el;𝑔𝑔𝑔𝑔× 𝑓𝑓P;exp;el;𝑔𝑔𝑔𝑔 
+(5.13) 
+𝐸𝐸P;pr;nEPus;el = 𝐸𝐸pr;nEPus;el × 𝑓𝑓P;pr;us;el 
+(5.14) 
+en waarin: 
+EPTot 
+is het jaarlijkse karakteristieke primaire-fossiele-energiegebruik van het 
+gebouw, in kWh; 
+EPTot;mi 
+is het maandelijkse karakteristieke primaire-fossiele-energiegebruik van 
+het gebouw, in kWh; 
+EP;del;ci 
+is de maandelijks afgenomen primaire fossiele energie voor energiedrager 
+ci (gas, olie, elektriciteit, …) voor het totaal aan bij de energieprestatie 
+betrokken energiefuncties en voor eventuele eigen productie van warmte, 
+koude of elektriciteit, in kWh; 
+EP;exp;T;gi  
+is de naar vermeden primaire fossiele energie omgerekende maandelijks 
+geëxporteerde warmte en/of koude, afkomstig van voorziening gi, in kWh; 
+EP;exp;el;gi 
+is de naar vermeden primaire fossiele energie omgerekende maandelijks 
+geëxporteerde elektriciteit afkomstig van voorziening gi, in kWh; 
+EP;pr;nEPus;el 
+is het maandelijkse naar vermeden primaire fossiele energie omgerekende 
+deel van de op het eigen perceel geproduceerde elektriciteit dat op het 
+82
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 83 ---
+Withdrawn final
+Ingetrokken definitief
+eigen perceel wordt gebruikt voor functies die niet zijn inbegrepen in het 
+totaal aan energiefuncties voor de energieprestatie, in kWh; 
+EEPdel;ci 
+is de maandelijks afgenomen energie voor energiedrager ci (gas, olie, 
+elektriciteit, …) voor het totaal aan bij de energieprestatie betrokken 
+energiefuncties en voor eventuele eigen productie van warmte, koude of 
+elektriciteit, bepaald volgens vergelijking (5.16), in kWh; 
+fP;del;ci 
+is de dimensieloze primaire energiefactor voor afgenomen energie, voor de 
+desbetreffende energiedrager ci (gas, olie, elektriciteit, …), bepaald volgens 
+tabel 5.2; 
+Eexp;T;gi 
+is de maandelijks geëxporteerde warmte en/of koude afkomstig van 
+voorziening gi, in kWh; 
+OPMERKING 3  
+De geëxporteerde warmte of koude is volledigheidshalve opgenomen. De 
+bepalingsmethode kent hiervoor echter geen nadere specificaties of voorwaarden. Deze 
+worden naar verwachting in de norm voor de energieprestatie op gebiedsniveau uitgewerkt. 
+fP;exp,T,gi 
+is de dimensieloze primaire energiefactor voor geëxporteerde warmte 
+en/of koude, afkomstig van voorziening gi, bepaald volgens tabel 5.2; 
+OPMERKING 4  
+Zie opmerking 3. 
+Eexp;el;gi 
+is de totale maandelijks geëxporteerde hoeveelheid elektriciteit afkomstig 
+van voorziening gi, bepaald volgens 5.5.4, in kWh; 
+fP;exp;el;gi 
+is de dimensieloze primaire energiefactor voor geëxporteerde elektriciteit 
+afkomstig van voorziening gi, bepaald volgens tabel 5.2; 
+Epr;nEPus;el 
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat op 
+het eigen perceel wordt gebruikt voor functies die niet zijn inbegrepen in 
+het totaal aan energiefuncties voor de energieprestatie, bepaald volgens 
+5.5.4.1, in kWh; 
+fP;pr;us;el 
+is de dimensieloze primaire energiefactor voor de op het eigen perceel 
+geproduceerde elektriciteit dat op het eigen perceel wordt gebruikt ter 
+dekking van het eigen gebruik, bepaald volgens tabel 5.2. 
+OPMERKING 5 
+Het maandelijkse karakteristieke energiegebruik kan negatief worden bij een relatief grote 
+hoeveelheid eigen geproduceerde elektriciteit (voor eigen gebruik binnen de energieprestatiefuncties, voor 
+ander eigen gebruik en/of voor export). Dit is toegelaten. De uitkomst voor de maandelijks afgenomen primaire 
+energie kan weliswaar niet negatief worden, maar de maandelijkse hoeveelheid eigen geproduceerde 
+elektriciteit die wordt gebruikt voor functies die niet zijn inbegrepen in het totaal aan energiefuncties voor de 
+energieprestatie plus eventueel geëxporteerde energie, omgerekend naar vermeden primaire energie, kan de 
+hoeveelheid maandelijks afgenomen primaire energie overtreffen. 
+De maandelijks afgenomen energie voor energiedrager ci (gas, olie, elektriciteit, …) voor het totaal aan 
+bij de energieprestatie betrokken energiefuncties en voor eventuele eigen productie van warmte, 
+koude of elektriciteit is: 
+— voor elektriciteit (ci = el) gelijk aan de elektriciteit gebruikt voor de energieprestatie, 
+verminderd met het deel van de op het eigen perceel geproduceerde elektriciteit (door 
+warmtekrachtkoppeling, zonnestroom of windenergie) dat is gebruikt ter dekking van 
+het eigen gebruik voor de energieprestatie, volgens de volgende vergelijking: 
+𝐸𝐸EPdel;el = 𝐸𝐸EPus,el  −𝐸𝐸pr,EPus,el   
+(5.15) 
+83
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 84 ---
+Withdrawn final
+Ingetrokken definitief
+— voor de overige energiedragers gelijk aan de energie in de vorm van energiedrager ci die 
+is gebruikt voor de energieprestatie, volgens de volgende vergelijking: 
+𝐸𝐸𝐸𝐸Pdel;𝑐𝑐𝑐𝑐= 𝐸𝐸EPus;𝑐𝑐𝑐𝑐 
+(5.16) 
+waarin: 
+EEPdel;ci 
+is de maandelijks afgenomen energie voor energiedrager ci (gas, olie, 
+elektriciteit, …) voor het totaal aan bij de energieprestatie betrokken 
+energiefuncties en voor eventuele eigen productie van warmte, koude of 
+elektriciteit, in kWh; 
+OPMERKING 6 
+Eigen productie van warmte, koude of elektriciteit is bijvoorbeeld aardgas gebruikt in een 
+gebouwgebonden warmtekrachtinstallatie. Merk op dat de voordelen van de elektriciteitsproductie verrekend 
+worden in de termen Epr;EPus;ci en Eexp;ci (met ci = elektriciteit). 
+EEPus;ci 
+is het maandelijks energiegebruik voor de energieprestatie en voor eventuele 
+eigen productie van warmte, koude of elektriciteit, voor energiedrager ci, 
+bepaald volgens 5.5.3, in kWh; 
+Epr;EPus;el 
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat wordt 
+gebruikt ter dekking van het eigen gebruik voor de energieprestatie, bepaald 
+volgens 5.5.4, in kWh. 
+OPMERKING 7 
+'Dat wordt gebruikt ter dekking van het eigen gebruik voor de energieprestatie' is een 
+noodzakelijke toevoeging, omdat er doorgaans ook overig elektriciteitsgebruik is dat niet is betrokken bij de 
+energieprestatie van het gebouw, zoals de vergelijkingen in 5.5.3 laten zien. 
+OPMERKING 8 
+Bepaal het (niet-primaire) elektriciteitsgebruik voor een gebouw of een woning, in kWh, met: 
+𝐸𝐸EPdel;el;kWh = 𝐸𝐸EPdel;el 
+(5.17a) 
+En bepaal het specifieke elektriciteitsgebruik per m2 gebruiksoppervlakte voor een gebouw of een woning, in 
+kWh/m2, met: 
+=
+EPdel;el
+EPdel;el
+use
+E
+e
+A
+(5.17b) 
+OPMERKING 9 
+Bepaal het energiegebruik van externe warmte- en/of koudelevering voor een gebouw of een 
+woning, in GJ, met: 
+=
+×
+=
+∑
+EPdel;
+EPdel;dh/dw/dc
+3,6
+1 000
+dh/dw/dc
+ci
+ci
+E
+E
+(5.18a) 
+Bepaal het specifieke energiegebruik van externe warmte- en/of koudelevering, uitgedrukt in GJ per m2 
+gebruiksoppervlakte voor een gebouw of een woning (GJ/m2), met: 
+=
+×
+=
+×
+∑
+EPdel;
+EPdel;
+use
+3,6
+1 000
+e
+dh/dw/dc
+dh/dw/dc
+ci
+ci
+E
+A
+(5.18b) 
+84
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 85 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 10 Bepaal het energiegebruik van de overige energiedragers, uitgedrukt in aardgasequivalenten 
+voor een gebouw of een woning, in m3aeq, met: 
+≠
+≠
+×
+=
+∑
+EPdel;
+el, 
+dh
+EPdel;aeq
+3,6
+35,17
+ci
+ci
+ci
+E
+E
+ 
+(5.19a) 
+Bepaal het specifieke energiegebruik van de overige energiedragers, uitgedrukt in aardgasequivalenten per m2 
+gebruiksoppervlakte voor een gebouw of een woning (m3aeq/m2), met: 
+≠
+≠
+×
+=
+×
+∑
+EPdel;
+el, 
+dh
+EPdel;aeq
+3,6
+35,17
+e
+Ause
+ci
+ci
+ci
+E
+ 
+(5.19b) 
+5.5.3 Hoeveelheid voor de energieprestatie gebruikte energie per energiedrager en 
+energiefunctie  
+De maandelijkse hoeveelheid voor de energieprestatie en voor eventuele eigen productie van warmte, 
+koude of elektriciteit gebruikte energie voor energiedrager ci, EEPus;ci, is gelijk aan de som over de 
+verschillende gebouwgebonden energiefuncties, volgens de volgende vergelijking: 
+𝐸𝐸EPus;𝑐𝑐𝑐𝑐= 𝐸𝐸H;𝑐𝑐𝑐𝑐+ 𝐸𝐸hum;𝑐𝑐𝑐𝑐+ 𝐸𝐸V;𝑐𝑐𝑐𝑐+ 𝐸𝐸L;𝑐𝑐𝑐𝑐+ 𝐸𝐸C;𝑐𝑐𝑐𝑐+ 𝐸𝐸dhum;𝑐𝑐𝑐𝑐+ 𝐸𝐸W;𝑐𝑐𝑐𝑐+ 𝑊𝑊aux;tot;𝑐𝑐𝑐𝑐 
+(5.20) 
+Hierbij wordt een onderscheid aangebracht tussen de volgende energiedragers: elektriciteit (el), gas 
+(gas), biomassa (bm), externe warmtelevering (dh), externe tapwaterwarmtelevering (dw), externe 
+koudelevering (dc) en stookolie (oil). 
+OPMERKING 1 
+Een energiefunctie kan gebruikmaken van verschillende energiedragers. Bijvoorbeeld: voor 
+ruimteverwarming bestaat het energiegebruik uit het energiegebruik voor hulpenergie (el) en het 
+energiegebruik voor de ruimteverwarming zelf (gas bij een cv-ketel, elektriciteit bij een warmtepomp). 
+OPMERKING 2 
+Bij afwezigheid van een mechanisch koelsysteem wordt, in tegenstelling tot de voorlopers van 
+deze NTA (NEN 7120), geen rekenwaarde voor het energiegebruik voor het bereiken van zomercomfort meer in 
+rekening gebracht.  
+waarin: 
+EH;ci 
+is de maandelijkse hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie verwarming, bepaald volgens hoofdstuk 9 in kWh; 
+Ehum;ci 
+is de maandelijkse hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie bevochtiging, bepaald volgens hoofdstuk 12 in kWh; 
+EV;ci 
+is de maandelijkse hoeveelheid gebruikte elektrische energie ten behoeve van de 
+energiefunctie ventilatie, bepaald volgens hoofdstuk 11, in kWh. Deze maandelijkse 
+hoeveelheid gebruikte elektrische energie ten behoeve van de energiefunctie ventilatie 
+kan, afhankelijk van de situatie, de volgende componenten omvatten: het 
+energiegebruik voor een temperatuursprong voor vorstbeveiliging EV;eldf (11.3.2.1), het 
+energiegebruik van de elektrische weerstandsverwarming in ventilatieroosters EV;elvv 
+(11.3.2.9) en het energiegebruik van ventilatoren EV;el (11.4);  
+EL;ci 
+is de maandelijkse hoeveelheid gebruikte elektrische energie ten behoeve van de 
+energiefunctie verlichting, bepaald volgens hoofdstuk 14, in kWh; 
+85
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 86 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 3 Voor woningbouw geldt dat voor de berekening van het karakteristieke 
+energiegebruik het energiegebruik voor verlichting, EL;ci, op 0 gesteld wordt, omdat dit een niet-
+beïnvloedbare vaste post is in de berekening. Dit is een beleidsmatige keuze. 
+Bij de berekening van de warmte- en koudebehoefte en de TOjuli-indicator wordt voor 
+woningbouw wel rekening gehouden met de interne warmtelast van verlichting doordat deze 
+verwerkt is in de vaste post voor interne warmte. 
+OPMERKING 4 Energiegebruik voor ventilatoren en verlichting is altijd elektrisch, daarom is 
+toevoeging van index ci = el in principe niet nodig, maar voor de volledigheid en eenduidigheid 
+van de formules hier wel opgenomen.  
+EC;ci 
+is de maandelijkse hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie koeling, bepaald volgens hoofdstuk 10, in kWh; 
+ 
+Edhum;ci 
+is de maandelijkse hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie ontvochtiging, bepaald volgens hoofdstuk 12, voor zover niet 
+inbegrepen in de hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie koeling (EC;ci), bepaald volgens hoofdstuk 10, in kWh; 
+deze term is reeds geheel verwerkt in het energiegebruik voor koeling, zodat de 
+waarde van deze term nul is; 
+EW;ci 
+is de maandelijkse hoeveelheid gebruikte energie van energiedrager ci ten behoeve van 
+de energiefunctie warm tapwater, bepaald volgens hoofdstuk 13 in kWh; 
+Waux;tot 
+is de maandelijkse totale hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve 
+van de verschillende energiefuncties, bepaald volgens de hierna volgende vergelijking, 
+in kWh. 
+met: 
+𝑊𝑊aux;tot = 𝑊𝑊H;aux + 𝑊𝑊hum;aux + 𝑊𝑊C;aux + 𝑊𝑊dhum;aux + 𝑊𝑊W;aux + 𝑊𝑊PV;aux 
+(5.21) 
+waarin: 
+WH;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+energiefunctie verwarming, bepaald volgens hoofdstuk 9 in kWh; 
+Whum;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+energiefunctie bevochtiging, bepaald volgens hoofdstuk 12, in kWh; 
+voor deze term is nog geen bepalingsmethode beschikbaar en is de waarde nul; 
+WC;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+energiefunctie koeling, bepaald volgens hoofdstuk 10, in kWh;  
+Wdhum;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+energiefunctie ontvochtiging, bepaald volgens hoofdstuk 12, voor zover niet 
+inbegrepen in de op het eigen perceel afgenomen hulpenergie ten behoeve van de 
+energiefunctie koeling (WC;aux), bepaald volgens hoofdstuk 10, in kWh; 
+voor deze term is nog geen bepalingsmethode beschikbaar en is de waarde nul; 
+WW;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+energiefunctie warm tapwater, bepaald volgens hoofdstuk 13, in kWh. 
+86
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 87 ---
+Withdrawn final
+Ingetrokken definitief
+WPV;aux 
+is de maandelijkse hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de 
+op het eigen perceel geproduceerde elektriciteit door zonne-energie, bepaald volgens 
+hoofdstuk 16, in kWh. 
+5.5.4 Hoeveelheid op eigen perceel gebruikte en geëxporteerde elektriciteit  
+5.5.4.1 
+Algemeen  
+OPMERKING 1 
+De vergelijkingen in dit onderdeel voorzien in de mogelijkheid dat meer voorzieningen op 
+het eigen perceel elektriciteit opwekken, zoals warmtekrachtkoppeling, zonnestroom en/of windenergie. Het 
+spreekt vanzelf dat in geval er slechts één voorziening aanwezig is voor productie van elektriciteit op het eigen 
+perceel, de vergelijkingen veel eenvoudiger uitpakken. 
+Het deel van de maandelijkse op het eigen perceel geproduceerde elektriciteit dat wordt gebruikt ter 
+dekking van het eigen gebruik voor de energieprestatie, is de gewogen fractie van de totale op het 
+eigen perceel geproduceerde hoeveelheid elektriciteit dat op het eigen perceel wordt gebruikt, volgens 
+de volgende vergelijking: 
+EPus;el
+pr;EPus;el
+pr;us;el
+EPus;el
+nEPus;el
+=
+×(
+)
++
+E
+E
+E
+E
+E
+ 
+(5.22) 
+nEPus;el
+pr;nEPus;el
+pr;us;el
+EPus;el
+nEPus;el
+=
+×(
+)
++
+E
+E
+E
+E
+E
+ 
+(5.23) 
+waarin: 
+Epr;EPus;el 
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat wordt 
+gebruikt ter dekking van het eigen gebruik voor de energieprestatie, in kWh; 
+Epr;us;el  
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat wordt 
+gebruikt ter dekking van het gebruik op het eigen perceel voor het totaal aan 
+energiefuncties voor de energieprestatie en voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, 
+bepaald volgens vergelijking (5.24) en (5.25), in kWh; 
+EEPus;el  
+is de totale maandelijkse gebruikte elektriciteit ten behoeve van het totaal 
+aan energiefuncties voor de energieprestatie, bepaald volgens 5.5.3, in kWh; 
+Epr;nEPus;el is het deel van de op het eigen perceel geproduceerde elektriciteit dat op het 
+eigen perceel wordt gebruikt voor functies die niet zijn inbegrepen in het 
+totaal aan energiefuncties voor de energieprestatie, in kWh; 
+EnEPus;el  
+is de totale maandelijkse gebruikte elektriciteit voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, 
+bepaald volgens 5.5.4.2, in kWh.  
+OPMERKING 2 
+Elektriciteit gebruikt voor functies die niet zijn inbegrepen in de bepaling van de 
+energieprestatie, omvat bijvoorbeeld niet-gebouwgebonden huishoudelijk elektriciteitsgebruik (woonfuncties) 
+en procesgebonden elektriciteitsgebruik (utiliteitsbouw). 
+Het deel van de maandelijkse op het eigen perceel geproduceerde elektriciteit dat wordt gebruikt ter 
+dekking van het elektriciteitsgebruik op het eigen perceel, is gelijk aan de fractie aan gebruik op het 
+eigen perceel gesommeerd over de individuele gebouwgebonden elektriciteitproducerende 
+voorzieningen op het eigen perceel (zoals warmtekrachtkoppeling, zonnestroom en windenergie), met 
+87
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 88 ---
+Withdrawn final
+Ingetrokken definitief
+als bovengrens de hoeveelheid op het eigen perceel gebruikte elektriciteit, volgens de volgende 
+vergelijking: 
+pr;us;el
+pr;el;
+=
+(
+)
+∑
+gi
+gi
+E
+E
+(5.24) 
+met als bovengrens: 
+𝐸𝐸pr;us;el ≤(𝐸𝐸EPus;el + 𝐸𝐸nEPus;el) 
+(5.25) 
+waarin: 
+Epr;us;el 
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat wordt 
+gebruikt ter dekking van het gebruik op het eigen perceel voor het totaal aan 
+energiefuncties voor de energieprestatie en voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, in 
+kWh; 
+Epr;el;gi 
+is de maandelijkse op het eigen perceel geproduceerde elektriciteit, 
+afkomstig van voorziening gi (bijvoorbeeld warmtekrachtkoppeling, 
+zonnestroom en windenergie), bepaald volgens hoofdstuk 16, in kWh; 
+EEPus;el 
+is de totale maandelijkse gebruikte elektriciteit ten behoeve van het totaal 
+aan energiefuncties voor de energieprestatie, bepaald volgens 5.5.3, in kWh; 
+EnEPus;el 
+is de totale maandelijkse gebruikte elektriciteit voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, 
+bepaald volgens 5.5.4.2, in kWh. 
+Het deel van de maandelijkse op het eigen perceel geproduceerde elektriciteit van voorziening gi dat 
+wordt geëxporteerd, Eexp;el;gi, is gelijk aan de gewogen fractie van het verschil tussen de totale 
+hoeveelheid op eigen perceel geproduceerde elektriciteit en het deel daarvan dat op het eigen perceel 
+wordt gebruikt, volgens de volgende vergelijking: 
+∑
+pr;el;
+exp;el;
+pr;el;
+pr;us;el
+pr;el;
+=
+ -
+×(
+)
+gi
+gi
+gi
+gi
+gi
+E
+E
+E
+E
+E
+ 
+(5.26) 
+waarin: 
+Eexp;el;gi 
+is de maandelijkse van het eigen perceel geëxporteerde hoeveelheid 
+elektriciteit afkomstig van voorziening gi (bijvoorbeeld 
+warmtekrachtkoppeling, zonnestroom of windenergie), in kWh; 
+Epr;el;gi 
+is de maandelijkse op het eigen perceel geproduceerde elektriciteit, 
+afkomstig van voorziening gi (bijvoorbeeld warmtekrachtkoppeling, 
+zonnestroom of windenergie), bepaald volgens hoofdstuk 16, in kWh; 
+Epr;us;el 
+is het deel van de op het eigen perceel geproduceerde elektriciteit dat wordt 
+gebruikt ter dekking van het gebruik op het eigen perceel voor het totaal aan 
+energiefuncties voor de energieprestatie en voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, 
+bepaald volgens vergelijking (5.24) en (5.25), in kWh. 
+88
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 89 ---
+Withdrawn final
+Ingetrokken definitief
+5.5.4.2 
+Rekenwaarden  
+Bepaal de totale maandelijkse gebruikte elektriciteit voor functies die niet zijn inbegrepen in het totaal 
+aan energiefuncties voor de energieprestatie, EnEPus;el, met de volgende vergelijking:  
+∑
+g;
+nEPus;el;
+nEPus;el
+×
+×
+=
+1000
+usi
+mi
+usi
+usi
+e
+A
+E
+t
+ 
+(5.27) 
+waarin: 
+EnEPus;el  
+is de totale maandelijkse gebruikte elektriciteit voor functies die niet zijn 
+inbegrepen in het totaal aan energiefuncties voor de energieprestatie, 
+in kWh; 
+enEPus;el;usi is het specifieke elektriciteitsgebruik van gebruiksfunctie usi voor apparatuur 
+in het gebouw die niet is inbegrepen in het totaal aan energiefuncties voor de 
+energieprestatie, in W/m2. Voor de berekening van de energieprestatie-
+indicatoren van een gebouw moet hiervoor een waarde van 0 W/m2 
+aangehouden worden. 
+OPMERKING 1 Bij een maatwerkadvies kan een eigen waarde aangehouden worden voor 
+enEPus;el;usi zodat de berekening van de geëxporteerde hoeveelheid elektriciteit juist verloopt. Om 
+die reden is deze post gehandhaafd in de berekening, alhoewel deze voor de berekening van het 
+energielabel en de energieprestatie-indicatoren altijd nul is. 
+OPMERKING 2 Bij de berekening van de warmte- en koudebehoefte en de TOjuli-indicator 
+wordt wel rekening gehouden met de interne warmtelast van apparatuur doordat deze 
+verwerkt is in de vaste post voor interne warmte. 
+tmi 
+is de lengte van de maand mi in h, ontleend aan 17.2; 
+Ag;usi 
+is de gebruiksoppervlakte van gebruiksfunctie usi in het gebouw, bepaald 
+volgens 6.6, in m2. 
+5.5.5 Getalswaarden primaire energiefactor  
+Voor de primaire energiefactor gelden de getalswaarden uit tabel 5.2. 
+Tabel 5.2 — Getalswaarden voor de primaire energiefactor voor aangeleverde 
+energie, voor op eigen perceel geproduceerde en gebruikte energie en voor op eigen 
+perceel geproduceerde en geëxporteerde energie, per energiedrager 
+Energiedrager (ci) 
+Aangeleverde 
+energie 
+ 
+fP;del;ci 
+Op eigen perceel 
+gebruikte zelf 
+geproduceerde 
+energie 
+fP;pr;us;ci a 
+Geëxporteerde energie 
+ 
+fP;exp;ci 
+Elektriciteit (el) 
+1,45 d 
+1,45 
+1,45 
+Aardgas (gas) 
+1,0 
+N.v.t. 
+N.v.t. 
+Stookolie (oil) 
+1,0 
+N.v.t. 
+N.v.t. 
+89
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 90 ---
+Withdrawn final
+Ingetrokken definitief
+Energiedrager (ci) 
+Aangeleverde 
+energie 
+fP;del;ci 
+Op eigen perceel 
+gebruikte zelf 
+geproduceerde 
+energie 
+fP;pr;us;ci a 
+Geëxporteerde energie 
+fP;exp;ci 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels die vallen onder het 
+Activiteitenbesluit. 
+Hiervoor wordt als 
+grenswaarde 
+aangehouden een 
+thermisch vermogen van 
+meer dan 100 kW per 
+installatie. 
+ 0,0 c 
+N.v.t. 
+N.v.t. 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels (≤ 100 kW 
+thermisch vermogen) die 
+voldoen aan een minimale 
+verbrandingskwaliteit en 
+een maximaal 
+emissieniveau, zoals in 
+bijlage R 
+0,5 c 
+N.v.t. 
+N.v.t. 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels die niet aan de 
+hierboven genoemde 
+criteria voldoen 
+1,0 c 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor verwarming (dh) 
+waarvoor een kwaliteits-
+verklaring op basis van 
+bijlage P beschikbaar is 
+fP;del;dh 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor warm tapwater (dw) 
+waarvoor een kwaliteits-
+verklaring op basis van 
+bijlage P beschikbaar is 
+fP;del;dw 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor verwarming of warm 
+tapwater (dh, dw) 
+waarvoor geen kwaliteits-
+verklaring op basis van 
+bijlage P beschikbaar is 
+0,9 
+N.v.t. 
+N.v.t. 
+90
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 91 ---
+Withdrawn final
+Ingetrokken definitief
+Energiedrager (ci) 
+Aangeleverde 
+energie 
+ 
+fP;del;ci 
+Op eigen perceel 
+gebruikte zelf 
+geproduceerde 
+energie 
+fP;pr;us;ci a 
+Geëxporteerde energie 
+ 
+fP;exp;ci 
+Externe koudelevering 
+(dc) waarvoor een 
+kwaliteitsverklaring op 
+basis van bijlage P 
+beschikbaar is 
+fP;del;dc 
+N.v.t. 
+N.v.t. 
+Externe koudelevering 
+(dc) waarvoor geen 
+kwaliteitsverklaring op 
+basis van bijlage P 
+beschikbaar is 
+fP;del;el / 3 
+ 
+N.v.t. 
+N.v.t. 
+Op het eigen perceel 
+opgewekte warmte 
+ 
+ 
+Zie b 
+Op het eigen perceel 
+opgewekte koude 
+ 
+ 
+Zie b 
+a 
+Warmte aangeleverd door een duurzame bron op eigen perceel (thermische zonne-energie) is reeds in mindering 
+gebracht op de te leveren energie door niet-duurzame energiedragers voor verwarming en warm tapwater. 
+b 
+Zolang het uitgangspunt is dat de warmte- en koudeopwekking op het eigen perceel warmte- respectievelijk 
+koudevraagvolgend is, is export van op het eigen perceel opgewekte warmte of koude een ongewoon fenomeen. 
+Volledigheidshalve moet in voorkomend geval voor de primaire energiefactor de inverse worden aangehouden 
+van het opwekkingsrendement van de voorziening waarmee de warmte of koude is opgewekt, vermenigvuldigd 
+met de voor de gebruikte energiedrager geldende primaire energiefactor. Op deze wijze wordt de bijdrage aan 
+het primaire energiegebruik geneutraliseerd. 
+c 
+Open toestellen en kooktoestellen zijn uitgesloten van de bepalingsmethode van NTA 8800, d.w.z. dat zij geen 
+bijdrage leveren aan de warmteopwekking voor verwarming en/of warm tapwater.  
+d 
+Een toelichting op de primaire energiefactor staat in het rapport ‘Primaire-fossiele-energiefactor elektriciteit op 
+bovenwaarde (HHV) voor toepassing in de energieprestatienorm NTA 8800’ van ECN. 
+Voor de brandstoffen waarvoor in de energieprestatieberekening de opwekkingsrendementen op 
+calorische bovenwaarde worden gebruikt, gaat de conversie ook uit van de calorische bovenwaarde. 
+OPMERKING 1 
+De energiefactoren hebben betrekking op de calorische bovenwaarde; zie definitie 3.17. 
+OPMERKING 2 
+De bepaling van de energiefactor voor elektriciteit is gebaseerd op de prognose voor het jaar 
+2020 zoals opgenomen in de Nationale Energieverkenning (NEV 2017). 
+OPMERKING 3 
+De getalswaarden voor de primaire energiefactor van biomassa en de grenswaarden van 
+bijlage R zijn gebaseerd op de 'Beleidslijn t.a.v. de energiefactor elektriciteit en de waardering biomassa in 
+NEN 7120 van BZK d.d. 19-7-2016'. De in de tabel genoemde huidig aan te houden grenswaarde voor het 
+thermisch vermogen van de installatie (die in de nabije toekomst zal worden aangescherpt) is gebaseerd op de in 
+juli 2022 gemaakte beleidsafspraak tussen de ministeries van BZK, EZK en I&W. 
+De aanvrager van de omgevingsvergunning/het energielabel behoort na te gaan of de inrichting valt 
+onder het Activiteitenbesluit. Als richtlijn kan aangehouden worden dat:  
+— utiliteitsbouw over het algemeen behoort te voldoen aan het Activiteitenbesluit; 
+— grote en/of collectieve gebouwinstallaties in woningbouw ook veelal zullen moeten voldoen aan 
+het Activiteitenbesluit; 
+91
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 92 ---
+Withdrawn final
+Ingetrokken definitief
+— individuele installaties in woningbouw niet vallen onder het Activiteitenbesluit; 
+— een inrichting die onder het Activiteitenbesluit valt, onder andere behoort te voldoen aan de 
+strenge(re) criteria ten aanzien van uitstooteisen, waardoor het risico op fijnstofuitstoot 
+verminderd wordt. 
+5.5.6 Bepaling CO2-emissie 
+OPMERKING 1 
+De jaarlijkse hoeveelheid CO2-emissie van het gebouw, mCO2, wordt bepaald overeenkomstig 
+de bepaling van het jaarlijkse karakteristieke energiegebruik in 5.5.2, waarbij fP;del;ci wordt vervangen door KCO2, 
+de CO2-emissiecoëfficiënt. Rekenwaarden voor KCO2 zijn gegeven in tabel 5.3. Vooralsnog is de bepaling van mCO2 
+informatief. De specifieke hoeveelheid CO2-emissie van het gebouw per m2 gebruiksoppervlakte bedraagt 
+mCO2;spec = mCO2 / Ag, in kg/m2. 
+Tabel 5.3 — CO2-emissiecoëfficiënten, KCO2;ci, per soort brandstof 
+Energiedrager (ci) 
+Aangeleverde 
+energie 
+KCO2;del;ci 
+kg/kWh 
+Op eigen perceel 
+gebruikte zelf 
+geproduceerde 
+energie 
+KCO2;pr;us;ci a 
+kg/kWh 
+Geëxporteerde energie 
+KCO2;exp;ci 
+kg/kWh 
+Elektriciteit (el) 
+0,34 
+0,34 
+0,34 
+Aardgas (gas) 
+0,183 
+N.v.t. 
+N.v.t. 
+Stookolie (oil) 
+0,260 
+N.v.t. 
+N.v.t. 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels die vallen onder het 
+Activiteitenbesluit. 
+Hiervoor wordt als 
+grenswaarde 
+aangehouden een 
+thermisch vermogen van 
+meer dan 100 kW per 
+installatie. 
+0,0 c 
+N.v.t. 
+N.v.t. 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels (≤ 100 kW 
+thermisch vermogen) die 
+voldoen aan een minimale 
+verbrandingskwaliteit en 
+een maximaal 
+emissieniveau, zoals 
+gegeven in bijlage R 
+0,5 × 0,372 c 
+N.v.t. 
+N.v.t. 
+92
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 93 ---
+Withdrawn final
+Ingetrokken definitief
+Energiedrager (ci) 
+Aangeleverde 
+energie 
+ 
+ 
+KCO2;del;ci 
+kg/kWh 
+Op eigen perceel 
+gebruikte zelf 
+geproduceerde 
+energie 
+KCO2;pr;us;ci a 
+kg/kWh 
+Geëxporteerde energie 
+ 
+KCO2;exp;ci 
+kg/kWh 
+Biomassa (bm) voor met 
+een vaste biomassa 
+gestookte kachels en 
+ketels die niet aan de 
+hierboven genoemde 
+criteria voldoen 
+1,0 × 0,372 c 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor verwarming (dh) 
+waarvoor een kwaliteits-
+verklaring op basis van 
+bijlage P beschikbaar is 
+KCO2;del;dh;tot 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor warm tapwater (dw) 
+waarvoor een kwaliteits-
+verklaring op basis van 
+bijlage P beschikbaar is 
+KCO2;del;dw;tot 
+N.v.t. 
+N.v.t. 
+Externe warmtelevering 
+voor verwarming of warm 
+tapwater (dh, dw) 
+0,17  
+N.v.t. 
+N.v.t. 
+Externe koudelevering 
+(dc) waarvoor een 
+kwaliteitsverklaring op 
+basis van bijlage P 
+beschikbaar is 
+KCO2;del;dc;tot 
+N.v.t. 
+N.v.t. 
+Externe koudelevering 
+(dc) 
+KCO2;del;el / 3  
+N.v.t. 
+N.v.t. 
+Op het eigen perceel 
+opgewekte warmte 
+ 
+ 
+Zie b 
+Op het eigen perceel 
+opgewekte koude 
+ 
+ 
+Zie b 
+a 
+Warmte aangeleverd door een duurzame bron op eigen perceel (thermische zonne-energie) is reeds in mindering 
+gebracht op de te leveren energie door niet-duurzame energiedragers voor verwarming en warm tapwater. 
+b 
+Zolang het uitgangspunt is dat de warmte- en koudeopwekking op het eigen perceel warmte- respectievelijk 
+koudevraagvolgend is, is export van op het eigen perceel opgewekte warmte of koude een ongewoon fenomeen.  
+c 
+Open toestellen en kooktoestellen zijn uitgesloten van de bepalingsmethode van NTA 8800, d.w.z. dat zij geen 
+bijdrage leveren aan de warmteopwekking voor verwarming en/of warm tapwater. 
+ 
+OPMERKING 2 
+De CO2-emissiecoëfficiënten voor aardgas, biomassa en stookolie zijn gebaseerd op de 
+‘Nederlandse lijst van energiedragers en standaard CO2-emissiefactoren’, januari 2018 van RVO, waarbij een 
+correctie plaatsgevonden heeft voor de omrekening van onderwaarde naar bovenwaarde. De CO2-
+emissiecoëfficiënt voor elektriciteit is gebaseerd op de prognose van NEV voor het jaar 2020. De CO2-
+93
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 94 ---
+Withdrawn final
+Ingetrokken definitief
+emissiecoëfficiënt voor forfaitaire externe warmtelevering is bepaald op basis van rekenregels en kengetallen 
+die opgenomen zijn in de rapportage ‘Duurzaamheid van warmtelevering’ van Harmeling Consulting, mei 2017. 
+OPMERKING 3 
+De getalswaarden voor de primaire energiefactor van biomassa en de grenswaarden van 
+bijlage R zijn gebaseerd op de 'Beleidslijn t.a.v. de energiefactor elektriciteit en de waardering biomassa in 
+NEN 7120 van BZK d.d. 19-7-2016'. De in de tabel genoemde huidig aan te houden grenswaarde voor het 
+thermisch vermogen van de installatie (die in de nabije toekomst zal worden aangescherpt) is gebaseerd op de in 
+juli 2022 gemaakte beleidsafspraak tussen de ministeries van BZK, EZK en I&W. 
+5.6 Hernieuwbare energie 
+5.6.1 Principe 
+In de bepalingsmethode van de gebruikte hernieuwbare energie wordt voor alle opwekkers bepaald of 
+zij gebruikmaken van hernieuwbare energie. Deze hernieuwbare energiegebruiken worden 
+omgerekend naar ‘primaire hernieuwbare energie’ door per energiebron een hernieuwbare primaire 
+energiefactor in rekening te brengen.  
+De volgende energiebronnen worden binnen deze NTA als hernieuwbaar aangemerkt: zonne-energie, 
+geothermische energie, bodemenergie, seizoensopslag (warmte en koude, zoals bij WKO), 
+windenergie, energie uit buitenlucht, vaste biomassa en elektrische opwekkers opererend in de 
+flexmodus. Vaste biomassa wordt, naar analogie aan de afhandeling bij primaire energie, niet altijd 
+volledig als hernieuwbaar beschouwd.  
+Restwarmte en/of restkoude die gebruikt wordt binnen een stadsverwarmings- of stadskoelingsnet, 
+wordt niet gezien als een hernieuwbare energiebron maar kan onder voorwaarden via een bijlage P 
+verklaring wel gewaardeerd worden bij de berekening van de RERPrenTot. In 5.8 zijn hiervoor 
+rekenregels opgenomen.  
+Warmte die is geproduceerd met elektrische opwekkers in de flexmodus. 
+OPMERKING 1 
+De in NTA 8800 gehanteerde definitie van hernieuwbare energie anticipeert alvast op de 
+afspraken die naar verwachting vastgelegd zullen worden in de nieuwe Renewable Energy Sources Directive 
+(RES). Dit betekent onder andere dat ook koude een hernieuwbare energiebron kan zijn. Bijvoorbeeld in de 
+vorm van seizoensopslag in de bodem (WKO) of koude uit een (diep) meer. De keuze wat wel en niet onder de 
+definitie van hernieuwbare energie valt, is een beleidsmatige keuze.  
+OPMERKING 2 
+De volgende energiebronnen worden als niet-hernieuwbaar beschouwd: stookolie, aardgas, 
+ingekochte elektriciteit vanaf het landelijk net, de opgewekte elektriciteit uit een (aard)gas-WKK, warmte uit het 
+gebouw, forfaitaire externe warmtelevering, forfaitaire externe koudelevering. Een uitzondering hierop vormt 
+het elektriciteitsgebruik van elektrische opwekkers in de flexmodus. 
+OPMERKING 3 
+Inkoop van groene stroom, groen (bio)gas en vloeibare biobrandstoffen (zoals biodiesel) 
+wordt niet in deze NTA gewaardeerd. Ze worden daarmee ook niet gezien als hernieuwbare energiebronnen 
+binnen deze NTA. Een uitzondering hierop vormt het elektriciteitsgebruik van elektrische opwekkers in de 
+flexmodus. 
+OPMERKING 4 
+Wanneer een externe warmte- (of koude)levering (gedeeltelijk) gevoed wordt met 
+hernieuwbare energiebronnen en/of restwarmte, dan kan dit gewaardeerd worden in de berekening van de 
+RERPrenTot op gebouwniveau. In dat geval wordt er op de kwaliteitsverklaring van het externe 
+warmteleveringsnet aangegeven wat het aandeel hernieuwbare energie/restwarmte is in de externe 
+warmtelevering, uitgedrukt in de fPren;dh, fPren;dw, of fPren;dc. 
+OPMERKING 5 
+Passieve (zonne)warmte en passieve koeling (zoals zomernachtventilatie) worden niet als 
+hernieuwbare energie beschouwd. Passieve warmte en passieve koude verlagen de energiebehoefte van het 
+gebouw en worden gewaardeerd in EweH+C;nd;ventsys=C1 en EwePTot.  
+94
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 95 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 6 
+Om de aansluiting tussen de bovenstaande richtlijnen en NTA 8800 te kunnen maken zijn per 
+techniek keuzes gemaakt waar de grens tussen hernieuwbaar/niet-hernieuwbaar is. Dit levert de volgende 
+uitgangspunten: 
+— Bij warmtepompen voor ruimteverwarming en tapwater wordt de ingaande warmtestroom in de 
+warmtepomp voor alle warmtepompen met een opwekkingsrendement ηX;gen;gi > 1, met uitzondering van 
+warmtepompen die (gedeeltelijk) op ventilatieretourlucht draaien, als hernieuwbare energie beschouwd. 
+— Bij ventilatieretourluchtwarmtepompen voor ruimteverwarming en tapwater waarbij de 
+wegblaastemperatuur van de warmtepomp lager is dan de buitentemperatuur (diepkoelen), mag dat deel van 
+de bronenergie als hernieuwbare energie beschouwd worden dat ontstaat doordat de temperatuur van de 
+wegblaaslucht na de warmtepomp lager is dan de buitentemperatuur. 
+— Bij koeling wordt alleen de koude die gehaald wordt uit systemen met een EER ≥ 8 (zoals vrije koeling, WKO, 
+bodemkoeling of oppervlaktewater) als hernieuwbare energie beschouwd. 
+— Bij externe warmtelevering kan door middel van een kwaliteitsverklaring op basis van bijlage P aangetoond 
+worden welk deel van de warmtelevering uit hernieuwbare energie en/of restwarmte bestaat. Indien dit niet 
+aangetoond kan worden, dan wordt de warmtelevering als niet-hernieuwbaar beschouwd. Hetzelfde principe 
+geldt voor externe koudelevering.  
+OPMERKING 7 
+Dit betekent niet dat restwarmte als hernieuwbare energie gezien wordt. De inzet van 
+restwarmte is een alternatief om te voldoen aan de RERPrenTot-eis. 
+— Bij op vaste biobrandstof gestookte toestellen wordt de nuttig bruikbare warmte die door het toestel 
+geleverd wordt aan het gebouw, in principe als hernieuwbare energie beschouwd. Deze hoeveelheid 
+hernieuwbare energie wordt echter nog gecorrigeerd met een factor waardoor: 
+— geleverde warmte van systemen die voldoen aan het Activiteitenbesluit, als volledig hernieuwbaar 
+beschouwd wordt; 
+— geleverde warmte van systemen die voldoen aan de uitgangspunten uit bijlage R, voor de helft als 
+hernieuwbaar beschouwd wordt; 
+— geleverde warmte van systemen die niet voldoen aan de twee bovengenoemde punten, als niet-
+hernieuwbaar beschouwd wordt; 
+— Bij zonnecollectorsystemen wordt de nuttig bruikbare warmte die door het zonnecollectorsysteem aan het 
+gebouw geleverd wordt, als hernieuwbare energie beschouwd. Dit geldt ook voor de warmte die geleverd 
+wordt door PVT-systemen. 
+— Bij zonne-energiesystemen en PVT-systemen wordt de elektrische opbrengst van het PV- of PVT-systeem als 
+hernieuwbare energie beschouwd. 
+5.6.2 Rekenregels hernieuwbare energie  
+Bepaal het jaarlijkse hernieuwbare energiegebruik van het gebouw, EPrenTot, in kWh, als de som van de 
+maandelijkse naar ‘primaire energie’ omgerekende nuttig gebruikte hernieuwbare energie voor de 
+energiefuncties verwarming, warm tapwater en koeling en de op het eigen perceel geproduceerde 
+gebouwgebonden hernieuwbare energie uit zonne-energie (PV en zonnecollectoren) en wind, volgens 
+vergelijkingen (5.28) t/m (5.39). 
+PrenTot
+PrenTot;
+=∑
+mi
+mi
+E
+E
+ 
+(5.28) 
+PrenTot;
+Pren;H;
+;
+Pren; ;
+;
+Pren;W;
+;
+Pren;el;
+;
+=
++
++
++
+∑
+mi
+mi si
+C mi si
+mi si
+mi si
+si
+E
+E
+E
+E
+E
+ 
+(5.29) 
+95
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 96 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+EPrenTot 
+is de jaarlijkse hernieuwbare ‘primaire’ energie van het gebouw, in kWh; 
+EPrenTot;mi 
+is de maandelijkse hernieuwbare ‘primaire’ energie van het gebouw, in 
+kWh; 
+EPren;H;mi;si 
+is de maandelijks hernieuwbare ‘primaire’ energie ten behoeve van de 
+energiefunctie verwarming, bepaald volgens 5.6.2.1, in kWh; 
+EPren;C;mi;si 
+is de maandelijks hernieuwbare ‘primaire’ energie ten behoeve van de 
+energiefunctie koeling, bepaald volgens 5.6.2.2, in kWh; 
+EPren;W;mi;si 
+is de maandelijks hernieuwbare ‘primaire’ energie ten behoeve van de 
+energiefunctie tapwater, bepaald volgens 5.6.2.3, in kWh; 
+EPren;el;mi;si 
+is de maandelijkse hoeveelheid op het eigen perceel opgewekte ‘primaire’ 
+hernieuwbare elektriciteit, bepaald volgens 5.6.2.4, in kWh. 
+5.6.2.1 
+Hernieuwbare energie verwarming 
+De maandelijkse hernieuwbare ‘primaire’ energie van systeem si ten behoeve van de energiefunctie 
+verwarming, EPren;H,mi;si, in kWh, wordt bepaald volgens: 
+Pren;H;
+;
+H;gen;
+;
+;out
+H;gen;
+;
+;out
+H;hp;in
+Pren;renheat
+Pren;bmX
+Pren;dhX
+,
+,
+H;ren;sol;prac
+Pren;renheat
+HD;hp;in;bron
+Pren;dh;hp;in;bron
+;
+;
+,
+mi si
+gi mi
+gi mi
+gi hp
+gi ci bm
+gi ci dh
+gi ci dh hp
+gi ci sol
+Q
+f
+E
+Q
+f
+Q
+f
+Q
+f
+Q
+f
+=
+=
+=
+=
+=
++
+×
+=
+×
++
+×
++
+×
+×
++
+∑
+∑
+∑
+∑
+; ;
+in bron
+∑
+(5.30) 
+Waarvoor het volgende geldt: 
+— in het geval van warmtepompen: 
+Indien er sprake is van warmtepompen met COPH;gen;prac;mi;gi ≥ 1 en een brontemperatuur van 
+< 20 °C, en de bron van de warmtepomp is geen ventilatieretourlucht, dan geldt: 
+H;gen;
+;
+;out
+H;hp;in
+H;gen;prac;
+;
+1
+1
+
+
+
+
+
+
+
+
+=
+×
+−
+gi mi
+mi gi
+Q
+Q
+COP
+(5.31) 
+Indien er sprake is van warmtepompen met COPH;gen;prac;mi;gi ≥ 1 en deze warmtepompen gedeeltelijk 
+gebruikmaken van ventilatieretourlucht als bron en gedeeltelijk van buitenlucht als bron, wordt 
+alleen het buitenluchtdeel als hernieuwbare energie aangemerkt. In dat geval geldt: 
+H;gen;
+;
+;out
+H;hp;in
+H;buitenlucht
+H;gen;prac;
+;
+1
+1
+
+
+
+
+
+
+
+
+=
+×
+−
+×
+gi mi
+mi gi
+Q
+Q
+f
+COP
+(5.32) 
+Indien er sprake is van ventilatieretourluchtwarmtepompen met COPH;gen;prac;mi;gi ≥ 1 die ‘diepkoelen’ 
+(dat wil zeggen dat de wegblaastemperatuur van de warmtepomp lager is dan de 
+buitentemperatuur), dan is het mogelijk om een deel van de bronenergie als hernieuwbaar te 
+beschouwen. Het gaat hierbij om het deel van de bronenergie dat ontstaat doordat de temperatuur 
+van de wegblaaslucht na de warmtepomp lager is dan de buitentemperatuur. De wijze waarop in 
+96
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 97 ---
+Withdrawn final
+Ingetrokken definitief
+die gevallen de waarde voor QH;hp;in moet worden bepaald, is niet verder uitgewerkt in deze NTA. In 
+een gecontroleerde kwaliteitsverklaring kan deze waarde opgegeven worden. Wanneer deze 
+waarde onbekend is, moet gerekend worden met QH;hp;in = 0.  
+Indien er sprake is van warmtepompen met COPH;gen;prac;mi;gi < 1 of indien gebruik wordt gemaakt 
+van een bron voor de warmtepomp met een brontemperatuur ≥ 20 °C, dan geldt: 
+QH;hp;in = 0 
+(5.33) 
+waarin: 
+QH;hp;in 
+is de maandelijks ingezette hernieuwbare energie door warmtepompen ten 
+behoeve van de energiefunctie verwarming, in kWh; 
+QH;gen;gi;mi;out is de maandelijks geleverde energie door opwekker gi ten behoeve van de 
+energiefunctie verwarming, volgens 9.2.2, in kWh; 
+𝐶𝐶𝐶𝐶𝑃𝑃H;gen;prac;mi;gi = 𝐶𝐶𝐶𝐶𝑃𝑃𝑔𝑔𝑔𝑔;𝑚𝑚𝑚𝑚× 𝑓𝑓𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 is het dimensieloze opwekkingsrendement onder 
+praktijkomstandigheden voor ruimteverwarming, in 
+maand mi, van opwekker gi, in systeem si, waarbij COPgi;mi 
+en fprac bepaald worden volgens 9.6.3; 
+fH;buitenlucht 
+is de verhouding tussen de ingaande warmtestroom door buitenlucht in de 
+warmtepomp ten opzichte van de ingaande totale warmtestroom in de 
+warmtepomp (= ventilatieretourlucht + buitenlucht). De fractie fH;buitenlucht is 
+niet verder uitgewerkt in deze NTA. In een kwaliteitsverklaring kan deze 
+fractie opgegeven worden. Wanneer de fractie onbekend is, moet gerekend 
+worden met fH;buitenlucht = 0; 
+OPMERKING De fractie fH;buitenlucht geeft weer welk deel van de totale ingaande warmtestroom 
+in de warmtepomp door buitenlucht geleverd wordt. Deze verhouding is niet hetzelfde als de 
+verhouding van de ventilatiedebieten (buitenlucht en retourlucht) die de warmtepomp in gaan 
+omdat er nog gecorrigeerd behoort te worden voor de energie-inhoud van de beide 
+ventilatiestromen.  
+fPren;renheat 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=renheat), bepaald volgens tabel 5.4.  
+— in het geval van met een vaste biomassa gestookte toestellen: 
+QH;gen;gi;mi;out is de maandelijks geleverde energie door opwekker gi (biomassatoestel) 
+ten behoeve van de energiefunctie verwarming, volgens 9.2.2, in kWh; 
+fPren;bmX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=bmX), bepaald volgens tabel 5.4. Bij biomassa behoort een 
+onderscheid te worden gemaakt tussen biomassatoestellen die vallen onder 
+het Activiteitenbesluit (bmA), biomassatoestellen die voldoen aan de 
+criteria uit bijlage R (bmB) en overige biomassa (bmC).  
+97
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 98 ---
+Withdrawn final
+Ingetrokken definitief
+— in het geval van externe warmtelevering: 
+QH;gen;gi;mi;out is de maandelijks geleverde energie door opwekker gi (externe 
+warmtelevering) ten behoeve van de energiefunctie verwarming, volgens 
+9.2.2, in kWh; 
+fPren;dhX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=dhX), bepaald volgens tabel 5.4. Bij externe 
+warmtelevering behoort een onderscheid gemaakt te worden tussen 
+externe warmtelevering waarvoor een kwaliteitsverklaring beschikbaar is 
+met daarop het aandeel hernieuwbare energie/restwarmte (dhkwal), en 
+alle overige externe warmtelevering waarbij geen kwaliteitsverklaring voor 
+het aandeel hernieuwbare energie beschikbaar is (dhforf).  
+— in het geval van een warmtepomp met een hogetemperatuurbron (≥ 20 °C) (externe 
+warmtelevering): 
+QHD;hp;in;bron 
+is de maandelijks geleverde energie door het hogetemperatuur-
+(bron)energiesysteem aan de warmtepomp, volgens 9.6.7.2 in kWh; 
+fPren;dh;hp;in;bron 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (= hogetemperatuurbron (T ≥ 20 °C) die de warmtepomp 
+voedt, bron te beschouwen als extern warmteleveringssysteem), bepaald 
+volgens tabel 5.4.  
+— in het geval van zonneboilers: 
+QH;ren;sol,prac 
+is de onder praktijkomstandigheden aangeleverde maandelijkse hoeveelheid 
+hernieuwbare energie ten behoeve van verwarming door op het eigen perceel 
+opgewekte thermische duurzame energie van de op systeem si aangesloten zonne-
+energiesystemen (zonneboilercombi’s), bepaald volgens 9.2.3.4, in kWh; 
+fPren;renheat 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=renheat), bepaald volgens tabel 5.4. 
+5.6.2.2 
+Hernieuwbare energie koeling 
+De maandelijkse hernieuwbare ‘primaire’ energie van systeem si ten behoeve van de energiefunctie 
+koeling, EPren;C,mi;si, in kWh, wordt bepaald volgens: 
+Pren;C;
+;
+C;gen;
+;
+;out
+Pren;rencold
+C;gen;
+;
+;out
+Pren;dcX
+,
+,
+C;gen;
+;
+;out
+Pren;dhX
+,
+mi si
+gi mi
+gi mi
+gi ci
+fc
+gi ci dc
+gi mi
+gi ci abs
+E
+Q
+f
+Q
+f
+Q
+f
+=
+=
+=
+=
+×
++
+×
++
+×
+∑
+∑
+∑
+(5.34) 
+98
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 99 ---
+Withdrawn final
+Ingetrokken definitief
+Waarin: 
+— in het geval van (vrije) koeling met een EER ≥ 8: 
+C;gen; ;
+;out
+C;gen;pref;
+=
+gi mi
+zi
+Q
+Q
+ 
+waarin: 
+QC;gen;pref;zi 
+is de maandelijks geleverde energie door opwekker gi ((vrije) koeling) 
+met preferentie pref ten behoeve van de energiefunctie koeling, volgens 
+10.5.3, in kWh; 
+fPren;rencold 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=rencold), bepaald volgens tabel 5.4.  
+— in het geval van (vrije) koeling met een EER < 8: 
+C;gen; ;
+;out
+0
+=
+gi mi
+Q
+. 
+— in het geval van externe koudelevering: 
+C;gen; ;
+;out
+C;gen;pref ;
+=
+gi mi
+zi
+Q
+Q
+ 
+waarin: 
+QC;gen;pref;zi is de maandelijks geleverde energie door opwekker gi (externe 
+koudelevering) met preferentie pref ten behoeve van de energiefunctie 
+koeling, volgens 10.5.3, in kWh; 
+fPren;dcX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=dcX), bepaald volgens tabel 5.4. Bij externe 
+koudelevering behoort een onderscheid gemaakt te worden tussen 
+externe koudelevering waarvoor een kwaliteitsverklaring beschikbaar is 
+met daarop het aandeel hernieuwbare energie (dckwal), en alle overige 
+externe koudelevering waarbij geen kwaliteitsverklaring voor het aandeel 
+hernieuwbare energie beschikbaar is (dcforf).  
+— in het geval van absorptiekoeling die aangedreven wordt door externe warmtelevering: 
+C;gen; ;
+;out
+C;gen;pref;
+=
+gi mi
+zi
+Q
+Q
+ 
+QC;gen;pref;zi 
+is de maandelijks geleverde energie door opwekker gi (absorptiekoeling) 
+met preferentie pref ten behoeve van de energiefunctie koeling, volgens 
+10.5.3, in kWh; 
+fPren;dhX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=dhX), bepaald volgens tabel 5.4. Bij externe 
+warmtelevering moet een onderscheid worden gemaakt tussen externe 
+warmtelevering waarvoor een kwaliteitsverklaring beschikbaar is met 
+99
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 100 ---
+Withdrawn final
+Ingetrokken definitief
+daarop het aandeel hernieuwbare energie (dhkwal), en alle overige 
+externe warmtelevering waarbij geen kwaliteitsverklaring voor het 
+aandeel hernieuwbare energie beschikbaar is (dhforf).  
+5.6.2.3 
+Hernieuwbare energie tapwater 
+De maandelijkse hernieuwbare ‘primaire’ energie van systeem si ten behoeve van de energiefunctie 
+tapwater, EPren;W,mi;si, in kWh, wordt bepaald volgens: 
+Pren;W;
+;
+W;ren;hp;in
+Pren;renheat
+W;gen;
+;
+;out
+Pren;bmX
+,
+W;gen;
+;
+;out
+Pren;dwX
+W;ren;sol;prac
+Pren;renheat
+,
+,
+mi si
+gi mi
+gi hp
+gi ci bm
+gi mi
+gi ci dw
+gi ci sol
+E
+Q
+f
+Q
+f
+Q
+f
+Q
+f
+=
+=
+=
+=
+=
+×
++
+×
++
+×
++
+×
+∑
+∑
+∑
+∑
+ (5.35) 
+Waarvoor het volgende geldt: 
+— in het geval van warmtepompen: 
+Indien er sprake is van warmtepompen met ηW;gen;prac;mi,gi ≥ 1 en de warmtepomp is geen 
+ventilatieretourluchtwarmtepomp of een boosterwarmtepomp, dan geldt: 
+W;gen;
+;out
+W;ren,hp;in
+W;gen;prac;
+;
+1
+1
+
+
+
+
+
+
+
+
+=
+×
+−
+gi
+mi gi
+Q
+Q
+η
+(5.36) 
+Indien er sprake is van warmtepompen met ηW;gen;prac;mi,gi ≥ 1 en deze warmtepompen maken 
+gedeeltelijk gebruik van ventilatieretourlucht als bron en gedeeltelijk van buitenlucht als bron, dan 
+wordt alleen het buitenluchtdeel als hernieuwbare energie aangemerkt.  
+W;gen;
+;out
+W;ren;hp;in
+W;buitenlucht
+W;gen;prac;
+;
+1
+1
+gi
+mi gi
+Q
+Q
+f
+η
+
+
+
+
+
+
+
+
+=
+×
+−
+×
+(5.37) 
+Indien er sprake is van ventilatieretourluchtwarmtepompen met ηW;gen;prac;mi,gi ≥ 1 die ‘diepkoelen’ 
+(dat wil zeggen dat de wegblaastemperatuur van de warmtepomp lager is dan de 
+buitentemperatuur), dan is het mogelijk om een deel van de bronenergie als hernieuwbaar te 
+beschouwen. Het gaat hierbij om het deel van de bronenergie dat ontstaat doordat de temperatuur 
+van de wegblaaslucht na de warmtepomp lager is dan de buitentemperatuur. De wijze waarop in 
+die gevallen de waarde voor QW;ren;hp;in moet worden bepaald is niet verder uitgewerkt in deze NTA. 
+In een gecontroleerde kwaliteitsverklaring kan deze waarde opgegeven worden. Wanneer deze 
+waarde onbekend is, moet gerekend worden met QW;renhp;in = 0. 
+OPMERKING 1  Indien bij combiwarmtepompen de tijdfracties dat het toestel per maand in bedrijf is voor de 
+opwekking van verwarming en warm tapwater samen groter zijn dan 1, dan wordt bij de berekening van de 
+totale hoeveelheid hernieuwbare energie voor warm tapwater voor elke maand waarin dat voorkomt, 
+rekening gehouden met een beperking van de opgegeven totale hoeveelheid hernieuwbare energie tot 
+maximaal een tijdfractie van 1. Voor de maanden waarbij de tijdfracties voor opwekking van verwarming en 
+warm tapwater samen kleiner dan of gelijk zijn aan 1, wordt een correctiefactor van 1 aangehouden; er is in 
+dat geval geen correctie nodig. Indien de totale hoeveelheid hernieuwbare energie voor warmtapwater op 
+jaarbasis is opgegeven, dan wordt een gemiddelde correctiefactor bepaald waarbij elke maand in gelijke mate 
+meetelt. 
+100
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 101 ---
+Withdrawn final
+Ingetrokken definitief
+Indien er sprake is van warmtepompen met ηW;gen;prac;mi,gi < 1 of boosterwarmtepompen, dan geldt: 
+QW;ren,hp;in = 0  
+(5.38) 
+OPMERKING 2 Een boosterwarmtepomp wordt gevoed door een warme bron (bijvoorbeeld externe 
+warmtelevering of een collectieve warme bron). De warmte die aan de boosterwarmtepomp geleverd wordt, 
+moet door het verwarmingssysteem geleverd worden. In hoofdstuk 9 wordt deze hoeveelheid warmte 
+berekend. In 5.6.2.1 wordt berekend wat de hoeveelheid hernieuwbare energie is die het 
+verwarmingssysteem gebruikt. Om deze reden wordt in deze paragraaf de hernieuwbare energie van een 
+boosterwarmtepomp op 0 kWh gesteld: hiermee wordt dubbeltelling voorkomen.  
+QW;ren;hp;in 
+is de maandelijks ingezette hernieuwbare energie door warmtepompen 
+ten behoeve van de energiefunctie tapwater, in kWh; 
+QW;gen;gi;out 
+is de maandelijks geleverde energie door opwekker gi ten behoeve van de 
+energiefunctie tapwater, volgens 13.8.2, in kWh; 
+ηW;gen;prac;mi,gi is het dimensieloze opwekkingsrendement onder praktijkomstandigheden voor 
+tapwater, in maand mi, van opwekker gi, in systeem si, bepaald volgens 13.8.2 e.v.; 
+fW;buitenlucht 
+is de verhouding tussen de ingaande warmtestroom door buitenlucht in 
+de warmtepomp ten opzichte van de ingaande totale warmtestroom in de 
+warmtepomp (= ventilatieretourlucht + buitenlucht). De fractie fW;buitenlucht 
+is niet verder uitgewerkt in deze NTA. In een kwaliteitsverklaring kan 
+deze fractie opgegeven worden. Wanneer de fractie onbekend is, behoort 
+gerekend te worden met fW;buitenlucht = 0.  
+OPMERKING 3 De fractie fW;buitenlucht geeft weer welk deel van de totale ingaande warmtestroom in de 
+warmtepomp door buitenlucht geleverd wordt. Deze verhouding is niet hetzelfde als de verhouding van de 
+ventilatiedebieten (buitenlucht en retourlucht) die de warmtepomp in gaan omdat er nog gecorrigeerd moet 
+worden voor de energie-inhoud van de beide ventilatiestromen.  
+fPren;renheat 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=renheat), bepaald volgens tabel 5.  
+— in het geval van met een vaste biomassa gestookte toestellen: 
+QW;gen;gi;out 
+is de maandelijks geleverde energie door opwekker gi ten behoeve van de 
+energiefunctie tapwater, volgens 13.8.2, in kWh; 
+fPren;bmX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=bmX), bepaald volgens tabel 5.4. Bij biomassa behoort een 
+onderscheid gemaakt te worden tussen biomassatoestellen die vallen onder 
+het Activiteitenbesluit (bmA), biomassatoestellen die voldoen aan de 
+criteria uit bijlage R (bmB) en overige biomassa (bmC).  
+— in het geval van externe warmtelevering: 
+QW;gen;gi;out 
+is de maandelijks geleverde energie door opwekker gi ten behoeve van de 
+energiefunctie tapwater, volgens 13.8.2 in kWh; 
+fPren;dwX 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+101
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 102 ---
+Withdrawn final
+Ingetrokken definitief
+energiebron ri (=dwX), bepaald volgens tabel 5.4. Bij externe 
+warmtelevering moet een onderscheid worden gemaakt tussen externe 
+warmtelevering waarvoor een kwaliteitsverklaring beschikbaar is met 
+daarop het aandeel hernieuwbare energie/restwarmte (dwkwal), en alle 
+overige externe warmtelevering waarbij geen kwaliteitsverklaring voor het 
+aandeel hernieuwbare energie beschikbaar is (dwforf).  
+— in het geval van zonneboilers: 
+QW;ren;sol,prac 
+is de onder praktijkomstandigheden aangeleverde maandelijkse hoeveelheid 
+hernieuwbare energie ten behoeve van tapwater door op het eigen perceel opgewekte 
+thermische duurzame energie van de op si aangesloten zonne-energiesystemen 
+(zonneboilers en PVT), bepaald volgens 13.1.2.4, in kWh; 
+fPren;renheat 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=renheat), bepaald volgens tabel 5.4.  
+5.6.2.4 
+Hernieuwbare opgewekte elektriciteit 
+De maandelijkse hoeveelheid op het eigen perceel opgewekte primaire hernieuwbare elektriciteit, 
+EPren;el;mi;si, in kWh, wordt bepaald volgens: 
+Pren;el;
+;
+el;PV;out
+Pren;renelect
+el;PVT;out
+Pren;renelect
+el;wind;out
+Pren;renelect
+=
+=
+=
+=
+×
++
+×
++
+×
+∑
+∑
+∑
+mi si
+gi pv
+gi pvt
+gi wind
+E
+E
+f
+E
+f
+E
+f
+(5.39) 
+Waarin: 
+Eel;PV;out 
+is de maandelijkse hoeveelheid op het eigen perceel opgewekte elektriciteit uit 
+zonne-energie door PV-systemen, bepaald volgens 16.2, in kWh; 
+Eel;PVT;out 
+is de maandelijkse hoeveelheid op het eigen perceel opgewekte elektriciteit uit 
+zonne-energie door PVT-systemen, bepaald volgens 16.3, in kWh; 
+Eel;wind;out 
+is de maandelijkse hoeveelheid op het eigen perceel opgewekte elektriciteit uit 
+windenergie, bepaald volgens 16.5, in kWh; 
+fPren;renelect 
+is de dimensieloze primaire hernieuwbare energiefactor voor de 
+omrekening naar primaire hernieuwbare energie voor de desbetreffende 
+energiebron ri (=renelect), bepaald volgens tabel 5.4.  
+5.6.3 Getalswaarden primaire hernieuwbare energiefactor  
+Voor de primaire hernieuwbare energiefactor gelden de getalswaarden uit tabel 5.4. 
+102
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 103 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 5.4 — Getalswaarden voor de primaire hernieuwbare energiefactor  
+Hernieuwbare energiebron (ri) 
+fPren;ri 
+Hernieuwbaar opgewekte elektriciteit (renelect) 
+1,45 
+Omgevingswarmte (renheat)  
+1,0 
+Omgevingskoude (rencold) 
+1,0 
+Biomassa (bmA) voor op een vaste biomassa gestookte kachels en 
+ketels die vallen onder het Activiteitenbesluit. Hiervoor wordt als 
+grenswaarde aangehouden een thermisch vermogen van meer dan 
+100 kW per installatie. 
+1,0 
+Biomassa (bmB) voor op een vaste biomassa gestookte kachels en 
+ketels (≤ 100 kW thermisch vermogen) die voldoen aan een minimale 
+verbrandingskwaliteit en een maximaal emissieniveau, zoals gegeven 
+in bijlage R 
+0,5 
+Biomassa (bmC) voor op een vaste biomassa gestookte kachels en 
+ketels die niet aan de hierboven genoemde criteria voldoen 
+0 
+Externe warmtelevering voor verwarming (dhkwal) waarvoor een 
+kwaliteitsverklaring op basis van bijlage P beschikbaar is 
+fPren;dh 
+Externe warmtelevering voor warm tapwater (dwkwal) waarvoor een 
+kwaliteitsverklaring op basis van bijlage P beschikbaar is 
+fPren;dw 
+Externe warmtelevering voor verwarming of warm tapwater (dhforf, 
+dwforf) waarvoor geen kwaliteitsverklaring op basis van bijlage P 
+beschikbaar is 
+0 
+Externe koudelevering (dckwal) waarvoor een kwaliteitsverklaring 
+op basis van bijlage P beschikbaar is 
+fPren;dc 
+Externe koudelevering (dcforf) waarvoor geen kwaliteitsverklaring op 
+basis van bijlage P beschikbaar is 
+0 
+ 
+ 
+5.7 Grenswaarde oververhitting  
+5.7.1 Principe 
+Om het risico van oververhitting te beperken is in deze NTA een vereenvoudigde methode opgenomen 
+voor het berekenen van het risico van te hoge temperaturen. Het risico van te hoge temperaturen 
+wordt per rekenzone en per oriëntatie bepaald aan de hand van de maand juli (TOjuli-indicator). Deze 
+berekening hoeft alleen uitgevoerd te worden voor rekenzones waarin geen actief koelsysteem 
+aanwezig is. In de Omgevingsregeling zijn grenswaarden opgenomen voor de TOjuli-indicator waar 
+deze rekenzones aan moeten voldoen. Rekenzones waarin een actief koelsysteem is aangebracht, 
+worden geacht te voldoen aan dit criterium. Een actief koelsysteem moet dan wel voldoende capaciteit 
+hebben om aan de koudebehoefte tegemoet te kunnen komen. 
+103
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 104 ---
+Withdrawn final
+Ingetrokken definitief
+De volgende systemen voor woningbouw vallen onder 'actief koelsysteem’: 
+— systemen zoals vermeld in tabel 10.29; 
+— systemen zoals vermeld in tabel 10.30; 
+— systemen zoals vermeld in tabel 10.34 met uitzondering van dauwpuntskoeling op de 
+ventilatielucht, waarbij de uitgaande luchtstroom (ETA) wordt bevochtigd voor het verkrijgen van 
+het koelend effect; of 
+— warmtepompsystemen (lucht/lucht, lucht/water of water/water) met actieve koeling (met inzet 
+van de warmtepomp) en een voor koeling geschikt afgiftesysteem; of 
+— externe koudelevering en een voor koeling geschikt afgiftesysteem; of 
+— splitunit-/multi-splitunit-koelinstallatie in iedere verblijfsruimte. 
+Voor alle andere systemen moet de TOjuli-indicator worden bepaald. Bij toepassing van deze systemen 
+geldt de TOjuli-eis, of zal conform de richtlijnen in de regelgeving aangetoond moeten worden dat het 
+aantal gewogen temperatuuroverschrijdingsuren binnen de gestelde grens blijft. 
+OPMERKING 1 
+Bij dauwpuntskoeling op de ventilatielucht, waarbij de uitgaande luchtstroom (ETA) wordt 
+bevochtigd voor het verkrijgen van het koelend effect, is de benodigde capaciteit vaak beperkt. Er kan dan niet 
+zonder meer worden aangehouden dat de benodigde koelvraag wordt gerealiseerd. Om bij dauwpuntskoeling op 
+de ventilatielucht aan de voorwaarde van ontheffing van de eis aan de TOjuli-indicator te voldoen is een 
+aanvullend koelsysteem noodzakelijk. 
+OPMERKING 2 
+In de bouwregelgeving is aangegeven dat voor woongebouwen de oververhittingstoets op 
+appartementniveau uitgevoerd moet worden. Hierdoor is het in de praktijk noodzakelijk om binnen een 
+woongebouw elk appartement als (ten minste één) aparte rekenzone te schematiseren. 
+5.7.2 Rekenregels 
+OPMERKING 1 
+De rekenwaarde voor de koudebehoefte is een indicatie voor overtollige warmte. Veel 
+overtollige warmte leidt tot risico van een te hoge binnentemperatuur die bij voorkeur door passieve 
+koelmaatregelen (effectieve raamoriëntatie en zonwering, overstek, gebouwmassa, ventilatie e.d.) behoort te 
+worden voorkomen.  
+Een indicatieve berekening van het risico van te hoge temperaturen wordt per rekenzone en per 
+oriëntatie gegeven aan de hand van de maand juli (TOjuli;or,zi). Indien in rekenzone zi een actief 
+koelsysteem is aangebracht, mag voor alle oriëntaties or in de rekenzone zi voor TOjuli;or,zi de 
+getalswaarde 0 worden gehanteerd. Indien geen actief koelsysteem aanwezig is, moet TOjuli;or,zi  als 
+volgt worden bepaald:  
+TOjuli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧=
+(𝑄𝑄C;nd;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧−𝑄𝑄C;HP;juli;𝑜𝑜𝑜𝑜,zi)×1 000
+൫𝐻𝐻C;D;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧+𝐻𝐻gr;an;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧+𝐻𝐻C;ve;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧൯×𝑡𝑡juli
+(5.40) 
+waarin: 
+TOjuli;or,zi 
+is de getalswaarde voor het risico van te hoge temperaturen in de maand juli voor 
+oriëntatie or, in rekenzone zi, in K, waarbij de rekenwaarde van TOjuli;or,zi minimaal de 
+waarde 0 heeft; 
+QC;nd;juli;or,zi is de koudebehoefte voor de maand juli voor oriëntatie or, van elke rekenzone zi, 
+in kWh, bepaald volgens de volgende stappen: 
+104
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 105 ---
+Withdrawn final
+Ingetrokken definitief
+— Stap A:
+ 
+ 
+Bepaal de som van de geprojecteerde oppervlakten van de uitwendige scheidingsconstructies 
+per oriëntatie, per rekenzone: 
+T;
+T;
+∑
+or,zi
+or,zi,i
+i
+A
+=
+A
+ 
+ (5.41)  
+waarin: 
+AT;or,zi is de som van de geprojecteerde oppervlakten van de uitwendige 
+scheidingsconstructies per oriëntatie in rekenzone zi, in m2; 
+AT;or,zi,i is de geprojecteerde oppervlakte van het ondoorschijnend vlakke element 
+of het raam of de deur i van de uitwendige scheidingsconstructie, bepaald 
+volgens K.1.2, voor rekenzone zi, voor oriëntatie or, in m2. 
+Voor oriëntatie or worden de volgende oriëntaties onderscheiden: N, NO, O, ZO, Z, ZW, W, NW.  
+Hierbij geldt dat elementen, ramen of deuren die geen uitwendige scheidingsconstructie zijn 
+tussen een rekenzone en de buitenlucht, niet in deze sommatie worden meegenomen. Dit geldt 
+bijvoorbeeld voor elementen, ramen of deuren tussen een rekenzone en een aangrenzende 
+onverwarmde ruimte (AOR), aangrenzende verwarmde ruimte (AVR), grond, kruipruimte, 
+water enz. Een uitzondering hierop is een aangrenzende onverwarmde serre (AOS): het 
+geveldeel dat grenst aan een serre, grenst niet aan buitenlucht, toch moet dit geveldeel bij de 
+desbetreffende oriëntatie van het geveldeel worden meegenomen. Horizontale elementen, 
+ramen of deuren worden ook niet in deze sommatie meegenomen. Deze overige elementen 
+worden apart beschouwd en naar rato over de oriëntaties verdeeld. 
+Voor oriëntaties or waarvoor geldt AT;or,zi ≤ 3 m2, blijft bepaling van TOjuli;or,zi achterwege. 
+— Stap B: 
+Bepaal de koudebehoefte, QC;nd;juli;or,zi, in kWh, voor de maand juli in rekenzone zi, per oriëntatie 
+or, volgens 7.2.2, waarbij de componenten voor de warmtebalans als volgt, voor zover relevant, 
+worden opgedeeld per oriëntatie or. 
+— De som van alle terugwinbare verliezen van of naar het ruimteverwarmingssysteem, 
+QH;ls;rbl;juli;or,zi, bepaald overeenkomstig 9.2.5.1, in kWh, wordt opgedeeld per oriëntatie or, 
+gewogen naar AT;or,zi. 
+— De som van alle terugwinbare verliezen van of naar het ruimtekoelingssysteem, QC;ls;rbl;juli;or,zi, 
+bepaald overeenkomstig 10.2, in kWh, wordt opgedeeld per oriëntatie or, gewogen naar 
+AT;or,zi. 
+— De interne warmtewinst, QC;int;juli;or,zi, bepaald overeenkomstig 7.5.2, in kWh, wordt 
+opgedeeld per oriëntatie or, gewogen naar AT;or,zi. 
+— De effectieve interne warmtecapaciteit, Cm;int;eff;juli;or,zi, bepaald overeenkomstig 7.7, in J/K, 
+wordt opgedeeld per oriëntatie or, gewogen naar AT;or,zi. 
+— De warmteoverdrachtcoëfficiënt door ventilatie, HC;ve;juli;or,zi, bepaald volgens 7.4.3, in W/K, 
+wordt opgedeeld per oriëntatie or, gewogen naar AT;or,zi. 
+105
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 106 ---
+Withdrawn final
+Ingetrokken definitief
+— De warmteoverdrachtcoëfficiënt door transmissie voor gebouwelementen in thermisch 
+contact met de grond, Hgr;an;juli;or,zi, bepaald volgens 8.3, in W/K, wordt opgedeeld per 
+oriëntatie or, gewogen naar AT;or,zi. 
+— De warmteoverdrachtcoëfficiënt via verticale leidingen die door de thermische schil gaan en 
+in directe verbinding staan met buitenlucht, HC;p;zi, bepaald volgens 7.3.2 in W/K, wordt op 
+nul gesteld. 
+— De zonnewarmtewinst, QC;sol;juli;or,zi, toegewezen aan oriëntatie or, in rekenzone zi, in kWh, 
+wordt bepaald volgens onderstaande stappen. 
+— De warmteoverdrachtcoëfficiënt door transmissie met uitzondering van de 
+beganegrondvloer, HC;D;juli;k,zi, toegewezen aan oriëntatie or, in rekenzone zi, in W/K, wordt 
+bepaald volgens onderstaande stappen. 
+— Stap 1:  
+Bepaal de warmteoverdrachtcoëfficiënt door transmissie met uitzondering van de 
+beganegrondvloer, HC;D;juli;k,zi, voor de afzonderlijke elementen, thermische bruggen, 
+ramen en deuren k in rekenzone zi, volgens 8.2, in W/K. Indien in 8.2 gebruikt wordt 
+gemaakt van formule (8.2), vervalt in stap 1 de bepaling van de 
+warmteoverdrachtcoëfficiënt door alle afzonderlijke thermische bruggen. 
+Bepaal de zonnewarmtewinst, QC;sol;juli;k,zi, voor de afzonderlijke constructies k, in 
+rekenzone zi, volgens 7.6.3, in kWh. 
+— Stap 2: 
+Oriëntatiegebonden elementen: 
+Bepaal in rekenzone zi per oriëntatie or (N, NO, O, ZO, Z, ZW, W of NW): 
+— de warmteoverdrachtcoëfficiënt door transmissie met uitzondering van de 
+beganegrondvloer, HC;D;juli;vert;or,zi, door sommatie van de 
+warmteoverdrachtcoëfficiënten voor transmissie HC;D;juli;k,zi uit stap 1 voor alle 
+afzonderlijke elementen, thermische bruggen, ramen en deuren die een uitwendige 
+scheidingsconstructie zijn tussen de rekenzone en de buitenlucht of serre en die deze 
+oriëntatie or hebben, in W/K. Voor iedere lineaire thermische brug, k, die deel 
+uitmaakt van constructiedelen met verschillende oriëntaties, moet de 
+warmteoverdrachtcoëfficiënt, (k × ψk), als gevolg van deze thermische brug gelijk 
+verdeeld worden over deze constructiedelen. Indien in 8.2 gebruikt wordt gemaakt 
+van formule (8.2), vervalt in stap 2 de sommatie van de 
+warmteoverdrachtcoëfficiënten voor alle afzonderlijke thermische bruggen. 
+Het bepalen van het warmteverlies via lineaire thermische bruggen per oriëntatie is 
+uitsluitend noodzakelijk op het moment dat TOjuli;or,zi niet 0 K is en berekend moet 
+worden en er een grenswaarde aan de uitkomst van TOjuli;or,zi wordt gesteld. In alle 
+andere gevallen is het splitsen van het warmteverlies via lineaire thermische bruggen 
+per oriëntatie niet noodzakelijk. 
+— de zonnewarmtewinst, QC;sol;juli;vert;or,zi, door sommatie van de zonnewarmtewinst 
+QC;sol;juli;k,zi uit stap 1 voor de afzonderlijke constructies k die een uitwendige 
+scheidingsconstructie zijn tussen de rekenzone en de buitenlucht of serre en die deze 
+oriëntatie or hebben, in kWh. 
+106
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 107 ---
+Withdrawn final
+Ingetrokken definitief
+— Stap 3: 
+Overige elementen: 
+Bepaal de warmteoverdrachtcoëfficiënt door transmissie met uitzondering van de 
+beganegrondvloer, HC;D;juli;hor;zi, door sommatie van de warmteoverdrachtcoëfficiënten 
+voor transmissie HC;D;juli;k,zi uit stap 1 voor de overige afzonderlijke elementen, thermische 
+bruggen, ramen en deuren in de rekenzone zi, in W/K. Indien in 8.2 gebruikt wordt 
+gemaakt van formule (8.2), vervalt in stap 3 de sommatie van de 
+warmteoverdrachtcoëfficiënten voor alle afzonderlijke thermische bruggen. 
+Bepaal de zonnewarmtewinst, QC;sol;hor;juli;zi, door sommatie van de zonnewarmtewinst 
+QC;sol;juli;k,zi voor de overige afzonderlijke constructies k in rekenzone zi, uit stap 1, in kWh. 
+— Stap 4: 
+Bepaal in rekenzone zi de warmteoverdrachtcoëfficiënt door transmissie met 
+uitzondering van de beganegrondvloer, HC;D;juli;hor;or,zi, door de 
+warmteoverdrachtcoëfficiënt HC;D;juli;hor;zi uit stap 3 te verdelen over de oriëntaties or 
+gewogen naar AT;or,zi, in W/K. 
+Bepaal in rekenzone zi de zonnewarmtewinst, QC;sol;juli;hor;or;zi, door de zonnewarmtewinst 
+QC;sol;juli;hor;zi uit stap 3 te verdelen over de oriëntaties or gewogen naar AT;or,zi, in kWh. 
+— Stap 5:  
+Bepaal de warmteoverdrachtcoëfficiënt door transmissie met uitzondering van de 
+beganegrondvloer, HC;D;juli;or,zi, voor oriëntatie or, in rekenzone zi, door HC;D;juli;hor;or,zi uit 
+stap 4 en HC;D;juli;vert;or,zi uit stap 2 per oriëntatie or bij elkaar op te tellen, in W/K. 
+Bepaal de zonnewarmtewinst, QC;sol;juli;or,zi, voor oriëntatie or, in rekenzone zi, door 
+QC;sol;juli;hor;or,zi uit stap 4 en QC;sol;juli;vert;or,zi uit stap 2 per oriëntatie or bij elkaar op te tellen, 
+in kWh. 
+QC;HP;juli;or,zi is de door de boosterwarmtepomp aan het koudedistributiesysteem onttrokken 
+energie voor oriëntatie or, t.b.v. rekenzone zi, in maand juli, in kWh, bepaald volgens 
+de volgende stappen: 
+— Stap i:
+ 
+ 
+Bepaal de som van de koudebehoefte voor de maand juli, voor alle oriëntaties or, 
+van elke rekenzone zi, in kWh: 
+𝑄𝑄C;nd;juli,𝑧𝑧𝑧𝑧= ∑
+𝑄𝑄C;nd;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧
+𝑜𝑜𝑜𝑜
+ 
+ (5.41a) 
+waarin: 
+QC;nd;juli;or,zi is de koudebehoefte voor de maand juli voor oriëntatie or, van elke 
+rekenzone zi, in kWh, zoals in bovenstaand stappenplan bepaald; 
+QC;nd;juli,zi 
+is de gesommeerde koudebehoefte voor de maand juli voor alle 
+oriëntaties or, van elke rekenzone zi, in kWh. 
+107
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 108 ---
+Withdrawn final
+Ingetrokken definitief
+— Stap ii:
+ 
+ 
+Bepaal voor de maand juli van elke rekenzone zi voor elke oriëntatie or de 
+dimensieloze verhouding tussen de koudebehoefte voor oriëntatie or, en de 
+gesommeerde koudebehoefte voor alle oriëntaties: 
+𝑓𝑓C;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧=
+𝑄𝑄C;nd;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧
+𝑄𝑄C;nd;juli,𝑧𝑧𝑧𝑧 
+ (5.41b) 
+waarin: 
+fC;juli;or,zi 
+is de dimensieloze verhouding tussen de koudebehoefte voor 
+oriëntatie or, en de gesommeerde koudebehoefte voor alle 
+oriëntaties voor de maand juli van elke rekenzone zi; 
+QC;nd;juli;or,zi is de koudebehoefte voor de maand juli voor oriëntatie or, van elke 
+rekenzone zi, in kWh, zoals in bovenstaand stappenplan bepaald; 
+QC;nd;juli,zi 
+is de gesommeerde koudebehoefte voor de maand juli voor alle 
+oriëntaties or, van elke rekenzone zi, in kWh. 
+— Stap iii:
+ 
+ 
+Bepaal de door de boosterwarmtepomp aan het koudedistributiesysteem 
+onttrokken energie voor oriëntatie or, t.b.v. rekenzone zi, in maand juli, in kWh: 
+𝑄𝑄C;HP;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧= 𝑄𝑄C;HP;juli;𝑧𝑧𝑧𝑧× 𝑓𝑓C;juli;𝑜𝑜𝑜𝑜,𝑧𝑧𝑧𝑧  
+ (5.41c) 
+waarin: 
+QC;HP;juli;or,zi is de door de boosterwarmtepomp aan het koudedistributiesysteem 
+onttrokken energie voor oriëntatie or, t.b.v. rekenzone zi, in maand 
+juli, in kWh; 
+fC;juli;or,zi 
+is de dimensieloze verhouding tussen de koudebehoefte voor 
+oriëntatie or, en de gesommeerde koudebehoefte voor alle 
+oriëntaties voor de maand juli van elke rekenzone zi, zoals in 
+bovenstaande stappen bepaald; 
+QC;HP;juli,zi 
+is de door de boosterwarmtepomp aan het koudedistributiesysteem 
+onttrokken energie, t.b.v. rekenzone zi, in maand juli, bepaald 
+overeenkomstig 10.3.2, in kWh. 
+HC;D;juli;or,zi 
+is de directe warmteoverdrachtcoëfficiënt door transmissie tussen de verwarmde ruimte 
+en de buitenlucht met uitzondering van de beganegrondvloer in de maand juli, voor 
+oriëntatie or, in rekenzone zi, zoals in bovenstaand stappenplan bepaald, in W/K; 
+Hgr;an;juli;or,zi 
+is de warmteoverdrachtcoëfficiënt door transmissie voor gebouwelementen in 
+thermisch contact met de grond in de maand juli, voor oriëntatie or, in rekenzone zi, 
+zoals in bovenstaand stappenplan bepaald, in W/K; 
+HC;ve;juli;or,zi 
+is de warmteoverdrachtcoëfficiënt door ventilatie in de maand juli, voor oriëntatie or, in 
+rekenzone zi, zoals in bovenstaand stappenplan bepaald, in W/K; 
+tjuli 
+is de rekenwaarde voor de lengte van de maand juli, bepaald volgens 17.2, in h. 
+108
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 109 ---
+Withdrawn final
+Ingetrokken definitief
+Rond de TOjuli-indicator naar boven af op een veelvoud van 0,01. 
+OPMERKING 2 
+Deze indicatieve berekening van het risico van te hoge temperaturen is een versimpelde 
+benadering om extra invoer te voorkomen. Door de opdeling in oriëntaties kunnen onbedoelde effecten 
+optreden, bijvoorbeeld uitmiddeling van het risico op oververhitting tussen ruimten met een laag risico en een 
+hoog risico (zoals een koel beganegrondvertrek en een warme slaapkamer op de verdieping), of bijvoorbeeld 
+woningen met afwijkende plattegronden (L-vormige plattegronden, uitstulpingen, inhammen enz.). Het beste 
+beeld van het risico op te hoge temperaturen wordt verkregen door afzonderlijke verdiepingen in aparte 
+rekenzones te verdelen. In alle gevallen geldt dat een afweging tot inschakeling van professioneel inzicht op dit 
+aspect verstandig is. 
+OPMERKING 3 
+Om te voorkomen dat er een eis geldt voor constructies met een beperkte afmeting, blijven 
+deze buiten beschouwing. Het betreft bijvoorbeeld geveldelen en daarmee gelijk te stellen elementen, zoals de 
+zijwang van een dakkapel of een sprong of uitstulping in de gevel, waarvan uit de context van het plan kan 
+worden afgeleid dat er sprake zal zijn van een onbedoeld effect, zoals beschreven bij OPMERKING 2. Normatief is 
+bepaald dat deze een maximale afmeting mogen hebben van 3 m2 per oriëntatie per rekenzone voor alle 
+constructies met een zelfde oriëntatie. 
+5.8 Externe warmte- en/of koude- en/of warmtapwaterlevering 
+Indien geen gebruik wordt gemaakt van de forfaitaire waarden voor externe warmte- en/of 
+koudelevering, worden de primaire energiefactor (fP;del;dX), CO2-emissiecoëfficiënten (KCO2;del;dX;tot) en 
+het aandeel hernieuwbare energie (fPren;dX) van de externe warmte- en/of koudelevering bepaald 
+volgens bijlage P. In deze bijlage is NEN 7125:2017 overgenomen.  
+OPMERKING 1 
+Bijlage P is van toepassing op externe warmte- en/of koudeleveringssystemen. In principe is 
+een collectieve gebouwinstallatie op het eigen perceel gesitueerd en is er bij opwekkers buiten het perceel 
+sprake van externe warmte- en/of koudelevering. Uitzondering hierop vormt de onderstaande situatie: 
+— de percelen waaraan de gebouwgebonden installatie levert, zijn aangrenzend en de installatie staat op één 
+van de percelen. Hierbij mag openbaar gebied (grond of water) buiten beschouwing gelaten worden; en 
+— de kortst gemeten afstand tussen de energieprestatieplichtige gebouwen of delen van gebouwen en het 
+gebouw waarin de installatie staat, is maximaal 50 m; en 
+— het betreft een bestaande situatie die is opgeleverd voor 1 januari 2021 waarbij de installatie levert aan 
+gebouwen gelegen op ten hoogste drie percelen; en  
+— de energieprestatieadviseur moet toegang hebben tot de technische installatie. 
+Als aan deze vier voorwaarden is voldaan, wordt deze installatie als een collectieve gebouwinstallatie 
+aangemerkt. Het opwekkingsrendement en de energiedrager van deze collectieve gebouwinstallatie moeten 
+tevens worden gebruikt voor de hierop aangesloten energieprestatieplichtige gebouwen of delen van een 
+gebouw op de aangrenzende percelen.  
+Door de vervanging van NEN 7120 door NTA 8800 en een aantal beleidsmatige keuzes waren een 
+aantal aanpassingen noodzakelijk. Dit betreft onder andere: 
+— het vervallen van de mogelijkheid om duurzame elektriciteit en gas die getransporteerd worden via 
+het landelijke netwerk, te alloceren aan specifieke afnemers. Een uitzondering hierop vormt het 
+elektriciteitsgebruik van elektrische opwekkers in de flexmodus; 
+— het ministerie van Economische zaken en Klimaat heeft voor het bepalen van de CO2-emissie van 
+een WKK met derving gekozen voor methode B; 
+109
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 110 ---
+Withdrawn final
+Ingetrokken definitief
+— bij het bepalen van de RERPrenTot-indicator, het aandeel hernieuwbare energie en restwarmte, wordt 
+zowel de hoeveelheid hernieuwbare energie als de hoeveelheid restwarmte en/of -koude in het 
+aandeel hernieuwbare energie en restwarmte meegerekend.  
+OPMERKING 2  
+Het betrekken van de hoeveelheid restwarmte en/of -koude in de RERPrenTot-indicator is een 
+beleidsmatige keuze en gebaseerd op artikel 15 lid 3 van DIRECTIVE (EU) 2018/2001 OF THE EUROPEAN 
+PARLIAMENT AND OF THE COUNCIL of 11 December 2018 on the promotion of the use of energy from 
+renewable sources. 
+OPMERKING 3  
+Lokaal geproduceerde duurzame elektriciteit en gas, die niet getransporteerd worden via het 
+landelijke netwerk, kunnen nog steeds worden gebruikt. 
+In een beperkt aantal gevallen zijn voor distributienetten voor externe warmte- en/of koudelevering 
+in 2020 kwaliteitsverklaringen conform NTA 8800:2020 en NEN 7125 opgesteld. Voor toepassing van 
+deze verklaringen zijn in 5.8.1 t/m 5.8.4 van NTA 8800:2020 een aantal aanvullingen gegeven voor het 
+gebruik van NEN 7125. Onder toepassing van deze aanvullingen kunnen verklaringen voor externe 
+warmte- en/of koudelevering die zijn opgesteld conform NTA 8800:2020 en NEN 7125, tot uiterlijk 
+2024 gebruikt worden.  
+Bij externe warmte- of koudelevering is het toegestaan om (hernieuwbare) bronnen die nog niet zijn 
+aangesloten op het net mee te waarderen in de energetische prestaties van het externe warmte- en/of 
+koudenet. Dit betreft de primaire energiefactor (fP;del;dX), de primaire hernieuwbare energiefactor 
+(fPren;dX) en de CO2-emissiecoëfficiënten (KCO2;del;dX;tot). De berekening wordt gecontroleerd door een 
+door de overheid aangewezen partij, waarna een kwaliteitsverklaring wordt afgegeven. Hiervoor 
+gelden de volgende voorwaarden: 
+— Voor de bron is een investeringsbesluit genomen of voor het externe warmte- of koudenet is een 
+concessie, vergunning of overeenkomst beschikbaar waarin duidelijk is beschreven welke bronnen 
+er nu en in de toekomst op het externe warmte- of koudenet aangesloten worden, inclusief de 
+planning van het aansluiten van deze bronnen en de verwachte ontwikkeling van de warmtevraag. 
+Bij een concessie, vergunning of overeenkomst moet de looptijd minimaal 10 jaar zijn en moeten 
+alle direct betrokken partijen (zoals beheerder warmtenet, leverancier warmte, 
+gemeente/provincie en eventueel de ontwikkelaar van het project) instemming hebben gegeven en 
+hebben getekend voor de concessie, vergunning of overeenkomst. 
+— De bronnen die binnen een periode van maximaal 10 jaar worden aangesloten op het externe 
+warmte- of koudenet mogen worden meegeteld. Op de kwaliteitsverklaring moet vermeld worden, 
+dat bij de bepaling van de energetische prestatie van het betreffende externe warmte- of koudenet 
+rekening is gehouden met deze toekomstige ontwikkelingen. 
+— De op de kwaliteitsverklaring opgegeven energetische prestaties (de primaire energiefactor 
+(fP;del;dX), de primaire hernieuwbare energiefactor (fPren;dX)) en de CO2-emissiecoëfficiënten 
+(KCO2;del;dX;tot) van het externe warmte- of koudenet zijn de, over de (gehele) gekozen looptijd van de 
+verklaring, gemiddelde gewogen waarden. Deze waarden worden bepaald op basis van de op dat 
+moment geldende primaire energiefactoren.  
+— De kwaliteitsverklaring met de energetische prestaties van externe warmte- of koudenetten 
+conform bijlage P (EMG-verklaring) zal elke 3 jaar opnieuw moeten worden beoordeeld. Hierbij zal 
+worden nagegaan of de energieprestatie van de externe warmte- of koudelevering zich ontwikkelt 
+conform de verwachting. Een kwaliteitsverklaring voor een klein systeem voor externe warmte- 
+en/of koudelevering op basis van uitsluitend forfaitaire waarden volgens bijlage P kent geen 
+beperking van de geldigheidstermijn zolang het systeem niet wordt uitgebreid, aangepast of een 
+andere energiemix gebruikt.  
+110
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14

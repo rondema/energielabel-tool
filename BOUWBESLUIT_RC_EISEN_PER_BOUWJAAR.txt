@@ -1,0 +1,130 @@
+================================================================================
+BOUWBESLUIT RC-WAARDE EISEN PER BOUWJAAR
+================================================================================
+Datum: 31 december 2025
+Bronnen: handelbouwadvies.nl, geregeld24.nl, RVO.nl
+
+================================================================================
+HISTORISCH OVERZICHT RC-EISEN (m²·K/W)
+================================================================================
+
+| Periode     | Gevel  | Dak    | Vloer  | Opmerkingen                    |
+|-------------|--------|--------|--------|--------------------------------|
+| Vóór 1920   | 0      | 0      | 0      | Geen isolatie, massieve muur   |
+| 1920-1974   | 0      | 0      | 0      | Geen isolatie, lege spouw      |
+| 1975-1982   | ~1.0   | ~1.0   | 0      | Eerste eisen, matig            |
+| 1983-1987   | 1.30   | 1.30   | 0.52   | Bouwbesluit 1983               |
+| 1988-1991   | 1.30   | 1.30   | 0.52   | Ongewijzigd                    |
+| 1992-1999   | 2.50   | 2.50   | 2.50   | Bouwbesluit 1992 - GROTE SPRONG|
+| 2000-2011   | 2.50   | 2.50   | 2.50   | Ongewijzigd                    |
+| 2012-2014   | 3.50   | 3.50   | 3.50   | Bouwbesluit 2012               |
+| 2015-2020   | 4.50   | 6.00   | 3.50   | Aanscherping                   |
+| 2021+       | 4.70   | 6.30   | 3.70   | BENG-eisen (bijna energieneutr)|
+
+================================================================================
+PRAKTISCHE INTERPRETATIE PER BOUWJAARPERIODE
+================================================================================
+
+VóÓR 1975 - GEEN ISOLATIE
+-------------------------
+- Rc gevel: 0,2-0,4 (alleen massa van muur)
+- Rc dak: 0,2-0,5 (alleen massa)
+- Rc vloer: 0,1-0,3 (alleen massa)
+- Let op: spouw vaak WEL aanwezig maar NIET gevuld
+
+1975-1982 - EERSTE ISOLATIE-EISEN
+---------------------------------
+- Rc gevel: ~1,0 (dunne isolatie, 2-4 cm)
+- Rc dak: ~1,0 (dunne isolatie)
+- Rc vloer: minimaal of geen
+- Vaak alleen gedeeltelijk uitgevoerd
+
+1983-1991 - MATIGE ISOLATIE
+---------------------------
+- Rc gevel: 1,30 (verplicht)
+- Rc dak: 1,30 (verplicht)
+- Rc vloer: 0,52 (minimaal)
+- Isolatiedikte: 4-6 cm
+- Woningen uit deze periode: vaak Label B-C mogelijk
+
+1992-2011 - GOEDE ISOLATIE
+--------------------------
+- Rc gevel: 2,50 (verplicht)
+- Rc dak: 2,50 (verplicht)
+- Rc vloer: 2,50 (verplicht)
+- Isolatiedikte: 8-12 cm
+- Woningen uit deze periode: vaak Label A-B mogelijk
+- BELANGRIJKE PERIODE - grote sprong in kwaliteit!
+
+2012-2014 - VERBETERDE ISOLATIE
+-------------------------------
+- Rc gevel: 3,50
+- Rc dak: 3,50
+- Rc vloer: 3,50
+- Woningen: Label A standaard
+
+2015-2020 - STRENGE ISOLATIE
+----------------------------
+- Rc gevel: 4,50
+- Rc dak: 6,00
+- Rc vloer: 3,50
+- Woningen: Label A+ of beter standaard
+
+2021+ - BENG (Bijna Energieneutraal)
+------------------------------------
+- Rc gevel: 4,70
+- Rc dak: 6,30
+- Rc vloer: 3,70
+- Plus: EP1, EP2, EP3 eisen
+- Woningen: A++ of A+++ standaard
+
+================================================================================
+FORFAITAIRE RC-WAARDEN VOOR ENERGIELABEL (als onbekend)
+================================================================================
+
+Bij energielabelberekening, als isolatie niet te bepalen:
+
+| Bouwjaar    | Forfaitair Rc gevel | Forfaitair Rc dak | Forfaitair Rc vloer |
+|-------------|---------------------|-------------------|---------------------|
+| Vóór 1965   | 0,36                | 0,39              | 0,14                |
+| 1965-1974   | 0,43                | 0,58              | 0,17                |
+| 1975-1982   | 0,86                | 0,90              | 0,32                |
+| 1983-1987   | 1,11                | 1,23              | 0,32                |
+| 1988-1991   | 1,36                | 1,39              | 0,50                |
+| 1992-1999   | 2,17                | 2,33              | 1,73                |
+| 2000-2005   | 2,39                | 2,61              | 2,28                |
+| 2006-2014   | 2,78                | 3,04              | 2,65                |
+| 2015+       | Detailopname vereist|                   |                     |
+
+Let op: Forfaitaire waarden zijn LAGER dan Bouwbesluit-eisen (conservatief)
+
+================================================================================
+IMPLICATIES VOOR ENERGIELABEL TOOL
+================================================================================
+
+BOUWJAAR IS CRUCIAAL:
+- Vraag altijd bouwjaar
+- Bouwjaar bepaalt AUTOMATISCH de basiswaarden
+- Geen isolatie noemen bij 1992+ = wel isolatie (Rc 2,5)
+- Geen isolatie noemen bij pre-1975 = geen isolatie (Rc ~0,3)
+
+KRITISCHE GRENZEN:
+- Pre-1975: Slechte isolatie, label C-G zonder maatregelen
+- 1975-1991: Matige isolatie, label B-D
+- 1992-2011: Goede isolatie, label A-C
+- 2012+: Zeer goed, label A of beter
+
+COMBINATIE MET INSTALLATIES:
+- Woning 1992+ met HR-107 = waarschijnlijk Label A
+- Woning pre-1975 met HR-107 = waarschijnlijk Label C-D
+- Toevoegen warmtepomp + PV kan elk bouwjaar naar A+++
+
+================================================================================
+BRONNEN
+================================================================================
+- https://www.handelbouwadvies.nl/rc-isolatie-waarde-bouwbesluit/
+- https://geregeld24.nl/isolatie-per-bouwjaar-overzicht/
+- https://papagreen.org/wonen/isolatie/isolatiemogelijkheden-huis-per-bouwjaar/
+- NTA 8800 forfaitaire waarden
+
+================================================================================

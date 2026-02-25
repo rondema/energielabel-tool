@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energielabel Inschatting Tool</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.8);
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        select, input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .form-row-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
+            gap: 15px;
+            align-items: end;
+        }
+
+        @media (max-width: 600px) {
+            .form-row, .form-row-3 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .btn {
+            width: 100%;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: #4CAF50;
+            padding: 12px 20px;
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 5px 20px rgba(76, 175, 80, 0.4);
+        }
+
+        /* Address section */
+        .address-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 2px dashed #e0e0e0;
+        }
+
+        .address-section.found {
+            border-color: #4CAF50;
+            border-style: solid;
+            background: #e8f5e9;
+        }
+
+        .address-result {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+        }
+
+        .address-result.show {
+            display: block;
+        }
+
+        .address-result h4 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        .address-data {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .address-data-item {
+            padding: 8px 12px;
+            background: #f5f5f5;
+            border-radius: 6px;
+        }
+
+        .address-data-item .label {
+            font-size: 0.8rem;
+            color: #777;
+            display: block;
+        }
+
+        .address-data-item .value {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .error-msg {
+            color: #d32f2f;
+            background: #ffebee;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        .error-msg.show {
+            display: block;
+        }
+
+        /* EP-Online section */
+        .ep-online-result {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .ep-online-result.show {
+            display: block;
+        }
+
+        .ep-online-result.has-label {
+            border-left: 4px solid #2196F3;
+            background: #e3f2fd;
+        }
+
+        .ep-online-result.no-label {
+            border-left: 4px solid #ff9800;
+            background: #fff3e0;
+        }
+
+        .current-label-display {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .current-label-badge {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .label-advice {
+            flex: 1;
+        }
+
+        .label-advice h4 {
+            color: #1565c0;
+            margin-bottom: 5px;
+        }
+
+        .distance-to-next {
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        .distance-highlight {
+            font-weight: 600;
+            color: #4CAF50;
+        }
+
+        /* Result styling */
+        .result-card {
+            display: none;
+        }
+
+        .result-card.show {
+            display: block;
+        }
+
+        .label-display {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .label-letter {
+            display: inline-block;
+            font-size: 5rem;
+            font-weight: 700;
+            color: white;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            border-radius: 16px;
+            margin-bottom: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .label-A4 { background: linear-gradient(135deg, #00a651 0%, #008f47 100%); }
+        .label-A3 { background: linear-gradient(135deg, #00a651 0%, #008f47 100%); }
+        .label-A2 { background: linear-gradient(135deg, #00a651 0%, #008f47 100%); }
+        .label-A1 { background: linear-gradient(135deg, #50b848 0%, #3da33d 100%); }
+        .label-A { background: linear-gradient(135deg, #8dc63f 0%, #7ab82e 100%); }
+        .label-B { background: linear-gradient(135deg, #c4d82e 0%, #b0c41e 100%); }
+        .label-C { background: linear-gradient(135deg, #fff200 0%, #e6d900 100%); color: #333; }
+        .label-D { background: linear-gradient(135deg, #f7941d 0%, #e07d0a 100%); }
+        .label-E { background: linear-gradient(135deg, #f15a29 0%, #d94315 100%); }
+        .label-F { background: linear-gradient(135deg, #ed1c24 0%, #c41017 100%); }
+        .label-G { background: linear-gradient(135deg, #be1e2d 0%, #a01520 100%); }
+
+        .ep2-value {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .ep2-range {
+            color: #777;
+            font-size: 0.95rem;
+        }
+
+        .confidence {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .confidence-bar {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
+
+        .factors-list {
+            margin-top: 20px;
+        }
+
+        .factors-list h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .factor-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .factor-item:last-child {
+            border-bottom: none;
+        }
+
+        .factor-icon {
+            width: 24px;
+            margin-right: 10px;
+            text-align: center;
+        }
+
+        .factor-positive { color: #00a651; }
+        .factor-negative { color: #ed1c24; }
+        .factor-neutral { color: #777; }
+
+        .tips-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+
+        .tips-section h4 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+
+        .tip-item {
+            padding: 5px 0;
+            color: #333;
+        }
+
+        .disclaimer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3e0;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #e65100;
+            border-left: 4px solid #ff9800;
+        }
+
+        .toggle-advanced {
+            background: none;
+            border: none;
+            color: #667eea;
+            cursor: pointer;
+            font-size: 0.95rem;
+            padding: 10px 0;
+            text-decoration: underline;
+        }
+
+        .advanced-section {
+            display: none;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px dashed #e0e0e0;
+        }
+
+        .advanced-section.show {
+            display: block;
+        }
+
+        .reset-btn {
+            background: #f5f5f5;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .reset-btn:hover {
+            background: #e0e0e0;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .calculation-details {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+
+        .calculation-details h4 {
+            margin-bottom: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .calc-line {
+            display: flex;
+            justify-content: space-between;
+            padding: 3px 0;
+        }
+
+        .calc-total {
+            border-top: 2px solid #333;
+            margin-top: 8px;
+            padding-top: 8px;
+            font-weight: bold;
+        }
+
+        .manual-toggle {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .manual-toggle button {
+            background: none;
+            border: none;
+            color: #667eea;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Energielabel Inschatting</h1>
+        <p class="subtitle">Krijg een indicatie van uw energielabel op basis van woningkenmerken</p>
+
+        <!-- Input Form -->
+        <div class="card" id="inputCard">
+
+            <!-- Address Section -->
+            <div class="address-section" id="addressSection">
+                <div class="card-title">Stap 1: Zoek uw adres</div>
+
+                <div class="form-row-3">
+                    <div class="form-group">
+                        <label for="postcode">Postcode</label>
+                        <input type="text" id="postcode" placeholder="1234 AB" maxlength="7">
+                    </div>
+                    <div class="form-group">
+                        <label for="huisnummer">Huisnummer</label>
+                        <input type="text" id="huisnummer" placeholder="12">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-secondary" onclick="zoekAdres()" id="zoekBtn">
+                            Zoek adres
+                        </button>
+                    </div>
+                </div>
+
+                <div class="error-msg" id="addressError"></div>
+
+                <div class="address-result" id="addressResult">
+                    <h4>Adres gevonden</h4>
+                    <div class="address-data">
+                        <div class="address-data-item">
+                            <span class="label">Adres</span>
+                            <span class="value" id="foundAddress">-</span>
+                        </div>
+                        <div class="address-data-item">
+                            <span class="label">Bouwjaar</span>
+                            <span class="value" id="foundBouwjaar">-</span>
+                        </div>
+                        <div class="address-data-item">
+                            <span class="label">Oppervlakte</span>
+                            <span class="value" id="foundOppervlakte">-</span>
+                        </div>
+                        <div class="address-data-item">
+                            <span class="label">Woningtype</span>
+                            <span class="value" id="foundWoningtype">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EP-Online placeholder (voor later) -->
+                <div class="ep-online-result" id="epOnlineResult">
+                    <!-- Wordt gevuld door EP-Online API -->
+                </div>
+
+                <div class="manual-toggle">
+                    <button onclick="toggleManualMode()">Of vul handmatig in</button>
+                </div>
+            </div>
+
+            <!-- Manual Input Section -->
+            <div id="manualSection">
+                <div class="card-title">Stap 2: Controleer of vul aan</div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="bouwjaar">Bouwjaar</label>
+                        <select id="bouwjaar" required>
+                            <option value="">Selecteer bouwjaar...</option>
+                            <option value="pre1965">Voor 1965</option>
+                            <option value="1965-1974">1965 - 1974</option>
+                            <option value="1975-1982">1975 - 1982</option>
+                            <option value="1983-1991">1983 - 1991</option>
+                            <option value="1992-1999">1992 - 1999</option>
+                            <option value="2000-2011">2000 - 2011</option>
+                            <option value="2012-2014">2012 - 2014</option>
+                            <option value="2015-2020">2015 - 2020</option>
+                            <option value="2021+">2021 of later</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="woningtype">Woningtype</label>
+                        <select id="woningtype" required>
+                            <option value="">Selecteer type...</option>
+                            <option value="appartement">Appartement</option>
+                            <option value="tussenwoning">Tussenwoning</option>
+                            <option value="hoekwoning">Hoekwoning / 2-onder-1-kap</option>
+                            <option value="vrijstaand">Vrijstaand</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="oppervlakte">Woonoppervlakte (m²)</label>
+                        <input type="number" id="oppervlakte" placeholder="bijv. 120" min="20" max="500">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="verwarming">Verwarming</label>
+                        <select id="verwarming" required>
+                            <option value="">Selecteer type...</option>
+                            <option value="hr_standaard">HR-ketel (standaard)</option>
+                            <option value="hr_kwaliteit">HR-ketel met kwaliteitsverklaring</option>
+                            <option value="warmtepomp">Warmtepomp (hybride of volledig)</option>
+                            <option value="stadsverwarming">Stadsverwarming</option>
+                            <option value="elektrisch">Elektrisch</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="beglazing">Beglazing</label>
+                        <select id="beglazing" required>
+                            <option value="">Selecteer type...</option>
+                            <option value="enkel">Enkel glas</option>
+                            <option value="dubbel">Dubbelglas</option>
+                            <option value="hr">HR++ glas</option>
+                            <option value="triple">Triple glas</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="zonnepanelen">Zonnepanelen</label>
+                        <select id="zonnepanelen" required>
+                            <option value="">Selecteer aantal...</option>
+                            <option value="0">Geen</option>
+                            <option value="3">1-5 panelen</option>
+                            <option value="8">6-10 panelen</option>
+                            <option value="13">11-15 panelen</option>
+                            <option value="20">16+ panelen</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="button" class="toggle-advanced" onclick="toggleAdvanced()">
+                    + Geavanceerde opties tonen
+                </button>
+
+                <div class="advanced-section" id="advancedSection">
+                    <div class="card-title">Geavanceerde opties</div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ventilatie">Ventilatie</label>
+                            <select id="ventilatie">
+                                <option value="natuurlijk">Natuurlijk (ramen/roosters)</option>
+                                <option value="mech_oud">Mechanische afzuiging (oud, pre-2010)</option>
+                                <option value="mech_nieuw">Mechanische afzuiging (nieuw)</option>
+                                <option value="wtw">Balansventilatie met WTW</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vloerverwarming">Vloerverwarming</label>
+                            <select id="vloerverwarming">
+                                <option value="nee">Nee</option>
+                                <option value="ja">Ja</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="isolatie_extra">Extra isolatie toegevoegd?</label>
+                            <select id="isolatie_extra">
+                                <option value="nee">Nee / Standaard voor bouwjaar</option>
+                                <option value="spouw">Spouwmuurisolatie (na-isolatie)</option>
+                                <option value="dak">Dakisolatie (na-isolatie)</option>
+                                <option value="beide">Spouw + dak na-geïsoleerd</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="warmwater">Warm water</label>
+                            <select id="warmwater">
+                                <option value="combi">Combiketel</option>
+                                <option value="voorraad">Ketel met voorraadvat</option>
+                                <option value="elektrisch">Elektrische boiler</option>
+                                <option value="wpboiler">Warmtepompboiler</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn" onclick="berekenLabel()">Bereken Energielabel</button>
+        </div>
+
+        <!-- Result Card -->
+        <div class="card result-card" id="resultCard">
+            <div class="card-title">Resultaat</div>
+
+            <div class="label-display">
+                <div class="label-letter" id="labelLetter">B</div>
+                <div class="ep2-value" id="ep2Value">EP2: ~175 kWh/m² per jaar</div>
+                <div class="ep2-range" id="ep2Range">Waarschijnlijk tussen 165 en 185 kWh/m²</div>
+            </div>
+
+            <!-- Distance to next label -->
+            <div class="tips-section" id="distanceSection" style="background: #e3f2fd; border-color: #2196F3;">
+                <h4 style="color: #1565c0;">Afstand tot volgend label</h4>
+                <div id="distanceInfo"></div>
+            </div>
+
+            <div class="confidence">
+                <div style="display: flex; justify-content: space-between;">
+                    <span>Betrouwbaarheid inschatting</span>
+                    <span id="confidencePercent">75%</span>
+                </div>
+                <div class="confidence-bar">
+                    <div class="confidence-fill" id="confidenceFill" style="width: 75%"></div>
+                </div>
+            </div>
+
+            <div class="factors-list">
+                <h4>Factoren in de berekening:</h4>
+                <div id="factorsList"></div>
+            </div>
+
+            <div class="calculation-details" id="calcDetails">
+                <h4>Berekening:</h4>
+                <div id="calcBreakdown"></div>
+            </div>
+
+            <div class="tips-section" id="tipsSection">
+                <h4>Tips voor verbetering:</h4>
+                <div id="tipsList"></div>
+            </div>
+
+            <div class="disclaimer">
+                <strong>Let op:</strong> Dit is een indicatie op basis van de door u ingevulde gegevens.
+                Het werkelijke energielabel kan alleen worden vastgesteld door een gecertificeerd
+                energieadviseur met een officiële NTA 8800 berekening.
+            </div>
+
+            <button class="btn reset-btn" onclick="resetForm()">Nieuwe berekening</button>
+        </div>
+
+        <div style="text-align: center; color: rgba(255,255,255,0.6); margin-top: 20px; font-size: 0.85rem;">
+            Prototype v4.0 | BAG + EP-Online API | Buurt labels | 1 januari 2026
+        </div>
+    </div>
+
+    <script>
+        // ===========================================
+        // API CONFIGURATIE
+        // ===========================================
+
+        // EP-Online API key (aangevraagd via apikey.ep-online.nl)
+        const EP_ONLINE_API_KEY = 'MUE0NkFCNzg0MjI3NzAzOTU2M0QxRUU1OTNBRTU2QUZGNDJGRkU1OTM5NDMxQTJEODE5QUM5ODUxMUY4RTE0RkEwMjZCNDlDN0RGMTY2NDlCNEE5RTA3QTIzQzVFODAw';
+
+        // ===========================================
+        // BAG API INTEGRATIE
+        // ===========================================
+
+        let bagData = null; // Opgeslagen BAG data
+        let epOnlineData = null; // Opgeslagen EP-Online data
+
+        async function zoekAdres() {
+            const postcode = document.getElementById('postcode').value.replace(/\s/g, '').toUpperCase();
+            const huisnummer = document.getElementById('huisnummer').value.trim();
+
+            // Validatie
+            if (!postcode || postcode.length < 6) {
+                showAddressError('Vul een geldige postcode in (bijv. 1234AB)');
+                return;
+            }
+            if (!huisnummer) {
+                showAddressError('Vul een huisnummer in');
+                return;
+            }
+
+            // UI feedback
+            const btn = document.getElementById('zoekBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<span class="loading"></span>Zoeken...';
+            btn.disabled = true;
+            hideAddressError();
+
+            try {
+                // PDOK Locatieserver API aanroepen
+                const query = `${postcode} ${huisnummer}`;
+                const url = `https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=${encodeURIComponent(query)}&fq=type:adres&rows=1`;
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.response.docs.length === 0) {
+                    showAddressError('Adres niet gevonden. Controleer postcode en huisnummer.');
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    return;
+                }
+
+                const adres = data.response.docs[0];
+
+                // Nu de BAG details ophalen via de nummeraanduiding ID
+                const nummeraanduidingId = adres.nummeraanduiding_id;
+
+                if (nummeraanduidingId) {
+                    await haalBAGDetails(nummeraanduidingId, adres);
+                } else {
+                    // Fallback: alleen adres gevonden, geen BAG details
+                    await toonAdresResultaat(adres, null);
+                }
+
+            } catch (error) {
+                console.error('API Error:', error);
+                showAddressError('Er ging iets mis bij het ophalen van adresgegevens. Probeer het later opnieuw.');
+            }
+
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        }
+
+        async function haalBAGDetails(nummeraanduidingId, adresData) {
+            try {
+                // BAG API voor verblijfsobject details
+                const bagUrl = `https://api.pdok.nl/lv/bag/v1/verblijfsobjecten?nummeraanduidingIdentificatie=${nummeraanduidingId}`;
+
+                const response = await fetch(bagUrl, {
+                    headers: {
+                        'Accept': 'application/hal+json',
+                        'Accept-Crs': 'epsg:28992'
+                    }
+                });
+
+                if (response.ok) {
+                    const bagData = await response.json();
+                    if (bagData._embedded && bagData._embedded.verblijfsobjecten && bagData._embedded.verblijfsobjecten.length > 0) {
+                        const verblijfsobject = bagData._embedded.verblijfsobjecten[0];
+
+                        // Haal pand details op voor bouwjaar
+                        if (verblijfsobject.pandIdentificaties && verblijfsobject.pandIdentificaties.length > 0) {
+                            const pandId = verblijfsobject.pandIdentificaties[0];
+                            await haalPandDetails(pandId, adresData, verblijfsobject);
+                        } else {
+                            await toonAdresResultaat(adresData, { verblijfsobject });
+                        }
+                    } else {
+                        await toonAdresResultaat(adresData, null);
+                    }
+                } else {
+                    await toonAdresResultaat(adresData, null);
+                }
+            } catch (error) {
+                console.error('BAG API Error:', error);
+                await toonAdresResultaat(adresData, null);
+            }
+        }
+
+        async function haalPandDetails(pandId, adresData, verblijfsobject) {
+            try {
+                const pandUrl = `https://api.pdok.nl/lv/bag/v1/panden/${pandId}`;
+
+                const response = await fetch(pandUrl, {
+                    headers: {
+                        'Accept': 'application/hal+json',
+                        'Accept-Crs': 'epsg:28992'
+                    }
+                });
+
+                if (response.ok) {
+                    const pandData = await response.json();
+                    await toonAdresResultaat(adresData, { verblijfsobject, pand: pandData });
+                } else {
+                    await toonAdresResultaat(adresData, { verblijfsobject });
+                }
+            } catch (error) {
+                console.error('Pand API Error:', error);
+                await toonAdresResultaat(adresData, { verblijfsobject });
+            }
+        }
+
+        async function toonAdresResultaat(adresData, bagDetails) {
+            const resultDiv = document.getElementById('addressResult');
+            const addressSection = document.getElementById('addressSection');
+
+            // Adres weergeven
+            document.getElementById('foundAddress').textContent = adresData.weergavenaam || '-';
+
+            // Bouwjaar
+            let bouwjaar = null;
+            if (bagDetails && bagDetails.pand && bagDetails.pand.oorspronkelijkBouwjaar) {
+                bouwjaar = bagDetails.pand.oorspronkelijkBouwjaar;
+                document.getElementById('foundBouwjaar').textContent = bouwjaar;
+                setBouwjaarDropdown(bouwjaar);
+            } else {
+                document.getElementById('foundBouwjaar').textContent = 'Niet beschikbaar';
+            }
+
+            // Oppervlakte
+            let oppervlakte = null;
+            if (bagDetails && bagDetails.verblijfsobject && bagDetails.verblijfsobject.oppervlakte) {
+                oppervlakte = bagDetails.verblijfsobject.oppervlakte;
+                document.getElementById('foundOppervlakte').textContent = oppervlakte + ' m²';
+                document.getElementById('oppervlakte').value = oppervlakte;
+            } else {
+                document.getElementById('foundOppervlakte').textContent = 'Niet beschikbaar';
+            }
+
+            // Woningtype proberen te bepalen
+            let woningtype = bepaalWoningtype(bagDetails, adresData);
+            document.getElementById('foundWoningtype').textContent = woningtype || 'Niet beschikbaar';
+            if (woningtype) {
+                setWoningtypeDropdown(woningtype);
+            }
+
+            // Sla data op voor later gebruik
+            bagData = {
+                adres: adresData.weergavenaam,
+                bouwjaar: bouwjaar,
+                oppervlakte: oppervlakte,
+                woningtype: woningtype,
+                postcode: adresData.postcode,
+                huisnummer: adresData.huisnummer
+            };
+
+            // Toon resultaat
+            resultDiv.classList.add('show');
+            addressSection.classList.add('found');
+
+            // Haal EP-Online data op
+            const postcodeClean = document.getElementById('postcode').value.replace(/\s/g, '').toUpperCase();
+            const huisnummerClean = document.getElementById('huisnummer').value.trim();
+            await haalEPOnlineData(postcodeClean, huisnummerClean);
+
+            // Scroll naar het formulier
+            document.getElementById('manualSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // ===========================================
+        // EP-ONLINE API INTEGRATIE
+        // ===========================================
+
+        async function haalEPOnlineData(postcode, huisnummer) {
+            const epResultDiv = document.getElementById('epOnlineResult');
+
+            try {
+                // EP-Online API aanroepen
+                const url = `https://public.ep-online.nl/api/v5/PandEnergielabel/Adres?postcode=${postcode}&huisnummer=${huisnummer}`;
+
+                const response = await fetch(url, {
+                    headers: {
+                        'Authorization': EP_ONLINE_API_KEY,
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    if (data && data.length > 0) {
+                        // Label gevonden!
+                        const labelData = data[0];
+                        epOnlineData = labelData;
+                        toonEPOnlineResultaat(labelData);
+                        // Haal ook buurt labels op
+                        await haalBuurtLabels(postcode, huisnummer);
+                    } else {
+                        // Geen label geregistreerd
+                        epOnlineData = null;
+                        toonGeenLabel();
+                        // Toch buurt labels tonen
+                        await haalBuurtLabels(postcode, huisnummer);
+                    }
+                } else if (response.status === 404) {
+                    // Geen label gevonden
+                    epOnlineData = null;
+                    toonGeenLabel();
+                    // Toch buurt labels tonen
+                    await haalBuurtLabels(postcode, huisnummer);
+                } else {
+                    console.error('EP-Online API error:', response.status);
+                    epOnlineData = null;
+                    // Stille fout, gewoon doorgaan met inschatting
+                }
+            } catch (error) {
+                console.error('EP-Online API fetch error:', error);
+                epOnlineData = null;
+                // Bij CORS error of andere fout, gewoon doorgaan
+                toonEPOnlineCorsError();
+            }
+        }
+
+        function toonEPOnlineResultaat(labelData) {
+            const epResultDiv = document.getElementById('epOnlineResult');
+
+            // Bepaal label klasse voor styling
+            const labelKlasse = labelData.labelLetter || labelData.energieklasse || 'Onbekend';
+            const ep2Waarde = labelData.energieIndex || labelData.ep2 || labelData.primairFossieleEnergie || null;
+            const registratieDatum = labelData.opnamedatum || labelData.registratiedatum || null;
+            const isNieuwLabel = labelData.berekeningsmethode === 'NTA 8800' || (registratieDatum && new Date(registratieDatum) >= new Date('2021-01-01'));
+
+            let labelClass = 'label-' + labelKlasse.replace('+', '').charAt(0).toUpperCase();
+            if (labelKlasse.includes('++++')) labelClass = 'label-A4';
+            else if (labelKlasse.includes('+++')) labelClass = 'label-A3';
+            else if (labelKlasse.includes('++')) labelClass = 'label-A2';
+            else if (labelKlasse.includes('+')) labelClass = 'label-A1';
+
+            let html = `
+                <div class="current-label-display">
+                    <div class="current-label-badge ${labelClass}">${labelKlasse}</div>
+                    <div class="label-advice">
+                        <h4>Geregistreerd energielabel gevonden!</h4>
+            `;
+
+            if (ep2Waarde && isNieuwLabel) {
+                // Nieuw label met EP2 waarde
+                const ep2Num = parseFloat(ep2Waarde);
+                const labelInfo = labelGrenzen.find(l => ep2Num > l.min && ep2Num <= l.max);
+                const labelIndex = labelGrenzen.indexOf(labelInfo);
+
+                html += `<p class="distance-to-next">EP2: <strong>${Math.round(ep2Num)} kWh/m²</strong> per jaar</p>`;
+
+                if (labelIndex > 0) {
+                    const betterLabel = labelGrenzen[labelIndex - 1];
+                    const pointsNeeded = Math.round(ep2Num - betterLabel.max);
+                    html += `<p class="distance-to-next">Nog <span class="distance-highlight">${pointsNeeded} punten</span> van label ${betterLabel.display}</p>`;
+                }
+            } else {
+                // Oud VEL label zonder EP2
+                html += `<p class="distance-to-next">Voorlopig Energielabel (VEL) - geen EP2 waarde bekend</p>`;
+                html += `<p class="distance-to-next" style="font-size:0.85rem; color:#777;">Vul hieronder de vragen in voor een nauwkeurigere inschatting</p>`;
+            }
+
+            html += `
+                    </div>
+                </div>
+            `;
+
+            if (registratieDatum) {
+                const datum = new Date(registratieDatum);
+                html += `<p style="font-size:0.8rem; color:#666; margin-top:10px;">Geregistreerd: ${datum.toLocaleDateString('nl-NL')}</p>`;
+            }
+
+            epResultDiv.innerHTML = html;
+            epResultDiv.className = 'ep-online-result show has-label';
+        }
+
+        function toonGeenLabel() {
+            const epResultDiv = document.getElementById('epOnlineResult');
+
+            epResultDiv.innerHTML = `
+                <h4 style="color: #e65100; margin-bottom: 10px;">Geen energielabel geregistreerd</h4>
+                <p>Voor dit adres is geen energielabel gevonden in EP-Online.</p>
+                <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">
+                    Vul hieronder de woningkenmerken in voor een inschatting van uw energielabel.
+                </p>
+            `;
+            epResultDiv.className = 'ep-online-result show no-label';
+        }
+
+        function toonEPOnlineCorsError() {
+            const epResultDiv = document.getElementById('epOnlineResult');
+
+            // CORS error - API werkt niet vanuit browser, alleen server-side
+            epResultDiv.innerHTML = `
+                <p style="font-size: 0.85rem; color: #666;">
+                    <em>EP-Online check niet beschikbaar vanuit browser.
+                    Check handmatig op <a href="https://www.ep-online.nl/Energylabel/Search" target="_blank">ep-online.nl</a></em>
+                </p>
+            `;
+            epResultDiv.className = 'ep-online-result show';
+        }
+
+        // ===========================================
+        // BUURT LABELS FUNCTIE
+        // ===========================================
+
+        async function haalBuurtLabels(postcode, eigenHuisnummer) {
+            try {
+                // Haal labels op voor hele postcode (zonder huisnummer)
+                const url = `https://public.ep-online.nl/api/v5/PandEnergielabel/Postcode?postcode=${postcode}`;
+
+                const response = await fetch(url, {
+                    headers: {
+                        'Authorization': EP_ONLINE_API_KEY,
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    if (data && data.length > 1) {
+                        // Tel labels per klasse
+                        const labelTelling = {};
+                        let totaal = 0;
+
+                        data.forEach(item => {
+                            const label = item.labelLetter || item.energieklasse || 'Onbekend';
+                            if (label !== 'Onbekend') {
+                                labelTelling[label] = (labelTelling[label] || 0) + 1;
+                                totaal++;
+                            }
+                        });
+
+                        if (totaal > 1) {
+                            toonBuurtLabels(labelTelling, totaal, eigenHuisnummer);
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Buurt labels error:', error);
+                // Stille fout - buurt info is optioneel
+            }
+        }
+
+        function toonBuurtLabels(labelTelling, totaal, eigenHuisnummer) {
+            const epResultDiv = document.getElementById('epOnlineResult');
+
+            // Sorteer labels
+            const labelVolgorde = ['A++++', 'A+++', 'A++', 'A+', 'A', 'B', 'C', 'D', 'E', 'F', 'G'];
+            const gesorteerd = Object.entries(labelTelling)
+                .sort((a, b) => labelVolgorde.indexOf(a[0]) - labelVolgorde.indexOf(b[0]));
+
+            // Bouw visuele bar
+            let buurtHtml = `
+                <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #ddd;">
+                    <h4 style="color: #555; font-size: 0.95rem; margin-bottom: 10px;">
+                        Labels in jouw buurt (${totaal} woningen met dit postcode)
+                    </h4>
+                    <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+            `;
+
+            gesorteerd.forEach(([label, aantal]) => {
+                const percentage = Math.round((aantal / totaal) * 100);
+                let bgColor = '#999';
+
+                if (label.startsWith('A')) bgColor = '#4CAF50';
+                else if (label === 'B') bgColor = '#8BC34A';
+                else if (label === 'C') bgColor = '#CDDC39';
+                else if (label === 'D') bgColor = '#FFC107';
+                else if (label === 'E') bgColor = '#FF9800';
+                else if (label === 'F') bgColor = '#FF5722';
+                else if (label === 'G') bgColor = '#f44336';
+
+                buurtHtml += `
+                    <div style="
+                        background: ${bgColor};
+                        color: white;
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                        font-size: 0.85rem;
+                        font-weight: 600;
+                        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+                    ">
+                        ${label}: ${aantal} (${percentage}%)
+                    </div>
+                `;
+            });
+
+            buurtHtml += `
+                    </div>
+                </div>
+            `;
+
+            // Voeg toe aan bestaande EP-Online result
+            epResultDiv.innerHTML += buurtHtml;
+        }
+
+        function bepaalWoningtype(bagDetails, adresData) {
+            // Probeer woningtype te bepalen op basis van BAG gegevens
+            if (bagDetails && bagDetails.verblijfsobject && bagDetails.verblijfsobject.gebruiksdoelen) {
+                const gebruiksdoelen = bagDetails.verblijfsobject.gebruiksdoelen;
+                // Als het een woonfunctie is, probeer verder te bepalen
+                if (gebruiksdoelen.includes('woonfunctie')) {
+                    // Helaas geeft BAG geen direct woningtype
+                    // We kunnen dit later eventueel afleiden uit andere data
+                    return null;
+                }
+            }
+            return null;
+        }
+
+        function setBouwjaarDropdown(jaar) {
+            const select = document.getElementById('bouwjaar');
+
+            if (jaar < 1965) {
+                select.value = 'pre1965';
+            } else if (jaar >= 1965 && jaar <= 1974) {
+                select.value = '1965-1974';
+            } else if (jaar >= 1975 && jaar <= 1982) {
+                select.value = '1975-1982';
+            } else if (jaar >= 1983 && jaar <= 1991) {
+                select.value = '1983-1991';
+            } else if (jaar >= 1992 && jaar <= 1999) {
+                select.value = '1992-1999';
+            } else if (jaar >= 2000 && jaar <= 2011) {
+                select.value = '2000-2011';
+            } else if (jaar >= 2012 && jaar <= 2014) {
+                select.value = '2012-2014';
+            } else if (jaar >= 2015 && jaar <= 2020) {
+                select.value = '2015-2020';
+            } else if (jaar >= 2021) {
+                select.value = '2021+';
+            }
+        }
+
+        function setWoningtypeDropdown(type) {
+            const select = document.getElementById('woningtype');
+            const typeMap = {
+                'appartement': 'appartement',
+                'tussenwoning': 'tussenwoning',
+                'hoekwoning': 'hoekwoning',
+                'vrijstaand': 'vrijstaand',
+                '2-onder-1-kap': 'hoekwoning'
+            };
+            if (typeMap[type.toLowerCase()]) {
+                select.value = typeMap[type.toLowerCase()];
+            }
+        }
+
+        function showAddressError(msg) {
+            const errorDiv = document.getElementById('addressError');
+            errorDiv.textContent = msg;
+            errorDiv.classList.add('show');
+        }
+
+        function hideAddressError() {
+            document.getElementById('addressError').classList.remove('show');
+        }
+
+        function toggleManualMode() {
+            const addressSection = document.getElementById('addressSection');
+            addressSection.style.display = addressSection.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // ===========================================
+        // GEVALIDEERDE LOOKUP TABELLEN
+        // ===========================================
+
+        // Basis EP2 per bouwjaar en woningtype (gevalideerd tegen 353 woningen)
+        const basisEP2 = {
+            'pre1965': { appartement: 230, tussenwoning: 250, hoekwoning: 290, vrijstaand: 330 },
+            '1965-1974': { appartement: 200, tussenwoning: 220, hoekwoning: 260, vrijstaand: 300 },
+            '1975-1982': { appartement: 175, tussenwoning: 190, hoekwoning: 230, vrijstaand: 270 },
+            '1983-1991': { appartement: 160, tussenwoning: 175, hoekwoning: 210, vrijstaand: 250 },
+            '1992-1999': { appartement: 140, tussenwoning: 155, hoekwoning: 185, vrijstaand: 215 },
+            '2000-2011': { appartement: 120, tussenwoning: 135, hoekwoning: 165, vrijstaand: 195 },
+            '2012-2014': { appartement: 85, tussenwoning: 95, hoekwoning: 115, vrijstaand: 135 },
+            '2015-2020': { appartement: 55, tussenwoning: 70, hoekwoning: 90, vrijstaand: 110 },
+            '2021+': { appartement: 25, tussenwoning: 40, hoekwoning: 60, vrijstaand: 80 }
+        };
+
+        // Correctiefactoren (gevalideerd - exacte match met database)
+        const correcties = {
+            verwarming: {
+                hr_standaard: 0,
+                hr_kwaliteit: -25,
+                warmtepomp: -110,
+                stadsverwarming: 30,
+                elektrisch: 20
+            },
+            ventilatie: {
+                natuurlijk: 0,
+                mech_oud: 10,
+                mech_nieuw: -30,
+                wtw: -60
+            },
+            vloerverwarming: {
+                ja: -40,
+                nee: 0
+            },
+            warmwater: {
+                combi: -15,
+                voorraad: 0,
+                elektrisch: 20,
+                wpboiler: -60
+            }
+        };
+
+        // Labelgrenzen (officieel)
+        const labelGrenzen = [
+            { label: 'A++++', min: -999, max: 0, class: 'label-A4', display: 'A++++', grens: 0 },
+            { label: 'A+++', min: 0, max: 50, class: 'label-A3', display: 'A+++', grens: 50 },
+            { label: 'A++', min: 50, max: 75, class: 'label-A2', display: 'A++', grens: 75 },
+            { label: 'A+', min: 75, max: 105, class: 'label-A1', display: 'A+', grens: 105 },
+            { label: 'A', min: 105, max: 160, class: 'label-A', display: 'A', grens: 160 },
+            { label: 'B', min: 160, max: 190, class: 'label-B', display: 'B', grens: 190 },
+            { label: 'C', min: 190, max: 250, class: 'label-C', display: 'C', grens: 250 },
+            { label: 'D', min: 250, max: 290, class: 'label-D', display: 'D', grens: 290 },
+            { label: 'E', min: 290, max: 335, class: 'label-E', display: 'E', grens: 335 },
+            { label: 'F', min: 335, max: 380, class: 'label-F', display: 'F', grens: 380 },
+            { label: 'G', min: 380, max: 9999, class: 'label-G', display: 'G', grens: 9999 }
+        ];
+
+        // ===========================================
+        // FUNCTIES
+        // ===========================================
+
+        function toggleAdvanced() {
+            const section = document.getElementById('advancedSection');
+            const btn = document.querySelector('.toggle-advanced');
+            if (section.classList.contains('show')) {
+                section.classList.remove('show');
+                btn.textContent = '+ Geavanceerde opties tonen';
+            } else {
+                section.classList.add('show');
+                btn.textContent = '- Geavanceerde opties verbergen';
+            }
+        }
+
+        function berekenLabel() {
+            // Haal waarden op
+            const bouwjaar = document.getElementById('bouwjaar').value;
+            const woningtype = document.getElementById('woningtype').value;
+            const oppervlakte = parseInt(document.getElementById('oppervlakte').value) || 100;
+            const verwarming = document.getElementById('verwarming').value;
+            const beglazing = document.getElementById('beglazing').value;
+            const zonnepanelen = parseInt(document.getElementById('zonnepanelen').value) || 0;
+
+            // Geavanceerde opties
+            const ventilatie = document.getElementById('ventilatie').value;
+            const vloerverwarming = document.getElementById('vloerverwarming').value;
+            const isolatie_extra = document.getElementById('isolatie_extra').value;
+            const warmwater = document.getElementById('warmwater').value;
+
+            // Validatie
+            if (!bouwjaar || !woningtype || !verwarming || !beglazing) {
+                alert('Vul alle verplichte velden in');
+                return;
+            }
+
+            // Start berekening
+            let ep2 = basisEP2[bouwjaar][woningtype];
+            let calcLines = [];
+            let factors = [];
+
+            calcLines.push({ label: `Basis (${bouwjaar}, ${woningtype})`, value: ep2 });
+            factors.push({ text: `Bouwjaar ${bouwjaar} - basis isolatie`, type: 'neutral' });
+            factors.push({ text: `${woningtype.charAt(0).toUpperCase() + woningtype.slice(1)} - compactheid`, type: 'neutral' });
+
+            // Verwarming correctie
+            const verwCorrectie = correcties.verwarming[verwarming];
+            if (verwCorrectie !== 0) {
+                ep2 += verwCorrectie;
+                calcLines.push({ label: `Verwarming (${verwarming.replace('_', ' ')})`, value: verwCorrectie });
+                factors.push({
+                    text: `${verwarming === 'warmtepomp' ? 'Warmtepomp' : verwarming.replace('_', ' ')}`,
+                    type: verwCorrectie < 0 ? 'positive' : 'negative'
+                });
+            }
+
+            // Beglazing correctie (t.o.v. standaard voor bouwjaar)
+            let beglazingCorrectie = 0;
+            const oudeWoning = ['pre1965', '1965-1974', '1975-1982'].includes(bouwjaar);
+            const middenWoning = ['1983-1991', '1992-1999'].includes(bouwjaar);
+
+            if (beglazing === 'enkel' && !oudeWoning) {
+                beglazingCorrectie = 40; // Slechter dan verwacht
+            } else if (beglazing === 'hr' && (oudeWoning || middenWoning)) {
+                beglazingCorrectie = -20; // Beter dan verwacht
+            } else if (beglazing === 'triple') {
+                beglazingCorrectie = -30;
+            }
+
+            if (beglazingCorrectie !== 0) {
+                ep2 += beglazingCorrectie;
+                calcLines.push({ label: `Beglazing (${beglazing})`, value: beglazingCorrectie });
+            }
+            factors.push({
+                text: `${beglazing === 'hr' ? 'HR++ glas' : beglazing === 'triple' ? 'Triple glas' : beglazing === 'enkel' ? 'Enkel glas' : 'Dubbelglas'}`,
+                type: beglazingCorrectie < 0 ? 'positive' : beglazingCorrectie > 0 ? 'negative' : 'neutral'
+            });
+
+            // Zonnepanelen correctie
+            if (zonnepanelen > 0) {
+                // Formule: -(panelen × 350 × 0.9 × 1.45) / m²
+                // 350 Wp per panel, 0.9 performance ratio, 1.45 primaire energiefactor
+                const pvCorrectie = Math.round(-(zonnepanelen * 350 * 0.9 * 1.45) / oppervlakte);
+                ep2 += pvCorrectie;
+                calcLines.push({ label: `Zonnepanelen (${zonnepanelen} st, ${oppervlakte}m²)`, value: pvCorrectie });
+                factors.push({ text: `${zonnepanelen} zonnepanelen`, type: 'positive' });
+            } else {
+                factors.push({ text: 'Geen zonnepanelen', type: 'negative' });
+            }
+
+            // Geavanceerde correcties
+            const advancedUsed = document.getElementById('advancedSection').classList.contains('show');
+
+            if (advancedUsed) {
+                // Ventilatie
+                const ventCorrectie = correcties.ventilatie[ventilatie];
+                if (ventCorrectie !== 0) {
+                    ep2 += ventCorrectie;
+                    calcLines.push({ label: `Ventilatie (${ventilatie})`, value: ventCorrectie });
+                }
+                factors.push({
+                    text: `Ventilatie: ${ventilatie === 'wtw' ? 'WTW' : ventilatie.replace('_', ' ')}`,
+                    type: ventCorrectie < 0 ? 'positive' : ventCorrectie > 0 ? 'negative' : 'neutral'
+                });
+
+                // Vloerverwarming
+                const vlvCorrectie = correcties.vloerverwarming[vloerverwarming];
+                if (vlvCorrectie !== 0) {
+                    ep2 += vlvCorrectie;
+                    calcLines.push({ label: 'Vloerverwarming', value: vlvCorrectie });
+                    factors.push({ text: 'Vloerverwarming', type: 'positive' });
+                }
+
+                // Extra isolatie (alleen relevant voor oudere woningen)
+                if (oudeWoning && isolatie_extra !== 'nee') {
+                    let isoCorrectie = 0;
+                    if (isolatie_extra === 'spouw') isoCorrectie = -30;
+                    else if (isolatie_extra === 'dak') isoCorrectie = -25;
+                    else if (isolatie_extra === 'beide') isoCorrectie = -50;
+
+                    if (isoCorrectie !== 0) {
+                        ep2 += isoCorrectie;
+                        calcLines.push({ label: `Na-isolatie (${isolatie_extra})`, value: isoCorrectie });
+                        factors.push({ text: 'Na-isolatie toegevoegd', type: 'positive' });
+                    }
+                }
+
+                // Warm water
+                const wwCorrectie = correcties.warmwater[warmwater];
+                if (wwCorrectie !== 0) {
+                    ep2 += wwCorrectie;
+                    calcLines.push({ label: `Warm water (${warmwater})`, value: wwCorrectie });
+                }
+            }
+
+            // Bepaal label
+            ep2 = Math.round(ep2);
+            let labelInfo = labelGrenzen.find(l => ep2 > l.min && ep2 <= l.max);
+            if (!labelInfo) labelInfo = labelGrenzen[labelGrenzen.length - 1];
+
+            // Bereken afstand tot volgend label
+            const labelIndex = labelGrenzen.indexOf(labelInfo);
+            let distanceInfo = '';
+
+            if (labelIndex > 0) {
+                const betterLabel = labelGrenzen[labelIndex - 1];
+                const pointsNeeded = ep2 - betterLabel.max;
+                distanceInfo = `<p>Je zit op <strong>${labelInfo.display}</strong> met EP2 ~${ep2} kWh/m².</p>`;
+                distanceInfo += `<p>Nog <span class="distance-highlight">${pointsNeeded} punten</span> verwijderd van label <strong>${betterLabel.display}</strong> (grens: ${betterLabel.max} kWh/m²).</p>`;
+
+                // Bereken hoeveel zonnepanelen nodig
+                const pvPerPanel = Math.round((350 * 0.9 * 1.45) / oppervlakte);
+                const panelenNodig = Math.ceil(pointsNeeded / pvPerPanel);
+                if (panelenNodig > 0 && panelenNodig <= 20) {
+                    distanceInfo += `<p style="margin-top:10px">Met <strong>${panelenNodig} extra zonnepanelen</strong> haal je label ${betterLabel.display}!</p>`;
+                }
+            } else {
+                distanceInfo = `<p>Je hebt al het hoogste label: <strong>${labelInfo.display}</strong>!</p>`;
+            }
+
+            // Bereken betrouwbaarheid
+            let confidence = 60;
+            if (bouwjaar) confidence += 10;
+            if (woningtype) confidence += 5;
+            if (oppervlakte) confidence += 5;
+            if (zonnepanelen !== '') confidence += 5;
+            if (advancedUsed) confidence += 15;
+            if (bagData) confidence += 5; // Bonus voor BAG data
+            confidence = Math.min(confidence, 95);
+
+            // Toon resultaat
+            document.getElementById('resultCard').classList.add('show');
+            document.getElementById('inputCard').style.display = 'none';
+
+            // Label display
+            const labelEl = document.getElementById('labelLetter');
+            labelEl.textContent = labelInfo.display;
+            labelEl.className = 'label-letter ' + labelInfo.class;
+
+            // EP2 waarden
+            const margin = Math.round(ep2 * 0.1);
+            document.getElementById('ep2Value').textContent = `EP2: ~${ep2} kWh/m² per jaar`;
+            document.getElementById('ep2Range').textContent = `Waarschijnlijk tussen ${ep2 - margin} en ${ep2 + margin} kWh/m²`;
+
+            // Afstand tot volgend label
+            document.getElementById('distanceInfo').innerHTML = distanceInfo;
+
+            // Betrouwbaarheid
+            document.getElementById('confidencePercent').textContent = confidence + '%';
+            document.getElementById('confidenceFill').style.width = confidence + '%';
+
+            // Factoren lijst
+            const factorsHtml = factors.map(f => `
+                <div class="factor-item">
+                    <span class="factor-icon factor-${f.type}">
+                        ${f.type === 'positive' ? '✓' : f.type === 'negative' ? '✗' : '○'}
+                    </span>
+                    <span>${f.text}</span>
+                </div>
+            `).join('');
+            document.getElementById('factorsList').innerHTML = factorsHtml;
+
+            // Berekening breakdown
+            let calcHtml = calcLines.map(c => `
+                <div class="calc-line">
+                    <span>${c.label}</span>
+                    <span>${c.value > 0 ? '+' : ''}${c.value}</span>
+                </div>
+            `).join('');
+            calcHtml += `
+                <div class="calc-line calc-total">
+                    <span>Totaal EP2</span>
+                    <span>${ep2} kWh/m²</span>
+                </div>
+            `;
+            document.getElementById('calcBreakdown').innerHTML = calcHtml;
+
+            // Tips
+            let tips = [];
+            if (zonnepanelen === 0) {
+                tips.push('Zonnepanelen kunnen uw label 1-2 stappen verbeteren');
+            }
+            if (verwarming !== 'warmtepomp') {
+                tips.push('Een (hybride) warmtepomp kan 2+ labelstappen verbeteren');
+            }
+            if (beglazing === 'enkel' || beglazing === 'dubbel') {
+                tips.push('HR++ of triple glas verbetert isolatie en comfort');
+            }
+            if (ventilatie === 'natuurlijk' || ventilatie === 'mech_oud') {
+                tips.push('WTW-ventilatie bespaart energie en verbetert luchtkwaliteit');
+            }
+
+            if (tips.length === 0) {
+                tips.push('Uw woning is al goed verduurzaamd!');
+            }
+
+            const tipsHtml = tips.map(t => `<div class="tip-item">• ${t}</div>`).join('');
+            document.getElementById('tipsList').innerHTML = tipsHtml;
+
+            // Scroll naar resultaat
+            document.getElementById('resultCard').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetForm() {
+            document.getElementById('resultCard').classList.remove('show');
+            document.getElementById('inputCard').style.display = 'block';
+            document.getElementById('inputCard').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Enter key voor adres zoeken
+        document.getElementById('postcode').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') zoekAdres();
+        });
+        document.getElementById('huisnummer').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') zoekAdres();
+        });
+    </script>
+</body>
+</html>

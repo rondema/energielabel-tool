@@ -1,0 +1,3730 @@
+
+--- Pagina 501 ---
+Withdrawn final
+Ingetrokken definitief
+11.4 Ventilatoren 
+11.4.1 
+Principe 
+Het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie van lucht in het gebouw 
+wordt bepaald door de draaitijd en het effectieve vermogen. Het effectieve vermogen wordt per 
+ventilator herleid uit het gespecificeerde vermogen, gecorrigeerd voor de regeling. De basis voor de 
+correctie is een naar inschakeltijden gewogen kwadratische middeling van de volumestromen die bij 
+de toegepaste regeling optreden. De kwadratische relatie ontstaat omdat het elektrisch vermogen van 
+een ventilator evenredig is met de volumestroom tot de derde macht gedeeld door het rendement, dat 
+globaal evenredig afneemt met de volumestroom. 
+OPMERKING 
+Het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie wordt in beginsel 
+voor iedere rekenzone per maand bepaald voor zowel warmtebehoefte als koudebehoefte afzonderlijk, ook al 
+zijn in deze norm de bijbehorende indexen H respectievelijk C weggelaten. Dit kan gewenst zijn om het 
+energiegebruik van ventilatoren en de interne warmtelast van afzonderlijke rekenzones voldoende nauwkeurig 
+te bepalen. Als vereenvoudigde benadering kan bij beperkte variatie van het regelgedrag per maand worden 
+uitgegaan van een jaarberekening met representatieve ventilatorstanden voor zowel warmte- als koudebehoefte, 
+waarna een met de maandduur evenredig deel wordt aangehouden als maandelijks elektrische-energiegebruik 
+van de ventilatoren. 
+11.4.2 
+Elektrische-energiegebruik 
+11.4.2.1 Elektrische-energiegebruik in een gebouw 
+Bepaal het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie van de thermische 
+zone per maand mi, als de som van de elektrische-energiegebruiken van de verschillende rekenzones 
+zi in het gebouw met: 
+V;el;
+V;el;
+=
+mi
+zi,mi
+zi
+E
+E
+
+ 
+ 
+(11.131) 
+waarin: 
+EV;el;mi  
+is het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie 
+in de thermische zone in maand mi, in kWh; 
+EV;el;zi,mi 
+is het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie 
+in rekenzone zi, in maand mi, in kWh, bepaald volgens 11.4.3.2.2. 
+11.4.2.2 Elektrische-energiegebruik per rekenzone 
+Bepaal het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie in een rekenzone 
+zi, per maand mi volgens: 
+eff ;
+,
+V;el;
+,
+prac;vent
+/1 000
+zi mi
+mi
+zi mi
+P
+t
+E
+f
+
+
+
+= 
+
+
+
+
+
+ 
+(11.132) 
+waarin: 
+EV;el;zi,mi 
+is het elektrische-energiegebruik van ventilatoren voor ventilatie en circulatie 
+in rekenzone zi, in maand mi, in kWh; 
+501
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 502 ---
+Withdrawn final
+Ingetrokken definitief
+Peff;zi;mi 
+is het effectieve elektrisch vermogen van de ventilator(en) in rekenzone zi, in 
+maand mi, in W, bepaald volgens 11.4.3.2 op basis van werkelijk opgestelde 
+vermogens of volgens 11.4.3.3 op basis van de forfaitaire methode; 
+tmi  
+is de rekenwaarde voor de lengte van de beschouwde maand mi, in h, bepaald 
+volgens tabel 17.1; 
+fprac;vent 
+ 
+is de praktijkprestatiefactor voor ventilatoren; fprac;vent = 0,9. 
+11.4.3 
+Effectief ventilatorvermogen 
+11.4.3.1 Principe 
+Het effectieve elektrisch ventilatorvermogen wordt bepaald op basis van de optelling van de werkelijk 
+opgestelde ventilatorvermogens, waarbij een weging voor de regeling wordt toegepast. Als alternatief 
+kan het effectieve ventilatorvermogen forfaitair worden bepaald aan de hand van de 
+ventilatiecapaciteit, het specifieke ventilatorvermogen en de correctiefactor voor de bezettingstijd. 
+11.4.3.2 Effectief ventilatorvermogen op basis van werkelijk opgesteld vermogen 
+11.4.3.2.1 Effectief ventilatorvermogen per rekenzone op basis van werkelijk opgesteld 
+vermogen 
+Bepaal het effectieve ventilatorvermogen voor de thermische zone per maand mi volgens: 
+(
+)
+
+mi
+i
+i,mi
+si;v
+i
+P
+P
+f
+f
+eff;
+nom;el;
+regfan;
+gebouw;
+=
+×
+ 
+(11.133) 
+waarin: 
+Peff;mi  
+is het effectieve elektrisch vermogen van de ventilator(en) in de thermische 
+zone, in maand mi, in W; 
+Pnom;el;i  
+is het nominale elektrisch vermogen van ventilator i, in W, bepaald volgens 
+11.4.3.2.3; 
+fregfan;i,mi  
+is de dimensieloze reductiefactor voor de luchtvolumestroomregeling voor het 
+omrekenen van het nominale vermogen naar het gemiddeld vermogen voor 
+ventilator i, in maand mi, bepaald volgens 11.4.3.2.4; 
+fgebouw;si;v 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie ventilatoren wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel, dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+ventilatoren. Voor het bepalen van de energieprestatie van een gedeelte van een 
+gebouw dat is aangesloten op een collectieve gebouwinstallatie voor de functie 
+ventilatoren si van het gebouw als geheel, geldt: 
+g
+V
+gebouw;
+;V
+g gebouw V
+si
+si
+A
+f
+A
+; ;
+;
+;
+  
+502
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 503 ---
+Withdrawn final
+Ingetrokken definitief
+In alle andere gevallen geldt: 
+gebouw
+V
+1
+si
+f
+; ;
+ 
+waarin: 
+fgebouw;si;V is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel waarvoor de 
+energieprestatie voor de functie ventilatoren wordt bepaald en de gebruiksoppervlakte 
+van het gebouw als geheel, aangesloten op de gemeenschappelijke installatie si voor de 
+functie ventilatoren; 
+Ag;si;V 
+is de gebruiksoppervlakte van het bouwdeel waarvoor de energieprestatie wordt 
+bepaald en is aangesloten op een gemeenschappelijke installatie voor de functie 
+ventilatoren, in m2; 
+Ag;gebouw;V is de gebruiksoppervlakte van het gebouw als geheel dat is aangesloten op de collectieve 
+gebouwinstallatie voor de functie ventilatoren si, bepaald volgens 6.6.7, in m2.  
+11.4.3.2.2 Effectief ventilatorvermogen per rekenzone op basis van werkelijk vermogen 
+Bepaal het effectieve ventilatorvermogen voor iedere rekenzone zi, per maand mi volgens: 
+𝑃eff;𝑧𝑖,𝑚𝑖= 𝑃eff;𝑚𝑖×
+𝑞v;ODA;req;𝑧𝑖,𝑚𝑖
+∑
+𝑞v;ODA;req;𝑧𝑖,𝑚𝑖
+𝑧𝑖
+ 
+(11.134) 
+waarin:  
+Peff;zi,mi 
+ is het effectieve elektrisch vermogen van de ventilator(en) in rekenzone zi, in 
+maand mi, in W; 
+Peff;mi  
+is het effectieve elektrisch vermogen van de ventilator(en) in de thermische 
+zone, in maand mi, in W, bepaald volgens 11.4.3.2.1; 
+qV;ODA;req;zi,mi 
+is de benodigde luchtvolumestroom van buiten voor rekenzone zi voor maand 
+mi, in m3/h, bepaald volgens 11.2.2.1. 
+11.4.3.2.3 Nominaal elektrisch vermogen 
+11.4.3.2.3.1 
+Inleiding 
+Ontleen het nominaal elektrisch vermogen van de ventilator(en) bestemd voor ventilatie en circulatie 
+van lucht in rekenzones, Pnom;el;i, aan ventilatiesysteemontwerpberekeningen, aan meetwaarden of aan 
+de op typeplaatjes vermelde nominale vermogens of elektrische vermogens. Indien alleen het 
+elektrisch vermogen is vermeld, kan het elektrisch vermogen hieruit worden bepaald volgens 
+11.4.3.2.3.2. 
+OPMERKING 1 
+Niet-gebouwgebonden ventilatievoorzieningen, zoals een bij een kooktoestel aanwezige 
+voorziening om uitsluitend de tijdens het koken vrijkomende dampen af te zuigen, behoren bij de bepaling van 
+de energieprestatie te worden genegeerd. 
+OPMERKING 2 
+Voor ventilatoren van installaties in de categorie woningbouw wordt op de typeplaatjes het 
+nominaal elektrisch vermogen, Pnom;el, vermeld; op grotere ventilatoren van luchtbehandelingskasten bij 
+utiliteitsbouw is veelal het elektrisch vermogen, Pas, vermeld. 
+503
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 504 ---
+Withdrawn final
+Ingetrokken definitief
+11.4.3.2.3.2 
+Nominaal vermogen elektromotor (P) 
+Bepaal het nominale vermogen, Pnom;el, aan de hand van het elektrisch vermogen volgens: 
+𝑃nom;el = 0,8 ×
+𝑃as
+𝜂elm  
+(11.135) 
+waarin: 
+Pas  
+is het elektrisch vermogen van de elektromotor, zoals vermeld op de elektromotor, in W; 
+ηelm 
+is het dimensieloze rendement van de beschouwde elektromotor, bepaald 
+volgens 11.4.3.2.3.3. 
+OPMERKING  
+De factor 0,8 is een reductiefactor voor overdimensionering van de elektromotor. 
+11.4.3.2.3.3 
+Rendement elektromotor (U) 
+Bepaal het rendement van de elektromotor, ηelm , volgens tabel 11.20, tenzij het werkelijke rendement 
+van de te installeren elektromotor hoger is. Bepaal het werkelijke rendement van de elektromotor 
+volgens: 
+𝜂elm =
+𝑃as
+𝑈elm × 𝐼 × 𝑒 
+(11.136) 
+waarin: 
+Pas  
+is het elektrisch vermogen van de elektromotor, zoals vermeld op de elektromotor, in W; 
+Uelm  
+is de elektrische spanning, in V; 
+l  
+is de elektrische stroom, in A; 
+e  
+is een factor afhankelijk van het type elektromotor, waarvoor geldt: 
+— gelijkstroommotor: e = 1; 
+— eenfasewisselstroommotor: e = cos φ; 
+— draaistroommotor: e = 3  cos φ waarin cos φ de arbeidsfactor is voor 
+wisselstroommotoren. 
+De spanning, stroom en arbeidsfactor zijn de waarden behorende bij het maximaal toegekende 
+vermogen gedurende continubedrijf. Het aldus bepaalde rendement moet naar beneden worden 
+afgerond op een veelvoud van 0,025. 
+504
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 505 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 11.20 — Rendement van elektromotoren ηelm 
+Elektrisch vermogen 
+(Pas) 
+ 
+ 
+kW 
+Fabricagejaar  
+(J) 
+Onbekend of J < 2005 
+J ≥ 2005 
+ηelm 
+Pas < 1 
+0,65 
+0,70 
+1 ≤ Pas < 2 
+0,70 
+0,75 
+2 ≤ Pas < 4 
+0,75 
+0,80 
+4 ≤ Pas < 10 
+0,80 
+0,85 
+10 ≤ Pas < 30 
+0,85 
+0,875 
+30 ≤ Pas < 60 
+0,875 
+0,90 
+60 ≤ Pas < 120 
+0,90 
+0,925 
+Pas ≥ 120 
+0,925 
+0,95 
+OPMERKING 
+Het rendement van de elektromotor (elm) kan in geen geval 
+groter zijn dan 1. 
+ 
+11.4.3.2.4 Reductiefactor luchtvolumestroomregeling 
+Bepaal de dimensieloze reductiefactor voor de luchtvolumestroomregeling voor het omrekenen van 
+het nominale naar het gemiddelde vermogen van ventilator i, per maand mi volgens: 
+𝑓regfan;𝑖,𝑚𝑖= ∑(𝑓q;𝑘,𝑚𝑖
+2
+× 𝑡𝑑;𝑘,𝑚𝑖)
+𝑘
+1
+ 
+(11.137) 
+waarin: 
+fregfan;i,mi  is de dimensieloze reductiefactor voor de luchtvolumestroomregeling voor het 
+omrekenen van het nominale vermogen naar het gemiddeld vermogen voor ventilator i, 
+in maand mi; 
+fq;k,mi  
+is de dimensieloze factor voor de verhouding tussen de ventilatiecapaciteit in stand k 
+en de nominale ventilatiecapaciteit in maand mi, volgend uit een kwaliteitsverklaring 
+voor de betreffende regeling of voor de categorie woningbouw bepaald volgens 
+tabel 11.21; 
+td;k,mi  
+is de dimensieloze tijdfractie dat de ventilator in maand mi in stand k staat, volgend uit 
+een kwaliteitsverklaring voor de betreffende regeling of voor de categorie woningbouw 
+bepaald volgens tabel 11.21; 
+OPMERKING 
+Het verband tussen rendement en ventilatiedebiet kan worden benaderd door een kwadratische 
+functie. Formule (11.137) kan ook worden geschreven als (onder weglating van maand mi): 
+505
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 506 ---
+Withdrawn final
+Ingetrokken definitief
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+k
+k
+i
+k
+k
+q
+q
+q
+t
+t
+t
+q
+q
+q
+f
+t
+2
+2
+2
+V;1
+V;2
+V;
+1
+2
+V;nom
+V;nom
+V;nom
+regfan;
+×
++
+×
++...+
+×
+=
+ 
+(11.138) 
+Tabel 11.21 — Rekenwaarden voor fq;k en td;k voor woningen 
+Regelstanden (k) 
+fq;k 
+td;k 
+3 
+1,0 
+0,10 
+2 
+0,6 
+0,60 
+1 
+0,4 
+0,30 
+ 
+Indien geen nadere gegevens van het vermogen van de ventilatoren bekend zijn, moet voor gebouwen 
+met een andere gebruiksfunctie dan een woonfunctie (categorie utiliteitsbouw) of voor 
+woongebouwen met een collectieve ventilatievoorziening een indicatieve waarde voor fregfan worden 
+gebruikt door de waarden voor fregfan;aan, ontleend aan tabel 11.22, te vermenigvuldigen met de 
+dimensieloze correctiefactor voor de bezettingstijd fτ, bepaald volgens tabel 11.8 (dus: 
+fregfan = fregfan;aan × fτ). Deze waarden kunnen voor elke maand van het jaar worden gebruikt. 
+Tabel 11.22 — Rekenwaarden voor fregfan afhankelijk van fterugregel;debietregeling voor installaties met 
+debietregeling 
+ 
+fterugregel;debietregeling 
+ 
+0,8 < 
+fterugregel;debietregeling 
+≤ 1,0 
+0,6 < 
+fterugregel;debietregeling 
+≤ 0,8 
+0,4 < 
+fterugregel;debietregeling 
+≤ 0,6 
+fterugregel;debiet-
+regeling ≤ 0,4 
+ 
+fregfan;aan 
+Smoorregeling (kleppen) 
+1,0 
+0,95 
+0,9 
+0,85 
+Inlaatklepverstelling of 
+waaierschoepverstelling 
+1,0 
+0,75 
+0,65 
+0,6 
+Toerenregeling 
+1,0 
+0,65 
+0,45 
+0,35 
+Alle andere gevallen 
+1,0 
+N.v.t. 
+N.v.t. 
+N.v.t. 
+ 
+11.4.3.3 Effectief ventilatorvermogen forfaitair 
+Bepaal het forfaitaire effectieve ventilatorvermogen voor iedere rekenzone zi voor ventilatiesysteem 
+E.1 volgens: 
+=
++
+zi mi
+zi mi
+zi mi
+P
+P
+P
+eff;for;
+,
+eff;for;BAL_DEC;
+,
+eff;for;overig;
+,
+   
+(11.139) 
+506
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 507 ---
+Withdrawn final
+Ingetrokken definitief
+waarbij: 
+(
+)
+=
+
+
+
+zi mi
+zi
+zi
+zi mi
+P
+f
+f
+q
+c
+f
+eff;for;BAL_DEC;
+,
+SFP;
+systype;
+V;ODA;req;
+,
+BAL_DEC  
+(11.140) 
+(
+)
+=
+
+
+
+zi mi
+zi
+zi
+zi mi
+P
+f
+f
+q
+c
+f
+eff;for;overig;
+,
+SFP;
+systype;
+V;ODA;req;
+,
+overig  
+(11.141) 
+Bepaal het forfaitaire effectieve ventilatorvermogen voor iedere rekenzone zi voor alle andere 
+ventilatiesystemen volgens: 
+(
+)
+eff;for;
+,
+SFP;
+systype;
+V;ODA;req;
+,
+zi mi
+zi
+zi
+zi mi
+P
+f
+f
+q
+c
+=
+
+
+
+  
+(11.142) 
+waarin: 
+Peff;for;zi,mi 
+is het effectieve elektrisch vermogen van de ventilator(en) in rekenzone zi, in 
+maand mi, in W, volgens de forfaitaire methode; 
+Peff;for;BAL_DEC;zi,mi 
+is het effectieve elektrisch vermogen van de ventilator(en) van het deel met 
+decentrale mechanische toe- en afvoer in rekenzone zi, in maand mi, in W, 
+volgens de forfaitaire methode, bepaald volgens formule (11.140); 
+Peff;for;overig;zi,mi 
+is het effectieve elektrisch vermogen van de ventilator(en) van het deel met 
+het ventilatiesysteem dat naast de decentrale mechanische toe- en afvoer 
+wordt toegepast in rekenzone zi, in maand mi, in W, volgens de forfaitaire 
+methode, bepaald volgens formule (11.141); 
+fSFP;zi 
+is het specifieke ventilatorvermogen (SFP) van de geïnstalleerde of de te 
+installeren ventilatiecapaciteit in rekenzone zi, in W/(m3/h), bepaald volgens 
+tabel 11.23; 
+fsystype;zi 
+is de dimensieloze factor voor het type ventilatiesysteem in rekenzone zi, 
+waarvoor geldt: 
+— fsystype = 0 voor ventilatiesysteemtype A; 
+— fsystype = 1 voor ventilatiesysteemtype B en C; 
+— fsystype = 2 voor ventilatiesysteemtype D; 
+qV;ODA;req;zi,mi 
+is de benodigde luchtvolumestroom van buiten voor rekenzone zi voor 
+maand mi, in m3/h, bepaald volgens 11.2.2.1; 
+c 
+is de correctiefactor voor de tijdgemiddelde luchtvolumestroom; de waarde 
+van deze correctiefactor is 1,0; 
+fBAL-DEC 
+is het deel van de rekenzone met decentrale mechanische toe- en afvoer met 
+WTW en CO2-sturing, bepaald volgens 11.2.2.2.5; 
+foverig 
+is het deel van de rekenzone met een ventilatiesysteem anders dan decentrale 
+mechanische toe- en afvoer met WTW en CO2-sturing, bepaald volgens 
+11.2.2.2.5. 
+507
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 508 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 11.23 — Het specifieke ventilatorvermogen als functie van fabricagejaar en qV;ODA;req;zi,mi 
+Fabricagejaar 
+j 
+fSFP 
+W/(m3/h) 
+Wisselstroomventilatoren 
+fSFP 
+W/(m3/h) 
+Gelijkstroomventilatoren 
+y ≤ 1980 of onbekend 
+4,00 / 3,6 
+2,20 / 3,6 
+1980 < j ≤ 1985 
+2,80 / 3,6 
+1,50 / 3,6 
+1985 < j ≤ 1990 
+2,40 / 3,6 
+1,30 / 3,6 
+1990 < j ≤ 1998 
+2,00 / 3,6 
+1,10 / 3,6 
+1998 < j ≤ 2006 
+1,60 / 3,6 
+0,90 / 3,6 
+y > 2006 
+– 
+0,45 / 3,6 
+508
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 509 ---
+Withdrawn final
+Ingetrokken definitief
+12 Bevochtiging en ontvochtiging 
+12.1 Principes 
+Bij het toepassen van een kwaliteitsverklaring moet, tenzij anders aangegeven, de gegeven waarde 
+naar beneden worden afgerond op maximaal het aantal decimalen waarmee het getal van de te 
+vervangen forfaitaire waarde in NTA 8800 maximaal is weergegeven. 
+Er wordt uitgegaan van één systeem per rekenzone zi voor de be- en ontvochtiging. 
+Bepaal het energiegebruik voor bevochtiging en ontvochtiging indien in de gebouwinstallaties een 
+voorziening voor bevochtiging of ontvochtiging aanwezig is, aan de hand van de per rekenzone te 
+bevochtigen of ontvochtigen hoeveelheid lucht. 
+De benodigde hoeveelheid latente energie voor de verdamping van het toegevoerde water voor de 
+bevochtigingsfunctie wordt door de installatie voor de verwarmingsfunctie geleverd (hoofdstuk 9). 
+De benodigde hoeveelheid latente warmte die vrijkomt bij de condensatie van vocht uit de lucht, 
+wordt door de installatie voor de koelfunctie geleverd (hoofdstuk 10). 
+Iedere vorm van koeling met een centrale luchtbehandeling of koeling door een ruimte-
+airconditionersysteem of ventilatorconvectorsysteem moet worden gezien als een voorziening voor 
+ontvochtiging. 
+12.2 Bevochtiging 
+Bevochtiging vindt plaats als er een voorziening voor bevochtiging aanwezig is, in alle andere situaties 
+geldt: QH;hum;zi;mi = 0. 
+De bepaling verloopt als volgt: 
+— bepaal de hoeveelheid te bevochtigen lucht per rekenzone zi op basis van de specifieke 
+ventilatiecapaciteit voor maand mi; 
+— bepaal de hoeveelheid te bevochtigen lucht per rekenzone zi per maand mi op basis van de 
+toevoerluchtvolumestroom ten gevolge van de ventilatievoorziening; 
+— bereken het energiegebruik voor bevochtiging van het gebouw per maand mi.  
+De latente warmte voor bevochtiging van rekenzone zi voor maand mi wordt bepaald volgens: 
+(
+)
+(
+)
+V;SUP;dis;out; ;
+H;hum;
+HU;
+we
+HU;rvd;
+a
+a;SUP; ;
+3 600
+1-
+=
+
+
+
+
+
+;
+mi
+zi mi
+zi mi
+mi
+zi
+zi mi
+q
+Q
+f
+h
+x t
+
+
+(12.1) 
+waarin: 
+QH;hum;zi;mi 
+is de benodigde energie voor bevochtiging in rekenzone zi en maand mi, in kWh; 
+fHU;mi 
+is de maandelijkse energiefractie nodig voor bevochtiging (fHU;mi = 1); 
+hwe 
+is de latente warmte van waterdamp bij 20°C , in kJ/kg (hwe = 2 538,2 kJ/kg); 
+509
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 510 ---
+Withdrawn final
+Ingetrokken definitief
+ηHU;rvd;zi 
+is de efficiëntie van de latente waterterugwinning in rekenzone zi in maand mi 
+(ηHU;rvd;zi = 0,55 voor een warmtewiel en 0 voor andere typen 
+warmteterugwinning); 
+ρa 
+is de dichtheid van lucht, in kg/m3 (ρa = 1,205 kg/m3); 
+qV;SUP;dis;out;zi;mi is de hoeveelheid lucht die rekenzone zi in kalendermaand mi in gaat in m3/h voor 
+verwarming, zoals bepaald in 11.3.1.1; 
+3 600 
+is de omrekeningsfactor van m3/h naar m3/s; 
+(Δx·tmi)a;SUP;zi;mi is de toe te voeren hoeveelheid vocht per kg droge lucht aan rekenzone zi in maand 
+mi, in kg·h/kg (tabel 12.1). 
+OPMERKING 1 
+De toe te voeren hoeveelheid vocht op basis van een kengetal is een versimpeling om te 
+voorkomen dat er afzonderlijke getabelleerde waarden van vochtgehalte en getabelleerde waarden van 
+bedrijfstijden voor zowel de functie- als ruimtecategorie noodzakelijk zijn. 
+OPMERKING 2 
+De latente warmte die nodig is voor het verdampen van de hoeveelheid vocht die nodig is voor 
+de bevochtigingsfunctie, wordt geleverd door een luchtbehandelingssysteem.  
+De benodigde energie voor de functie bevochtigen wordt per energiedrager ci voor maand mi bepaald 
+met: 
+hum; ;
+hum; ; ;
+ci mi
+zi ci mi
+zi
+E
+E
+=
+ 
+(12.2) 
+waarin: 
+Ehum;ci;mi 
+is het energiegebruik voor energiedrager ci van de bevochtigingsinstallaties in  
+maand mi; 
+Ehum;zi,ci;mi is het energiegebruik voor energiedrager ci van de bevochtigingsinstallatie in 
+rekenzone zi in maand mi. 
+Als bevochtiging plaatsvindt door het toevoeren van water aan de ruimte of luchtstroom 
+(verneveling), dan wordt de energie voor de verdamping geleverd door het systeem voor de functie 
+ruimteverwarming (hoofdstuk 9): 
+Ehum;zi;ci;mi = 0 
+Als bevochtiging plaatsvindt door het toevoeren van waterdamp (stoom) aan de ruimte of 
+luchtstroom, dan wordt de energie voor de verdamping geleverd door een separaat systeem. De 
+hoeveelheid benodigde energie hiervoor wordt per energiedrager ci bepaald volgens: 
+H;hum; ;
+hum; ; ;
+;
+;
+zi mi
+zi ci mi
+H hum si
+Q
+E
+
+=
+ 
+(12.3) 
+waarin: 
+Ehum;zi,ci,mi is het jaarlijkse energiegebruik voor energiedrager ci van de bevochtigingsinstallaties 
+in rekenzone zi; 
+QH;hum;zi;mi is de benodigde energie voor bevochtiging in rekenzone zi en maand mi; 
+H;hum;si 
+is het dimensieloze opwekkingsrendement voor bevochtiging. 
+510
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 511 ---
+Withdrawn final
+Ingetrokken definitief
+Voor opgestelde elektrische opwekkers geldt ηH;hum;si = 0,8 en voor overige opwekkers met gas of olie 
+als brandstof geldt ηH;hum;si = 0,6. 
+OPMERKING 3 De gegeven waarden voor H;hum;si zijn inclusief de verliezen van opwekker en distributie.  
+12.2.1 Terugwinbare energie 
+Voor het terugwinbare verlies van het bevochtigingssysteem in rekenzone zi geldt: 
+Voor grote opwekkers (Ag > 500 m2) en voor systemen waarbij bevochtiging plaatsvindt door het 
+toevoeren van water aan de ruimte of luchtstroom (verneveling), is QH;hum;rbl;zi;mi = 0. 
+In alle andere gevallen komt het terugwinbare systeemverlies ten goede aan de betreffende rekenzone 
+zi en wordt bepaald met: 
+𝑄H;hum;rbl;𝑧𝑖;𝑚𝑖= (1 −𝜂H;hum;𝑠𝑖) × 𝑄H;hum;𝑧𝑖;𝑚𝑖 
+ (12.4) 
+waarin: 
+QH;hum;rbl;zi;mi is de terugwinbare energie van de functie bevochtiging in rekenzone zi; 
+H;hum;si 
+is het dimensieloze opwekkingsrendement voor bevochtiging; 
+QH;hum;zi;mi 
+is de benodigde energie voor bevochtiging in rekenzone zi en maand mi, in kWh. 
+Tabel 12.1 — Hoeveelheid kg/h vocht (Δx·tmi)a;SUP;zi;mi dat per maand mi  
+per gemiddelde kg/h luchtventilatiecapaciteit moet worden toegevoerd  
+Maand mi 
+Functie 
+Bijeenkomstfunctie, celfunctie, 
+logiesfunctie, kantoorfunctie, 
+onderwijsfunctie en 
+winkelfunctie 
+ 
+kg·h/kg a 
+Gezondheidszorgfunctie 
+ 
+ 
+ 
+ 
+kg·h/kg b 
+Woonfunctie 
+ 
+ 
+ 
+ 
+kg·h/kg c 
+Januari 
+0,82 
+1,69 
+0 
+Februari 
+0,47 
+1,26 
+Maart 
+0,64 
+1,51 
+April 
+0,04 
+0,88 
+Mei 
+0,00 
+0,00 
+Juni 
+0,00 
+0,00 
+Juli 
+0,00 
+0,00 
+Augustus 
+0,00 
+0,00 
+September 
+0,00 
+0,00 
+Oktober 
+0,00 
+0,00 
+511
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 512 ---
+Withdrawn final
+Ingetrokken definitief
+Maand mi 
+Functie 
+Bijeenkomstfunctie, celfunctie, 
+logiesfunctie, kantoorfunctie, 
+onderwijsfunctie en 
+winkelfunctie 
+kg·h/kg a 
+Gezondheidszorgfunctie 
+kg·h/kg b 
+Woonfunctie 
+kg·h/kg c 
+November 
+0,00 
+0,37 
+December 
+0,59 
+1,46 
+a 
+Uitgangspunt voor een comfortabel binnenklimaat is een relatieve vochtigheid van 35 % bij 21°C. 
+b 
+Uitgangspunt voor een comfortabel binnenklimaat is een relatieve vochtigheid van 40 % bij 22°C. 
+c
+Uitgangspunt voor een comfortabel binnenklimaat is een relatieve vochtigheid van 35 % bij 20°C. 
+OPMERKING 1 Bij de sportfunctie vindt geen bevochtiging plaats. 
+OPMERKING 2 Vochtproductie in het gebouw is buiten beschouwing gelaten. 
+12.3 Ontvochtiging 
+De bepaling van de benodigde ontvochtiging verloopt als volgt: 
+— bepaal de omvang van de koudebehoefte per rekenzone zi voor maand mi;  
+— bepaal de toeslagfactor voor de koudebehoefte voor ontvochtiging per rekenzone zi per maand mi; 
+— bepaal de extra koudebehoefte voor ontvochtiging per rekenzone zi per maand mi.  
+De benodigde latente warmte voor de ontvochtiging in rekenzone zi en maand mi wordt bepaald 
+volgens: 
+𝑄C;dhum;𝑧𝑖;𝑚𝑖 = 𝑓DHU;C ∙𝑄C;nd;𝑧𝑖;𝑚𝑖 
+(12.5) 
+waarin: 
+QC;dhum;zi;mi is de energiebehoefte voor ontvochtiging van rekenzone zi in maand mi, in kWh; 
+fDHU;C 
+is de energiefractie van de voelbare energie die moet worden toegevoerd voor de 
+ontvochtiging volgens tabel 12.2; 
+QC;nd;zi;mi 
+is de energie benodigd voor de (voelbare) koeling van rekenzone zi in maand mi, 
+in kWh, bepaald volgens 8.2.2. 
+OPMERKING 1 Bij op water gebaseerde koudeafgiftesystemen zoals ventilatorconvectorsystemen en centrale 
+luchtbehandeling en een ruimte-airconditioner wordt ervan uitgegaan dat er voor de koelfunctie ook wordt 
+ontvochtigd. Bij systemen zoals plafondkoeling, vloerkoeling en wandkoeling is ontvochtiging niet wenselijk en 
+wordt ervan uitgegaan dat bij deze systemen geen ontvochtiging optreedt. 
+Systemen met directe expansie en systemen met een onbekende ontwerptemperatuur worden voor de 
+ontvochtiging gezien als een systeem met een ontwerptemperatuur van het koudeafgiftesysteem 
+(ϑin/ϑout) van 6 °C tot 12 °C.  
+512
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 513 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 12.2 — Toeslagfractie koudebehoefte voor ontvochtiging 
+Maand 
+fdhu;C  
+ 
+- 
+Ontwerp-
+temperatuur 
+koudeafgifte-
+systeem (ϑin/ϑout)  
+6 °C tot 12 °C 
+Ontwerp-
+temperatuur 
+koudeafgifte-
+systeem (ϑin/ϑout)  
+12 °C tot 16 °C 
+Ontwerp-
+temperatuur 
+koudeafgifte-
+systeem (ϑin/ϑout)  
+12 °C tot 18 °C 
+Ontwerp-
+temperatuur 
+koudeafgifte-
+systeem (ϑin/ϑout)  
+17 °C tot 21 °C 
+Januari 
+0,00 
+0,00 
+0,00 
+0,00 
+Februari 
+0,00 
+0,00 
+0,00 
+0,00 
+Maart 
+0,00 
+0,00 
+0,00 
+0,00 
+April 
+0,00 
+0,00 
+0,00 
+0,00 
+Mei 
+0,20 
+0,00 
+0,00 
+0,00 
+Juni 
+1,15 
+0,00 
+0,00 
+0,00 
+Juli 
+1,84 
+0,09 
+0,00 
+0,00 
+Augustus 
+2,15 
+0,43 
+0,02 
+0,00 
+September 
+1,91 
+0,00 
+0,00 
+0,00 
+Oktober 
+0,00 
+0,00 
+0,00 
+0,00 
+November 
+0,00 
+0,00 
+0,00 
+0,00 
+December 
+0,00 
+0,00 
+0,00 
+0,00 
+Uitgangspunten: 
+— De oppervlaktetemperatuur van het lamellenblok van een 6 °C tot 12 °C-systeem is 9 °C. 
+— De oppervlaktetemperatuur van het lamellenblok van een 12 °C tot 16 °C-systeem is 14 °C. 
+— De oppervlaktetemperatuur van het lamellenblok van een 12 °C tot 18 °C-systeem is 15 °C. 
+— Bij een 17 °C tot 21 °C-systeem is uitgegaan van vloer-/wand-/plafondkoeling waarbij geen condensatie 
+plaatsvindt. De oppervlaktetemperatuur van het koudeafgiftesysteem zal hoger zijn dan 17°C. 
+— De bypassfactor van het koelblok is 10 %. 
+— De voelbare warmte is gebaseerd op afkoeling van de buitenlucht tot 17 °C. 
+— Voor de bepalingsmethode van de hoeveelheid vocht die aan de lucht wordt onttrokken wordt 
+gebruikgemaakt van NEN-EN 16798-5-1, op basis van maandgemiddelde waarden. 
+— Bij distributiesystemen met een oppervlaktetemperatuur van de warmtewisselaar die de lucht koelt tot 
+hoger of gelijk aan 16°C, vindt geen ontvochtiging van de luchtstroom plaats. 
+ 
+513
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 514 ---
+Withdrawn final
+Ingetrokken definitief
+13 
+Bepaling energiegebruik warm tapwater 
+13.1 
+Energiegebruik per systeem 
+13.1.1 Principe 
+13.1.1.1 
+Inleiding 
+In een woning, woongebouw of utiliteitsgebouw kan het warme tapwater door een of meer 
+warmtapwatersystemen worden verzorgd. 
+Een warmtapwatersysteem bestaat uit de samenhangende onderdelen warmteafgifte, 
+-distributie, -opslag en -opwekking. 
+Een warmtapwatersysteem valt niet altijd samen met een rekenzone: één systeem kan meer 
+rekenzones omvatten en één rekenzone kan meer systemen bevatten. 
+Het energiegebruik per warmtapwatersysteem wordt per energiedrager berekend. In afwijking 
+hiervan mag voor utiliteitsgebouwen de berekening per rekenzone worden beperkt tot het type 
+tapwatersysteem waarop de meeste tappunten zijn aangesloten. 
+Het energiegebruik voor warm tapwater wordt per warmtapwatersysteem door de volgende 
+elementen bepaald: 
+a) Nettowarmtebehoefte warm tapwater
+Dit is de warmtebehoefte aan de tappunten bij een per tapping gegeven minimale nuttige
+taptemperatuur.
+b) Afgifterendement warm tapwater
+Dit rendement wordt bepaald door de distributieverliezen van uittapleidingen, waaronder:
+— het warmteverlies aan het tappunt, zolang de watertemperatuur lager is dan de nuttige
+taptemperatuur; 
+— de warmteverliezen t.g.v. opwarming en afkoeling van alle uittapleidingen. 
+c) Bijdrage van douchewaterwarmteterugwinning (DWTW)
+De bijdrage wordt bepaald door de eventuele warmteterugwinunit en de wijze van aansluiten
+hiervan.
+d) Distributieverliezen warm tapwater
+Dit verlies wordt bepaald door de distributieverliezen, waaronder:
+— de warmteverliezen t.g.v. circulatieleidingen ten behoeve van warm tapwater in het gebouw;
+— circulatieleidingen warmtedistributie binnen de perceelgrens (voor zover het verlies hiervan
+niet is meegenomen bij het verwarmingssysteem); 
+— individuele afleversets voor warmtedistributie.  
+514
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 515 ---
+Withdrawn final
+Ingetrokken definitief
+e) Opslagverliezen warm tapwater 
+Dit verlies wordt bepaald door de verliezen van een eventueel voorraadvat. In sommige situaties 
+maakt het voorraadvat deel uit van het opweksysteem en wordt daar dan in meegenomen. 
+f) Bijdrage van een zonne-energiesysteem 
+De bijdrage wordt bepaald door de zonnecollector, het voorraadvat en de verliezen van het 
+leidingwerk. 
+g) Opwekkingsrendement en opwekverliezen warm tapwater 
+Dit rendement wordt bepaald door de verliezen van warmteopwekking en eventuele warmteopslag 
+en kan bestaan uit:  
+— warmteopwekking, eventuele warmtewisseling, eventuele warmteopslag en verbindende 
+waterleidingen;  
+— warmteopwekking en circulatieleidingen van de warmtedistributie buiten de perceelgrens en, 
+bij centrale warmtapwaterbereiding, de centrale warmtewisseling en -opslag op basis van 
+warmtedistributie. 
+h) Elektrische-hulpenergiegebruik 
+Het gebruik van elektrische hulpenergie kan bestaan uit hulpenergiegebruik voor:  
+— circulatiepompen; 
+— voorraadvaten; 
+— zonne-energiesystemen; 
+— warmteopwekking (gebruik voor elektronica, pomp, ventilator enz.). 
+i) Terugwinbare systeemverliezen 
+De terugwinbare systeemverliezen kunnen bestaan uit verliezen die ontstaan bij: 
+— het distributiesysteem inclusief uittapleidingen; 
+— eventuele voorraadvaten of zonne-energiesysteem; 
+— het opweksysteem; 
+— het hulpenergiegebruik van bovengenoemde onderdelen. 
+OPMERKING 
+Deze aanpak is conform 6.4 van NEN-EN 15316-1:2017, waarbij in deze NTA de 
+energieprestatie van een deel van de verschillende functies en componenten wordt gekarakteriseerd met een 
+thermisch rendement in plaats van met een verliespost. Daarnaast is warmteterugwinning uit douchewater 
+(DWTW) toegevoegd als techniek. 
+Indien de energieprestatie wordt bepaald van een gedeelte van een gebouw dat is aangesloten op een 
+collectief gebouwsysteem voor de functie warm tapwater dat wordt gebruikt in meerdere gedeelten 
+van het gebouw als geheel, dan worden de energieverliezen en de (hulp)energiegebruiken berekend 
+op basis van de gebruiksoppervlakte die door het tapwatersysteem wordt bediend in het gedeelte van 
+het gebouw waarvoor de energieprestatie wordt opgesteld.  
+515
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 516 ---
+Withdrawn final
+Ingetrokken definitief
+13.1.1.2 
+Opwekking 
+Het distributiedeel kan door meerdere opwekkers worden gevoed. Elke opwekker wordt door één 
+soort energiedrager gevoed. 
+De bijdrage van een eventueel zonne-energiesysteem wordt afgetrokken van het energiegebruik voor 
+de warmtedistributie.  
+De bijdrage van een eventueel DWTW-systeem wordt afgetrokken van de benodigde warmte voor het 
+afgiftesysteem voor warm tapwater.  
+Om de conversie te kunnen maken naar primaire energie worden de uitkomsten per energiedrager 
+(gas, olie, elektriciteit enz.) verzameld. 
+13.1.1.3 
+Energiegebruik per service 
+Wanneer een opwekker of een opweksysteem wordt gebruikt voor meerdere services zoals 
+verwarming en warm tapwater, kan er sprake zijn van zowel een alternerende als parallelle 
+bedrijfswijze voor de verschillende services.  
+Een alternerende bedrijfswijze wordt bijvoorbeeld toegepast bij een individueel combitoestel dat 
+zowel warmte levert voor warm tapwater als voor ruimteverwarming. Het toestel kan slechts aan één 
+service leveren, waardoor beide services afhankelijk van het type regeling alternerend worden 
+uitgevoerd. 
+Wanneer er meerdere opwekkers worden ingezet voor het opwekken van warm tapwater, is er geen 
+sprake van een parallelle bedrijfswijze van de services maar van een parallelle bedrijfswijze van de 
+toestellen. Elk toestel levert een aandeel in de benodigde warmtebehoefte aan het opweksysteem.  
+In beide gevallen kan de output van de toestellen direct gerelateerd worden aan (de service) warm 
+tapwater en is er geen sprake van een parallelle bedrijfswijze van services. 
+Een parallelle bedrijfswijze van de services verwarming en warm tapwater is alleen van toepassing bij 
+(collectieve) verwarmingssystemen die tegelijkertijd worden ingezet voor verwarming en warm 
+tapwater. Specifieke rekenregels voor deze bepaling van het energiegebruik voor warm tapwater en 
+voor verwarming zijn gegeven in 13.8.4.9.3. 
+13.1.1.4 
+Hulpenergie 
+De bijbehorende (elektrische) hulpenergie van het gehele systeem exclusief opwekkers, 
+voorraadvaten en zonneboilers wordt berekend voor het distributiedeel (index ngen), eventuele opslag 
+in voorraadvaten (index sto), eventuele zonne-energiesystemen (index sol) en voor de betrokken 
+warmteopweksystemen (index gen). 
+Naast het energiegebruik door de opwekkers wordt de bijbehorende (elektrische) hulpenergie 
+berekend van een warmtapwatersysteem. Dit hulpenergiegebruik wordt apart bepaald voor de 
+volgende onderdelen: 
+a) distributiedeel (circulatiepompen, ngen);
+b) eventuele opslag in voorraadvaten (sto);
+c) eventuele zonne-energiesystemen (sol);
+d) warmteopwekking (gen).
+516
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 517 ---
+Withdrawn final
+Ingetrokken definitief
+Het hulpenergiegebruik voor verwarmingslint, sensoren en regelapparatuur, waaronder 
+gebouwbeheersystemen, wordt buiten beschouwing gelaten, behoudens de hieronder expliciet 
+uitgewerkte onderdelen.  
+OPMERKING 
+Het hulpenergiegebruik voor sensoren en regelapparatuur wordt via ecodesign beperkt. 
+13.1.1.5 
+Terugwinbare systeemverliezen 
+Van alle in dit hoofdstuk berekende systeemverliezen wordt aangegeven in welke mate deze 
+terugwinbaar zijn.  
+De warmteverliezen, waarmee al rekening wordt gehouden in de gerelateerde subsystemen (zoals 
+terugwinbare verbrandingsverliezen bij de voorverwarming van verbrandingslucht), worden hier niet 
+beschouwd.  
+Thermische systeemverliezen zijn niet terugwinbaar voor ruimteverwarming als deze niet in een 
+verwarmde ruimte plaatsvinden of als deze buiten het verwarmingsseizoen plaatsvinden.  
+In deze NTA worden de terugwinbare systeemverliezen voor alle services en subsystemen, QX,ls;rbl 
+(X=H, W, C enz.), opgeteld per rekenzone.  
+Eerst worden alle terugwinbare systeemverliezen die optreden in rekenzones die bekend zijn, bij 
+elkaar opgeteld. Vervolgens worden alle terugwinbare systeemverliezen waarvan niet bekend is in 
+welke rekenzone ze optreden, toegerekend naar een specifieke rekenzone naar rato van de 
+gebruiksoppervlakte.  
+13.1.2 Rekenregels 
+13.1.2.1 
+Energiegebruik per energiedrager 
+Bepaal per maand de benodigde energie-input voor de opwekking van warm tapwater in een gebouw 
+als volgt: 
+a) bepaal per energiedrager ci de som voor alle betrokken warmtapwatersystemen si;
+b) bepaal per warmtapwatersysteem si de som voor alle opwekkers gi.
+𝐸𝐸W;𝑐𝑐𝑐𝑐,𝑚𝑚𝑚𝑚= ∑∑
+𝐸𝐸W;𝑠𝑠𝑠𝑠,𝑔𝑔𝑔𝑔,𝑐𝑐𝑐𝑐,𝑚𝑚𝑚𝑚
+𝑔𝑔𝑔𝑔
+𝑠𝑠𝑠𝑠
+ 
+(13.1) 
+waarin: 
+EW;ci,mi 
+is de hoeveelheid gebruikte energie van energiedrager ci ten behoeve van warm 
+tapwater, in maand mi, in kWh; 
+EW;si,gi,ci,mi is de hoeveelheid gebruikte energie ten behoeve van warm tapwater, in maand mi, in 
+systeem si en van dit systeem de opwekker gi die energie van energiedrager ci betrekt, 
+bepaald volgens formule (13.3), in kWh. 
+OPMERKING 1 
+Deze bepalingswijze is conform 6.7.3 van NEN-EN 15316-1:2017. 
+OPMERKING 2 
+In dit hoofdstuk worden vrijwel alle berekeningen per maand uitgevoerd. In veel gevallen 
+zullen de getalswaarden afkomstig zijn van gegevens op jaarbasis, omdat gegevens op maandbasis een 
+schijnnauwkeurigheid op zouden leveren. In die gevallen geldt voor elke maand dezelfde getalswaarde. De reden 
+om de berekening desondanks op maandbasis uit te voeren is om in voorkomende gevallen ook uitkomsten te 
+kunnen genereren voor een van 12 maanden afwijkende rekenperiode. Bijvoorbeeld ter vergelijking met 
+meterstanden.  
+517
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 518 ---
+Withdrawn final
+Ingetrokken definitief
+Voor het bepalen van de energieprestatie van een gedeelte van een gebouw dat is aangesloten op een 
+collectief gebouwsysteem si voor de functie warm tapwater dat wordt gebruikt in meerdere gedeelten 
+van het gebouw als geheel, geldt: 
+si
+si
+A
+f
+A
+g;
+;W
+gebouw;
+;W
+g;gebouw;W
+=
+ 
+(13.1a) 
+In alle andere gevallen geldt: 
+si
+fgebouw; ;W = 1 
+waarin: 
+fgebouw;si;W is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel waarvoor de 
+energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater;  
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie wordt 
+bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem 
+si voor de functie warm tapwater, volgens formules (13.19b) of (13.20a), in m2; 
+Ag;gebouw;W is de gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+bepaald volgens 6.6.7, in m2. 
+OPMERKING 3 
+In een gebouw kunnen meerdere collectieve systemen si voorkomen waarvoor separaat 
+Ag;gebouw;W bepaald moet worden. 
+13.1.2.2 
+Hulpenergie 
+Het totale hulpenergiegebruik voor warm tapwater in een gebouw per maand wordt als volgt bepaald: 
+a) bepaal per maand mi de som voor alle betrokken warmtapwatersystemen si (exclusief de 
+hulpenergie ten behoeve van de warmteopwekking; index ngen); 
+b) bepaal per warmtapwatersysteem si de som voor alle betrokken voorraadvaten sto, opwekkers gi 
+(index gen) en zonneboilers soli.  
+;
+soli
+∑
+∑
+∑
+∑
+mi
+si,mi
+si,mi
+si,gi,mi
+si,mi
+si
+sto
+gi
+soli
+W
+W
+W
+W
+W
+W;aux;
+W;aux;ngen;
+W;aux;sto;
+W;aux;gen;
+W;aux;
+tot;
+=
+(
++
++
++
+) 
+ 
+(13.2) 
+waarin: 
+WW;aux;mi 
+is de hoeveelheid gebruikte elektrische hulpenergie ten behoeve van warm 
+tapwater, in maand mi, in kWh; 
+WW;aux;ngen;si,mi 
+is de hoeveelheid gebruikte elektrische hulpenergie van het distributiesysteem 
+ten behoeve van warm tapwater, in systeem si, in maand mi, bepaald volgens 
+13.4.4, in kWh; 
+518
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 519 ---
+Withdrawn final
+Ingetrokken definitief
+WW;aux;sto;si,mi 
+is het elektrische-hulpenergiegebruik voor eventueel aanwezige 
+circulatiepompen in het oplaadcircuit van voorraadvat stoi in systeem si, in 
+maand mi, bepaald volgens 13.6.4 in kWh; 
+WW;aux;gen;si,gi,mi 
+is de hoeveelheid gebruikte elektrische hulpenergie ten behoeve van warm 
+tapwater, voor maand mi, systeem si en van dit systeem de opwekker gi, bepaald 
+volgens 13.1 in kWh; 
+WW;aux;soli;tot;si,mi 
+is de totale hoeveelheid op het eigen perceel afgenomen elektrische hulpenergie 
+van zonne-energiesysteem soli ten behoeve van ruimteverwarming en warm 
+tapwater in systeem si, in maand mi, bepaald volgens 13.7.2, in kWh. 
+OPMERKING 1 
+Het hulpenergiegebruik van zonne-energiesystemen omvat hier zowel de bijdrage voor 
+verwarming als warm tapwater, omdat deze bijdragen moeilijk te scheiden zijn. 
+OPMERKING 2 
+De bepaling van het hulpenergiegebruik is conform 6.9 van NEN-EN 15316-1:2017. 
+Hulpenergie voor distributie is gekenmerkt als ‘ngen’. Zonneboilers maken deel uit van het ‘generation 
+subsystem’. Voor het afgifte- dan wel uittapsysteem ‘em’ is er geen hulpenergiegebruik. 
+Bij het hulpenergiegebruik van opwektoestellen (WW;aux;gen) en eventuele zonneboilers (WW;aux;sol) of 
+voorraadvaten (WW;aux;sto) behoort rekening te worden gehouden met het werkelijke aantal toestellen.  
+OPMERKING 3 
+In sommige gevallen, bijvoorbeeld bij een woongebouw, wordt een systeem met meerdere 
+individuele opwektoestellen (met dezelfde opwekkers van hetzelfde merk, type en vermogen en dezelfde 
+energiedragers) omwille van de eenvoud gemodelleerd als één (fictief) tapwatersysteem. In werkelijkheid 
+bestaat dat systeem uit meerdere identieke fysieke tapwatersystemen. 
+13.1.2.3 
+Warmteopwekking 
+Bepaal het energiegebruik voor de opwekking van warm tapwater per systeem, opwekker en 
+energiedrager per maand: 
+𝐸𝐸W;𝑠𝑠𝑠𝑠,𝑔𝑔𝑔𝑔,𝑐𝑐𝑐𝑐,𝑚𝑚𝑚𝑚=
+𝑄𝑄W;dis;nren;si,mi×𝐹𝐹W;gen;si,gi,mi
+𝜂𝜂W;gen;prac;si,gi,mi
+ 
+(13.3) 
+waarin: 
+EW;si,gi,ci,mi 
+is de hoeveelheid gebruikte energie ten behoeve van warm tapwater, in 
+maand mi, in systeem si en van dit systeem de opwekker gi die energie van 
+energiedrager ci betrekt, in kWh; 
+QW;dis;nren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van 
+systeem si, in kWh; 
+FW;gen;si,gi,mi 
+is de dimensieloze energetische bijdrage voor warm tapwater, in maand mi, die 
+opwekker gi levert aan het systeem si, bepaald volgens 13.8.2; 
+ηW;gen;prac;si,gi,mi 
+is het dimensieloze opwekkingsrendement onder praktijkomstandigheden voor 
+warm tapwater, in maand mi, van opwekker gi in het systeem si, bepaald volgens 
+13.8.3. 
+OPMERKING 
+Deze bepalingswijze is conform 6.7.3 van NEN-EN 15316-1:2017. 
+519
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 520 ---
+Withdrawn final
+Ingetrokken definitief
+13.1.2.4 
+Niet-duurzame en duurzame warmteopwekking 
+Bepaal de hoeveelheid energie ten behoeve van warm tapwater, voor maand mi, door de niet-
+duurzame opwekkers (nren) aangeleverd aan het distributiedeel van systeem si: 
+𝑄𝑄W;dis;nren;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚= 𝑄𝑄W;dis;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚−𝑄𝑄W;ren;sol,prac;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚 
+(13.4) 
+𝑄𝑄W;ren;sol,prac;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚= 𝑀𝑀𝑀𝑀𝑀𝑀[ 𝑄𝑄W;dis;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚 ; ෍
+𝑄𝑄W;ren;prac; 𝑠𝑠𝑠𝑠,𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚
+𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠
+] 
+(13.4a) 
+∑
+si;
+si ,mi
+mi
+Q
+Q
+W;dis;nren;
+an
+W;dis;nren;
+=
+(13.6) 
+waarin: 
+QW;dis;nren;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van 
+systeem si, in kWh; 
+QW;dis;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het distributiedeel van systeem si, in kWh; 
+QW;ren;sol,prac;si,mi 
+is de onder praktijkomstandigheden aangeleverde maandelijkse hoeveelheid 
+hernieuwbare energie ten behoeve van warm tapwater door op het eigen perceel 
+opgewekte thermische duurzame energie van de op systeem si aangesloten 
+zonne-energiesystemen, in kWh; 
+QW;ren;prac;si,soli,mi 
+is de onder praktijkomstandigheden aangeleverde hoeveelheid energie ten 
+behoeve van warm tapwater, in maand mi, door op het eigen perceel opgewekte 
+thermische duurzame energie door zonne-energiesysteem soli, ten behoeve van 
+systeem si, bepaald volgens 13.7.2, in kWh; 
+QW;dis;nren;si;an 
+is de hoeveelheid energie ten behoeve van warm tapwater per jaar door de niet-
+duurzame opwekkers (nren) aangeleverd aan het distributiedeel van systeem si, 
+in kWh. 
+OPMERKING 1 
+De opbrengst van een zonne-energieopweksysteem wordt altijd preferent benut. 
+OPMERKING 2 
+De door het opweksysteem te leveren energie kan nooit kleiner dan 0 zijn. De opbrengst van 
+de aangesloten zonneboilers is nooit groter dan de te distribueren energie. 
+13.1.2.5 
+Warmtedistributie en –opslag 
+Bepaal de hoeveelheid energie ten behoeve van warm tapwater, voor maand mi, die door het 
+opweksysteem wordt aangeleverd aan het distributiedeel van systeem si: 
+𝑄𝑄W;dis;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚=
+𝑄𝑄W;em;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚
+𝜂𝜂W;dis;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚+ 𝑄𝑄W;sto;ls;tot;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚+ 𝑄𝑄W;dis;conv;ls;𝑚𝑚𝑖𝑖 
+(13.7) 
+∑
+∑
+si
+si,mi
+si,mi
+soli,mi
+stoi
+soli
+Q
+Q
+Q
+fgebouw; ;W
+W;sto;ls;tot;
+W;sto;ls;
+W;bu;sto;ls;
+=
++
+×
+(13.8) 
+520
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 521 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+QW;dis;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het distributiedeel van systeem si, in kWh; 
+QW;em;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het afgiftedeel van systeem si, in kWh; 
+ηW;dis;si,mi 
+is het dimensieloze distributierendement voor warm tapwater, in maand mi, van 
+systeem si, bepaald volgens 13.4.3; 
+QW;sto;ls;tot;si,mi 
+is de totale hoeveelheid warmteverlies die ontstaat bij alle voorraadvaten en 
+naverwarmerdelen van zonneboileropslagvaten ten behoeve van warm tapwater 
+in systeem si, in maand mi, in kWh; 
+QW;dis;conv;ls;si,mi 
+zijn de warmteverliezen van alle toegepaste individuele afleversets voor warm 
+tapwater in systeem si, in maand mi, bepaald volgens 13.4.2, in kWh; 
+QW;sto;ls;si,mi 
+is de hoeveelheid warmteverlies die ontstaat bij een eventueel voorraadvat stoi 
+ten behoeve van warm tapwater van systeem si, in maand mi, bepaald volgens 
+13.6.2 in kWh; 
+QW;bu;sto;ls;soli,mi 
+is de hoeveelheid warmteverlies die ontstaat bij een eventueel naverwarmerdeel 
+van een zonneboileropslagvat soli ten behoeve van warm tapwater van systeem 
+si, in maand mi, bepaald volgens 13.7.2.2.4 of 13.7.2.3, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+warm tapwater, volgens 13.1.2.  
+13.1.2.6 
+Warmteafgifte 
+Bepaal de hoeveelheid energie ten behoeve van warm tapwater, voor maand mi, aangeleverd aan het 
+afgiftedeel van systeem si 
+voor de categorie woningbouw: 
+
+
+
+
+
+
+
+
+−
+∑
+si
+zi,mi
+si,mi
+si,mi
+zi
+si,mi
+F
+Q
+Q
+Q
+η
+W;
+W;nd;
+W;em;
+W;rcd;d;
+W;em;
+×
+=
+ 
+(13.9) 
+voor de categorie utiliteitsbouw: 
+
+
+
+
+
+
+
+
+−
+∑
+zi,si
+zi,mi
+si,mi
+si,mi
+zi
+si,mi
+F
+Q
+Q
+Q
+η
+W;
+W;nd;
+W;em;
+W;rcd;u;
+W;em;
+×
+=
+ 
+(13.9a) 
+waarin: 
+QW;em;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het afgiftedeel van systeem si, in kWh; 
+521
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 522 ---
+Withdrawn final
+Ingetrokken definitief
+FW;si 
+ 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater in het 
+gebouw of gebouwdeel die door het beschouwde systeem si wordt geleverd, bepaald 
+volgens 13.2.4; 
+FW;zi,si 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater van 
+rekenzone zi die door het beschouwde systeem si wordt geleverd, bepaald 
+volgens 13.2.4; 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van elke 
+rekenzone zi die (mede) door het beschouwde systeem si wordt bediend, bepaald 
+volgens 13.2.2, in kWh; 
+ηW;em;si,mi 
+is het dimensieloze afgifterendement voor warm tapwater, in maand mi, van 
+warmtapwatersysteem si, bepaald volgens 13.3.2; 
+QW;rcd;d;si,mi 
+is de hoeveelheid teruggewonnen thermische energie ten behoeve van warm 
+tapwater, aangeleverd door warmteterugwinning uit de afvoer van warm tapwater, 
+voor de categorie woningbouw, in maand mi, van systeem si, bepaald volgens 13.5.2 
+in kWh; 
+QW;rcd;u;si,mi 
+is de hoeveelheid teruggewonnen thermische energie ten behoeve van warm 
+tapwater, aangeleverd door warmteterugwinning uit de afvoer van warm tapwater, 
+voor utiliteit, in maand mi, van systeem si, bepaald volgens 13.5.2, in kWh. 
+OPMERKING 1 
+Bedoeld is hier douchewaterwarmteterugwinning (DWTW).  
+OPMERKING 2 
+Het afgifterendement kan per zone verschillend zijn. 
+OPMERKING 3 
+In het geval van een berekening voor utiliteitsbouw of woningbouw zal QW;rcd;d;si,mi 
+respectievelijk QW;rcd;u;si,mi nul bedragen. 
+13.1.2.7 
+Nettowarmtebehoefte 
+Bepaal voor de categorie utiliteitsbouw de nettowarmtebehoefte ten behoeve van warm tapwater, 
+voor maand mi, van het warmtapwatersysteem si: 
+(
+)
+×
+∑
+zi,si
+si,mi
+zi,mi
+zi
+Q
+F
+Q
+W;
+W;nd;
+W;nd;
+=
+ 
+(13.10) 
+waarbij:  
+QW;nd;si,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van 
+systeem si, in kWh; 
+FW;zi,si 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater van 
+rekenzone zi die door het beschouwde systeem si wordt geleverd, bepaald 
+volgens 13.2.4; 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van 
+elke rekenzone zi die (mede) door het beschouwde systeem si wordt bediend, 
+bepaald volgens 13.2.2, in kWh. 
+Bepaal de nettowarmtebehoefte ten behoeve van warm tapwater in de categorie woningbouw, voor 
+maand mi, van het warmtapwatersysteem si, door sommatie over alle zones zi van de categorie 
+woningbouw, volgens: 
+522
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 523 ---
+Withdrawn final
+Ingetrokken definitief
+∑
+si
+si,mi
+zi,mi
+zi
+Q
+F
+Q
+W;
+W;nd;d;
+W;nd;
+=
+×
+(13.11) 
+waarin: 
+QW;nd;d;si,mi 
+is de nettowarmtebehoefte van een gebouw of gedeelte van een gebouw in de 
+categorie woningbouw ten behoeve van warm tapwater, in maand mi, in kWh; 
+FW;si 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater in het 
+gebouw of gebouwdeel die door het beschouwde systeem si wordt geleverd, 
+bepaald volgens 13.2.4; 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van 
+elke rekenzone zi die (mede) door het beschouwde systeem si wordt bediend, 
+bepaald volgens 13.2.2, in kWh. 
+Bepaal de nettowarmtebehoefte ten behoeve van warm tapwater voor de categorie utiliteitsbouw voor 
+maand mi, van het warmtapwatersysteem si, door sommatie over de zones zi met een gebruiksfunctie 
+utiliteit, volgens: 
+(
+)
+×
+∑
+zi,si
+si,mi
+zi,mi
+zi
+Q
+F
+Q
+W;
+W;nd;u;
+W;nd;
+=
+(13.12) 
+waarin: 
+QW;nd;u;si,mi 
+is de nettowarmtebehoefte voor utiliteit ten behoeve van warm tapwater, in 
+maand mi, van systeem si, in kWh; 
+FW;zi,si 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater van 
+rekenzone zi die door het beschouwde systeem si wordt geleverd, bepaald 
+volgens 13.2.4; 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van 
+elke rekenzone zi die (mede) door het beschouwde systeem si wordt bediend, 
+bepaald volgens 13.2.2, in kWh. 
+OPMERKING 
+De afzonderlijke warmtebehoefte voor woningen en utiliteit wordt gebruikt in de bepaling van 
+teruggewonnen thermische energie door warmteterugwinning uit de afvoer van warm tapwater. 
+13.1.2.8 
+Terugwinbare systeemverliezen 
+Bepaal per rekenzone de maandelijkse terugwinbare verliezen per warmtapwatersysteem si als volgt: 
+QW;ls;rbl;si,zi,mi = QW;dis;ls;rbl;zi,mi + ∑stoi(QW;sto;ls;rbl;env;zi,mi + QW;sto;aux;rbl;zi,mi) + ∑giQW;gen;ls;rbl;zi,gi,mi + 
+∑soliQW;sol;ls;rbl;tot;mi 
+(13.13) 
+waarin: 
+QW;ls;rbl;si,zi,mi 
+is het terugwinbare verlies van warmtapwatersysteem si in rekenzone zi, in 
+maand mi, in kWh; 
+QW;dis;ls;rbl;zi,mi 
+is het voor ruimteverwarming terugwinbare thermische systeemverlies van het 
+verwante distributiesubsysteem voor warm tapwater in rekenzone zi, in 
+maand mi, bepaald volgens formule (13.14); 
+523
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 524 ---
+Withdrawn final
+Ingetrokken definitief
+QW;sto;ls;rbl;env,zi,mi is het voor ruimteverwarming terugwinbare thermische systeemverlies van het 
+verwante opslagsubsysteem stoi voor warm tapwater in rekenzone zi, 
+in maand mi, bepaald volgens 13.6.5, in kWh; 
+QW;sto;aux;rbl;zi,mi is de voor ruimteverwarming terugwinbare energie van het hulpenergiegebruik 
+van eventueel aanwezige circulatiepompen voor het oplaadcircuit van 
+voorraadvat stoi, in rekenzone zi, in maand mi, bepaald volgens 13.6.5, in kWh; 
+QW;gen;ls;rbl;zi,gi,mi is het voor ruimteverwarming terugwinbare thermische systeemverlies van de 
+verwante opwekkers gi voor warm tapwater in rekenzone zi, in maand mi, 
+volgens 13.8, in kWh; 
+QW;sol;ls;rbl;tot;mi 
+is het voor ruimteverwarming terugwinbare verlies van het verwante zonne-
+energiesysteem soli voor ruimteverwarming en/of warm tapwater, in maand mi, 
+bepaald volgens 13.7.2, in kWh. 
+Indien de totale gebruiksoppervlakte van het gebouw (Ag;gebouw) groter is dan 500 m2, dan geldt: 
+QW;sto;ls;rbl;env;zi,mi = 0, QW;sto;aux;rbl;zi,mi = 0, QW;gen;ls;rbl;zi,gi = 0, QW;sol;ls;rbl;tot;soli,mi = 0. 
+Dit geldt niet voor systemen die zijn opgebouwd uit meerdere individuele toestellen die afzonderlijk in 
+de opwekking van het warm tapwater voorzien (zoals bij keukenboilers, doorstroomtoestellen, 
+boosterwarmtepompen en individuele zonneboilers) voor een deel van het gebouw dat kleiner is dan 
+500 m2. 
+OPMERKING 1 
+Voor systemen in gebouwen met een gebruiksoppervlakte van meer dan 500 m2 wordt ervan 
+uitgegaan dat de opwekkers en eventuele voorraadvaten in een aparte zone zijn opgenomen waardoor de 
+optredende warmteverliezen niet terugwinbaar zijn voor de overige rekenzones. 
+De distributieverliezen van circulatiesystemen die toebehoren aan externe warmtelevering en die 
+optreden vóór het overdrachtspunt (meestal de afleverset of warmwatermeter), worden niet 
+meegenomen als terugwinbare verliezen. 
+OPMERKING 2 
+De leidinglengte van circulatiesystemen die toebehoren aan externe warmtelevering, worden 
+bij de berekening van het energiegebruik op gebouwniveau niet meegenomen. De verliezen worden op basis van 
+generieke gegevens meegenomen bij de bepaling van het energieverlies binnen systemen voor externe warmte- 
+of koudelevering. Deze aanpak is gevolgd om onnodige opname van leidingen op gebouwniveau te voorkomen. 
+De terugwinbare verliezen van afgifte- en distributiesystemen worden niet bepaald per rekenzone 
+maar volgens formule (13.14), verdeeld naar rato van de gebruiksoppervlakte over de rekenzones in 
+het gebouw of gebouwdeel. 
+OPMERKING 3 
+Met deze aanpak wordt een zeer uitgebreide invoer ten behoeve van een verliesberekening 
+van de leidingdelen per rekenzone vermeden. 
++
+=
+×
+∑
+zi
+zi
+mi
+mi
+si
+A
+Q
+Q
+Q
+A
+g;
+W;dis;ls;rbl;
+W;dis;rbl;
+W;dis;aux;rbl;
+g;tot
+)
+(
+(13.14) 
+waarin: 
+QW;dis;ls;rbl;zi 
+is het voor ruimteverwarming terugwinbare thermische systeemverlies van het 
+verwante distributiesubsysteem voor warm tapwater in maand mi, in rekenzone zi; 
+QW;dis;rbl;mi 
+is het voor ruimteverwarming terugwinbare thermische systeemverlies van de 
+verwante distributiesystemen voor warm tapwater, in maand mi, bepaald 
+volgens 13.4.5; 
+524
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 525 ---
+Withdrawn final
+Ingetrokken definitief
+QW;dis;aux;rbl;mi is de voor ruimteverwarming terugwinbare energie van het hulpenergiegebruik van 
+eventueel aanwezige circulatiepompen, in maand mi, bepaald volgens 13.4.5, in kWh; 
+Ag;zi 
+is de gebruiksoppervlakte van rekenzone zi van het desbetreffende gebouw of 
+gebouwdeel, bepaald volgens 6.6, in m2; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende 
+gebouw of gebouwdeel, bepaald volgens 6.6, in m2. 
+13.2 
+Nettowarmtebehoefte en tappatronen 
+13.2.1 Principe 
+De nettowarmtebehoefte voor warm tapwater wordt voor de categorie woningbouw bepaald op basis 
+van een opgelegde behoefte per bewoner in kWh per jaar, waarbij het aantal bewoners afhankelijk is 
+van de gebruiksoppervlakte. Voor de categorie utiliteitsbouw wordt de nettowarmtebehoefte voor 
+warm tapwater bepaald door een per rekenzone opgelegde behoefte in kWh per m2 
+gebruiksoppervlakte per jaar. 
+Bij toepassing van één warmtapwatersysteem voor de gehele woning of het gehele gebouw wordt de 
+nettowarmtebehoefte voor alle rekenzones bepaald en samengenomen. 
+Bij meer warmtapwatersystemen moet de warmtebehoefte per warmtapwatersysteem worden 
+vastgesteld. Afhankelijk van de gebruiksfunctie en de samenhang tussen rekenzones en 
+warmtapwatersystemen is een van de volgende benaderingen van toepassing: 
+a) Indien in een woning afzonderlijke warmtapwatersystemen worden toegepast voor de keuken en 
+de badruimte, dan wordt de totale nettowarmtebehoefte van de gehele woning volgens een 
+gegeven verhouding verdeeld in de nettowarmtebehoefte in keuken en badruimte.  
+b) Indien in een woongebouw de verschillende woningen van een zelfstandig warmtapwatersysteem 
+zijn voorzien, wordt de warmtebehoefte per warmtapwatersysteem bepaald door de 
+gebruiksoppervlakte van die woning. Indien in een dergelijke woning afzonderlijke 
+warmtapwatersystemen worden toegepast voor de keuken en de badruimte, wordt de onder a) 
+gegeven verdeling van de warmtebehoefte toegepast. Hierbij mag ter wille van de eenvoud de 
+gemiddelde gebruiksoppervlakte per woning worden gebruikt, bepaald volgens 6.6.5 of 6.6.6. 
+c) Indien in een woongebouw de verschillende woningen zijn aangesloten op een collectief 
+circulatiesysteem voor warm tapwater, dan wordt de warmtebehoefte, inclusief de verliezen van de 
+uittapleidingen en voorraadvaten, van deze woningen gesommeerd en worden op basis daarvan 
+het gemiddelde distributieverlies en het opwekkingsrendement bepaald. Het 
+opwekkingsrendement is vervolgens op al deze woningen van toepassing. 
+d) Indien in een woongebouw de verschillende woningen via een warmtewisselaar (afleverset) zijn 
+aangesloten op een collectief warmtedistributiesysteem (externe warmtelevering of een collectief 
+gebouwsysteem voor verwarming), dan wordt de warmtebehoefte van deze woningen, inclusief de 
+verliezen van de uittapleidingen, eventuele voorraadvaten en afleverset, gesommeerd en worden 
+het distributieverlies van een eventueel circulatiesysteem voor warm tapwater en het 
+opwekkingsrendement bepaald. Het opwekkingsrendement is vervolgens op al deze woningen van 
+toepassing. 
+e) Voor utiliteitsgebouwen met meer warmtapwatersystemen in één rekenzone wordt de 
+warmtebehoefte verdeeld op basis van de gebruiksoppervlakte die per warmtapwatersysteem 
+wordt bediend.  
+525
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 526 ---
+Withdrawn final
+Ingetrokken definitief
+f) Voor rekenzones met meer gebruiksfuncties wordt de nettowarmtebehoefte per gebruiksfunctie 
+bepaald door de gebruiksoppervlakte en de specifieke warmtebehoefte per gebruiksfunctie, 
+waarna deze worden opgeteld. 
+g) Indien binnen één woonfunctie meerdere tapwatersystemen worden toegepast die zijn aangesloten 
+op verschillende badkamers, moet de warmtebehoefte over de tapwatersystemen worden verdeeld 
+op basis van het aantal badkamers. Ook wanneer er binnen één woonfunctie meerdere 
+tapwatersystemen worden toegepast die zijn aangesloten op verschillende keukens, moet de 
+warmtebehoefte over de tapwatersystemen worden verdeeld op basis van het aantal keukens. 
+Indien er afzonderlijke warmtapwatersystemen worden toegepast voor de keuken en de 
+badruimte, wordt de onder a) genoemde gegeven verdeling van de warmtebehoefte toegepast. 
+Alle rekenzones in een gebouw moeten worden toegewezen aan een tapwatersysteem, ook wanneer er 
+in werkelijkheid geen warmtapwatersysteem of tappunt in de rekenzone aanwezig is. 
+Naast de nettowarmtebehoefte is voor de categorie woningbouw een gedetailleerd 24 uurstappatroon 
+vereist. Dit is o.a. nodig voor het bepalen van het leidingrendement van uittapleidingen en het 
+rendement van de douchewaterwarmteterugwinning (DWTW). Dit tappatroon is gegeven in bijlage T. 
+Voor het bepalen van het energiegebruik van warmteopwekkers voor warm tapwater wordt 
+gebruikgemaakt van de Europese capaciteitsprofielen (tappatronen) zoals vastgelegd in 
+CDR 811/2013, 813/2013 en 814/2013. Deze profielen zijn overgenomen in NEN-EN 13203-2 voor 
+ketels en in NEN-EN 16147 voor warmtepompen. Deze capaciteitsprofielen wijken af van het 
+tappatroon in bijlage T doordat rekening gehouden wordt met gebruik van een vaatwasser en 
+(gedeeltelijk) gebruik van een bad. In een beperkt aantal gevallen wordt echter nog gebruikgemaakt 
+van de tappatronen in bijlage T. 
+OPMERKING 
+De bepaling van de nettowarmtebehoefte voor warm tapwater is overeenkomstig de methode in 
+6.5.3 van NEN-EN 12831-3:2017. In aanvulling hierop wordt voor woningbouw uitgegaan van een vaste 
+minimale warmtebehoefte per persoon. Voor utiliteitsbouw behoort dit nog nader ingevuld te worden maar is 
+ook rekening gehouden met een eventuele minimale warmtebehoefte per gebouw. 
+13.2.2 Rekenregels 
+13.2.2.1 
+Categorie woningbouw 
+Bepaal de nettowarmtebehoefte voor warm tapwater per rekenzone zi, in maand mi, volgens: 
+mi
+zi
+zi
+zi,mi
+t
+Q
+Q
+N
+N
+t
+woon;
+P;woon;
+W;nd;
+W;nd;spec;p
+an
+=
+×
+×
+×
+ 
+(13.15) 
+Bepaal het aantal bewoners per woonfunctie per rekenzone NP;woon;zi aan de hand van de gemiddelde 
+gebruiksoppervlakte per woonfunctie per rekenzone als volgt: 
+Indien: 
+Ag,zi/Nwoon;zi ≤ 30 m2: 
+𝑁𝑁P;woon;𝑧𝑧𝑧𝑧= 1 
+(13.16) 
+30 m2 < Ag,zi/Nwoon;zi ≤ 100 m2:  
+𝑁𝑁P;woon;𝑧𝑧𝑧𝑧= 2,28 −
+1,28
+70 × ൬100 −
+𝐴𝐴g;𝑧𝑧𝑧𝑧
+𝑁𝑁woon;𝑧𝑧𝑧𝑧൰ 
+(13.17) 
+526
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 527 ---
+Withdrawn final
+Ingetrokken definitief
+Ag,zi/Nwoon;zi > 100 m2: 
+𝑁𝑁P;woon;𝑧𝑧𝑧𝑧= 1,28 +  0,01 ×
+𝐴𝐴g;𝑧𝑧𝑧𝑧
+𝑁𝑁woon;𝑧𝑧𝑧𝑧 
+(13.18) 
+waarin: 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, in maand mi, van elke 
+rekenzone zi die (mede) door het beschouwde systeem si wordt bediend, in kWh; 
+QW;nd;spec;p is de specifieke nettowarmtebehoefte voor warm tapwater per bewoner per jaar, 
+bepaald volgens 13.2.3.1, in kWh/bewoner per jaar; 
+Nwoon;zi 
+is het aantal woonfuncties in rekenzone zi, bepaald volgens 6.6.6; 
+NP;woon;zi 
+is het gemiddeld aantal bewoners per woonfunctie per rekenzone; 
+Ag;zi 
+is de gebruiksoppervlakte van de beschouwde rekenzone zi, bepaald volgens 6.6.3, 
+in m2; 
+tmi 
+is de lengte van maand mi, bepaald volgens 17.2, in h; 
+tan 
+is de lengte van het jaar, bepaald volgens 17.2, in h. 
+OPMERKING 
+Formules (13.16) t/m (13.18) bepalen het aantal bewoners in een (deel van een) woning of een 
+woongebouw op grond van landelijke gemiddelden voor het aantal bewoners per woning, rekening houdend met 
+de distributie van woninggrootten. 
+13.2.2.2 
+Categorie utiliteitsbouw 
+Bepaal de nettowarmtebehoefte voor warm tapwater van rekenzone zi, in maand mi, als volgt: 
+𝑄𝑄W;nd;𝑧𝑧𝑧𝑧,𝑚𝑚𝑚𝑚= 𝑄𝑄W;nd;spec;𝑢𝑢𝑢𝑢𝑢𝑢× 𝐴𝐴g;𝑧𝑧𝑧𝑧×
+𝑡𝑡𝑚𝑚𝑚𝑚
+𝑡𝑡an 
+(13.19) 
+waarin: 
+QW;nd;zi,mi 
+is de nettowarmtebehoefte ten behoeve van warm tapwater, voor maand mi, van elke 
+rekenzone zi, in kWh; 
+QW;nd;spec;usi is de specifieke nettowarmtebehoefte voor warm tapwater, gewogen naar de 
+gebruiksoppervlakte van de gebruiksfuncties usi in de beschouwde rekenzone, bepaald 
+volgens 13.2.3.2, in kWh/m2 per jaar; 
+Ag,zi 
+is de gebruiksoppervlakte van rekenzone zi, bepaald volgens 6.6, in m2; 
+tmi 
+is de lengte van maand mi, bepaald volgens 17.2, in h; 
+tan 
+is de lengte van het jaar, bepaald volgens 17.2, in h. 
+13.2.3 Rekenwaarden 
+13.2.3.1 
+Categorie woningbouw 
+De specifieke warmtebehoefte voor warm tapwater, QW;nd;spec;p, bedraagt voor woonfuncties: 856 kWh 
+per jaar per persoon. 
+527
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 528 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 1 
+Het specifieke gebruik van warm tapwater in liters water van 60 °C voor warm tapwater 
+bedraagt 40,29 l per dag per persoon. 
+OPMERKING 2 
+De waarden in bijlage B van NEN-EN 12831-3:2017 zijn in Nederland niet van toepassing. 
+De rekenwaarden voor de verdeling van de warmtebehoefte tussen keuken en badruimte zijn: 
+a) keuken: 
+CW;nd;k = 0,2 (vaste waarde);
+b) badruimte CW;nd;b = 0,8 (vaste waarde).
+waarin: 
+CW;nd;k is het relatieve aandeel van de keuken in de nettowarmtebehoefte voor warm tapwater 
+per woning; 
+CW;nd;b is het relatieve aandeel van de badruimte in de nettowarmtebehoefte voor warm tapwater 
+per woning. 
+13.2.3.2 
+Categorie utiliteitsbouw 
+De rekenwaarde van QW;nd;spec per eenheid van gebruiksoppervlakte voor utiliteitsgebouwen wordt 
+gegeven in tabel 13.1. 
+Tabel 13.1 — De jaarlijkse specifieke nettowarmtebehoefte voor warm tapwater, QW;nd;spec, 
+(vaste waarden) per gebruiksfunctie 
+Gebruiksfunctie 
+QW;nd;spec
+kWh/m2 per jaar 
+VW;nd;spec;day
+l/m2 per dag 
+Bijeenkomstfunctie voor kinderopvang 
+2,8 
+0,131 
+Bijeenkomstfunctie overig 
+2,8 
+0,131 
+Celfunctie 
+4,2 
+0,196 
+Gezondheidszorgfunctie met bedgebied 
+15,3 
+0,719 
+Gezondheidszorgfunctie anders dan met 
+bedgebied  
+2,8 
+0,131 
+Kantoorfunctie 
+1,4 
+0,065 
+Logiesfunctie 
+12,5 
+0,588 
+Onderwijsfunctie 
+1,4 
+0,065 
+Sportfunctie 
+12,5 
+0,588 
+Winkelfunctie 
+1,4 
+0,065 
+OPMERKING  
+Het specifieke gebruik van warm tapwater VW;nd;spec;day in liters water van 60 °C per m2 per dag is 
+eveneens gegeven in tabel 13.1. 
+528
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 529 ---
+Withdrawn final
+Ingetrokken definitief
+13.2.4 Fractie per rekenzone en systeem 
+13.2.4.1 
+Categorie woningbouw 
+Indien in de categorie woningbouw één warmtapwatersysteem wordt aangehouden dat is aangesloten 
+op alle badruimten en keukens, dan geldt voor het deel van de nettowarmtebehoefte die door dat 
+systeem wordt geleverd: FW;si = 1. Voor de overige warmtapwatersystemen geldt: FW;si = 0.  
+Indien er sprake is van meerdere warmtapwatersystemen si die het warm tapwater aan een of 
+meerdere keukens en badruimten leveren, dan wordt het deel van de nettowarmtebehoefte die per 
+systeem wordt geleverd, als volgt bepaald: 
+b;
+W;nd;b
+k;
+W;nd;k
+b;
+k;
+si
+si
+si
+si
+si
+si
+n
+C
+n
+C
+n
+n
+×
+×
+=
++
+∑
+∑
+si
+FW;
+(13.19a) 
+Voor de verdeling van de warmteverliezen over verschillende rekenzones gelden bovendien de 
+volgende bepalingen voor de gebruiksoppervlakte van het gebouwdeel, Ag;si;W, dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem en voor de gebruiksoppervlakte van de 
+rekenzone, Ag;zi,si, die door het systeem wordt bediend: 
+𝐴𝐴g;𝑠𝑠𝑠𝑠;W = 𝐴𝐴g;tot 
+(13.19b) 
+𝐴𝐴g;𝑧𝑧𝑧𝑧,𝑠𝑠𝑠𝑠= 𝐴𝐴g;𝑧𝑧𝑧𝑧 
+(13.19c) 
+waarin: 
+FW;si 
+is het deel van de nettowarmtebehoefte ten behoeve van warm tapwater in het gebouw 
+of gebouwdeel die door het beschouwde systeem si wordt geleverd; 
+nb,si 
+is het aantal badruimten in het gebouw of gebouwdeel dat is aangesloten op het 
+warmtapwatersysteem si; 
+CW;nd;b 
+is het relatieve aandeel van de badruimte in de nettowarmtebehoefte voor warm 
+tapwater per woning, volgens 13.2.3.1; 
+nk,si 
+is het aantal keukens in het gebouw of gebouwdeel dat is aangesloten op het 
+warmtapwatersysteem si; 
+CW;nd;k 
+is het relatieve aandeel van de keuken in de nettowarmtebehoefte voor warm tapwater 
+per woning, volgens 13.2.3.1; 
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie wordt 
+bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem si 
+voor de functie warm tapwater, in m2; 
+Ag;tot 
+is de gebruiksoppervlakte van het totaal aan rekenzones van het desbetreffende gebouw 
+of gebouwdeel, bepaald volgens 6.6, in m2; 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend, in m2; 
+Ag;zi 
+is de gebruiksoppervlakte van de beschouwde rekenzone zi, bepaald volgens 6.6.3, in m2. 
+Voor de overige warmtapwatersystemen geldt FW;si = 0. 
+529
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 530 ---
+Withdrawn final
+Ingetrokken definitief
+13.2.4.2 
+Categorie utiliteitsbouw 
+Indien in de categorie utiliteitsbouw één warmtapwatersysteem si in rekenzone zi wordt 
+aangehouden, bedraagt de waarde hiervoor FW;zi,si = 1. Voor de overige warmtapwatersystemen geldt 
+FW;zi,si = 0.  
+Indien meer warmtapwatersystemen si in rekenzone zi worden aangehouden, bedraagt de waarde 
+hiervoor: 
+FW;zi,si = Ag;zi,si/Ag;zi 
+(13.20) 
+zi
+=∑
+zi,si
+si;
+A
+Ag;
+g;
+W
+(13.20a) 
+waarin: 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend, in m2; 
+Ag;zi 
+is de gebruiksoppervlakte van de beschouwde rekenzone zi, bepaald volgens 6.6.3, in m2; 
+Ag;si;W is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie wordt 
+bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem si 
+voor de functie warm tapwater, in m2. 
+Voor de overige warmtapwatersystemen geldt FW;zi,si = 0.  
+OPMERKING  
+Bovenstaande aanpak is in lijn met de vereenvoudigde aanpak in 6.4.1.2 van 
+NEN-EN 15316 1:2017. 
+13.3 
+Afgifteverliezen 
+13.3.1 Principe 
+Het afgifteverlies van een warmtapwatersysteem wordt bepaald door de volgende verliezen: 
+a) de warmteverliezen aan het tappunt, zolang de watertemperatuur onder de nuttige
+taptemperatuur is;
+b) de warmteverliezen t.g.v. opwarming en afkoeling van alle uittapleidingen.
+Deze verliezen worden uitgedrukt in een afgifterendement. De verliezen worden, voor zover 
+terugwinbaar, meegenomen in de warmte-koudebalans per rekenzone. 
+Voor de categorieën woningbouw en utiliteitsbouw worden verschillende methoden gevolgd. Daarom 
+worden deze hieronder afzonderlijk gegeven. 
+Bij de bepaling van het afgifterendement voor de categorie woningbouw worden uitsluitend de 
+aansluitpunten voor douche of bad in badruimten en boven aanrechten beschouwd. Eventuele overige 
+warmwatertappunten worden in de berekening buiten beschouwing gelaten. 
+Bij de bepaling van het afgifterendement voor utiliteit worden alle aansluitpunten van een 
+warmtapwatersysteem als gelijkwaardig beschouwd.  
+530
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 531 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+Zoals uit de omschrijving blijkt, omvat het afgifterendement niet uitsluitend de verliezen aan 
+tappunten, maar tevens de verliezen van alle uittapleidingen. Deze worden dus buiten de berekening van de 
+verliezen van het distributiesysteem gehouden.  
+13.3.2 Rekenregels 
+13.3.2.1 
+Algemeen 
+Deze paragraaf geeft de rekenregels voor het afgifterendement van een warmtapwatersysteem, 
+ηW;em;si,mi, voor een gegeven maand mi, van een gegeven systeem si. De indexen voor maand mi en voor 
+systeem si worden omwille van de leesbaarheid weggelaten. 
+De gegeven getalswaarden voor ηW;em gelden feitelijk voor een jaarrendement; bij de berekening per 
+maand wordt daarom voor elke maand dezelfde getalswaarde berekend. 
+OPMERKING 
+Een berekening met maandafhankelijke getalswaarden zou tot een schijnnauwkeurigheid leiden 
+omdat veel daartoe relevante gegevens niet op voldoende detailniveau beschikbaar zijn. 
+13.3.2.2 
+Woningbouw 
+Indien in de categorie woningbouw afzonderlijke warmtapwatersystemen worden toegepast voor de 
+keuken en de badruimte, gelden de volgende rekenregels voor het afgifterendement. 
+Indien alleen de badruimte door warmtapwatersysteem si van warm tapwater wordt voorzien, geldt: 
+𝜂𝜂W;em = 𝜂𝜂W;em;b 
+(13.21) 
+Indien alleen de keuken door warmtapwatersysteem si van warm tapwater wordt voorzien, geldt: 
+𝜂𝜂W;em = 𝜂𝜂W;em;k 
+(13.22) 
+In een gebouw of gedeelte van een gebouw behorende tot de categorie woningbouw met één 
+warmtapwatersysteem voor zowel de keuken(s) als de badruimte(n) geldt de volgende rekenregel 
+voor het afgifterendement: 
+𝜂𝜂W;em =
+1
+൬
+𝐶𝐶W;nd;b
+𝜂𝜂W;em;b + 
+𝐶𝐶W;nd;k
+𝜂𝜂W;em;k
+൰ 
+(13.23) 
+waarin: 
+ηW;em 
+is het dimensieloze afgifterendement t.g.v. de warmteverliezen aan het tappunt, zolang de 
+watertemperatuur onder de nuttige taptemperatuur is, en de warmteverliezen t.g.v. 
+opwarming en afkoeling van en in de uittapleidingen;  
+CW;nd;b  is het dimensieloze relatieve aandeel van de badruimte(n) in de nettowarmtebehoefte 
+voor warm tapwater in de categorie woningbouw, bepaald volgens 13.2.3.1; 
+ηW;em;b is het dimensieloze afgifterendement van de badruimte t.g.v. de warmteverliezen aan het 
+tappunt, zolang de watertemperatuur onder de nuttige taptemperatuur is, en de 
+warmteverliezen t.g.v. de uittapleidingen, bepaald volgens 13.3.3.1; 
+CW;nd;k  is het dimensieloze relatieve aandeel van de keuken(s) in de nettowarmtebehoefte voor 
+warm tapwater in de categorie woningbouw, bepaald volgens 13.2.3.1; 
+531
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 532 ---
+Withdrawn final
+Ingetrokken definitief
+ηW;em;k is het dimensieloze afgifterendement van de keuken t.g.v. de warmteverliezen aan het 
+tappunt, zolang de watertemperatuur onder de nuttige taptemperatuur is, en de 
+warmteverliezen t.g.v. opwarming en afkoeling van en in de uittapleidingen, bepaald 
+volgens 13.3.3.1. 
+13.3.2.3 
+Utiliteitsbouw 
+Bij de bepaling van het afgifterendement voor utiliteitsgebouwen worden alle aansluitpunten in een 
+rekenzone en/of warmtapwatersysteem als gelijkwaardig beschouwd.  
+OPMERKING 
+In tegenstelling tot de methode voor de categorie woningbouw. 
+De rekenwaarden voor het afgifterendement in utiliteitsgebouwen worden gegeven in 13.3.3.2. 
+13.3.3 Rekenwaarden 
+13.3.3.1 
+Rekenwaarden afgifterendement woningbouw 
+Voor de bepaling van de bijdrage aan het afgifterendement door de leiding naar badruimte en aanrecht 
+voor warmtapwatersysteem si moeten de bijdragen ηW;em;b en ηW;em;k worden bepaald volgens 
+tabel 13.2. 
+532
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 533 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.2 — Bijdrage aan het afgifterendement van warmtapwatersysteem i  
+door leidingverliezen naar de tappunten, ηW;em;k en ηW;em;b 
+Lengte uittapleiding lk 
+m 
+Van 0 
+tot 2 
+Van 2 
+tot 4 
+Van 4 
+tot 6 
+Van 6 
+tot 8 
+Van 8 
+tot 10 
+Van 10 
+tot 12 
+Van 12 
+tot 14 
+14 of 
+meer 
+ηW;em;k  
+Voor een leiding waarbij over 
+ten minste twee derde van de 
+lengte de inwendige diameter din 
+niet groter is dan 8 mm a 
+1,00 
+0,86 
+0,75 
+0,67 
+0,60 
+0,55 
+0,50 
+0,46 
+ηW;em;k  
+Voor een leiding waarbij over 
+ten minste twee derde van de 
+lengte de inwendige diameter din 
+niet groter is dan 10 mm b 
+1,00 
+0,79 
+0,65 
+0,55 
+0,48 
+0,43 
+0,38 
+0,35 
+ηW;em;k  
+Overig c, of indien inwendige 
+diameter onbekend 
+1,00 
+0,69 
+0,53 
+0,43 
+0,36 
+0,31 
+0,27 
+0,24 
+Lengte uittapleiding lb 
+m 
+Van 0 
+tot 2 
+Van 2 
+tot 4 
+Van 4 
+tot 6 
+Van 6 
+tot 8 
+Van 8 
+tot 10 
+Van 10 
+tot 12 
+Van 12 
+tot 14 
+14 of 
+meer 
+ηW;em;b  
+1,00 
+0,95 
+0,90 
+0,86 
+0,82 
+0,78 
+0,75 
+0,72 
+waarin: 
+din 
+is de inwendige diameter van de leiding, in mm; 
+lk 
+is de afstand tussen het aansluitpunt bij de opstelplaats van warmwatertoestel, 
+voorraadvat, warmtewisselaar of circulatieleiding en het aansluitpunt boven het 
+aanrecht, in m; bij meer dan één aanrecht aangesloten op installatie i geldt het 
+gemiddelde van de afstanden voor elk aanrecht; 
+lb 
+is de afstand tussen het aansluitpunt bij de opstelplaats van warmwatertoestel, 
+voorraadvat, warmtewisselaar of circulatieleiding en het aansluitpunt voor douche of 
+bad in de badruimte, in m; bij meer dan één badruimte aangesloten op installatie i geldt 
+het gemiddelde van de afstanden voor elke badruimte; 
+ηW;em;k 
+is het afgifterendement van de keuken t.g.v. de warmteverliezen aan het tappunt, zolang 
+de watertemperatuur onder de nuttige taptemperatuur is, en de warmteverliezen van de 
+uittapleidingen; 
+ηW;em;b 
+is het afgifterendement van de badruimte t.g.v. de warmteverliezen aan het tappunt, 
+zolang de watertemperatuur onder de nuttige taptemperatuur is, en de warmteverliezen 
+van de uittapleidingen; 
+i 
+is het ranggetal van het desbetreffende warmtapwatersysteem. 
+a Bijvoorbeeld koperen leiding met inwendige/uitwendige diameter van 8 mm/10 mm. 
+b Bijvoorbeeld koperen leiding met inwendige/uitwendige diameter van 10 mm/12 mm. 
+c Bijvoorbeeld koperen leiding met inwendige/uitwendige diameter van 13 mm/15 mm. 
+ 
+Voor de bepaling van de afstand moet worden uitgegaan van de kortste afstand horizontaal gemeten, 
+vermeerderd met de kortste afstand verticaal gemeten, waarbij geen rekening hoeft te worden 
+gehouden met eventuele wanden of vloeren. 
+533
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 534 ---
+Withdrawn final
+Ingetrokken definitief
+Met de gehanteerde definitie van de kortste afstand wordt beoogd voldoende recht te doen aan de 
+werkelijke situatie, maar tegelijkertijd de hoeveelheid rekenwerk te beperken. Zo mag de horizontale 
+afstand diagonaal door ruimten worden gemeten. 
+De waarde ‘twee derde van de lengte’ betekent dat een gezamenlijke toevoerleiding naar badruimte en 
+aanrecht, dus met grotere diameter, is toegelaten indien deze niet meer dan een derde van de lengte 
+beslaat. 
+Bij een woning met meerdere tappunten in de (verschillende) keuken(s) of meerdere aansluitpunten 
+voor douche of bad in de (verschillende) badruimte(n) moet voor het afgifterendement uitgegaan 
+worden van de gemiddelde waarde voor de verschillende uittapleidingen mits deze zijn aangesloten 
+op hetzelfde tapwatersysteem. 
+13.3.3.2 
+Rekenwaarden afgifterendement utiliteitsbouw 
+Bepaal per warmtapwatersysteem de gemiddelde lengte van de uittapleidingen van dat systeem. De 
+lengte van een uittapleiding is de afstand tussen een tappunt en het opwekkingstoestel, de afleverset 
+of het circulatiesysteem. 
+Bepaal het afgifterendement per warmtapwatersysteem op basis van de gemiddelde lengte van de 
+uittapleidingen van dat systeem.  
+De rekenwaarden voor het afgifterendement zijn in tabel 13.3 gegeven. 
+Tabel 13.3 — Rekenwaarden afgifterendement voor utiliteitsbouw 
+Specificatie lengte uittapleidingen 
+ηW;em 
+Indien de gemiddelde lengte van de uittapleidingen van het 
+warmtapwatersysteem maximaal 3 m bedraagt 
+1,0 
+Indien de gemiddelde lengte van de uittapleidingen van het 
+warmtapwatersysteem meer dan 3 m bedraagt 
+0,8 
+13.4 
+Distributieverliezen 
+13.4.1 Principe 
+De distributieverliezen van een warmtapwatersysteem worden bepaald door de warmteverliezen 
+(conversieverliezen) van eventuele afleversets en door de warmteverliezen van een eventuele 
+circulatieleiding. 
+De warmteverliezen van een eventuele circulatieleiding worden uitgedrukt in het 
+distributierendement ηW;dis. Het distributierendement geeft de verhouding tussen de door het 
+distributiesysteem aan het afgiftedeel of aan de opwekzijde van eventuele individuele afleversets 
+geleverde warmte en de door de opwekkingsinstallatie(s) aan het distributiesysteem geleverde 
+warmte. 
+Het conversieverlies van eventuele afleversets wordt apart bepaald zodat rekening wordt gehouden 
+met de warmteverliezen en -winsten op gebouwniveau van een eventueel zonne-energiesysteem, 
+douchewaterwarmteterugwinning en/of eventuele voorraadvaten. 
+534
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 535 ---
+Withdrawn final
+Ingetrokken definitief
+Voor het bepalen van het warmteverlies van een (individuele) afleverset voor warmtapwaterbereiding 
+geven NEN-EN 15316-3 en NEN-EN 15316-4-5 geen methode of getalswaarden. De in 13.4.2 gegeven 
+aanpak moet worden gevolgd.  
+Het distributierendement van een warmtapwatersysteem wordt bepaald per warmtapwatersysteem 
+en wordt, voor zover van toepassing, bepaald door de volgende verliezen: 
+a) de warmteverliezen van circulatieleidingen voor warm tapwater binnen het gebouw;  
+b) de warmteverliezen van circulatieleidingen voor warm tapwater buiten het gebouw, maar op het 
+perceel; de delen van het distributiesysteem die op of buiten het perceel deel uitmaken van een 
+collectief circulatiesysteem voor warm tapwater (externe warmtelevering of een separaat 
+warmtapwaternet), worden hierbij buiten beschouwing gelaten; deze verliezen zijn om praktische 
+redenen reeds verwerkt in het opwekkingsrendement voor externe warmtelevering; 
+c) de warmteverliezen van het distributiesysteem voor verwarming binnen het gebouw, indien dat 
+tevens wordt gebruikt voor de warmtelevering voor warmtapwaterbereiding met een individuele 
+afleverset; deze verliezen worden verdisconteerd in 9.4.2; 
+d) de warmteverliezen van het distributiesysteem voor verwarming buiten het gebouw, maar op het 
+perceel, indien dat tevens wordt gebruikt voor de warmtelevering voor warmtapwaterbereiding 
+met een afleverset; de delen van het distributiesysteem die deel uitmaken van een collectief 
+warmtenet (externe warmtelevering), worden hierbij buiten beschouwing gelaten; deze verliezen 
+zijn om praktische redenen reeds verwerkt in het opwekkingsrendement voor externe 
+warmtelevering. 
+De warmteverliezen van een collectief circulatiesysteem voor warm tapwater (separaat 
+warmtapwaternet) of een collectief warmtenet (externe warmtelevering) vormen geen onderdeel van 
+het distributierendement. De grens tussen een collectief circulatiesysteem voor warm tapwater 
+(separaat warmtapwaternet) of een collectief warmtenet (externe warmtelevering) en het 
+distributiesysteem in het gebouw is gelegen bij de plaats van het telwerk/de afleverset. In 
+woongebouwen ligt deze grens meestal bij de woningen maar kan incidenteel bij (de centrale 
+opwekinstallatie voor) het gebouw/perceel liggen. Bij grondgebonden woningen en utiliteitsbouw ligt 
+deze grens meestal bij het gebouw/perceel. Bij het bepalen van de energieprestatie moet worden 
+vastgelegd waar deze grens ligt. 
+OPMERKING 1 
+De warmteverliezen van een collectief circulatiesysteem voor warm tapwater of een collectief 
+warmtenet worden niet bepaald in deze NTA. Dit geldt eveneens indien de distributieleidingen zich deels op het 
+perceel maar buiten het gebouw bevinden, zoals bij woningen waar de leidingen onder de woningen in de 
+kruipruimte liggen. Deze verliezen zijn opgenomen in de vaste waarde van het opwekkingsrendement voor 
+externe warmtelevering volgens 13.8.4.9. 
+De warmteverliezen van de uittapleidingen vormen geen onderdeel van het distributierendement. 
+OPMERKING 2 
+In NEN-EN 15316-3 worden de warmteverliezen bepaald van distributieleidingen en 
+uittapleidingen. De verliezen uit uittapleidingen worden in NTA 8800 bepaald aan de hand van een 
+afgifterendement zoals aangegeven in 13.3. 
+OPMERKING 3 
+De warmteverliezen van eventuele individuele afleversets worden niet meegenomen in het 
+distributierendement maar separaat als conversieverlies in rekening gebracht. 
+Indien meer dan één warmtapwatersysteem wordt toegepast, wordt het distributierendement per 
+warmtapwatersysteem vastgesteld op basis van de bijbehorende nettowarmtebehoefte. 
+535
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 536 ---
+Withdrawn final
+Ingetrokken definitief
+13.4.2 Conversieverlies 
+13.4.2.1 
+Principe 
+Bij de overdracht van warmte uit een warmtedistributiesysteem naar warm tapwater met een 
+afleverset treden warmteverliezen op. 
+Indien de aanvoertemperatuur van het verwarmingssysteem bij de afleverset lager is dan 60 °C, dan 
+kan er met alleen een afleverset geen warm tapwater gemaakt worden. 
+OPMERKING 
+Dit betekent dat de ontwerptemperatuurklasse van het verwarmingssysteem volgens tabel 9.14 
+70 °C/60 °C of hoger bedraagt. 
+13.4.2.2 
+Rekenregels 
+Indien geen warmtedistributiesysteem met individuele afleversets wordt toegepast, geldt 
+QW;dis;conv;ls;si,mi = 0. 
+OPMERKING 
+De verliezen van een centrale afleverset of TSA die wordt ingezet voor de warmteoverdracht op 
+gebouwniveau naar een circulatieleiding van warm tapwater of cv-water ten behoeve van de functie warm 
+tapwater, worden buiten beschouwing gelaten.  
+Indien de afleverset direct (zonder warmtapwatercirculatieleiding) is aangesloten op het 
+uittapsysteem voor meerdere woonfuncties, dan behoort deze beschouwd te worden als een 
+individuele afleverset. 
+Bepaal voor de categorie woningbouw het conversieverlies per warmtapwatersysteem als volgt: 
+∑
+mi
+si,mi
+t
+Q
+P
+W;dis;conv;ls;
+conv;stb
+conv
+= 
+×1000
+ 
+(13.24) 
+Bepaal voor de categorie utiliteitsbouw het conversieverlies per warmtapwatersysteem als volgt: 
+(
+)
+
+
+
+
+
+
+
+
+−
+si,mi
+si,mi
+si,mi
+si,mi
+Q
+Q
+η
+Q
+η
+W;em;
+W;dis;conv;ls;
+W;dis;conv
+W;sto;ls;tot;
+W;dis;
+= 1
+×
++
+ 
+(13.24a) 
+waarin: 
+QW;dis;conv;ls;si,mi zijn de warmteverliezen van alle toegepaste afleversets voor warm tapwater in 
+systeem si, in maand mi, in kWh; 
+Pconv;stb 
+is het stand-byverlies van een individuele afleverset voor warm tapwater, met als 
+vaste waarde Pconv;stb = 30 W; 
+ηW;dis;conv 
+is het dimensieloze conversierendement t.g.v. het warmteverlies van eventueel 
+aanwezige (individuele) afleversets die zijn aangesloten op een collectieve 
+gebouwinstallatie voor de functie verwarming of op externe warmtelevering, met 
+als vaste waarde ηW;dis;conv = 0,75; 
+QW;em;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het afgiftedeel van systeem si, bepaald volgens formule (13.9), 
+in kWh; 
+536
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 537 ---
+Withdrawn final
+Ingetrokken definitief
+ηW;dis;si,mi 
+is het dimensieloze distributierendement voor warm tapwater, in maand mi, van 
+systeem si, bepaald volgens 13.4.3; 
+QW;sto;ls;tot;si,mi 
+is de totale hoeveelheid warmteverlies die ontstaat bij alle voorraadvaten en 
+naverwarmerdelen van zonneboileropslagvaten ten behoeve van warm tapwater 
+in systeem si, in maand mi, bepaald volgens formule (13.8), in kWh. 
+13.4.3 Distributierendement 
+13.4.3.1 
+Principe 
+Het distributierendement ηW;dis wordt bepaald door de verliezen van het distributiesysteem ten 
+behoeve van warm tapwater in het gebouw en/of op het eigen perceel. Dit distributiesysteem kan 
+twee vormen hebben. 
+a) Een circulatiesysteem met warm tapwater. 
+In dit systeem circuleert warm tapwater gedurende het gehele jaar. Circulatiesystemen voor warm 
+tapwater zijn in bedrijf als de circulatiepomp is ingeschakeld. Normaliter zijn deze systemen 
+permanent in bedrijf. Hiervan wordt voor dit type systeem uitgegaan. 
+b) Een circulatiesysteem met cv-water ten behoeve van collectieve gebouwverwarming of externe 
+warmtelevering. 
+In dit systeem circuleert cv-water gedurende het gehele jaar. De verliezen tijdens het 
+verwarmingsseizoen zijn reeds opgenomen in het distributierendement van de verwarming. De 
+verliezen buiten het verwarmingsseizoen worden toegerekend aan de warmtapwaterlevering. 
+De verliezen binnen het gebouw en buiten het gebouw op het eigen perceel worden in de rekenregels 
+en rekenwaarden om praktische redenen samengenomen. 
+Eventueel terugwinbare energie van het hulpenergiegebruik van pompen wordt in mindering 
+gebracht op de distributieverliezen. 
+13.4.3.2 
+Rekenregels 
+Distributierendement 
+Indien geen circulatiesysteem wordt toegepast, geldt ηW;dis = 1,0.  
+Indien het circulatiesysteem deel uitmaakt van een collectief circulatiesysteem (separaat 
+warmtapwaternet of externe warmtelevering) en de grens tussen het collectief circulatiesysteem en 
+het distributiesysteem in het gebouw is gelegen bij de woningen (meestal bij de afleverset), dan heeft 
+het interne distributierendement, ηW;dis, de waarde 1,0. Anders wordt de waarde bepaald volgens de 
+onderstaande formules. 
+OPMERKING 1 
+Alleen bij één afleverset per woning heeft het distributierendement, ηW;dis, de waarde 1,0. Ook 
+bij woongebouwen met één afleverset per woning is dit het geval.  
+Wanneer er echter sprake is van een centrale afleverset per gebouw of deel van het gebouw met 
+meerdere woningen, dan behoort het distributierendement tussen de centrale afleverset en de 
+woningen bepaald te worden indien er sprake is van een circulatiesysteem na de afleverset. Indien de 
+uittapleidingen direct zijn aangesloten op de afleverset, dan is er geen sprake van een 
+circulatiesysteem na de afleverset. 
+537
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 538 ---
+Withdrawn final
+Ingetrokken definitief
+Bepaal het distributierendement, ηW;dis, per warmtapwatersysteem si per maand mi volgens: 
+−
+si,mi
+si,mi
+si,mi
+si,mi
+Q
+η
+Q
+Q
+Q
+W;em;
+W;dis;
+W;em;
+W;dis;ls;
+W,dis,aux,rvd;si,mi
+ = 
++
+(13.25) 
+waarin: 
+ηW;dis;si,mi 
+is het dimensieloze distributierendement in maand mi, van een 
+warmtapwatersysteem t.g.v. de warmteverliezen van eventueel aanwezige 
+circulatieleidingen voor warm tapwater in het gebouw en/of op het eigen perceel 
+of t.g.v. de warmteverliezen buiten het verwarmingsseizoen van een eventueel in 
+het gebouw aanwezige distributiesysteem voor verwarming, indien dat tevens 
+wordt gebruikt voor de warmtelevering voor warmtapwaterbereiding met een 
+individuele afleverset;  
+QW;em;si,mi 
+is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, 
+aangeleverd aan het afgiftedeel van systeem si, bepaald volgens formule (13.9), 
+in kWh; 
+QW;dis;ls;si,mi 
+zijn de warmteverliezen van het circulatiesysteem voor warm tapwater in het 
+gebouw en/of buiten het gebouw binnen de perceelgrens of de warmteverliezen 
+buiten het verwarmingsseizoen van het in het gebouw aanwezige 
+distributiesysteem voor verwarming, in systeem si, in maand mi, bepaald volgens 
+formule (13.26), in kWh; 
+QW;dis;aux;rvd;si,mi is de voor warm tapwater teruggewonnen energie van het hulpenergiegebruik van 
+eventueel aanwezige circulatiepompen in systeem si, in maand mi, bepaald volgens 
+13.4.5, in kWh. 
+OPMERKING 2 
+De teruggewonnen energie van het hulpenergiegebruik van een eventuele circulatiepomp van 
+een oplaadcircuit van een voorraadvat (volgens 13.4.5) zou net als de teruggewonnen energie van het 
+hulpenergiegebruik van eventueel aanwezige circulatiepompen meegenomen moeten worden. De 
+teruggewonnen energie van het hulpenergiegebruik van een circulatiepomp van een oplaadcircuit is echter 
+standaard op nul gesteld. 
+De berekening van het warmteverlies van een distributiesysteem is gebaseerd op de gemiddelde 
+wateraanvoertemperatuur, de omgevingstemperatuur in een ruimte, de warmtedoorgangscoëfficiënt 
+van de leidingen, de lengte van de leidingen en de bedrijfstijd.  
+Het warmteverlies van een distributiesysteem QW;dis;ls;si,mi met een circulatiecircuit in een rekenzone 
+wordt berekend door: 
+(
+) (
+)
+ϑ
+ϑ
+−
+∑∑
+mi
+j
+si,mi
+si;
+zi,mi
+j
+zi
+j
+t
+Q
+f
+Ψ
+L L
+W;circ;
+equi
+W;mean
+W;dis;ls;
+gebouw;
+W
+W;amb;
+=
+×
+×
+×
+×
++
+1000
+ [kWh] 
+(13.26) 
+waarin: 
+QW;dis;ls;si,mi zijn de warmteverliezen van het circulatiesysteem voor warm tapwater in het gebouw 
+en/of buiten het gebouw binnen de perceelgrens of de warmteverliezen buiten het 
+verwarmingsseizoen van het in het gebouw aanwezige distributiesysteem voor 
+verwarming, in systeem si, in maand mi, in kWh; 
+538
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 539 ---
+Withdrawn final
+Ingetrokken definitief
+fgebouw;si;W is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+Ψ 
+is de lineaire warmtedoorgangscoëfficiënt van een leidingdeel, in systeem si, volgens 
+formule (13.27), (13.28), (13.29) of bepaald volgens 13.4.3.3, in W/m∙K; 
+j 
+is het subscript voor leidingdeel; 
+ϑW;amb;zi,mi is de omgevingstemperatuur in rekenzone zi, in maand mi, in °C; 
+zoals onderstaand bepaald voor verwarmde en onverwarmde zones; 
+L 
+is de leidinglengte van leidingdeel j van het circulatiesysteem si, bepaald volgens 
+13.4.3.3 en verdeeld over de rekenzones zi naar rato van de gebruiksoppervlakte van 
+de rekenzones in systeem si, in m. 
+Wanneer niet bekend is welke leidingdelen zich in onverwarmde ruimten bevinden, 
+moet hiervoor forfaitair 15 % van de totale leidinglengte Lsi aangehouden worden. De 
+totale leidinglengte Lsi in verwarmde zones kan dan verminderd worden met 15 %. 
+Wanneer meerdere onverwarmde ruimten zijn gedefinieerd (ingevoerd), moet de 
+forfaitaire leidinglengte door de verschillende onverwarmde ruimten in gelijke delen 
+verdeeld worden over de verschillende onverwarmde ruimten. Leidingen die lopen 
+door een AOR, AOS, kruipruimte, buitenlucht of water, moeten alle beschouwd worden 
+als leidingen die lopen door een onverwarmde ruimte; 
+Lequi 
+is de equivalente lengte van de leiding in de rekenzone voor kleppen, beugels, enz. 
+volgens formule (13.26a), in m;  
+tW;circ;mi 
+is de tijd dat het circulatiesysteem in bedrijf is voor de distributie van warmte ten 
+behoeve van alleen warm water, in maand mi, in h. 
+Indien er sprake is van een circulatiesysteem voor warm tapwater, dan geldt 
+tW;circ;mi = tmi; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 17.2, 
+in h.  
+OPMERKING 3  
+Het warmteverlies van een distributiesysteem kan bepaald worden aan de hand van alle 
+specifieke leidingdelen j of aan de hand van de forfaitaire leidinglengte per rekenzone. 
+Voor de lineaire warmtedoorgangscoëfficiënt van de leidingdelen in die rekenzones mag uitgegaan 
+worden van de meest voorkomende leidingdiameter en isolatiedikte. 
+OPMERKING 4 
+Bij circulatieleidingen voor warm tapwater is er over het algemeen sprake van dezelfde 
+leidingdiameter over de totale lengte van de doorgaande circulatieleiding. In de meeste gevallen is ook de 
+isolatiedikte gelijk en komen er alleen verschillen voor tussen verwarmde en niet-verwarmde zones. 
+De gemiddelde watertemperatuur in het distributiesysteem ϑW;mean voor warm tapwater is: 
+— bij een circulatiesysteem voor warm tapwater: 62,5 °C; 
+OPMERKING 5 
+De gemiddelde temperatuur van het circulatiesysteem ligt bij een verschil van 5 °C tussen de 
+aanvoer- en retourtemperatuur van het circulatiesysteem 2,5 °C boven de retourtemperatuur. 
+539
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 540 ---
+Withdrawn final
+Ingetrokken definitief
+Voor verwarmde zones geldt voor de omgevingstemperatuur: ϑW;amb;J =ϑint;set;H;zi,mi bepaald in 7.9.4.  
+Voor onverwarmde zones is de omgevingstemperatuur afhankelijk van de benaderingswijze van de 
+onverwarmde ruimte(n). Indien de (omgevings)temperatuur in de aangrenzende onverwarmde 
+ruimten ϑztu;k;zi;H;mi (bepaald volgens formule (7.82)) bekend is (er is een aangrenzende onverwarmde 
+ruimte ingevoerd), dan geldt: ϑW;amb;J = ϑztu;k;zi;H;mi volgens 7.9.7. Indien de temperatuur in de 
+aangrenzende onverwarmde ruimten niet bekend is (er is niet één aangrenzende onverwarmde 
+ruimte ingevoerd), dan geldt voor de bepaling van het leidingverlies in de aangrenzende onverwarmde 
+ruimten voor de functie verwarming een temperatuur ϑztu;k;zi;H;mi van 13 °C.  
+De equivalente lengte (Lequi) van de leiding in de rekenzone voor kleppen, beugels, enz. wordt als volgt 
+bepaald: 
+j
+j
+c
+L
+L
+Ψ
+ls;kb
+equi;  = 
+×
+ 
+(13.26a) 
+waarin: 
+cls;kb 
+is de voor het warmteverlies van de leiding gecorrigeerde verliesfactor voor het verlies 
+van kleppen, beugels enz. per leidingdeel in systeem si, in m∙K/W.  
+Voor geïsoleerde kleppen, beugels, enz. is cls;kb gelijk aan 0,03 m∙K/W en voor niet-
+geïsoleerde kleppen, beugels, enz. of wanneer niet bekend is of de kleppen, beugels, enz. 
+geïsoleerd zijn, is cls;kb gelijk aan 0,15 m∙K/W; in het geval van niet geïsoleerde leidingen 
+kan er uitgegaan worden van niet geïsoleerde kleppen, beugels, enz. 
+OPMERKING 6 
+De waarden 0,15 en 0,03 zijn bepaald op basis van NEN-EN 15316-3:2017 en de forfaitaire 
+waarde van de lineaire thermische transmissie Ψj voor de leiding. Hierdoor is het verlies via de kleppen, beugels, 
+enz. door middel van Lequi een vaste toeslag op de leidinglengte. 
+Lineaire warmtedoorgangscoëfficiënt van leidingen 
+De lineaire warmtedoorgangscoëfficiënt Ψ voor geïsoleerde leidingen in lucht met een totale 
+warmteoverdrachtscoëfficiënt inclusief geleiding en straling aan de buitenkant, wordt gegeven door: 
+𝜓𝜓=
+π
+൬
+1
+2×𝜆𝜆D×ln𝑑𝑑a
+𝑑𝑑i+
+1
+ha×𝑑𝑑a൰ ቂ
+W
+m ∙Kቃ 
+(13.27) 
+waarin: 
+di 
+is de leidingdiameter (buitendiameter) exclusief de isolatie van de leiding, in m; 
+da 
+is de leidingdiameter inclusief de isolatie van de leiding, in m; 
+ha 
+is de warmteoverdrachtscoëfficiënt van het totale buitenoppervlak (geleiding en straling), 
+in W/(m2∙K); ha = 8,0 W/(m2∙K) (NEN-EN 15316-3:2017 onder tabel B.4); 
+λD 
+is de warmtegeleidingscoëfficiënt van de isolatie, in W/(m∙K). 
+Voor in de constructie opgenomen leidingen wordt de lineaire warmtedoorgangscoëfficiënt Ψem 
+gegeven door:  
+
+
++
+
+
+
+
+Ψ
+d
+z
+λ
+d
+λ
+d
+em
+a
+D
+i
+em
+a
+π
+=
+1
+1
+1
+4×
+×ln
+×ln
+2
+ [W/(m∙K)] 
+(13.28) 
+540
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 541 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+di 
+is de leidingdiameter (buitendiameter) exclusief de isolatie van de leiding, in m; 
+da 
+is de leidingdiameter inclusief de isolatie van de leiding, in m; 
+z 
+is de diepte van de pijp vanaf het oppervlak, in m; 
+λem 
+is de warmtegeleidingscoëfficiënt van het afdekkende materiaal, in W/(m∙K); 
+λD 
+is de warmtegeleidingscoëfficiënt van de isolatie, in W/(m∙K). 
+Voor ongeïsoleerde leidingen wordt de lineaire warmtedoorgangscoëfficiënt Ψnon gegeven door:  
++
+×
+Ψ
+d
+λ
+d
+d
+non
+p;a
+P
+p;i
+a
+p;a
+π
+=
+1
+1
+×ln
+2
+h ×
+  [W/(m∙K)] 
+(13.29) 
+waarin: 
+dp;i, dp;a is de binnen- en buitendiameter van de leiding, in m; 
+λP 
+is de warmtegeleidingscoëfficiënt van het leidingmateriaal, in W/(m∙K); 
+ha 
+is de warmteoverdrachtscoëfficiënt van het totale buitenoppervlak (geleiding en 
+straling), in W/(m2∙K); ha = 8,0 W/(m2∙K) (NEN-EN 15316-3:2017 onder tabel B.4). 
+Indien onvoldoende gegevens beschikbaar zijn voor de berekening van de lineaire 
+warmtedoorgangscoëfficiënt of de leidinglengte, moet gebruik worden gemaakt van de forfaitaire 
+waarden volgens 13.4.3.3. 
+13.4.3.3 
+Rekenwaarden 
+Lineaire warmtedoorgangscoëfficiënt 
+Voor de lineaire warmtedoorgangscoëfficiënt van de distributieleidingen mag in afwijking van 
+bovenstaande bepalingswijze uitgegaan worden van onderstaande forfaitaire waarden 
+(NEN-EN 15316-3:2017, B.2.2.1 en B.3): 
+OPMERKING 1 
+Onderstaande benadering is van toepassing op een circulatiesysteem voor verwarming. Een 
+circulatiesysteem voor warm tapwater verschilt daar niet veel van. Alleen de uittapleidingen voor warm 
+tapwater hebben geen retourleiding. Het distributieverlies van uittapleidingen is beschreven in 13.3. In deze 
+paragraaf zijn alleen de distributieverliezen van circulatieleidingen beschreven. 
+De forfaitaire rekenwaarde voor de lineaire warmtedoorgangscoëfficiënt van een leidingdeel Ψj is 
+gegeven in tabel 13.4. De in de tabel gegeven waarden zijn voor koper. Voor kunststof leidingen is de 
+lineaire warmtedoorgangscoëfficiënt in de regel lager, zodat de hier gegeven waarden ook als 
+forfaitaire waarden voor kunststof leidingen mogen worden toegepast, waarbij de uitwendige 
+diameter als maatstaf moet worden aangehouden (kunststof leidingen zijn meestal iets dikker dan 
+koperen leidingen). 
+Voor leidingen met afwijkende afmetingen en/of isolatiedikten kan voor de lineaire 
+warmtedoorgangscoëfficiënt uitgegaan worden van de forfaitaire waarde behorend bij de 
+dichtstbijzijnde isolatiedikte en/of uitwendige diameter. Bij gelijke afstand moet de forfaitaire waarde 
+behorend bij de kleinste isolatiedikte en grootste uitwendige diameter aangehouden worden. 
+541
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 542 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.4 — Indicatie Ψj-waarden per m koperen leiding in W/m∙K 
+Diameter 
+leiding 
+Isolatiedikte 
+mm 
+Uitwendig 
+ 
+ 
+ 
+ 
+ 
+ 
+mm 
+0 
+Onbekend 
+10 
+15 
+20 
+25 
+10 
+0,407 
+0,165 
+0,165 
+0,136 
+0,114 
+0,106 
+12 
+0,453 
+0,184 
+0,184 
+0,154 
+0,136 
+0,124 
+15 
+0,539 
+0,211 
+0,211 
+0,174 
+0,154 
+0,138 
+22 
+0,728 
+0,271 
+0,271 
+0,219 
+0,189 
+0,169 
+28 
+0,880 
+0,321 
+0,321 
+0,256 
+0,219 
+0,194 
+35 
+1,049 
+0,378 
+0,378 
+0,299 
+0,253 
+0,223 
+42 
+1,211 
+0,435 
+0,435 
+0,341 
+0,287 
+0,251 
+54 
+1,477 
+0,531 
+0,531 
+0,412 
+0,343 
+0,299 
+67 
+1,753 
+0,635 
+0,635 
+0,488 
+0,404 
+0,349 
+80 
+2,0 
+0,74 
+0,74 
+0,56 
+0,46 
+0,4 
+Diameter 
+onbekend 
+ 
+ 
+ 
+ 
+ 
+ 
+Type systeem: 
+— klein 
+— overig 
+ 
+1,0 
+2,0 
+ 
+0,4 
+0,74 
+ 
+0,4 
+0,74 
+ 
+0,3 
+0,56 
+ 
+0,25 
+0,46 
+ 
+0,2 
+0,4 
+ 
+OPMERKING 2 
+Bron voor leidingen met diameter: Waterwerkblad 4.4.A, blz. 18, juni 2004. 
+Leidinglengten 
+Voor de bepaling van de lengte van de leidingdelen mag gebruik worden gemaakt van de werkelijke 
+leidinglengte. De (totale) lengte van de leidingdelen kan forfaitair bepaald worden met 
+formule (13.31).  
+De maximale leidinglengte van het systeem wordt in beide gevallen bepaald met formule (13.32) en 
+wordt alleen gebruikt voor de bepaling van het hulpenergiegebruik van pompen in formule (13.37) 
+voor het drukverschil in het leidingsysteem. 
+Lsi = 0,3 × Ag;si;red + 10 
+(13.31) 
+Lmax;si = 12 + 3 × n + 0,089 × Ag;si;red/nsi 
+(13.32) 
+Ag;si;red = Ag;si;W – Ag;si;sport 
+(13.32a) 
+542
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 543 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Lsi 
+is de leidinglengte van systeem si volgens specificaties van het systeem of volgens formule 
+(13.31); 
+Lmax;si 
+is de maximale leidinglengte van de circulatieleiding van systeem si vanaf de opwekker of 
+het voorraadvat naar de verst gelegen uittapleiding; 
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie wordt 
+bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem si 
+voor de functie warm tapwater, volgens formules (13.19b) of (13.20a), in m2; 
+Ag;si;sport is de gebruiksoppervlakte van de aanwezige sport- en/of zwemzalen, bepaald volgens 6.6, 
+in m2. Bij gebouw(del)en met een gebruiksoppervlakte <1 000 m2 geldt Ag;si;sport= 0 m2; 
+nsi 
+is het aantal bouwlagen dat geheel of gedeeltelijk is aangesloten op het collectieve 
+gebouwsysteem si voor de functie warm tapwater van het gebouw als geheel waarbij n een 
+minimale waarde heeft van 1. 
+OPMERKING 1 
+Wanneer er voor de beoordeling van de energieprestatie van een bestaand gebouw alleen 
+gekeken wordt naar een deel van het gebouw, dan betreft Ag;si,sport alleen de gebruiksoppervlakte van de 
+aanwezige sport- en/of zwemzalen in het gebouwdeel waarvoor de energieprestatie wordt bepaald. 
+OPMERKING 2 
+Bij de toekenning van de gebruiksoppervlakte van het gebouw aan een of meerdere 
+tapwatersystemen moet de volledige gebruiksoppervlakte Ag;tot worden toegekend aan de verschillende 
+tapwatersystemen. De correctie op de gebruiksoppervlakte is alleen van toepassing voor de bepaling van Ag;si bij 
+de bepaling van de lengte en maximale lengte van de circulatieleiding. 
+13.4.4 Hulpenergie 
+13.4.4.1 
+Principe 
+Dit betreft de hoeveelheid gebruikte (elektrische) hulpenergie ten behoeve van de energiefunctie 
+warm tapwater, WW;aux;ngen;si,mi, in maand mi, voor systeem si (systeemdeel exclusief opwekking). 
+Het (elektrische-)hulpenergiegebruik omvat de volgende elementen, afhankelijk van de uitvoering van 
+het distributiesysteem: 
+a) circulatiepompen;  
+b) afleversets. 
+13.4.4.2 
+Rekenregels 
+Deze paragraaf geeft de rekenregels voor het hulpenergiegebruik van een warmtapwatersysteem 
+(gehele systeem exclusief de opwekking, ngen), WW;aux;ngen;si,mi, in een gegeven maand mi, van een gegeven 
+systeem si. De index voor systeem si wordt omwille van de leesbaarheid weggelaten. 
+Bepaal het elektrische-hulpenergiegebruik voor distributie volgens: 
+∑
+mi
+mi
+mi
+W
+W
+W
+W;aux;ngen;
+W;dis;aux;p;
+W;conv;aux;
+conv
+ = 
++
+ 
+(13.33) 
+543
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 544 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+WW;aux;ngen;mi is de hoeveelheid gebruikte elektrische hulpenergie van het distributiesysteem ten 
+behoeve van warm tapwater, voor maand mi (exclusief de hulpenergie ten behoeve 
+van de warmteopwekking), in kWh; 
+WW;dis;aux;p;mi is het elektrische-hulpenergiegebruik van het distributiesysteem voor eventueel 
+aanwezige circulatiepompen, in maand mi, volgens 13.4.4.3, in kWh; 
+WW;conv;aux;mi is het elektrische-hulpenergiegebruik van een individuele afleverset voor warm 
+tapwater, in maand mi, volgens 13.4.4.4, in kWh. 
+13.4.4.3 
+Circulatiepompen 
+13.4.4.3.1 Principe 
+Het verbruik van eventueel aanwezige circulatiepompen wordt bepaald door het pompvermogen en 
+de tijd dat het circulatiesysteem in gebruik is. In het geval dat er sprake is van een circulatiesysteem 
+met cv-water, wordt de hulpenergie meegenomen bij verwarming.  
+Voor het circulatiesysteem voor warm tapwater wordt uitgegaan van een continue bedrijfswijze. 
+13.4.4.3.2 Rekenregels 
+De berekening van het hulpenergiegebruik van het circulatiesysteem is gebaseerd op het 
+ontwerpvermogen van de circulatiepompen, het drukverschil in het circulatiesysteem bij het 
+ontwerppunt, de volumestroom, de verwachte energiefactor van de circulatiepomp bij het werkpunt 
+en de bedrijfstijd.  
+De hydraulisch benodigde hoeveelheid energie WW;dis;hydr;si,mi van circulatiesysteem si wordt berekend 
+door:  
+𝑊𝑊W;dis;hydr;𝑠𝑠𝑠𝑠,𝑚𝑚𝑚𝑚= 𝑃𝑃W;hydr;dis;𝑠𝑠𝑠𝑠× 𝛽𝛽W;dis;𝑠𝑠𝑠𝑠× 𝑡𝑡W;circ;𝑚𝑚𝑚𝑚× 𝑓𝑓W;corr;𝑠𝑠𝑠𝑠  [kWh] (13.34) 
+waarin: 
+PW;hydr;dis;si is het hydraulisch vermogen van de pomp van het circulatiesysteem, in kW; 
+βW;dis;si 
+is de deellast van het circulatiesysteem; βW;dis;si = 1; 
+tW;circ;mi 
+is de tijd dat het circulatiesysteem van warm tapwater in bedrijf is, in maand mi, 
+bepaald volgens 13.4.3.2, in h; 
+fW;corr;si 
+is de correctiefactor voor de ontwerpomstandigheden van het circulatiesysteem si. 
+𝑓𝑓W;corr;𝑠𝑠𝑠𝑠= 𝑓𝑓HB;𝑠𝑠𝑠𝑠× 𝑓𝑓special;𝑠𝑠𝑠𝑠 
+(13.35) 
+waarin: 
+fHB;si 
+is de correctiefactor voor hydraulische balancering van circulatiesysteem si, met als 
+vaste waarde fHB;si = 1,15; 
+fspecial;si 
+is een speciale factor voor het systeemontwerp; fspecial;si = 1. 
+544
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 545 ---
+Withdrawn final
+Ingetrokken definitief
+Het hydraulische ontwerpvermogen van de circulatiepomp PW;hydr;dis;si wordt als volgt bepaald met een 
+minimale waarde van 0,010 kW: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+si
+si
+si
+V
+P
+p
+MAX
+;
+W
+;
+;
+i
+dis;
+W;dis;
+W hy
+ 
+dr;d s
+×
+=
+Δ
+; 0,010
+3600
+  [kW] 
+(13.36) 
+waarin: 
+ΔpW;dis;si 
+[kPa] 
+is het drukverschil in het circulatiesysteem bij het ontwerppunt; 
+
+si
+VW;dis;   
+[m3/h] 
+is de volumestroom van distributiesysteem si bij het ontwerppunt.  
+Het drukverschil in een leidingsysteem si, ΔpW;dis;si, wordt bepaald door: 
+(
+)
+si
+si
+si
+si
+si
+p
+f
+R
+L
+p
+comp;
+max;
+W;max;
+W;dis;
+W;add;
+Δ
+= 1+
+×
+×
++Δ
+  [kPa] 
+(13.37) 
+waarin: 
+fcomp;si 
+[-] 
+is de weerstandsverhouding van componenten in het circulatiesysteem;  
+RW;max;si 
+[kPa/m] is het drukverlies per meter lengte van het circulatiesysteem, met als vaste 
+waarde RW;max;si = 0,10 kPa/m; 
+Lmax;si 
+[m] 
+is de maximale lengte van het circulatiesysteem, volgens 13.4.3; 
+ΔpW;add;si 
+[kPa] 
+is de additionele weerstand van het circulatiesysteem, met als vaste waarde 
+ΔpW;add;si = 80 kPa. 
+De weerstandsverhouding tussen de verschillende componenten van het distributiesysteem (o.a. 
+kleppen, overgangen, fittingen) wordt uitgedrukt in de factor fcomp;si. Voor fcomp;si wordt de volgende 
+waarde aangehouden: 
+fcomp;si = 0,4 
+ 
+De volumestroom wordt indien niet bekend uit het ontwerp en de situatie bepaald door: 
+
+si,mi;
+si,mi;
+si
+si
+si;
+Q
+Q
+V
+T
+ρ
+f
+W;em;
+max
+W;dis;ls;
+max
+W;dis;
+p
+W
+gebouw;
+W
++
+3600
+=
+×
+30×C × Δ
+×
+ 
+(13.38) 
+waarin: 
+
+si
+VW;dis;  
+[m3/h] 
+is de volumestroom van het circulatiesysteem bij het ontwerppunt; 
+QW;em;si,mi;max 
+[kWh] 
+is de maximale hoeveelheid energie ten behoeve van warm tapwater, 
+van alle maanden mi, aangeleverd aan het afgiftedeel van systeem si; 
+QW;dis;ls;si,mi;max [kWh] 
+zijn de maximale warmteverliezen van het circulatiesysteem voor 
+warm tapwater in het gebouw en/of buiten het gebouw binnen de 
+perceelgrens, in systeem si, van alle maanden mi, bepaald volgens 
+13.4.3; 
+545
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 546 ---
+Withdrawn final
+Ingetrokken definitief
+Cp 
+[kJ/(kg∙K)] is de specifieke warmte van het medium in het distributiesysteem, 
+voor water 4,2 kJ/(kg∙K); 
+ρsi 
+[kg/m3] 
+is de soortelijke massa van het medium dat door systeem si stroomt, 
+voor water 1 000 kg/m3 bij 4 °C; 
+3 600 
+[s/h] 
+is het aantal seconden per uur voor de omrekening van m3/s naar 
+m3/h; 
+∆TW 
+[K] 
+is het temperatuurverschil tussen de aanvoer en retour van het 
+circulatiesysteem, volgens ontwerpberekening of praktijkmeting, met 
+forfaitaire waarde van 50; 
+fgebouw;si;W 
+[-] 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat 
+geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem 
+si voor de functie warm tapwater, volgens 13.1.2. 
+OPMERKING  
+Bij de bepaling van de volumestroom van het distributiesysteem wordt in feite gebruikgemaakt 
+van de maximale QW;dis;si,mi. Er wordt echter geen rekening gehouden met eventuele teruggewonnen verliezen van 
+de circulatiepompen. De factor 30 is gebaseerd op de benodigde tijdsduur waarbinnen de hoeveelheid tapwater 
+geleverd moet kunnen worden. Hiervoor is uitgegaan van circa 1 h per dag. 
+De energiefactor voor de distributiepomp εW;dis;si van het circulatiesysteem wordt gegeven door: 
+(
+)
+−
+si
+si
+si
+si
+si
+si
+ε
+f
+β 1
+W;dis;
+W;e;
+P1;
+P2;
+W;dis;
+EEI
+=
+× C
++C
+×
+× 0,25
+ 
+(13.44) 
+waarin: 
+fW;e;si 
+[-] 
+is de efficiëntiefactor van het circulatiesysteem; 
+CP1;si 
+[-] 
+is de constante, afhankelijk van het regelsysteem van de pomp van het 
+circulatiesysteem, volgens tabel 13.6; 
+CP2;si 
+[-] 
+is de constante, afhankelijk van het regelsysteem van de circulatiepomp, 
+volgens tabel 13.6; 
+βW;dis;si 
+[-] 
+is de deellast van het circulatiesysteem; βW;dis;si = 1; 
+EEIsi 
+[-] 
+is de energie-efficiëntie-index van de pomp van het circulatiesysteem.  
+Als de EEIsi conform EU-regeling nr. 622/2012 bekend is, moet deze waarde worden gebruikt. Indien 
+het distributiesysteem si van meerdere pompen met een bekende EEIsi is voorzien, moet de EEIsi 
+worden bepaald middels het gewogen rekenkundig gemiddelde van EEI op basis van het maximale 
+vermogen (Pel;pmp) van deze pompen. In andere gevallen moet voor distributiepompen met 
+PW;hydr;dis ≥ 2,5 kW de waarde EEIsi = 0,25 worden aangehouden. In alle andere gevallen geldt voor 
+distributiepompen: EEIsi = 0,23. 
+546
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 547 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.6 — Constante CP1,si en CP2,si voor de distributiepompen van tapwatersystemen 
+Pompregeling 
+HEAT_DISTR_CTRL_PMP 
+CP1,si 
+CP2,si 
+0 = ‘uncontrolled’ of type 
+regeling is onbekend 
+0,25 
+0,94 
+3 = Δpconst (constante druk) 
+0,50 
+0,63 
+ 
+Indien het werkelijke vermogen van de distributiepomp in de verschillende bedrijfstoestanden bekend 
+is, moeten deze waarden worden gebruikt. Voor bestaande distributiesystemen si kan het op het 
+energielabel gegeven vermogen van de pomp Pel;pmp;si worden gebruikt. Bij distributiepompen die niet 
+worden geregeld en die op verschillende toerentallen kunnen worden ingesteld, moet Pel;pmp;si worden 
+aangehouden bij het toerental waarop de pomp staat ingesteld. De energiefactor wordt dan: 
+si
+si
+si
+P
+f
+P
+el;pmp;
+W;e;
+W;hydr;dis;
+=
+  [-] 
+(13.39) 
+waarin: 
+Pel;pmp;si 
+[kW] is het vermogen volgens het energielabel van een geïnstalleerde of volgens 
+ 
+ontwerpspecificaties te installeren distributiepomp van distributiesysteem si 
+ 
+(bij het toerental waarop de pomp is ingesteld); 
+PW;hydr;dis;si 
+[kW] is het hydraulisch vermogen van de pomp van het circulatiesysteem van 
+ 
+distributiesysteem si. 
+Als het werkelijke vermogen van de distributiepomp in de verschillende bedrijfstoestanden niet 
+bekend is, wordt voor pompen met PW;hydr;dis < 2,5 kW de energiefactor voor de distributiepomp fW;e;si 
+bepaald door: 
+si
+si
+si
+P
+f
+P
+W;ref;
+W;e;
+W;hydr;dis;
+=
+  [-] 
+(13.40) 
+waarin: 
+PW;ref;si 
+[kW] is het referentievermogen van de distributiepomp van distributiesysteem si; 
+PW;hydr;dis;si 
+[kW] is het hydraulisch vermogen van de pomp van het circulatiesysteem van 
+ 
+distributiesysteem si. 
+Voor (natte) distributiepompen met een hydraulisch vermogen 0,001 kW < PH;hydr;dis < 2,5 kW is het 
+referentievermogen PW;ref;si: 
+(
+)
+
+
+
+
+
+
+si
+si
+si
+P
+P
+–
+–
+W;hydr;dis;
+W; ref;
+W; hydr; dis;
+0,3×P
+×1 000
+3
+ = 1,7×
+ +17× 1 – e
+×10
+  [kW] (13.41) 
+waarin: 
+PW;hydr;dis;si 
+[kW] is het hydraulisch vermogen van de pomp van het circulatiesysteem van 
+ 
+distributiesysteem si. 
+547
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 548 ---
+Withdrawn final
+Ingetrokken definitief
+Voor pompen met PW;hydr;dis ≥ 2,5 kW wordt de energiefactor fW;e;si bepaald volgens: 
+b
+
+
+
+
+
+
+×
+
+
+
+
+
+
+
+
+
+
+si
+si
+f
+P
+0,5
+W;e;
+W;hydr;dis;
+0,2
+= 1,25+
+  [-] 
+(13.42) 
+waarin: 
+b 
+ 
+[-] 
+is de factor voor pompontwerp; b = 2; 
+PW;hydr;dis;si 
+[kW] 
+is het hydraulisch vermogen van de pomp van het circulatiesysteem van 
+ 
+distributiesysteem si. 
+13.4.4.3.3 Modulerende pompen met continue bedrijfswijze 
+De hoeveelheid hulpenergie WW;dis;aux;p;si,mi van distributiesysteem si wordt bepaald door: 
+WW;dis;aux;p;si,mi = WW;dis;hydr;si,mi × εW;dis;si × fgebouw;si;W  [kWh] 
+(13.43) 
+waarin: 
+WW;dis;aux;p;si,mi 
+[kWh] 
+is de hoeveelheid benodigde hulpenergie van distributiesysteem si, in 
+maand mi; 
+WW;dis;hydr;si,mi 
+[kWh] 
+is de hoeveelheid benodigde hulpenergie op basis van de hydraulische 
+weerstand van distributiesysteem si, in maand mi; 
+εW;dis;si 
+[-] 
+is de energiefactor van de distributiepomp van distributiesysteem si; 
+fgebouw;si;W 
+[-] 
+is de verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald, en de gebruiksoppervlakte van het gebouw als geheel dat 
+geheel of gedeeltelijk is aangesloten op het collectieve gebouwsysteem 
+si voor de functie warm tapwater, volgens 13.1.2. 
+13.4.4.4 
+Afleverset 
+Bepaal het elektrische-hulpenergiegebruik van een individuele afleverset als volgt: 
+W;aux;gen;e
+W;conv;aux;
+=
+×
+1000
+mi
+mi
+P
+W
+t
+ 
+(13.46) 
+waarin: 
+WW;conv;aux;mi is het elektrische-hulpenergiegebruik van een individuele afleverset voor warm 
+tapwater, in maand mi, in kWh; 
+PW;aux;gen;e 
+is het hulpenergiegebruik voor elektronica tijdens stand-by; voor een individuele 
+afleverset geldt PW;aux;gen;e = 10 W; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 
+17.2, in h. 
+548
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 549 ---
+Withdrawn final
+Ingetrokken definitief
+13.4.5 Terugwinbare systeemverliezen 
+Het terugwinbare warmteverlies van distributiesystemen voor warm tapwater QW;dis;rbl in de 
+verwarmde rekenzones, wordt gegeven door formule (13.47):  
+QW;dis;rbl;mi = fW;dis;rbl;mi × QW;dis;ls;mi + fW;conv;rbl × QW;dis;conv;ls;si,mi  [kWh] 
+(13.47) 
+waarin: 
+QW;dis;rbl;mi 
+zijn de voor ruimteverwarming terugwinbare warmteverliezen van het 
+circulatiesysteem voor warm tapwater in het gebouw en/of buiten het gebouw 
+binnen de perceelgrens, in maand mi, in kWh; 
+fW;dis;rbl,mi 
+is het deel van de distributieverliezen dat terugwinbaar is doordat deze verliezen 
+optreden in verwarmde zones, in maand mi.  
+Indien alle leidingen zich bevinden in verwarmde zones, dan geldt fW;dis;rbl = 1; in alle 
+overige gevallen geldt fW;dis;rbl = 0,85. 
+QW;dis;ls;mi 
+zijn de warmteverliezen van het circulatiesysteem voor warm tapwater in het 
+gebouw en/of buiten het gebouw binnen de perceelgrens, in maand mi, bepaald 
+volgens formule (13.26), in kWh; 
+fW;conv;rbl 
+is het deel van de warmteverliezen van de afleverset dat terugwinbaar is doordat 
+deze verliezen optreden in verwarmde zones; voor afleversets geldt fW;conv;rbl = 1 als 
+vaste waarde; 
+QW;dis;conv;ls;si,mi zijn de warmteverliezen van alle toegepaste afleversets voor warm tapwater, in 
+systeem si, in maand mi, volgens 13.4.2, in kWh. 
+OPMERKING 
+In het geval van een afleverset wordt geen onderscheid gemaakt naar (on)verwarmde ruimten; 
+het terugwinbaar systeemverlies wordt als verwaarloosbaar beschouwd. Bij distributieleidingen van 
+circulatiesystemen wordt niet bepaald welk deel van de leidingen zich bevindt in onverwarmde ruimten. 
+Hulpenergie 
+De terugwinbare energie van het hulpenergiegebruik voor distributiesystemen voor warm tapwater 
+QW;dis;aux;rbl als warmteafgifte in de verwarmde rekenzones, wordt bepaald door: 
+QW;dis;aux;rbl;mi = frbl;dis × WW;dis;aux;p;mi  [kWh] 
+(13.49) 
+waarin: 
+QW;dis;aux;rbl;mi is de voor ruimteverwarming terugwinbare energie van het hulpenergiegebruik van 
+eventueel aanwezige circulatiepompen, in maand mi, in kWh; 
+WW;dis;aux;p;mi  is het elektrische-hulpenergiegebruik van het distributiesysteem voor eventueel 
+aanwezige circulatiepompen, in maand mi, in kWh; 
+frbl;dis 
+is de factor voor de terugwinbare energie van het hulpenergiegebruik voor 
+distributiesystemen met als vaste waarde frbl;dis = 0,20. 
+De voor warm tapwater teruggewonnen energie van het hulpenergiegebruik van eventueel aanwezige 
+circulatiepompen voor warm tapwater QW;dis;aux;rvd;mi als warmteafgifte aan het warm tapwater, wordt 
+bepaald door: 
+QW;dis;aux;rvd;mi = (1 – frbl;dis) × WW;dis;aux;p;mi  [kWh] 
+(13.50) 
+549
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 550 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+QW;dis;aux;rvd;mi is de voor warm tapwater teruggewonnen energie van het hulpenergiegebruik van 
+eventueel aanwezige circulatiepompen, in maand mi, in kWh. 
+13.5 
+Warmteterugwinning uit douchewater 
+13.5.1 Principe 
+Warmteterugwinning uit douchewater betreft de hoeveelheid teruggewonnen thermische energie ten 
+behoeve van de energiefunctie warm tapwater, QW;rcd;zi,mi, aangeleverd door warmteterugwinning uit 
+de afvoer van warm tapwater, in maand mi, van systeem si.  
+In alle woningen en gebouwen met een douche kan een douchewaterwarmteterugwinunit (DWTW-
+unit) worden toegepast, waarbij warmte van het douchewater wordt gebruikt om drinkwater te 
+verwarmen voor gebruik aan de koudepoort van de mengkraan van de douche en/of de inlaat van het 
+toestel voor warmtapwaterbereiding.  
+OPMERKING 
+Bij gebruik van warm tapwater voor het douchen vinden de aanvoer van koud water en de 
+afvoer van warm rioolwater altijd gelijktijdig plaats. Dit in tegenstelling tot het overige warmtapwatergebruik. 
+Deze gelijktijdigheid is noodzakelijk voor een eenvoudige wijze van warmteterugwinning, die ook betrekkelijk 
+eenvoudig te reguleren is. 
+De drie manieren waarop de individuele DWTW-unit kan worden aangesloten in combinatie met een 
+individueel opwekkingstoestel, zijn geschetst in figuur 13.1. Bij combinatie met een circulatiesysteem 
+warm tapwater wordt alleen het systeem van figuur 13.1 b) toegepast. In sportcomplexen kunnen 
+afwijkende systemen worden toegepast met parallel geschakelde warmtewisselaars. 
+550
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14

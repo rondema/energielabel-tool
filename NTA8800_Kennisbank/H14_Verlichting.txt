@@ -1,0 +1,4395 @@
+
+--- Pagina 621 ---
+Withdrawn final
+Ingetrokken definitief
+mi
+mi
+mi
+Q
+Q
+Q
+gen;ls;tot;
+W;gen;ls;
+W;S;ls;
++
+=
+ 
+(13.167; NEN-EN 15316-4-1:2017, (36)) 
+waarin: 
+ηW;gen;gi,mi 
+is het dimensieloze opwekkingsrendement voor warm tapwater, in maand mi, van 
+opwekker gi in systeem si; 
+QW;gen;gi;out;mi is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2.3, in kWh; 
+EW;gen;gi;in;mi 
+is de hoeveelheid energie die door opwekker gi gebruikt wordt ten behoeve van 
+warm tapwater, in maand mi, in kWh; 
+Qgen;ls;tot;mi 
+is het totale energieverlies van een gasboiler, in maand mi, in kWh; 
+QW;gen;ls;mi 
+is de hoeveelheid opwekverlies van een gasboiler, in maand mi, bepaald volgens 
+formule (13.174), in kWh; 
+QW;S;ls;mi 
+is de hoeveelheid warmteverlies van een gasboiler, in maand mi, bepaald volgens 
+formule (13.168), in kWh. 
+Rond ηW;gen;gi,mi af naar beneden op een veelvoud van 0,025.  
+Warmteverlies toestel 
+Het warmteverlies van een met gas gestookt tapwatertoestel wordt berekend volgens 
+formule (13.168). 
+Aangenomen dat de totale warmteproductie van het toestel gedurende het jaar als een verlies kan 
+worden aangemerkt, geldt: 
+ϑ
+ϑ
+−
+zi,mi
+mi
+mi
+si;
+t
+Q
+f
+q
+Wc;mn
+W;amb;
+B;S
+W;S;ls;
+gebouw;
+W
++5
+=
+×
+×
+×
+45
+24
+ 
+(13.168) 
+waarin: 
+QW;S;ls;mi 
+is de hoeveelheid warmteverlies van een gasboiler, in maand mi, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+qB;S  
+is het dagelijkse warmteverlies in stand-by, in kWh; gemeten volgens NEN-EN 89 of 
+bepaald met formule (13.169) of (13.170); 
+ϑWc;mn 
+is de gemiddelde temperatuur van de warmtapwatervoorraad. Voor systemen met 
+circulatie: ϑWc;mn = 60 °C, voor systemen zonder circulatie: ϑWc;mn = 55 °C; 
+ϑW;amb;zi,mi 
+is de omgevingstemperatuur in rekenzone zi, in maand mi, in °C.  
+Voor onverwarmde zones geldt: ϑw;amb;zi,mi = ϑztu;k;zi;H;mi volgens 8.9.7. Voor verwarmde 
+rekenzones moet gebruik worden gemaakt van ϑint;set;H;zi,mi bepaald in 7.9.4. Voor 
+onverwarmde zones is de omgevingstemperatuur afhankelijk van de 
+benaderingswijze van de onverwarmde ruimte(n). Indien de omgevingstemperatuur 
+621
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 622 ---
+Withdrawn final
+Ingetrokken definitief
+in de aangrenzende onverwarmde ruimte(n) ϑztu;k;zi;H;mi (bepaald volgens formule 
+(7.82)) bekend is (er is een aangrenzende onverwarmde ruimte ingevoerd), dan geldt: 
+ϑW;amb;zi,mi = ϑztu;k;zi;H;mi volgens 7.9.7. Indien de temperatuur in de aangrenzende 
+onverwarmde ruimte(n) niet bekend is (er is niet één aangrenzende onverwarmde 
+ruimte ingevoerd), dan geldt ϑW;amb;zi,mi = 13 °C; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald 
+volgens 17.2, in h. 
+OPMERKING 
+De temperatuur ϑWc;mn is een gemiddelde voorraadtemperatuur. De temperatuur van het 
+uitstromende water is hoger dan 60 °C. 
+Het warmteverlies tijdens stand-by qB;S van het warmwatervoorraadtoestel moet gemeten worden 
+volgens NEN-EN 89 (met een gemiddeld temperatuurverschil tussen de watervoorraad en de 
+installatieruimte van 45 K).  
+Het warmteverlies QW;S;ls van het warmwatervoorraadtoestel kan worden bepaald op basis van het 
+stand-byverlies, en kan zodoende worden gemeten. Aangezien de warmteopwekking in het 
+warmwatertoestel plaatsvindt, kunnen de betreffende verliezen worden bepaald op basis van 
+formule (13.174). 
+Als niet bekend is wat het stand-byverlies qB,S van het met gas gestookte warmtapwater-
+voorraadtoestel is (dat wil zeggen, het is niet gemeten volgens NEN-EN 89), dan kan het benaderd 
+worden met formule (13.169). Op deze manier wordt het warmteverlies als gevolg van de voorraad 
+bepaald. (Dit komt overeen met 80 % van de minimumeis in NEN-EN 89 waarin een volume-
+afhankelijke nominale warmtetoevoer van 0,07 kW per liter voorraadvolume wordt opgegeven): 
+𝑞𝑞B;S = (2,0 + 0,033 × 𝑉𝑉1,1) 
+(13.169) 
+Voor gasboilers van voor 1985 geldt: 
+𝑞𝑞B;S = 1,4 × (2,0 + 0,033 × 𝑉𝑉1,1) 
+(13.170) 
+waarin: 
+qB;S 
+is het dagelijkse stand-byverlies, in kWh; 
+V 
+is de nominale voorraadcapaciteit, in l (maximaal 500 l per vat; bij grotere vaten moet het 
+verlies berekend worden door sommatie van het verlies van meerdere vaten). 
+Opwekverlies toestel 
+Het opwekverlies van een warmwatervoorraadtoestel dat rechtstreeks met gas wordt gestookt, wordt 
+op overeenkomstige wijze bepaald als van een ketel, waarbij het stand-byverlies al is meegerekend. 
+Het opwekverlies QW;gen;ls wordt verkregen met behulp van het opwekkingsrendement η100 % van de 
+ketel in de betreffende rekenperiode: 
+mi
+mi
+Q
+P
+t
+W;gen;ls;
+W;gen;100%
+=
+×
+, in kWh  
+(13.174) 
+(
+)
+−
+gi;
+mi
+mi
+f
+η
+Q
+P
+η
+t
+100%
+Hs/Hi
+W;gen;
+out;
+W;gen;100%
+100%
+=
+×
+, in kW 
+(13.175) 
+622
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 623 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+η100% 
+is het opwekkingsrendement van de gasboiler op onderwaarde; 
+volgens NEN-EN 89 moet hiervoor 84 % aangenomen worden; 
+PW;gen;100% 
+is het opwekvermogen op onderwaarde; 
+Hs/Hi 
+is de conversiefactor voor de energie-inhoud op bovenwaarde/onderwaarde.  
+Voor aardgas geldt Hs/Hi = 1,11. 
+Hulpenergie 
+Het elektrische-hulpenergiegebruik WW;aux;gen;gi,mi wordt bepaald op basis van 13.8.4.7.5. 
+Terugwinbare systeemverliezen 
+Bereken de terugwinbare systeemverliezen volgens de bepalingswijze in 13.6.5. Gebruik daarbij de 
+verliezen van de gasboiler QW;S;ls;mi uit formule (13.168) voor de verliezen van het voorraadvat 
+QW;sto;ls;si,mi. 
+13.8.4.5.3 
+Elektroboilers 
+Opwekkingsrendement 
+Voor elektroboilers is geen normatieve methode beschikbaar. Hiervoor geldt ηW;gen;gi = 1,0. 
+Het verlies van het voorraadvat moet voor elektroboilers separaat worden bepaald volgens 13.6. Dit 
+geldt ook voor heet- of kokendwatersystemen waarbij gebruik wordt gemaakt van een klein 
+voorraadvat met kokend heet water. 
+Hulpenergie 
+Het elektrische-hulpenergiegebruik van elektroboilers is onderdeel van het opwekkingsrendement 
+van deze toestellen. Hiervoor geldt WW;aux;gen;gi,mi = 0. 
+Terugwinbare systeemverliezen 
+Voor elektroboilers geldt QW;gen;ls;rbl;zi,gi,mi = 0. 
+13.8.4.5.4 
+Overige direct verwarmde voorraadvaten 
+Opwekkingsrendement 
+Het opwekkingsrendement van een of meer (in serie opgestelde) direct verwarmde 
+warmwatervoorraadvaten mag bepaald worden voor het systeem als geheel. 
+In dat geval bedraagt het primaire opwekkingsrendement ηW;gen per warmtapwatersysteem 0,50. De 
+dimensieloze energetische bijdrage FW;gen;gi per warmtapwatersysteem bedraagt dan 1,00. 
+In het geval van gasboilers is deze aanpak alleen toegestaan wanneer er sprake is van een of meer 
+gasboilers waarvan het vermogen groter is dan 150 kW. Voor gasboilers tot en met 150 kW moet de 
+bepalingswijze in 13.8.4.5.2 worden toegepast. 
+Indien voor direct verwarmde voorraadvaten een afwijkende waarde voor het opwekkingsrendement 
+wordt bepaald, behoren de volgende uitgangspunten te worden gevolgd:  
+— Bepaal de energetische bijdrage FW;gen;gi per toestel gi naar rato van het vatvolume over de 
+toestellen. 
+— Bepaal per toestel gi het energiegebruik op basis van de continue verliezen van het vat en op basis 
+van het rendement van de warmwaterbereiding, voor het deel van de warmtebehoefte waarin het 
+desbetreffende toestel moet voorzien (QW;dis;nren;an × FW;gen;gi). 
+623
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 624 ---
+Withdrawn final
+Ingetrokken definitief
+— De continue verliezen moeten zijn bepaald in een proef waarbij het vat continu op temperatuur 
+wordt gehouden bij een bedrijfstemperatuur van minimaal 60 °C, zonder tappingen uit te voeren. 
+— Het rendement van de warmwaterbereiding moet zijn bepaald in een proef waarbij het vat continu 
+op temperatuur wordt gehouden bij een bedrijfstemperatuur van minimaal 60 °C, waarbij 
+gedurende de proef een of meer tappingen worden uitgevoerd. Het energiegebruik moet 
+vervolgens worden gecorrigeerd voor de continue verliezen van het vat. 
+Hulpenergie 
+Bepaal het hulpenergiegebruik van de toestellen WW;gen;gi volgens 13.8.4.7.5. 
+Terugwinbare verliezen 
+Bij toepassing van de forfaitaire rekenwaarden uit deze paragraaf geldt voor de terugwinbare 
+verliezen van de opwekkers QW;gen;ls;rbl;gi = 0. 
+13.8.4.6 
+Toestellen met vaste biobrandstof 
+Forfaitaire rekenwaarden voor het opwekkingsrendement van met vaste biobrandstoffen gestookte 
+combitoestellen die voldoen aan de emissiegrenswaarden van bijlage R, zijn gegeven in tabel 13.22. 
+Deze rendementen zijn inclusief de verliezen van het voorraadvat.  
+Tabel 13.22 — Opwekkingsrendement van een op vaste biobrandstof gestookt combitoestel 
+met voorraadvat voor warmtapwaterbereiding dat voldoet aan de grenswaarden van bijlage R 
+Ketel met vaste biobrandstof en voorraadvat die voldoet aan 
+de grenswaarden van bijlage R 
+Opstellingsplaats toestel 
+Binnen 
+Buiten 
+* minimaal 20 mm isolatie rond de warmwatervoorraad en het 
+leidingwerk 
+0,65 
+0,60 
+* 
+minimaal 10 mm isolatie rond de warmwatervoorraad en 
+het leidingwerk 
+0,575 
+0,525 
+* 
+zonder isolatie rond de warmwatervoorraad en het 
+leidingwerk 
+0,35 
+0,325 
+ 
+Voor de overige toestellen met vaste biobrandstof moet voor het opwekkingsrendement gebruik 
+worden gemaakt van de rekenwaarden voor het opwekkingsrendement van een opwektoestel (met 
+vaste biobrandstof) in combinatie met een indirect verwarmd voorraadvat volgens 13.8.4.7.5. De 
+verliezen van het voorraadvat moeten dan apart in rekening worden gebracht volgens 13.6.  
+Hulpenergie 
+Bij toepassing van de forfaitaire rekenwaarden voor het opwekkingsrendement uit deze paragraaf 
+geldt voor het hulpenergiegebruik:  
+WW;aux;gen;gi,mi = 0 
+In alle overige gevallen moet het hulpenergiegebruik WW;aux;gen;gi,mi bepaald worden volgens 13.8.4.7.5. 
+Terugwinbare systeemverliezen 
+Bij toepassing van de forfaitaire rekenwaarden voor het opwekkingsrendement uit deze paragraaf 
+geldt voor de terugwinbare verliezen van de opwekkers QW;gen;ls;rbl;gi = 0. 
+624
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 625 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.4.7 
+Forfaitaire rekenwaarden 
+13.8.4.7.1 
+Algemeen 
+Opwekkingsrendement 
+Bepaal het opwekkingsrendement ηW;gen;gi voor complete toestellen volgens 13.8.4.7.2, voor 
+warmtepompen zonder geïntegreerde naverwarming volgens 13.8.4.3 en voor toestellen in 
+combinatie met indirect verwarmde voorraadvaten volgens 13.8.4.7.4. 
+OPMERKING 
+Aanvullingen in de bepalingswijze van het opwekkingsrendement van toestellen wanneer deze 
+worden toegepast in combinatie met een zonneboiler, zijn gegeven in 13.8.4.1. 
+Hulpenergie 
+Wanneer het opwekkingsrendement wordt bepaald volgens 13.8.4.7.2 of 13.8.4.3, geldt behalve voor 
+elektrische doorstroomtoestellen voor het hulpenergiegebruik van de toestellen WW;gen;gi = 0. Voor 
+elektrische doorstroomtoestellen moet het elektrische-hulpenergiegebruik van de toestellen WW;gen;gi 
+bepaald worden volgens 13.8.10. 
+OPMERKING 
+De rekenwaarden voor het opwekkingsrendement in 13.8.4.7 zijn inclusief de opwekking van 
+elektrische (hulp)energie (bijvoorbeeld driewegklep, cv-pomp, ventilator bij gastoestel) respectievelijk het 
+verbruik van een eventuele waakvlam. Echter, voor combitoestellen is de hulpenergie voor de elektronica reeds 
+bij de cv-functie in rekening gebracht. Voor elektrische warmtepompen is de benodigde hulpenergie (voor 
+regeling, voor pompen die specifiek voor de bereiding van warm tapwater benodigd zijn en niet onder een 
+andere functie vallen) in het opwekkingsrendement verdisconteerd. 
+Voor toestellen in combinatie met indirect verwarmde voorraadvaten moet het elektrische-
+hulpenergiegebruik van de toestellen WW;gen;gi bepaald worden volgens 13.8.4.7.5. Bij deze toestellen 
+kan er ook sprake zijn van thermische-hulpenergiegebruik. Dit kan bestaan uit het gasverbruik voor 
+waakvlammen, zoals bepaald in 9.6.2.1. Dit moet alleen in rekening worden gebracht indien het 
+desbetreffende opwekkingstoestel niet (ook) wordt gebruikt voor verwarming.  
+Terugwinbare systeemverliezen 
+Bij toepassing van de forfaitaire rekenwaarden uit deze paragraaf geldt voor de terugwinbare 
+verliezen van elektrische doorstroomtoestellen: 
+
+
+−
+
+
+
+
+
+
+gi;
+mi
+,
+z
+z
+i
+,
+,
+i
+s
+m
+i
+gi
+si
+i g
+i
+g
+i
+;
+i;
+m
+Q
+Q
+Q
+A
+η
+A
+g;
+W;gen
+W
+W;gen;
+out;
+W;gen;ls;rbl;
+W;gen
+;
+g
+out
+;
+;
+;
+=
+×
+ 
+(13.179) 
+waarin: 
+QW;gen;ls;rbl;zi,gi,mi is het voor ruimteverwarming terugwinbare thermische systeemverlies van de 
+verwante opwekkers voor warm tapwater in rekenzone zi, in maand mi, in kWh; 
+ηW;gen;gi,mi 
+is het dimensieloze opwekkingsrendement voor warm tapwater, in maand mi, van 
+opwekker gi in systeem si, bepaald volgens 13.8.4.7.2 of 13.8.4.3; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2, in kWh; 
+Ag;zi,si 
+is de gebruiksoppervlakte in zone zi die door systeem si wordt bediend, in m2;  
+Ag;si;W 
+is de gebruiksoppervlakte van het gebouwdeel waarvoor de energieprestatie 
+wordt bepaald en dat geheel of gedeeltelijk is aangesloten op het collectieve 
+gebouwsysteem si voor de functie warm tapwater, volgens formules (13.19b) of 
+(13.20a), in m2. 
+625
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 626 ---
+Withdrawn final
+Ingetrokken definitief
+Voor de overige opwekkers uit deze paragraaf geldt QW;gen;ls;rbl;zi,gi,mi = 0. 
+13.8.4.7.2 
+Complete toestellen 
+Deze methode wordt uitsluitend toegepast op systemen met één opwekker (eventueel bivalent met 
+een geïntegreerde tweede opwekker die in de rendementsbepaling is meegenomen) voor systeem si.  
+Met complete toestellen wordt gedoeld op de situatie dat alle onderdelen van het opweksysteem zich 
+in één behuizing bevinden. Indien er sprake is van een los voorraadvat dat indirect verwarmd wordt 
+door het warmteopwektoestel, dan moet gebruik worden gemaakt van de methode in 13.8.4.7.4. Voor 
+toestellen op vaste biobrandstoffen is de methode in 13.8.4.6 van toepassing. Wanneer het 
+opwektoestel inclusief het losse voorraadvat is getest met 24 uursmetingen, dan kan gebruik worden 
+gemaakt van de methode in 13.8.4.2. 
+Ontleen het opwekkingsrendement aan tabel 13.25. 
+Tabel 13.23 — Toepassingsklassen van warmtapwatergebruik (vaste waarden) 
+Warmtapwatergebruik 
+QW;dis;nren;an 
+kWh/jaar 
+Bijbehorende toepassingsklasse 
+(klasse voor de meting van het 
+opwekkingsrendement) 
+Indien alleen aanrechtgebruik 
+(bijv. keukengeiser) 
+‘Aanrecht’ 
+1 805 
+Klasse 1 
+2 500 
+Klasse 2 
+3 195 
+Klasse 3 
+3 890 
+Klasse 4 
+waarin: 
+QW;dis;nren;an is de jaarlijkse brutowarmtebehoefte voor warmtapwaterbereiding, 
+bepaald volgens 13.1.2, in kWh. 
+Indien de brutowarmtebehoefte voor warmtapwaterbereiding voor installatie i niet 
+overeenkomt met het warmtapwatergebruik van de klasse waarvoor het rendement 
+is gemeten, moet het opwekkingsrendement ηW;gen;i van het warmtapwatersysteem i 
+rechtlijnig worden geïnterpoleerd. 
+ 
+OPMERKING 1 
+Bij gebruik van tabel 13.23 zal doorgaans moeten worden geïnterpoleerd tussen twee klassen, 
+hetgeen betekent dat er ten minste twee metingen nodig zijn. De interpolatie is nodig omdat een indeling van het 
+rendement in klassen leidt tot een ‘zaagtandeffect’ bij de overgang tussen twee klassen. Bij gebruik van 
+tabel 13.25 is maar één meting nodig; de correctiefactor cW;gen zorgt in dat geval, waar nodig, voor de bijstelling 
+van de gemeten waarde van het opwekkingsrendement, afhankelijk van enerzijds de klasse van 
+warmtapwatergebruik waarbij is gemeten en anderzijds de brutowarmtebehoefte voor warm tapwater van (het 
+deel van) de woonfunctie of het woongebouw. 
+OPMERKING 2 
+De klasse-indeling loopt parallel aan de indeling in klassen CW volgens Gaskeur CW. CW staat 
+voor comfort warm water. Zie tabel 13.24. 
+626
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 627 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.24 — Verband met Gaskeur CW-toepassingsklassen (informatief) 
+Toepassingsklasse 
+Gaskeur-CW-toepassingsklasse 
+‘Aanrecht’ 
+CW-1 
+1 
+CW-1+ 
+2 
+CW-2 
+3 
+CW-3 
+4 
+CW-4 of 5 of 6 
+Klasse ‘Aanrecht’ geldt voor een toestel voor uitsluitend keukengebruik. 
+Klasse 1 (CW-1+) is klasse CW-1 met toevoeging van de avonddouche-
+tapping van klasse CW-2 en bijbehorend debiet van 3,5 dm3/min. 
+Overigens omvatten de Gaskeur CW-klassen aanvullende 
+warmtapwatercomforteisen. 
+Tabel 13.25 — Opwekkingsrendement van een toestel voor warmtapwaterbereiding  
+Toestel en label 
+ηW;gen;gi 
+Met gas gestookte warmwatertoestellen met een belasting tot 70 kW 
+en een opslagcapaciteit voor water tot 300 l: 
+ 
+— warmwater- of combitoestel zonder Gaskeur 
+0,30 
+— warmwatertoestel met Gaskeur 
+cW;gen × 0,40 
+— warmwatertoestel met Gaskeur CW 
+cW;gen × 0,625 
+— keukengeiser c 
+cW;gen × 0,50 
+— combitoestel met Gaskeur 
+cW;gen × 0,50 
+— combitoestel met Gaskeur HR en Gaskeur CW 
+cW;gen × 0,675 
+— (combi)toestel met microWKK ten behoeve van de tapfunctie e 
+cW;gen × εW;chp;th 
+— toesteltype onbekend 
+0,30 
+Individuele warmtepompen: 
+ 
+— elektrische warmtepomp met ventilatieretourlucht als bron 
+1,4 a 
+— combiwarmtepomp met andere bron dan ventilatieretourlucht 
+1,4 × csource b 
+— toesteltype onbekend 
+1,4 × csource b 
+Overige elektrische toestellen: 
+ 
+— elektrisch doorstroomtoestel f 
+0,95 
+waarbij: 
+ηW;gen;gi 
+is het opwekkingsrendement voor de warmtapwaterbereiding van 
+opwekker gi in installatie si; 
+cW;gen 
+is de correctiefactor voor de toepassingsklasse volgens 13.8.4.7.3. Deze moet 
+worden opgegeven bij toepassing van de bovenstaande forfaitaire 
+rendementen. Indien de toepassingsklasse niet bekend is, moet uitgegaan 
+worden van klasse 4; 
+627
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 628 ---
+Withdrawn final
+Ingetrokken definitief
+csource 
+is de correctiefactor voor de bron, zie voetnoot b; 
+εW;chp;th 
+is het jaargemiddelde thermische omzettingsgetal van de microWKK voor 
+warm tapwater op bovenwaarde, bepaald volgens 9.6.6, zie voetnoot d. 
+a 
+Niet inbegrepen: elektriciteitsgebruik voor de ventilator; dit wordt bepaald volgens hoofdstuk 11. 
+b 
+Correctiefactor voor collectieve warmtebron of regeneratie van een individuele bodemwarmte-
+wisselaar, volgens de in bijlage V gegeven methode. Indien dit niet van toepassing is, csource = 1,0. 
+c 
+Een met gas gestookte keukengeiser is een met gas gestookt warmwatertoestel zonder 
+voorraadvat met een maximale branderbelasting van 13 kW op bovenwaarde. 
+d 
+De verrekening van de opgewekte elektriciteit vindt plaats volgens 16.4.2, waarbij het elektrisch 
+omzettingsgetal wordt gebruikt, bepaald volgens 9.6.6. Hierbij wordt alleen de elektriciteit 
+verrekend die wordt opgewekt bij een warmtebehoefte volgens de bedrijfsvoering van de WKK. 
+e 
+Het betreft hier een (combi)toestel waarvan de microWKK structureel wordt ingezet voor de 
+warmtapwaterbereiding. Indien de microWKK niet structureel wordt ingezet voor de 
+warmtapwaterbereiding, zijn de gebruikelijke kwalificaties van toepassing, zoals Gaskeur CW. 
+f 
+Voor elektrische doorstroomtoestellen is in NEN-EN 15316-4-1:2017, 6.11.1 aangegeven dat de 
+verliezen verwaarloosbaar zijn. Toch is in NEN-EN 15316-4-1:2017 in tabel B.17 voor toestellen 
+tot 1980 forfaitair een 10 % hogere input opgegeven, oftewel een rendement van 91 %. Voor alle 
+doorstroomtoestellen is een rendement van 95 % aangehouden. 
+OPMERKING 
+Combitoestel: een cv-toestel met ingebouwde voorziening voor 
+warmtapwaterbereiding. 
+In NEN-EN 15316-4-1:2017, 6.11.1 is aangegeven dat gasgeisers (‘instantaneous gas water heaters’) 
+berekend moeten worden als lagetemperatuurcombiketels; deze beschouwingswijze voor gasgeisers 
+is niet representatief voor de Nederlandse situatie en mag niet gebruikt worden.  
+In het opwekkingsrendement van een warmtepomp moet het verbruik van een bronpomp of 
+bronventilator zijn verwerkt; voor met gas gestookte warmtepompen moet het elektrisch verbruik 
+hiertoe worden omgerekend naar primaire energie met de primaire energiefactor voor aangeleverde 
+elektriciteit. Een uitzondering geldt voor warmtepompen met ventilatielucht als warmtebron; 
+hiervoor wordt de ventilatorenergie bepaald in hoofdstuk 9, waarbij eventuele overventilatie in 
+rekening moet worden gebracht. Ook het hulpenergiegebruik wordt apart bepaald volgens 13.8.4.7.5. 
+Indien de tabelwaarden worden gebruikt, is na vermenigvuldiging met cW;gen geen afronding vereist. 
+Indien een van de tabel afwijkende waarde wordt overlegd, moet het opwekkingsrendement naar 
+beneden zijn afgerond naar een veelvoud van 0,025 voor met gas gestookte toestellen of 0,05 voor 
+elektrische toestellen. Indien voor een toestel afwijkende rendementswaarden zijn bepaald voor 
+verschillende tappatronen, mag hiertussen eerst worden geïnterpoleerd voordat afronding 
+plaatsvindt. 
+Een toestel dat in deze tabel is aangeduid met Gaskeur of Gaskeur CW, wordt als zodanig aangeduid 
+indien het, gemeten volgens bijlage T, een opwekkingsrendement op bovenwaarde heeft dat ten 
+minste de in de bijbehorende rechterkolom genoemde waarde bedraagt. 
+OPMERKING 3 
+Deze wijze van omschrijving maakt het mogelijk om aansluiting te zoeken bij 
+privaatrechtelijke aanduidingen, zonder vanuit de NTA rechtstreeks naar een privaatrechtelijk keurmerk te 
+verwijzen. Aanduidingen van warmwater- en combitoestellen zijn de volgende: 
+a) Een warmwatertoestel met aanduiding Gaskeur: bedoeld wordt een toestel dat voldoet aan Gaskeur of dat in
+de bepalingsmethode volgens bijlage T een opwekkingsrendement (jaarrendement) op bovenwaarde heeft
+van ten minste 0,40.
+628
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 629 ---
+Withdrawn final
+Ingetrokken definitief
+b) Een combitoestel met aanduiding Gaskeur: bedoeld wordt een toestel dat voldoet aan Gaskeur of dat in de 
+bepalingsmethode volgens bijlage T een opwekkingsrendement (jaarrendement) op bovenwaarde heeft van 
+ten minste 0,50.  
+c) Een warmwater- of combitoestel met aanduiding Gaskeur CW: bedoeld wordt een toestel dat voldoet aan de 
+eisen van Gaskeur CW:2015 of dat voldoet aan de eisen voor het HRww-label volgens Gaskeur CW-
+HRww:2010 of dat in de bepalingsmethode volgens bijlage T een opwekkingsrendement (jaarrendement) op 
+bovenwaarde heeft van ten minste 0,625 (warmwatertoestellen) respectievelijk 0,675 (combitoestellen). 
+d) Voor al deze toestellen geldt: het gemeten rendement geldt voor een bepaalde toepassingsklasse (zie 
+tabel 13.23); met de correctiefactor voor de toepassingsklasse kan het rendement worden vertaald naar het 
+rendement behorend bij een andere klasse. 
+OPMERKING 4 
+Deze rekenwaarden zijn inclusief de opwekking van elektrische (hulp)energie (bijvoorbeeld 
+driewegklep, cv-pomp, ventilator bij gastoestel) respectievelijk het verbruik van een eventuele waakvlam. 
+Echter, voor combitoestellen is de hulpenergie voor de elektronica reeds bij de cv-functie in rekening gebracht. 
+Voor elektrische warmtepompen is de benodigde hulpenergie (voor regeling, voor pompen die specifiek voor de 
+bereiding van warm tapwater benodigd zijn en niet onder een andere functie vallen) in het 
+opwekkingsrendement verdisconteerd. 
+OPMERKING 5 
+Het gebruik van tabel 13.25 en de bijbehorende correctiefactoren kan aan de hand van de 
+volgende voorbeelden worden geïllustreerd. 
+ 
+a) Stel de volgende situatie: 
+— Woonfunctie met: QW;dis;nren;an = 2 150 kWh en een met gas gestookt combitoestel met gemeten rendement: 
+ηW;gen = 0,625 bij toepassingsklasse 2. Dan geldt volgens tabel 13.25: toestel is een warmwatertoestel met 
+Gaskeur CW. Rekenwaarde ηW;gen = cW;gen × 0,625. 
+— Volgens tabel 13.26 geldt bij 1 805 kWh: cW;gen = 0,90 en bij 2 500 kWh: cW;gen = 1,0.  
+— Dus bij 2 150 kWh: cW;gen = 0,95. Kortom: ηW;gen = 0,95 × 0,625 = 0,594. 
+b) Stel: een ander met gas gestookt combitoestel heeft hetzelfde rendement, maar gemeten bij klasse 4 in plaats 
+van bij klasse 2. Dan geldt opnieuw volgens tabel 13.25: toestel is toestel CW.  
+— Rekenwaarde ηW;gen = cW;gen × 0,625. 
+— Maar nu geldt volgens tabel 13.26 bij 1 805 kWh: cW;gen = 0,80 en bij 2 500 kWh: cW;gen = 0,867.  
+— Dus bij 2 150 kWh: cW;gen = 0,834. Kortom: ηW;gen = 0,834 × 0,625 = 0,521, dus significant lager dan een 
+klasse 2toestel met hetzelfde rendement, maar gemeten bij een lagere klasse (geringere 
+warmtapwatervraag). 
+c) Stel: een keukengeiser met gemeten rendement: ηW;gen = 0,40 bij toepassingsklasse ‘Aanrecht’. Dan geldt 
+volgens tabel 13.25: toestel is toestel Gaskeur.  
+— Rekenwaarde ηW;gen = cW;gen × 0,40. Maar omdat het een toestel voor uitsluitend aanrechtgebruik betreft, 
+geldt volgens 13.8.4.7.3: cW;gen = 1,0. 
+OPMERKING 7 
+Deze methode is ontwikkeld voor individuele toestellen in woningen, maar mag ook worden 
+toegepast voor individuele toestellen in utiliteit. Ook voor deze toepassing behoort correctie met cW;gen te worden 
+uitgevoerd als de tapvraag lager is dan die waarbij het toestelrendement is bepaald.  
+OPMERKING 8 
+Voor met gas gestookte (combi)toestellen met microWKK ten behoeve van de tapfunctie zijn 
+nog geen forfaitaire waarden beschikbaar, omdat deze toestellen nog nauwelijks beschikbaar zijn en voor deze 
+toestellen nog geen label beschikbaar is waarbij kan worden aangesloten. 
+13.8.4.7.3 
+Correctiefactor cW;gen 
+De correctiefactor voor warmtebehoefte en toepassingsklasse wordt als volgt bepaald: 
+a) voor uitsluitend aanrechtgebruik (keukengeiser, elektrische keukenboiler): 
+cW;gen = 1,0; 
+629
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 630 ---
+Withdrawn final
+Ingetrokken definitief
+b) voor met gas gestookte toestellen, elektroboilers en WKK: 
+— bepaal de rekenwaarde voor de correctiefactor volgens tabel 13.26 uit de brutowarmtebehoefte en 
+de toepassingsklasse waarbij het rendement van het toestel is gemeten; 
+c) voor individuele warmtepompen: 
+— bepaal de rekenwaarde voor de correctiefactor volgens tabel 13.27 uit de brutowarmtebehoefte en 
+de toepassingsklasse waarbij het rendement van de warmtepomp is gemeten. 
+Tabel 13.26 — Correctiefactor voor opwekkingsrendement gastoestellen, elektroboilers of WKK 
+cW;gen 
+QW;dis;nren;an 
+kWh 
+Rendement gemeten volgens klasse 
+≤ 555 
+1 805 
+2 500 
+3 195 
+≥ 3 890 
+Klasse 1 (CW-1+) 
+1 
+1 
+1 
+1 
+1 
+Klasse 2 (CW-2) 
+0,72 
+0,90 
+1 
+1 
+1 
+Klasse 3 (CW-3) 
+0,72 
+0,85 
+0,925 
+1 
+1 
+Klasse 4 (CW-4/5/6) 
+0,68 
+0,80 
+0,867 
+0,933 
+1 
+waarbij: 
+cW;gen 
+is de correctiefactor voor de warmtebehoefte en de toepassingsklasse; 
+QW;dis;nren;an is de jaarlijkse brutowarmtebehoefte voor warmtapwaterbereiding, bepaald 
+ 
+volgens 13.1.2, in kWh. 
+Tabel 13.27 — Correctiefactor voor opwekkingsrendement individuele warmtepompen 
+cW;gen 
+QW;dis;nren;an 
+kWh 
+Rendement gemeten volgens klasse 
+≤ 1 805 
+2 500 
+3 195 
+≥ 3 890 
+Klasse 1 (CW-1+) 
+1 
+N.v.t. 
+N.v.t. 
+N.v.t. 
+Klasse 2 (CW-2) 
+0,60 
+1 
+N.v.t. 
+N.v.t. 
+Klasse 3 (CW-3) 
+0,49 
+0,81 
+1 
+N.v.t. 
+Klasse 4 (CW-4/5/6) 
+0,45 
+0,75 
+0,92 
+1 
+waarbij: 
+cW;gen 
+is de correctiefactor voor de warmtebehoefte en de toepassingsklasse; 
+QW;dis;nren;an is de jaarlijkse brutowarmtebehoefte voor warmtapwaterbereiding, bepaald 
+ 
+volgens 13.1.2, in kWh. 
+ 
+Voor tussengelegen waarden van QW;dis;nren;an moet rechtlijnig worden geïnterpoleerd. 
+OPMERKING 1 
+Voor de keuze van een toestel uit een bepaalde toepassingsklasse geldt volgens tabel 13.26 of 
+tabel 13.27 ruwweg dat een toestel in een woonfunctie of woongebouw leidt tot cW;gen < 1 indien is gemeten bij 
+een tappatroon met een warmtebehoefte die groter is dan op grond van de genormeerde warmtebehoefte voor 
+de desbetreffende woonfunctie of het woongebouw nodig zou zijn. 
+630
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 631 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 2 
+De getalswaarden voor cW;gen zijn niet op twee decimalen afgerond om een rechtlijnig verband 
+te houden met de warmtebehoefte.  
+Voor warmtepompen is toepassing in een hogere klasse dan waarbij het rendement is gemeten, niet 
+toegelaten, omdat bij gebruik in een hogere klasse de vergrote inzet van de (elektrische) 
+bijstookvoorziening kan leiden tot een significante daling van het rendement. 
+OPMERKING 3 
+De interpolatie is nodig om een zogenoemd ongewenst ‘zaagtandeffect’ in het energiegebruik 
+te voorkomen: zonder interpolatiemogelijkheid zou, bij een kleine verhoging van de warmtebehoefte, juist op de 
+overgang van een lagere naar een hogere klasse, het opwekkingsrendement doorgaans significant toenemen, 
+dankzij de overgang naar de hogere klasse. Het totaaleffect zou een daling van het primaire energiegebruik zijn, 
+ondanks de stijging van de warmtebehoefte. 
+Indien er sprake is van een toestel dat in serie is opgesteld met meerdere toestellen om gezamenlijk de 
+warmtapwatervraag te dekken, dan moet het deel van de warmtebehoefte waarin dit toestel voorziet, 
+QW;gen;gi;out;an (= ∑mi QW;gen;gi;out,mi), als uitgangspunt voor de bepaling van de correctiefactor cW;gen worden 
+genomen, in plaats van de totale warmtebehoefte QW;dis;nren;an van het systeem. 
+13.8.4.7.4 
+Toestellen in systemen met indirect verwarmde voorraadvaten 
+Bij systemen met indirect verwarmde voorraadvaten bestaat de warmteopwekking ten behoeve van 
+de warmtapwaterbereiding die deel uitmaakt van het subsysteem warmteopwekking, uit een of meer 
+opwekkingstoestellen die tevens deel kunnen uitmaken van het verwarmingssysteem. De verliezen die 
+ontstaan bij de warmwatervoorraad, het oplaadcircuit en de eventuele externe warmtewisselaar, 
+worden bepaald in 13.6.  
+Het thermische-hulpenergiegebruik kan bestaan uit het gasverbruik voor waakvlammen, zoals 
+bepaald in 9.6.2.1. Dit mag alleen in rekening worden gebracht als het desbetreffende 
+opwekkingstoestel niet wordt gebruikt voor verwarming.  
+Het opwekkingsrendement van een toestel voor warmtapwaterbereiding wordt in principe bepaald 
+door het vollastrendement bij bedrijfstemperaturen van 60 °C/80 °C.  
+De rekenwaarden voor het opwekkingsrendement van met gas en met olie gestookte ketels zijn 
+gegeven in tabel 13.28. 
+631
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 632 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 13.28 — Opwekkingsrendement van warmteopwekkers voor indirecte verwarming van 
+warm tapwater van met gas of met olie gestookte ketels  
+Warmteopwekkingsinstallatie voor 
+warmtapwaterbereiding 
+Opwekkingsrendement 
+ηW;gen;gi 
+Een of meer cv-toestellen, geplaatst binnen de 
+begrenzing van de energieprestatieberekening 
+ 
+a) conventionele ketel of onbekend type 
+0,75 
+b) VR-ketel 
+0,80 
+c) HR 100-, HR 104-ketel  
+0,85 
+d) HR 107-ketel 
+0,90 
+Een of meer cv-toestellen, geplaatst buiten de 
+begrenzing van de energieprestatieberekening 
+ 
+a) conventionele ketel of onbekend type 
+0,70 
+b) VR-ketel 
+0,75 
+c) HR 100-, HR 104-ketel  
+0,80 
+d) HR 107-ketel 
+0,85 
+waarbij: 
+conventioneel 
+is een met gas gestookte ketel zonder nadere 
+aanduiding, of een met olie gestookte ketel; 
+VR 
+is een met gas gestookte ketel met een vollastrende-
+ment van ten minste 88,5 %/88,7 % op onderwaarde; 
+HR 100-, 104-, 107-ketel is een met gas gestookte ketel met deellastrendement 
+van ten minste 100 %, 104 % respectievelijk 107 % op 
+onderwaarde. 
+ 
+Indien een van de tabel afwijkende waarde wordt overlegd, moet het opwekkingsrendement naar 
+beneden zijn afgerond naar een veelvoud van 0,025.  
+Het opwekkingsrendement ηW;gen;gi voor WKK is identiek aan het thermische omzettingsgetal voor 
+verwarming, zoals bepaald in 9.6.6.1 voor een HT-systeem. De verrekening van de opgewekte 
+elektriciteit wordt bepaald volgens 16.4.2, waarbij het elektrische omzettingsgetal wordt gebruikt. 
+Hierbij wordt alleen de elektriciteit verrekend die wordt opgewekt bij een warmtebehoefte volgende 
+bedrijfsvoering van de WKK. 
+Het opwekkingsrendement ηW;gen;gi van met vaste biobrandstoffen gestookte verbrandingstoestellen is 
+identiek aan het opwekkingsrendement voor verwarming, zoals bepaald in 9.6.5.1. 
+Het opwekkingsrendement ηW;gen;gi voor warmtedistributie (externe warmtelevering) wordt bepaald 
+in 13.8.4.9. 
+632
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 633 ---
+Withdrawn final
+Ingetrokken definitief
+Warmtepompen kunnen op zeer uiteenlopende manieren worden ingezet voor 
+warmtapwaterbereiding, in de meeste gevallen in combinatie met een andere warmteopwekker. Voor 
+de bepaling van het opwekrendement zijn geen eenvoudige rekenmethoden beschikbaar. Voor 
+warmtepompen die ingezet worden voor het opwarmen van indirect verwarmde voorraadvaten, kan 
+forfaitair uitgegaan worden van ηW;gen;gi = 1,4. De verliezen van een voorraadvat met warm tapwater 
+dat deel uitmaakt van een circulatiesysteem met warm tapwater, moeten apart in rekening worden 
+gebracht volgens 13.6. De verliezen van een eventueel buffervat direct geplaatst bij de warmtepomp 
+zijn meegenomen in het opwekkingsrendement. 
+OPMERKING 1 
+De rekenwaarde voor ηW;gen;gi voor met gas gestookte ketels is identiek aan het 
+vollastrendement, bij 80 °C/60 °C gemeten volgens NEN-EN 297, NEN-EN 483 resp. NEN-EN 677. 
+OPMERKING 2 
+De rekenwaarde van het ongecorrigeerde opwekkingsrendement ηW;gen;gi wordt naar beneden 
+afgerond op 0,025.  
+OPMERKING 3 
+HR 100-, HR 104-, HR 107-ketel: bedoeld is een met gas gestookte ketel met een 
+deellastrendement van ten minste 100 %, 104 % respectievelijk 107 % op onderwaarde, gemeten volgens 
+NEN EN 677 (alleen van toepassing voor bestaande bouw) en/of de NEN-EN 15502-reeks. 
+Ketels met het Gaskeur HR-label, zoals door Kiwa afgegeven vanaf 1 juli 2015, voldoen aan de eis voor een 
+HR 107-ketel. 
+Ketels met het Gaskeur HR 100-, HR 104- of HR 107-label, zoals door Kiwa afgegeven vanaf 1997 tot 1 juli 2015, 
+voldoen aan de eis voor een HR 100-, HR 104- of HR 107-ketel. 
+Ketels met het Gaskeur CV-HR-label, zoals door Kiwa afgegeven tot 1997, voldoen aan de eis voor een HR 100-
+ketel. 
+13.8.4.7.5 
+Hulpenergie forfaitair 
+13.8.4.7.5.1 
+Principe 
+Het elektrische-hulpenergiegebruik van een opwekkingstoestel, WW;aux;gen;gi, wordt bepaald per 
+systeem si, per opwekkingstoestel gi, per maand mi. Dit elektrische-hulpenergiegebruik kan bestaan 
+uit het gebruik van:  
+a) Elektronica van het opwekkingstoestel;  
+Uitgangspunt is continu stand-bybedrijf van het toestel. Bij toestellen die tevens een 
+verwarmingsfunctie hebben, wordt dit verbruik uitsluitend toegerekend aan de 
+verwarmingsfunctie. 
+b) Ventilator en gasklep van het opwekkingstoestel (alleen voor met (bio)gas of olie gestookte 
+verbrandingstoestellen). 
+c) Elektrische ontsteking, brandstofvijzel of andere voorzieningen voor geautomatiseerde 
+brandstoftoevoer, ventilatoren (bij branderbedrijf), voorzieningen voor geautomatiseerde 
+ontassing en voorzieningen voor geautomatiseerde reiniging van de warmtewisselaar (alleen voor 
+verbrandingstoestellen met vaste biobrandstoffen). 
+d) Bronpomp of bronventilator voor een warmtepomp 
+Voor individuele toestellen moet dit verbruik zijn opgenomen in het opwekkingsrendement van het 
+toestel. 
+e) Oplossingspomp in een sorptiewarmtepomp 
+Het verbruik van een oplossingspomp maakt geen deel uit van het opwekkingsrendement van het 
+toestel en moet afzonderlijk worden bepaald. 
+Uitgangspunt voor de posten b), c), d) en e) is het gemiddelde gebruik tijdens de bedrijfstijd en een 
+eventuele voor- en nadraaitijd. 
+633
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 634 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.4.7.5.2 
+Rekenregels 
+Wanneer het opwekkingsrendement bepaald is volgens 13.8.4.2 (getest met 24 uursmetingen) of 
+13.8.4.4 (boosterwarmtepompen), dan is de bepalingswijze voor het elektrische-hulpenergiegebruik 
+opgegeven in voornoemde paragrafen. 
+Behalve voor elektrische doorstroomtoestellen is het elektrische-hulpenergiegebruik van 
+warmtapwatertoestellen of van samengestelde opwekinstallaties onderdeel van het 
+opwekkingsrendement van deze toestellen wanneer dit is bepaald volgens 13.8.4.7.2 of 13.8.4.3. Dan 
+is:  
+WW;aux;gen;gi,mi = 0 
+Bij toepassing van een combitoestel wordt het hulpenergiegebruik voor zowel de opwekking van 
+warm tapwater als voor verwarming bepaald bij het onderdeel verwarming. Dan is: 
+WW;aux;gen;gi,mi = 0 
+Bepaal in alle overige gevallen per systeem si, per opwekkingstoestel gi, per maand mi, het 
+hulpenergiegebruik WW;aux;gen;gi,mi volgens: 
+(
+)
+si,mi
+gi
+g
+;i
+i,m
+m
+s
+i
+i
+P
+P
+P
+P
+Q
+W
+t
+f
+F
+W;aux;gen;e
+W;aux;gen;v;spec
+W;aux;gen;hs;spec
+W;aux;gen;sp;spec
+W;dis;nren;
+W;gen;
+W;aux;g n
+gebouw;
+W
+e ;
+×
+=
+1 000
+×
+×
++
++
++
+×
+×1,1  
+ 
+(13.181) 
+waarin: 
+WW;aux;gen;gi,mi is het elektrische-hulpenergiegebruik van opwekkingstoestel gi, in maand mi, 
+in kWh (elektrisch verbruik);  
+PW;aux;gen;e 
+is het hulpenergiegebruik voor elektronica tijdens stand-by van 
+opwekkingstoestel gi, bepaald volgens 13.8.4.7.5.3, in W;  
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 
+17.2, in h; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+PW;aux;gen;v;spec is het specifieke elektrische-hulpenergiegebruik tijdens branderbedrijf, bepaald 
+volgens 13.8.4.7.5.3, in W/kW;  
+PW;aux;gen;hs;spec is het specifieke elektrische-hulpenergiegebruik voor de bronpomp of 
+bronventilator voor een warmtepomp, bepaald volgens 13.8.4.7.5.3, in W/kW;  
+PW;aux;gen;sp;spec is het specifieke elektrische-hulpenergiegebruik voor de oplossingspomp in een 
+sorptiewarmtepomp, bepaald volgens 13.8.4.7.5.3, in W/kW;  
+QW;dis;nren;si,mi is de hoeveelheid energie ten behoeve van warm tapwater, in maand mi, door de 
+niet-duurzame opwekkers (nren) aangeleverd aan het distributiedeel van systeem si, 
+bepaald volgens 13.1.2.4, in kWh; 
+FW;gen;gi 
+is de dimensieloze energetische bijdrage voor ruimteverwarming, in maand mi, die 
+opwekkingstoestel gi levert aan het systeem si, bepaald volgens 13.2.4. 
+634
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 635 ---
+Withdrawn final
+Ingetrokken definitief
+Wanneer het tapwatersysteem gemodelleerd wordt als één groot systeem met meerdere identieke 
+fysieke opwektoestellen of -systemen, dan moet bij de bepaling van het hulpenergiegebruik rekening 
+worden gehouden met het hulpenergiegebruik per toestel of systeem en met het werkelijke aantal 
+identieke toestellen of systemen. 
+13.8.4.7.5.3 
+Rekenwaarden 
+Voor het hulpenergiegebruik per opwekkingstoestel, WW;aux;gen;gi,mi, gelden de volgende rekenwaarden:  
+PW;aux;gen;e = 10 W 
+Stand-by-elektronica per toestel, ongeacht het soort toestel, 
+mits niet tevens gebruikt voor verwarming (bij combitoestellen 
+geldt dus voor tapwater Paux;gen;e = 0 W); 
+PW;aux;gen;e = 0 W 
+Stand-by-elektronica per toestel, indien dit toestel zonder 
+hulpenergie functioneert;  
+PW;aux;gen;v;spec = 1 W/kW 
+Specifiek elektrische-hulpenergiegebruik tijdens branderbedrijf 
+– ventilator en gasklep, alleen voor met (bio)gas of olie 
+gestookte verbrandingstoestellen; 
+PW;aux;gen;v;spec = 0 W/kW 
+Specifiek elektrische-hulpenergiegebruik tijdens brander-
+bedrijf, indien dit toestel zonder hulpenergie functioneert;  
+PW;aux;gen;v;spec = 10 W/kW 
+Specifiek elektrische-hulpenergiegebruik tijdens branderbedrijf 
+– elektrische ontsteking, brandstofvijzel of andere 
+voorzieningen voor geautomatiseerde brandstoftoevoer, 
+ventilatoren, voorzieningen voor geautomatiseerde ontassing 
+en voorzieningen voor geautomatiseerde reiniging van de 
+warmtewisselaar, alleen voor verbrandingstoestellen met vaste 
+biobrandstoffen; 
+PW;aux;gen;hs;spec = 10 W/kW 
+Bronpomp of -ventilator indien dit verbruik niet is 
+meegenomen in het opwekkingsrendement van het toestel, 
+alleen voor warmtepomp; 
+PW;aux;gen;hs;spec = 0 W/kW 
+Bronpomp of -ventilator bij gebruik van de forfaitaire waarden 
+voor het opwekkingsrendement of indien dit energiegebruik is 
+meegenomen in het opwekkingsrendement van het toestel, 
+alleen voor warmtepomp; 
+PW;aux;gen;sp;spec = 10 W/kW 
+Oplossingspomp indien dit verbruik niet is meegenomen in het 
+opwekkingsrendement van het toestel, alleen voor 
+sorptiewarmtepomp; 
+PW;aux;gen;sp;spec = 0 W/kW 
+Oplossingspomp bij gebruik van de forfaitaire waarden voor het 
+opwekkingsrendement of indien dit energiegebruik is 
+meegenomen in het opwekkingsrendement van het toestel, 
+alleen voor sorptiewarmtepomp. 
+635
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 636 ---
+Withdrawn final
+Ingetrokken definitief
+13.8.4.8 
+Toestellen in systemen met indirect verwarmde voorraadvaten volgens 
+NEN-EN 15316-4:reeks 
+13.8.4.8.1 
+Algemeen 
+Voor systemen met een of meer in serie opgestelde indirect verwarmde voorraadvaten kunnen het 
+opwekkingsrendement, het hulpenergiegebruik en de terugwinbare systeemverliezen ontleend 
+worden aan NEN-EN 15316-4-1 voor met vaste biobrandstof gestookte ketels en aan 
+NEN-EN 15316-4-4 voor een WKK met een maximaal thermisch vermogen van 70 kW. 
+De warmteopwekking in het systeem ten behoeve van de warmtapwaterbereiding kan bestaan uit een 
+of meer opwekkingstoestellen die tevens deel kunnen uitmaken van het verwarmingssysteem.  
+De verliezen die ontstaan bij de warmwatervoorraad, het oplaadcircuit en de eventuele externe 
+warmtewisselaar, worden bepaald in 13.6. 
+Bepaal voor elk toestel het opwekkingsrendement, het hulpenergiegebruik en de terugwinbare 
+systeemverliezen. Maak voor de benodigde invoergegevens gebruik van de gegevens voor het 
+tapwatersysteem. 
+OPMERKING 
+De berekening is gebaseerd op de uitgewerkte methode in hoofdstuk 9 voor verwarming. Voor 
+de invoergegevens gekenmerkt met index H voor verwarming wordt uitgegaan van index W voor warm 
+tapwater. De berekening voor tapwater vindt op dezelfde wijze plaats als voor verwarming. Er wordt in de 
+berekening geen rekening gehouden met verschillen in de bedrijfssituatie door gecombineerd gebruik voor 
+verwarming en tapwater samen. 
+13.8.4.8.2 
+Opwekkingsrendement 
+Bepaal het opwekkingsrendement ηW;gen;gi;mi van elk toestel als volgt: 
+gi;
+mi
+gi,mi
+si;
+gi;
+mi
+Q
+η
+f
+E
+W;gen;
+out;
+W;gen;
+gebouw;
+W
+W;gen,
+in;
+=
+×
+(13.182) 
+waarin: 
+ηW;gen;gi,mi 
+is het dimensieloze opwekkingsrendement voor warm tapwater, in maand mi, van 
+opwekker gi in systeem si; 
+QW;gen;gi;out;mi is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2;  
+EW;gen;gi;in;mi 
+is de hoeveelheid energie die door opwekker gi gebruikt wordt ten behoeve van 
+warm tapwater, in maand mi, in kWh.  
+Gebruik hiervoor EH;gen;gi;cr;j;mi;in voor een met vaste biobrandstof gestookte ketel 
+volgens 9.6.5.2 en voor een WKK volgens 9.6.6.2. 
+636
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 637 ---
+Withdrawn final
+Ingetrokken definitief
+Indien het toestel wordt toegepast voor alleen warm tapwater, is EH;gen;gi;cr;j;mi;in volledig toe te rekenen 
+aan warm tapwater. Bij gebruik als combitoestel moet EH;gen;gi;cr;j;mi;in verdeeld worden over verwarming 
+en warm tapwater naar rato van de output voor verwarming en QW;gen;gi;out;mi. 
+Rond ηW;gen;gi,mi af naar beneden op een veelvoud van 0,025.  
+Hanteer in geval van de WKK bij de bepaling van het thermisch uitgangsvermogen Pth;gen;out 
+in 9.6.6.2.2.1: 
+— QW;gen;gi;out  
+volgens 13.8.2 in plaats van QH;gen;out; 
+— tW;op;gi,mi  
+in plaats van t. 
+
+
+
+
+
+
+
+
+gi;
+mi
+gi,mi
+mi
+si;
+Q
+t
+MIN
+f
+t
+f
+P
+W;gen;
+out;
+W;op;
+func
+gebouw;
+W
+th;chp_100+sup_100
+=
+;
+×
+×
+ 
+(13.183) 
+waarin: 
+tW;op;gi,mi 
+is de totale bedrijfstijd van de opwekker gi = chp voor tapwater in maand mi, in h; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2, in kWh; 
+fgebouw;si;W 
+is de dimensieloze verhouding tussen de gebruiksoppervlakte van het 
+gebouwdeel waarvoor de energieprestatie voor de functie warm tapwater wordt 
+bepaald en de gebruiksoppervlakte van het gebouw als geheel dat geheel of 
+gedeeltelijk is aangesloten op het collectieve gebouwsysteem si voor de functie 
+warm tapwater, volgens 13.1.2;  
+Pth;chp_100+sup_100 is het benutbare vermogen van het geteste WKK-systeem (CHP100 % + 
+Sup100 %) volgens NEN-EN 50465 of NEN-ISO 3046-1:2002 (zie 9.6.6.2.2.1 en 
+9.6.6.2.2.2), in kW; 
+ffunc 
+is de dimensieloze tijdfractie dat opwekker gi voor warm tapwater maximaal in 
+bedrijf is. Voor toestellen in grote systemen (Ag;si > 500 m2) geldt ffunc = 0,6. Voor 
+alle overige toestellen geldt ffunc = 1,0; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 
+17.2, in h. 
+De verrekening van de opgewekte elektriciteit van een WKK gebeurt in 16.4.3. Hierbij wordt alleen de 
+elektriciteit verrekend die wordt opgewekt bij een warmtebehoefte volgende bedrijfsvoering van de 
+WKK. Gebruik hierbij voor het geleverde elektrische vermogen door de gebouwgebonden WKK 
+(Pel;chp;out;W) het elektrische vermogen volgens 9.6.6.2.2.2 en de bedrijfstijd tW;op;gi,mi. 
+13.8.4.8.3 
+Hulpenergie 
+Bepaal het hulpenergiegebruik WW;aux;gen;gi. Gebruik hiervoor WH;gen;gi;aux;mi × fgebouw;si;W voor een met 
+vaste biobrandstof gestookte ketel volgens 9.6.6.2 en voor een WKK volgens 9.6.5.2. 
+637
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 638 ---
+Withdrawn final
+Ingetrokken definitief
+Waarbij: 
+fgebouw;si;W is de dimensieloze verhouding tussen de gebruiksoppervlakte van het gebouwdeel 
+waarvoor de energieprestatie voor de functie warm tapwater wordt bepaald en de 
+gebruiksoppervlakte van het gebouw als geheel dat geheel of gedeeltelijk is 
+aangesloten op het collectieve gebouwsysteem si voor de functie warm tapwater, 
+volgens 13.1.2. 
+OPMERKING 
+Naast elektrische-hulpenergiegebruik kan er ook sprake zijn van thermische-
+hulpenergiegebruik voor waakvlammen. 
+13.8.4.8.4 
+Terugwinbare verliezen 
+Bepaal de terugwinbare verliezen van de opwekkers QW;gen;ls;rbl;gi.  
+Gebruik hiervoor QH;gen;gi;ls;rbl;zt;j,mi × fgebouw;si;W voor een met vaste biobrandstof gestookte ketel 
+volgens 9.6.6.2 en voor een WKK volgens 9.6.5.2. 
+OPMERKING 
+Voor systemen in gebouwen met een gebruiksoppervlakte van meer dan 500 m2 wordt ervan 
+uitgegaan dat de opwekkers en eventuele voorraadvaten in een aparte zone zijn opgenomen. waardoor de 
+optredende warmteverliezen niet terugwinbaar zijn voor de overige rekenzones. Over het algemeen zullen de 
+terugwinbare verliezen van de opwekkers in een dergelijk systeem daardoor niet meegenomen worden 
+(zie 13.1.2). 
+13.8.4.9 
+Warmtelevering via een afleverset 
+13.8.4.9.1 
+Algemeen 
+Bij warmtelevering via een afleverset worden twee situaties onderscheiden: 
+— externe warmtelevering; 
+— warmtelevering vanuit een (collectief) gebouwsysteem voor de functie verwarming. 
+Het distributieverlies van het (collectieve) circulatiesysteem voor externe warmtelevering is 
+meegenomen bij de bepaling van het rendement voor externe warmtelevering. 
+Wanneer er sprake is van een circulatiesysteem vanuit een collectief (gebouwgebonden) 
+verwarmingssysteem dat alleen wordt gebruikt voor de functie warm tapwater, dan moet het 
+distributieverlies volgens 13.4 worden bepaald. Wanneer het circulatiesysteem vanuit een collectief 
+(gebouwgebonden) verwarmingssysteem zowel wordt gebruikt voor de functie warm tapwater als 
+voor de functie verwarming, dan wordt het distributieverlies volgens 9.4 bepaald. 
+Indien de aanvoertemperatuur van het verwarmingssysteem lager is dan 60 °C bij de afleverset, dan 
+kan er met alleen een afleverset op een collectief verwarmingssysteem geen warm tapwater gemaakt 
+worden. 
+OPMERKING 1 
+Warmtelevering vanuit een collectief verwarmingssysteem waarin (deels) gebruik wordt 
+gemaakt van warmtepompen, is alleen mogelijk indien de aanvoertemperatuur van het verwarmingssysteem 
+ϑH,a;ontw volgens 9.4.2 jaarrond continu meer dan 65 °C bedraagt. Dit komt overeen met een 
+ontwerptemperatuurklasse van het verwarmingssysteem van 70/60 of meer. 
+Wanneer er aan de vraagzijde van de afleverset sprake is van een circulatiesysteem voor warm 
+tapwater (warmtapwatercirculatiesysteem op gebouwniveau), dan moet het distributieverlies en het 
+hulpenergiegebruik voor circulatiepompen hiervoor separaat worden bepaald en meegenomen bij de 
+bepaling van het energiegebruik per systeem. Ook het warmteverlies van eventuele voorraadvaten 
+voor warm tapwater geplaatst na de afleverset moet worden meegenomen volgens 13.6. De 
+warmteverliezen van eventuele buffervaten die zich bevinden vóór de afleverset in het 
+638
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 639 ---
+Withdrawn final
+Ingetrokken definitief
+circulatiesysteem voor cv-water, worden verrekend bij de distributieverliezen van het 
+verwarmingssysteem in 9.2.3.3. 
+OPMERKING 2 
+Het hulpenergiegebruik van afleversets wordt bepaald in 13.4.4. 
+13.8.4.9.2 
+Externe warmtelevering 
+Opwekkingsrendement 
+Het opwekkingsrendement van externe warmtelevering, ηW;gen;dh, heeft als vaste waarde 1,0. 
+Waarbij: 
+ηW;gen;dh 
+is het opwekkingsrendement voor warm tapwater bij externe warmtelevering. 
+OPMERKING 
+Bij externe warmtelevering is warm tapwater de energiedrager. Met de waarde van 1,0 wordt 
+dit expliciet gemaakt op de grens van het gebouw of perceel. Voor de bepaling van de energieprestatie wordt 
+tevens de beleidsmatige, forfaitaire waarde voor de primaire energiefactor voor aangeleverde warmte 
+(fP;del;dh/dw) in rekening gebracht in hoofdstuk 5. Indien gebruik wordt gemaakt van een kwaliteitsverklaring op 
+basis van bijlage P, wordt voor de primaire energiefactor voor aangeleverde warmte (fP;del;dh/dw) gebruikgemaakt 
+van de waarde uit de kwaliteitsverklaring. 
+Hulpenergie 
+Het hulpenergiegebruik van de eventuele opwektoestellen voor externe warmtelevering is opgenomen 
+in het opwekkingsrendement van externe warmtelevering; WW;aux;gen;gi,mi = 0. 
+Terugwinbare systeemverliezen 
+Er zijn op gebouwniveau geen terugwinbare verliezen van de eventuele opwektoestellen. 
+13.8.4.9.3 
+Gebouwsysteem voor verwarming 
+Opwekkingsrendement 
+Bij warmtelevering vanuit een (collectief) gebouwsysteem voor de functie verwarming wordt er 
+gebruikgemaakt van de opwektoestellen van dat verwarmingssysteem. Over het algemeen worden 
+deze toestellen ook gebruikt voor verwarming. Voor het opwekkingsrendement voor warm tapwater 
+wordt feitelijk gebruikgemaakt van het opwekkingsrendement van de toestellen waar het 
+verwarmingssysteem uit bestaat. 
+In afwijking van de bepalingswijze in formule (13.3) wordt het energiegebruik voor de opwekking van 
+warm tapwater per systeem, opwekker en energiedrager niet bepaald door gebruik te maken van het 
+rendement van het opwekkingstoestel voor tapwater, maar door de benodigde energie voor de 
+productie van warm tapwater te bepalen volgens formule (13.185) en mee te nemen bij de benodigde 
+warmte die door het (collectieve) gebouwsysteem voor de functie verwarming geleverd moet worden. 
+De bedrijfswijze voor de services warm tapwater en verwarming is parallel (gelijktijdig). In 
+hoofdstuk 9 zijn randvoorwaarden gegeven voor de bedrijfscondities van het verwarmingssysteem 
+dat wordt ingezet voor de functie warm tapwater.  
+Het energiegebruik voor warm tapwater wordt in dat geval volledig berekend bij het energiegebruik 
+van het verwarmingssysteem en het energiegebruik van het warmtapwatersysteem EW;si,gi(=conv;hj),ci = 0. 
+Bij warm tapwater resteert alleen het hulpenergiegebruik van het distributiesysteem ten behoeve van 
+warm tapwater. Wanneer het wenselijk is om het deel van het energiegebruik van het 
+verwarmingssysteem dat bestemd is voor de productie van warm tapwater, in beeld te brengen, 
+bepaal dan het energiegebruik voor verwarming en warm tapwater als volgt: 
+639
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 640 ---
+Withdrawn final
+Ingetrokken definitief
+Verdeel het energiegebruik van de opwekkers uit het opweksysteem proportioneel per 
+energiedrager ci op basis van de energie die vanuit de verschillende services nodig is: 
+mi
+si,gi,ci,mi
+si,gi,ci,mi
+mi
+mi
+E
+E
+E
+E
+Q
+W;gen;in;conv;hj;
+W;
+H;gen;in;
+W;gen;in;conv;hj;
+H;nod;in;
+=
+×
++
+ 
+(13.184) 
+waarin:
+ 
+ 
+EW;si,gi,ci,mi 
+is de hoeveelheid gebruikte energie ten behoeve van warm tapwater, voor 
+maand mi, systeem si en van dit systeem de opwekker gi die energie van 
+energiedrager ci betrekt, in kWh; 
+EH;gen;in;si,gi,ci,mi 
+is de hoeveelheid gebruikte energie ten behoeve van verwarming en warm 
+tapwater, voor maand mi, in systeem si en van dit systeem de opwekker gi die 
+energie van energiedrager ci betrekt, in kWh; gebruik hiervoor de som van 
+EY;gen,gi;in;cr,j;mi voor de energiefuncties Y=verwarming en tapwater volgens 9.2.1; 
+EW;gen;in;conv;hj;mi 
+is de door een afleverset voor de opwekking van warm tapwater gebruikte 
+energie, geleverd door het (collectieve) gebouwsysteem si voor de functie 
+verwarming (si = conv;hj), per maand, in kWh; 
+QH;nod;in;mi 
+is de hoeveelheid energie ten behoeve van verwarming, in maand mi, door de 
+niet-duurzame opwekkers aangeleverd aan het distributiesysteem van 
+verwarmingssysteem si, bepaald volgens 9.2.3.5. 
+Het energiegebruik voor verwarming wordt op vergelijkbare wijze bepaald in 9.2.1.2. 
+OPMERKING 
+Wanneer bij de bepaling van QH;nod;in;mi reeds rekening gehouden is met EW;gen;in;conv;hj,mi, dan kan 
+deze post in de noemer van formule (13.184) vervallen. 
+Benodigde warmte uit verwarmingssysteem 
+De door de afleverset voor warm tapwater gebruikte energie, geleverd door het collectieve 
+(gebouwgebonden) verwarmingssysteem (EW;gen;in;conv;hj;mi), wordt als volgt bepaald: 
+EW;gen;in;conv;hj;mi = QW;gen;gi;out;mi + QW;dis;conv;ls;mi 
+(13.185) 
+waarin: 
+EW;gen;in;conv;hj;mi 
+is de door een afleverset voor de opwekking van warm tapwater gebruikte 
+energie, geleverd door het (collectieve) gebouwsysteem si voor de functie 
+verwarming (si = conv;hj), in maand mi, in kWh; 
+QW;gen;gi;out;mi 
+is de hoeveelheid energie die door opwekker gi geleverd wordt ten behoeve van 
+warm tapwater, in maand mi, bepaald volgens 13.8.2, in kWh; 
+QW;dis;conv;ls;mi 
+zijn de warmteverliezen van alle toegepaste afleversets voor warm tapwater, in 
+maand mi, volgens 13.4.2, in kWh. 
+Hulpenergie 
+Het hulpenergiegebruik van de opwektoestellen van het verwarmingssysteem wordt meegenomen bij 
+het verwarmingssysteem conv;si. Voor tapwater geldt WW;aux;gen;gi,mi = 0. 
+Terugwinbare verliezen 
+De terugwinbare verliezen van de opwektoestellen van het verwarmingssysteem worden 
+meegenomen bij het verwarmingssysteem conv;si. Voor tapwater zijn er geen terugwinbare 
+systeemverliezen. 
+640
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 641 ---
+Withdrawn final
+Ingetrokken definitief
+14 Verlichting 
+14.1 Principe 
+De energiebehoefte voor verlichting bestaat uit: 
+— de elektrische energiebehoefte voor verlichting voor het voorzien in de noodzakelijke 
+verlichtingsniveaus; 
+— de elektrische energiebehoefte voor parasitair vermogen voor het opladen van de accu’s van 
+noodverlichtingsarmaturen en voor het totale stand-by-vermogen voor de automatische besturing 
+van de armaturen.  
+De energiebehoefte voor verlichting wordt bepaald per rekenzone. Een rekenzone kan verschillende 
+verlichtingszones bevatten als er sprake is van verschillende verlichtingsoplossingen.  
+OPMERKING  
+Twee verlichtingsoplossingen verschillen van elkaar als één of meer van de volgende 
+kenmerken van de oplossingen verschillen: de verlichtingstechnologie (zie tabel 14.2), het aan- of afwezig zijn 
+van nieuwwaarde-compensatie, de afhankelijkheid van aanwezigheid (zie tabel 14.4), de aanwezigheid en type 
+aanwezigheid- of afwezigheidsdetectie (zie tabel 14.5). 
+Daarnaast kan er bij gebruik van (een) daglichtregeling(en) in iedere verlichtingszone sprake zijn van 
+een of meer daglichtsectoren. Er zijn regels opgenomen om het aantal zones zoveel mogelijk te kunnen 
+beperken. 
+14.2 Energiebehoefte verlichting 
+Er wordt onderscheid gemaakt tussen rekenzones met een woonfunctie en rekenzones met 
+utiliteitsfuncties. De energiebehoefte voor verlichting voor rekenzones met een woonfunctie wordt 
+bepaald in 14.2.1 en voor rekenzones met utiliteitsfuncties in 14.2.2. 
+ Energiebehoefte verlichting woonfuncties 
+Voor rekenzones met een woonfunctie geldt: 
+ 
+(14.1) 
+𝑊L = 𝑊L;spec × 𝐴g 
+(14.2) 
+en 
+𝑊𝑃 = 0 
+(14.3) 
+t
+L
+P
+W
+W
+W
+641
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 642 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+WL 
+is de energiebehoefte voor verlichting voor het voorzien in de noodzakelijke 
+verlichtingsniveaus per jaar, in kWh; 
+WL;spec 
+is de specifieke energiebehoefte voor verlichting voor het voorzien in de noodzakelijke 
+verlichtingsniveaus, in kWh/m2. Voor de berekening van de energieprestatie-
+indicatoren van een gebouw moet hiervoor een waarde van 0 kWh/m2 worden 
+aangehouden; 
+Ag 
+is de gebruiksoppervlakte van de beschouwde rekenzone, bepaald volgens 6.6.3, in m2; 
+WP 
+is de energiebehoefte voor parasitair vermogen, in kWh. 
+OPMERKING 
+Bij een maatwerkadvies kan een eigen waarde worden aangehouden voor WL;spec. Om die reden 
+is deze post gehandhaafd in de berekening, alhoewel deze waarde voor de berekening van het energielabel en de 
+energieprestatie-indicatoren altijd nul is. Een mogelijke richtwaarde voor WL;spec is 5 kWh/m2. 
+ Energiebehoefte verlichting utiliteitsfuncties 
+Voor rekenzones met utiliteitsfuncties geldt het volgende: 
+Schematisering 
+Verdeel de rekenzone in verlichtingszones zodanig dat binnen iedere verlichtingszone dezelfde 
+verlichtingsoplossing, inclusief regeling, wordt toegepast. Bepaal de gebruiksoppervlakte van iedere 
+verlichtingszone j in de rekenzone, waarbij de som van de gebruiksoppervlaktes van de 
+verlichtingszones gelijk is aan de gebruiksoppervlakte van de rekenzone: 
+𝑗𝐴𝑔;𝑣𝑧𝑗= 𝐴𝑔 
+(14.4) 
+waarin: 
+Ag,vzj  
+is de gebruiksoppervlakte van verlichtingszone j, in m2; 
+Ag 
+is de gebruiksoppervlakte van de beschouwde rekenzone, bepaald volgens 6.6.3, in m2. 
+Twee of meer verlichtingszones die binnen één rekenzone liggen mogen worden samengevoegd tot 
+één verlichtingszone, mits de grootste van de verlichtingszones die worden samengevoegd groter is 
+dan 70 % van de gesommeerde oppervlakte van de samen te voegen verlichtingszones. In dit geval 
+moeten voor FC, Fo,D, Fo,N en FD de rekenwaarden worden genomen die horen bij de 
+verlichtingsoplossing van de grootste (oorspronkelijke) verlichtingszone en wordt de 
+gebruiksoppervlakte van de samengevoegde verlichtingszones gelijk aan de gesommeerde 
+oppervlakte van de afzonderlijke verlichtingszones. Het samenvoegen van verlichtingszones mag per 
+verlichtingszone maar één keer plaatsvinden. 
+OPMERKING 1 
+Deze samenvoegingsregel moet voorkomen dat voor bijv. gangen en toiletten een extra 
+verlichtingszone moet worden gemaakt. 
+OPMERKING 2 
+Het slechts één keer mogen optellen van een verlichtingszone moet voorkomen dat men twee 
+verlichtingszones samenvoegt, en deze vervolgens weer met een derde zone samenvoegt. De samenvoeging moet 
+als volgt worden geïnterpreteerd: Indien een rekenzone bestaat uit vier verlichtingszones van respectievelijk 
+14 m2, 15 m2, 50 m2 en 100 m2, mogen de verlichtingszones van 14 m2, 15 m2 en 100 m2 worden samengevoegd 
+tot één verlichtingszone, aangezien 100 m2 groter is dan 70 % van de gezamenlijke oppervlakte van 129 m2. Het 
+is niet toegestaan om vervolgens de verlichtingszone van 50 m2 samen te voegen met de reeds samengevoegde 
+verlichtingszone van 129 m2, ook al is 129 m2 meer dan 70 % van de totale oppervlakte van 179 m2. 
+642
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 643 ---
+Withdrawn final
+Ingetrokken definitief
+Rekenregels 
+Voor het bepalen van de totale energiebehoefte Wt voor verlichting per jaar, moet de totale 
+energiebehoefte Wt,j  voor verlichting per jaar voor iedere verlichtingszone j worden gesommeerd:  
+𝑊𝑡= 𝑗̇ 𝑊𝑡,𝑗 
+(14.5) 
+waarin: 
+Wt 
+is de totale energiebehoefte voor verlichting per jaar, in kWh; 
+Wt,j 
+is de totale energiebehoefte voor verlichting per jaar voor verlichtingszone j, in kWh. 
+Bepaal de totale energiebehoefte Wt,j  voor verlichting per jaar voor iedere verlichtingszone j als volgt: 
+ 
+(14.6) 
+waarbij geldt: 
+𝑊L,𝑗= {(𝑃𝑛,𝑗 × 𝐹C,𝑗) × [(tD × 𝐹o;D;𝑗 × 𝐹D,𝑗) + (𝑡N × 𝐹o;N,𝑗)]}/1000  
+(14.7) 
+waarin: 
+WL is de energiebehoefte voor verlichting voor het voorzien in de noodzakelijke 
+verlichtingsniveaus van verlichtingszone j per jaar, in kWh; 
+WP,j is de energiebehoefte voor parasitair vermogen van verlichtingszone j per jaar, bepaald 
+volgens 14.3, in kWh; 
+Pn,j is het totale geïnstalleerde vermogen voor verlichting van verlichtingszone j, bepaald volgens 
+14.3, in W;  
+FC,j is de nieuwwaarde-compensatiefactor, waarbij de verlichtingssterkte constant wordt 
+gehouden bij veroudering van de verlichting van verlichtingszone j, bepaald volgens 14.4; 
+tD 
+is het aantal branduren per jaar in de dagperiode, gewogen naar de gebruiksoppervlakte van 
+de gebruiksfuncties die in de rekenzone zijn gelegen, bepaald volgens tabel 14.1, in h; 
+Fo;D,j is de aan te houden dimensieloze factor voor de aanwezigheid in de dagperiode van 
+verlichtingszone j, bepaald volgens 14.5; 
+Fo;N,j is de aan te houden dimensieloze factor voor de aanwezigheid in de avondperiode van 
+verlichtingszone j, bepaald volgens 14.5; 
+FD,j is de dimensieloze factor voor de daglichtafhankelijkheid van verlichtingszone j, bepaald 
+volgens 14.6; 
+tN 
+is het aantal branduren per jaar in de avondperiode, gewogen naar de gebruiksoppervlakte 
+van de gebruiksfuncties die in de rekenzone zijn gelegen, bepaald volgens tabel 14.1, in h. 
+OPMERKING 3 
+Deze bepaling bevat niet de elektrische energiebehoefte van besturingssystemen van het 
+verlichtingssysteem die niet verbonden zijn aan de armatuur en die ook geen elektrische energie gebruiken van 
+de armatuur.  
+,
+,
+,
+t j
+L j
+P j
+W
+W
+W
+643
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 644 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 4 
+Om de schematisering eenvoudig te houden, wordt het aantal branduren bepaald op 
+rekenzoneniveau en niet op verlichtingszoneniveau. 
+Tabel 14.1 — Maximale brandduur per jaar overdag tD en ’s avonds/’s nachts tN  
+Gebruiksfunctie van een gebouw 
+of een gedeelte van een gebouw 
+Maximale brandduur  
+overdag  
+tD  
+h 
+Maximale brandduur 
+’s avonds/’s nachts   
+tN  
+h 
+Bijeenkomstfunctie kinderopvang 
+2 200 
+300 
+Bijeenkomstfunctie  
+2 200 
+300 
+Celfunctie 
+4 000 
+1 000 
+Gezondheidszorgfunctie met 
+bedgebied 
+4 000 
+1 000 
+Gezondheidszorgfunctie anders dan 
+met bedgebied 
+2 200 
+300 
+Kantoorfunctie 
+2 200 
+300 
+Logiesfunctie 
+4 000 
+1 000 
+Onderwijsfunctie 
+1 600 
+300 
+Sportfunctie 
+2 200 
+800 
+Winkelfunctie 
+2 700 
+400 
+ 
+OPMERKING 5 
+Voor de leesbaarheid is het subscript i, als aanduiding voor de bepaling per verlichtingszone, 
+in de onderstaande paragrafen van dit hoofdstuk weggelaten.  
+14.3 Geïnstalleerd vermogen verlichting 
+ Principe 
+Het geïnstalleerde vermogen voor verlichting voor de categorie utiliteitsbouw moet per 
+verlichtingszone worden bepaald aan de hand van werkelijk geïnstalleerde vermogens volgens 14.3.2, 
+en het werkelijk geïnstalleerde parasitaire vermogen volgens 14.3.3. Indien het werkelijk 
+geïnstalleerde vermogen voor verlichting niet bekend is, kan in afwijking van 14.3.2 gebruik worden 
+gemaakt van forfaitaire waarden volgens 14.3.4. Indien het werkelijk geïnstalleerde parasitaire 
+vermogen niet bekend is, kan in afwijking van 14.3.3 gebruik worden gemaakt van forfaitaire waarden 
+volgens 14.3.4. 
+644
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 645 ---
+Withdrawn final
+Ingetrokken definitief
+ Geïnstalleerd vermogen verlichtingsarmaturen 
+Bepaal voor iedere verlichtingszone het totale geïnstalleerde vermogen voor verlichting, Pn, door 
+sommatie van de geïnstalleerde vermogens van de verlichtingsarmaturen (lampen, inclusief 
+voorschakelapparaten) per verlichtingszone met: 
+ 
+𝑃n = (𝑃n;armature;1 + 𝑃n;armature;2 + ⋯) × 𝑓dyn × 𝑓prac 
+(14.8) 
+waarin: 
+Pn 
+is het totale geïnstalleerde vermogen van alle lampen plus voorschakelapparaten 
+(verlichtingsarmaturen), in W; 
+Pn;armature;1,2,… 
+is het geïnstalleerde vermogen van lamp(en) inclusief voorschakelapparaat van 
+verlichtingsarmatuur 1,2,…, in W; 
+fdyn 
+is een reductiefactor die bij toepassing van dynamische verlichting het 
+geïnstalleerde vermogen van de verlichtingsarmaturen reduceert tot het 
+percentage van de nominale energiebehoefte dat door een vast 
+voorgeprogrammeerde instelling in werkelijkheid zal worden gedissipeerd; 
+fprac 
+is de praktijk-prestatiefactor, waarvoor de waarde 1 wordt aangehouden. 
+OPMERKING 1 
+De factor fdyn is opgenomen om tegemoet te kunnen komen aan de waardering van 
+verlichtingssystemen waarmee non-visuele aspecten van verlichting kunnen worden beïnvloed. Deze 
+verlichtingssystemen maken gebruik van bepaalde instellingen voor de lichtintensiteit, het tijdstip waarop licht 
+wordt aangeboden, de tijdsduur en de kleurtemperatuur. Dit impliceert dat er dan een groter aangesloten 
+vermogen voor de lichtinstallatie nodig is, dan wanneer alleen naar de visuele prestatie van de verlichting wordt 
+gekeken. Het werkelijk opgenomen vermogen is echter beperkt door het algoritme waarmee de juiste 
+instellingen worden bepaald. In dat geval zal met de reductiefactor fdyn het percentage van de nominale 
+energiebehoefte in rekening kunnen worden gebracht dat door de vast voorgeprogrammeerde instelling in 
+werkelijkheid zal worden gedissipeerd. 
+In alle gevallen waarin het vermogen van het voorschakelapparaat onbekend is en in alle gevallen 
+waarin de aanwezigheid van voorschakelapparatuur onbekend is, kan het totaal geïnstalleerde 
+vermogen van een armatuur met lamp(en) inclusief voorschakelapparatuur (Pn;armature;i) in de 
+verlichtingszone als volgt worden ingeschat: 
+𝑃n;armature;𝑖= (1 + 𝑝voorschakel/100) × PL,n,𝑖× nL,𝑖 
+(14.9) 
+waarin: 
+Pn;armature;i, 
+is het geïnstalleerde vermogen van de armatuur met lamp(en) inclusief 
+voorschakelapparaat van verlichtingsarmatuur i, in W; 
+pvoorschakel 
+is het percentage ten opzichte van het nominale lampvermogen dat in de 
+voorschakelapparatuur van verlichtingssystemen wordt gedissipeerd, bepaald 
+volgens tabel 14.2, in %; 
+PL,n,i 
+is het nominaal vermogen van de lamp in verlichtingsarmatuur i, in W; 
+nL,i 
+is het aantal lampen in verlichtingsarmatuur i. 
+645
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 646 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 14.2 — Het percentage Pvoorschakel ten opzichte van het nominale lampvermogen dat in de 
+voorschakelapparatuur van verlichtingssystemen wordt gedissipeerd 
+Type verlichtingstechnologie 
+Pvoorschakel [%] 
+Verlichtingssystemen die zonder separate ballast aan de 
+netspanning kunnen worden aangesloten of die zijn 
+voorzien van een geïntegreerde ballast a 
+0 % 
+Ledtechnologie 
+8 % 
+Fluorescentietechnologie T5 
+10 % 
+Fluorescentietechnologie T8 met hoogfrequente 
+voorschakelapparatuur (elektronische ballast) b 
+0 % 
+Fluorescentietechnologie T8 met conventionele 
+voorschakelapparatuur (elektromagnetische ballast) b 
+20 % 
+Fluorescentietechnologie T12 
+20 % 
+Technologie Compact Fluorescentie niet geïntegreerd 
+15 % 
+Onbekend of voorschakelapparatuur aanwezig is, 
+onbekende verlichtingstechnologie, overige 
+verlichtingstechnologie 
+20 % 
+a Bijv. gloeilampen en fluorescentielampen met ingebouwd voorschakelapparaat. 
+b Bij de waarden voor het percentage Pvoorschakel van T8-technologie ten opzichte van het nominale 
+lampermogen dat in de voorschakelapparatuur van het verlichtingssysteem wordt gedissipeerd, is het 
+uitgangspunt dat het nominale vermogen van de lamp in het verlichtingsarmatuur, PL,n,i, is bepaald op basis 
+van het nominale vermogen dat vermeld is op de stempel op de lamp of is beschreven in de documentatie. 
+Voor fluorescentietechnologie T8 met elektronische ballast geldt dat in dat vermogen de toeslag voor de 
+voorschakelapparatuur al is verdisconteerd. De voorschakelapparatuur gebruikt wel degelijk vermogen, 
+maar verlaagt ook het opgenomen vermogen van de lamp zelf. Daarom is in deze tabel de toeslag op 0 % 
+gesteld. 
+ 
+OPMERKING 2 
+De gegeven inschatting van het geïnstalleerde vermogen inclusief voorschakelapparaat van 
+een verlichtingsarmatuur geldt voor de lamp-ballast-combinatie. Indien er andere apparatuur in een armatuur is 
+geïntegreerd, dan valt dat voor deze bepaling buiten de scope van het begrip systeemvermogen. 
+OPMERKING 3 
+De termen conventioneel, elektromagnetisch en EM worden in de praktijk door elkaar 
+gebruikt. De termen elektronisch, EVSA, hoogfrequent en HF worden in de praktijk door elkaar gebruikt 
+Rond de aldus bepaalde waarde Pn naar boven af op twee significante cijfers volgens bijlage X. 
+ Geïnstalleerd parasitair vermogen 
+Bepaal voor iedere verlichtingszone de energiebehoefte voor parasitair vermogen Wp in kWh per jaar 
+met: 
+𝑊𝑝=
+{(𝑃𝑝𝑐×𝑡an)+(𝑃𝑒𝑚×𝑡an)}
+1000
+ 
+(14.10) 
+waarin: 
+646
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 647 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+(14.11) 
+ 
+(14.12) 
+waarin: 
+WP is de energiebehoefte voor parasitair vermogen, in kWh; 
+Pem is het totaal geïnstalleerde vermogen voor het opladen van de accu’s van 
+noodverlichtingsarmaturen per jaar, in W; 
+Ppc is het totale stand-by-vermogen voor de automatische besturing van de armaturen als de 
+lampen niet in gebruik zijn, in W; 
+Pei is het geïnstalleerde vermogen voor het opladen van de accu’s van individuele 
+noodverlichtingsarmatuur i, in W; 
+Pci is het stand-by-vermogen voor de automatische besturing van individuele armatuur i, in W; 
+ne is het aantal individuele noodverlichtingsarmaturen in de verlichtingszone; 
+np is het aantal individuele armaturen met automatische besturing in de verlichtingszone; 
+tan is 8 760, het aantal uren in een jaar, in h. 
+Rond de aldus bepaalde waarden Pem en Ppc  naar boven af op twee significante cijfers volgens bijlage X. 
+OPMERKING 
+Het parasitair vermogen van noodverlichting ten behoeve van bewegwijzering van vluchtwegen 
+is in bovenstaande methode (conform NEN-EN 15193-1:2017) niet meegenomen. 
+ Forfaitaire rekenwaarden 
+Indien het werkelijk geïnstalleerde vermogen voor verlichting niet bekend is, kan in afwijking van 
+14.3.2 de rekenwaarde voor het geïnstalleerde vermogen voor verlichting, Pn, in de verlichtingszone 
+worden bepaald met: 
+𝑃n = (𝑃n;spec ∙𝑓prac) ∙𝐴use;𝑣𝑧𝑖 
+(14.13) 
+waarin: 
+Pn 
+is het totale geïnstalleerde vermogen van alle lampen plus voorschakelapparaten 
+(verlichtingsarmaturen), in W; 
+Pn;spec 
+is het specifieke geïnstalleerde vermogen voor verlichting, gewogen naar de 
+gebruiksoppervlakte van de gebruiksfuncties die in de rekenzone zijn gelegen, bepaald 
+volgens tabel 14.3, in W/m2; 
+fprac 
+is de praktijk-prestatiefactor, waarvoor de waarde 1 wordt aangehouden; 
+Ag,vzi 
+is de gebruiksoppervlakte van verlichtingszone i, bepaald volgens 6.6.3, in m2.  
+1
+i ne
+em
+ei
+i
+P
+P
+=
+=
+= 
+1
+i np
+pc
+ci
+i
+P
+P
+=
+=
+= 
+647
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 648 ---
+Withdrawn final
+Ingetrokken definitief
+Indien in een verlichtingszone gebruik wordt gemaakt van de forfaitaire methode voor de bepaling van 
+het geïnstalleerde vermogen, moet deze forfaitaire methode voor alle verlichtingszones in de 
+rekenzone worden gebruikt. 
+Tabel 14.3 — Specifiek geïnstalleerd vermogen voor verlichting, Pn;spec 
+Gebruiksfunctie van een gebouw 
+of gedeelte van een gebouw 
+Specifiek geïnstalleerd 
+vermogen voor verlichting 
+Pn;spec  
+W/m2 
+Bijeenkomstfunctie kinderopvang 
+16 
+Bijeenkomstfunctie 
+Gezondheidszorgfunctie anders dan met 
+bedgebied 
+Kantoorfunctie 
+Onderwijsfunctie 
+Sportfunctie 
+Celfunctie 
+17 
+Gezondheidszorgfunctie met bedgebied 
+Logiesfunctie 
+Winkelfunctie 
+30 
+Indien het werkelijk geïnstalleerde parasitaire vermogen niet bekend is, kan in afwijking van 14.3.3 de 
+rekenwaarde voor de energiebehoefte voor parasitair vermogen in een rekenzone, Wp in kWh, per jaar 
+worden bepaald met de volgende forfaitaire methode: 
+Wp = (Wpe;spec + Wpc;spec) × Ause;vzi 
+(14.14) 
+waarin: 
+WP 
+is de energiebehoefte voor parasitair vermogen per jaar, in kWh; 
+Wpe;spec 
+is het specifieke elektriciteitsgebruik voor het opladen van de accu’s van 
+noodverlichtingsarmaturen per jaar, in W, waarvoor een waarde van 1,0 kWh/m2 
+moet worden aangehouden; 
+Wpc;spec 
+is het specifieke elektriciteitsgebruik voor de stand-by-verliezen voor de 
+automatische besturing van de armaturen als de lampen niet in gebruik zijn per jaar, 
+waarvoor een waarde van 1,5 kWh/m2 moet worden aangehouden; 
+Ag;vzi 
+is de gebruiksoppervlakte van verlichtingszone i, bepaald volgens 6.6.3, in m2. 
+648
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 649 ---
+Withdrawn final
+Ingetrokken definitief
+Indien in een verlichtingszone gebruik wordt gemaakt van deze forfaitaire methode voor de bepaling 
+van het parasitair vermogen, moet deze forfaitaire methode voor alle verlichtingszones in de 
+rekenzone worden gebruikt. 
+14.4 Nieuwwaarde-compensatiefactor (Fc) 
+Vanaf het moment van installatie gaan verlichtingssystemen achteruit en wordt het vermogen kleiner. 
+Om te voorkomen dat de verlichtingssterkte op het werkvlak hierdoor te laag wordt, wordt meer 
+vermogen geïnstalleerd dan initieel noodzakelijk is om de gewenste verlichtingssterkte te bereiken. 
+Voor verlichtingssystemen met een nieuwwaarde-compensatie wordt het vermogen gereduceerd tot 
+het niveau waarmee de gewenste verlichtingssterkte wordt bereikt. Deze reductie wordt uitgedrukt in 
+de nieuwwaarde-compensatiefactor (FC) en bepaald door middel van de onderhoudsfactor (MF), die 
+de verhouding tussen de onderhouden verlichting en de initiële verlichting aangeeft. 
+Bepaal de nieuwwaarde-compensatiefactor FC in een verlichtingszone volgens: 
+ 
+(14.15) 
+waarin: 
+FC  
+is de nieuwwaarde-compensatiefactor; 
+FCC 
+is de efficiëntie-factor van de constante verlichtingssterkteregeling, waarvoor de waarde 1 
+wordt aangehouden; 
+MF 
+is de onderhoudsfactor van het verlichtingssysteem, waarvoor de waarde 1 wordt 
+aangehouden. 
+OPMERKING 1 
+Voor meer gedetailleerde informatie over de rol van FCC zie CEN/TR 15193–2. 
+OPMERKING 2 
+Door de waarde van de onderhoudsfactor MF en de efficiëntie-factor Fcc op 1 te zetten, wordt 
+de nieuwwaarde-compensatiefactor Fc 1 en valt deze buiten de bepalingsmethode. Er is gekozen om de paragraaf 
+wel te behouden om aan te blijven sluiten bij de Europese norm NEN-EN 15193-1. 
+14.5 Aanwezigheid-afhankelijkheidsfactor (Fo,D en Fo,N) 
+De aanwezigheid-afhankelijkheidsfactor waardeert het effect van aan- en afwezigheid van gebruikers 
+van verlichting in combinatie met het effect van eventueel aanwezige aanwezigheidsdetectie. De 
+methode maakt onderscheid tussen situaties waarin het branden van de verlichting grotendeels 
+onafhankelijk is van de aanwezigheid van gebruikers (14.5.1) en situaties waarin deze aanwezigheid 
+een rol speelt (14.5.2). In dat laatste geval wordt eveneens onderscheid gemaakt tussen de dag- en 
+avondperiode. 
+ Verlichtingsregelingen onafhankelijk van aanwezigheid 
+Indien er in een verlichtingszone sprake is van één of meer van onderstaande situaties, gelden in die 
+verlichtingszone voor de aanwezigheid-afhankelijkheidsfactoren overdag (Fo;D) en ’s avonds (Fo;N) de 
+bepalingen in deze paragraaf: 
+Voor de aanwezigheid-afhankelijkheidsfactor overdag (Fo;D) geldt het volgende: 
+(
+)
+C
+CC
+1
+1
+1
+2
+F
+F
+MF
+= −
+−
+649
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 650 ---
+Withdrawn final
+Ingetrokken definitief
+— een centrale aan-regeling (zoals een enkelvoudig automatisch systeem – bijv. met een timer of 
+handschakelaar voor een compleet gebouw, volledige verdieping, voor alle gangen, enz.), 
+onafhankelijk van het type ‘uit-knop’ (automatisch of handmatig, centraal of per ruimte, enz.); 
+— elk gebied binnen een kantoorfunctie groter dan 30 m2 dat wordt verlicht door een gezamenlijk 
+geschakelde groep armaturen (handmatig of automatisch) ongeacht de aanwezige 
+verlichtingsregeling. Vergaderzalen moeten hiervan worden uitgezonderd (ongeacht de 
+oppervlakte die valt onder één schakelaar en/of één detector), tenzij ze een centrale aan-regeling 
+hebben, zoals bedoeld onder het vorige punt. 
+OPMERKING 
+Met deze gebieden worden kantoortuinen en gangen bedoeld. De aanwezigheid-
+/afwezigheidsschakeling leidt in kantoortuinen overdag niet tot energiebesparing omdat er vanuit wordt gegaan 
+dat er vrijwel altijd iemand aanwezig is. 
+𝐹o;D = 1,0 
+(14.16) 
+waarin: 
+Fo;D  
+is de aan te houden dimensieloze factor voor de aanwezigheid in de dagperiode; 
+En voor de aanwezigheid-afhankelijkheidsfactor ’s avonds (Fo;N) geldt het volgende: 
+— een centrale aan-regeling (zoals een enkelvoudig automatisch systeem – bijv. met een timer of 
+handschakelaar voor een compleet gebouw, volledige verdieping, voor alle gangen, enz.), 
+onafhankelijk van het type ‘uit-knop’ (automatisch of handmatig, centraal of per ruimte, enz.); 
+𝐹o;N = 1,0 
+(14.17) 
+In alle overige situaties worden de aanwezigheid afhankelijkheidsfactoren overdag (Fo,D) en ’s avonds 
+(Fo;N) in een verlichtingszone bepaald volgens de bepalingsmethode in 14.5.2. 
+ Verlichtingsregelingen afhankelijk van aanwezigheid 
+Voor alle situaties die niet in 14.5.1 zijn beschreven, worden de aanwezigheid-
+afhankelijkheidsfactoren overdag (Fo,D) en ’s avonds (Fo;N) in een verlichtingszone als volgt bepaald. 
+De aanwezigheid-afhankelijkheidsfactor wordt bepaald door de afwezigheidsfactor en een factor 
+afhankelijk van het schakel-/regelsysteem van de verlichting.  
+Voor de aanwezigheid-afhankelijkheidsfactor overdag (Fo,D) in een verlichtingszone geldt: 
+Indien 0,0 ≤ FA;D < 0,2: 
+𝐹o;D = 1 −[(1 −𝐹oc) ∙𝐹A;D/0,2] 
+(14.18) 
+Indien 0,2 ≤ FA;D < 0,9: 
+𝑓o;D = 𝐹oc + 0,2 −𝐹A;D 
+(14.19) 
+Indien 0,9 ≤ FA;D ≤ 1,0: 
+𝐹o;D = [7 −(10 ∙𝐹oc)] ∙(𝐹A;D −1) 
+(14.20) 
+waarin: 
+650
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 651 ---
+Withdrawn final
+Ingetrokken definitief
+Fo;D is de dimensieloze aanwezigheid-afhankelijkheidsfactor voor de dagperiode; 
+FA;D is de dimensieloze afwezigheidsfactor voor de dagperiode, zijnde het deel van de tijd dat de 
+ruimte niet in gebruik is tijdens de dagperiode, gewogen naar de gebruiksoppervlakte van de 
+gebruiksfuncties die in de rekenzone zijn gelegen, bepaald volgens tabel 14.4. 
+Foc is de dimensieloze factor voor het schakel-/regelsysteem van de verlichting, bepaald volgens 
+tabel 14.5. 
+Voor de aanwezigheid-afhankelijkheidsfactor ’s avonds (Fo,N) in een verlichtingszone geldt: 
+Indien 0,0 ≤ FA,N  < 0,2: 
+𝐹o,N = 1 −[(1 −𝐹oc) ∙𝐹A;N/0,2] 
+(14.21) 
+Indien 0,2 ≤ FA;N < 0,9: 
+𝐹o;N = 𝐹oc + 0,2 −𝐹A;N 
+(14.22) 
+Indien 0,9 ≤ FA;N ≤ 1,0: 
+𝐹o;N = [7 −(10 ∙𝐹oc)] ∙(𝐹A;N −1) 
+(14.23) 
+waarin: 
+Fo;N is de dimensieloze aanwezigheid-afhankelijkheidsfactor voor de avondperiode; 
+FA,N is de dimensieloze afwezigheidsfactor voor de avondperiode, zijnde het deel van de tijd dat de 
+ruimte niet in gebruik is tijdens de avondperiode, gewogen naar de gebruiksoppervlakte van 
+de gebruiksfuncties die in de rekenzone zijn gelegen, bepaald volgens tabel 14.4; 
+Foc is de dimensieloze factor voor het schakel-/regelsysteem van de verlichting, bepaald volgens 
+tabel 14.5. 
+OPMERKING 
+De bepalingen van FA;D en FA;N zijn op deze manier omschreven, om aan te sluiten bij de 
+omschrijving die is gegeven in NEN-EN 15193:2017.  Voor de gehanteerde waarden in deze NTA had kunnen 
+worden volstaan met een verkorte omschrijving. 
+Tabel 14.4 — Afwezigheidsfactoren overdag, FA;D, en ’s avonds, FA;N   
+Gebruiksfunctie van een gebouw  
+of gedeelte van een gebouw 
+FA;D 
+FA;N 
+Bijeenkomstfunctie kinderopvang 
+0,2 
+0,5 
+Bijeenkomstfunctie 
+0,2 
+0,5 
+Gezondheidszorgfunctie anders dan met 
+bedgebied 
+0,2 
+0,5 
+Kantoorfunctie 
+0,2 
+0,5 
+Onderwijsfunctie 
+0,2 
+0,5 
+651
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 652 ---
+Withdrawn final
+Ingetrokken definitief
+Sportfunctie 
+0,2 
+0,5 
+Celfunctie 
+0,2 
+0,5 
+Gezondheidszorgfunctie met bedgebied 
+0,0 
+0,5 
+Logiesfunctie 
+0,2 
+0,5 
+Winkelfunctie 
+0,0 
+0,5 
+Tabel 14.5 — Factor voor het schakel-/regelsysteem van de verlichting, Foc  
+Systemen zonder automatische aanwezigheid- of afwezigheidsdetectie  
+Foc 
+Handmatige aan-/uitschakelaar, overige systemen, systeem onbekend 
+1,00 
+Handmatige aan-/uitschakelaar met veegschakeling 
+0,95 
+Systemen met een automatische aanwezigheid- en/of afwezigheidsdetectie a 
+ 
+Automatisch aan/gedimd b 
+0,95 
+Automatisch aan/automatisch uit 
+0,90 
+Handmatig aan/gedimd b 
+0,90 
+Handmatig aan/automatisch uit 
+0,80 
+a 
+In het geval van systemen met automatische aanwezigheids- en/of 
+afwezigheidsdetectie behoort het detectiegebied van de detector nauw overeen te 
+komen met de oppervlakte die wordt verlicht door de armatuur die wordt 
+bestuurd door deze detector.  
+b 
+Met ‘gedimd’ wordt bedoeld dat de verlichting niet volledig wordt uitgeschakeld, 
+maar naar een lager niveau wordt geschakeld.  
+ 
+14.6 Daglichtafhankelijkheidsfactor (FD) 
+ Bepaling van de daglichtafhankelijkheidsfactor (FD) 
+De daglichtafhankelijkheidsfactor van een verlichtingszone moet worden bepaald aan de hand van de 
+grootte van de daglichtsector(en) en de daglichtafhankelijkheidsfactor van de daglichtsector(en) in de 
+verlichtingszone. Een verlichtingszone kan verschillende daglichtsectoren bevatten, echter per 
+daglichtsector kan het daglicht in principe maar van één projectie komen (één façade of dak). Binnen 
+een verlichtingszone mogen verschillende daglichtsectoren worden samengevoegd tot één 
+daglichtsector. Hiervoor geldt de voorwaarde dat voor deze daglichtsector wordt gerekend met de 
+meest conservatieve (zijnde de hoogste) daglichtafhankelijkheidsfactor, zoals bepaald in 14.6.3, indien 
+met afzonderlijke daglichtsectoren zou zijn gerekend. 
+OPMERKING 
+Deze mogelijkheid tot samenvoegen is gemaakt, zodat bijv. voor het bepalen van de 
+daglichtbijdrage van repeterende gevels van verschillende oriëntaties geen indeling in verschillende 
+daglichtsectoren nodig is. NB in dit voorbeeld zal de daglichtafhankelijkheidsfactor voor alle oriëntaties meestal 
+gelijk zijn.  
+652
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 653 ---
+Withdrawn final
+Ingetrokken definitief
+Indien voor het geïnstalleerde vermogen voor verlichting in een verlichtingszone forfaitaire waarden 
+worden gebruikt, moet het effect van daglichtbenutting buiten beschouwing gelaten worden. In dat 
+geval geldt voor de verlichtingszone:  
+ 
+(14.24) 
+Bepaal bij toepassing van het werkelijk geïnstalleerde vermogen voor verlichting, de 
+daglichtafhankelijkheidsfactor van een verlichtingszone als volgt: 
+ 
+(14.25) 
+waarin: 
+FD 
+is de dimensieloze daglichtafhankelijkheidsfactor van de verlichtingszone; 
+FD;dayl;i 
+is de dimensieloze daglichtafhankelijkheidsfactor van daglichtsector i in de 
+verlichtingszone, bepaald volgens 14.6.3; 
+FD;art 
+is de dimensieloze daglichtafhankelijkheidsfactor van de kunstlichtsector in de 
+verlichtingszone, waarvoor de waarde 1,0 wordt aangehouden; 
+fdayl;i 
+is de dimensieloze verhouding tussen de oppervlakte van daglichtsector i en de totale 
+gebruiksoppervlakte van de verlichtingszone, bepaald volgens: 
+𝑓𝑑𝑎𝑦𝑙;𝑖=
+𝐴D;𝑖
+𝐴use;𝑣𝑧𝑖 
+(14.26) 
+en waarin: 
+AD;i 
+is de oppervlakte van daglichtsector i, bepaald volgens 14.6.2; 
+Ag,vzi 
+is de gebruiksoppervlakte van verlichtingszone i, bepaald volgens 14.2. 
+Als alternatief kan voor de dimensieloze verhouding tussen de oppervlakte van daglichtsector i en de 
+totale gebruiksoppervlakte van de verlichtingszone, fdayl;i , de waarde 0 worden gehanteerd of mag 
+gebruik worden gemaakt van de forfaitaire methode zoals beschreven in 14.6.6. 
+ Oppervlakte daglichtsector i (AD,i) 
+De bepaling van de oppervlakte AD;i van daglichtsector i in een verlichtingszone verloopt als volgt: 
+a) Maak onderscheid tussen de bijdragen van verticale ramen en daklichten. Maak in het geval van een 
+hellend raam of hellend daklicht een horizontale of verticale projectie, conform bijlage Y. 
+b) Bepaal de oppervlakte van de bijdragen van de projecties van de verticale ramen en daklichten 
+volgens onderstaande methode. Iedere projectie is een aparte daglichtsector i. 
+c) Indien een verlichtingszone verschillende daglichtsectoren bevat en deze daglichtsectoren elkaar 
+overlappen moet één van de volgende opties worden gekozen:  
+D
+1
+F
+D
+D
+D
+1
+;
+;
+;
+;
+;
+(
+)
+(
+)
+dayl i
+dayl i
+art
+dayl i
+i
+i
+F
+F
+f
+F
+f
+653
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 654 ---
+Withdrawn final
+Ingetrokken definitief
+— verklein de oppervlakte(n) van één of meer van de overlappende daglichtsectoren zodanig dat 
+de som van de resulterende oppervlakken niet groter is dan de totale oppervlakte van de 
+daglichtsectoren samen (het overlappende stuk moet dus bij één of meer daglichtsectoren 
+worden weggelaten, zodat overlappende daglichtsectoren niet dubbel meegeteld worden); 
+— kies de gunstigste daglichtsector en laat de andere daglichtsector(en) buiten beschouwing. 
+Bepaal vervolgens de oppervlakte van iedere daglichtsector AD,i behorende bij een verticaal raam of 
+een daklicht in een verlichtingszone als volgt: 
+ 
+(14.27) 
+waarin: 
+AD;I 
+is de oppervlakte van daglichtsector i behorende bij het betreffende raam of daklicht in 
+een verlichtingszone, in m2; 
+aD;I 
+is de diepte van de daglichtsector i, in m; 
+bD;I I 
+is de breedte van de daglichtsector i, in m. 
+Voor de diepte en breedte van daglichtsector i door verticale ramen geldt: 
+De maximale diepte aD,i,max van de oppervlakte van de daglichtsector AD,i, verlicht door via een gevel 
+binnengekomen daglicht, zoals aangegeven in figuur 14.1, wordt berekend met behulp van de formule: 
+ 
+(14.28) 
+waarin: 
+aD,i,max 
+is de maximale diepte van de daglichtsector i, in m; 
+hLi;i 
+is de hoogte van de raamlatei gemeten vanaf vloerniveau van de daglichtsector i, in m; 
+hLi;i 
+is de hoogte boven vloerniveau van de daglichtsector i waar de visuele taak wordt 
+uitgevoerd, in m, waarvoor de waarde 0,75 m wordt aangehouden. 
+De maximale diepte van de daglichtsector, aD,i,max, wordt berekend loodrecht vanaf de binnenkant van 
+de buitengevel.  
+Als de werkelijke diepte, b, van daglichtsector i kleiner is dan de maximale diepte van de 
+daglichtsector, aD,i,max , dan wordt de werkelijke diepte, b, van sector i beschouwd als de diepte van 
+daglichtsector i, aDi,. Daarnaast mag worden aangenomen dat aDi, gelijk is aan de werkelijke diepte van 
+daglichtsector i, als de werkelijke diepte kleiner is dan 1,25 keer de berekende maximale diepte: 
+aD;i = min (bi; aD;I;max) 
+(14.29) 
+als alternatief kan worden aangehouden:  
+aD;i = bi; indien b < 1,25 × aD;i;max 
+(14.30) 
+waarin: 
+aD;i is de diepte van de daglichtsector i, in m; 
+D;
+D;
+D;
+a
+b
+i
+i
+i
+A
+=
+
+(
+)
+D; ;max
+i;
+;
+2,5
+i
+L i
+Ta i
+a
+h
+h
+=
+
+−
+654
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 655 ---
+Withdrawn final
+Ingetrokken definitief
+aD;i;max 
+is de maximale diepte van de daglichtsector i; 
+bi 
+is de werkelijke diepte van sector i, in m. 
+De breedte bD;i  van daglichtsector i komt normaal gesproken overeen met de breedte van de gevel, 
+bepaald langs de binnenkant van het beschouwde gebouwdeel of gebied.  
+Om de formule simpel te houden kan de dikte van de binnenwanden worden verwaarloosd. Als de 
+ramen niet over de hele gevel voorkomen, dan is de breedte van de daglichtsector behorende bij deze 
+gevel gelijk aan de breedte van het geveldeel met ramen, plus de helft van de maximale diepte van de 
+daglichtsector (zie figuur 14.1).  
+ 
+ 
+Legenda 
+ 
+Oppervlakte van de daglichtsector AD,i 
+ 
+Oppervlakte niet zijnde daglichtsector  
+Voor hL,i moet hR worden gelezen 
+Figuur 14.1 — Impact van een gevelopening op de daglichtsector voor verticale ramen 
+Voor de diepte en breedte van daglichtsector i door daklichten geldt: 
+De diepte aD,i van de daglichtsector i is de som van de diepte van de daklichten en de extra diepte aan 
+beide zijden zoals hieronder gedefinieerd (zie ook figuur 14.2): 
+ 
+(14.31) 
+waarin: 
+aD;i  
+is de diepte van daglichtsector i, in m; 
+aD;R;i 
+is de diepte van het daklicht in daglichtsector i, in m; 
+aD,R1,i 
+is de extra diepte van de daglichtsector aan zijde 1, in m; 
+aD;R2;i is de extra diepte van de daglichtsector aan zijde 2, in m; 
+De extra diepte van de daglichtsector aan zijden 1 en 2, aD,R1,i en aD;R2;i , is maximaal: 
+D
+D;R
+D;R1
+D;R2
+;
+;
+;
+;
+i
+i
+i
+i
+a
+a
+a
+a
+655
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 656 ---
+Withdrawn final
+Ingetrokken definitief
+(14.32) 
+(14.33) 
+waarin: 
+aD,R1,max,i  is de maximale extra diepte van de daglichtsector aan zijde 1, in m; 
+aD;R2,max,i  is de maximale extra diepte van de daglichtsector aan zijde 2, in m; 
+hR;i 
+is de vrije hoogte van sector i die beschikt over een daklicht, in m; 
+hTa;i 
+is de hoogte boven vloerniveau van daglichtsector i waar de visuele taak wordt 
+uitgevoerd, in m, waarvoor de waarde 0,75 m wordt aangehouden. 
+De werkelijke extra diepte, aD;R1;i, van daglichtsector i is kleiner dan de maximale waarde indien de 
+afstand aD;R1;W;i,  van de rand van de projectie van het daklicht op de vloer tot de binnenzijde van de 
+gevel of wand kleiner is dan de maximale extra diepte, aD;R1;max;i. Ditzelfde geldt voor de werkelijke 
+extra diepte, aD;R2;i , van daglichtsector i. Zie figuur 14.2. 
+(14.34) 
+(14.35) 
+Bepaal de breedte bD;i  van de daglichtsector op dezelfde manier als de diepte aD;i. 
+Verschil tussen verticale ramen en daklichten 
+Alle openingen waarvan het volledig beglaasde deel van het raam zich boven het plafond van de 
+ruimte bevindt, kunnen worden beschouwd als daklichten.  
+OPMERKING 
+Deze bepaling is bedoeld voor verticale ramen in daklichten zoals in het voorbeeld in 
+figuur 14.2: dergelijke ramen moeten als daklicht worden berekend. 
+(
+)
+D;R1;max;
+;
+;
+i
+R i
+Ta i
+a
+h
+h
+
+−
+(
+)
+D,R2,max,
+,
+,
+i
+R i
+Ta i
+a
+h
+h
+
+−
+D R1
+D;R1
+D R1
+;
+;
+;max;
+;
+;
+;
+min(
+;
+)
+i
+i
+W i
+a
+a
+a
+2
+2
+2
+;
+;
+;
+;max;
+;
+;
+,
+min(
+;
+)
+D R
+i
+D R
+i
+D R W i
+a
+a
+a
+656
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 657 ---
+Withdrawn final
+Ingetrokken definitief
+ 
+Legenda 
+ 
+Oppervlakte van de daglichtsector AD;i 
+ 
+Oppervlakte niet zijnde daglichtsector  
+Figuur 14.2 — Impact van een dakopening op de daglichtsector voor daklichten 
+ Daglichtafhankelijkheidsfactor van daglichtsector i (FD,dayl,i) 
+Voor daglichtsector i binnen de verlichtingszone wordt de bijbehorende 
+daglichtafhankelijkheidsfactor als volgt bepaald: 
+FD;dayl;i = 1 – FD,C;i × FD;S;i 
+(14.36) 
+waarin: 
+FD;dayl;i 
+is de dimensieloze daglichtafhankelijkheidsfactor van daglichtsector i; 
+FD;S;i 
+is de dimensieloze daglichttoetredingsfactor behorende bij daglichtsector i, bepaald 
+volgens 14.6.4 indien er sprake is van verticale ramen en bepaald volgens 14.6.5 indien 
+er sprake is van daklichten;  
+FD;C;i 
+is de dimensieloze daglichtregelingfactor in daglichtsector i, bepaald volgens tabel 14.6. 
+H
+657
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 658 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 14.6 — Factor voor de daglichtregeling, FD,C 
+Daglichtregeling 
+FD,C 
+Geen of handmatige daglichtregeling 
+0 
+Daglichtsensoren met automatisch schakelen of onbekende automatische 
+daglichtregeling 
+0,63 
+Daglichtsensoren met automatisch dimmen 
+0,73 
+ 
+Als alternatief kan de daglichtafhankelijkheidsfactor FD;dayl;i van daglichtsector i worden bepaald met 
+behulp van bijlage F van NEN-EN 15193-1:2017. Rond in dat geval de bepaalde waarde FD;dayl;i naar 
+beneden af op twee significante cijfers. 
+OPMERKING 
+NEN-EN 15193-1:2017 maakt gebruik van variabele FD waar FD van de daglichtsector (FD;dayl) 
+wordt bedoeld. 
+ Daglichttoetredingsfactor voor verticale ramen van daglichtsector i 
+De daglichttoetredingsfactor FD;S;i van daglichtsector i moet worden berekend door: 
+FD;S;i = 0,65 FD;S;SNA;i + 0,25 
+(14.37) 
+waarin: 
+FD;S;i  
+is de daglichttoetredingsfactor van daglichtsector i; 
+FD;S;SNA;i 
+is de daglichttoetredingsfactor voor verticale ramen van daglichtsector i, volgens 
+tabel 14.7, waarvoor de daglichtfactor Di wordt bepaald volgens: 
+Di = 0,34 (4,13 + 20 ITr;i – 1,36 IRD;i) × ISh;i 
+(14.38) 
+waarin: 
+ 
+(14.39) 
+ 
+(14.40) 
+en waarin: 
+Di 
+is de daglichtfactor van daglichtsector i, in %; 
+ITr,i 
+is de doorlatendheidsindex van daglichtsector i; 
+IRD,i 
+is de ruimte-diepte-index van daglichtsector i; 
+Ca;
+Tr;
+D;
+i
+i
+i
+A
+I
+A
+=
+D;
+;
+Li;
+Ta;
+i
+RD i
+i
+i
+a
+I
+h
+h
+=
+−
+658
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 659 ---
+Withdrawn final
+Ingetrokken definitief
+ISh;i  
+is de beschaduwingsindex van daglichtsector i, zijnde: 
+0,2: als de verticale ramen in daglichtsector i flink of geheel beschaduwd zijn door een 
+gebouw of gebouwdeel op het eigen perceel. Daarbij worden de ramen als flink 
+beschaduwd geacht als ISh, van de bijbehorende daglichtsector kleiner dan of gelijk is 
+aan 0,2, bepaald volgens NEN-EN 15193-1:2017; 
+0,7: in alle overige gevallen.  
+ACa,i 
+is de oppervlakte van de gevelopening van de beschouwde daglichtsector i, waarbij het 
+deel onder 0,75 m boven vloerniveau wordt verwaarloosd;  
+AD,i 
+is de oppervlakte van daglichtsector i van de projectie, in m2, bepaald volgens 14.6.2; 
+aD,i 
+is de diepte van daglichtsector i, in m, zoals bepaald in 14.6.2; 
+hLi,i  
+is de hoogte van de raamlatei gemeten vanaf vloerniveau van de daglichtsector i, in m, 
+zoals bepaald in 14.6.2; 
+hTa,i 
+is de hoogte boven vloerniveau van de daglichtsector i waar de visuele taak wordt 
+uitgevoerd, in m, waarvoor de waarde 0,75 m wordt aangehouden. 
+OPMERKING 
+Veel situaties zullen buiten de definitie van ‘flink beschaduwd’ vallen. De verwijzing naar 
+NEN-EN 15193-1:2017 voor de definitie van flink beschaduwde ramen is opgenomen om een toetsbare methode 
+te hebben in geval van twijfel. Eenvoudiger was geweest de waarde van 0,7 te hanteren voor niet-beschaduwde 
+ramen, en 0,2 voor licht tot geheel beschaduwde ramen. Echter, dan zouden beperkte belemmeringen relatief 
+zwaar worden bestraft.  
+Tabel 14.7 — Daglichttoetredingsfactor FD,S,SNA,i voor verticale ramen afhankelijk van 
+daglichtfactor Di van daglichtsector i 
+Di [%] 
+0,13 
+0,5 
+1,0 
+1,5 
+2,0 
+3,0 
+5,0 
+8,0 
+12,0 18,0 
+FD;S;SNA;i 
+0,12 0,36 0,50 0,64 0,66 0,75 0,81 0,88 0,91 0,91 
+ 
+Tabel 14.7 geeft de daglichttoetredingsfactor FD,S,SNA,i voor verticale ramen voor verschillende waarden 
+van daglichtfactor Di. Voor tussenliggende daglichtfactoren moet lineair geïnterpoleerd worden tussen 
+de tabelwaarden. 
+ Daglichttoetredingsfactor voor daklichten van daglichtsector i 
+Voor onbeschaduwde daklichten kan de daglichttoetredingsfactor FD,S,i voor daglichtsector i worden 
+bepaald met behulp van tabel 14.8, waarbij de daglichtfactor DSNA,i van daglichtsector i als gevolg van 
+het daklicht wordt berekend door: 
+ 
+(14.41) 
+;
+;
+65;
+;
+;
+D;
+0,54
+Ca i
+SNA i
+D
+SNA i
+R i
+i
+A
+D
+A
+
+
+
+=
+
+
+
+659
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 660 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+DSNA;i 
+is de daglichtfactor als gevolg van het daklicht zonder zonwering of lichtwering van 
+daglichtsector i, in %; 
+τD65;SNA;i 
+is de doorlatingsfactor van de beglazing in het daklicht van daglichtsector i wanneer 
+de zonwering of lichtwering niet is geactiveerd, waarvoor de waarde 0,6 wordt 
+aangehouden; 
+ACa;i 
+is de oppervlakte van de dakopening van de beschouwde daglichtsector i in m2; 
+AD;i 
+is de oppervlakte van daglichtsector i van de gekozen projectie, in m2, bepaald 
+volgens 14.6.2; 
+ηR;i 
+is de daklicht-utilantie van daglichtsector i, bepaald volgens tabel 14.9, als functie van 
+de ruimte-index k, waarbij de ruimte-index wordt bepaald door: 
+ 
+(14.42) 
+waarin: 
+LR;i 
+is de lengte van de ruimte van daglichtsector i, in m; 
+wR;i 
+is de breedte van de ruimte van daglichtsector i, in m; 
+hm;i 
+is de hoogte van de armaturen boven 0,75 m (het werkvlak) in de ruimte van 
+daglichtsector i, in m. 
+OPMERKING 
+Het woord ‘doorlatingsfactor’ is de vertaling van het Engelse woord ‘transmittance’. De 
+doorlatingsfactor, τD65 , wordt gedefinieerd in NEN-ISO 9050. 
+Tabel 14.8 — Daglichttoetredingsfactor FD,S,i voor daklichten, afhankelijk van daglichtfactor van 
+DSNA;i daglichtsector i 
+DSNA;i 
+Geen 
+0 % ≤ DSNA;i  < 2 % 
+Laag 
+2 % ≤ DSNA;i < 4 % 
+Medium 
+4 % ≤ DSNA;i < 7 % 
+Sterk 
+7 % ≤ DSNA;i  
+FD;S;i 
+0 
+0,68 
+0,85 
+0,92 
+ 
+Tabel 14.9 — Daklicht utilantie ηR,i als functie van ruimte-index ki van daglichtsector i 
+ki 
+0,6 
+0,8 
+1,0 
+1,25 
+1,5 
+2,0 
+2,5 
+3,0 
+4,0 
+5,0 
+ηR;i 
+0,4 
+0,54 
+0,6 
+0,69 0,75 0,83 0,88 0,92 0,97 1,00 
+ 
+(
+)
+;
+;
+;
+;
+;
+R i
+R i
+i
+m i
+R i
+R i
+L
+w
+k
+h
+L
+w
+
+=
++
+660
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 661 ---
+Withdrawn final
+Ingetrokken definitief
+De rekenwaarde van de daglichtfactor als gevolg van het daklicht, DSNA;i, wordt bepaald voor de situatie 
+zonder zonwering of lichtwering. De rekenwaarde is echter eveneens geldig voor daklichten met 
+zonwering of lichtwering.  
+OPMERKING 
+Voor beschaduwde daklichten is geen rekenmethode gegeven.  
+ Forfaitaire methode daglichtafhankelijkheidsfactor (FD) 
+Als alternatief voor de methode beschreven in 14.6.1 voor de bepaling van de 
+daglichtafhankelijkheidsfactor FD,i per verlichtingszone kan deze ook als volgt worden bepaald. 
+Bepaal bij toepassing van het werkelijk geïnstalleerde vermogen voor verlichting, de 
+daglichtafhankelijkheidsfactor van een verlichtingszone als volgt:  
+𝐹D = ∑(𝐹D;dayl;𝑖× 𝑓dayl;F) + 𝐹D;art × [(1 −𝑓dayl;F)]
+𝑖
+   
+ 
+ 
+(14.43) 
+waarin:  
+FD 
+is de dimensieloze daglichtafhankelijkheidsfactor van de verlichtingszone;  
+FD;dayl;i is de dimensieloze daglichtafhankelijkheidsfactor van daglichtsector i in de 
+verlichtingszone, waarvoor de waarde 0,37 wordt aangehouden indien een 
+daglichtregeling aanwezig is in de verlichtingszone en de waarde 1 indien geen 
+daglichtregeling aanwezig is in de verlichtingszone; 
+FD;art 
+is de dimensieloze daglichtafhankelijkheidsfactor van de kunstlichtsector in de 
+verlichtingszone, waarvoor de waarde 1,0 wordt aangehouden;  
+fdayl;F 
+is de dimensieloze forfaitaire factor die bepaalt in welk deel van de 
+gebruiksoppervlakte voldoende daglicht binnenkomt, bepaald volgens:  
+fdayl;F  = AD,F / ∑Ag,j  
+(14.44) 
+en waarin: 
+∑Ag,j  is de som van de gebruiksoppervlakten Ag,j  van alle rekenzones j op het perceel, in m2; 
+Ag,j  
+is de gebruiksoppervlakte van rekenzone j, waarbij Ag,j per rekenzone wordt bepaald 
+volgens 6.6.3, in m2; 
+AD,F  
+is de forfaitaire rekenwaarde van het deel van de gebruiksoppervlakte waar voldoende 
+daglicht binnenkomt, bepaald volgens: AD,F = 1,8 × ∑AWj,k  
+waarin: 
+AD,F 
+ is de forfaitaire rekenwaarde van het deel van de gebruiksoppervlakte waar voldoende 
+daglicht binnenkomt, in m2 ; 
+∑AWj,k   is de som van de oppervlakten van alle transparante delen k van de gebouwschil van 
+alle rekenzones j op het perceel, in m2; 
+Awj,k  
+is de oppervlakte van transparant deel wj,k, waarbij Awj,k per rekenzone j en per 
+element k wordt bepaald voor de warmteoverdracht door transmissie volgens K.2, 
+in m2.  
+661
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 662 ---
+Withdrawn final
+Ingetrokken definitief
+Indien fdayl;F > 1, moet voor fdayl;F de waarde 1 gehanteerd worden. 
+OPMERKING 
+fdayl;F  is een waarde die geldt voor het gehele gebouw. Deze waarde wordt in iedere 
+verlichtingszone toegepast. 
+662
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 663 ---
+Withdrawn final
+Ingetrokken definitief
+15 Gebouwautomatisering 
+15.1 Algemeen 
+Gebouwautomatisering is een overkoepelend begrip. Het kan betrekking hebben op verschillende 
+systemen, zoals een gebouwbeheersysteem in de vorm van een SCADA-systeem (supervisory control 
+and data acquisition-systeem), of op een eenvoudig meet- en regelsysteem met sensoren, actoren en 
+een verbindend regelsysteem. 
+15.2 Gebouwbeheersystemen 
+Veel gebouwen worden voorzien van een gebouwbeheersysteem (GBS). Deze systemen kunnen een 
+bijdrage leveren aan de energieprestatie van een gebouw. Dit is echter afhankelijk van de wijze van 
+opvolging van de gebouwdata die met een GBS zijn verzameld. Daarbij is er in de regel sprake van 
+menselijke tussenkomst. Dat maakt de mate waarin er daadwerkelijk sprake zal zijn van een 
+(positieve) invloed op de energieprestatie van een gebouw, onzeker en voor een groot deel afhankelijk 
+van niet-gebouwgebonden aspecten van beheer en exploitatie van het gebouw. Dergelijke zaken 
+blijven bij het bepalen van de energieprestatie buiten beschouwing. Gebouwautomatisering die is 
+gerealiseerd met behulp van een gebouwbeheersysteem, kan alleen in aanmerking komen voor 
+waardering in het kader van de energieprestatie als er sprake is van autonoom en automatisch 
+ingrijpen. De marktpenetratie van systemen die autonoom en automatisch ingrijpen in het gebouw, is 
+op moment van uitkomen van deze NTA te laag om er waarden voor te kunnen opnemen.  
+De verwachting is echter dat deze technieken zich snel blijven ontwikkelen en een volwaardige plaats 
+in de energieprestatieberekening kunnen krijgen. Daarom is het hoofdstuknummer gereserveerd als 
+aansluiting voor de toekomst. 
+663
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 664 ---
+Withdrawn final
+Ingetrokken definitief
+16 Gebouwgebonden productie van elektriciteit 
+16.1 Principe 
+De gebouwgebonden productie van elektriciteit omvat de op het eigen perceel geproduceerde 
+elektriciteit in een zonnestroomsysteem, micro-WKK-installatie, warmtekrachtinstallatie of 
+windenergiesysteem.  
+Bepaal de maandelijks op het eigen perceel geproduceerde elektriciteit (Epr;el), in kWh, volgens:  
+pr;el
+el;
+;out;
+gi
+mi
+gi
+E
+E
+ 
+(16.0) 
+waarin: 
+Eel;gi;out;mi 
+is de maandelijkse op het eigen perceel geproduceerde elektriciteit, in kWh, 
+afkomstig van voorziening gi, waarbij gi = PV (16.2), PVT (16.3), chp (16.4) of wind 
+(16.5). 
+16.2 Bijdrage van zonnestroomsystemen (PV) 
+16.2.1 Principe 
+De eventuele bijdrage van een gebouwgebonden zonnestroomsysteem (PV) aan de 
+elektriciteitsvoorziening wordt bepaald door de hoeveelheid opvallende zonnestraling te 
+vermenigvuldigen met het omzettingsrendement. De bepalingsmethode is gebaseerd op de Europese 
+norm NEN-EN 15316-4-6. In NEN-EN 15316-4-6 is in 6.2.2.4 aangegeven dat het effect van 
+beschaduwing door het eigen gebouw (zoals schoorstenen en ventilatie-units) in rekening moet 
+worden gebracht. De Europese norm geeft hier echter geen rekenregels voor. In de voorloper van 
+NTA 8800 (NEN 7120) waren hier wel rekenregels voor opgenomen. Deze rekenregels zijn 
+overgenomen in deze NTA.  
+De omrekening naar jaarlijkse opbrengsten en primaire energie staat in hoofdstuk 5. 
+16.2.2 Geleverde energie door het zonnestroomsysteem 
+Bepaal de maandelijkse bijdrage van alle gebouwgebonden zonnestroomsystemen (PV) volgens: 
+el
+out;
+el
+out
+;
+;
+;
+;
+; ,
+PV
+mi
+PV
+i mi
+i
+E
+E
+ 
+(16.1) 
+waarin: 
+Eel;PV;out;i,mi 
+is de op het eigen perceel geproduceerde elektriciteit van alle gebouwgebonden 
+PV-systemen i, in kWh per maand. 
+De maandelijkse op het eigen perceel geproduceerde elektriciteit van zonnestroomsysteem i is: 
+sol
+pk
+perf
+sh
+prac
+el
+out
+,
+;
+;
+,
+; ;
+;
+;
+;
+;
+; ,
+mi
+i
+i
+PV i mi
+PV i
+PV
+i mi
+ref
+E
+P
+f
+c
+f
+E
+I
+  
+(16.2) 
+664
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 665 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Eel;PV;out;i,mi 
+is de maandelijkse bijdrage van het zonnestroomsysteem i, in kWh; 
+Esol,mi 
+is de opvallende zonnestraling in maand mi, bepaald volgens 16.2.2.1, in kWh/m2; 
+Ppk;i 
+is de som van de watt-piekvermogens van de zonnestroompanelen van het 
+desbetreffende zonnestroomsysteem i, bepaald volgens 16.2.2.2, in kW;  
+fperf;i 
+is de dimensieloze opbrengstfactor van het desbetreffende zonnestroomsysteem i, 
+bepaald volgens 16.2.2.3; 
+csh,PV;mi;i 
+is de dimensieloze correctiefactor voor de invloed van beschaduwing van het 
+desbetreffende zonnestroomsyteem i, bepaald volgens 16.2.2.4; 
+fprac,PV;i 
+is de dimensieloze praktijkprestatiefactor PV van het desbetreffende 
+zonnestroomsysteem i, bepaald volgens 16.2.2.5; 
+Iref 
+is de referentiezoninstraling, gelijk aan 1 kW/m2. 
+Op of aan een gebouw kunnen meerdere zonnestroomsystemen aanwezig zijn. Als alle 
+zonnestroomsystemen dezelfde hellingshoek en oriëntatie hebben, dan mogen deze samengenomen 
+worden tot één groot zonnestroomsysteem. Indien er sprake is van verschillende oriëntaties en/of 
+hellingshoeken, dan moet het systeem opgesplitst worden in meerdere systemen.  
+Indien een energieprestatieberekening uitgevoerd wordt voor slechts een gedeelte van een gebouw 
+(bijvoorbeeld een woning in een woongebouw) en het gebouw heeft een collectief 
+zonnestroomsysteem, dan moet het totale watt-piekvermogen (Ppk;i) van het zonnestroomsysteem op 
+basis van de verhouding Ag;tot/Ag;gebouw;PV verdeeld worden. Hierbij is Ag;tot het gebruiksoppervlak van 
+het gebouw(deel) waarover de energieprestatie bepaald wordt. En Ag;gebouw;PV is het gebruiksoppervlak 
+van het gebouw als geheel zoals gedefinieerd in 6.6.7.  
+OPMERKING 1 
+Deze waarden van Eel;PV;out,m zijn inputdata voor berekeningen volgens hoofdstuk 5.  
+Voor duurzame energie die geproduceerd wordt op het perceel, wordt geen rekening gehouden met de 
+energie-input. 
+EPV;gen;in,mi = 0 
+OPMERKING 2 NEN-EN ISO 52000-1 specificeert dat voor een actief zonnestroomsysteem de incidentele 
+zonnestraling op de zonnestroompanelen geen deel uitmaakt van de energiebalans. Alleen de energie geleverd 
+door de generator wordt opgenomen in de energiebalans.  
+16.2.2.1 
+Maandelijkse opvallende zonnestraling 
+De maandelijkse zonnestraling die op de zonnestroompanelen valt, is: 
+sol;
+sh;obst;
+sol;
+1000
+mi
+mi
+mi
+mi
+I
+t
+F
+E
+  
+(16.3) 
+waarin: 
+Esol;mi 
+is de maandelijks hoeveelheid op de zonnestroompanelen van systeem i vallende 
+zonnestraling, in kWh/m2; 
+665
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 666 ---
+Withdrawn final
+Ingetrokken definitief
+Isol;mi 
+is de opvallende zonnestraling in maand mi, bepaald volgens 17.2, in W/m2; 
+tmi 
+is de rekenwaarde voor de lengte van de beschouwde maand mi, bepaald volgens 
+17.2, in h;  
+Fsh;obst;mi 
+is de dimensieloze beschaduwingsreductiefactor van het desbetreffende 
+zonnestroomsysteem in maand mi, bepaald volgens 17.3. 
+OPMERKING 1 
+De factor 1 000 is nodig voor het omrekenen van W naar kW. 
+OPMERKING 2 
+Tabel 17.2 geeft de totale zonnestraling (Isol,mi)voor verschillende oriëntaties (γ) en 
+hellingshoeken (β). Voor tussenliggende oriëntaties wordt de waarde behorend bij de dichtstbijzijnde oriëntatie 
+genomen. In het geval dat de oriëntatie precies midden tussen twee aangegeven oriëntaties is, wordt de hoogste, 
+naastliggende waarde genomen. Voor tussenliggende hellinghoeken wordt lineair geïnterpoleerd tussen de 
+tabelwaarden. 
+16.2.2.2 
+Watt-piekvermogen 
+Het watt-piekvermogen Ppk;i wordt onder standaardtestcondities vastgesteld (testreferentiewaarden 
+van zonneceltemperatuur ϑ = 25 °C, zoninstraling in het vlak Iref = 1 kW/m2, luchtmassa-
+zonreferentiespectrum AM = 1,5). 
+Het watt-piekvermogen Ppk;i van systeem i kan berekend worden volgens: 
+pk
+PV
+pk
+1000
+;
+;
+;
+i
+i
+i
+K
+A
+P
+(16.4a) 
+of 
+pk;paneel;i
+PV
+pk
+1000
+;
+;
+i
+i
+P
+n
+P
+(16.4b) 
+waarin: 
+Ppk;i 
+is de som van de watt-piekvermogens van de zonnestroompanelen van het 
+desbetreffende zonnestroomsysteem i, in kW;  
+Kpk;i 
+is het op 2 decimalen nauwkeurig bepaalde piekvermogen van de 
+zonnestroompanelen per m2 zonnestroompaneel in W/m2;  
+APV;i 
+is de op 2 decimalen nauwkeurig bepaalde oppervlakte van de desbetreffende 
+zonnestroompanelen, exclusief draagconstructie, in m2. 
+Ppk;paneel;i 
+is het piekvermogen van een zonnestroompaneel of dunne-filmrol in W; 
+nPV;i 
+is het aantal PV-panelen of het aantal dunne-filmrollen. 
+OPMERKING 
+De factor 1 000 is nodig voor het omrekenen van W naar kW. 
+666
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 667 ---
+Withdrawn final
+Ingetrokken definitief
+Voor PV-panelen moet het piekvermogen (Ppk;paneel;i) worden bepaald volgens NEN-EN-IEC 61215-1. 
+Voor dunne-film-zonnecellen moet het piekvermogen (Ppk;paneel;i) worden bepaald volgens 
+NEN-EN-IEC 61215-1-2. Het aldus bepaalde piekvermogen moet naar beneden afgerond worden op 
+een veelvoud van 5 W per paneel of dunne-filmrol. Op basis van dit afgeronde piekvermogen kan 
+vervolgens het piekvermogen per m2 zonnestroompaneel (Kpk;i) bepaald worden. Op de 
+kwaliteitsverklaring wordt naast het piekvermogen, ook de oppervlakte van het zonnestroompaneel 
+(op twee decimalen nauwkeurig) en het daaruit afgeleide piekvermogen per m2 (op twee decimalen 
+nauwkeurig) weergegeven.  
+Indien er geen meetgegevens volgens bovenstaande NEN-EN-IEC normen beschikbaar zijn, mag het 
+piekvermogen per m2 (Kpk;i ) ook ontleend worden aan tabel 16.1.  
+Tabel 16.1 ⎯ Piekvermogen (Kpk) per m2 als functie van zonnestroompaneeleigenschappen 
+Type PV-module 
+Kpk 
+W/m2 
+PV-panelen: 
+ 
+Monokristallijna silicium geplaatst voor 2001 
+125 
+Monokristallijna silicium geplaatst in 2001 t/m 2010 
+135 
+Monokristallijna silicium geplaatst in 2011 t/m 2014 
+150 
+Monokristallijna silicium geplaatst in 2015 t/m 2017 
+165 
+Monokristallijna silicium geplaatst vanaf 2018 
+175 
+Multikristallijna silicium geplaatst voor 2001 
+115 
+Multikristallijna silicium geplaatst in 2001 t/m 2010 
+125 
+Multikristallijna silicium geplaatst in 2011 t/m 2014 
+140 
+Multikristallijna silicium geplaatst in 2015 t/m 2017 
+155 
+Multikristallijna silicium geplaatst vanaf 2018 
+165 
+Dunne-film-zonnecellen: 
+ 
+Amorf silicium zonnecel met enkelvoudige junctie  
+65 
+Multi-junctie op amorf silicium gebaseerde zonnecellen  
+55 
+Koper-indium/gallium-diselenide 
+105 
+Cadmiumtelluride 
+95 
+a Met een minimale pakkingsdichtheid van 80 %. 
+ 
+16.2.2.3 
+Opbrengstfactor van het PV-systeem  
+De opbrengstfactor fperf houdt rekening met optredende verliezen als gevolg van: 
+— conversieverliezen voor de omzetting van gelijkstroom naar wisselstroom; 
+— de werkelijke operationele temperatuur waaronder de PV-panelen worden gebruikt; 
+667
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 668 ---
+Withdrawn final
+Ingetrokken definitief
+— de mate van bouwintegratie (en ventilatie) van de PV-panelen; 
+— vervuiling van het PV-systeem. 
+Tabel 16.2 ⎯ Opbrengstfactor van het zonnestroomsysteem 
+Wijze van bouwintegratie en ventilatie van de 
+zonnestroompanelen 
+fperf 
+- 
+Niet geventileerd (direct, zonder luchtspouw, op dak of 
+gevel gemonteerd) 
+0,76 
+Matig geventileerd (op of in dak of gevel gemonteerd, 
+met een luchtspouw) 
+0,80 
+Sterk geventileerd (vrijstaand op een open 
+draagconstructie gemonteerd) of mechanisch 
+geventileerde modules 
+0,82 
+ 
+Indien de wijze van bouwintegratie en ventilatie niet vastgesteld kan worden, dan moet uitgegaan 
+worden van de optie ‘niet geventileerd’. 
+16.2.2.4 
+Correctiefactor voor beschaduwing 
+De correctiefactor voor beschaduwing csh;PV;i;mi wordt bepaald volgens tabel 16.3. De waarde van 
+csh;PV;i;mi is afhankelijk van de maandelijkse beschaduwingsreductiefactor Fsh;obst;mi. 
+Tabel 16.3 ⎯ Correctiefactor voor de invloed van beschaduwing cs;PV;i;mi 
+Beschaduwingsreductiefactor 
+Fsh;obst;mi 
+Correctiefactor 
+csh;PV;i;mi 
+1,00 
+1,00 
+0,95 
+0,95 
+0,90 
+0,89 
+0,85 
+0,82 
+ 0,80 
+0,75 
+waarin: 
+csh;PV;i;mi is de correctiefactor voor de invloed van beschaduwing 
+van de desbetreffende zonnepanelen; 
+Fsh;obst;mi 
+is de maandelijkse beschaduwings-
+reductiefactor van de desbetreffende 
+zonnepanelen, bepaald volgens 17.3. 
+ 
+Voor tussenliggende waarden van Fsh;obst;mi moet csh;PV;i;mi lineair geïnterpoleerd worden.  
+668
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 669 ---
+Withdrawn final
+Ingetrokken definitief
+OPMERKING 
+Anders dan bij een zonneboiler is deze correctiefactor voor de beschaduwing bij 
+zonnestroompanelen nodig, omdat bij beschaduwing van een deel van een reeks zonnecellen die in serie zijn 
+geschakeld, de opbrengst van de hele reeks negatief wordt beïnvloed; zie figuur 16.1. 
+I 
+II 
+I 
+III 
+II 
+ 
+ 
+a) Zonnecollector, bovenaanzicht 
+b) PV-paneel, bovenaanzicht 
+Legenda 
+I 
+beschaduwd gedeelte 
+I 
+beschaduwd gedeelte 
+II 
+onbeschaduwd gedeelte 
+II+III 
+onbeschaduwd gedeelte 
+I/(I+II) 
+fractie van de directe straling van 
+de zon die niet meetelt voor de 
+opvallende zonnestraling 
+III 
+gedeelte van de PV-cellen waarvan de 
+opbrengst door beschaduwing van een 
+ander deel van dezelfde string wegvalt 
+ 
+ 
+(I+III)/(I+II+III) 
+fractie van de directe straling van de zon 
+die niet meetelt voor de opvallende 
+zonnestraling 
+Figuur 16.1 — Illustratie van de beschaduwingscorrectie bij zonnestroompanelen 
+16.2.2.5 
+Praktijkprestatiefactor voor PV 
+De praktijkprestatiefactor voor PV, fprac,PV;i, is: 
+fprac,PV;i = 0,95 
+OPMERKING 
+De opbrengst van zonnestroomsystemen loopt geleidelijk terug als gevolg van veroudering. Om 
+voor dit effect te corrigeren is de praktijkprestatiefactor PV geïntroduceerd. Deze correctiefactor is gebaseerd op 
+de aanname dat de veroudering gemiddeld 0,5 % per jaar is, uitgaande van een levensduur van het systeem van 
+20 jaar. De veroudering is gemiddeld over deze periode bepaald (5 % rendementsverlies gemiddeld).  
+Indien een afwijkende waarde voor de praktijkprestatiefactor wordt overlegd, moet bij de bepaling 
+daarvan rekening gehouden worden met een levensduur van ten minste 20 jaar. 
+De praktijkprestatiefactor moet gemiddeld over deze periode bepaald worden.  
+16.2.3 Thermische output van het zonnestroompaneel 
+Er wordt geen rekening gehouden met thermische output. 
+QPV;gen;out;mi = 0 
+(16.5) 
+669
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 670 ---
+Withdrawn final
+Ingetrokken definitief
+16.2.4 Afgenomen hulpenergie 
+Hulpenergie die door het zonnestroomsysteem gebruikt wordt, moet verwerkt zijn in de netto-
+opbrengst van het systeem (de totale stroomproductie min de afgenomen hulpenergie binnen de 
+subsysteemgrenzen). Er wordt dus geen separate hulpenergie in rekening gebracht in de 
+energieprestatieberekening.  
+EPV;aux = WPV;gen;aux;mi = 0 
+(16.6) 
+16.2.5 Thermisch systeemverlies 
+Er wordt geen rekening gehouden met thermische systeemverliezen. 
+QPV;gen;ls,mi = 0 
+(16.7) 
+16.2.6 Terugwinbaar thermisch systeemverlies 
+Er zijn geen terugwinbare systeemverliezen voor de ruimteverwarmingsbehoefte. 
+QPV;gen;ls;rbl;mi = 0 
+(16.8) 
+16.3 Bijdrage van PVT-systemen 
+16.3.1 Principe 
+De eventuele bijdrage van een gebouwgebonden PVT-systeem aan de elektriciteitsvoorziening wordt 
+bepaald door de hoeveelheid opvallende zonnestraling te vermenigvuldigen met het 
+omzettingsrendement en te corrigeren voor de eventuele aanwezigheid van een glasplaat op het PVT-
+paneel. De bepalingsmethode is gebaseerd op de voorloper van NTA 8800 (NEN 7120), omdat de 
+Europese set EPB-normen (nog) geen bepalingsmethode voor PVT-systemen kent.  
+De thermische opbrengst van PVT-systemen wordt berekend in 13.7.2. 
+De omrekening naar jaarlijkse opbrengsten en primaire energie staat in hoofdstuk 5. 
+16.3.2 Geleverde energie door het zonnestroomsysteem 
+PVT-systemen combineren de opvang en omzetting van zonne-energie in zowel elektriciteit als 
+warmte. 
+Om de elektrische maandopbrengst van een PVT-systeem te kunnen bepalen, moet eerst de 
+maandelijkse opbrengst voor een overeenkomstig zonnestroomsysteem zonder thermische collector 
+worden berekend naar analogie van de berekening in 16.2.2. Vervolgens wordt het resultaat hiervan 
+vermenigvuldigd met de van toepassing zijnde PVT-reductiefactor fPVT;PV;i in tabel 16.4.  
+In formulevorm: 
+el PVT out;
+el;PVT out
+;
+;
+;
+; ;
+mi
+i mi
+i
+E
+E
+ 
+(16.9) 
+670
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 671 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Eel;PVT;out;i;mi 
+is de op het eigen perceel geproduceerde elektriciteit van alle gebouwgebonden 
+PVT-systemen i, in kWh per maand. 
+De maandelijkse op het eigen perceel geproduceerde elektriciteit van PVT-systeem i is: 
+sol
+pk
+perf
+sh,
+prac
+PVT
+el;PVT;out;
+;
+;
+;
+; ;
+;
+;
+;
+;
+;
+mi
+i
+i
+PV i mi
+PV i
+PV i
+i mi
+ref
+E
+P
+f
+c
+f
+f
+E
+I
+(16.10) 
+waarin: 
+Eel;PVT;out;i;mi 
+is de maandelijkse bijdrage van het PVT-systeem i, in kWh; 
+Esol;mi 
+is de opvallende zonnestraling in maand mi, bepaald volgens 16.2.2.1, in kWh/m2; 
+Ppk;i 
+is de som van de watt-piekvermogens van de zonnestroompanelen van het 
+desbetreffende PVT-systeem i, bepaald volgens 16.2.2.2, in kW;  
+fperf;i 
+is de dimensieloze opbrengstfactor van het desbetreffende PVT-systeem i, bepaald 
+volgens 16.2.2.3; 
+csh,PV;i;mi 
+is de dimensieloze correctiefactor voor de invloed van beschaduwing van het 
+desbetreffende zonnestroomsyteem i, bepaald volgens 16.2.2.4; 
+fprac,PV;i 
+is de dimensieloze praktijkprestatiefactor PV van het desbetreffende PVT-systeem i, 
+bepaald volgens 16.2.2.5; 
+fPVT;PV;i 
+is de dimensieloze PVT-reductiefactor voor PVT-systemen, volgens tabel 16.4; 
+Iref 
+is de referentiezoninstraling, gelijk aan 1 kW/m2. 
+Tabel 16.4 — PVT-reductiefactor voor PVT-systemen 
+Met enkel glas afgedekte systemen 
+(Asol;mod ·Ncol)/Vsto;tot 
+fPVT;PV;i 
+< 0,015 m2/dm3 
+0,88 
+0,015-0,03 m2/dm3 
+0,84 
+> 0,03 m2/dm3 
+0,80 
+Onafgedekte systemen 
+(Asol;mod*Ncol)/Vsto;tot 
+fPVT;PV;i 
+Alle waarden 
+1,00 
+waarin: 
+Asol;mod is de referentieoppervlakte per collectormodule van het PVT-systeem, in 
+m2; 
+Ncol 
+is het aantal geïnstalleerde collectormodules; 
+Vsto;tot 
+is het totale volume van het opslagvat van het PVT-systeem, in dm3; 
+fPVT;PV;i is de PVT-reductiefactor voor elektrische jaaropbrengst. 
+671
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 672 ---
+Withdrawn final
+Ingetrokken definitief
+16.4 Bijdrage van (micro)warmtekracht 
+16.4.1 Principe 
+Voor gebouwgebonden WKK is elektriciteit een bijproduct bij warmtelevering. In de hier toegepaste 
+methode wordt de energie die nodig is om warmte en elektriciteit te leveren, volledig toegeschreven 
+aan de warmtelevering. Doorgaans is dat meer energie dan in een systeem dat alleen warmte levert. 
+Daar staat tegenover dat de productie van elektriciteit als aftrekpost wordt gewaardeerd in de 
+berekening van de totale energieprestatie van een gebouw.  
+De elektriciteitsproductie wordt hieronder per toestel bepaald voor WKK, met gi = chp, voor alle 
+systemen si voor verwarming en alle systemen si voor warm tapwater. Vervolgens wordt de totale 
+maandelijkse bijdrage van alle gebouwgebonden warmtekrachtinstallaties voor verwarming en warm 
+tapwater bepaald.  
+Hierbij wordt alleen de elektriciteit verrekend die wordt opgewekt bij een warmtevraagvolgende 
+bedrijfsvoering van de WKK. 
+OPMERKING 1 Het is een beleidsmatige keuze dat binnen NTA 8800 een WKK altijd op basis van een 
+warmtevraagvolgende bedrijfsvoering beschouwd wordt.  
+In hoofdstuk 9 (verwarming) en hoofdstuk 13 (tapwater) zijn twee methoden opgenomen voor het 
+bepalen van het energiegebruik voor verwarming en tapwater voor een gebouwgebonden WKK. 
+Methode 1 is een methode op basis van forfaitaire rendementen voor met gas gestookte WKK’s 
+waarbij er geen meetgegevens conform NEN-EN 50465 bekend zijn. Methode 2 is een gedetailleerde 
+methode op basis van meetgegevens conform NEN-EN 50465 voor toestellen met een thermisch 
+vermogen van maximaal 70 kW, waarmee de prestaties van een WKK in rekening gebracht kunnen 
+worden.  
+De wijze waarop de elektriciteitsproductie van een WKK berekend moet worden, is afhankelijk van de 
+gekozen bepalingsmethode bij verwarming en tapwater. Indien gekozen is voor methode 1, dan moet 
+de elektriciteitsproductie volgens de rekenregels in 16.4.2 bepaald worden. Bij een keuze voor 
+methode 2 moeten de rekenregels uit 16.4.3 gevolgd worden.  
+OPMERKING 2 
+De rekenregels voor de bepaling van de opbrengst van een WKK op basis van methode 1 zijn 
+ontleend aan NEN 7120. De rekenregels van methode 2 zijn afkomstig uit NEN-EN 15316-4-4 (formule 4). 
+16.4.2 Rekenregels methode 1: forfaitaire bepalingsmethode opbrengst WKK 
+Bepaal de maandelijkse bijdrage van alle gebouwgebonden warmtekrachtinstallaties voor verwarming 
+en warm tapwater in kWh volgens: 
+(
+)
+(
+)
+el;chp;out;
+el;chp;out;
+;
+el;chp;ou
+mi
+H mi si
+W mi si
+si H
+si W
+E
+E
+E
+=
++
+
+
+_
+_
+;
+t;
+;
+;
+(16.11) 
+Bepaal de maandelijkse bijdrage van WKK voor ieder systeem si voor verwarming in kWh: 
+chp;el;
+el;chp;out;H
+H;gen;
+;
+;out
+chp;th;
+si
+mi
+gi mi
+si
+Q
+
+
+=
+
+;
+E
+(16.12) 
+672
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 673 ---
+Withdrawn final
+Ingetrokken definitief
+waarin: 
+Eel;chp;out;mi 
+is de op het eigen perceel geproduceerde elektriciteit van alle gebouwgebonden 
+warmtekrachtinstallaties voor verwarming en warm tapwater, in kWh; 
+Eel;chp;out;H;mi;si  is de op het eigen perceel geproduceerde elektriciteit afkomstig van opwekker 
+gi = chp, voor ieder systeem si voor verwarming, in kWh; 
+Eel;chp;out;W;mi;si is de op het eigen perceel geproduceerde elektriciteit afkomstig van opwekker 
+gi = chp, voor ieder systeem si voor warm tapwater, volgens formule (16.13), in 
+kWh; 
+QH;gen;gi;mi;out 
+is de hoeveelheid thermische energie geleverd door de warmtekrachtinstallatie 
+gi = chp, voor de energiefunctie verwarming, in maand mi, in kWh, bepaald volgens 
+9.2.2.1.3; 
+chp;el;si 
+is het dimensieloze jaargemiddelde elektrisch omzettingsgetal van de 
+desbetreffende warmtekrachtinstallatie gi = chp, voor ieder systeem si voor 
+verwarming, op bovenwaarde, bepaald volgens 9.6.6.1; 
+chp;th;si  
+is het dimensieloze jaargemiddelde thermisch omzettingsgetal van de 
+desbetreffende warmtekrachtinstallatie gi = chp, voor ieder systeem si voor 
+verwarming, op bovenwaarde, bepaald volgens 9.6.6.1. 
+Bepaal de maandelijkse bijdrage van WKK voor ieder systeem si voor warm tapwater, in kWh: 
+chp;el;
+el;chp;out;W;
+;
+W;gen;
+;
+out
+chp;th;
+si
+mi si
+gi mi
+si
+=
+ε
+E
+Q
+ε
+;
+ 
+(16.13) 
+waarin: 
+Eel;chp;out;W;mi;si is de op het eigen perceel geproduceerde elektriciteit afkomstig van opwekker 
+gi = chp, voor ieder systeem si voor warm tapwater, in kWh; 
+QW;gen;gi;mi;out is de hoeveelheid thermische energie geleverd door de warmtekrachtinstallatie 
+gi = chp, voor de energiefunctie tapwater, in maand mi, in kWh, bepaald volgens 
+13.8.2;  
+chp;el;si 
+is het dimensieloze jaargemiddelde elektrisch omzettingsgetal van de 
+desbetreffende warmtekrachtinstallatie gi = chp, voor ieder systeem si voor 
+tapwater, op bovenwaarde, bepaald volgens 9.6.6.1; 
+chp;th;si  
+is het dimensieloze jaargemiddelde thermisch omzettingsgetal van de 
+desbetreffende warmtekrachtinstallatie gi = chp, voor ieder systeem si voor 
+tapwater, op bovenwaarde, bepaald volgens 9.6.6.1. 
+16.4.3 Rekenregels methode 2: bepalingsmethode opbrengst WKK tot 70 kWth op basis van 
+meetgegevens NEN-EN 50465 
+Bepaal de maandelijkse bijdrage van alle gebouwgebonden warmtekrachtinstallaties voor verwarming 
+en warm tapwater in kWh volgens: 
+673
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 674 ---
+Withdrawn final
+Ingetrokken definitief
+(
+)
+(
+)
+el;chp;out;
+el;chp;out;H;
+;
+el;chp;out;W;
+_H
+_W
+mi
+gi mi
+gi mi
+gi
+gi
+E
+=
++
+
+
+;
+E
+E
+(16.14) 
+Bepaal de maandelijkse bijdrage van WKK voor iedere opwekker gi voor verwarming in kWh: 
+;
+;
+; ;
+;
+;
+;
+; ;
+;
+;
+;
+el chp out H gi mi
+el chp out H gi
+H op gi mi
+E
+P
+t
+=
+
+(16.15) 
+waarin: 
+Eel;chp;out;H;mi;gi is de op het eigen perceel geproduceerde elektriciteit afkomstig van opwekker 
+gi = chp voor verwarming, in kWh; 
+Pel;chp;out;H;gi 
+is het geleverde elektrisch vermogen door de gebouwgebonden 
+warmtekrachtinstallatie gi voor verwarming, bepaald volgens 9.6.6.2, in kW; 
+tH;op;gi;mi 
+is de totale bedrijfstijd van de opwekker gi = chp voor verwarming in maand mi 
+volgens tabel 9.15 in 9.4.2. 
+Bepaal de maandelijkse bijdrage van WKK voor iedere opwekker gi voor tapwater in kWh: 
+el;chp;out;W; ;
+el;chp;out;W;
+W;op; ;
+gi mi
+gi
+gi mi
+E
+P
+t
+=
+
+(16.16) 
+waarin: 
+Eel;chp;out;W;gi;mi is de op het eigen perceel geproduceerde elektriciteit afkomstig van opwekker 
+gi = chp voor tapwater, in kWh; 
+Pel;chp;out;W 
+is het geleverde elektrisch vermogen door de gebouwgebonden 
+warmtekrachtinstallatie gi voor tapwater, bepaald volgens 13.8.4.8.2, in kW; 
+tW;op;gi;mi 
+is de totale bedrijfstijd van de opwekker gi = chp voor tapwater in maand mi volgens 
+13.8.4.8.2. 
+16.5 Bijdrage van windenergie 
+16.5.1 Principe 
+De eventuele bijdrage van een gebouwgebonden windenergiesystemen aan de 
+elektriciteitsvoorziening kan nog niet met deze NTA bepaald worden.  
+In formulevorm: 
+el;wind;out;
+el;wind;out;
+0
+;
+mi
+i mi
+i
+E
+E
+(16.17) 
+waarin: 
+Eel;wind;out;i;mi 
+is de op het eigen perceel geproduceerde elektriciteit van alle gebouwgebonden 
+windenergiesysteem i, in kWh per maand. 
+OPMERKING 
+De Europese norm NEN-EN 15316-4-10 biedt wel rekenregels voor de berekening van de 
+opbrengst van gebouwgebonden windenergiesystemen. Deze Europese norm is echter nog niet geïntegreerd in 
+NTA 8800. In NEN-EN 15316-4-10 wordt de term Qf,prd,WPS;i gebruikt (in plaats van Eel;wind;out;i;mi). Dit is de 
+maandelijks geproduceerde elektriciteit van windenergiesysteem WPS;i in kWh per maand. 
+674
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 675 ---
+Withdrawn final
+Ingetrokken definitief
+17 Klimaatgegevens 
+17.1 Principe 
+De klimaatgegevens zijn afkomstig van NEN 5060. Deze norm geeft de uurlijkse waarden voor een 
+referentieklimaat, op basis van NEN-EN-ISO 15927-4. Deze waarden zijn gebaseerd op recente 
+jaarreeksen (zie 17.2). 
+De opvallende zonnestraling wordt gegeven als maandwaarde, als functie van oriëntatie en helling van 
+het zonontvangende vlak, zoals daglichtopening, passief zonne-energiesysteem, zonnecollector of 
+zonnestroompaneel.  
+De beschaduwingsreductiefactor wordt, ter voorkoming van een grote bewerkelijkheid, niet per 
+maand bepaald, maar als gewogen gemiddelde over het hele jaar (zie 17.3).  
+17.2 Getalswaarden 
+Bepaal de lengte van de maand, tmi, de maandgemiddelde buitenluchttemperatuur, ϑe;avg;mi, de 
+gemiddelde windsnelheid, usite;mi volgens tabel 17.1. Bepaal de maandgemiddelde totale opvallende 
+zonnestraling, Isol;mi,, volgens tabel 17.2. Bepaal de maandgemiddelde buitenluchttemperatuur voor 
+zomernachtventilatie (ϑe;argII,mi) op vergelijkbare wijze als de maandgemiddelde 
+buitenluchttemperatuur (ϑe;avg;mi) wordt bepaald in NEN 5060 met dien verstande dat uitsluitend 
+wordt gemiddeld over perioden tussen 22.00 uur en 06.00 uur waarbij 13°C < ϑe < 24°C. 
+OPMERKING 1 
+De getalswaarden voor de lengte van iedere maand, tmi, de maandgemiddelde 
+buitenluchttemperatuur, ϑe;avg;mi, en de gemiddelde windsnelheid, usite;mi, gegeven in tabel 17.1 zijn overgenomen 
+uit NEN 5060, evenals de getalswaarden voor de maandgemiddelde buitenluchttemperatuur voor 
+zomernachtventilatie, ϑe;argII,mi.  
+OPMERKING 2 
+Er is een klein verschil tussen NEN 5060 en deze norm: De windsnelheid usite;mi wijkt af van de 
+rekenkundige maandgemiddelde windsnelheid u10 volgens NEN 5060, vanwege de invloed die windsnelheid 
+heeft op de luchtvolumestroom in een gebouw. Deze invloed wordt niet verwerkt in de winddrukcoëfficiënten in 
+deze NTA, zodat deze coëfficiënten aan blijven sluiten bij de waarden volgens NEN-EN 16798-7. Voor de 
+berekening van de luchtvolumestroom in het luchtstroommodel in 11.2 is de maandgemiddelde windsnelheid 
+(usite;mi) aangepast. Er wordt geen rekening gehouden met uitschieters in de windsnelheid volgens NEN 5060: 
+de waarde usite;mi is bepaald door het rekenkundige gemiddelde waarbij slechts de uurlijkse windsnelheden 
+meegewogen zijn die niet meer afwijken dan één keer de standaarddeviatie ten opzichte van de 
+(maandgemiddelde) rekenkundige gemiddelde windsnelheid volgens NEN 5060. 
+ 
+ 
+675
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 676 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.1 — Lengte van de maand, tmi, maandgemiddelde buitenluchttemperatuur, ϑe;avg;mi, 
+maandgemiddelde buitenluchttemperatuur voor zomernachtventilatie, ϑe;argII,mi, 
+maandgemiddelde windsnelheid, usite;mi, en de maandgemiddelde temperatuur van de 
+toevoerlucht vóór de WTW gedurende de periode dat er sprake is van koudeterugwinning via 
+de WTW, ϑODA;preh;WTWC;zi;mi 
+Maand 
+tmi 
+h 
+ϑe;avg;mi 
+°C 
+ϑe;argII,mi 
+°C 
+usite;mi 
+m/s 
+ϑODA;preh;WTWC;zi;mi 
+°C 
+Januari 
+744 
+2,61 
+- 
+3,04 
+0,00 
+Februari 
+672 
+4,82 
+13,97 
+4,15 
+0,00 
+Maart 
+744 
+5,91 
+13,00 
+2,99 
+0,00 
+April 
+720 
+9,32 
+13,70 
+3,06 
+0,00 
+Mei 
+744 
+14,73 
+14,56 
+2,97 
+25,63 
+Juni 
+720 
+16,12 
+15,62 
+2,78 
+27,49 
+Juli 
+744 
+18,05 
+16,17 
+2,63 
+26,34 
+Augustus 
+744 
+18,48 
+16,90 
+2,51 
+27,29 
+September 
+720 
+15,63 
+15,11 
+2,71 
+25,30 
+Oktober 
+744 
+10,40 
+15,04 
+2,78 
+0,00 
+November 
+720 
+7,99 
+13,43 
+2,83 
+0,00 
+December 
+744 
+4,00 
+- 
+2,83 
+0,00 
+ 
+De totale lengte van het jaar, tan, bedraagt 8760 h. 
+OPMERKING 3 
+De getalswaarden voor de maandgemiddelde totale opvallende zonnestraling, Isol;mi, gegeven in 
+tabel 17.2 zijn overgenomen uit NEN 5060. 
+676
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 677 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.2 — Maandgemiddelde totale opvallende zonnestraling, Isol;mi, gemiddeld over alle 
+uren; grondreflectiecoëfficiënt ρ = 0,2 
+β 
+0° 
+30° 
+ 
+γ 
+– 
+180° 
+Z 
+225° 
+ZW 
+270° 
+W 
+315° 
+NW 
+360° 
+N 
+45° 
+NO 
+90° 
+O 
+135° 
+ZO 
+ 
+Maand 
+Isol;mi 
+W/m2 
+Januari 
+28,0 
+50,5 
+44,4 
+29,0 
+16,2 
+14,9 
+15,8 
+26,9 
+42,2 
+ 
+Februari 
+49,3 
+69,1 
+61,2 
+46,2 
+32,9 
+27,2 
+34,5 
+49,4 
+63,7 
+ 
+Maart 
+96,6 
+122,5 109,3 
+87,7 
+66,7 
+56,4 
+72,8 
+97,6 
+117,7 
+ 
+April 
+160,5 189,5 174,5 146,5 115,6 104,6 125,1 158,9 184,1 
+ 
+Mei 
+197,0 211,1 201,5 179,9 155,8 148,5 160,6 186,3 206,3 
+ 
+Juni 
+209,3 211,2 210,7 199,4 180,6 171,0 173,0 189,7 204,4 
+ 
+Juli 
+191,0 196,1 193,2 180,2 162,1 153,0 156,9 175,0 190,0 
+ 
+Augustus 
+177,2 197,9 198,3 178,4 147,6 125,8 127,5 152,8 179,3 
+ 
+September 
+123,9 154,0 146,2 121,1 
+91,6 
+73,7 
+86,5 
+113,7 140,1 
+ 
+Oktober 
+73,2 
+102,4 
+91,5 
+68,8 
+47,3 
+36,3 
+48,9 
+71,6 
+93,6 
+ 
+November 
+34,3 
+54,8 
+47,7 
+32,9 
+20,5 
+18,6 
+20,9 
+33,8 
+48,6 
+ 
+December 
+21,0 
+38,3 
+32,6 
+20,6 
+12,5 
+12,2 
+12,5 
+21,2 
+33,1 
+ 
+β 
+ 
+45° 
+ 
+γ 
+ 
+180° 
+Z 
+225° 
+ZW 
+270° 
+W 
+315° 
+NW 
+360° 
+N 
+45° 
+NO 
+90° 
+O 
+135° 
+ZO 
+ 
+Maand 
+Isol;mi 
+W/m2 
+Januari 
+ 
+57,9 
+49,4 
+28,7 
+14,9 
+14,3 
+14,5 
+26,2 
+46,3 
+ 
+Februari 
+ 
+74,1 
+63,2 
+44,0 
+29,2 
+25,9 
+30,4 
+47,9 
+66,5 
+ 
+Maart 
+ 
+126,6 109,1 
+82,0 
+56,6 
+44,3 
+63,1 
+94,2 
+120,2 
+ 
+April 
+ 
+189,7 171,0 136,7 
+96,5 
+70,0 
+107,1 152,2 183,5 
+ 
+Mei 
+ 
+202,7 191,1 164,4 128,7 113,6 134,5 172,0 197,3 
+ 
+677
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 678 ---
+Withdrawn final
+Ingetrokken definitief
+Juni 
+197,3 199,3 186,2 156,3 139,6 145,9 173,3 190,7 
+Juli 
+185,0 182,5 166,8 139,0 123,5 132,7 160,4 179,1 
+Augustus 
+193,5 194,9 169,8 127,2 
+91,5 
+102,9 137,9 171,0 
+September 
+157,6 147,0 115,3 
+78,0 
+52,9 
+72,2 
+106,2 139,2 
+Oktober 
+109,4 
+94,2 
+64,8 
+40,2 
+33,5 
+41,4 
+68,4 
+97,2 
+November 
+61,0 
+51,1 
+31,3 
+18,5 
+17,8 
+18,8 
+32,4 
+52,2 
+December 
+44,1 
+36,1 
+19,9 
+11,7 
+11,7 
+11,7 
+20,5 
+36,7 
+β 
+60° 
+γ 
+180° 
+Z 
+225° 
+ZW 
+270° 
+W 
+315° 
+NW 
+360° 
+N 
+45° 
+NO 
+90° 
+O 
+135° 
+ZO 
+Maand 
+Isol;mi 
+W/m2 
+Januari 
+62,2 
+51,8 
+27,8 
+13,8 
+13,4 
+13,5 
+24,7 
+48,1 
+Februari 
+75,4 
+62,1 
+41,1 
+26,4 
+24,1 
+27,3 
+45,4 
+66,3 
+Maart 
+124,3 
+103,9 
+74,8 
+49,6 
+41,5 
+56,3 
+88,5 
+116,9 
+April 
+180,2 
+160,4 
+125,1 
+83,1 
+57,8 
+93,9 
+142,0 174,2 
+Mei 
+184,5 
+173,4 
+146,3 107,5 
+78,5 
+113,2 154,7 179,9 
+Juni 
+175,1 
+180,9 
+169,1 134,1 102,9 123,3 154,5 170,7 
+Juli 
+165,9 
+165,4 
+150,6 119,2 
+90,4 
+112,3 143,2 161,8 
+Augustus 
+179,7 
+182,9 
+156,9 110,2 
+68,0 
+85,8 
+122,0 156,4 
+September 
+153,3 
+141,5 
+107,2 
+68,6 
+48,6 
+62,3 
+97,2 
+132,6 
+Oktober 
+110,7 
+92,6 
+59,9 
+35,9 
+31,5 
+36,6 
+63,5 
+96,0 
+November 
+63,9 
+51,8 
+28,9 
+17,0 
+16,6 
+17,3 
+30,4 
+53,2 
+December 
+47,4 
+37,6 
+19,0 
+10,9 
+10,9 
+10,9 
+19,6 
+38,4 
+678
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 679 ---
+Withdrawn final
+Ingetrokken definitief
+β 
+ 
+90° 
+ 
+γ 
+ 
+180° 
+Z 
+225° 
+ZW 
+270° 
+W 
+315° 
+NW 
+360° 
+N 
+45° 
+NO 
+90° 
+O 
+135° 
+ZO 
+ 
+Maand 
+Isol;mi 
+W/m2 
+Januari 
+ 
+60,1 
+48,1 
+23,4 
+11,4 
+11,1 
+11,1 
+20,2 
+43,9  
+Februari 
+ 
+66,7 
+52,2 
+32,8 
+20,9 
+19,5 
+21,5 
+36,5 
+56,8  
+Maart 
+ 
+101,8 
+82,1 
+57,3 
+38,5 
+34,8 
+44,2 
+70,7 
+95,4  
+April 
+ 
+135,1 
+121,9 
+96,2 
+64,1 
+49,4 
+72,9 
+112,2 135,8  
+Mei 
+ 
+124,9 
+122,1 
+107,3 
+78,9 
+61,9 
+82,9 
+114,6 128,4  
+Juni 
+ 
+112,7 
+127,8 
+125,7 
+97,8 
+73,0 
+92,0 
+114,8 118,0  
+Juli 
+ 
+109,7 
+117,1 
+112,7 
+88,5 
+66,7 
+81,2 
+104,9 113,2  
+Augustus 
+ 
+128,5 
+137,1 
+120,0 
+83,1 
+55,9 
+63,9 
+89,0 
+112,4  
+September 
+ 
+122,3 
+112,2 
+83,9 
+53,6 
+41,4 
+47,9 
+73,7 
+103,6  
+Oktober 
+ 
+96,2 
+76,3 
+46,7 
+28,7 
+26,4 
+29,1 
+49,8 
+80,3  
+November 
+ 
+59,5 
+45,6 
+22,7 
+13,8 
+13,6 
+14,0 
+23,9 
+47,1  
+December 
+ 
+46,2 
+34,9 
+15,2 
+8,9 
+8,9 
+8,9 
+15,9 
+35,8  
+ 
+β 
+ 
+135° 
+180° 
+γ 
+ 
+180° 
+Z 
+225° 
+ZW 
+270° 
+W 
+315° 
+NW 
+360° 
+N 
+45° 
+NO 
+90° 
+O 
+135° 
+ZO 
+– 
+Maand 
+Isol;mi 
+W/m2 
+Januari 
+ 
+33,4 
+25,1 
+12,7 
+7,6 
+7,5 
+7,5 
+10,6 
+22,2 
+5,6 
+Februari 
+ 
+31,5 
+24,2 
+17,3 
+13,2 
+12,9 
+13,5 
+18,6 
+26,7 
+9,8 
+Maart 
+ 
+37,3 
+35,1 
+29,9 
+25,2 
+24,5 
+27,6 
+36,7 
+42,0 
+19,3 
+April 
+ 
+39,0 
+50,7 
+49,9 
+41,8 
+38,3 
+45,5 
+57,1 
+56,3 
+32,1 
+Mei 
+ 
+45,5 
+50,4 
+55,2 
+50,7 
+46,7 
+51,9 
+57,8 
+51,9 
+39,3 
+Juni 
+ 
+48,3 
+52,3 
+62,4 
+57,8 
+50,6 
+55,4 
+59,9 
+51,7 
+41,8 
+679
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 680 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+ 
+44,9 
+49,7 
+57,7 
+53,5 
+46,5 
+48,9 
+53,0 
+48,0 
+38,2 
+Augustus 
+ 
+41,6 
+54,3 
+59,6 
+50,2 
+42,1 
+42,9 
+47,7 
+47,5 
+35,3 
+September 
+ 
+40,2 
+47,5 
+43,2 
+33,8 
+30,4 
+31,4 
+37,9 
+43,2 
+24,7 
+Oktober 
+ 
+41,6 
+33,2 
+24,7 
+19,3 
+18,6 
+19,4 
+25,4 
+35,2 
+14,6 
+November 
+ 
+30,9 
+21,7 
+12,0 
+9,2 
+9,1 
+9,3 
+12,7 
+22,7 
+6,9 
+December 
+ 
+26,3 
+18,3 
+8,1 
+5,8 
+5,8 
+5,8 
+8,4 
+19,0 
+4,2 
+ 
+Tabel 17.2 geeft de totale opvallende zonnestraling voor verschillende oriëntaties (γ) en 
+hellingshoeken (β). Voor tussenliggende oriëntaties moet de waarde behorend bij de dichtstbijzijnde 
+oriëntatie worden genomen. Indien de oriëntatie precies tussen twee aangegeven oriëntaties in ligt, 
+moet de hoogste, naastliggende waarde worden genomen. Voor tussenliggende hellingshoeken moet 
+lineair geïnterpoleerd worden tussen de tabelwaarden. 
+ 
+Figuur 17.1 — Hellingshoek (β) als bedoeld in tabel 17.2 
+17.3 Beschaduwingsreductiefactoren 
+17.3.1 Principe 
+De beschaduwingsreductiefactor wordt per maand bepaald. De warmtebehoefte, de koudebehoefte en 
+de zonnecollectoren voor tapwaterverwarming en zonnestroompanelen kunnen verschillende 
+waarden opleveren. 
+Er wordt onderscheid gemaakt tussen obstakels gezien vanaf de grond, die ‘belemmeringen’ worden 
+genoemd, en obstakels gezien vanuit de hemel, die algemeen als ‘overstekken’ worden aangeduid.  
+680
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14

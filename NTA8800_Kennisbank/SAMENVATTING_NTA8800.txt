@@ -1,0 +1,194 @@
+===============================================================================
+NTA 8800:2023 - KERNCONCEPTEN SAMENVATTING
+===============================================================================
+Bron: NTA 8800:2023 (1120 pagina's) - Nederlandse norm voor energieprestatie
+
+===============================================================================
+1. ENERGIEPRESTATIE-INDICATOREN
+===============================================================================
+
+EP1 (BENG1) - Energiebehoefte-indicator (EweH+C;nd;ventsys=C1)
+-----------------------------------------------------------------------------
+- Wat: Energiebehoefte voor verwarming + koeling in kWh/m².jaar
+- Formule: EP1 = QH+C;nd / Ag;tot
+- Meet: Alleen de gebouwschil (isolatie, ramen, oriëntatie)
+- BELANGRIJK: Wordt berekend met vast ventilatiesysteem C1 (mech. afvoer)
+  Dit maakt EP1 onafhankelijk van het werkelijke ventilatiesysteem
+- Afronding: naar boven op 0,01
+
+EP2 (BENG2) - Primaire fossiele energie-indicator (EwePTot)
+-----------------------------------------------------------------------------
+- Wat: Totaal primair fossiel energiegebruik in kWh/m².jaar
+- Formule: EP2 = EPTot / Ag;tot
+- Meet: Gebouwschil + installaties + opwekking
+- Omvat: verwarming, koeling, tapwater, ventilatie, verlichting
+- Minus: eigen opgewekte energie (PV, warmtepomp)
+- Dit is de indicator voor het ENERGIELABEL (A+++ tot G)
+
+EP3 (BENG3) - Aandeel hernieuwbare energie (RERPrenTot)
+-----------------------------------------------------------------------------
+- Wat: Percentage hernieuwbare energie in %
+- Meet: Hoeveel energie komt uit hernieuwbare bronnen
+- Bronnen: warmtepomp (omgevingswarmte), PV, zonneboiler
+
+===============================================================================
+2. LABELGRENZEN (uit jouw 366 woningen analyse)
+===============================================================================
+
+Label    | EP2 range (kWh/m².jr) | Gemiddeld
+---------|------------------------|----------
+A+++     | < 50                   | 31
+A++      | 50 - 70                | 63
+A+       | 70 - 100               | 91
+A        | 100 - 160              | 129
+B        | 160 - 190              | 170
+C        | 190 - 250              | 214
+D        | 250 - 290              | 267
+E        | 290 - 340              | 316
+F        | 340 - 450              | 392
+G        | > 450                  | 912
+
+===============================================================================
+3. VENTILATIESYSTEMEN (grote impact op EP2!)
+===============================================================================
+
+Code | Naam                           | Impact    | Beschrijving
+-----|--------------------------------|-----------|----------------------------------
+A1   | Natuurlijk                     | Slecht    | Roosters in gevel, geen mech.
+A2   | Natuurlijk vraaggestuurd       | Matig     | Met CO2-sturing
+C1   | Mechanische afvoer             | Basis     | Centrale afzuiging, nat. toevoer
+C2   | Mech. afvoer vraaggestuurd     | Beter     | Met CO2-sturing
+C3   | Mech. afvoer decentraal        | Matig     | Per ruimte
+D1   | Gebalanceerd zonder WTW        | Matig     | Mech. toe- en afvoer
+D2   | Gebalanceerd met WTW           | Beste     | Met warmteterugwinning
+D5   | Decentraal gebalanceerd WTW    | Goed      | Per ruimte met WTW
+
+UIT JOUW DATA (366 woningen):
+- A1 (natuurlijk): gemiddeld EP2 = 221 kWh/m²
+- C1 (mech. afvoer): gemiddeld EP2 = 137 kWh/m² (besparing: 84 kWh/m²!)
+- D2 (WTW): gemiddeld EP2 = 92 kWh/m² (besparing: 129 kWh/m²!)
+
+===============================================================================
+4. WARMTETERUGWINNING (WTW) - FORMULE
+===============================================================================
+
+De temperatuurverhoging door WTW:
+Δθ = ηhr × (θint - θe)
+
+Waarbij:
+- ηhr = rendement WTW (typisch 0,75-0,95)
+- θint = binnentemperatuur (20°C)
+- θe = buitentemperatuur
+
+Voorbeeld winter (θe = 0°C, ηhr = 0,85):
+Δθ = 0,85 × (20 - 0) = 17°C → Toevoerlucht = 17°C ipv 0°C
+
+===============================================================================
+5. TRANSMISSIE - Rc-WAARDEN
+===============================================================================
+
+Constructie     | Eis nieuwbouw | Bestaand goed | Bestaand slecht
+----------------|---------------|---------------|------------------
+Gevel           | Rc ≥ 4,7      | Rc 2,5-3,5    | Rc < 1,3
+Dak             | Rc ≥ 6,3      | Rc 2,5-4,0    | Rc < 1,3
+Vloer           | Rc ≥ 3,7      | Rc 2,0-3,0    | Rc < 0,5
+Glas            | U ≤ 1,65      | U 1,1-1,6     | U > 2,8
+
+Let op: Rc = weerstand (hoger = beter), U = doorgang (lager = beter)
+
+===============================================================================
+6. VERWARMINGSSYSTEMEN
+===============================================================================
+
+Type                        | Rendement/COP | Impact EP2
+----------------------------|---------------|------------------
+Warmtepomp lucht/water      | COP 3-4       | Zeer gunstig
+Warmtepomp bodem            | COP 4-5       | Zeer gunstig
+HR107 ketel (kwaliteitsvkl) | η = 107%      | Gunstig
+HR107 ketel (forfaitair)    | η = 95%       | Standaard
+VR ketel (oud)              | η = 75-85%    | Ongunstig
+Elektrisch                  | η = 100%      | Zeer ongunstig (factor 1,45!)
+
+Kwaliteitsverklaring (BCRG): geeft werkelijk rendement, vaak 5-12% beter!
+
+===============================================================================
+7. TAPWATER
+===============================================================================
+
+Type                    | Impact
+------------------------|---------------------------
+Elektrische boiler      | Ongunstig (primaire factor)
+HR-combiketel           | Gunstig
+Zonneboiler             | Zeer gunstig (hernieuwbaar)
+Warmtepomp boiler       | Zeer gunstig
+
+===============================================================================
+8. ZONNEPANELEN (PV)
+===============================================================================
+
+Formule opbrengst:
+E_pv = Ppeak × η_sys × Esol
+
+Waarbij:
+- Ppeak = piekvermogen in kWp
+- η_sys = systeemrendement (ca. 0,85)
+- Esol = instraling (Nederland: ~1000 kWh/m².jaar optimaal)
+
+Vuistregel: 1 kWp levert ca. 850-950 kWh/jaar
+
+Kwaliteitsverklaring: exacte rendementen per paneel
+Forfaitair: standaard waarden (conservatiever)
+
+===============================================================================
+9. PRIMAIRE ENERGIEFACTOREN (fp)
+===============================================================================
+
+Energiedrager          | Factor | Betekenis
+-----------------------|--------|----------------------------------
+Elektriciteit (net)    | 1,45   | Fossiele centrales meegerekend
+Aardgas                | 1,00   | Referentie
+Warmtepomp warmte      | 0      | Omgevingswarmte is "gratis"
+PV elektriciteit       | 0      | Eigen opwek telt niet mee
+Biomassa               | varies | Afhankelijk van certificering
+
+Formule EP2:
+EPTot = Σ(Qfinal × fp) - Σ(Qexport × fp;export)
+
+===============================================================================
+10. "HARD SCORENDE" FACTOREN UIT JOUW DATABASE
+===============================================================================
+
+Gebaseerd op analyse van 366 woningen:
+
+Factor                      | Verschil EP2  | Prioriteit
+----------------------------|---------------|------------
+Ventilatie D2 (WTW)         | -129 kWh/m²   | ★★★★★
+Vloerverwarming             | -81 kWh/m²    | ★★★★
+Mech. afvoer C1             | -84 kWh/m²    | ★★★★
+Warmtepomp                  | -60-100 kWh/m²| ★★★★★
+Zonnepanelen                | -30-60 kWh/m² | ★★★★
+HR++ glas (U<1,1)           | -20-40 kWh/m² | ★★★
+Spouwisolatie               | -30-50 kWh/m² | ★★★★
+Dakisolatie                 | -20-40 kWh/m² | ★★★
+
+===============================================================================
+11. FORFAITAIR VS GEDETAILLEERD
+===============================================================================
+
+Forfaitair = standaard/conservatieve waarden als geen details bekend
+Gedetailleerd = exacte waarden met onderbouwing
+
+Voorbeeld HR-ketel:
+- Forfaitair: η = 95%
+- Met kwaliteitsverklaring (BCRG): η = 107%
+→ Verschil: 12% beter rendement = significant lagere EP2!
+
+ISSO 82.1 beschrijft wanneer je forfaitair mag gebruiken.
+
+===============================================================================
+BRONNEN
+===============================================================================
+- NTA 8800:2023 (Nederlands Normalisatie Instituut)
+- ISSO 82.1 (opnameprotocol woningbouw)
+- ISSO 6 (forfaitaire waarden)
+- Jouw database: 366 woningen uit COMPLETED map

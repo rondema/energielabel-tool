@@ -1,0 +1,8810 @@
+
+--- Pagina 700 ---
+Withdrawn final
+Ingetrokken definitief
+Februari 
+0,59 
+0,44 
+0,35 
+Maart 
+0,79 
+0,48 
+0,38 
+April 
+0,89 
+0,58 
+0,39 
+Mei 
+0,99 
+0,82 
+0,47 
+Juni 
+0,99 
+0,88 
+0,53 
+Juli 
+0,99 
+0,83 
+0,51 
+Augustus 
+0,95 
+0,74 
+0,46 
+September 
+0,84 
+0,50 
+0,38 
+Oktober 
+0,70 
+0,50 
+0,33 
+November 
+0,56 
+0,38 
+0,30 
+December 
+0,38 
+0,25 
+0,25 
+Oriëntatie 
+West 
+Relatieve hoogte van belemmering loodrecht gemeten 
+t.o.v. het zonontvangende vlak, hb;⊥ 
+Maand 
+hb;⊥< 0,5 
+0,5 ≤ hb;⊥< 1,0 
+hb;⊥ ≥ 1,0 
+Januari 
+0,75 
+0,49 
+0,49 
+Februari 
+0,85 
+0,72 
+0,61 
+Maart 
+0,80 
+0,73 
+0,57 
+April 
+0,74 
+0,54 
+0,43 
+Mei 
+0,83 
+0,62 
+0,47 
+Juni 
+0,86 
+0,66 
+0,49 
+Juli 
+0,88 
+0,71 
+0,55 
+Augustus 
+0,80 
+0,58 
+0,46 
+September 
+0,77 
+0,66 
+0,53 
+Oktober 
+0,76 
+0,75 
+0,57 
+November 
+0,87 
+0,64 
+0,62 
+December 
+0,79 
+0,61 
+0,61 
+700
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 701 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Oost 
+ 
+Relatieve hoogte van belemmering loodrecht gemeten 
+t.o.v. het zonontvangende vlak, hb;⊥ 
+Maand 
+ hb;⊥< 0,5 
+0,5 ≤ hb;⊥ < 1,0 
+ hb;⊥≥ 1,0 
+Januari 
+0,80 
+0,55 
+0,55 
+Februari 
+0,79 
+0,68 
+0,54 
+Maart 
+0,75 
+0,70 
+0,53 
+April 
+0,82 
+0,66 
+0,50 
+Mei 
+0,89 
+0,71 
+0,54 
+Juni 
+0,89 
+0,71 
+0,53 
+Juli 
+0,87 
+0,69 
+0,54 
+Augustus 
+0,90 
+0,72 
+0,57 
+September 
+0,77 
+0,67 
+0,51 
+Oktober 
+0,75 
+0,71 
+0,52 
+November 
+0,89 
+0,60 
+0,58 
+December 
+0,71 
+0,55 
+0,55 
+Oriëntatie 
+Noordwest 
+ 
+Relatieve hoogte van belemmering loodrecht gemeten 
+t.o.v. het zonontvangende vlak, hb;⊥ 
+Maand 
+hb;⊥< 0,5 
+0,5 ≤ hb;⊥ < 1,0 
+hb;⊥ ≥ 1,0 
+Januari 
+0,97 
+0,97 
+0,97 
+Februari 
+0,97 
+0,94 
+0,94 
+Maart 
+0,96 
+0,89 
+0,85 
+April 
+0,87 
+0,78 
+0,66 
+Mei 
+0,85 
+0,83 
+0,65 
+Juni 
+0,83 
+0,74 
+0,63 
+Juli 
+0,86 
+0,84 
+0,69 
+Augustus 
+0,88 
+0,85 
+0,66 
+701
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 702 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,95 
+0,86 
+0,80 
+Oktober 
+0,96 
+0,92 
+0,92 
+November 
+0,99 
+0,99 
+0,99 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+ 
+Relatieve hoogte van belemmering loodrecht gemeten 
+t.o.v. het zonontvangende vlak, hb;⊥ 
+Maand 
+ hb;⊥< 0,5 
+0,5 ≤ hb;⊥< 1,0 
+ hb;⊥≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+0,94 
+0,91 
+0,91 
+Maart 
+0,93 
+0,85 
+0,82 
+April 
+0,97 
+0,88 
+0,75 
+Mei 
+0,89 
+0,88 
+0,74 
+Juni 
+0,87 
+0,79 
+0,66 
+Juli 
+0,85 
+0,84 
+0,69 
+Augustus 
+0,96 
+0,92 
+0,80 
+September 
+0,95 
+0,87 
+0,80 
+Oktober 
+0,95 
+0,90 
+0,90 
+November 
+0,98 
+0,98 
+0,98 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+ 
+Relatieve hoogte van belemmering loodrecht gemeten 
+t.o.v. het zonontvangende vlak, hb;⊥ 
+Maand 
+hb;⊥< 0,5 
+0,5 ≤ hb;⊥< 1,0 
+hb;⊥≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,97 
+0,97 
+702
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 703 ---
+Withdrawn final
+Ingetrokken definitief
+Mei 
+0,96 
+0,91 
+0,91 
+Juni 
+0,94 
+0,86 
+0,84 
+Juli 
+0,95 
+0,90 
+0,89 
+Augustus 
+0,98 
+0,96 
+0,96 
+September 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+waarin: 
+hb;⊥ 
+is de relatieve hoogte van de belemmering loodrecht gemeten t.o.v. 
+ 
+het zonontvangende vlak. 
+ 
+17.3.5 Overstek evenwijdig aan verticaal zonontvangend vlak 
+De beschaduwingsreductiefactor (Fsh;obst;mi) bij overstek met constante hoogte en evenwijdig aan een 
+verticaal zonontvangend vlak, zoals omschreven in 17.3.2 onder c), is in de volgende tabellen gegeven, 
+als functie van de relatieve hoogte gemeten loodrecht op het desbetreffende vlak, ho;⊥: 
+a) voor verwarming (x = H) in tabel 17.8; 
+b) voor koeling (x = C) in tabel 17.9; 
+c) voor zonnecollectoren voor warm tapwater en zonnestroompanelen (x = P): niet beschikbaar. 
+Voor tussenliggende waarden moet de dichtstbijzijnde waarde voor de oriëntatie worden gehanteerd. 
+Waar de afstand gelijk is, mag de hoogste naastliggende waarde worden gehanteerd. 
+OPMERKING 
+Zie figuur 17.1 voor de verklaring van de hellingshoek. 
+703
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 704 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.8 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor warmtebehoefteberekening, in 
+geval van een overstek met constante hoogte en evenwijdig aan een verticaal zonontvangend 
+vlak, zoals omschreven in 17.3.2 onder c) 
+Oriëntatie 
+Zuid 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥ ≥ 1,0 
+Januari 
+0,19 
+0,21 
+0,23 
+Februari 
+0,30 
+0,60 
+0,85 
+Maart 
+0,35 
+0,45 
+0,77 
+April 
+0,36 
+0,36 
+0,61 
+Mei 
+0,46 
+0,46 
+0,52 
+Juni 
+0,56 
+0,56 
+0,57 
+Juli 
+0,56 
+0,56 
+0,57 
+Augustus 
+0,42 
+0,42 
+0,57 
+September 
+0,34 
+0,38 
+0,70 
+Oktober 
+0,28 
+0,51 
+0,83 
+November 
+0,24 
+0,46 
+0,60 
+December 
+0,19 
+0,19 
+0,19 
+Oriëntatie 
+Zuidwest 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥ ≥ 1,0 
+Januari 
+0,24 
+0,29 
+0,42 
+Februari 
+0,38 
+0,53 
+0,70 
+Maart 
+0,41 
+0,53 
+0,72 
+April 
+0,36 
+0,45 
+0,67 
+Mei 
+0,44 
+0,48 
+0,66 
+Juni 
+0,49 
+0,50 
+0,64 
+704
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 705 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,53 
+0,56 
+0,70 
+Augustus 
+0,40 
+0,49 
+0,71 
+September 
+0,39 
+0,48 
+0,68 
+Oktober 
+0,35 
+0,52 
+0,73 
+November 
+0,31 
+0,47 
+0,63 
+December 
+0,26 
+0,36 
+0,51 
+Oriëntatie 
+Zuidoost 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥≥ 1,0 
+Januari 
+0,25 
+0,31 
+0,43 
+Februari 
+0,35 
+0,54 
+0,71 
+Maart 
+0,38 
+0,50 
+0,70 
+April 
+0,39 
+0,47 
+0,71 
+Mei 
+0,47 
+0,50 
+0,66 
+Juni 
+0,53 
+0,54 
+0,68 
+Juli 
+0,51 
+0,53 
+0,68 
+Augustus 
+0,46 
+0,51 
+0,70 
+September 
+0,38 
+0,48 
+0,71 
+Oktober 
+0,33 
+0,49 
+0,67 
+November 
+0,30 
+0,39 
+0,58 
+December 
+0,25 
+0,30 
+0,37 
+Oriëntatie 
+West 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥ ≥ 1,0 
+Januari 
+0,49 
+0,62 
+0,78 
+Februari 
+0,61 
+0,61 
+0,72 
+705
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 706 ---
+Withdrawn final
+Ingetrokken definitief
+Maart 
+0,57 
+0,64 
+0,73 
+April 
+0,43 
+0,53 
+0,66 
+Mei 
+0,47 
+0,53 
+0,68 
+Juni 
+0,49 
+0,57 
+0,73 
+Juli 
+0,55 
+0,61 
+0,75 
+Augustus 
+0,46 
+0,56 
+0,71 
+September 
+0,53 
+0,61 
+0,70 
+Oktober 
+0,57 
+0,61 
+0,69 
+November 
+0,62 
+0,67 
+0,81 
+December 
+0,61 
+0,71 
+0,83 
+Oriëntatie 
+Oost 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥ < 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥≥ 1,0 
+Januari 
+0,55 
+0,68 
+0,84 
+Februari 
+0,54 
+0,54 
+0,65 
+Maart 
+0,53 
+0,59 
+0,66 
+April 
+0,50 
+0,60 
+0,71 
+Mei 
+0,54 
+0,60 
+0,73 
+Juni 
+0,53 
+0,59 
+0,73 
+Juli 
+0,54 
+0,60 
+0,75 
+Augustus 
+0,57 
+0,63 
+0,75 
+September 
+0,51 
+0,60 
+0,69 
+Oktober 
+0,52 
+0,58 
+0,68 
+November 
+0,58 
+0,64 
+0,81 
+December 
+0,55 
+0,69 
+0,81 
+706
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 707 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordwest 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥≥ 1,0 
+Januari 
+0,97 
+0,97 
+0,97 
+Februari 
+0,94 
+0,95 
+0,96 
+Maart 
+0,85 
+0,87 
+0,92 
+April 
+0,66 
+0,66 
+0,74 
+Mei 
+0,65 
+0,65 
+0,68 
+Juni 
+0,63 
+0,71 
+0,78 
+Juli 
+0,69 
+0,73 
+0,76 
+Augustus 
+0,66 
+0,66 
+0,71 
+September 
+0,80 
+0,82 
+0,89 
+Oktober 
+0,92 
+0,94 
+0,96 
+November 
+0,99 
+0,99 
+0,99 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥ < 0,5 
+0,5 ≤ ho;⊥ < 1,0 
+ho;⊥≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+0,91 
+0,93 
+0,95 
+Maart 
+0,82 
+0,86 
+0,93 
+April 
+0,75 
+0,77 
+0,85 
+Mei 
+0,74 
+0,77 
+0,80 
+Juni 
+0,66 
+0,70 
+0,74 
+Juli 
+0,69 
+0,73 
+0,76 
+Augustus 
+0,80 
+0,81 
+0,85 
+707
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 708 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,80 
+0,83 
+0,90 
+Oktober 
+0,90 
+0,92 
+0,95 
+November 
+0,98 
+0,98 
+0,98 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;⊥ 
+Maand 
+ho;⊥< 0,5 
+0,5 ≤ ho;⊥< 1,0 
+ho;⊥≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,98 
+0,98 
+Mei 
+0,91 
+0,92 
+0,95 
+Juni 
+0,84 
+0,87 
+0,93 
+Juli 
+0,89 
+0,91 
+0,95 
+Augustus 
+0,96 
+0,96 
+0,98 
+September 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+waarin: 
+ho;⊥ 
+is de relatieve hoogte van het overstek loodrecht gemeten t.o.v. het 
+zonontvangende vlak. 
+708
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 709 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.9 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor koudebehoefteberekening, in geval 
+van een overstek met constante hoogte en evenwijdig aan een verticaal zonontvangend vlak, 
+zoals omschreven in 17.3.2 onder c) 
+Oriëntatie 
+Zuid 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^ < 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+0,88 
+1,00 
+1,00 
+Februari 
+0,68 
+0,93 
+1,00 
+Maart 
+0,46 
+0,78 
+1,00 
+April 
+0,36 
+0,61 
+1,00 
+Mei 
+0,46 
+0,52 
+1,00 
+Juni 
+0,56 
+0,57 
+1,00 
+Juli 
+0,56 
+0,57 
+1,00 
+Augustus 
+0,42 
+0,57 
+1,00 
+September 
+0,39 
+0,71 
+1,00 
+Oktober 
+0,54 
+0,86 
+1,00 
+November 
+0,80 
+0,98 
+1,00 
+December 
+0,92 
+1,00 
+1,00 
+Oriëntatie 
+Zuidwest 
+ 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, , ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+0,75 
+0,93 
+1,00 
+Februari 
+0,68 
+0,87 
+1,00 
+Maart 
+0,59 
+0,79 
+1,00 
+April 
+0,52 
+0,75 
+1,00 
+Mei 
+0,49 
+0,68 
+1,00 
+Juni 
+0,50 
+0,64 
+1,00 
+709
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 710 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,56 
+0,70 
+1,00 
+Augustus 
+0,50 
+0,72 
+1,00 
+September 
+0,57 
+0,77 
+1,00 
+Oktober 
+0,63 
+0,85 
+1,00 
+November 
+0,73 
+0,93 
+1,00 
+December 
+0,74 
+0,93 
+1,00 
+Oriëntatie 
+Zuidoost 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, , ho; 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+0,77 
+0,95 
+1,00 
+Februari 
+0,71 
+0,90 
+1,00 
+Maart 
+0,61 
+0,82 
+1,00 
+April 
+0,52 
+0,76 
+1,00 
+Mei 
+0,50 
+0,66 
+1,00 
+Juni 
+0,55 
+0,68 
+1,00 
+Juli 
+0,54 
+0,69 
+1,00 
+Augustus 
+0,53 
+0,72 
+1,00 
+September 
+0,55 
+0,79 
+1,00 
+Oktober 
+0,61 
+0,80 
+1,00 
+November 
+0,66 
+0,88 
+1,00 
+December 
+0,84 
+0,97 
+1,00 
+Oriëntatie 
+West 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^ ≥ 1,0 
+Januari 
+0,77 
+0,94 
+1,00 
+Februari 
+0,76 
+0,88 
+1,00 
+710
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 711 ---
+Withdrawn final
+Ingetrokken definitief
+Maart 
+0,75 
+0,84 
+1,00 
+April 
+0,70 
+0,84 
+1,00 
+Mei 
+0,64 
+0,80 
+1,00 
+Juni 
+0,63 
+0,80 
+1,00 
+Juli 
+0,68 
+0,83 
+1,00 
+Augustus 
+0,66 
+0,82 
+1,00 
+September 
+0,74 
+0,85 
+1,00 
+Oktober 
+0,77 
+0,86 
+1,00 
+November 
+0,76 
+0,91 
+1,00 
+December 
+0,83 
+0,96 
+1,00 
+Oriëntatie 
+Oost 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^ ≥ 1,0 
+Januari 
+0,76 
+0,93 
+1,00 
+Februari 
+0,74 
+0,86 
+1,00 
+Maart 
+0,75 
+0,84 
+1,00 
+April 
+0,68 
+0,80 
+1,00 
+Mei 
+0,65 
+0,78 
+1,00 
+Juni 
+0,67 
+0,83 
+1,00 
+Juli 
+0,66 
+0,82 
+1,00 
+Augustus 
+0,68 
+0,81 
+1,00 
+September 
+0,72 
+0,82 
+1,00 
+Oktober 
+0,73 
+0,84 
+1,00 
+November 
+0,72 
+0,90 
+1,00 
+December 
+0,82 
+0,96 
+1,00 
+711
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 712 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordwest 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+0,98 
+0,99 
+1,00 
+Maart 
+0,91 
+0,96 
+1,00 
+April 
+0,79 
+0,87 
+1,00 
+Mei 
+0,79 
+0,83 
+1,00 
+Juni 
+0,80 
+0,87 
+1,00 
+Juli 
+0,82 
+0,86 
+1,00 
+Augustus 
+0,77 
+0,84 
+1,00 
+September 
+0,86 
+0,93 
+1,00 
+Oktober 
+0,96 
+0,99 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+0,97 
+0,99 
+1,00 
+Maart 
+0,89 
+0,95 
+1,00 
+April 
+0,80 
+0,88 
+1,00 
+Mei 
+0,83 
+0,86 
+1,00 
+Juni 
+0,81 
+0,86 
+1,00 
+Juli 
+0,81 
+0,85 
+1,00 
+Augustus 
+0,83 
+0,88 
+1,00 
+712
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 713 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,86 
+0,93 
+1,00 
+Oktober 
+0,95 
+0,99 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+ 
+Relatieve hoogte van overstek loodrecht gemeten t.o.v. 
+het zonontvangende vlak, ho;^ 
+Maand 
+ho;^< 0,5 
+0,5 ≤ ho;^< 1,0 
+ho;^≥ 1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+April 
+0,99 
+1,00 
+1,00 
+Mei 
+0,95 
+0,99 
+1,00 
+Juni 
+0,90 
+0,96 
+1,00 
+Juli 
+0,93 
+0,98 
+1,00 
+Augustus 
+0,98 
+0,99 
+1,00 
+September 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+waarin: 
+ho;^ 
+is de relatieve hoogte van het overstek loodrecht gemeten t.o.v. het 
+ 
+zonontvangende vlak. 
+17.3.6 Zijbelemmeringen loodrecht op het zonontvangende vlak 
+De beschaduwingsreductiefactor (Fsh;obst;mi) bij zijbelemmeringen met constante hoogte en evenwijdig 
+aan een verticaal zonontvangend vlak, zoals omschreven in 17.3.2 onder d), is in de volgende tabellen 
+gegeven, als functie van de relatieve breedte, bb: 
+a) voor verwarming (x = H) in tabel 17.10; 
+b) voor koeling (x = C) in tabel 17.11; 
+c) voor zonnecollectoren voor warm tapwater en zonnestroompanelen (x = P) in tabel 17.12. 
+713
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 714 ---
+Withdrawn final
+Ingetrokken definitief
+Voor tussenliggende waarden moet de dichtstbijzijnde waarde voor de oriëntatie worden gehanteerd. 
+Waar de afstand gelijk is, mag de hoogste naastliggende waarde worden gehanteerd.  
+Bij toepassing van de basisopname ISSO 82.1 en 75.1 ( bestaande bouw) mag bij de berekening van 
+beschaduwingsreductiefactor (Fsh;obst;mi), bij zijbelemmeringen met constante hoogte en evenwijdig aan 
+een verticaal zonontvangend vlak, voor verwarming en koeling, a) en b), uitgegaan worden van een 
+onbelemmerde situatie. 
+OPMERKING 1 
+De reden om bij het toepassing van de basisopname ISSO 82.1 en 75.1 ( bestaande bouw) het 
+niet berekenen van beschaduwingsreductiefactor (Fsh;obst;mi) toe te staan bij zijbelemmeringen met constante 
+hoogte en evenwijdig aan een verticaal zonontvangend vlak is dat het verzamelen van de gegevens relatief veel 
+tijd vergt, terwijl er geen handelingsperspectief is bij bestaande bouw omdat zijbelemmeringen niet aangepast 
+kunnen worden.  
+OPMERKING 2 
+Zie figuur 17.3 voor de verklaring van de relatieve breedte.  
+Tabel 17.10 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor warmtebehoefteberekening, in 
+geval van een zijbelemmering, zoals omschreven in 17.3.2 onder d)  
+Oriëntatie 
+Zuid 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,20 
+0,23 
+0,21 
+0,23 
+0,19 
+0,23 
+Februari 
+0,55 
+0,85 
+0,66 
+0,88 
+0,30 
+0,82 
+Maart 
+0,64 
+0,91 
+0,70 
+0,91 
+0,35 
+0,82 
+April 
+0,66 
+0,92 
+0,70 
+0,88 
+0,36 
+0,80 
+Mei 
+0,70 
+0,92 
+0,76 
+0,92 
+0,46 
+0,84 
+Juni 
+0,78 
+0,91 
+0,78 
+0,93 
+0,56 
+0,84 
+Juli 
+0,75 
+0,90 
+0,80 
+0,93 
+0,56 
+0,83 
+Augustus 
+0,70 
+0,92 
+0,72 
+0,90 
+0,42 
+0,82 
+September 
+0,63 
+0,89 
+0,71 
+0,90 
+0,34 
+0,80 
+Oktober 
+0,66 
+0,89 
+0,59 
+0,89 
+0,28 
+0,82 
+November 
+0,48 
+0,61 
+0,36 
+0,59 
+0,24 
+0,59 
+December 
+0,19 
+0,19 
+0,19 
+0,19 
+0,19 
+0,19 
+714
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 715 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Zuidwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,24 
+0,25 
+0,49 
+0,49 
+0,24 
+0,27 
+Februari 
+0,38 
+0,66 
+0,83 
+0,83 
+0,38 
+0,82 
+Maart 
+0,54 
+0,80 
+0,79 
+0,93 
+0,41 
+0,79 
+April 
+0,63 
+0,82 
+0,65 
+0,89 
+0,36 
+0,71 
+Mei 
+0,73 
+0,91 
+0,70 
+0,93 
+0,44 
+0,76 
+Juni 
+0,79 
+0,94 
+0,70 
+0,87 
+0,49 
+0,83 
+Juli 
+0,80 
+0,94 
+0,73 
+0,93 
+0,53 
+0,80 
+Augustus 
+0,71 
+0,90 
+0,68 
+0,94 
+0,40 
+0,73 
+September 
+0,56 
+0,78 
+0,74 
+0,90 
+0,39 
+0,76 
+Oktober 
+0,41 
+0,76 
+0,82 
+0,88 
+0,35 
+0,82 
+November 
+0,31 
+0,55 
+0,71 
+0,71 
+0,31 
+0,64 
+December 
+0,26 
+0,26 
+0,58 
+0,58 
+0,26 
+0,26 
+Oriëntatie 
+Zuidoost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,48 
+0,48 
+0,25 
+0,28 
+0,25 
+0,28 
+Februari 
+0,81 
+0,81 
+0,35 
+0,70 
+0,35 
+0,70 
+Maart 
+0,77 
+0,87 
+0,48 
+0,78 
+0,38 
+0,78 
+April 
+0,75 
+0,95 
+0,60 
+0,89 
+0,39 
+0,88 
+Mei 
+0,75 
+0,95 
+0,72 
+0,96 
+0,47 
+0,91 
+Juni 
+0,67 
+0,89 
+0,85 
+0,97 
+0,53 
+0,86 
+715
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 716 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,67 
+0,92 
+0,83 
+0,96 
+0,51 
+0,89 
+Augustus 
+0,77 
+0,96 
+0,67 
+0,91 
+0,46 
+0,90 
+September 
+0,75 
+0,92 
+0,55 
+0,84 
+0,38 
+0,84 
+Oktober 
+0,79 
+0,86 
+0,40 
+0,68 
+0,33 
+0,68 
+November 
+0,70 
+0,70 
+0,30 
+0,44 
+0,30 
+0,44 
+December 
+0,40 
+0,40 
+0,25 
+0,25 
+0,25 
+0,25 
+Oriëntatie 
+West 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,49 
+0,49 
+0,85 
+0,85 
+0,49 
+0,49 
+Februari 
+0,61 
+0,61 
+0,85 
+0,85 
+0,61 
+0,61 
+Maart 
+0,57 
+0,73 
+0,89 
+0,89 
+0,57 
+0,73 
+April 
+0,43 
+0,71 
+0,82 
+0,82 
+0,43 
+0,71 
+Mei 
+0,49 
+0,77 
+0,86 
+0,88 
+0,47 
+0,77 
+Juni 
+0,65 
+0,84 
+0,77 
+0,93 
+0,49 
+0,84 
+Juli 
+0,61 
+0,84 
+0,86 
+0,92 
+0,55 
+0,84 
+Augustus 
+0,46 
+0,78 
+0,89 
+0,89 
+0,46 
+0,78 
+September 
+0,53 
+0,72 
+0,85 
+0,85 
+0,53 
+0,72 
+Oktober 
+0,57 
+0,64 
+0,83 
+0,83 
+0,57 
+0,64 
+November 
+0,62 
+0,62 
+0,90 
+0,90 
+0,62 
+0,62 
+December 
+0,61 
+0,61 
+0,87 
+0,87 
+0,61 
+0,61 
+716
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 717 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Oost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,92 
+0,92 
+0,55 
+0,55 
+0,55 
+0,55 
+Februari 
+0,79 
+0,79 
+0,54 
+0,54 
+0,54 
+0,54 
+Maart 
+0,82 
+0,82 
+0,53 
+0,65 
+0,53 
+0,65 
+April 
+0,91 
+0,91 
+0,50 
+0,75 
+0,50 
+0,75 
+Mei 
+0,90 
+0,95 
+0,60 
+0,83 
+0,54 
+0,83 
+Juni 
+0,80 
+0,90 
+0,63 
+0,86 
+0,53 
+0,86 
+Juli 
+0,85 
+0,93 
+0,61 
+0,88 
+0,54 
+0,88 
+Augustus 
+0,93 
+0,94 
+0,58 
+0,81 
+0,57 
+0,81 
+September 
+0,87 
+0,87 
+0,51 
+0,71 
+0,51 
+0,71 
+Oktober 
+0,84 
+0,84 
+0,52 
+0,61 
+0,52 
+0,61 
+November 
+0,92 
+0,92 
+0,58 
+0,58 
+0,58 
+0,58 
+December 
+0,86 
+0,86 
+0,55 
+0,55 
+0,55 
+0,55 
+Oriëntatie 
+Noordwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,97 
+0,97 
+0,97 
+0,97 
+0,97 
+0,97 
+Februari 
+0,94 
+0,94 
+0,97 
+0,97 
+0,94 
+0,94 
+Maart 
+0,85 
+0,85 
+0,96 
+0,96 
+0,85 
+0,85 
+April 
+0,66 
+0,66 
+0,87 
+0,87 
+0,66 
+0,66 
+Mei 
+0,65 
+0,66 
+0,85 
+0,85 
+0,65 
+0,66 
+Juni 
+0,63 
+0,79 
+0,91 
+0,91 
+0,63 
+0,79 
+717
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 718 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,69 
+0,76 
+0,90 
+0,90 
+0,69 
+0,76 
+Augustus 
+0,66 
+0,66 
+0,88 
+0,88 
+0,66 
+0,66 
+September 
+0,80 
+0,80 
+0,96 
+0,96 
+0,80 
+0,80 
+Oktober 
+0,92 
+0,92 
+0,97 
+0,97 
+0,92 
+0,92 
+November 
+0,99 
+0,99 
+0,99 
+0,99 
+0,99 
+0,99 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+0,96 
+0,96 
+0,91 
+0,91 
+0,91 
+0,91 
+Maart 
+0,97 
+0,97 
+0,82 
+0,82 
+0,82 
+0,82 
+April 
+0,97 
+0,97 
+0,75 
+0,75 
+0,75 
+0,75 
+Mei 
+0,93 
+0,93 
+0,74 
+0,80 
+0,74 
+0,80 
+Juni 
+0,88 
+0,88 
+0,66 
+0,75 
+0,66 
+0,75 
+Juli 
+0,91 
+0,91 
+0,69 
+0,77 
+0,69 
+0,77 
+Augustus 
+0,98 
+0,98 
+0,80 
+0,81 
+0,80 
+0,81 
+September 
+0,97 
+0,97 
+0,80 
+0,80 
+0,80 
+0,80 
+Oktober 
+0,96 
+0,96 
+0,90 
+0,90 
+0,90 
+0,90 
+November 
+0,98 
+0,98 
+0,98 
+0,98 
+0,98 
+0,98 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+718
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 719 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noord 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,97 
+0,98 
+0,98 
+0,97 
+0,97 
+Mei 
+0,93 
+0,93 
+0,95 
+0,95 
+0,91 
+0,91 
+Juni 
+0,90 
+0,90 
+0,91 
+0,91 
+0,84 
+0,84 
+Juli 
+0,92 
+0,92 
+0,94 
+0,94 
+0,89 
+0,89 
+Augustus 
+0,96 
+0,96 
+0,98 
+0,98 
+0,96 
+0,96 
+September 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+waarin: 
+bb 
+is de relatieve breedte van de zijbelemmering, zoals omschreven in 17.3.2 
+onder d). 
+a Voor zijbelemmeringen geldt dat de waarde van bb groter wordt naarmate de 
+zijbelemmering kleiner wordt. 
+b Indien aan beide zijden van het zichtveld een zijbelemmering aanwezig is, bepaal dan 
+bb voor de grootste zijbelemmering (dat is de zijbelemmering met de kleinste waarde 
+van bb). 
+719
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 720 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.11 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor koudebehoefteberekening, in 
+geval van een zijbelemmering, zoals omschreven in 17.3.2 onder d)  
+Oriëntatie 
+Zuid 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,98 
+1,00 
+0,97 
+1,00 
+0,94 
+1,00 
+Februari 
+0,92 
+1,00 
+0,95 
+1,00 
+0,88 
+1,00 
+Maart 
+0,91 
+1,00 
+0,92 
+1,00 
+0,82 
+1,00 
+April 
+0,92 
+1,00 
+0,88 
+1,00 
+0,80 
+1,00 
+Mei 
+0,92 
+1,00 
+0,92 
+1,00 
+0,84 
+1,00 
+Juni 
+0,91 
+1,00 
+0,93 
+1,00 
+0,84 
+1,00 
+Juli 
+0,90 
+1,00 
+0,93 
+1,00 
+0,83 
+1,00 
+Augustus 
+0,92 
+1,00 
+0,90 
+1,00 
+0,82 
+1,00 
+September 
+0,90 
+1,00 
+0,90 
+1,00 
+0,80 
+1,00 
+Oktober 
+0,91 
+1,00 
+0,92 
+1,00 
+0,83 
+1,00 
+November 
+0,98 
+1,00 
+0,97 
+1,00 
+0,95 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Zuidwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,77 
+1,00 
+1,00 
+1,00 
+0,77 
+1,00 
+Februari 
+0,83 
+1,00 
+1,00 
+1,00 
+0,83 
+1,00 
+Maart 
+0,87 
+1,00 
+1,00 
+1,00 
+0,87 
+1,00 
+April 
+0,90 
+1,00 
+0,94 
+1,00 
+0,84 
+1,00 
+720
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 721 ---
+Withdrawn final
+Ingetrokken definitief
+Mei 
+0,92 
+1,00 
+0,93 
+1,00 
+0,85 
+1,00 
+Juni 
+0,95 
+1,00 
+0,87 
+1,00 
+0,82 
+1,00 
+Juli 
+0,94 
+1,00 
+0,93 
+1,00 
+0,87 
+1,00 
+Augustus 
+0,92 
+1,00 
+0,95 
+1,00 
+0,86 
+1,00 
+September 
+0,87 
+1,00 
+0,99 
+1,00 
+0,86 
+1,00 
+Oktober 
+0,89 
+1,00 
+1,00 
+1,00 
+0,89 
+1,00 
+November 
+0,85 
+1,00 
+1,00 
+1,00 
+0,85 
+1,00 
+December 
+0,67 
+1,00 
+1,00 
+1,00 
+0,67 
+1,00 
+Oriëntatie 
+Zuidoost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+0,80 
+1,00 
+0,80 
+1,00 
+Februari 
+1,00 
+1,00 
+0,89 
+1,00 
+0,89 
+1,00 
+Maart 
+1,00 
+1,00 
+0,91 
+1,00 
+0,91 
+1,00 
+April 
+0,99 
+1,00 
+0,93 
+1,00 
+0,92 
+1,00 
+Mei 
+0,95 
+1,00 
+0,96 
+1,00 
+0,91 
+1,00 
+Juni 
+0,89 
+1,00 
+0,97 
+1,00 
+0,86 
+1,00 
+Juli 
+0,92 
+1,00 
+0,97 
+1,00 
+0,89 
+1,00 
+Augustus 
+0,98 
+1,00 
+0,94 
+1,00 
+0,92 
+1,00 
+September 
+0,99 
+1,00 
+0,92 
+1,00 
+0,91 
+1,00 
+Oktober 
+1,00 
+1,00 
+0,82 
+1,00 
+0,82 
+1,00 
+November 
+1,00 
+1,00 
+0,74 
+1,00 
+0,74 
+1,00 
+December 
+1,00 
+1,00 
+0,84 
+1,00 
+0,84 
+1,00 
+721
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 722 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+West 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,60 
+1,00 
+1,00 
+1,00 
+0,60 
+1,00 
+Februari 
+0,76 
+1,00 
+1,00 
+1,00 
+0,76 
+1,00 
+Maart 
+0,84 
+1,00 
+1,00 
+1,00 
+0,84 
+1,00 
+April 
+0,89 
+1,00 
+1,00 
+1,00 
+0,89 
+1,00 
+Mei 
+0,89 
+1,00 
+1,00 
+1,00 
+0,89 
+1,00 
+Juni 
+0,91 
+1,00 
+1,00 
+1,00 
+0,91 
+1,00 
+Juli 
+0,92 
+1,00 
+1,00 
+1,00 
+0,92 
+1,00 
+Augustus 
+0,89 
+1,00 
+1,00 
+1,00 
+0,89 
+1,00 
+September 
+0,87 
+1,00 
+1,00 
+1,00 
+0,87 
+1,00 
+Oktober 
+0,81 
+1,00 
+1,00 
+1,00 
+0,81 
+1,00 
+November 
+0,70 
+1,00 
+1,00 
+1,00 
+0,70 
+1,00 
+December 
+0,61 
+1,00 
+1,00 
+1,00 
+0,61 
+1,00 
+Oriëntatie 
+Oost 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+0,62 
+1,00 
+0,62 
+1,00 
+Februari 
+1,00 
+1,00 
+0,75 
+1,00 
+0,75 
+1,00 
+Maart 
+1,00 
+1,00 
+0,83 
+1,00 
+0,83 
+1,00 
+April 
+1,00 
+1,00 
+0,84 
+1,00 
+0,84 
+1,00 
+Mei 
+1,00 
+1,00 
+0,88 
+1,00 
+0,88 
+1,00 
+Juni 
+1,00 
+1,00 
+0,96 
+1,00 
+0,96 
+1,00 
+722
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 723 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+1,00 
+1,00 
+0,95 
+1,00 
+0,95 
+1,00 
+Augustus 
+1,00 
+1,00 
+0,87 
+1,00 
+0,87 
+1,00 
+September 
+1,00 
+1,00 
+0,84 
+1,00 
+0,84 
+1,00 
+Oktober 
+1,00 
+1,00 
+0,77 
+1,00 
+0,77 
+1,00 
+November 
+1,00 
+1,00 
+0,65 
+1,00 
+0,65 
+1,00 
+December 
+1,00 
+1,00 
+0,55 
+1,00 
+0,55 
+1,00 
+Oriëntatie 
+Noordwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+0,97 
+1,00 
+1,00 
+1,00 
+0,97 
+1,00 
+Februari 
+0,94 
+1,00 
+1,00 
+1,00 
+0,94 
+1,00 
+Maart 
+0,85 
+1,00 
+1,00 
+1,00 
+0,85 
+1,00 
+April 
+0,78 
+1,00 
+1,00 
+1,00 
+0,78 
+1,00 
+Mei 
+0,81 
+1,00 
+1,00 
+1,00 
+0,81 
+1,00 
+Juni 
+0,88 
+1,00 
+1,00 
+1,00 
+0,88 
+1,00 
+Juli 
+0,85 
+1,00 
+1,00 
+1,00 
+0,85 
+1,00 
+Augustus 
+0,78 
+1,00 
+1,00 
+1,00 
+0,78 
+1,00 
+September 
+0,84 
+1,00 
+1,00 
+1,00 
+0,84 
+1,00 
+Oktober 
+0,92 
+1,00 
+1,00 
+1,00 
+0,92 
+1,00 
+November 
+0,99 
+1,00 
+1,00 
+1,00 
+0,99 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+723
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 724 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordoost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+0,91 
+1,00 
+0,91 
+1,00 
+Maart 
+1,00 
+1,00 
+0,83 
+1,00 
+0,83 
+1,00 
+April 
+1,00 
+1,00 
+0,78 
+1,00 
+0,78 
+1,00 
+Mei 
+1,00 
+1,00 
+0,86 
+1,00 
+0,86 
+1,00 
+Juni 
+1,00 
+1,00 
+0,87 
+1,00 
+0,87 
+1,00 
+Juli 
+1,00 
+1,00 
+0,85 
+1,00 
+0,85 
+1,00 
+Augustus 
+1,00 
+1,00 
+0,83 
+1,00 
+0,83 
+1,00 
+September 
+1,00 
+1,00 
+0,82 
+1,00 
+0,82 
+1,00 
+Oktober 
+1,00 
+1,00 
+0,90 
+1,00 
+0,90 
+1,00 
+November 
+1,00 
+1,00 
+0,98 
+1,00 
+0,98 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,98 
+1,00 
+0,99 
+1,00 
+0,97 
+1,00 
+Mei 
+0,94 
+1,00 
+0,97 
+1,00 
+0,91 
+1,00 
+Juni 
+0,92 
+1,00 
+0,93 
+1,00 
+0,84 
+1,00 
+724
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 725 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,94 
+1,00 
+0,95 
+1,00 
+0,89 
+1,00 
+Augustus 
+0,96 
+1,00 
+0,99 
+1,00 
+0,96 
+1,00 
+September 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+waarin: 
+bb 
+is de relatieve breedte van de zijbelemmering, zoals omschreven in 17.3.2 
+onder d). 
+a Voor zijbelemmeringen geldt dat de waarde van bb groter wordt naarmate de 
+zijbelemmering kleiner wordt. 
+b Indien aan beide zijden van het zichtveld een zijbelemmering aanwezig is, bepaal dan 
+bb voor de grootste zijbelemmering (dat is de zijbelemmering met de kleinste waarde 
+van bb). 
+ 
+ 
+725
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 726 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.12 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor zonnecollectoren voor warm 
+tapwater en zonnestroompanelen, in geval van een zijbelemmering, zoals omschreven in 17.3.2 
+onder d)  
+Oriëntatie 
+Zuid 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld 
+a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+0,59 
+0,98 
+0,60 
+0,97 
+0,19 
+0,94 
+Februari 
+0,60 
+0,92 
+0,70 
+0,95 
+0,30 
+0,88 
+Maart 
+0,64 
+0,91 
+0,70 
+0,92 
+0,35 
+0,82 
+April 
+0,66 
+0,92 
+0,70 
+0,88 
+0,36 
+0,80 
+Mei 
+0,70 
+0,92 
+0,76 
+0,92 
+0,46 
+0,84 
+Juni 
+0,78 
+0,91 
+0,78 
+0,93 
+0,56 
+0,84 
+Juli 
+0,75 
+0,90 
+0,80 
+0,93 
+0,56 
+0,83 
+Augustus 
+0,70 
+0,92 
+0,72 
+0,90 
+0,42 
+0,82 
+September 
+0,63 
+0,90 
+0,71 
+0,90 
+0,34 
+0,80 
+Oktober 
+0,66 
+0,91 
+0,61 
+0,92 
+0,28 
+0,83 
+November 
+0,67 
+0,98 
+0,56 
+0,97 
+0,24 
+0,95 
+December 
+0,50 
+1,00 
+0,70 
+1,00 
+0,19 
+1,00 
+Oriëntatie 
+Zuidwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld 
+a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+0,30 
+0,77 
+0,93 
+1,00 
+0,24 
+0,77 
+Februari 
+0,49 
+0,83 
+0,89 
+1,00 
+0,38 
+0,83 
+Maart 
+0,62 
+0,87 
+0,79 
+1,00 
+0,41 
+0,87 
+726
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 727 ---
+Withdrawn final
+Ingetrokken definitief
+April 
+0,71 
+0,90 
+0,65 
+0,94 
+0,36 
+0,84 
+Mei 
+0,74 
+0,92 
+0,70 
+0,93 
+0,44 
+0,85 
+Juni 
+0,79 
+0,95 
+0,70 
+0,87 
+0,49 
+0,82 
+Juli 
+0,80 
+0,94 
+0,73 
+0,93 
+0,53 
+0,87 
+Augustus 
+0,73 
+0,92 
+0,68 
+0,95 
+0,40 
+0,86 
+September 
+0,65 
+0,87 
+0,74 
+0,99 
+0,39 
+0,86 
+Oktober 
+0,53 
+0,89 
+0,83 
+1,00 
+0,35 
+0,89 
+November 
+0,36 
+0,85 
+0,95 
+1,00 
+0,31 
+0,85 
+December 
+0,26 
+0,67 
+1,00 
+1,00 
+0,26 
+0,67 
+Oriëntatie 
+Zuidoost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld 
+a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+0,96 
+1,00 
+0,30 
+0,80 
+0,25 
+0,80 
+Februari 
+0,84 
+1,00 
+0,51 
+0,89 
+0,35 
+0,89 
+Maart 
+0,77 
+1,00 
+0,61 
+0,91 
+0,38 
+0,91 
+April 
+0,75 
+0,99 
+0,64 
+0,93 
+0,39 
+0,92 
+Mei 
+0,75 
+0,95 
+0,73 
+0,96 
+0,47 
+0,91 
+Juni 
+0,67 
+0,89 
+0,86 
+0,97 
+0,53 
+0,86 
+Juli 
+0,67 
+0,92 
+0,84 
+0,97 
+0,51 
+0,89 
+Augustus 
+0,77 
+0,98 
+0,69 
+0,94 
+0,46 
+0,92 
+September 
+0,75 
+0,99 
+0,63 
+0,92 
+0,38 
+0,91 
+Oktober 
+0,82 
+1,00 
+0,51 
+0,82 
+0,33 
+0,82 
+November 
+0,96 
+1,00 
+0,34 
+0,74 
+0,30 
+0,74 
+December 
+1,00 
+1,00 
+0,25 
+0,84 
+0,25 
+0,84 
+727
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 728 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+West 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+0,49 
+0,60 
+1,00 
+1,00 
+0,49 
+0,60 
+Februari 
+0,61 
+0,76 
+1,00 
+1,00 
+0,61 
+0,76 
+Maart 
+0,57 
+0,84 
+1,00 
+1,00 
+0,57 
+0,84 
+April 
+0,54 
+0,89 
+0,89 
+1,00 
+0,43 
+0,89 
+Mei 
+0,61 
+0,89 
+0,86 
+1,00 
+0,47 
+0,89 
+Juni 
+0,72 
+0,91 
+0,77 
+1,00 
+0,49 
+0,91 
+Juli 
+0,69 
+0,92 
+0,86 
+1,00 
+0,55 
+0,92 
+Augustus 
+0,57 
+0,89 
+0,90 
+1,00 
+0,46 
+0,89 
+September 
+0,56 
+0,87 
+0,97 
+1,00 
+0,53 
+0,87 
+Oktober 
+0,57 
+0,81 
+1,00 
+1,00 
+0,57 
+0,81 
+November 
+0,62 
+0,70 
+1,00 
+1,00 
+0,62 
+0,70 
+December 
+0,61 
+0,61 
+1,00 
+1,00 
+0,61 
+0,61 
+Oriëntatie 
+Oost 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+0,55 
+0,62 
+0,55 
+0,62 
+Februari 
+1,00 
+1,00 
+0,54 
+0,75 
+0,54 
+0,75 
+Maart 
+1,00 
+1,00 
+0,53 
+0,83 
+0,53 
+0,83 
+April 
+0,98 
+1,00 
+0,52 
+0,84 
+0,50 
+0,84 
+Mei 
+0,90 
+1,00 
+0,65 
+0,88 
+0,54 
+0,88 
+Juni 
+0,80 
+1,00 
+0,73 
+0,96 
+0,53 
+0,96 
+728
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 729 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,85 
+1,00 
+0,68 
+0,95 
+0,54 
+0,95 
+Augustus 
+0,97 
+1,00 
+0,60 
+0,87 
+0,57 
+0,87 
+September 
+0,99 
+1,00 
+0,53 
+0,84 
+0,51 
+0,84 
+Oktober 
+1,00 
+1,00 
+0,52 
+0,77 
+0,52 
+0,77 
+November 
+1,00 
+1,00 
+0,58 
+0,65 
+0,58 
+0,65 
+December 
+1,00 
+1,00 
+0,55 
+0,55 
+0,55 
+0,55 
+Oriëntatie 
+Noordwest 
+ 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+0,97 
+0,97 
+1,00 
+1,00 
+0,97 
+0,97 
+Februari 
+0,94 
+0,94 
+1,00 
+1,00 
+0,94 
+0,94 
+Maart 
+0,85 
+0,85 
+1,00 
+1,00 
+0,85 
+0,85 
+April 
+0,66 
+0,78 
+1,00 
+1,00 
+0,66 
+0,78 
+Mei 
+0,65 
+0,81 
+1,00 
+1,00 
+0,65 
+0,81 
+Juni 
+0,63 
+0,88 
+1,00 
+1,00 
+0,63 
+0,88 
+Juli 
+0,69 
+0,85 
+1,00 
+1,00 
+0,69 
+0,85 
+Augustus 
+0,66 
+0,78 
+1,00 
+1,00 
+0,66 
+0,78 
+September 
+0,80 
+0,84 
+1,00 
+1,00 
+0,80 
+0,84 
+Oktober 
+0,92 
+0,92 
+1,00 
+1,00 
+0,92 
+0,92 
+November 
+0,99 
+0,99 
+1,00 
+1,00 
+0,99 
+0,99 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+729
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 730 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordoost 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+0,91 
+0,91 
+0,91 
+0,91 
+Maart 
+1,00 
+1,00 
+0,82 
+0,83 
+0,82 
+0,83 
+April 
+1,00 
+1,00 
+0,75 
+0,78 
+0,75 
+0,78 
+Mei 
+1,00 
+1,00 
+0,74 
+0,86 
+0,74 
+0,86 
+Juni 
+1,00 
+1,00 
+0,66 
+0,87 
+0,66 
+0,87 
+Juli 
+1,00 
+1,00 
+0,69 
+0,85 
+0,69 
+0,85 
+Augustus 
+1,00 
+1,00 
+0,80 
+0,83 
+0,80 
+0,83 
+September 
+1,00 
+1,00 
+0,80 
+0,82 
+0,80 
+0,82 
+Oktober 
+1,00 
+1,00 
+0,90 
+0,90 
+0,90 
+0,90 
+November 
+1,00 
+1,00 
+0,98 
+0,98 
+0,98 
+0,98 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+Relatieve breedte van zijbelemmering, bb 
+Zijbelemmering 
+aan linkerzijde van 
+het zichtveld a 
+Zijbelemmering 
+aan rechterzijde 
+van het zichtveld a 
+Zijbelemmering 
+aan beide zijden 
+van het zichtveld a,b 
+Maand 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 
+bb ≥1,0 
+bb <1,0 c 
+bb ≥1,0 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,98 
+0,98 
+0,99 
+0,99 
+0,97 
+0,97 
+Mei 
+0,94 
+0,94 
+0,97 
+0,97 
+0,91 
+0,91 
+Juni 
+0,92 
+0,92 
+0,93 
+0,93 
+0,84 
+0,84 
+730
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 731 ---
+Withdrawn final
+Ingetrokken definitief
+Juli 
+0,94 
+0,94 
+0,95 
+0,95 
+0,89 
+0,89 
+Augustus 
+0,96 
+0,96 
+0,99 
+0,99 
+0,96 
+0,96 
+September 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+waarin: 
+bb 
+is de relatieve breedte van de zijbelemmering, zoals omschreven in 17.3.2 
+onder d). 
+a Voor zijbelemmeringen geldt dat de waarde van bb groter wordt naarmate de 
+zijbelemmering kleiner wordt. 
+b Indien aan beide zijden van het zichtveld een zijbelemmering aanwezig is, bepaal dan 
+bb voor de grootste zijbelemmering (dat is de zijbelemmering met de kleinste waarde 
+van bb). 
+c Voor situaties met zijbelemmeringen aan beide zijden en bb < 1,0 geldt dat de 
+waarden in de tabel overeenkomen met de waarden van een volledig belemmerde 
+situatie voor een verticaal zonontvangend vlak. Indien het zonontvangende vlak niet 
+verticaal is, gebruik dan in deze situatie de waarden uit tabel 17.15. 
+17.3.7 Volledige belemmering 
+De beschaduwingsreductiefactor (Fsh;obst;mi) bij volledige belemmering, zoals omschreven in 17.3.2 
+onder e), is in de volgende tabellen gegeven: 
+a) voor verwarming (x = H) in tabel 17.13; 
+b) voor koeling (x = C) in tabel 17.14; 
+c) voor zonnecollectoren voor warm tapwater en zonnestroompanelen (x = P) in tabel 17.15. 
+Voor tussenliggende waarden moet de dichtstbijzijnde waarde voor de helling/oriëntatie worden 
+gehanteerd. Waar de afstand gelijk is, mag de hoogste naastliggende waarde worden gehanteerd. 
+OPMERKING 
+Zie figuur 17.1 voor de verklaring van de hellingshoek. 
+731
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 732 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.13 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor warmtebehoefteberekening, bij 
+volledige belemmering, zoals omschreven in 17.3.2 onder e) 
+Oriëntatie 
+Zuid 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,19 
+0,20 
+0,22 
+0,25 
+0,30 
+0,39 
+0,55 
+0,18 
+0,19 
+0,23 
+0,33 
+0,82 
+1,00 
+Februari 
+0,30 
+0,31 
+0,32 
+0,36 
+0,40 
+0,47 
+0,58 
+0,30 
+0,33 
+0,42 
+0,69 
+0,99 
+1,00 
+Maart 
+0,35 
+0,33 
+0,34 
+0,35 
+0,38 
+0,42 
+0,49 
+0,38 
+0,46 
+0,67 
+0,98 
+1,00 
+1,00 
+April 
+0,36 
+0,32 
+0,30 
+0,30 
+0,31 
+0,33 
+0,36 
+0,44 
+0,62 
+0,98 
+1,00 
+1,00 
+1,00 
+Mei 
+0,46 
+0,39 
+0,35 
+0,33 
+0,32 
+0,33 
+0,34 
+0,61 
+0,92 
+1,00 
+1,00 
+1,00 
+1,00 
+Juni 
+0,56 
+0,47 
+0,41 
+0,38 
+0,37 
+0,37 
+0,37 
+0,75 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Juli 
+0,56 
+0,47 
+0,43 
+0,40 
+0,39 
+0,39 
+0,41 
+0,72 
+0,98 
+1,00 
+1,00 
+1,00 
+1,00 
+Augustus 
+0,42 
+0,37 
+0,34 
+0,33 
+0,33 
+0,35 
+0,37 
+0,53 
+0,77 
+1,00 
+1,00 
+1,00 
+1,00 
+September 
+0,34 
+0,32 
+0,32 
+0,32 
+0,34 
+0,38 
+0,43 
+0,39 
+0,50 
+0,77 
+1,00 
+1,00 
+1,00 
+Oktober 
+0,28 
+0,27 
+0,29 
+0,31 
+0,34 
+0,39 
+0,48 
+0,29 
+0,34 
+0,45 
+0,82 
+0,99 
+1,00 
+November 
+0,24 
+0,25 
+0,27 
+0,30 
+0,35 
+0,43 
+0,56 
+0,24 
+0,25 
+0,30 
+0,46 
+0,95 
+1,00 
+December 
+0,19 
+0,21 
+0,23 
+0,27 
+0,32 
+0,42 
+0,60 
+0,19 
+0,20 
+0,22 
+0,31 
+0,75 
+1,00 
+Oriëntatie 
+Zuidwest 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,24 
+0,25 
+0,27 
+0,30 
+0,34 
+0,42 
+0,55 
+0,24 
+0,26 
+0,31 
+0,45 
+0,80 
+1,00 
+Februari 
+0,38 
+0,38 
+0,40 
+0,42 
+0,45 
+0,51 
+0,58 
+0,40 
+0,44 
+0,54 
+0,74 
+0,95 
+1,00 
+Maart 
+0,41 
+0,39 
+0,39 
+0,40 
+0,42 
+0,45 
+0,49 
+0,45 
+0,52 
+0,67 
+0,87 
+0,98 
+1,00 
+April 
+0,36 
+0,33 
+0,32 
+0,31 
+0,32 
+0,33 
+0,36 
+0,42 
+0,51 
+0,68 
+0,88 
+0,99 
+1,00 
+Mei 
+0,44 
+0,38 
+0,35 
+0,33 
+0,33 
+0,33 
+0,34 
+0,53 
+0,67 
+0,86 
+0,98 
+1,00 
+1,00 
+Juni 
+0,49 
+0,43 
+0,40 
+0,38 
+0,37 
+0,37 
+0,37 
+0,59 
+0,74 
+0,92 
+1,00 
+1,00 
+1,00 
+Juli 
+0,53 
+0,47 
+0,43 
+0,41 
+0,40 
+0,40 
+0,41 
+0,62 
+0,75 
+0,91 
+0,99 
+1,00 
+1,00 
+732
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 733 ---
+Withdrawn final
+Ingetrokken definitief
+Augustus 
+0,40 
+0,36 
+0,34 
+0,33 
+0,34 
+0,35 
+0,37 
+0,47 
+0,60 
+0,78 
+0,95 
+1,00 
+1,00 
+September 
+0,39 
+0,37 
+0,36 
+0,36 
+0,37 
+0,40 
+0,43 
+0,44 
+0,53 
+0,68 
+0,88 
+0,99 
+1,00 
+Oktober 
+0,35 
+0,34 
+0,34 
+0,36 
+0,38 
+0,42 
+0,48 
+0,38 
+0,44 
+0,57 
+0,78 
+0,96 
+1,00 
+November 
+0,31 
+0,31 
+0,33 
+0,36 
+0,40 
+0,46 
+0,56 
+0,32 
+0,35 
+0,44 
+0,64 
+0,93 
+1,00 
+December 
+0,26 
+0,28 
+0,30 
+0,33 
+0,38 
+0,47 
+0,60 
+0,26 
+0,28 
+0,33 
+0,48 
+0,85 
+1,00 
+Oriëntatie 
+Zuidoost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,25 
+0,26 
+0,28 
+0,31 
+0,36 
+0,43 
+0,55 
+0,26 
+0,28 
+0,34 
+0,51 
+0,87 
+1,00 
+Februari 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,49 
+0,58 
+0,36 
+0,40 
+0,49 
+0,69 
+0,94 
+1,00 
+Maart 
+0,38 
+0,37 
+0,37 
+0,38 
+0,40 
+0,44 
+0,49 
+0,42 
+0,49 
+0,62 
+0,82 
+0,97 
+1,00 
+April 
+0,39 
+0,36 
+0,34 
+0,33 
+0,33 
+0,34 
+0,36 
+0,46 
+0,57 
+0,75 
+0,93 
+1,00 
+1,00 
+Mei 
+0,47 
+0,41 
+0,37 
+0,35 
+0,34 
+0,34 
+0,34 
+0,57 
+0,73 
+0,91 
+0,99 
+1,00 
+1,00 
+Juni 
+0,53 
+0,46 
+0,42 
+0,39 
+0,38 
+0,37 
+0,37 
+0,63 
+0,77 
+0,93 
+1,00 
+1,00 
+1,00 
+Juli 
+0,51 
+0,46 
+0,42 
+0,41 
+0,40 
+0,40 
+0,41 
+0,61 
+0,75 
+0,92 
+0,99 
+1,00 
+1,00 
+Augustus 
+0,46 
+0,41 
+0,38 
+0,37 
+0,36 
+0,36 
+0,37 
+0,55 
+0,68 
+0,86 
+0,98 
+1,00 
+1,00 
+September 
+0,38 
+0,36 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,42 
+0,51 
+0,66 
+0,87 
+0,99 
+1,00 
+Oktober 
+0,33 
+0,32 
+0,33 
+0,34 
+0,37 
+0,41 
+0,48 
+0,35 
+0,41 
+0,52 
+0,75 
+0,96 
+1,00 
+November 
+0,30 
+0,30 
+0,32 
+0,35 
+0,39 
+0,46 
+0,56 
+0,30 
+0,33 
+0,41 
+0,61 
+0,91 
+1,00 
+December 
+0,25 
+0,26 
+0,28 
+0,32 
+0,37 
+0,46 
+0,60 
+0,25 
+0,26 
+0,30 
+0,44 
+0,81 
+1,00 
+Oriëntatie 
+West 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,49 
+0,49 
+0,50 
+0,51 
+0,53 
+0,55 
+0,55 
+0,50 
+0,55 
+0,61 
+0,74 
+0,91 
+1,00 
+Februari 
+0,61 
+0,60 
+0,60 
+0,60 
+0,60 
+0,59 
+0,58 
+0,63 
+0,67 
+0,76 
+0,86 
+0,97 
+1,00 
+Maart 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,49 
+0,61 
+0,67 
+0,76 
+0,88 
+0,97 
+1,00 
+733
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 734 ---
+Withdrawn final
+Ingetrokken definitief
+April 
+0,43 
+0,40 
+0,39 
+0,38 
+0,37 
+0,36 
+0,36 
+0,48 
+0,55 
+0,66 
+0,81 
+0,96 
+1,00 
+Mei 
+0,47 
+0,43 
+0,40 
+0,37 
+0,36 
+0,35 
+0,34 
+0,54 
+0,63 
+0,76 
+0,89 
+0,98 
+1,00 
+Juni 
+0,49 
+0,45 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,56 
+0,65 
+0,77 
+0,91 
+0,99 
+1,00 
+Juli 
+0,55 
+0,51 
+0,48 
+0,45 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,79 
+0,91 
+0,99 
+1,00 
+Augustus 
+0,46 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,37 
+0,52 
+0,60 
+0,72 
+0,87 
+0,98 
+1,00 
+September 
+0,53 
+0,50 
+0,48 
+0,47 
+0,46 
+0,44 
+0,43 
+0,57 
+0,64 
+0,74 
+0,87 
+0,97 
+1,00 
+Oktober 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,48 
+0,61 
+0,67 
+0,76 
+0,87 
+0,97 
+1,00 
+November 
+0,62 
+0,60 
+0,59 
+0,58 
+0,58 
+0,57 
+0,56 
+0,65 
+0,70 
+0,78 
+0,88 
+0,97 
+1,00 
+December 
+0,61 
+0,60 
+0,60 
+0,61 
+0,61 
+0,61 
+0,60 
+0,62 
+0,66 
+0,74 
+0,83 
+0,95 
+1,00 
+Oriëntatie 
+Oost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,55 
+0,55 
+0,55 
+0,55 
+0,56 
+0,56 
+0,55 
+0,59 
+0,62 
+0,71 
+0,83 
+0,96 
+1,00 
+Februari 
+0,54 
+0,53 
+0,54 
+0,55 
+0,56 
+0,57 
+0,58 
+0,57 
+0,61 
+0,70 
+0,83 
+0,96 
+1,00 
+Maart 
+0,53 
+0,51 
+0,50 
+0,49 
+0,49 
+0,49 
+0,49 
+0,56 
+0,62 
+0,71 
+0,84 
+0,96 
+1,00 
+April 
+0,50 
+0,46 
+0,43 
+0,41 
+0,40 
+0,38 
+0,36 
+0,55 
+0,64 
+0,76 
+0,89 
+0,98 
+1,00 
+Mei 
+0,54 
+0,49 
+0,45 
+0,41 
+0,38 
+0,36 
+0,34 
+0,62 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+Juni 
+0,53 
+0,49 
+0,46 
+0,43 
+0,41 
+0,39 
+0,37 
+0,59 
+0,68 
+0,79 
+0,91 
+0,99 
+1,00 
+Juli 
+0,54 
+0,49 
+0,47 
+0,44 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,80 
+0,92 
+0,99 
+1,00 
+Augustus 
+0,57 
+0,52 
+0,48 
+0,45 
+0,42 
+0,39 
+0,37 
+0,63 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+September 
+0,51 
+0,48 
+0,46 
+0,45 
+0,44 
+0,44 
+0,43 
+0,56 
+0,63 
+0,74 
+0,87 
+0,98 
+1,00 
+Oktober 
+0,52 
+0,50 
+0,49 
+0,48 
+0,48 
+0,48 
+0,48 
+0,55 
+0,62 
+0,72 
+0,85 
+0,96 
+1,00 
+November 
+0,58 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,60 
+0,66 
+0,73 
+0,85 
+0,96 
+1,00 
+December 
+0,55 
+0,54 
+0,55 
+0,57 
+0,58 
+0,59 
+0,60 
+0,56 
+0,60 
+0,68 
+0,78 
+0,94 
+1,00 
+734
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 735 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordwest 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,97 
+0,97 
+0,98 
+0,97 
+0,94 
+0,77 
+0,55 
+0,98 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+Februari 
+0,94 
+0,93 
+0,92 
+0,89 
+0,84 
+0,71 
+0,58 
+0,94 
+0,96 
+0,97 
+0,98 
+0,99 
+1,00 
+Maart 
+0,85 
+0,83 
+0,80 
+0,75 
+0,67 
+0,57 
+0,49 
+0,87 
+0,90 
+0,93 
+0,96 
+0,99 
+1,00 
+April 
+0,66 
+0,62 
+0,58 
+0,53 
+0,47 
+0,41 
+0,36 
+0,70 
+0,76 
+0,83 
+0,91 
+0,98 
+1,00 
+Mei 
+0,65 
+0,59 
+0,54 
+0,48 
+0,41 
+0,37 
+0,34 
+0,70 
+0,77 
+0,84 
+0,92 
+0,98 
+1,00 
+Juni 
+0,63 
+0,58 
+0,53 
+0,48 
+0,43 
+0,39 
+0,37 
+0,69 
+0,75 
+0,84 
+0,92 
+0,98 
+1,00 
+Juli 
+0,69 
+0,65 
+0,60 
+0,54 
+0,48 
+0,44 
+0,41 
+0,74 
+0,79 
+0,86 
+0,93 
+0,99 
+1,00 
+Augustus 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,77 
+0,85 
+0,93 
+0,99 
+1,00 
+September 
+0,80 
+0,78 
+0,74 
+0,69 
+0,60 
+0,50 
+0,43 
+0,84 
+0,88 
+0,92 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,92 
+0,90 
+0,88 
+0,84 
+0,74 
+0,60 
+0,48 
+0,94 
+0,95 
+0,97 
+0,99 
+1,00 
+1,00 
+November 
+0,99 
+0,98 
+0,98 
+0,96 
+0,91 
+0,74 
+0,56 
+0,99 
+0,99 
+0,99 
+0,99 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+0,99 
+0,86 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+0,99 
+0,99 
+0,99 
+0,95 
+0,79 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+0,91 
+0,91 
+0,89 
+0,86 
+0,80 
+0,69 
+0,58 
+0,93 
+0,95 
+0,96 
+0,98 
+1,00 
+1,00 
+Maart 
+0,82 
+0,80 
+0,77 
+0,73 
+0,66 
+0,56 
+0,49 
+0,85 
+0,89 
+0,92 
+0,96 
+0,99 
+1,00 
+April 
+0,75 
+0,70 
+0,65 
+0,59 
+0,50 
+0,42 
+0,36 
+0,80 
+0,85 
+0,92 
+0,96 
+0,99 
+1,00 
+Mei 
+0,74 
+0,68 
+0,61 
+0,53 
+0,44 
+0,38 
+0,34 
+0,80 
+0,86 
+0,92 
+0,97 
+1,00 
+1,00 
+Juni 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,78 
+0,85 
+0,94 
+0,99 
+1,00 
+Juli 
+0,69 
+0,64 
+0,59 
+0,53 
+0,48 
+0,43 
+0,41 
+0,74 
+0,80 
+0,88 
+0,95 
+0,99 
+1,00 
+Augustus 
+0,80 
+0,74 
+0,68 
+0,60 
+0,50 
+0,42 
+0,37 
+0,85 
+0,90 
+0,94 
+0,98 
+1,00 
+1,00 
+735
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 736 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,80 
+0,77 
+0,73 
+0,67 
+0,59 
+0,50 
+0,43 
+0,85 
+0,88 
+0,93 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,90 
+0,87 
+0,85 
+0,80 
+0,71 
+0,59 
+0,48 
+0,91 
+0,93 
+0,95 
+0,98 
+0,99 
+1,00 
+November 
+0,98 
+0,97 
+0,96 
+0,95 
+0,90 
+0,73 
+0,56 
+0,98 
+0,98 
+0,99 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+0,99 
+0,98 
+0,84 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,95 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,78 
+0,58 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+0,82 
+0,61 
+0,49 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,96 
+0,94 
+0,82 
+0,56 
+0,43 
+0,36 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+1,00 
+Mei 
+0,91 
+0,88 
+0,80 
+0,58 
+0,46 
+0,39 
+0,34 
+0,93 
+0,95 
+0,97 
+0,98 
+1,00 
+1,00 
+Juni 
+0,84 
+0,80 
+0,69 
+0,53 
+0,45 
+0,40 
+0,37 
+0,88 
+0,92 
+0,95 
+0,97 
+0,99 
+1,00 
+Juli 
+0,89 
+0,85 
+0,76 
+0,59 
+0,50 
+0,44 
+0,41 
+0,91 
+0,94 
+0,96 
+0,98 
+1,00 
+1,00 
+Augustus 
+0,96 
+0,94 
+0,90 
+0,70 
+0,52 
+0,43 
+0,37 
+0,97 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+September 
+1,00 
+0,99 
+0,99 
+0,96 
+0,72 
+0,53 
+0,43 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+0,96 
+0,66 
+0,48 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,86 
+0,56 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+736
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 737 ---
+Withdrawn final
+Ingetrokken definitief
+Tabel 17.14 — Beschaduwingsreductiefactor (Fsh;obst;mi) voor koudebehoefteberekening, bij 
+volledige belemmering, zoals omschreven in 17.3.2 onder e) 
+Oriëntatie 
+Zuid 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,19 
+0,20 
+0,22 
+0,25 
+0,30 
+0,39 
+0,55 
+0,18 
+0,19 
+0,23 
+0,33 
+0,82 
+1,00 
+Februari 
+0,30 
+0,31 
+0,32 
+0,36 
+0,40 
+0,47 
+0,58 
+0,30 
+0,33 
+0,42 
+0,69 
+0,99 
+1,00 
+Maart 
+0,35 
+0,33 
+0,34 
+0,35 
+0,38 
+0,42 
+0,49 
+0,38 
+0,46 
+0,67 
+0,98 
+1,00 
+1,00 
+April 
+0,36 
+0,32 
+0,30 
+0,30 
+0,31 
+0,33 
+0,36 
+0,44 
+0,62 
+0,98 
+1,00 
+1,00 
+1,00 
+Mei 
+0,46 
+0,39 
+0,35 
+0,33 
+0,32 
+0,33 
+0,34 
+0,61 
+0,92 
+1,00 
+1,00 
+1,00 
+1,00 
+Juni 
+0,56 
+0,47 
+0,41 
+0,38 
+0,37 
+0,37 
+0,37 
+0,75 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Juli 
+0,56 
+0,47 
+0,43 
+0,40 
+0,39 
+0,39 
+0,41 
+0,72 
+0,98 
+1,00 
+1,00 
+1,00 
+1,00 
+Augustus 
+0,42 
+0,37 
+0,34 
+0,33 
+0,33 
+0,35 
+0,37 
+0,53 
+0,77 
+1,00 
+1,00 
+1,00 
+1,00 
+September 
+0,34 
+0,32 
+0,32 
+0,32 
+0,34 
+0,38 
+0,43 
+0,39 
+0,50 
+0,77 
+1,00 
+1,00 
+1,00 
+Oktober 
+0,28 
+0,27 
+0,29 
+0,31 
+0,34 
+0,39 
+0,48 
+0,29 
+0,34 
+0,45 
+0,82 
+0,99 
+1,00 
+November 
+0,24 
+0,25 
+0,27 
+0,30 
+0,35 
+0,43 
+0,56 
+0,24 
+0,25 
+0,30 
+0,46 
+0,95 
+1,00 
+December 
+0,19 
+0,21 
+0,23 
+0,27 
+0,32 
+0,42 
+0,60 
+0,19 
+0,20 
+0,22 
+0,31 
+0,75 
+1,00 
+Oriëntatie 
+Zuidwest 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,24 
+0,25 
+0,27 
+0,30 
+0,34 
+0,42 
+0,55 
+0,24 
+0,26 
+0,31 
+0,45 
+0,80 
+1,00 
+Februari 
+0,38 
+0,38 
+0,40 
+0,42 
+0,45 
+0,51 
+0,58 
+0,40 
+0,44 
+0,54 
+0,74 
+0,95 
+1,00 
+Maart 
+0,41 
+0,39 
+0,39 
+0,40 
+0,42 
+0,45 
+0,49 
+0,45 
+0,52 
+0,67 
+0,87 
+0,98 
+1,00 
+April 
+0,36 
+0,33 
+0,32 
+0,31 
+0,32 
+0,33 
+0,36 
+0,42 
+0,51 
+0,68 
+0,88 
+0,99 
+1,00 
+Mei 
+0,44 
+0,38 
+0,35 
+0,33 
+0,33 
+0,33 
+0,34 
+0,53 
+0,67 
+0,86 
+0,98 
+1,00 
+1,00 
+Juni 
+0,49 
+0,43 
+0,40 
+0,38 
+0,37 
+0,37 
+0,37 
+0,59 
+0,74 
+0,92 
+1,00 
+1,00 
+1,00 
+Juli 
+0,53 
+0,47 
+0,43 
+0,41 
+0,40 
+0,40 
+0,41 
+0,62 
+0,75 
+0,91 
+0,99 
+1,00 
+1,00 
+737
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 738 ---
+Withdrawn final
+Ingetrokken definitief
+Augustus 
+0,40 
+0,36 
+0,34 
+0,33 
+0,34 
+0,35 
+0,37 
+0,47 
+0,60 
+0,78 
+0,95 
+1,00 
+1,00 
+September 
+0,39 
+0,37 
+0,36 
+0,36 
+0,37 
+0,40 
+0,43 
+0,44 
+0,53 
+0,68 
+0,88 
+0,99 
+1,00 
+Oktober 
+0,35 
+0,34 
+0,34 
+0,36 
+0,38 
+0,42 
+0,48 
+0,38 
+0,44 
+0,57 
+0,78 
+0,96 
+1,00 
+November 
+0,31 
+0,31 
+0,33 
+0,36 
+0,40 
+0,46 
+0,56 
+0,32 
+0,35 
+0,44 
+0,64 
+0,93 
+1,00 
+December 
+0,26 
+0,28 
+0,30 
+0,33 
+0,38 
+0,47 
+0,60 
+0,26 
+0,28 
+0,33 
+0,48 
+0,85 
+1,00 
+Oriëntatie 
+Zuidoost 
+Vert. 
+schuin naar boven gekeerd 
+hor. 
+schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,25 
+0,26 
+0,28 
+0,31 
+0,36 
+0,43 
+0,55 
+0,26 
+0,28 
+0,34 
+0,51 
+0,87 
+1,00 
+Februari 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,49 
+0,58 
+0,36 
+0,40 
+0,49 
+0,69 
+0,94 
+1,00 
+Maart 
+0,38 
+0,37 
+0,37 
+0,38 
+0,40 
+0,44 
+0,49 
+0,42 
+0,49 
+0,62 
+0,82 
+0,97 
+1,00 
+April 
+0,39 
+0,36 
+0,34 
+0,33 
+0,33 
+0,34 
+0,36 
+0,46 
+0,57 
+0,75 
+0,93 
+1,00 
+1,00 
+Mei 
+0,47 
+0,41 
+0,37 
+0,35 
+0,34 
+0,34 
+0,34 
+0,57 
+0,73 
+0,91 
+0,99 
+1,00 
+1,00 
+Juni 
+0,53 
+0,46 
+0,42 
+0,39 
+0,38 
+0,37 
+0,37 
+0,63 
+0,77 
+0,93 
+1,00 
+1,00 
+1,00 
+Juli 
+0,51 
+0,46 
+0,42 
+0,41 
+0,40 
+0,40 
+0,41 
+0,61 
+0,75 
+0,92 
+0,99 
+1,00 
+1,00 
+Augustus 
+0,46 
+0,41 
+0,38 
+0,37 
+0,36 
+0,36 
+0,37 
+0,55 
+0,68 
+0,86 
+0,98 
+1,00 
+1,00 
+September 
+0,38 
+0,36 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,42 
+0,51 
+0,66 
+0,87 
+0,99 
+1,00 
+Oktober 
+0,33 
+0,32 
+0,33 
+0,34 
+0,37 
+0,41 
+0,48 
+0,35 
+0,41 
+0,52 
+0,75 
+0,96 
+1,00 
+November 
+0,30 
+0,30 
+0,32 
+0,35 
+0,39 
+0,46 
+0,56 
+0,30 
+0,33 
+0,41 
+0,61 
+0,91 
+1,00 
+December 
+0,25 
+0,26 
+0,28 
+0,32 
+0,37 
+0,46 
+0,60 
+0,25 
+0,26 
+0,30 
+0,44 
+0,81 
+1,00 
+Oriëntatie 
+West 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,49 
+0,49 
+0,50 
+0,51 
+0,53 
+0,55 
+0,55 
+0,50 
+0,55 
+0,61 
+0,74 
+0,91 
+1,00 
+Februari 
+0,61 
+0,60 
+0,60 
+0,60 
+0,60 
+0,59 
+0,58 
+0,63 
+0,67 
+0,76 
+0,86 
+0,97 
+1,00 
+Maart 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,49 
+0,61 
+0,67 
+0,76 
+0,88 
+0,97 
+1,00 
+738
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 739 ---
+Withdrawn final
+Ingetrokken definitief
+April 
+0,43 
+0,40 
+0,39 
+0,38 
+0,37 
+0,36 
+0,36 
+0,48 
+0,55 
+0,66 
+0,81 
+0,96 
+1,00 
+Mei 
+0,47 
+0,43 
+0,40 
+0,37 
+0,36 
+0,35 
+0,34 
+0,54 
+0,63 
+0,76 
+0,89 
+0,98 
+1,00 
+Juni 
+0,49 
+0,45 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,56 
+0,65 
+0,77 
+0,91 
+0,99 
+1,00 
+Juli 
+0,55 
+0,51 
+0,48 
+0,45 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,79 
+0,91 
+0,99 
+1,00 
+Augustus 
+0,46 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,37 
+0,52 
+0,60 
+0,72 
+0,87 
+0,98 
+1,00 
+September 
+0,53 
+0,50 
+0,48 
+0,47 
+0,46 
+0,44 
+0,43 
+0,57 
+0,64 
+0,74 
+0,87 
+0,97 
+1,00 
+Oktober 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,48 
+0,61 
+0,67 
+0,76 
+0,87 
+0,97 
+1,00 
+November 
+0,62 
+0,60 
+0,59 
+0,58 
+0,58 
+0,57 
+0,56 
+0,65 
+0,70 
+0,78 
+0,88 
+0,97 
+1,00 
+December 
+0,61 
+0,60 
+0,60 
+0,61 
+0,61 
+0,61 
+0,60 
+0,62 
+0,66 
+0,74 
+0,83 
+0,95 
+1,00 
+Oriëntatie 
+Oost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,55 
+0,55 
+0,55 
+0,55 
+0,56 
+0,56 
+0,55 
+0,59 
+0,62 
+0,71 
+0,83 
+0,96 
+1,00 
+Februari 
+0,54 
+0,53 
+0,54 
+0,55 
+0,56 
+0,57 
+0,58 
+0,57 
+0,61 
+0,70 
+0,83 
+0,96 
+1,00 
+Maart 
+0,53 
+0,51 
+0,50 
+0,49 
+0,49 
+0,49 
+0,49 
+0,56 
+0,62 
+0,71 
+0,84 
+0,96 
+1,00 
+April 
+0,50 
+0,46 
+0,43 
+0,41 
+0,40 
+0,38 
+0,36 
+0,55 
+0,64 
+0,76 
+0,89 
+0,98 
+1,00 
+Mei 
+0,54 
+0,49 
+0,45 
+0,41 
+0,38 
+0,36 
+0,34 
+0,62 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+Juni 
+0,53 
+0,49 
+0,46 
+0,43 
+0,41 
+0,39 
+0,37 
+0,59 
+0,68 
+0,79 
+0,91 
+0,99 
+1,00 
+Juli 
+0,54 
+0,49 
+0,47 
+0,44 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,80 
+0,92 
+0,99 
+1,00 
+Augustus 
+0,57 
+0,52 
+0,48 
+0,45 
+0,42 
+0,39 
+0,37 
+0,63 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+September 
+0,51 
+0,48 
+0,46 
+0,45 
+0,44 
+0,44 
+0,43 
+0,56 
+0,63 
+0,74 
+0,87 
+0,98 
+1,00 
+Oktober 
+0,52 
+0,50 
+0,49 
+0,48 
+0,48 
+0,48 
+0,48 
+0,55 
+0,62 
+0,72 
+0,85 
+0,96 
+1,00 
+November 
+0,58 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,60 
+0,66 
+0,73 
+0,85 
+0,96 
+1,00 
+December 
+0,55 
+0,54 
+0,55 
+0,57 
+0,58 
+0,59 
+0,60 
+0,56 
+0,60 
+0,68 
+0,78 
+0,94 
+1,00 
+739
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 740 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noordwest 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,97 
+0,97 
+0,98 
+0,97 
+0,94 
+0,77 
+0,55 
+0,98 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+Februari 
+0,94 
+0,93 
+0,92 
+0,89 
+0,84 
+0,71 
+0,58 
+0,94 
+0,96 
+0,97 
+0,98 
+0,99 
+1,00 
+Maart 
+0,85 
+0,83 
+0,80 
+0,75 
+0,67 
+0,57 
+0,49 
+0,87 
+0,90 
+0,93 
+0,96 
+0,99 
+1,00 
+April 
+0,66 
+0,62 
+0,58 
+0,53 
+0,47 
+0,41 
+0,36 
+0,70 
+0,76 
+0,83 
+0,91 
+0,98 
+1,00 
+Mei 
+0,65 
+0,59 
+0,54 
+0,48 
+0,41 
+0,37 
+0,34 
+0,70 
+0,77 
+0,84 
+0,92 
+0,98 
+1,00 
+Juni 
+0,63 
+0,58 
+0,53 
+0,48 
+0,43 
+0,39 
+0,37 
+0,69 
+0,75 
+0,84 
+0,92 
+0,98 
+1,00 
+Juli 
+0,69 
+0,65 
+0,60 
+0,54 
+0,48 
+0,44 
+0,41 
+0,74 
+0,79 
+0,86 
+0,93 
+0,99 
+1,00 
+Augustus 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,77 
+0,85 
+0,93 
+0,99 
+1,00 
+September 
+0,80 
+0,78 
+0,74 
+0,69 
+0,60 
+0,50 
+0,43 
+0,84 
+0,88 
+0,92 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,92 
+0,90 
+0,88 
+0,84 
+0,74 
+0,60 
+0,48 
+0,94 
+0,95 
+0,97 
+0,99 
+1,00 
+1,00 
+November 
+0,99 
+0,98 
+0,98 
+0,96 
+0,91 
+0,74 
+0,56 
+0,99 
+0,99 
+0,99 
+0,99 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+0,99 
+0,86 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+0,99 
+0,99 
+0,99 
+0,95 
+0,79 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+0,91 
+0,91 
+0,89 
+0,86 
+0,80 
+0,69 
+0,58 
+0,93 
+0,95 
+0,96 
+0,98 
+1,00 
+1,00 
+Maart 
+0,82 
+0,80 
+0,77 
+0,73 
+0,66 
+0,56 
+0,49 
+0,85 
+0,89 
+0,92 
+0,96 
+0,99 
+1,00 
+April 
+0,75 
+0,70 
+0,65 
+0,59 
+0,50 
+0,42 
+0,36 
+0,80 
+0,85 
+0,92 
+0,96 
+0,99 
+1,00 
+Mei 
+0,74 
+0,68 
+0,61 
+0,53 
+0,44 
+0,38 
+0,34 
+0,80 
+0,86 
+0,92 
+0,97 
+1,00 
+1,00 
+Juni 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,78 
+0,85 
+0,94 
+0,99 
+1,00 
+Juli 
+0,69 
+0,64 
+0,59 
+0,53 
+0,48 
+0,43 
+0,41 
+0,74 
+0,80 
+0,88 
+0,95 
+0,99 
+1,00 
+Augustus 
+0,80 
+0,74 
+0,68 
+0,60 
+0,50 
+0,42 
+0,37 
+0,85 
+0,90 
+0,94 
+0,98 
+1,00 
+1,00 
+740
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 741 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,80 
+0,77 
+0,73 
+0,67 
+0,59 
+0,50 
+0,43 
+0,85 
+0,88 
+0,93 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,90 
+0,87 
+0,85 
+0,80 
+0,71 
+0,59 
+0,48 
+0,91 
+0,93 
+0,95 
+0,98 
+0,99 
+1,00 
+November 
+0,98 
+0,97 
+0,96 
+0,95 
+0,90 
+0,73 
+0,56 
+0,98 
+0,98 
+0,99 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+0,99 
+0,98 
+0,84 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noord 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,95 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,78 
+0,58 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+0,82 
+0,61 
+0,49 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,96 
+0,94 
+0,82 
+0,56 
+0,43 
+0,36 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+1,00 
+Mei 
+0,91 
+0,88 
+0,80 
+0,58 
+0,46 
+0,39 
+0,34 
+0,93 
+0,95 
+0,97 
+0,98 
+1,00 
+1,00 
+Juni 
+0,84 
+0,80 
+0,69 
+0,53 
+0,45 
+0,40 
+0,37 
+0,88 
+0,92 
+0,95 
+0,97 
+0,99 
+1,00 
+Juli 
+0,89 
+0,85 
+0,76 
+0,59 
+0,50 
+0,44 
+0,41 
+0,91 
+0,94 
+0,96 
+0,98 
+1,00 
+1,00 
+Augustus 
+0,96 
+0,94 
+0,90 
+0,70 
+0,52 
+0,43 
+0,37 
+0,97 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+September 
+1,00 
+0,99 
+0,99 
+0,96 
+0,72 
+0,53 
+0,43 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+0,96 
+0,66 
+0,48 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,86 
+0,56 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Tabel 17.15 — Beschaduwingsreductiefactor (Fsh;obst;mi) bij volledige belemmering, zoals 
+omschreven in 17.3.2 onder e), voor zonnecollectoren voor warm tapwater en 
+zonnestroompanelen 
+Oriëntatie 
+Zuid 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,19 
+0,20 
+0,22 
+0,25 
+0,30 
+0,39 
+0,55 
+0,18 
+0,19 
+0,23 
+0,33 
+0,82 
+1,00 
+741
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 742 ---
+Withdrawn final
+Ingetrokken definitief
+Februari 
+0,30 
+0,31 
+0,32 
+0,36 
+0,40 
+0,47 
+0,58 
+0,30 
+0,33 
+0,42 
+0,69 
+0,99 
+1,00 
+Maart 
+0,35 
+0,33 
+0,34 
+0,35 
+0,38 
+0,42 
+0,49 
+0,38 
+0,46 
+0,67 
+0,98 
+1,00 
+1,00 
+April 
+0,36 
+0,32 
+0,30 
+0,30 
+0,31 
+0,33 
+0,36 
+0,44 
+0,62 
+0,98 
+1,00 
+1,00 
+1,00 
+Mei 
+0,46 
+0,39 
+0,35 
+0,33 
+0,32 
+0,33 
+0,34 
+0,61 
+0,92 
+1,00 
+1,00 
+1,00 
+1,00 
+Juni 
+0,56 
+0,47 
+0,41 
+0,38 
+0,37 
+0,37 
+0,37 
+0,75 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Juli 
+0,56 
+0,47 
+0,43 
+0,40 
+0,39 
+0,39 
+0,41 
+0,72 
+0,98 
+1,00 
+1,00 
+1,00 
+1,00 
+Augustus 
+0,42 
+0,37 
+0,34 
+0,33 
+0,33 
+0,35 
+0,37 
+0,53 
+0,77 
+1,00 
+1,00 
+1,00 
+1,00 
+September 
+0,34 
+0,32 
+0,32 
+0,32 
+0,34 
+0,38 
+0,43 
+0,39 
+0,50 
+0,77 
+1,00 
+1,00 
+1,00 
+Oktober 
+0,28 
+0,27 
+0,29 
+0,31 
+0,34 
+0,39 
+0,48 
+0,29 
+0,34 
+0,45 
+0,82 
+0,99 
+1,00 
+November 
+0,24 
+0,25 
+0,27 
+0,30 
+0,35 
+0,43 
+0,56 
+0,24 
+0,25 
+0,30 
+0,46 
+0,95 
+1,00 
+December 
+0,19 
+0,21 
+0,23 
+0,27 
+0,32 
+0,42 
+0,60 
+0,19 
+0,20 
+0,22 
+0,31 
+0,75 
+1,00 
+Oriëntatie 
+Zuidwest 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,24 
+0,25 
+0,27 
+0,30 
+0,34 
+0,42 
+0,55 
+0,24 
+0,26 
+0,31 
+0,45 
+0,80 
+1,00 
+Februari 
+0,38 
+0,38 
+0,40 
+0,42 
+0,45 
+0,51 
+0,58 
+0,40 
+0,44 
+0,54 
+0,74 
+0,95 
+1,00 
+Maart 
+0,41 
+0,39 
+0,39 
+0,40 
+0,42 
+0,45 
+0,49 
+0,45 
+0,52 
+0,67 
+0,87 
+0,98 
+1,00 
+April 
+0,36 
+0,33 
+0,32 
+0,31 
+0,32 
+0,33 
+0,36 
+0,42 
+0,51 
+0,68 
+0,88 
+0,99 
+1,00 
+Mei 
+0,44 
+0,38 
+0,35 
+0,33 
+0,33 
+0,33 
+0,34 
+0,53 
+0,67 
+0,86 
+0,98 
+1,00 
+1,00 
+Juni 
+0,49 
+0,43 
+0,40 
+0,38 
+0,37 
+0,37 
+0,37 
+0,59 
+0,74 
+0,92 
+1,00 
+1,00 
+1,00 
+Juli 
+0,53 
+0,47 
+0,43 
+0,41 
+0,40 
+0,40 
+0,41 
+0,62 
+0,75 
+0,91 
+0,99 
+1,00 
+1,00 
+Augustus 
+0,40 
+0,36 
+0,34 
+0,33 
+0,34 
+0,35 
+0,37 
+0,47 
+0,60 
+0,78 
+0,95 
+1,00 
+1,00 
+September 
+0,39 
+0,37 
+0,36 
+0,36 
+0,37 
+0,40 
+0,43 
+0,44 
+0,53 
+0,68 
+0,88 
+0,99 
+1,00 
+Oktober 
+0,35 
+0,34 
+0,34 
+0,36 
+0,38 
+0,42 
+0,48 
+0,38 
+0,44 
+0,57 
+0,78 
+0,96 
+1,00 
+November 
+0,31 
+0,31 
+0,33 
+0,36 
+0,40 
+0,46 
+0,56 
+0,32 
+0,35 
+0,44 
+0,64 
+0,93 
+1,00 
+December 
+0,26 
+0,28 
+0,30 
+0,33 
+0,38 
+0,47 
+0,60 
+0,26 
+0,28 
+0,33 
+0,48 
+0,85 
+1,00 
+742
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 743 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Zuidoost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,25 
+0,26 
+0,28 
+0,31 
+0,36 
+0,43 
+0,55 
+0,26 
+0,28 
+0,34 
+0,51 
+0,87 
+1,00 
+Februari 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,49 
+0,58 
+0,36 
+0,40 
+0,49 
+0,69 
+0,94 
+1,00 
+Maart 
+0,38 
+0,37 
+0,37 
+0,38 
+0,40 
+0,44 
+0,49 
+0,42 
+0,49 
+0,62 
+0,82 
+0,97 
+1,00 
+April 
+0,39 
+0,36 
+0,34 
+0,33 
+0,33 
+0,34 
+0,36 
+0,46 
+0,57 
+0,75 
+0,93 
+1,00 
+1,00 
+Mei 
+0,47 
+0,41 
+0,37 
+0,35 
+0,34 
+0,34 
+0,34 
+0,57 
+0,73 
+0,91 
+0,99 
+1,00 
+1,00 
+Juni 
+0,53 
+0,46 
+0,42 
+0,39 
+0,38 
+0,37 
+0,37 
+0,63 
+0,77 
+0,93 
+1,00 
+1,00 
+1,00 
+Juli 
+0,51 
+0,46 
+0,42 
+0,41 
+0,40 
+0,40 
+0,41 
+0,61 
+0,75 
+0,92 
+0,99 
+1,00 
+1,00 
+Augustus 
+0,46 
+0,41 
+0,38 
+0,37 
+0,36 
+0,36 
+0,37 
+0,55 
+0,68 
+0,86 
+0,98 
+1,00 
+1,00 
+September 
+0,38 
+0,36 
+0,35 
+0,35 
+0,37 
+0,39 
+0,43 
+0,42 
+0,51 
+0,66 
+0,87 
+0,99 
+1,00 
+Oktober 
+0,33 
+0,32 
+0,33 
+0,34 
+0,37 
+0,41 
+0,48 
+0,35 
+0,41 
+0,52 
+0,75 
+0,96 
+1,00 
+November 
+0,30 
+0,30 
+0,32 
+0,35 
+0,39 
+0,46 
+0,56 
+0,30 
+0,33 
+0,41 
+0,61 
+0,91 
+1,00 
+December 
+0,25 
+0,26 
+0,28 
+0,32 
+0,37 
+0,46 
+0,60 
+0,25 
+0,26 
+0,30 
+0,44 
+0,81 
+1,00 
+Oriëntatie 
+West 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,49 
+0,49 
+0,50 
+0,51 
+0,53 
+0,55 
+0,55 
+0,50 
+0,55 
+0,61 
+0,74 
+0,91 
+1,00 
+Februari 
+0,61 
+0,60 
+0,60 
+0,60 
+0,60 
+0,59 
+0,58 
+0,63 
+0,67 
+0,76 
+0,86 
+0,97 
+1,00 
+Maart 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,49 
+0,61 
+0,67 
+0,76 
+0,88 
+0,97 
+1,00 
+April 
+0,43 
+0,40 
+0,39 
+0,38 
+0,37 
+0,36 
+0,36 
+0,48 
+0,55 
+0,66 
+0,81 
+0,96 
+1,00 
+Mei 
+0,47 
+0,43 
+0,40 
+0,37 
+0,36 
+0,35 
+0,34 
+0,54 
+0,63 
+0,76 
+0,89 
+0,98 
+1,00 
+Juni 
+0,49 
+0,45 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,56 
+0,65 
+0,77 
+0,91 
+0,99 
+1,00 
+Juli 
+0,55 
+0,51 
+0,48 
+0,45 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,79 
+0,91 
+0,99 
+1,00 
+Augustus 
+0,46 
+0,42 
+0,40 
+0,39 
+0,38 
+0,37 
+0,37 
+0,52 
+0,60 
+0,72 
+0,87 
+0,98 
+1,00 
+743
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 744 ---
+Withdrawn final
+Ingetrokken definitief
+September 
+0,53 
+0,50 
+0,48 
+0,47 
+0,46 
+0,44 
+0,43 
+0,57 
+0,64 
+0,74 
+0,87 
+0,97 
+1,00 
+Oktober 
+0,57 
+0,54 
+0,53 
+0,52 
+0,51 
+0,50 
+0,48 
+0,61 
+0,67 
+0,76 
+0,87 
+0,97 
+1,00 
+November 
+0,62 
+0,60 
+0,59 
+0,58 
+0,58 
+0,57 
+0,56 
+0,65 
+0,70 
+0,78 
+0,88 
+0,97 
+1,00 
+December 
+0,61 
+0,60 
+0,60 
+0,61 
+0,61 
+0,61 
+0,60 
+0,62 
+0,66 
+0,74 
+0,83 
+0,95 
+1,00 
+Oriëntatie 
+Oost 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,55 
+0,55 
+0,55 
+0,55 
+0,56 
+0,56 
+0,55 
+0,59 
+0,62 
+0,71 
+0,83 
+0,96 
+1,00 
+Februari 
+0,54 
+0,53 
+0,54 
+0,55 
+0,56 
+0,57 
+0,58 
+0,57 
+0,61 
+0,70 
+0,83 
+0,96 
+1,00 
+Maart 
+0,53 
+0,51 
+0,50 
+0,49 
+0,49 
+0,49 
+0,49 
+0,56 
+0,62 
+0,71 
+0,84 
+0,96 
+1,00 
+April 
+0,50 
+0,46 
+0,43 
+0,41 
+0,40 
+0,38 
+0,36 
+0,55 
+0,64 
+0,76 
+0,89 
+0,98 
+1,00 
+Mei 
+0,54 
+0,49 
+0,45 
+0,41 
+0,38 
+0,36 
+0,34 
+0,62 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+Juni 
+0,53 
+0,49 
+0,46 
+0,43 
+0,41 
+0,39 
+0,37 
+0,59 
+0,68 
+0,79 
+0,91 
+0,99 
+1,00 
+Juli 
+0,54 
+0,49 
+0,47 
+0,44 
+0,43 
+0,42 
+0,41 
+0,60 
+0,69 
+0,80 
+0,92 
+0,99 
+1,00 
+Augustus 
+0,57 
+0,52 
+0,48 
+0,45 
+0,42 
+0,39 
+0,37 
+0,63 
+0,73 
+0,84 
+0,94 
+0,99 
+1,00 
+September 
+0,51 
+0,48 
+0,46 
+0,45 
+0,44 
+0,44 
+0,43 
+0,56 
+0,63 
+0,74 
+0,87 
+0,98 
+1,00 
+Oktober 
+0,52 
+0,50 
+0,49 
+0,48 
+0,48 
+0,48 
+0,48 
+0,55 
+0,62 
+0,72 
+0,85 
+0,96 
+1,00 
+November 
+0,58 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,56 
+0,60 
+0,66 
+0,73 
+0,85 
+0,96 
+1,00 
+December 
+0,55 
+0,54 
+0,55 
+0,57 
+0,58 
+0,59 
+0,60 
+0,56 
+0,60 
+0,68 
+0,78 
+0,94 
+1,00 
+Oriëntatie 
+Noordwest 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+0,97 
+0,97 
+0,98 
+0,97 
+0,94 
+0,77 
+0,55 
+0,98 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+Februari 
+0,94 
+0,93 
+0,92 
+0,89 
+0,84 
+0,71 
+0,58 
+0,94 
+0,96 
+0,97 
+0,98 
+0,99 
+1,00 
+Maart 
+0,85 
+0,83 
+0,80 
+0,75 
+0,67 
+0,57 
+0,49 
+0,87 
+0,90 
+0,93 
+0,96 
+0,99 
+1,00 
+April 
+0,66 
+0,62 
+0,58 
+0,53 
+0,47 
+0,41 
+0,36 
+0,70 
+0,76 
+0,83 
+0,91 
+0,98 
+1,00 
+744
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 745 ---
+Withdrawn final
+Ingetrokken definitief
+Mei 
+0,65 
+0,59 
+0,54 
+0,48 
+0,41 
+0,37 
+0,34 
+0,70 
+0,77 
+0,84 
+0,92 
+0,98 
+1,00 
+Juni 
+0,63 
+0,58 
+0,53 
+0,48 
+0,43 
+0,39 
+0,37 
+0,69 
+0,75 
+0,84 
+0,92 
+0,98 
+1,00 
+Juli 
+0,69 
+0,65 
+0,60 
+0,54 
+0,48 
+0,44 
+0,41 
+0,74 
+0,79 
+0,86 
+0,93 
+0,99 
+1,00 
+Augustus 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,77 
+0,85 
+0,93 
+0,99 
+1,00 
+September 
+0,80 
+0,78 
+0,74 
+0,69 
+0,60 
+0,50 
+0,43 
+0,84 
+0,88 
+0,92 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,92 
+0,90 
+0,88 
+0,84 
+0,74 
+0,60 
+0,48 
+0,94 
+0,95 
+0,97 
+0,99 
+1,00 
+1,00 
+November 
+0,99 
+0,98 
+0,98 
+0,96 
+0,91 
+0,74 
+0,56 
+0,99 
+0,99 
+0,99 
+0,99 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+0,99 
+0,86 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oriëntatie 
+Noordoost 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+0,99 
+0,99 
+0,99 
+0,95 
+0,79 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+0,91 
+0,91 
+0,89 
+0,86 
+0,80 
+0,69 
+0,58 
+0,93 
+0,95 
+0,96 
+0,98 
+1,00 
+1,00 
+Maart 
+0,82 
+0,80 
+0,77 
+0,73 
+0,66 
+0,56 
+0,49 
+0,85 
+0,89 
+0,92 
+0,96 
+0,99 
+1,00 
+April 
+0,75 
+0,70 
+0,65 
+0,59 
+0,50 
+0,42 
+0,36 
+0,80 
+0,85 
+0,92 
+0,96 
+0,99 
+1,00 
+Mei 
+0,74 
+0,68 
+0,61 
+0,53 
+0,44 
+0,38 
+0,34 
+0,80 
+0,86 
+0,92 
+0,97 
+1,00 
+1,00 
+Juni 
+0,66 
+0,61 
+0,57 
+0,51 
+0,45 
+0,40 
+0,37 
+0,71 
+0,78 
+0,85 
+0,94 
+0,99 
+1,00 
+Juli 
+0,69 
+0,64 
+0,59 
+0,53 
+0,48 
+0,43 
+0,41 
+0,74 
+0,80 
+0,88 
+0,95 
+0,99 
+1,00 
+Augustus 
+0,80 
+0,74 
+0,68 
+0,60 
+0,50 
+0,42 
+0,37 
+0,85 
+0,90 
+0,94 
+0,98 
+1,00 
+1,00 
+September 
+0,80 
+0,77 
+0,73 
+0,67 
+0,59 
+0,50 
+0,43 
+0,85 
+0,88 
+0,93 
+0,96 
+0,99 
+1,00 
+Oktober 
+0,90 
+0,87 
+0,85 
+0,80 
+0,71 
+0,59 
+0,48 
+0,91 
+0,93 
+0,95 
+0,98 
+0,99 
+1,00 
+November 
+0,98 
+0,97 
+0,96 
+0,95 
+0,90 
+0,73 
+0,56 
+0,98 
+0,98 
+0,99 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+0,99 
+0,98 
+0,84 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+745
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 746 ---
+Withdrawn final
+Ingetrokken definitief
+Oriëntatie 
+Noord 
+ 
+Vert. 
+Schuin naar boven gekeerd 
+Hor. 
+Schuin naar beneden gekeerd 
+Helling t.o.v. horizontaal 
+Maand 
+90° 
+75° 
+60° 
+45° 
+30° 
+15° 
+0° 
+105° 120° 135° 150° 165° 180° 
+Januari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,95 
+0,55 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Februari 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,78 
+0,58 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Maart 
+1,00 
+1,00 
+1,00 
+1,00 
+0,82 
+0,61 
+0,49 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+April 
+0,97 
+0,96 
+0,94 
+0,82 
+0,56 
+0,43 
+0,36 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+1,00 
+Mei 
+0,91 
+0,88 
+0,80 
+0,58 
+0,46 
+0,39 
+0,34 
+0,93 
+0,95 
+0,97 
+0,98 
+1,00 
+1,00 
+Juni 
+0,84 
+0,80 
+0,69 
+0,53 
+0,45 
+0,40 
+0,37 
+0,88 
+0,92 
+0,95 
+0,97 
+0,99 
+1,00 
+Juli 
+0,89 
+0,85 
+0,76 
+0,59 
+0,50 
+0,44 
+0,41 
+0,91 
+0,94 
+0,96 
+0,98 
+1,00 
+1,00 
+Augustus 
+0,96 
+0,94 
+0,90 
+0,70 
+0,52 
+0,43 
+0,37 
+0,97 
+0,98 
+0,99 
+0,99 
+1,00 
+1,00 
+September 
+1,00 
+0,99 
+0,99 
+0,96 
+0,72 
+0,53 
+0,43 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+Oktober 
+1,00 
+1,00 
+1,00 
+1,00 
+0,96 
+0,66 
+0,48 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+November 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,86 
+0,56 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+December 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+0,60 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+1,00 
+17.3.8 Uitgebreide methode ten aanzien van beschaduwing 
+De uitgebreide methode kan worden gebruikt als alternatief voor de eenvoudige methode uit 17.3.2, 
+bijv. indien de eenvoudige methode te conservatief wordt geacht.  
+Het principe van de bepaling van de beschaduwingsreductiefactoren voor de verrekening van het 
+effect van beschaduwing door belemmeringen en/of overstekken is als volgt. 
+a) Bepaal voor ieder uur van de beschouwde periode het volgende. 
+ 
+1) Bepaal volgens NEN 5060 voor een onbelemmerd vlak met gegeven helling en oriëntatie gelijk 
+aan de helling en oriëntatie van het zonontvangende vlak: 
+— de zonnestand (zonshoogte en zonsazimut); 
+— de totale sterkte van de zonnestraling; 
+— het gedeelte van de zonnestraling dat uit de richting van de zon komt. Dit is de component 
+‘directe zonnestraling’ plus de component ‘circumsolaire zonnestraling’.  
+2) Bepaal of zich tussen het midden van het zonontvangende vlak en de zon een belemmering en/of 
+overstek bevindt. 
+746
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 747 ---
+Withdrawn final
+Ingetrokken definitief
+3) Indien zich tussen het midden van het zonontvangende vlak en de zon een belemmering en/of 
+overstek bevindt (zie 2), dan geldt voor het desbetreffende uur:  
+— de bijdrage aan de hoeveelheid zonnestraling ‘berekend’ is de totale sterkte van de 
+zonnestraling minus het gedeelte van de sterkte van de zonnestraling dat uit de richting van de 
+zon komt (zie 1); 
+— de bijdrage aan de hoeveelheid zonnestraling ‘onbelemmerd’ is de totale sterkte van de 
+zonnestraling. 
+Indien zich tussen het midden van het zonontvangende vlak en de zon geen belemmering en geen 
+overstek bevindt (zie 2)), dan geldt voor het desbetreffende uur:  
+— de bijdrage aan de hoeveelheid zonnestraling ‘berekend’ is de totale sterkte van de 
+zonnestraling;  
+— de bijdrage aan de hoeveelheid zonnestraling ‘onbelemmerd’ is de totale sterkte van de 
+zonnestraling. 
+b) Bepaal de beschaduwingsreductiefactor, Fsh;obst;mi,, voor iedere maand door de som van de 
+bijdragen aan de hoeveelheid zonnestraling ‘berekend’ over alle uren in elke maand te delen door 
+de som van de bijdragen aan de hoeveelheid zonnestraling ‘onbelemmerd’ over alle uren in de 
+bijbehorende maand.  
+Bij de bepaling van de beschaduwing van daglichtopeningen voor verwarming moet worden uitgegaan 
+van belemmeringen met een minimale hoogte hb van ten minste 0,36 m (belemmeringshoek b = 20). 
+OPMERKING 1 
+Dit uitgangspunt is toegevoegd omdat belemmeringen buiten het eigen perceel niet 
+individueel in beschouwing worden genomen (zie 17.3.1, opmerking 9), maar hiermee op een uniforme manier 
+als een gemiddelde belemmering buiten het eigen perceel wordt meegenomen.  
+OPMERKING 2 
+In 17.3.8 worden onder belemmeringen alle obstakels verstaan gezien vanaf de grond, en 
+worden onder overstekken alle obstakels verstaan gezien vanuit de hemel. Zijbelemmeringen vallen dus bijv. 
+onder belemmeringen.  
+OPMERKING 3 
+In werkelijkheid kan de hoeveelheid zonnestraling die het beschaduwde vlak bereikt vanuit 
+een andere richting dan van de zon zowel meer als minder zijn ten opzichte van de onbelemmerde situatie. Bijv.: 
+een belemmering bestaand uit een wit gebouw in het zichtveld van een daglichtopening op een noordoriëntatie 
+leidt tijdens zonnige uren tot meer zonnestraling op deze daglichtopening dan bij afwezigheid van die 
+belemmering. Om die reden is bij de bepaling van de beschaduwingsreductiefactoren als uitgangspunt gekozen 
+dat de belemmering en/of het overstek de directe zonnestraling van de zon en de diffuse straling uit de nabijheid 
+van de zon (circumsolaire zonnestraling) geheel afschermt, maar de homogeen diffuse straling, de straling uit de 
+omgeving van de horizon en de door de grond gereflecteerde straling, ongemoeid laat. 
+747
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 748 ---
+Withdrawn final
+Ingetrokken definitief
+Bijlage A 
+(normatief) 
+ 
+Dynamische transparante gebouwelementen 
+A.1 Algemeen 
+Deze bijlage geeft de procedures voor de energieberekeningen voor dynamische transparante 
+gebouwelementen.  
+Dynamische transparante gebouwelementen zijn elementen met thermische en/of zonwerende en/of 
+visuele eigenschappen die veranderen afhankelijk van de randvoorwaarden. Dit kan een passieve 
+verandering zijn of het gevolg van een actieve regeling.  
+OPMERKING  
+Voorbeelden worden gegeven in figuur A.1. 
+ 
+ 
+ 
+1
+2
+748
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 749 ---
+Withdrawn final
+Ingetrokken definitief
+Legenda 
+1 voorbeeld van een gevelelement met beweegbare zonwering en ventilatie 
+2 voorbeeld van schakelbare beglazing  
+3 voorbeeld van een thermisch geïsoleerd luik  
+4 voorbeeld van een raam met ingebouwd zonnepaneel (pv) 
+Figuur A.1 — Voorbeelden van dynamische transparante elementen 
+Waar daglichtdoorlating een rol speelt, is de visuele transmissie (in de vorm van de 
+lichttoetredingsfactor) een input voor licht en lichtsystemen volgens hoofdstuk 14. 
+Waar ventilatie door de dynamische gebouwelementen een rol speelt, heeft de desbetreffende 
+aanvoer- of afvoerluchtstroom een relatie met ventilatie volgens hoofdstuk 11. De desbetreffende 
+aanvullende warmtetoevoer of -afvoer door luchtcirculatie of ventilatie via het dynamische 
+gebouwelement wordt meegenomen bij de effectieve U-waarde en g-waarde, volgens hoofdstuk 7, 
+zoals hieronder bepaald. 
+A.2 Raam met beweegbare luiken of zonwering 
+Volgens de principes van gebouwautomatisering en -regeling zoals beschreven in o.a. EN 15323-1, zijn 
+de volgende doelstellingen te onderscheiden voor de regeling van beweegbare luiken en zonwering: 
+— doelstelling van regeling luiken: thermische isolatie en/of inbraakbescherming; 
+— doelstelling van regeling zonwering: zonwering voor het voorkomen van oververhitting en 
+verblinding. 
+3
+4
+749
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
+
+--- Pagina 750 ---
+Withdrawn final
+Ingetrokken definitief
+Voor beweegbare luiken en zonwering zijn vier regelmethoden te onderscheiden: 
+0. handmatig: energiebesparing en comfort afhankelijk van gebruikersgedrag;
+1. gemotoriseerd met handbediening: meestal gebruikt voor makkelijke handmatige bediening (door
+motor ondersteund), energiebesparing en comfort afhankelijk van gebruikersgedrag;
+2. gemotoriseerd met automatische regeling: automatische regeling om energiegebruik te
+minimaliseren;
+3. gecombineerde regeling voor licht/zonwering/HVAC: om energiegebruik voor HVAC, zonwering en
+licht te minimaliseren in bezette en onbezette ruimten.
+Afhankelijk van de regelmethode (regelmethode 0 tot 3 hierboven), wordt in de berekeningen 
+uitgegaan van een gebruik afhankelijk van de klimaatfactoren, gebruiksvoorwaarden en een 
+aangenomen (standaard) gebruikersgedrag. De gebruiksprofielen worden gespecificeerd voor elke 
+ruimtecategorie in NEN-EN 15232-1:2017.  
+Luiken zijn met name ’s nachts in gebruik wanneer er geen behoefte is aan daglicht en uitzicht door de 
+ramen. Typische randvoorwaarden voor toepassing van luiken in dit document zijn als volgt:  
+— tijd van zonsopkomst en zonsondergang; 
+— bezettingsperiode; 
+— buitentemperatuur. 
+Het gebruik van zonwering is met name in perioden met een hoge zonnestralingsintensiteit. Typische 
+randvoorwaarden voor toepassing van zonwering in dit document zijn als volgt:  
+— seizoen; 
+— bezettingsperiode; 
+— binnentemperatuur; 
+— intensiteit van zonnestraling op het transparante element. 
+In het geval van regelmethode 3 worden de randvoorwaarden voor toepassing complexer. 
+A.3 Effect op energie-, warmtelast- of temperatuurberekening 
+ Algemeen 
+Voor de maandelijkse berekeningsmethode kunnen de gebruiksstanden niet direct worden afgeleid 
+van de randvoorwaarden, behalve als de variatie van eigenschappen is bepaald op maandbasis of 
+seizoensgebonden.  
+Methode A: 
+Stap 1: 
+Als de relevante randvoorwaarden van het transparante element vooraf bekend zijn, zoals de 
+bezetting, buitentemperatuur of zonnestralingsintensiteit en lichtsterkte daglicht, dan wordt een 
+eerste-orde-benadering toegepast. In dit geval wordt voor de buitentemperatuur of voor de 
+zonnestralingsintensiteit en lichtsterkte daglicht, het gewogen gemiddelde van de betreffende 
+eigenschap berekend. Dit wordt gedaan door alle tijdintervallen (uren) Δth van de maand bij elkaar op 
+te tellen:  
+750
+NTA 8800:2023
+Dit document is door NEN onder licentie verstrekt aan: / This document has been supplied under license by NEN to:
+rondema@hotmail.com 17-02-2024 22:14
